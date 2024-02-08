@@ -497,14 +497,18 @@
   id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 自 2008 年私人测试版推出以来，Evernote 的增长一直是逐渐、稳定且完全有机的。在 Evernote 从封闭测试版中走出来之前，该产品已经拥有超过
+    125,000 用户，部分归功于 TechCrunch 上的一篇文章，为其带来了数千个注册。
 - en: '![Evernote User Growth 2011](../Images/8ceb03f433f51f0d172c2c6fd8912af2.png)'
   id: totrans-61
   prefs: []
   type: TYPE_IMG
+  zh: '![2011 年 Evernote 用户增长](../Images/8ceb03f433f51f0d172c2c6fd8912af2.png)'
 - en: '[Source: SlideShare](https://www.slideshare.net/nasakin/evernote-overview-sept-2011)'
   id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：SlideShare](https://www.slideshare.net/nasakin/evernote-overview-sept-2011)'
 - en: During the closed beta, Evernote was invite-only. However, while many products
     use invites as a marketing strategy to capitalize on exclusivity of access, Evernote
     did so out of an abundance of caution. Between the technical overhead of synchronizing
@@ -514,6 +518,8 @@
   id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 在封闭测试期间，Evernote 仅限邀请。然而，虽然许多产品使用邀请作为一种营销策略，以利用独家访问的独特性，但 Evernote 这样做是出于极度谨慎。在同步多个平台上的本地应用程序并实时工作与新类型的后端服务器架构之间存在技术开销时，Libin
+    的工程师们更关心他们系统的稳定性，而不是制造炒作。
 - en: '*“The fact that you have to sign up and send around invites to get in actually
     generated some buzz. That was never our intention; we never thought of the closed
     beta as a marketing exercise. We were frankly terrified that everything would
@@ -522,6 +528,9 @@
   id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“你必须注册并发送邀请才能进入，这实际上引起了一些轰动。这从来不是我们的意图；我们从未将封闭测试版视为一种营销活动。我们实际上非常害怕一切都会一直崩溃。”
+    — [Phil Libin](http://www.doeswhat.com/2012/02/25/interview-with-phil-libin-evernote)，前
+    Evernote CEO*'
 - en: Evernote’s freemium model may have been a dislike for investors, but Libin’s
     instincts about slow-burn, long-term growth had been proven right. In early 2011,
     just three years after launching, Evernote became profitable. Evernote had 80
@@ -529,6 +538,8 @@
   id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote 的免费模式可能不受投资者喜欢，但 Libin 对于缓慢但长期增长的直觉已被证明是正确的。2011 年初，仅仅三年后，Evernote
+    实现了盈利。Evernote 有 80 名员工，超过 1000 万用户，年销售额约为 1600 万美元。
 - en: Having been dangerously close to the brink of disaster, Evernote had emerged
     from the global financial crisis not only unscathed, but flush with VC cash. The
     company had achieved profitability in just three years, and the future looked
@@ -537,11 +548,14 @@
   id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote 在全球金融危机的边缘危险地接近崩溃，但最终不仅幸免于难，还获得了风险投资的资金。该公司在短短三年内实现了盈利，并且 Evernote
+    的未来看起来一片光明——直到公司在 2011 年开始迷失方向，一系列失败的产品推出危及了公司所建立的一切。
 - en: '2011-2015: New Products, New Markets, New Problems'
   id: totrans-67
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2011-2015 年：新产品、新市场、新问题
 - en: Evernote began the period from 2011 to 2015 in an incredibly strong position.
     Evernote was already profitable and had more money in the bank than it knew what
     to do with. The company was growing steadily, hiring new talent and expanding
@@ -553,6 +567,7 @@
   id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote 从 2011 年到 2015 年的这一时期处于非常强劲的位置。Evernote 已经盈利，并且手头的资金比它知道如何使用的还要多。该公司稳步增长，招聘新人才并扩展到新地点。最重要的是，该产品每个月吸引了超过一百万新用户。然而，蜜月期并没有持续下去。为了多元化收入来源，公司进行了一系列灾难性的产品推出，使用户和投资者都感到困惑——所有这些都使公司越来越远离其创始人的核心愿景。
 - en: 'In the summer of 2011, Evernote released the first of three standalone products
     it would launch over the next six months: Evernote Peek. The first Smart Cover
     app for Apple’s newly released iPad 2, Peek was a simple trivia application that
@@ -565,6 +580,9 @@
   id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: 2011 年夏天，Evernote 推出了在接下来的六个月内将推出的三款独立产品之一：Evernote Peek。Peek 是苹果新发布的 iPad 2
+    的第一个智能保护套应用，是一个简单的问答应用，利用了 iPad 的智能保护套功能。用户可以抬起 iPad 的一部分智能保护套来看屏幕上的一个问答题。要揭示答案，他们只需抬起剩下的部分保护套。用户可以使用
+    Peek 的问题或他们自己的答案作为主要 Evernote 应用内笔记本的基础，但 Peek 除了短暂的分心外，为用户提供了很少的实用性。
 - en: 'A few months later in December 2011, Evernote released two more standalone
     apps for iOS: Evernote Food and Evernote Hello. Essentially a simplified, specialized
     version of the main Evernote app, Evernote Food allowed users to record and log
@@ -899,6 +917,7 @@
   id: totrans-116
   prefs: []
   type: TYPE_NORMAL
+  zh: 2015年，印象笔记不仅改变了其定价结构，还改变了公司的领导层。2015年7月，李斌宣布他将辞去印象笔记的CEO职务，将掌舵交给前谷歌眼镜高管克里斯·奥尼尔作为他的继任者。
 - en: The disastrous launch of Evernote Market, the instability and bugginess of the
     product, the lack of a clear direction for the company—they had all taken their
     toll on Evernote as a company, and Libin as Chief Executive in particular. Apparently
@@ -909,6 +928,7 @@
   id: totrans-117
   prefs: []
   type: TYPE_NORMAL
+  zh: 印象笔记市场的灾难性推出，产品的不稳定性和bug，公司缺乏明确的方向——这些都对印象笔记公司和首席执行官李斌产生了影响。显然，受到印象笔记未能利用早期成功的打击，据报道，李斌对公司的商业方面表现出很少兴趣。他在关于奥尼尔任命的公告中自称“不热情”，这是一个坦率而令人惊讶的承认。
 - en: '*“Attracting and retaining talent is a core responsibility of the CEO, and
     if Libin is seriously disinterested in the latter, he should have departed long
     ago. I can’t imagine the feeling of being an Evernote employee who hears your
@@ -918,12 +938,15 @@
   id: totrans-118
   prefs: []
   type: TYPE_NORMAL
+  zh: 吸引和留住人才是CEO的核心责任，如果李斌对后者真的不感兴趣，他早就应该离开了。我无法想象作为一个印象笔记员工听到你的长期CEO（仍然是执行主席）公开承认对你的未来毫不在乎的感觉。—
+    [Josh Dickson](https://www.businessinsider.com/evernote-the-first-dead-unicorn-2015-9)，Syrah创始人
 - en: Libin wasn’t the only one who saw the writing on the wall. As news of O’Neill’s
     position as Evernote’s new CEO spread, many people expressed doubts about O’Neill’s
     suitability and experience––not to mention the product’s ongoing identity crisis.
   id: totrans-119
   prefs: []
   type: TYPE_NORMAL
+  zh: 李斌并不是唯一看到墙上字迹的人。随着奥尼尔被任命为印象笔记新CEO的消息传开，许多人对奥尼尔的适任性和经验表示怀疑——更不用说产品持续的身份危机了。
 - en: Libin’s failure to hire a COO until June 2015, when the company [promoted Linda
     Kozlowski](http://fortune.com/2015/06/01/evernote-has-a-new-coo-linda-kozlowski/)
     from VP of Worldwide Operations, was seen as yet another symptom of the company’s
@@ -931,10 +954,12 @@
   id: totrans-120
   prefs: []
   type: TYPE_NORMAL
+  zh: 李斌直到2015年6月才任命首席运营官，当公司[提拔琳达·科兹洛夫斯基](http://fortune.com/2015/06/01/evernote-has-a-new-coo-linda-kozlowski/)从全球运营副总裁晋升时，被视为公司领导问题的又一个症状。
 - en: '![Evernote CEO](../Images/4c02727418e1d8fe7fe1109d8176905d.png)'
   id: totrans-121
   prefs: []
   type: TYPE_IMG
+  zh: '![印象笔记CEO](../Images/4c02727418e1d8fe7fe1109d8176905d.png)'
 - en: From 2011 to 2015, it seemed as though Evernote took two steps backward with
     each step forward. The company had continued to invest in the development of new
     products, but none of these products expanded or built upon Evernote’s core functionality
@@ -944,11 +969,13 @@
   id: totrans-122
   prefs: []
   type: TYPE_NORMAL
+  zh: 从2011年到2015年，似乎印象笔记每向前迈进一步就后退两步。公司继续投资于新产品的开发，但这些产品中没有一个扩展或建立在印象笔记核心功能或目的之上。随着每一个新的实验和失败的产品，印象笔记越来越远离帕奇科夫的愿景——这是印象笔记从未真正恢复过来的身份危机。
 - en: '2015-Present: Returning to Evernote’s Roots'
   id: totrans-123
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2015年至今：回归印象笔记的根源
 - en: 'For Evernote, the period from 2015 until the present day can be summed up in
     four short words: too little, too late. Evernote’s various failed experiments
     to diversify its products and revenue streams hadn’t just wasted millions of dollars—it
@@ -960,6 +987,7 @@
   id: totrans-124
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于印象笔记来说，从2015年至今的时期可以用四个简短的词来概括：为时已晚。印象笔记为了多样化其产品和收入来源而进行的各种失败实验不仅浪费了数百万美元，还浪费了公司本来就没有的宝贵时间。远离印象笔记产品的核心价值主张是一个巨大的错误。唯一能拯救印象笔记的是回归产品的根本。对于奥尼尔来说，这意味着回到帕奇科夫对印象笔记作为人类思维延伸的最初愿景。不幸的是，公司从未做到。
 - en: One of O’Neill’s first tasks as CEO was to get Evernote’s house in order. This
     began with the prompt closure of Evernote Food in August 2015\. Evernote Food
     had been relatively popular, but ultimately, it wasn’t worth the time and resources
@@ -968,14 +996,17 @@
   id: totrans-125
   prefs: []
   type: TYPE_NORMAL
+  zh: 奥尼尔作为CEO的首要任务之一是整顿印象笔记。这始于2015年8月迅速关闭印象笔记美食。印象笔记美食曾相当受欢迎，但最终，维护它所需的时间和资源不值得——尤其是考虑到主要的印象笔记应用程序已经几乎可以做到印象笔记美食所能做的一切。
 - en: '![Evernote Food](../Images/32ecdb1476995c8796e5e47f43e4df3d.png)'
   id: totrans-126
   prefs: []
   type: TYPE_IMG
+  zh: '![印象笔记美食](../Images/32ecdb1476995c8796e5e47f43e4df3d.png)'
 - en: '[Source: Evernote Forums](https://discussion.evernote.com/topic/87854-ending-support-for-evernote-food-apps-ios-and-android/)'
   id: totrans-127
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：印象笔记论坛](https://discussion.evernote.com/topic/87854-ending-support-for-evernote-food-apps-ios-and-android/)'
 - en: Around six months later, the company announced it was also closing the Evernote
     Market. According to Evernote, the company had sold approximately $12M worth of
     [branded goods](https://techcrunch.com/2014/10/02/evernote-market-has-sold-12m-in-products-since-launch/)
@@ -986,6 +1017,7 @@
   id: totrans-128
   prefs: []
   type: TYPE_NORMAL
+  zh: 大约六个月后，公司宣布也将关闭印象笔记市场。据印象笔记称，公司通过印象笔记市场销售了约1200万美元的[品牌商品](https://techcrunch.com/2014/10/02/evernote-market-has-sold-12m-in-products-since-launch/)。即使销售额更高，印象笔记市场也给印象笔记品牌造成了相当大的损害。关闭它既是早就应该做的，也是迫切需要的，如果公司要重新赢回用户和投资者的信任。
 - en: A little more than two months after Evernote shuttered its Market, the company
     lost the first of many executives it would lose over the coming years. Dave Engberg,
     the company’s founding CTO, left the organization after almost nine years. Like
@@ -1096,6 +1128,8 @@
   id: totrans-141
   prefs: []
   type: TYPE_NORMAL
+  zh: 当时，Evernote大约有[3.5PB](http://fortune.com/2016/09/13/evernote-google-cloud/)，即350万GB，的数据，分布在其2亿用户中。Evernote本可以选择使用亚马逊网络服务或微软的Azure基础设施来托管其数据。据报道，由于谷歌的机器学习技术的潜在应用，该公司选择了谷歌作为其云服务提供商。尽管迁移涉及成本和大量工作，但这个决定可以被视为Evernote朝着Stepan
+    Pachikov多年前设想的公司迈出的又一小步。长期以来，有传言称Evernote正在开发语音识别和翻译功能，以使信息捕捉变得更加容易。这使得[谷歌的云机器学习引擎](https://cloud.google.com/customers/evernote/)成为智能、响应迅速的功能，如语音识别的理想选择。
 - en: Data security had been a thorny problem at Evernote for some time. Roughly 50
     million user accounts were compromised following a [security breach](https://nakedsecurity.sophos.com/2013/03/02/evernote-hacked-almost-50-million-passwords-reset-after-security-breach/)
     in 2013, and Evernote’s decision to migrate its data infrastructure to Google
@@ -1106,6 +1140,7 @@
   id: totrans-142
   prefs: []
   type: TYPE_NORMAL
+  zh: 数据安全问题在Evernote已经存在一段时间。2013年发生[安全漏洞](https://nakedsecurity.sophos.com/2013/03/02/evernote-hacked-almost-50-million-passwords-reset-after-security-breach/)后，大约5000万用户账户遭到破坏，Evernote决定将其数据基础设施迁移到谷歌云被视为一家拥有如此多数据和用户的公司的明智之举。然而，当TechCrunch报道该公司的[新隐私政策](https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/)允许Evernote员工阅读用户的私人笔记时，公司又遭受了另一次公关危机。
 - en: '*“The latest update to the Privacy Policy allows some Evernote employees to
     exercise oversight of machine learning technologies applied to account content.
     While our computer systems do a pretty good job, sometimes a limited amount of
@@ -1114,6 +1149,7 @@
   id: totrans-143
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“隐私政策的最新更新允许一些Evernote员工监督应用于账户内容的机器学习技术。虽然我们的计算机系统做得相当不错，但有时为了确保一切都按照应有的方式运行，少量人工审查是不可避免的。”*'
 - en: The policy was framed as a way for Evernote to ensure the accuracy of its machine-learning
     technologies. What users took exception to was how the policy was structured.
     Despite the company’s attempts to backtrack later, the original update to Evernote’s
@@ -1122,16 +1158,19 @@
   id: totrans-144
   prefs: []
   type: TYPE_NORMAL
+  zh: 该政策被构建为Evernote确保其机器学习技术准确性的一种方式。用户对政策的结构提出异议。尽管公司后来试图收回，但Evernote隐私政策的最初更新明确指出，用户无法选择不让Evernote员工查看他们的笔记。
 - en: '![Evernote privacy policy](../Images/46469f134232551476022e5bba5a3c22.png)'
   id: totrans-145
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote隐私政策](../Images/46469f134232551476022e5bba5a3c22.png)'
 - en: The backlash was powerful and immediate. Many users took to Twitter to point
     out the intrusive nature of the policy, and many agreed that the company’s response
     had been [tepid and frustratingly vague](https://mashable.com/2016/12/16/evernote-privacy-reversal/).
   id: totrans-146
   prefs: []
   type: TYPE_NORMAL
+  zh: 反对声浪强大且立即出现。许多用户在Twitter上指出了政策的侵入性，许多人认为公司的回应[温和且令人沮丧地模糊不清](https://mashable.com/2016/12/16/evernote-privacy-reversal/)。
 - en: In February 2017, O’Neill confirmed that after several difficult years, [Evernote
     was cash-flow positive](https://evernote.com/blog/turning-an-elephant/). This
     might not have been as warmly welcomed as an announcement that the company was
@@ -1139,6 +1178,7 @@
   id: totrans-147
   prefs: []
   type: TYPE_NORMAL
+  zh: 2017年2月，奥尼尔确认，在经历了几个困难的年份后，[Evernote实现了现金流的正值](https://evernote.com/blog/turning-an-elephant/)。这可能没有像公司再次盈利的公告那样受到热烈欢迎，但对这家备受困扰的公司来说，这是一步重要的步骤。
 - en: Evernote kept a relatively low profile following the machine-learning privacy
     debacle. A year or so later, in February 2018, Evernote took another important
     step forward with the launch of Evernote Spaces, the company’s first truly collaborative
@@ -1146,12 +1186,15 @@
   id: totrans-148
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote在机器学习隐私风波后保持了相对低调。大约一年后，2018年2月，Evernote通过推出Evernote Spaces迈出了另一个重要的步伐，这是公司第一个真正的协作团队产品。
 - en: Spaces’ biggest problem wasn’t the product itself––it was the fact that Spaces
     was released about six years too late. Evernote should have developed Spaces back
     in 2012, rather than wasting time, money, and brand equity with Evernote Market.
   id: totrans-149
   prefs: []
   type: TYPE_NORMAL
+  zh: Spaces最大的问题不是产品本身，而是Spaces发布得太晚了大约六年。Evernote应该在2012年就开发Spaces，而不是浪费时间、金钱和品牌资产在Evernote
+    Market上。
 - en: By the time Spaces was released, the team-based productivity market was already
     saturated with far superior products, including Slack for real-time communication,
     Box and Google Drive for online storage, and G Suite for personal and team-based
@@ -1159,6 +1202,8 @@
   id: totrans-150
   prefs: []
   type: TYPE_NORMAL
+  zh: Spaces发布时，基于团队的生产力市场已经饱和，包括Slack用于实时通信，Box和Google Drive用于在线存储，以及G Suite用于个人和团队协作。根本没有必要推出Evernote
+    Spaces。
 - en: Even more ironic was the rationale behind the development of Spaces. In an interview,
     O’Neill claimed that [70% of Evernote users](https://www.forbes.com/sites/alexkonrad/2018/02/27/evernote-launches-spaces-in-business-push/)
     were using the product in their personal lives and at work. Had Evernote developed
