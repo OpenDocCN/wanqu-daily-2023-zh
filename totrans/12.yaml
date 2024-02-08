@@ -218,6 +218,7 @@
   id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: EverNote和Ribbon在形式和功能上非常相似。然而，Pachikov在Libin准备开始开发自己公司技术时，已经在EverNote上取得了重大进展。Libin从波士顿前往硅谷与Pachikov会面，两人决定将他们的两家新兴公司合并，而不是互相竞争。
 - en: Both Pachikov and Libin were dissatisfied with the limitations of the human
     mind. However, while both men were idealistic, even philosophic, about their idea,
     Libin possessed the keen eye for business that Pachikov lacked––a quality that
@@ -225,6 +226,7 @@
   id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: Pachikov和Libin都对人类思维的局限性感到不满。然而，虽然两人对他们的想法都充满理想主义，甚至哲学意味，但Libin具有Pachikov所缺乏的商业眼光——这是Pachikov认为使Libin成为理想合作伙伴的品质。
 - en: '*“[Phil Libin] was smart, educated, and I was completely confident that he
     would be a much better CEO than I was. His Russian is better than my English.
     I believed he would transform the company and make it successful.” — Stepan Pachikov,
@@ -232,6 +234,8 @@
   id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“[Phil Libin]聪明、受过教育，我完全相信他会比我更好地担任CEO。他的俄语比我的英语好。我相信他会改变公司并使其成功。” — Evernote创始人Stepan
+    Pachikov*'
 - en: 'Upon the merging of the two companies, Libin set to work. One of Libin’s first
     tasks was to streamline the various internal projects that Pachikov and his team
     had been working on, and he insisted that the company focus the entirety of its
@@ -240,11 +244,13 @@
   id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 在两家公司合并后，Libin开始着手工作。Libin的第一个任务之一是简化Pachikov及其团队一直在进行的各种内部项目，并坚持让公司将所有努力集中在完善产品背后的理念上：赋予用户捕捉、搜索和存储任何信息的能力，无论他们身在何处。
 - en: However, Libin’s most significant contribution to the growing company came very
     early on, when Libin steered Evernote away from Windows towards a bold new frontier––mobile.
   id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，Libin对这家不断发展的公司最重要的贡献是在很早的时候，他将Evernote从Windows转向了一个全新的领域——移动设备。
 - en: The central premise behind Evernote was accessibility. If Evernote was to help
     people remember everything, then users had to be able to capture everything. That
     meant mobile. However, in 2006, mobile was far from the dominant platform it is
@@ -254,6 +260,7 @@
   id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote的核心前提是可访问性。如果Evernote要帮助人们记住一切，那么用户必须能够捕捉一切。这意味着移动设备。然而，在2006年，移动设备远未成为今天的主导平台。苹果的旗舰iPhone要再过一年才会发布，而根据[Libin自己的承认](https://mashable.com/2011/08/11/evernote-phil-libin-interview/)，在移动设备上大胆投资正是一场赌博。
 - en: '*“From the start, we made a big promise to our users—we would help them remember
     everything. In order to live up to that, Evernote would need to be easily accessible
     from every computer, phone or other device that a person used, for the rest of
@@ -263,6 +270,8 @@
   id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“从一开始，我们向用户做出了一个重大承诺——我们将帮助他们记住一切。为了实现这一目标，Evernote需要能够轻松访问每台计算机、手机或其他设备，以及一个人使用的设备，直到他们的生命结束。因此，我们并不是预测了移动设备的崛起，而是觉得移动设备对我们的成功至关重要。”
+    — Evernote前CEO Phil Libin*'
 - en: That gamble paid off. When the iPhone launched in 2007, Evernote was ready.
     The product looked and felt completely different from its earlier incarnation.
     Evernote’s aesthetic was sleek, clean, and stylish, and it felt fantastic to use
@@ -270,14 +279,17 @@
   id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 这场赌注成功了。当iPhone在2007年推出时，Evernote已经准备就绪。该产品在外观和感觉上与早期版本完全不同。Evernote的美学是时尚、干净和时尚的，使用起来感觉非常棒。
 - en: '![Evernote 2008](../Images/a6a36b82b594b9fa44c3001dbfe5bb87.png)'
   id: totrans-37
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote 2008](../Images/a6a36b82b594b9fa44c3001dbfe5bb87.png)'
 - en: '[Source: Archive.org](https://web.archive.org/web/20081201043203/http://www.evernote.com/)'
   id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：Archive.org](https://web.archive.org/web/20081201043203/http://www.evernote.com/)'
 - en: However, what drove much of Evernote’s initial adoption wasn’t the aesthetic
     of its mobile app––it was the emergence of the App Store. Just as smartphone apps
     were a brand-new way of using software, app marketplaces were brand-new, ready-made
@@ -288,20 +300,24 @@
   id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，驱动Evernote初期采用的主要不是其移动应用的美学，而是应用商店的出现。正如智能手机应用是一种全新的软件使用方式，应用市场也是全新的、现成的分发渠道，为开发人员提供了立即接触数百万潜在用户的机会。Evernote的工程师们不知疲倦地努力确保Evernote在每个新的应用市场推出时都能使用，每一个应用市场的推出都大大扩展了Evernote的影响范围。
 - en: Libin’s singular focus drove much of Evernote’s initial development. In 2008,
     Evernote launched in a limited private beta that was aimed squarely at the cult
     of productivity that had taken root across Silicon Valley.
   id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: Libin的独特关注驱动了Evernote的初期发展。2008年，Evernote推出了一个面向硅谷生产力狂热者的有限私人测试版。
 - en: '![Evernote Notebooks](../Images/5573348028ebd091f307cfa002f53e2b.png)'
   id: totrans-41
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote笔记本](../Images/5573348028ebd091f307cfa002f53e2b.png)'
 - en: '[Source: Keyword Suggest](http://keywordsuggest.org/gallery/431092.html)'
   id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：Keyword Suggest](http://keywordsuggest.org/gallery/431092.html)'
 - en: Libin’s vision for Evernote was a seamless experience that successfully bridged
     the gap between the physical and digital worlds. To accomplish this, Evernote
     treated every piece of information—from actual handwritten notes to saved URLs—as
@@ -978,6 +994,7 @@
   id: totrans-129
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Evernote关闭其市场仅两个多月后，该公司失去了首位在接下来的几年内将失去的许多高管之一。该公司的创始CTO Dave Engberg在将近九年后离开了组织。与同一时间离开公司的许多其他Evernote高管一样，Engberg的离职是低调的。
 - en: Shortly after Engberg’s exit, Evernote introduced sweeping changes to the product’s
     pricing. First, serious restrictions were introduced to Evernote’s free plans.
     Free users were limited to synching their Evernote data across just two devices.
@@ -986,10 +1003,12 @@
   id: totrans-130
   prefs: []
   type: TYPE_NORMAL
+  zh: Engberg离职后不久，Evernote对产品定价进行了全面调整。首先，Evernote的免费计划引入了严格的限制。免费用户只能在两台设备上同步他们的Evernote数据。其次，Evernote将其Plus和Premium套餐的价格分别提高到每年34.99美元和69.99美元，涨幅约为40%。
 - en: '![Evernote pricing increase](../Images/e869908ced7a564826e08faf666ec7eb.png)'
   id: totrans-131
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote价格上涨](../Images/e869908ced7a564826e08faf666ec7eb.png)'
 - en: One of the biggest and most unpopular changes to Evernote, however, wasn’t its
     new pricing. It was the 60MB upload limit applied to Evernote’s free plans. For
     customers who used Evernote to upload primarily text-based notes, the new restriction
@@ -997,11 +1016,13 @@
   id: totrans-132
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，对于Evernote最大且最不受欢迎的变化之一并不是其新的定价。而是应用于Evernote免费计划的60MB上传限制。对于主要使用Evernote上传基于文本的笔记的客户来说，新的限制可能感觉不那么惩罚性。
 - en: For users who relied on Evernote to save images and other media files, however,
     the new upload cap was brutal.
   id: totrans-133
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，对于依赖Evernote保存图片和其他媒体文件的用户来说，新的上传限制是残酷的。
 - en: '*“Our goal is to continue improving Evernote for the long term, investing in
     our core products to make them more powerful and intuitive while also delivering
     often-requested new features. But that requires a significant investment of energy,
@@ -1010,6 +1031,8 @@
   id: totrans-134
   prefs: []
   type: TYPE_NORMAL
+  zh: “我们的目标是持续改进Evernote，投资于我们的核心产品，使其更加强大和直观，同时提供用户经常要求的新功能。但这需要大量的精力、时间和金钱。” —
+    Evernote的CEO Chris O’Neill
 - en: For Evernote, the restructuring of its freemium product was both long overdue
     and urgently necessary. For Evernote’s users, however, it was a slap in the face.
     Not only had Evernote crippled its free version, severely limiting its utility
@@ -1018,6 +1041,7 @@
   id: totrans-135
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于Evernote来说，重组其免费产品早就是迫在眉睫且迫切需要的。然而，对于Evernote的用户来说，这是一个打脸。Evernote不仅削弱了其免费版本，严重限制了免费用户的实用性，而且还未能修复即使是付费版本中仍然存在的许多问题。
 - en: To be fair to Evernote, the company had little choice but to increase prices.
     Years of Evernote’s extremely permissible freemium product had spoiled users who
     had grown accustomed to making use of Evernote for free and had harmed the company’s
@@ -1028,6 +1052,7 @@
   id: totrans-136
   prefs: []
   type: TYPE_NORMAL
+  zh: 公平地说，Evernote公司别无选择，只能提高价格。多年来，Evernote极其宽松的免费产品让用户习惯了免费使用Evernote，并损害了公司的收入增长。公司应该逐渐在免费版本中引入限制激励措施，而不是从慷慨的免费产品过渡到相对昂贵的付费服务，以实现产品的盈利并与客户保持一致。
 - en: Pricing changes are some of the most impactful things a company can do. Evernote
     didn’t put enough thought into its pricing over the years, which is why their
     once loyal userbase wasted little time in criticizing them over the new pricing
@@ -1035,16 +1060,19 @@
   id: totrans-137
   prefs: []
   type: TYPE_NORMAL
+  zh: 定价变化是公司可以做的最有影响力的事情之一。多年来，Evernote没有对其定价进行足够的思考，这就是为什么他们曾经忠诚的用户群在新的定价计划上批评他们的原因。
 - en: '![Evernote pricing changes](../Images/0538a26badff8dd522d165d0373c94f9.png)'
   id: totrans-138
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote价格调整](../Images/0538a26badff8dd522d165d0373c94f9.png)'
 - en: The company’s primary competitors—Microsoft’s OneNote and Apple’s Notes—weren’t
     as fully featured as Evernote, but they offered a lot more functionality free
     of charge, making Evernote’s new pricing even less appealing.
   id: totrans-139
   prefs: []
   type: TYPE_NORMAL
+  zh: 公司的主要竞争对手——微软的OneNote和苹果的Notes——虽然没有Evernote功能那么全面，但他们提供了更多的免费功能，使Evernote的新定价变得更不吸引人。
 - en: The next major change to Evernote under O’Neill’s leadership came a few months
     after the product’s pricing restructure when the company announced it was migrating
     from Evernote’s own proprietary data infrastructure to Google Cloud. This was
@@ -1052,6 +1080,7 @@
   id: totrans-140
   prefs: []
   type: TYPE_NORMAL
+  zh: 在O’Neill领导下，Evernote的下一个重大变化是在产品定价重组几个月后宣布将从Evernote自己的专有数据基础设施迁移到谷歌云。这绝非易事。
 - en: At the time, Evernote had approximately [3.5 petabytes](http://fortune.com/2016/09/13/evernote-google-cloud/)––or
     3.5 million GB––of data on its [200 million users](https://www.statista.com/statistics/446885/number-of-evernote-users/).
     Evernote could have opted to use Amazon Web Services or Microsoft’s Azure infrastructure
@@ -1260,6 +1289,7 @@
   id: totrans-167
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管令人难过，但印象笔记的故事为希望推出类似雄心勃勃的产品的企业家提供了许多教训。我们可以从印象笔记中学到什么？
 - en: 1\. **Timing is everything even if it’s accidental.** By Phil Libin’s own admission,
     Evernote’s timing was crucial to the company’s success. Had Evernote’s development
     schedule been even six months off, it would have missed the huge growth driven
@@ -1269,10 +1299,12 @@
   id: totrans-168
   prefs: []
   type: TYPE_NORMAL
+  zh: 1. **时间是一切，即使是偶然的。**根据菲尔·利宾自己的承认，印象笔记的时机对公司的成功至关重要。如果印象笔记的开发进度晚了六个月，它将错过由于其作为2007年iPhone发布应用程序而带来的巨大增长。印象笔记的时机可能至少部分是偶然的，但它在公司的增长轨迹中发挥了巨大作用。
 - en: 'Consider your own product:'
   id: totrans-169
   prefs: []
   type: TYPE_NORMAL
+  zh: 考虑一下你自己的产品：
 - en: Let’s say you have a chance to travel back through time to one year before your
     product’s launch. What, if anything, would you have done differently? How could
     you capitalize upon external trends or developments to drive initial growth, as
@@ -1281,6 +1313,7 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 假设你有机会穿越时光，回到你的产品发布前一年。如果可以的话，你会做些什么不同？你如何利用外部趋势或发展来推动初期增长，就像印象笔记一样？
 - en: Would timing the release of your product have an impact on initial adoption?
     Put another way, is there anything you could do (or have done) to time your product’s
     launch to make a bigger impact?
@@ -1288,12 +1321,14 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 产品发布的时间对初期采用率有影响吗？换句话说，有没有什么你可以做（或已经做了）来控制产品的发布时间，以产生更大的影响？
 - en: What’s the “tailwind” at your back? Aside from your own hard work, what tailwinds
     will push your product forward?
   id: totrans-172
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你背后的“顺风”是什么？除了你自己的努力，还有哪些顺风将推动你的产品前进？
 - en: 2\. **Stay true to your convictions even in the face of overwhelming opposition.**
     Phil Libin was criticized for years for giving so much away in Evernote’s freemium
     product. Contrary to conventional wisdom, Libin was right to be so protective
@@ -1304,10 +1339,12 @@
   id: totrans-173
   prefs: []
   type: TYPE_NORMAL
+  zh: 2. **即使面对压倒性的反对，也要忠于自己的信念。**菲尔·利宾多年来因在印象笔记的免费产品中提供太多而受到批评。与常规智慧相反，利宾在保护印象笔记的免费版本方面是正确的。印象笔记是一个经典的——如果不是最经典的——免费产品，利宾坚持保持免费版本的功能是正确的，因为这推动了增长，并鼓励用户对印象笔记作为产品产生浓厚兴趣。
 - en: 'Think about your product’s journey thus far:'
   id: totrans-174
   prefs: []
   type: TYPE_NORMAL
+  zh: 迄今为止，考虑一下你的产品的发展历程：
 - en: Can you recall a time in which you compromised on a product or business decision
     that you later came to regret? If so, why did you give in? Did you or your product
     gain anything by doing so, and conversely, would you have gained anything if you
@@ -1316,6 +1353,7 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你是否记得曾在产品或业务决策上妥协，后来后悔了？如果是这样，为什么要妥协？通过这样做，你或你的产品获得了什么，反之，如果你抵制了那种压力，你会得到什么？
 - en: How well does your actual product align with your original vision for the product?
     Is it true to your vision, or have you lost sight of what your product should
     be?
@@ -1323,6 +1361,7 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你的实际产品与你最初对产品的愿景有多符合？它是否符合你的愿景，还是你已经迷失了产品应该是什么的方向？
 - en: Libin’s leadership was widely criticized over the years, but he did an excellent
     job of framing Evernote as a freemium company, especially when dealing with investors.
     How have you evangelized or advocated for the decisions you’ve made for your product?
@@ -1330,6 +1369,7 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 多年来，利宾的领导受到广泛批评，但他在将印象笔记定位为一个免费公司方面做得非常出色，尤其是在与投资者打交道时。你如何为你为产品所做的决定进行宣传或倡导？
 - en: 3\. **Pay close attention to broader trends even if they don’t affect you right
     now.** Evernote bet big—and won—on mobile. Evernote missed out on an immense opportunity
     by failing to respond to the ongoing evolution of consumer tech and opting to
@@ -1340,15 +1380,18 @@
   id: totrans-178
   prefs: []
   type: TYPE_NORMAL
+  zh: 3. **即使现在不影响你，也要密切关注更广泛的趋势。**印象笔记在移动领域押注并取得了成功。印象笔记错失了一个巨大的机会，未能对消费者技术的持续演变做出回应，并选择继续专注于印象笔记作为个人而非团队产品。这可以说为公司未来的失败铺平了道路，因为印象笔记无法及时纠正航向以抵御利用团队协作趋势的新兴竞争对手。
 - en: 'Consider your product and its place in the broader tech ecosystem:'
   id: totrans-179
   prefs: []
   type: TYPE_NORMAL
+  zh: 考虑你的产品及其在更广泛的技术生态系统中的位置：
 - en: What’s the single most important trend in tech facing your product and why?
   id: totrans-180
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 对于你的产品，技术面临的最重要趋势是什么，为什么？
 - en: Similarly, what broader technological development poses the greatest risk to
     your product? How have you mitigated this threat, and could your product move
     quickly enough in response?
@@ -1356,23 +1399,27 @@
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 同样，哪些更广泛的技术发展对你的产品构成最大风险？你如何减轻这种威胁，你的产品是否能够迅速做出反应？
 - en: How are you innovating on your original vision? Could you go after different
     segments of your primary market?
   id: totrans-182
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你如何在最初的愿景上进行创新？你是否可以针对主要市场的不同部分进行开发？
 - en: Elephants Never Forget
   id: totrans-183
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 大象永远不会忘记
 - en: They say that elephants never forget, and Silicon Valley is no different. Despite
     its potential and the boldness of vision of the company’s founder, Evernote ultimately
     lost sight of that vision. By the time it realized this, it was too late.
   id: totrans-184
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们说大象永远不会忘记，硅谷也不例外。尽管公司创始人的愿景具有潜力和大胆，但印象笔记最终迷失了这一愿景。当它意识到这一点时，已经太迟了。
 - en: Despite still having a loyal base of hardcore users, Evernote’s future is far
     from certain. Whether the company can dig itself out of its current predicament
     remains to be seen, but there’s little doubt that Evernote will not be remembered
@@ -1380,6 +1427,7 @@
   id: totrans-185
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管仍然拥有一批忠实的核心用户，印象笔记的未来远非确定。公司能否摆脱当前的困境尚待观察，但毫无疑问的是，印象笔记不会被友好地记住。
 - en: '**Do you use Evernote?** *You can find your Evernote documents, alongside documents
     from other apps, in [3 clicks or less by using FYI](https://nira.com).*'
   id: totrans-186
