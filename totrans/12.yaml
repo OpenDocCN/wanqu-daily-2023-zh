@@ -562,14 +562,17 @@
   id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: 几个月后的2011年12月，Evernote发布了两款iOS独立应用程序：Evernote Food和Evernote Hello。Evernote Food本质上是主要Evernote应用程序的简化、专业版本，允许用户记录和记录他们的餐点在数字笔记本中，方式与主要Evernote应用程序允许他们捕捉和存储其他一切的方式相同。用户可以通过标记位置和其他人来组织他们的烹饪记忆，使用户更容易记住他们吃了什么，和谁一起吃，以及在哪里。Food和主要Evernote应用程序之间唯一的真正区别是与Facebook和Twitter的集成。客户可以使用这些集成与他们的网络分享上一顿美味的餐点的细节，以及一些与食物相关的导航元素。
 - en: '![Evernote Food](../Images/100506da4b9e0d2583a861567ef708ea.png)'
   id: totrans-71
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote Food](../Images/100506da4b9e0d2583a861567ef708ea.png)'
 - en: '[Source: Behance](https://www.behance.net/gallery/6761663/Evernote-Food-for-iOS)'
   id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：Behance](https://www.behance.net/gallery/6761663/Evernote-Food-for-iOS)'
 - en: Evernote Hello was an even stranger app than Evernote Food. The purpose of Hello
     was ostensibly to make it easier for users to remember people. Users could create
     contact listings within Hello in a similar way as adding a new contact in their
@@ -583,6 +586,9 @@
   id: totrans-73
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote Hello比Evernote Food更奇怪。Hello的目的表面上是让用户更容易记住人。用户可以在Hello中创建联系人列表，方式类似于在手机中添加新联系人。然而，使Hello如此奇怪——最终造成破坏的产品是，Evernote
+    Hello中的一切都必须手动完成。该应用程序不支持[近场通信](https://squareup.com/guides/nfc)（NFC），这是支持无接触支付系统（如Apple
+    Pay）的通信协议，允许移动设备交换少量数据。Hello甚至没有基本的电子名片阅读器。每个字段都必须手动填写。
 - en: Users and investors alike were completely baffled by Food and Hello. Firstly,
     the main Evernote app could already do everything Evernote Food could do and more.
     There was no incentive whatsoever for people to use Food over the main Evernote
@@ -593,18 +599,22 @@
   id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: 用户和投资者对Food和Hello完全感到困惑。首先，主要的Evernote应用程序已经可以做到Evernote Food所能做的一切，甚至更多。没有任何动机让人们使用Food而不是主要的Evernote应用程序。其次，对于一个联系人管理产品来说，Hello缺乏NFC或电子名片支持是一个不可饶恕的错误。要求用户或他们的新熟人手动输入联系方式是产品要克服的巨大障碍，对用户几乎没有回报。
 - en: '![Evernote Hello](../Images/af8f31bbec9f3aaa4cc547b85c6ca977.png)'
   id: totrans-75
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote Hello](../Images/af8f31bbec9f3aaa4cc547b85c6ca977.png)'
 - en: '[Source: El androide libre](https://elandroidelibre.elespanol.com/2012/05/evernote-hello-una-nueva-agenda-para-no-olvidar-a-tus-nuevos-contactos.html)'
   id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：El androide libre](https://elandroidelibre.elespanol.com/2012/05/evernote-hello-una-nueva-agenda-para-no-olvidar-a-tus-nuevos-contactos.html)'
 - en: It isn’t hard to see the reasoning behind the two products.
   id: totrans-77
   prefs: []
   type: TYPE_NORMAL
+  zh: 看到这两款产品背后的理由并不难。
 - en: Food selfies wouldn’t become the pop-cultural staple they are today for several
     years, but [many people were already enthusiastically photographing their food](https://www.nytimes.com/2010/04/07/dining/07camera.html)
     and sharing it on social media by 2011\. Evernote Food was a transparent attempt
@@ -613,6 +623,8 @@
   id: totrans-78
   prefs: []
   type: TYPE_NORMAL
+  zh: 食物自拍在几年后才成为当今的流行文化标志，但到2011年，[许多人已经热情地拍摄他们的食物](https://www.nytimes.com/2010/04/07/dining/07camera.html)并在社交媒体上分享。Evernote
+    Food是Evernote透明地试图成为食物摄影的主要目的地，这个位置当时由Flickr主导。
 - en: Although it may not have seemed like it at the time, Evernote Hello aligned
     strongly with Pachikov’s original vision to help users remember everything. Pachikov
     himself often used forgetting people’s names in professional settings as a prime
@@ -625,12 +637,16 @@
   id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管当时可能并不像现在这样，但Evernote Hello与Pachikov最初的愿景高度契合，即帮助用户记住一切。Pachikov本人经常以在专业环境中忘记别人的名字为一个主要例子，说明Evernote如何成为人们日常生活中不可或缺的一部分。然而，Hello的问题在于执行。如果Hello支持NFC，它可能会为Evernote的产品开拓一个全新的商业用户市场。它必须是无需费力就能运作的。事实上，Evernote
+    Hello几乎毫无用处，除了削弱Evernote品牌外几乎没有取得任何成就。
 - en: Evernote’s increasing range of products was confusing, but didn’t dissuade investors.
     In May 2012, Evernote officially earned “unicorn” status—a valuation of $1B or
     more—after raising $70M as part of its Series D round led by CBC Capital.
   id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote不断增加的产品范围令人困惑，但并没有阻止投资者。2012年5月，Evernote正式获得“独角兽”地位——估值超过10亿美元——在由CBC
+    Capital领导的D轮融资中筹集了7000万美元。
 - en: Evernote didn’t need to raise any more funding. The company still had much of
     the $96M it had raised to date, but the company planned to use its latest round
     to expand further into the Chinese market. Unlike most Western tech companies,
@@ -745,6 +761,7 @@
   id: totrans-100
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote Market不仅仅是一个令人担忧的迹象，表明公司——以及菲尔·利宾本人——已经开始迷失方向。这是另一个远离帕奇科夫对Evernote未来设想的重要步骤。
 - en: Both Pachikov and Libin shared a desire to create a “100-year company,” but
     Evernote Market did nothing to work toward or advance Pachikov’s vision of Evernote
     as an extension of the human mind. Pachikov’s vision was bold, ambitious, and
@@ -752,10 +769,13 @@
   id: totrans-101
   prefs: []
   type: TYPE_NORMAL
+  zh: 帕奇科夫和利宾都渴望创建一个“百年公司”，但Evernote Market没有为实现或推进帕奇科夫将Evernote视为人类思维延伸的愿景做任何工作。帕奇科夫的愿景是大胆、雄心勃勃且具有变革性的。相比之下，Evernote
+    Market感觉像是一个廉价的金钱抓取。
 - en: The company’s fortunes went from bad to worse in 2014\.
   id: totrans-102
   prefs: []
   type: TYPE_NORMAL
+  zh: 公司在2014年的命运从坏到更糟。
 - en: Despite its popularity, Evernote had developed a reputation among its growing
     userbase for being a buggy, unstable product. For the most part, such grumbling
     was largely restricted to complaints on the product’s official forums and the
@@ -763,12 +783,14 @@
   id: totrans-103
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管广受欢迎，但Evernote在其不断增长的用户群中已经形成了一个声誉，即是一个有bug、不稳定的产品。在很大程度上，这种抱怨主要局限于产品的官方论坛上的投诉和社交媒体上偶尔的抱怨。
 - en: That changed when Jason Kincaid, a former TechCrunch writer, published a post
     on his [personal blog](https://jasonkincaid.net/evernote-the-bug-ridden-elephant/)
     titled “Evernote, the bug-ridden elephant.”
   id: totrans-104
   prefs: []
   type: TYPE_NORMAL
+  zh: 当前TechCrunch作家Jason Kincaid在他的[个人博客](https://jasonkincaid.net/evernote-the-bug-ridden-elephant/)上发表了一篇名为“Evernote，这只充满bug的大象”的文章时，情况发生了变化。
 - en: Kincaid had been an Evernote power user for years, having captured almost 7,000
     notes since discovering the product. The post was a reluctant but scathing take-down
     of Evernote’s notorious instability, which Kincaid felt compelled to write after
@@ -779,6 +801,7 @@
   id: totrans-105
   prefs: []
   type: TYPE_NORMAL
+  zh: 多年来，Kincaid一直是Evernote的重度用户，自发现该产品以来已经记录了近7000条笔记。这篇帖子是对Evernote臭名昭著的不稳定性的勉强批评，Kincaid在经历了一系列技术问题后感到有必要写下这篇文章，包括损坏的文件、不完整的备份以及Evernote客户支持团队的糟糕回应。这篇帖子迅速传播开来，吸引了很多关注，以至于利宾亲自联系Kincaid道歉。
 - en: '*“None of this has been life-shattering, but given how reliant I am on Evernote,
     it is deeply unnerving—now each note I instinctively leave myself is tinged with
     anxiety. I’m concerned that as I dig through my Evernote archive, I’ll encounter
@@ -788,12 +811,15 @@
   id: totrans-106
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“这一切都没有什么大不了的，但考虑到我对Evernote的依赖程度，这让人深感不安——现在我本能地留下的每个笔记都带着焦虑。我担心当我翻阅我的Evernote存档时，我会遇到更多损坏的音频笔记，更糟糕的是，我的偏执越来越确信可能有一些笔记根本没有保存到存档中。”
+    — Jason Kincaid*'
 - en: A little more than a year later in October 2014, Evernote unveiled its latest
     product, Work Chat. A simple messaging client, Work Chat was designed to complement
     Evernote’s Business plans.
   id: totrans-107
   prefs: []
   type: TYPE_NORMAL
+  zh: 一年多后的2014年10月，Evernote推出了最新产品Work Chat。作为一个简单的消息客户端，Work Chat旨在补充Evernote的商业计划。
 - en: It was also long overdue. Team-based collaboration had been an enormous blind
     spot in Evernote’s vision for years. The company had already missed one major
     consumer tech trend by ignoring the exodus of products and services migrating
@@ -801,22 +827,26 @@
   id: totrans-108
   prefs: []
   type: TYPE_NORMAL
+  zh: 这也是早就该做的事情。多年来，基于团队的协作一直是Evernote设想中的一个巨大盲点。公司已经错过了一个主要的消费者科技趋势，即忽视了产品和服务迁移到云端并坚持将Evernote开发为本地应用程序。
 - en: Similarly, Evernote had been designed as an organizational tool for individuals,
     when virtually every other productivity tool on the market emphasized team-based
     collaboration. Work Chat was the first small step toward solving this urgent problem.
   id: totrans-109
   prefs: []
   type: TYPE_NORMAL
+  zh: 同样，Evernote被设计为个人的组织工具，而几乎市场上的每个其他生产力工具都强调基于团队的协作。Work Chat是解决这一紧迫问题的第一小步。
 - en: Unfortunately for Evernote, that ship had sailed.
   id: totrans-110
   prefs: []
   type: TYPE_NORMAL
+  zh: 不幸的是，对于Evernote来说，那艘船已经启航。
 - en: As a whole, the company had been distracted by chasing the wrong revenue streams.
     Instead of building a solid team-based product, Evernote built a food app. The
     company had expanded too quickly in the wrong direction.
   id: totrans-111
   prefs: []
   type: TYPE_NORMAL
+  zh: 总的来说，公司一直在追逐错误的收入来源。Evernote没有构建一个坚实的基于团队的产品，而是构建了一个食品应用。公司在错误的方向上扩张得太快。
 - en: Everything besides the main Evernote app was a distraction from the company’s
     core mission to help people remember everything. Products like Slack and Google’s
     G Suite had successfully made the leap from personal product to collaborative
@@ -824,14 +854,17 @@
   id: totrans-112
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了主要的Evernote应用程序之外，一切都是公司帮助人们记住一切核心使命的分心。像Slack和谷歌的G Suite这样的产品已成功地从个人产品转变为协作产品，而Evernote没有。
 - en: '![Evernote Work Chat](../Images/6bcafb2289e170864b92355a1d40176d.png)'
   id: totrans-113
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote Work Chat](../Images/6bcafb2289e170864b92355a1d40176d.png)'
 - en: '[Source: Up](https://www.uplabs.com/posts/evernote-work-chat)'
   id: totrans-114
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：Up](https://www.uplabs.com/posts/evernote-work-chat)'
 - en: Aside from raising an additional $20M as part of its Series E round in November
     2014, Evernote kept a low profile for the next year or so until July 2015, when
     the company introduced major changes to its pricing. Under the new structure,
@@ -841,6 +874,8 @@
   id: totrans-115
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了在2014年11月作为E轮融资的一部分筹集了额外的2000万美元外，Evernote在接下来的一年左右保持低调，直到2015年7月，公司对其定价进行了重大变革。根据新结构，Evernote的高级计划从每年45美元增加到每年50美元。产品定价的另一个重大变化是引入了一个新的中间选项Evernote
+    Plus，每年25美元。
 - en: Evernote changed more than just its pricing structure in 2015, it also changed
     the company’s leadership. In July 2015, Libin announced that he would be stepping
     down as Evernote’s CEO and handing the reins to former Google Glass executive,
@@ -1103,6 +1138,7 @@
   id: totrans-151
   prefs: []
   type: TYPE_NORMAL
+  zh: 更具讽刺意味的是Spaces开发背后的理由。在一次采访中，O’Neill声称[Evernote用户中有70%](https://www.forbes.com/sites/alexkonrad/2018/02/27/evernote-launches-spaces-in-business-push/)在个人生活和工作中使用该产品。如果Evernote早些时候开发了Spaces，它就可以利用个人和商业用例之间的重大重叠来更好地进入生产力工具市场。
 - en: As Evernote sought to get back to its roots as a product that would help users
     remember everything, the brand underwent a significant overhaul in August 2018\.
     Evernote was in dire need of a clean start, and a major rebrand would embody the
@@ -1110,19 +1146,23 @@
   id: totrans-152
   prefs: []
   type: TYPE_NORMAL
+  zh: 随着Evernote试图回归作为一个能帮助用户记住一切的产品，该品牌在2018年8月经历了一次重大改革。Evernote迫切需要一个干净的开始，一次重大的重新品牌将体现公司的新使命感。
 - en: '![Evernote brand icons](../Images/2348564db07b94c15e6c1b649f421c6e.png)'
   id: totrans-153
   prefs: []
   type: TYPE_IMG
+  zh: '![Evernote品牌图标](../Images/2348564db07b94c15e6c1b649f421c6e.png)'
 - en: '[Source: Evernote Brand](https://medium.com/taking-note/ever-better-refreshing-the-evernote-brand-f3f28ff12a88)'
   id: totrans-154
   prefs: []
   type: TYPE_NORMAL
+  zh: '[来源：Evernote品牌](https://medium.com/taking-note/ever-better-refreshing-the-evernote-brand-f3f28ff12a88)'
 - en: Evernote’s new branding was fresh, but it did little to solve the company’s
     underlying problems.
   id: totrans-155
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote的新品牌很新颖，但对公司的根本问题几乎没有帮助。
 - en: The next month in September, TechCrunch reported that Evernote had lost the
     majority of its ranking executives within the past month alone, including CFO
     Vincent Toolan, CPO Erik Wrobel, CTO Anirban Kundu, and Head of HR Michelle Wagner.
@@ -1131,6 +1171,8 @@
   id: totrans-156
   prefs: []
   type: TYPE_NORMAL
+  zh: 接下来的一个月，TechCrunch报道称，Evernote在过去一个月内失去了大部分高管，包括首席财务官Vincent Toolan、首席产品官Erik
+    Wrobel、首席技术官Anirban Kundu和人力资源负责人Michelle Wagner。这些离职不仅向世界宣告Evernote是一家陷入困境的公司，而且表明这家公司已经完全迷失了方向。
 - en: Evernote didn’t know what it should be, only what it shouldn’t be. The company
     had bet big and won by being on as many devices as possible, but had ignored product
     reliability. Evernote wasn’t able to keep up with consumer expectations which
@@ -1139,6 +1181,7 @@
   id: totrans-157
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote不知道自己应该成为什么，只知道自己不应该成为什么。该公司通过在尽可能多的设备上存在而赌得很大，但忽视了产品的可靠性。Evernote无法满足消费者的期望，这导致公司在错误的方向上扩张过快，最终被市场上的新进入者抛在了后面。
 - en: O’Neill’s efforts to right the ship after taking the helm were admirable and
     badly needed, but it’s painfully clear that Evernote will probably never be the
     extension of the human mind that Stepan Pachikov first imagined all those years
@@ -1146,25 +1189,30 @@
   id: totrans-158
   prefs: []
   type: TYPE_NORMAL
+  zh: O’Neill在接任之后努力纠正船只的努力是令人钦佩的，也是迫切需要的，但很明显，Evernote可能永远不会成为Stepan Pachikov多年前最初想象的人类思维的延伸。
 - en: The only question now is how Evernote’s story will end and how the company will
     be remembered.
   id: totrans-159
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在唯一的问题是Evernote的故事将如何结束，公司将如何被人们记住。
 - en: Where Could Evernote Go From Here?
   id: totrans-160
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: Evernote接下来该怎么办？
 - en: '![](../Images/626ead84d74f3867d42721e667fc6312.png)'
   id: totrans-161
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/626ead84d74f3867d42721e667fc6312.png)'
 - en: Despite the problems that have besieged the company and product for years, Evernote
     still has a relatively large user base. Where could Evernote go from here?
   id: totrans-162
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管多年来公司和产品饱受问题困扰，但Evernote仍然拥有相对庞大的用户群。Evernote接下来该怎么办？
 - en: '**Development of a truly collaborative team-based product.** The most optimistic
     step that Evernote might take is to double-down on development of Spaces or another
     team-based collaborative product. Evernote may have won its big bet on mobile
@@ -1177,6 +1225,8 @@
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**开发真正的团队协作产品。** Evernote可能采取的最乐观的步骤是加倍发展Spaces或另一种基于团队的协作产品。Evernote可能在2006年赢得了移动设备的大赌注，但错过了基于云的协作，这彻底改变了个人和专业生产力领域。如果Evernote希望生存下去，并成为Phil
+    Libin一直认为Evernote可以成为的百年公司，那么它将需要开发一个强大的、基于团队的产品，可以与G Suite和类似工具竞争。'
 - en: '**Committing to fixing and improving the core Evernote product.** Evernote’s
     reputation for bugs and instability is well-deserved. The company neglected critical
     technical flaws for years, and users took note. Just as Evernote must develop
@@ -1187,6 +1237,7 @@
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**致力于修复和改进核心Evernote产品。** Evernote因其bug和不稳定性而声名狼藉。多年来，公司忽视了关键的技术缺陷，用户也留意到了。就像Evernote如果希望生存下去就必须开发一个基于团队的工具一样，如果公司希望赢回曾经热情的用户的心和思想，它还必须认真对待其传统的技术问题。'
 - en: '**Finding a buyer.** Evernote’s fall from grace should be a cautionary tale
     for any aspiring founder or entrepreneur. At this time, one of Evernote’s few
     remaining options is to hope that a buyer will acquire the company. Evernote is
@@ -1197,11 +1248,13 @@
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**寻找买家。** Evernote的失势应该成为任何有抱负的创始人或企业家的警示故事。此时，Evernote的少数选择之一是希望有买家收购该公司。Evernote离上市还有很长的路要走，虽然公司可能会以比任何人都想要的价格出售，但收购对这家备受困扰的公司来说将是一个理想的终局。'
 - en: What Can We Learn from Evernote?
   id: totrans-166
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 我们从Evernote中可以学到什么？
 - en: As sad as it is, Evernote’s story offers plenty of lessons to entrepreneurs
     hoping to launch similarly ambitious products. What can we learn from Evernote?
   id: totrans-167
