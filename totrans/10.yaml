@@ -1,12 +1,15 @@
 - en: Elixir Saves Pinterest $2 Million a Year In Server Costs
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
 - en: 原文：[https://paraxial.io/blog/elixir-savings](https://paraxial.io/blog/elixir-savings)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
 - en: '![](../Images/72ce3dc71c32a2774c3bb532d5e6b77d.png)'
+  id: totrans-2
   prefs: []
   type: TYPE_IMG
 - en: The [Elixir programming language](https://elixir-lang.org/) is well known in
@@ -15,29 +18,35 @@
     and maintainable applications.” This is a humble summary of the enormous power
     Elixir contains, which has saved businesses millions of dollars per year across
     industries.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
 - en: The book “[Adopting Elixir, From Concept to Production (2018)](https://pragprog.com/titles/tvmelixir/adopting-elixir/)“
     by Ben Marx, José Valim, Bruce Tate is an excellent guide to the strategic and
     technical reasons to use Elixir in your business. The very first chapter clearly
     illustrates the benefits.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
 - en: '*Pinterest used Elixir for focused, high-volume, high-impact service around
     performance tooling and monitoring. Steve Cohen is a software engineer who’s been
     working with their early adoption teams:*'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
 - en: '***José**: Why did you choose Elixir?*'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
 - en: '***Steve**: We chose Elixir because we were looking for a system that was easy
     for programmers to understand and could take better advantage of our servers.
     I was intrigued at Elixir’s combination of friendly syntax, powerful metaprogramming
     features, and incorporation of the Actor model.*'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
 - en: '***José**: How has your company benefited from Elixir?*'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
 - en: '***Steve**: That’s pretty easy. When I started on the spam team, we had close
@@ -50,6 +59,7 @@
     less hardware. When our notifications system was running on Java, it was on 30
     c32.xl instances. When we switched over to Elixir, we could run on 15\. Despite
     running on less hardware, the response times dropped significantly, as did errors.*'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
 - en: A language that enables companies to save money while improving reliability
@@ -59,26 +69,33 @@
     and SaaS products are just a few examples, most business software today has this
     requirement. The story of Elixir improving a product while reducing costs repeats
     itself.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
 - en: '![](../Images/33ba0249e71cd5c1e4ada9f9ebb10ac1.png)'
+  id: totrans-11
   prefs: []
   type: TYPE_IMG
 - en: '* * *'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
 - en: '*@coryodaniel*'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
 - en: '*Rewrote an #AWS APIGateway & #lambda service that was costing us about $16000
     / month in #elixir. Its running in 3 nodes that cost us about $150 / month.*'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
 - en: '*12 million requests / hour with sub-second latency, ~300GB of throughput /
     day.*'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
 - en: '* * *'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
 - en: '[Cory O’Daniel](https://twitter.com/coryodaniel) noticed this benefit in 2018,
@@ -89,62 +106,91 @@
     on your machine when making a change, adding days of expensive development time.
     Developers love Elixir for the excellent experience it provides when creating
     software, and the business loves how much more work gets done ahead of schedule.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
 - en: 'Bleacher Report, a top real time sports and media website, was hitting scaling
     problems due to their business success. With Elixir, they were able to [8x the
     average daily traffic load, going from 150 servers to only 5](https://web.archive.org/web/20181011093614/https://www.techworld.com/apps-wearables/how-elixir-helped-bleacher-report-handle-8x-more-traffic-3653957/):'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: Bleacher Report是一家顶级的实时体育和媒体网站，由于业务成功而遇到了扩展问题。通过Elixir，他们能够[将平均每日流量负载增加8倍，从150台服务器减少到只有5台](https://web.archive.org/web/20181011093614/https://www.techworld.com/apps-wearables/how-elixir-helped-bleacher-report-handle-8x-more-traffic-3653957/)：
 - en: '*The site was originally written on the Ruby on Rails framework but Bleacher
     Report reached the point where they could no longer scale it, according to Dave
     Marks, BR’s senior engineering director.*'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '*该网站最初是基于Ruby on Rails框架编写的，但根据BR的高级工程总监戴夫·马克斯的说法，Bleacher Report达到了无法再扩展的地步。*'
 - en: '*Elixir has proven so efficient that testing the limits of our services became
     a challenge unto itself, requiring investment in new benchmarking tools and strategies.
     In a recent test, for example, our most heavily trafficked service was able to
     handle 8x our average traffic load, without autoscaling, before the database proved
     to be a bottleneck,” he said.*'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '*Elixir已经被证明是如此高效，以至于测试我们服务的极限成为一个挑战，需要投资于新的基准测试工具和策略。例如，在最近的一次测试中，我们最繁忙的服务能够处理平均流量的8倍，而无需自动扩展，直到数据库被证明是一个瓶颈，“他说。*'
 - en: '*“On our monolith we needed roughly 150 servers to power the more intensive
     portions of BR. Following our move to Elixir we’re now able to power those same
     functions on five servers and we’re probably overprovisioned. We could probably
     get away with it on two,” Marks says.*'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“在我们的单体系统上，我们大约需要150台服务器来支持BR的更密集部分。在我们转向Elixir后，我们现在能够在五台服务器上运行相同的功能，而且我们可能过度配置了。我们可能可以在两台服务器上完成，”马克斯说。*'
 - en: Let’s do a Fermi estimate where each server costs $17,000/year.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们进行一个费米估算，每台服务器的成本为每年$17,000。
 - en: '| One server: | $17,000/year (example) |'
+  id: totrans-23
   prefs: []
   type: TYPE_TB
+  zh: '| 一台服务器：| 每年$17,000（示例） |'
 - en: '| 150 servers: | $2,550,000/year |'
+  id: totrans-24
   prefs: []
   type: TYPE_TB
+  zh: '| 150台服务器：| 每年$2,550,000 |'
 - en: '| 5 servers: | $85,000/year |'
+  id: totrans-25
   prefs: []
   type: TYPE_TB
+  zh: '| 5台服务器：| 每年$85,000 |'
 - en: '| Savings: | $2,465,000/year |'
+  id: totrans-26
   prefs: []
   type: TYPE_TB
+  zh: '| 节省：| 每年$2,465,000 |'
 - en: '|  |  |'
+  id: totrans-27
   prefs: []
   type: TYPE_TB
+  zh: '|  |  |'
 - en: '| 30x cost savings, | final bill reduced by 97% |'
+  id: totrans-28
   prefs: []
   type: TYPE_TB
+  zh: '| 节省30倍成本，| 最终账单减少了97% |'
 - en: The final result was a 97% reduction in the server bill, with improved reliability
     and performance. All this is possible because Elixir, and the Erlang platform
     underneath, are fundamentally designed for always-online software with many users.
     When you use the right tool for the job, the benefits are clear.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终结果是服务器费用减少了97%，可靠性和性能得到了改善。所有这些都是可能的，因为Elixir和底层的Erlang平台基本上是为具有许多用户的始终在线软件而设计的。当您使用正确的工具来完成工作时，好处是明显的。
 - en: '* * *'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: '*[Paraxial.io](https://paraxial.io/) stops data breaches by securing your Elixir
     and Phoenix apps. [Detect and fix critical security issues today.](https://calendly.com/paraxial/paraxial-io)*'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '*[Paraxial.io](https://paraxial.io/) 通过保护您的Elixir和Phoenix应用程序来阻止数据泄露。[立即检测和修复关键安全问题。](https://calendly.com/paraxial/paraxial-io)*'

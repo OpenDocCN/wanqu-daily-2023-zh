@@ -1,31 +1,44 @@
 - en: Don’t Build AI Products The Way Everyone Else Is Doing It
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 不要按照其他人的方式构建AI产品
 - en: 原文：[https://www.builder.io/blog/build-ai](https://www.builder.io/blog/build-ai)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
   zh: 原文：[https://www.builder.io/blog/build-ai](https://www.builder.io/blog/build-ai)
 - en: It likely would have become so complex, slow, and expensive that our product
     might never have even shipped.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 它很可能会变得如此复杂、缓慢和昂贵，以至于我们的产品甚至可能永远无法上市。
 - en: Instead, we considered the problem and said, well, how can we solve this without
     AI? How far can we get before it gets impossible without the types of specialized
     decision-making AI is best at?
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 相反，我们考虑了这个问题，并说，好吧，我们如何在没有AI的情况下解决这个问题？在没有专门决策AI最擅长的类型之前，我们能走多远？
 - en: So we broke the problem down and said, okay, we need to convert each of these
     nodes to things we can represent in code.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以我们将问题分解开来，说，好吧，我们需要将这些节点转换为我们可以在代码中表示的东西。
 - en: We needed to understand, in detail, working with elements such as images, backgrounds,
     and foregrounds. And most importantly, we needed to intricately understand how
     to make any input responsive.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们需要详细了解如何处理诸如图像、背景和前景等元素。最重要的是，我们需要精心理解如何使任何输入具有响应性。
 - en: After that, we started considering more complex examples and realized there
     are lots of cases where many, many layers would need to be turned into one image.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 之后，我们开始考虑更复杂的例子，并意识到有许多情况下，许多层需要转换为一幅图像。

@@ -1,112 +1,163 @@
 - en: The beauty of finished software | Jose M.
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 完成软件的美 | 何塞·M。
 - en: 原文：[https://josem.co/the-beauty-of-finished-software/](https://josem.co/the-beauty-of-finished-software/)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://josem.co/the-beauty-of-finished-software/](https://josem.co/the-beauty-of-finished-software/)
 - en: Let me introduce you to [WordStar 4.0](https://en.wikipedia.org/wiki/WordStar),
     a popular word processor from the early 80s.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我向你介绍[WordStar 4.0](https://en.wikipedia.org/wiki/WordStar)，这是80年代初期流行的文字处理器。
 - en: <picture>![Wordstar 4.0](../Images/f066989ffb4e8d6a7eef611f48b73a97.png)</picture>
     *WordStar 4.0*
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: <picture>![Wordstar 4.0](../Images/f066989ffb4e8d6a7eef611f48b73a97.png)</picture>
+    *WordStar 4.0*
 - en: As old as it seems, George R.R. Martin used it to write “A Song of Ice and Fire”.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管看起来很老，乔治·R·R·马丁用它来写《冰与火之歌》。
 - en: 'Why would someone use such an old piece of software to write over 5,000 pages?
     I love how he puts it:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 为什么有人会使用这么老的软件来写超过5000页？我喜欢他是如何表达的：
 - en: It does everything I want a word processing program to do and it doesn't do
     anything else. I don't want any help. I hate some of these modern systems where
     you type up a lowercase letter and it becomes a capital. I don't want a capital,
     if I'd wanted a capital, I would have typed the capital.[George R.R. Martin](#rf1)
+  id: totrans-6
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 它做我想要的文字处理程序做的一切，而且不做其他任何事情。我不需要任何帮助。我讨厌一些现代系统，你输入一个小写字母，它就变成了大写。我不想要大写，如果我想要大写，我会输入大写的。[乔治·R·R·马丁](#rf1)
 - en: This program embodies the concept of finished software — a software you can
     use forever with no unneeded changes.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个程序体现了完成软件的概念——一个你可以永远使用而不需要不必要更改的软件。
 - en: Finished software is software that’s not expected to change, and that’s a feature!
     You can rely on it to do some real work.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 完成的软件是不会被期望改变的软件，这就是一个特性！你可以依赖它来做一些真正的工作。
 - en: Once you get used to the software, once the software works for you, you don’t
     need to learn anything new; the interface will exactly be the same, and all your
     files will stay relevant. No migrations, no new payments, no new changes.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你习惯了这个软件，一旦软件为你工作，你就不需要学习任何新东西；界面将完全相同，所有你的文件将保持相关。没有迁移，没有新的付款，没有新的变化。
 - en: This kind of software can be created intentionally, with a compromise from the
     creators that they won’t bother you with things you don’t need, and only the absolutely
     necessary will change, like minor updates to make it compatible with new operating
     systems.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种软件可以有意地创建，创作者们做出妥协，他们不会用你不需要的东西来打扰你，只有绝对必要的东西会改变，比如小更新以使其与新操作系统兼容。
 - en: Sometimes, finished software happens accidentally; maybe the company behind
     it has disappeared, or the product has been abandoned.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 有时，完成的软件是偶然发生的；也许背后的公司已经消失，或者产品已经被放弃。
 - en: 'There are also some great examples in the UNIX world of finished software:
     commands like `cd`(to change the current directory) or `ls`(to list what’s there)
     won’t ever change in a significant way. You can rely on them until the end of
     your career.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: UNIX世界中也有一些很好的完成软件的例子：像`cd`（改变当前目录）或`ls`（列出当前目录内容）这样的命令不会在重大程度上改变。你可以依赖它们直到你的职业生涯结束。
 - en: The seduction of constant updates
+  id: totrans-13
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 不断更新的诱惑
 - en: Our expectations for software are different from other products we use in our
     daily lives.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们对软件的期望与我们日常生活中使用的其他产品不同。
 - en: When we buy a physical product, we accept that it won’t change in its lifetime.
     We’ll use it until it wears off, and we replace it. We can rely on that product
     not evolving; the gas pedal in my car will always be in the same place.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我们购买一个物理产品时，我们接受它在其寿命内不会改变。我们会使用它直到它磨损，然后替换它。我们可以依赖于那个产品不会发展；我的汽车油门永远会在同一个位置。
 - en: However, when it comes to software, we usually have the ingrained expectations
     of perpetual updates. We believe that if software doesn’t evolve it’ll be boring,
     old and unusable. If we see an app with no updates in the last year, we think
     the creator might be dead.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，当涉及到软件时，我们通常有永久更新的内在期望。我们相信如果软件不发展，它将会变得无聊、老旧和无法使用。如果我们看到一款应用在过去一年没有更新，我们会认为创作者可能已经去世了。
 - en: We also expect new versions of any software will be better than the previous
     ones. Once it’s released, most of our problems will be solved! What a deceiving
     lie.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们也期望任何软件的新版本都会比之前的更好。一旦发布，我们的大部分问题将会得到解决！多么欺骗性的谎言。
 - en: 'Sometimes, a software upgrade is a step backward: less usable, less stable,
     with new bugs. Even if it’s genuinely better, there’s the learning curve. You
     were efficient with the old version, but now your most used button is on the other
     side of the screen under a hidden menu.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 有时，软件升级是向后退的一步：更不易使用，更不稳定，带有新的错误。即使它确实更好，也有学习曲线。你在旧版本上效率很高，但现在你最常用的按钮在屏幕的另一边，隐藏在一个菜单下面。
 - en: Finished software is a good reminder
+  id: totrans-19
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 完成的软件是一个很好的提醒
 - en: In a world where constant change is the norm, finished software provides a breath
     of fresh air. It’s a reminder that reliability, consistency, and user satisfaction
     can coexist in the realm of software development.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 在一个不断变化是常态的世界中，完成的软件提供了一股清新的空气。它提醒我们可靠性、一致性和用户满意度可以在软件开发领域共存。
 - en: So the next time you find yourself yearning for the latest update, remember
     that sometimes, the best software is the one that doesn’t change at all.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以下次当你渴望最新更新时，请记住有时候，最好的软件是那些根本不改变的软件。
 - en: '* * *'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: References
+  id: totrans-23
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 参考资料
 - en: '[1] George R.R. Martin in Conan show (2014). [https://www.youtube.com/watch?v=X5REM-3nWHg](https://www.youtube.com/watch?v=X5REM-3nWHg).'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '[1] 乔治·R·R·马丁在Conan节目中（2014年）。[https://www.youtube.com/watch?v=X5REM-3nWHg](https://www.youtube.com/watch?v=X5REM-3nWHg)。 '
