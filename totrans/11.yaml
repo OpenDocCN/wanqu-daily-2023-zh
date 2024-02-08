@@ -3,6 +3,7 @@
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 软件工程师讨厌代码。
 - en: 原文：[https://www.dancowell.com/software-engineers-hate-code/](https://www.dancowell.com/software-engineers-hate-code/)
   id: totrans-1
   prefs:
@@ -15,6 +16,7 @@
   id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是软件工程专业最深藏不露的秘密：工程师讨厌代码。尤其是其他人写的代码。这就是为什么他们如此喜欢在全新项目上工作。没有代码，没有维护，没有烦恼！
 - en: Ever wondered why microservices took off in teams of all sizes? A microservice
     architecture is the perfect way to pretend that the code you wrote last month
     no longer exists! Now that it has been stuffed into a container and tucked behind

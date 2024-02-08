@@ -1,70 +1,98 @@
 - en: Why Evernote Failed to Realize Its Potential [The Full History]
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 为什么Evernote未能实现其潜力【完整历史】
 - en: 原文：[https://nira.com/evernote-history/](https://nira.com/evernote-history/)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '[https://nira.com/evernote-history/](https://nira.com/evernote-history/)'
 - en: Legendary investor, programmer, and Y Combinator co-founder Paul Graham once
     wrote that one of the best ways to come up with ideas for your next startup is
     to ask what product you wish someone else would make for you.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 传奇投资者、程序员和Y Combinator联合创始人保罗·格雷厄姆曾经写道，想出下一个创业公司的最好方法之一是问问自己，你希望有人为你制作什么产品。
 - en: For Stepan Pachikov, founder of Evernote, that product was a way to help him
     remember things.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于Evernote的创始人Stepan Pachikov来说，那个产品是帮助他记住事情的方法。
 - en: Although Pachikov first began working on what ultimately became Evernote back
     in 2002, his fascination with human memory stems from his experiences growing
     up in the former Soviet Union. To Pachikov, Evernote wasn’t just another app or
     a way to capitalize on Silicon Valley’s burgeoning obsession with personal productivity.
     It was an extension of the human mind itself that would let users remember everything.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管Pachikov最初于2002年开始着手于最终成为Evernote的项目，但他对人类记忆的迷恋源于他在前苏联成长的经历。对Pachikov来说，Evernote不仅仅是另一个应用程序，也不仅仅是利用硅谷对个人生产力的狂热。它是人类思维本身的延伸，让用户记住一切。
 - en: Evernote has come a long way since Pachikov began working on the app seventeen
     years ago. Evernote was and remains one of the best examples of what a freemium
     product can be. Despite this, Evernote has been plagued by a series of managerial
     missteps and failed product launches, and the company’s future is far from certain.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 自Pachikov十七年前开始着手开发该应用以来，Evernote已经走过了很长的路。Evernote是并仍然是免费产品的最佳示范之一。尽管如此，Evernote一直受到一系列管理失误和失败产品推出的困扰，公司的未来仍然不确定。
 - en: 'Here are some of the things I’ll be exploring in this article:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 本文将探讨以下内容：
 - en: Why timing was so crucial to Evernote’s success, and how co-founder and former
     CEO Phil Libin’s vision for the product created vital tailwind for Evernote’s
     growth
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: Evernote成功的时机为何如此重要，以及联合创始人兼前首席执行官Phil Libin对产品的愿景如何为Evernote的增长创造了重要的助力
 - en: How the company resisted investor pressure and remained true to their convictions
     about the value of Evernote as a freemium product
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 公司如何抵制投资者的压力，坚守对Evernote作为免费产品价值的信念
 - en: How Evernote lost sight of its original vision and how this almost doomed the
     company
+  id: totrans-9
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: Evernote如何迷失了原始愿景，以及这几乎导致了公司的失败
 - en: 'The idea for Evernote began with the personal quest of its founder, Stepan
     Pachikov. He aimed to solve a giant problem: overcoming the limitations of human
     memory.'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote的创始人Stepan Pachikov的个人追求启发了Evernote的创意。他的目标是解决一个巨大的问题：克服人类记忆的局限性。
 - en: '2008-2011: Creating an Impossible Vision'
+  id: totrans-11
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2008-2011: 创造一个不可能的愿景'
 - en: Stepan Pachikov wanted to remember everything.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: Stepan Pachikov想要记住一切。
 - en: Pachikov is one of Silicon Valley’s most visionary technologists. A pioneer
     of virtual reality, computerized handwriting analysis, and optical character recognition,
     Pachikov has spent much of his life working to solve some of computing’s most
     challenging problems.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: Pachikov是硅谷最具远见的技术专家之一。作为虚拟现实、计算机手写分析和光学字符识别的先驱，Pachikov一生大部分时间都在致力于解决计算机领域一些最具挑战性的问题。
 - en: Trained in economic mathematics, Pachikov earned his doctorate in fuzzy logic
     from the Academy of Sciences of the Union of Soviet Socialist Republics in Moscow.
     As a scientist living and working under Communist rule in Soviet Russia, Pachikov
@@ -72,16 +100,21 @@
     and collective memory were jeopardized by the gradual collapse of Soviet Russia.
     With few ways to preserve them, even key moments from his own past had been lost
     to the march of time.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: Pachikov在经济数学方面接受过训练，他在莫斯科苏联社会主义共和国联合会科学院获得了模糊逻辑博士学位。作为一个生活和工作在苏联俄罗斯共产主义统治下的科学家，Pachikov对被遗忘并不陌生。他亲眼看到苏联俄罗斯逐渐崩溃威胁到几代人的文化和集体记忆。由于几乎没有办法保存它们，即使是他自己过去的重要时刻也被时间的洪流所淹没。
 - en: '*“Even 30 years ago, I had already lost so much information. Names. Jokes.
     Phrases. Facts. I can study and re-learn what I have forgotten, but I cannot go
     back to my school years, my college years, and recollect what I knew. Teachers.
     Friends. Experiences. In the past 20 years, I have put 75,000 pictures into my
     photo database. But pictures from before that are lost.” — Stepan Pachikov, founder
     of Evernote*'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: “即使30年前，我已经丢失了很多信息。名字。笑话。短语。事实。我可以学习和重新学习我忘记的东西，但我无法回到我的学校时代，我的大学时代，回忆我所知道的。老师。朋友。经历。在过去的20年里，我已经把75000张照片放入我的照片数据库。但在那之前的照片都丢失了。”-
+    Evernote创始人Stepan Pachikov
 - en: Pachikov saw computers as a means of not only preserving individual and cultural
     memories, but also as a way to empower children growing up in the political and
     social turmoil of Russia in the 1980s. To that end, Pachikov began working with
@@ -90,13 +123,16 @@
     devised a way of encouraging Russian children to develop their handwriting skills
     under the guise of a simple game. This game ultimately became Paragraph, the world’s
     first commercial computerized handwriting recognition software.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: Pachikov认为计算机不仅是保存个人和文化记忆的手段，也是赋予在20世纪80年代苏联政治和社会动荡中成长的孩子们力量的方式。为此，Pachikov从1986年开始与他的朋友、世界著名国际象棋大师加里·卡斯帕罗夫合作，两人在莫斯科成立了该国第一个计算机俱乐部。Pachikov和卡斯帕罗夫设计了一种鼓励俄罗斯儿童发展书写技能的方式，以简单游戏的形式。这个游戏最终成为Paragraph，世界上第一个商业化的计算机手写识别软件。
 - en: The results of Pachikov’s educational experiments were mixed, but his work attracted
     the attention of Apple, Inc., which asked Pachikov to develop his handwriting
     recognition software for the Newton handheld computer. Pachikov left the frigid
     temperatures of Moscow for the warmth of Cupertino in Northern California, and
     made a new home in the United States.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
 - en: Apple’s Newton project—and, by extension, Paragraph—ultimately failed. Undeterred,
@@ -104,10 +140,12 @@
     a range of projects in the ’90s, including a cutting-edge virtual reality product
     that allowed children to learn about history by traveling back through time to
     the age of the ancient Greeks.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
 - en: It wasn’t until 2002 that Pachikov began working on what would later become
     Evernote.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
 - en: Aside from his lifelong obsession with preserving and expanding human memory,
@@ -116,10 +154,12 @@
     Pachikov’s vision for Evernote was much closer to the brain-machine interfaces
     promised by neurotech companies such as Elon Musk’s Neuralink. Pachikov wanted
     to develop a technology that would serve as an intermediary between man and machine.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
 - en: However, despite the fantastical nature of Evernote as a concept, the product
     would have solidly practical applications.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
 - en: '*“When you can’t remember somebody’s name, you look stupid. Memory and smartness
@@ -127,11 +167,13 @@
     it’s useless if we can’t find any of it. In business, the worst thing we can say
     is, ‘Oh, I’m sorry, I forgot your name.’ This is a product I need myself.” — Stepan
     Pachikov, founder of Evernote*'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
 - en: 'Although Pachikov’s nascent idea shared little in common with Google, both
     products were grounded in the same basic principle: in the future, knowing how
     to find information would be far more important than remembering information.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
 - en: Pachikov worked on the prototype of Evernote (which was initially known as EverNote)
@@ -142,12 +184,15 @@
     for little more than 2% of the market. Pachikov’s early prototype was a little
     rough around the edges, but much of the core functionality was there––including
     the electronic handwriting recognition tech that Pachikov had pioneered at Paragraph.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote 2004](../Images/ef1545e682aaedceb7c9356a4fdba130.png)'
+  id: totrans-25
   prefs: []
   type: TYPE_IMG
 - en: '[Source: phoneArena](https://www.phonearena.com/news/Two-thirds-of-app-users-in-U.S.-have-paid-for-at-least-one_id30191)'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
 - en: In 2006, on the other side of the United States in Boston, serial entrepreneur
@@ -158,9 +203,11 @@
     the possibilities of augmenting human memory electronically. His third venture,
     which Libin called Ribbon, would be an organizational tool that would help people
     save and access the information they needed, when they needed it.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
 - en: It was then that Libin first heard about Pachikov’s EverNote project.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
 - en: EverNote and Ribbon were very similar in both form and function. However, Pachikov
@@ -168,18 +215,21 @@
     developing his company’s own technology. Libin traveled from Boston to Silicon
     Valley to meet Pachikov and the two men decided to merge their two fledgling companies
     rather than compete with one another.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
 - en: Both Pachikov and Libin were dissatisfied with the limitations of the human
     mind. However, while both men were idealistic, even philosophic, about their idea,
     Libin possessed the keen eye for business that Pachikov lacked––a quality that
     Pachikov believed made Libin an ideal partner.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
 - en: '*“[Phil Libin] was smart, educated, and I was completely confident that he
     would be a much better CEO than I was. His Russian is better than my English.
     I believed he would transform the company and make it successful.” — Stepan Pachikov,
     founder of Evernote*'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
 - en: 'Upon the merging of the two companies, Libin set to work. One of Libin’s first
@@ -187,10 +237,12 @@
     had been working on, and he insisted that the company focus the entirety of its
     efforts on refining the idea behind their product: empowering users to capture,
     search, and store any and all information, wherever they were.'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
 - en: However, Libin’s most significant contribution to the growing company came very
     early on, when Libin steered Evernote away from Windows towards a bold new frontier––mobile.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
 - en: The central premise behind Evernote was accessibility. If Evernote was to help
@@ -199,6 +251,7 @@
     today. Apple’s flagship iPhone wouldn’t be released for another year, and [by
     Libin’s own admission](https://mashable.com/2011/08/11/evernote-phil-libin-interview/)
     betting big on mobile was exactly that—a gamble.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
 - en: '*“From the start, we made a big promise to our users—we would help them remember
@@ -207,18 +260,22 @@
     their lives. So, it wasn’t that we predicted the rise of mobile, as much as we
     felt that mobile would be critical to our success.” — Phil Libin, former CEO of
     Evernote*'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
 - en: That gamble paid off. When the iPhone launched in 2007, Evernote was ready.
     The product looked and felt completely different from its earlier incarnation.
     Evernote’s aesthetic was sleek, clean, and stylish, and it felt fantastic to use
     on mobile.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote 2008](../Images/a6a36b82b594b9fa44c3001dbfe5bb87.png)'
+  id: totrans-37
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Archive.org](https://web.archive.org/web/20081201043203/http://www.evernote.com/)'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
 - en: However, what drove much of Evernote’s initial adoption wasn’t the aesthetic
@@ -228,17 +285,21 @@
     potential users. Evernote’s engineers worked tirelessly to ensure that Evernote
     would be available as each new app marketplace launched, each of which expanded
     Evernote’s footprint considerably.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
 - en: Libin’s singular focus drove much of Evernote’s initial development. In 2008,
     Evernote launched in a limited private beta that was aimed squarely at the cult
     of productivity that had taken root across Silicon Valley.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Notebooks](../Images/5573348028ebd091f307cfa002f53e2b.png)'
+  id: totrans-41
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Keyword Suggest](http://keywordsuggest.org/gallery/431092.html)'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
 - en: Libin’s vision for Evernote was a seamless experience that successfully bridged
@@ -250,8 +311,11 @@
     handwritten notes, audio recordings, links, pictures taken on a user’s mobile
     device, saved images, to-do lists, clipped articles—virtually anything users could
     find online could be saved, archived, and synched across multiple devices.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 李宾对 Evernote 的愿景是实现无缝体验，成功地弥合了物理世界和数字世界之间的鸿沟。为了实现这一目标，Evernote 将每一条信息——从实际手写笔记到保存的
+    URL 链接——都视为“笔记”，并将其组织成主题“笔记本”。这是一个巧妙而熟悉的惯例，至今 Evernote 仍在使用。即使在早期阶段，Evernote 的功能也令人印象深刻。用户可以在几秒钟内保存各种信息。数字化的手写笔记、音频录音、用户移动设备上拍摄的图片、保存的图像、待办事项列表、剪贴的文章——几乎用户在网上找到的任何东西都可以保存、归档并在多个设备之间同步。
 - en: However, the real brilliance of Evernote was its search functionality, what
     Libin described as “the electronic version of having something at the tip of your
     tongue.” Users could search for saved items using an amazing range of search criteria,
@@ -262,12 +326,17 @@
     our memories work. This wasn’t just vital to Evernote’s core purpose. It was essential
     in recreating the rewarding, satisfying feeling of remembering something that
     would come to define the experience of using Evernote as a product.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，Evernote 真正的亮点在于其搜索功能，李宾描述为“电子版的舌尖上的东西”。用户可以使用惊人范围的搜索条件搜索保存的项目，包括日期、关键词、主题、位置、联系人，或以上任意组合。用户甚至可以下载附加组件，允许根据图像的主要颜色搜索笔记。这使得查找保存的笔记变得更加容易，因为用户只需回忆起一个细节就可以开始搜索，就像我们的记忆工作方式一样。这不仅对
+    Evernote 的核心目标至关重要，而且在重新创造记忆的愉悦、满足感方面也是必不可少的，这将定义使用 Evernote 作为产品的体验。
 - en: '*“Evernote finds the way your mind works and gives you more and more hooks
     into your memories.” — Andrew Sinkov, former VP of Marketing for Evernote*'
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: “Evernote 找到了你的思维方式，并为你提供了越来越多的记忆钩子。” —— Andrew Sinkov，Evernote 前市场营销副总裁
 - en: This sense of fun and satisfaction was critical in Libin’s view. Evernote’s
     unique position in the rapidly growing personal productivity space wasn’t lost
     on the company’s CEO. Evernote faced incumbent competitors at every turn. Box,
@@ -276,11 +345,17 @@
     Evernote preceded the wave of free online image editing tools that began with
     the launch of Canva back in 2012, but Evernote’s image-editing tools were far
     from unique.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 在李宾看来，这种乐趣和满足感至关重要。Evernote 在快速增长的个人生产力领域中的独特地位并没有被该公司的首席执行官忽视。Evernote 在每一个转折点都面临着现有竞争对手。Box、Dropbox、iCloud
+    和 Google Drive 已经主导了在线存储领域。Instapaper 提供了网页剪贴工具，而它的主要竞争对手 Spool 已经停止运营。Evernote
+    在 2012 年 Canva 推出之前就先于免费在线图像编辑工具的浪潮，但 Evernote 的图像编辑工具并不独特。
 - en: To Libin, the experience of using Evernote would be its competitive advantage.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 对李宾来说，使用 Evernote 的体验将是其竞争优势。
 - en: Libin’s product philosophy was responsible for one of Evernote’s few hardware-based
     flaws—storing data natively on users’ machines and devices. Libin believed that
     a responsive feel was crucial to the Evernote experience, and that the delay between
@@ -290,15 +365,21 @@
     hard drives](https://producthabits.com/how-spotify-built-a-20-billion-business-by-changing-how-people-listen-to-music/).
     Libin wanted the Evernote experience to feel similarly responsive, and believed
     that this would be central to user satisfaction with that experience.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 李宾的产品理念导致了 Evernote 的少数基于硬件的缺陷之一——在用户的设备上本地存储数据。李宾认为，响应速度对于 Evernote 的体验至关重要，搜索和找到结果之间的延迟应该是微乎其微的。这正是驱动
+    Spotify 早期发展的原则。丹尼尔·埃克希望 Spotify 让用户感觉就像拥有整个世界的音乐都在他们的硬盘上一样。李宾希望 Evernote 的体验也能够同样具有响应性，并相信这将是用户对该体验满意度的核心。
 - en: Unfortunately, Libin was fighting a losing battle. As Evernote doubled down
     on native storage, every other service provider was focusing on the cloud. Although
     this decision didn’t create any existential problems for Evernote in 2008, it
     was the first sign that Evernote was diverging from the broader trends in tech
     that would cause the company so many headaches later on.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 不幸的是，李宾正在进行一场失败的战斗。随着 Evernote 加大本地存储的投入，其他所有服务提供商都在专注于云端。尽管这个决定在 2008 年并没有给
+    Evernote 带来任何存在问题，但这是 Evernote 与后来会给公司带来许多麻烦的科技趋势背道而驰的第一个迹象。
 - en: Evernote launched as a freemium product. This was vitally important to Libin.
     He believed that Evernote would become increasingly valuable to users the longer
     they used the product and the more they captured and stored within it. As such,
@@ -307,19 +388,25 @@
     restrictions or other incentives for users to upgrade from free to paid plans.
     In fact, the only benefit of upgrading to a paid, $5-per-month subscription was
     additional storage space.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote作为一款免费产品推出。这对利宾来说至关重要。他相信，用户使用产品的时间越长，捕捉和存储的内容越多，Evernote对用户的价值就会越来越大。因此，利宾希望尽可能地使Evernote变得粘性，并通过使产品的免费版本非常慷慨来实现这一目标。几乎没有功能限制或其他激励措施让用户升级到付费计划。事实上，升级到每月5美元的付费订阅的唯一好处是额外的存储空间。
 - en: '*“I don’t need to squeeze money out of you. I’ll have the rest of your life
     to take your money. It’s my long-term greedy strategy. Our slogan is, ‘We’d rather
     you stay than pay.''” — Phil Libin, former CEO of Evernote*'
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: “我不需要从你身上榨取钱财。我会有你的余生来拿你的钱。这是我的长期贪婪策略。我们的口号是，‘我们宁愿你留下来，也不愿你付款。’”- 菲尔·利宾，Evernote的前CEO
 - en: Libin’s attitudes toward freemium software may have been popular with Evernote’s
     growing userbase, but it was repellent to investors. One VC after another turned
     Libin’s company down. There were no complaints about the product—far from it—but
     there just wasn’t enough incentive for free users to upgrade to paid plans.
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 利宾对免费软件的态度可能受到了Evernote不断增长的用户群的欢迎，但对投资者来说却是令人反感的。一个接一个的风险投资公司拒绝了利宾的公司。对产品没有任何抱怨，相反，但是对于免费用户升级到付费计划来说，没有足够的激励。
 - en: After struggling to secure institutional investment, Evernote entered into an
     agreement with a European VC that would have seen the company receive $10M in
     funding. On the morning in October 2008 when the two parties were due to meet
@@ -328,26 +415,35 @@
     realization that Evernote as a company would not survive. With little money and
     fewer prospects, Libin agonized about how he would break the news to his team
     and employees.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 在努力获得机构投资的过程中，Evernote与一家欧洲风险投资公司达成协议，该公司将获得1000万美元的资金。2008年10月的一个早晨，当两家公司应该会面签署文件时，投资者取消了会议并撤回了资金提供的提议。手头只有三周的现金，利宾意识到Evernote作为一家公司将无法生存。资金匮乏，前景渺茫，利宾苦恼于如何向团队和员工传达这个消息。
 - en: It was around that time that Libin received an email from a Swedish user who
     loved Evernote. The user, whose identity remains a secret to this day, told Libin
     that Evernote had made him happier and more productive. However, the Swedish user
     didn’t want to just tell Libin how much they loved the app—they wanted to invest.
     Libin admitted that the company was in need of funding, at which point the mysterious
     Swedish Evernote evangelist offered to front the company $500,000.
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 大约在那个时候，利宾收到了一封来自瑞典用户的电子邮件，他热爱Evernote。这位用户，至今身份仍然是个秘密，告诉利宾，Evernote让他更快乐、更有生产力。然而，这位瑞典用户不仅仅想告诉利宾他有多么喜欢这个应用程序，他还想投资。利宾承认公司需要资金，此时神秘的瑞典Evernote传道者提出为公司提供50万美元的资金。
 - en: Evernote was saved.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote得救了。
 - en: '*“He was just a computer nerd and entrepreneur. He had some money and fell
     in love with our product, simple as that. It was just good luck. Had I gone to
     bed ten minutes earlier, I wouldn’t have opened his email right away and probably
     gone into work and closed the business.” — [Phil Libin](https://www.americanexpress.com/en-us/business/trends-and-insights/articles/phil-libin-of-evernote-building-an-empire/),
     former CEO of Evernote*'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 他只是一个计算机迷和企业家。他有一些钱，爱上了我们的产品，就这么简单。这只是好运气。如果我早睡了十分钟，我就不会立刻打开他的电子邮件，可能会去工作并关闭公司。-
+    [菲尔·利宾](https://www.americanexpress.com/en-us/business/trends-and-insights/articles/phil-libin-of-evernote-building-an-empire/)，Evernote的前CEO
 - en: Evernote’s anonymous benefactor didn’t just save the company, they opened the
     door to the kind of institutional investment Evernote had been chasing before
     the global economy tanked. Evernote kicked off a series of funding rounds over
@@ -358,28 +454,39 @@
     Just under a year later in October 2010, Evernote raised another $20M as part
     of its Series C round, again led by Sequoia, as well as another $50M as part of
     a venture round led by Sequoia in July 2011.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: Evernote的匿名恩人不仅拯救了公司，还为Evernote一直追求的机构投资打开了大门。在接下来的两年里，Evernote展开了一系列融资轮次，将公司推向了新的增长高度。公司首次在2009年9月由DoCoMo
+    Capital领导的A轮融资中筹集了2600万美元。两个月后的2009年11月，Evernote在由Morgenthaler Ventures和Sequoia
+    Capital领导的B轮融资中再次筹集了1000万美元。不到一年后的2010年10月，Evernote在由Sequoia领导的C轮融资中再次筹集了2000万美元，以及在2011年7月由Sequoia领导的风险轮中筹集了5000万美元。
 - en: Evernote had gone from venture capital pariah to Silicon Valley darling in less
     than three years, raising a total of more than $100M in the process.
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 在不到三年的时间里，Evernote从风险投资的受害者变成了硅谷的宠儿，这期间筹集了超过1亿美元的资金。
 - en: Libin’s company took full advantage of its sudden reversal of fortunes, using
     much of its new funding to expand its engineering teams and expand beyond the
     company’s headquarters in Redwood City, California. One thing Evernote didn’t
     spend a cent of its newfound fortune on, however, was advertising.
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 利宾的公司充分利用了其突然逆转的命运，利用大部分新资金扩大了其工程团队，并超越了位于加利福尼亚州雷德伍德城的总部。然而，Evernote并没有在新获得的财富上花一分钱用于广告。
 - en: Since launching in private beta in 2008, Evernote’s growth had been gradual,
     steady, and entirely organic. The product had more than 125,000 users before Evernote
     emerged from its closed beta, thanks in part to an article on TechCrunch that
     drove several thousand sign-ups.
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote User Growth 2011](../Images/8ceb03f433f51f0d172c2c6fd8912af2.png)'
+  id: totrans-61
   prefs: []
   type: TYPE_IMG
 - en: '[Source: SlideShare](https://www.slideshare.net/nasakin/evernote-overview-sept-2011)'
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
 - en: During the closed beta, Evernote was invite-only. However, while many products
@@ -388,6 +495,7 @@
     native applications across multiple platforms in real time and working with a
     new type of backend server architecture, Libin’s engineers were more concerned
     with the stability of their systems than manufacturing hype.
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
 - en: '*“The fact that you have to sign up and send around invites to get in actually
@@ -395,12 +503,14 @@
     beta as a marketing exercise. We were frankly terrified that everything would
     crash all the time.” — [Phil Libin](http://www.doeswhat.com/2012/02/25/interview-with-phil-libin-evernote),
     former CEO of Evernote*'
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote’s freemium model may have been a dislike for investors, but Libin’s
     instincts about slow-burn, long-term growth had been proven right. In early 2011,
     just three years after launching, Evernote became profitable. Evernote had 80
     employees, more than 10M users, and annual sales of approximately $16M.
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
 - en: Having been dangerously close to the brink of disaster, Evernote had emerged
@@ -408,9 +518,11 @@
     company had achieved profitability in just three years, and the future looked
     bright for Evernote––until the company began to lose its way in 2011 with a series
     of failed product launches that jeopardized everything the company had built.
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
 - en: '2011-2015: New Products, New Markets, New Problems'
+  id: totrans-67
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
@@ -422,6 +534,7 @@
     an attempt to diversify its revenue streams, the company embarked upon a series
     of disastrous product launches that confused users and investors alike—all of
     which took the company farther and farther away from the core vision of its founders.
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
 - en: 'In the summer of 2011, Evernote released the first of three standalone products
@@ -433,6 +546,7 @@
     could use either Peek’s questions or their own answers as the basis of Notebooks
     within the main Evernote app, but Peek offered users little real utility besides
     a momentary distraction.'
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
 - en: 'A few months later in December 2011, Evernote released two more standalone
@@ -445,12 +559,15 @@
     Food and the main Evernote app were the integrations with Facebook and Twitter.
     Customers could use these integrations to share details of their last amazing
     meal with their networks, and some food-specific navigational elements.'
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Food](../Images/100506da4b9e0d2583a861567ef708ea.png)'
+  id: totrans-71
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Behance](https://www.behance.net/gallery/6761663/Evernote-Food-for-iOS)'
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote Hello was an even stranger app than Evernote Food. The purpose of Hello
@@ -463,6 +580,7 @@
     Pay and allows mobile devices to exchange small amounts of data. Hello didn’t
     even have a rudimentary electronic business card reader. Every field had to be
     completed by hand.
+  id: totrans-73
   prefs: []
   type: TYPE_NORMAL
 - en: Users and investors alike were completely baffled by Food and Hello. Firstly,
@@ -472,15 +590,19 @@
     sin for a contact manager product. Asking either users themselves or their new
     acquaintances to enter contact details manually was an immense barrier for the
     product to overcome and one with virtually no payoff for users.
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Hello](../Images/af8f31bbec9f3aaa4cc547b85c6ca977.png)'
+  id: totrans-75
   prefs: []
   type: TYPE_IMG
 - en: '[Source: El androide libre](https://elandroidelibre.elespanol.com/2012/05/evernote-hello-una-nueva-agenda-para-no-olvidar-a-tus-nuevos-contactos.html)'
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
 - en: It isn’t hard to see the reasoning behind the two products.
+  id: totrans-77
   prefs: []
   type: TYPE_NORMAL
 - en: Food selfies wouldn’t become the pop-cultural staple they are today for several
@@ -488,6 +610,7 @@
     and sharing it on social media by 2011\. Evernote Food was a transparent attempt
     by Evernote to become the primary destination for food photography, a position
     dominated by Flickr at that time.
+  id: totrans-78
   prefs: []
   type: TYPE_NORMAL
 - en: Although it may not have seemed like it at the time, Evernote Hello aligned
@@ -499,11 +622,13 @@
     new market of business users. It had to be effortless to work. As it stood, Evernote
     Hello was virtually useless and accomplished little besides diluting the Evernote
     brand.
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote’s increasing range of products was confusing, but didn’t dissuade investors.
     In May 2012, Evernote officially earned “unicorn” status—a valuation of $1B or
     more—after raising $70M as part of its Series D round led by CBC Capital.
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote didn’t need to raise any more funding. The company still had much of
@@ -513,22 +638,27 @@
     decided to create its own clone for the Chinese market, Yinxiang Biji, or “memory
     notebook.” This would ultimately prove to be a smart play, and China would later
     become Evernote’s second largest market outside the United States.
+  id: totrans-81
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Chinese](../Images/8f496be474959750b66677e5222939c3.png)'
+  id: totrans-82
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Ars Technica](https://arstechnica.com/information-technology/2013/03/evernote-so-useful-even-malware-loves-it/)'
+  id: totrans-83
   prefs: []
   type: TYPE_NORMAL
 - en: After a series of worrisome decisions and bewildering product launches, Evernote
     attempted to course-correct in August 2012 with the launch of Evernote Business.
+  id: totrans-84
   prefs: []
   type: TYPE_NORMAL
 - en: This was a logical, if predictable, move for the company. By the time Evernote
     Business launched, Evernote was wildly popular. The company had around 230 employees
     worldwide, tripled the number of developers working with Evernote’s API, and more
     than trippled its userbase from 12M to [more than 38M in just one year](https://techcrunch.com/2012/08/24/evernote-business-launch/).
+  id: totrans-85
   prefs: []
   type: TYPE_NORMAL
 - en: Having accepted almost $100M in venture funding, Evernote was under considerable
@@ -538,43 +668,53 @@
     in [much the same way Slack had done in its early growth stage](https://producthabits.com/how-slack-became-a-5-billion-business-by-making-work-less-boring/).
     To sweeten the deal, users who connected personal accounts to business accounts
     had their basic freemium accounts upgraded to Evernote Premium.
+  id: totrans-86
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Business](../Images/2e774e08a511305dea164b5fbc8773ec.png)'
+  id: totrans-87
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Engadget](https://www.engadget.com/2012/12/04/evernote-business-launches/)'
+  id: totrans-88
   prefs: []
   type: TYPE_NORMAL
 - en: The pressure to go after business users intensified further in November 2012,
     when Evernote raised an additional $85M as part of its secondary market round
     led by British venture fund M8 Capital. This brought Evernote’s total venture
     funding to more than $250M and a valuation of $2B.
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote’s next major product launch came almost a year later in September 2013\.
     However, this product wasn’t another specialized version of the Evernote app,
     it was an extensive range of physical Evernote-branded products that the company
     would sell via its new Evernote Market.
+  id: totrans-90
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Moleskine](../Images/a23cf5ef15f674e2ae76ca9c914524c9.png)'
+  id: totrans-91
   prefs: []
   type: TYPE_IMG
 - en: '[Source: The Verge](https://www.theverge.com/2013/9/26/4769844/evernote-market-lifestyle)'
+  id: totrans-92
   prefs: []
   type: TYPE_NORMAL
 - en: In the space of a few short years, Evernote had achieved profitability, had
     millions of dollars in the bank, and the company was growing fast.
+  id: totrans-93
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote Market squandered almost all of the company’s brand equity for nothing.
+  id: totrans-94
   prefs: []
   type: TYPE_NORMAL
 - en: '*“If you make different products and they’re great, people are like, ‘That’s
     genius! Clearly, the right thing to do.’ And if you focus on one product and it
     fails, people are like, ‘That company is no longer capable of innovating.''” —
     Phil Libin, former CEO of Evernote*'
+  id: totrans-95
   prefs: []
   type: TYPE_NORMAL
 - en: It’s hard to understate the damage that the branded products sold through the
@@ -582,42 +722,51 @@
     Users didn’t want Evernote-branded tablet styluses or Evernote Moleskine notebooks
     or Evernote backpacks. They wanted an organizational and productivity product
     that worked.
+  id: totrans-96
   prefs: []
   type: TYPE_NORMAL
 - en: The fact that the 2013 version of Evernote was widely considered the buggiest,
     most unstable version the company had released at that point added insult to injury.
+  id: totrans-97
   prefs: []
   type: TYPE_NORMAL
 - en: Rather than fixing the software problems that users actually cared about, Evernote
     started selling branded backpacks instead.
+  id: totrans-98
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote 2013](../Images/322917067bd4df378dc2cb43ce2b4c2e.png)'
+  id: totrans-99
   prefs: []
   type: TYPE_IMG
 - en: Evernote Market wasn’t just a troubling sign that the company—and Phil Libin
     himself—had begun to lose its way. It was another major step away from Pachikov’s
     vision of what Evernote could be.
+  id: totrans-100
   prefs: []
   type: TYPE_NORMAL
 - en: Both Pachikov and Libin shared a desire to create a “100-year company,” but
     Evernote Market did nothing to work toward or advance Pachikov’s vision of Evernote
     as an extension of the human mind. Pachikov’s vision was bold, ambitious, and
     transformative. By comparison, Evernote Market felt like a cheap cash grab.
+  id: totrans-101
   prefs: []
   type: TYPE_NORMAL
 - en: The company’s fortunes went from bad to worse in 2014\.
+  id: totrans-102
   prefs: []
   type: TYPE_NORMAL
 - en: Despite its popularity, Evernote had developed a reputation among its growing
     userbase for being a buggy, unstable product. For the most part, such grumbling
     was largely restricted to complaints on the product’s official forums and the
     occasional rant on social media.
+  id: totrans-103
   prefs: []
   type: TYPE_NORMAL
 - en: That changed when Jason Kincaid, a former TechCrunch writer, published a post
     on his [personal blog](https://jasonkincaid.net/evernote-the-bug-ridden-elephant/)
     titled “Evernote, the bug-ridden elephant.”
+  id: totrans-104
   prefs: []
   type: TYPE_NORMAL
 - en: Kincaid had been an Evernote power user for years, having captured almost 7,000
@@ -627,6 +776,7 @@
     backups, and a poor response from Evernote’s customer support team. The post went
     viral and garnered so much attention that Libin personally contacted Kincaid to
     apologize.
+  id: totrans-105
   prefs: []
   type: TYPE_NORMAL
 - en: '*“None of this has been life-shattering, but given how reliant I am on Evernote,
@@ -635,42 +785,51 @@
     more corrupted audio notes, and, worse, my paranoia is increasingly convinced
     that there may have been notes that never were saved to the archive at all.” —
     Jason Kincaid*'
+  id: totrans-106
   prefs: []
   type: TYPE_NORMAL
 - en: A little more than a year later in October 2014, Evernote unveiled its latest
     product, Work Chat. A simple messaging client, Work Chat was designed to complement
     Evernote’s Business plans.
+  id: totrans-107
   prefs: []
   type: TYPE_NORMAL
 - en: It was also long overdue. Team-based collaboration had been an enormous blind
     spot in Evernote’s vision for years. The company had already missed one major
     consumer tech trend by ignoring the exodus of products and services migrating
     to the cloud and insisting on developing Evernote as a native app.
+  id: totrans-108
   prefs: []
   type: TYPE_NORMAL
 - en: Similarly, Evernote had been designed as an organizational tool for individuals,
     when virtually every other productivity tool on the market emphasized team-based
     collaboration. Work Chat was the first small step toward solving this urgent problem.
+  id: totrans-109
   prefs: []
   type: TYPE_NORMAL
 - en: Unfortunately for Evernote, that ship had sailed.
+  id: totrans-110
   prefs: []
   type: TYPE_NORMAL
 - en: As a whole, the company had been distracted by chasing the wrong revenue streams.
     Instead of building a solid team-based product, Evernote built a food app. The
     company had expanded too quickly in the wrong direction.
+  id: totrans-111
   prefs: []
   type: TYPE_NORMAL
 - en: Everything besides the main Evernote app was a distraction from the company’s
     core mission to help people remember everything. Products like Slack and Google’s
     G Suite had successfully made the leap from personal product to collaborative
     product, whereas Evernote had not.
+  id: totrans-112
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Work Chat](../Images/6bcafb2289e170864b92355a1d40176d.png)'
+  id: totrans-113
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Up](https://www.uplabs.com/posts/evernote-work-chat)'
+  id: totrans-114
   prefs: []
   type: TYPE_NORMAL
 - en: Aside from raising an additional $20M as part of its Series E round in November
@@ -679,12 +838,14 @@
     Evernote’s Premium plans increased from $45 to $50 per year. The other major change
     to the product’s pricing was the introduction of a new, middle-tier option called
     Evernote Plus, which cost $25 per year.
+  id: totrans-115
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote changed more than just its pricing structure in 2015, it also changed
     the company’s leadership. In July 2015, Libin announced that he would be stepping
     down as Evernote’s CEO and handing the reins to former Google Glass executive,
     Chris O’Neill, as his successor.
+  id: totrans-116
   prefs: []
   type: TYPE_NORMAL
 - en: The disastrous launch of Evernote Market, the instability and bugginess of the
@@ -694,6 +855,7 @@
     reportedly showed little interest in the business side of the company. He described
     himself as “not passionate” in the announcement about O’Neill’s appointment, an
     admission as frank as it was surprising.
+  id: totrans-117
   prefs: []
   type: TYPE_NORMAL
 - en: '*“Attracting and retaining talent is a core responsibility of the CEO, and
@@ -702,20 +864,24 @@
     long-time CEO (and still executive chairman) publicly admit to not giving a shit
     about your future.” — [Josh Dickson](https://www.businessinsider.com/evernote-the-first-dead-unicorn-2015-9),
     founder of Syrah*'
+  id: totrans-118
   prefs: []
   type: TYPE_NORMAL
 - en: Libin wasn’t the only one who saw the writing on the wall. As news of O’Neill’s
     position as Evernote’s new CEO spread, many people expressed doubts about O’Neill’s
     suitability and experience––not to mention the product’s ongoing identity crisis.
+  id: totrans-119
   prefs: []
   type: TYPE_NORMAL
 - en: Libin’s failure to hire a COO until June 2015, when the company [promoted Linda
     Kozlowski](http://fortune.com/2015/06/01/evernote-has-a-new-coo-linda-kozlowski/)
     from VP of Worldwide Operations, was seen as yet another symptom of the company’s
     leadership problems.
+  id: totrans-120
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote CEO](../Images/4c02727418e1d8fe7fe1109d8176905d.png)'
+  id: totrans-121
   prefs: []
   type: TYPE_IMG
 - en: From 2011 to 2015, it seemed as though Evernote took two steps backward with
@@ -724,9 +890,11 @@
     or purpose. With each new experiment and failed product, Evernote drifted farther
     and farther away from Pachikov’s vision—an identity crisis from which Evernote
     never really recovered.
+  id: totrans-122
   prefs: []
   type: TYPE_NORMAL
 - en: '2015-Present: Returning to Evernote’s Roots'
+  id: totrans-123
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
@@ -738,6 +906,7 @@
     could save Evernote was returning to the product’s roots. For O’Neill, this meant
     getting back to Pachikov’s original vision for Evernote as an extension of the
     human mind. Unfortunately for the company, it never managed.'
+  id: totrans-124
   prefs: []
   type: TYPE_NORMAL
 - en: One of O’Neill’s first tasks as CEO was to get Evernote’s house in order. This
@@ -745,12 +914,15 @@
     had been relatively popular, but ultimately, it wasn’t worth the time and resources
     necessary to maintain it—especially considering the primary Evernote app could
     already do virtually everything Food could do.
+  id: totrans-125
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote Food](../Images/32ecdb1476995c8796e5e47f43e4df3d.png)'
+  id: totrans-126
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Evernote Forums](https://discussion.evernote.com/topic/87854-ending-support-for-evernote-food-apps-ios-and-android/)'
+  id: totrans-127
   prefs: []
   type: TYPE_NORMAL
 - en: Around six months later, the company announced it was also closing the Evernote
@@ -760,6 +932,7 @@
     Market had done considerable damage to the Evernote brand. Closing it was both
     long overdue and urgently necessary if the company was to regain its users and
     investors’ trust.
+  id: totrans-128
   prefs: []
   type: TYPE_NORMAL
 - en: A little more than two months after Evernote shuttered its Market, the company
@@ -767,6 +940,7 @@
     the company’s founding CTO, left the organization after almost nine years. Like
     many other Evernote execs who departed the company around the same time, Engberg’s
     departure was decidedly low-key.
+  id: totrans-129
   prefs: []
   type: TYPE_NORMAL
 - en: Shortly after Engberg’s exit, Evernote introduced sweeping changes to the product’s
@@ -774,19 +948,23 @@
     Free users were limited to synching their Evernote data across just two devices.
     Second, Evernote raised the price of its Plus and Premium tiers to $34.99 and
     $69.99 per year respectively, a price increase of roughly 40%.
+  id: totrans-130
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote pricing increase](../Images/e869908ced7a564826e08faf666ec7eb.png)'
+  id: totrans-131
   prefs: []
   type: TYPE_IMG
 - en: One of the biggest and most unpopular changes to Evernote, however, wasn’t its
     new pricing. It was the 60MB upload limit applied to Evernote’s free plans. For
     customers who used Evernote to upload primarily text-based notes, the new restriction
     may have felt less punitive.
+  id: totrans-132
   prefs: []
   type: TYPE_NORMAL
 - en: For users who relied on Evernote to save images and other media files, however,
     the new upload cap was brutal.
+  id: totrans-133
   prefs: []
   type: TYPE_NORMAL
 - en: '*“Our goal is to continue improving Evernote for the long term, investing in
@@ -794,6 +972,7 @@
     often-requested new features. But that requires a significant investment of energy,
     time and money.” — [Chris O’Neill](https://www.theguardian.com/technology/2016/jun/30/evernote-users-vent-anger-after-it-cuts-free-tier-and-raises-prices),
     CEO of Evernote*'
+  id: totrans-134
   prefs: []
   type: TYPE_NORMAL
 - en: For Evernote, the restructuring of its freemium product was both long overdue
@@ -801,6 +980,7 @@
     Not only had Evernote crippled its free version, severely limiting its utility
     to free users, it had also failed to fix many of the bugs that still plagued even
     paid versions of the product.
+  id: totrans-135
   prefs: []
   type: TYPE_NORMAL
 - en: To be fair to Evernote, the company had little choice but to increase prices.
@@ -810,26 +990,31 @@
     aligning with customers would have been to gradually introduce restriction incentives
     to its free version over time, rather than transitioning from a generous freemium
     product to a comparatively expensive paid service.
+  id: totrans-136
   prefs: []
   type: TYPE_NORMAL
 - en: Pricing changes are some of the most impactful things a company can do. Evernote
     didn’t put enough thought into its pricing over the years, which is why their
     once loyal userbase wasted little time in criticizing them over the new pricing
     plan.
+  id: totrans-137
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote pricing changes](../Images/0538a26badff8dd522d165d0373c94f9.png)'
+  id: totrans-138
   prefs: []
   type: TYPE_IMG
 - en: The company’s primary competitors—Microsoft’s OneNote and Apple’s Notes—weren’t
     as fully featured as Evernote, but they offered a lot more functionality free
     of charge, making Evernote’s new pricing even less appealing.
+  id: totrans-139
   prefs: []
   type: TYPE_NORMAL
 - en: The next major change to Evernote under O’Neill’s leadership came a few months
     after the product’s pricing restructure when the company announced it was migrating
     from Evernote’s own proprietary data infrastructure to Google Cloud. This was
     no small feat.
+  id: totrans-140
   prefs: []
   type: TYPE_NORMAL
 - en: At the time, Evernote had approximately [3.5 petabytes](http://fortune.com/2016/09/13/evernote-google-cloud/)––or
@@ -844,6 +1029,7 @@
     capturing information even easier. This made [Google’s Cloud Machine Learning
     Engine](https://cloud.google.com/customers/evernote/) the ideal choice for intelligent,
     responsive features such as voice recognition.
+  id: totrans-141
   prefs: []
   type: TYPE_NORMAL
 - en: Data security had been a thorny problem at Evernote for some time. Roughly 50
@@ -853,6 +1039,7 @@
     However, the company suffered another PR black eye when TechCrunch reported that
     the company’s [new privacy policy](https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/)
     allowed Evernote employees to read users’ private notes.
+  id: totrans-142
   prefs: []
   type: TYPE_NORMAL
 - en: '*“The latest update to the Privacy Policy allows some Evernote employees to
@@ -860,6 +1047,7 @@
     While our computer systems do a pretty good job, sometimes a limited amount of
     human review is simply unavoidable in order to make sure everything is working
     exactly as it should.”*'
+  id: totrans-143
   prefs: []
   type: TYPE_NORMAL
 - en: The policy was framed as a way for Evernote to ensure the accuracy of its machine-learning
@@ -867,37 +1055,44 @@
     Despite the company’s attempts to backtrack later, the original update to Evernote’s
     privacy policy clearly stated that users could not opt out of Evernote employees
     examining their notes.
+  id: totrans-144
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote privacy policy](../Images/46469f134232551476022e5bba5a3c22.png)'
+  id: totrans-145
   prefs: []
   type: TYPE_IMG
 - en: The backlash was powerful and immediate. Many users took to Twitter to point
     out the intrusive nature of the policy, and many agreed that the company’s response
     had been [tepid and frustratingly vague](https://mashable.com/2016/12/16/evernote-privacy-reversal/).
+  id: totrans-146
   prefs: []
   type: TYPE_NORMAL
 - en: In February 2017, O’Neill confirmed that after several difficult years, [Evernote
     was cash-flow positive](https://evernote.com/blog/turning-an-elephant/). This
     might not have been as warmly welcomed as an announcement that the company was
     once again profitable, but it was an important step for the beleaguered company.
+  id: totrans-147
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote kept a relatively low profile following the machine-learning privacy
     debacle. A year or so later, in February 2018, Evernote took another important
     step forward with the launch of Evernote Spaces, the company’s first truly collaborative
     team-based product.
+  id: totrans-148
   prefs: []
   type: TYPE_NORMAL
 - en: Spaces’ biggest problem wasn’t the product itself––it was the fact that Spaces
     was released about six years too late. Evernote should have developed Spaces back
     in 2012, rather than wasting time, money, and brand equity with Evernote Market.
+  id: totrans-149
   prefs: []
   type: TYPE_NORMAL
 - en: By the time Spaces was released, the team-based productivity market was already
     saturated with far superior products, including Slack for real-time communication,
     Box and Google Drive for online storage, and G Suite for personal and team-based
     collaboration. There was simply no need for Evernote Spaces.
+  id: totrans-150
   prefs: []
   type: TYPE_NORMAL
 - en: Even more ironic was the rationale behind the development of Spaces. In an interview,
@@ -905,22 +1100,27 @@
     were using the product in their personal lives and at work. Had Evernote developed
     Spaces sooner, it could have leveraged the significant overlap between individual
     and business use-cases to make greater headway into the productivity tools market.
+  id: totrans-151
   prefs: []
   type: TYPE_NORMAL
 - en: As Evernote sought to get back to its roots as a product that would help users
     remember everything, the brand underwent a significant overhaul in August 2018\.
     Evernote was in dire need of a clean start, and a major rebrand would embody the
     company’s new sense of purpose.
+  id: totrans-152
   prefs: []
   type: TYPE_NORMAL
 - en: '![Evernote brand icons](../Images/2348564db07b94c15e6c1b649f421c6e.png)'
+  id: totrans-153
   prefs: []
   type: TYPE_IMG
 - en: '[Source: Evernote Brand](https://medium.com/taking-note/ever-better-refreshing-the-evernote-brand-f3f28ff12a88)'
+  id: totrans-154
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote’s new branding was fresh, but it did little to solve the company’s
     underlying problems.
+  id: totrans-155
   prefs: []
   type: TYPE_NORMAL
 - en: The next month in September, TechCrunch reported that Evernote had lost the
@@ -928,6 +1128,7 @@
     Vincent Toolan, CPO Erik Wrobel, CTO Anirban Kundu, and Head of HR Michelle Wagner.
     These departures didn’t just broadcast to the world that Evernote was a company
     in trouble. They were symptomatic of a company that had completely lost its way.
+  id: totrans-156
   prefs: []
   type: TYPE_NORMAL
 - en: Evernote didn’t know what it should be, only what it shouldn’t be. The company
@@ -935,27 +1136,33 @@
     reliability. Evernote wasn’t able to keep up with consumer expectations which
     led the company to expand too rapidly in the wrong directions and, ultimately,
     it was left behind by newer entrants in the market.
+  id: totrans-157
   prefs: []
   type: TYPE_NORMAL
 - en: O’Neill’s efforts to right the ship after taking the helm were admirable and
     badly needed, but it’s painfully clear that Evernote will probably never be the
     extension of the human mind that Stepan Pachikov first imagined all those years
     ago.
+  id: totrans-158
   prefs: []
   type: TYPE_NORMAL
 - en: The only question now is how Evernote’s story will end and how the company will
     be remembered.
+  id: totrans-159
   prefs: []
   type: TYPE_NORMAL
 - en: Where Could Evernote Go From Here?
+  id: totrans-160
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
 - en: '![](../Images/626ead84d74f3867d42721e667fc6312.png)'
+  id: totrans-161
   prefs: []
   type: TYPE_IMG
 - en: Despite the problems that have besieged the company and product for years, Evernote
     still has a relatively large user base. Where could Evernote go from here?
+  id: totrans-162
   prefs: []
   type: TYPE_NORMAL
 - en: '**Development of a truly collaborative team-based product.** The most optimistic
@@ -966,6 +1173,7 @@
     to survive and become the 100-year company that Phil Libin always thought Evernote
     could be, it will need to develop a strong, team-based product that can compete
     with G Suite and similar tools.'
+  id: totrans-163
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
@@ -975,6 +1183,7 @@
     a team-based tool if it hopes to survive, the company will also have to take its
     legacy technical issues seriously if the company wants to win back the hearts
     and minds of formerly enthusiastic users.'
+  id: totrans-164
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
@@ -984,15 +1193,18 @@
     nowhere near ready to IPO, and while the company is likely to sell for much less
     than anyone would like, an acquisition would be an ideal end-game for the beleaguered
     company.'
+  id: totrans-165
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
 - en: What Can We Learn from Evernote?
+  id: totrans-166
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
 - en: As sad as it is, Evernote’s story offers plenty of lessons to entrepreneurs
     hoping to launch similarly ambitious products. What can we learn from Evernote?
+  id: totrans-167
   prefs: []
   type: TYPE_NORMAL
 - en: 1\. **Timing is everything even if it’s accidental.** By Phil Libin’s own admission,
@@ -1001,26 +1213,31 @@
     by its status as a launch application when the iPhone was released in 2007\. Evernote’s
     timing may have been at least partially accidental, but it played an outsized
     role in the company’s growth trajectory.
+  id: totrans-168
   prefs: []
   type: TYPE_NORMAL
 - en: 'Consider your own product:'
+  id: totrans-169
   prefs: []
   type: TYPE_NORMAL
 - en: Let’s say you have a chance to travel back through time to one year before your
     product’s launch. What, if anything, would you have done differently? How could
     you capitalize upon external trends or developments to drive initial growth, as
     Evernote did?
+  id: totrans-170
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: Would timing the release of your product have an impact on initial adoption?
     Put another way, is there anything you could do (or have done) to time your product’s
     launch to make a bigger impact?
+  id: totrans-171
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: What’s the “tailwind” at your back? Aside from your own hard work, what tailwinds
     will push your product forward?
+  id: totrans-172
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
@@ -1031,27 +1248,32 @@
     product, and Libin was right to insist on maintaining the free version’s features
     as long as he did, because it drove growth and encouraged users to become heavily
     invested in Evernote as a product.
+  id: totrans-173
   prefs: []
   type: TYPE_NORMAL
 - en: 'Think about your product’s journey thus far:'
+  id: totrans-174
   prefs: []
   type: TYPE_NORMAL
 - en: Can you recall a time in which you compromised on a product or business decision
     that you later came to regret? If so, why did you give in? Did you or your product
     gain anything by doing so, and conversely, would you have gained anything if you
     had resisted that pressure?
+  id: totrans-175
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: How well does your actual product align with your original vision for the product?
     Is it true to your vision, or have you lost sight of what your product should
     be?
+  id: totrans-176
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: Libin’s leadership was widely criticized over the years, but he did an excellent
     job of framing Evernote as a freemium company, especially when dealing with investors.
     How have you evangelized or advocated for the decisions you’ve made for your product?
+  id: totrans-177
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
@@ -1062,42 +1284,51 @@
     set the company up to fail later on, as there was no way for Evernote to course-correct
     in time to fend off emerging competitors that capitalized on the team-based collaboration
     trend.
+  id: totrans-178
   prefs: []
   type: TYPE_NORMAL
 - en: 'Consider your product and its place in the broader tech ecosystem:'
+  id: totrans-179
   prefs: []
   type: TYPE_NORMAL
 - en: What’s the single most important trend in tech facing your product and why?
+  id: totrans-180
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: Similarly, what broader technological development poses the greatest risk to
     your product? How have you mitigated this threat, and could your product move
     quickly enough in response?
+  id: totrans-181
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: How are you innovating on your original vision? Could you go after different
     segments of your primary market?
+  id: totrans-182
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
 - en: Elephants Never Forget
+  id: totrans-183
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
 - en: They say that elephants never forget, and Silicon Valley is no different. Despite
     its potential and the boldness of vision of the company’s founder, Evernote ultimately
     lost sight of that vision. By the time it realized this, it was too late.
+  id: totrans-184
   prefs: []
   type: TYPE_NORMAL
 - en: Despite still having a loyal base of hardcore users, Evernote’s future is far
     from certain. Whether the company can dig itself out of its current predicament
     remains to be seen, but there’s little doubt that Evernote will not be remembered
     kindly.
+  id: totrans-185
   prefs: []
   type: TYPE_NORMAL
 - en: '**Do you use Evernote?** *You can find your Evernote documents, alongside documents
     from other apps, in [3 clicks or less by using FYI](https://nira.com).*'
+  id: totrans-186
   prefs: []
   type: TYPE_NORMAL
