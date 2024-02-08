@@ -23,6 +23,7 @@
   id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 曾经想过为什么微服务在各种规模的团队中如此流行吗？微服务架构是假装你上个月写的代码已经不存在的完美方式！现在它被塞进一个容器并隐藏在负载均衡器后面，它就成了一个*服务*，我们可以完全忘记它，直到它出现问题，然后我们将其标记为*遗留*并用新的东西替换它。永远滚动的绿色领域！
 - en: Got a question about how one of your dependencies works? You could look at its
     implementation, or the test suite, but most engineers prefer to go to the place
     that everyone congregates to talk about - but not look at - code. Stack Overflow
@@ -31,12 +32,15 @@
   id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 有关您的某个依赖项如何工作的问题？您可以查看其实现，或测试套件，但大多数工程师更喜欢去一个所有人聚集讨论 - 但不看 - 代码的地方。Stack Overflow
+    是一个很好的资源，可以找到解决问题所需的代码，而无需自己查看大量代码！
 - en: I'm sure you've been stuck for hours begging your colleagues to review your
     pull request. Why do you think it's taking so long? You're asking them to do the
     thing they hate most - look at someone else's code!
   id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我相信你已经被困在那里数小时，恳求同事审查你的拉取请求。你觉得为什么会花这么长时间呢？你在要求他们做他们最讨厌的事情 - 查看别人的代码！
 - en: Most people reading this have at one point or another approved a non-trivial
     pull request with a simple "LGTM." You got tagged in on a bad day and didn't have
     the time to take a proper look at code written by someone else. You had work to
@@ -44,29 +48,34 @@
   id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数读者在某个时候或另一个时候批准了一个非平凡的拉取请求，只是简单地写了一个“LGTM”。你在糟糕的一天被标记了，没有时间仔细查看别人写的代码。你有工作要做！
 - en: 'Only one thing can overcome engineers'' hatred of code: their love of *writing*
     code.'
   id: totrans-7
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 只有一件事可以克服工程师对代码的厌恶：他们对*编写*代码的热爱。
 - en: Software engineers will lock themselves in a room and do nothing but write code
     for hours. Some forget to eat, sleep or poop.
   id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 软件工程师会把自己锁在房间里，只做写代码的事情数小时。有些人甚至忘记吃饭、睡觉或上厕所。
 - en: Notable engineers online invest hours of time writing *about* their code, or
     about *how* they write code. Paradoxically, engineers love reading this stuff,
     even if they never read the example code attached!
   id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在线上知名工程师投入数小时的时间写关于他们的代码，或者关于*他们如何*编写代码的文章。矛盾的是，工程师们喜欢阅读这些内容，即使他们从不阅读附带的示例代码！
 - en: Meetings of all kinds, technical and user documentation, testing, post-release
     monitoring, refactoring - all are common sources of frustration that cut into
     valuable time that could otherwise be spent writing code!
   id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 各种会议、技术和用户文档、测试、发布后监控、重构 - 这些都是常见的令人沮丧的来源，占用了本可以用来编写代码的宝贵时间！
 - en: Engineers will spend enormous effort learning or building tools to help them
     write more code. In the past couple of years, we've seen an entirely new generation
     of tooling emerge that can actually write code by itself, turning 10x engineers
@@ -74,26 +83,31 @@
   id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 工程师们将花费大量精力学习或构建工具，帮助他们编写更多的代码。在过去几年中，我们看到了一整个全新的工具生成一代，可以自己编写代码，将10倍工程师变成1000倍工程师！
 - en: '![](../Images/ccfaa542ea1999517bb74283d623cde7.png)'
   id: totrans-12
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/ccfaa542ea1999517bb74283d623cde7.png)'
 - en: '* Scientists observing engineers using AI in the wild have seen them writing
     100x more SLOC/hour!'
   id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '* 在野外观察工程师使用人工智能的科学家们发现，他们每小时写的代码行数多了100倍！'
 - en: Rarely, you will encounter engineers who have learned to temper their baser
     instincts and instead find a sick kind of joy in reading, understanding, modifying
     and even *deleting* other peoples' code. We call these odd folks "Senior Engineers."
   id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 很少见到那些学会克制自己基本本能的工程师，而是在阅读、理解、修改甚至*删除*别人代码时找到一种病态的快乐。我们称这些奇怪的人为“高级工程师。”
 - en: Senior engineers have learned through hard-won experience that writing code
     is the ultimate diminishing return.
   id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 资深工程师通过艰苦的经验学到，编写代码是最终的边际收益递减。
 - en: They know that code becomes legacy the moment the first byte is saved to disk.
     The rolling green fields of their youth are a happy delusion, distracting from
     the cold, hard truth that all code demands maintenance. They have felt the pain
@@ -101,22 +115,26 @@
   id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们知道，代码一旦保存到磁盘，就会成为遗留代码。他们年轻时的绿色草地是一种幸福的错觉，让人忽略了一个冷酷的事实，即所有的代码都需要维护。他们曾经感受到未维护系统在最糟糕的时刻崩溃的痛苦。
 - en: There are a limited number of hours in the day. The more code that gets written,
     the more things there are to break, and more of those precious hours will be taken
     up by maintenance.
   id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 一天只有有限的时间。写的代码越多，就会有更多东西需要修复，这将占用更多宝贵的时间来进行维护。
 - en: The only logical course of action is to minimize the amount of code in production
     at any given time. Senior engineers' passion for writing code has been augmented
     with an even stronger desire to delete it.
   id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 唯一合乎逻辑的做法是尽量减少任何时候在生产中的代码量。资深工程师对编写代码的热情已经被更强烈的删除代码的愿望所取代。
 - en: Code that doesn't exist can't hurt us, or the people we love.
   id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 不存在的代码不会伤害我们，也不会伤害我们所爱的人。
 - en: It demands no maintenance; it causes no downtime; it requires no testing. Senior
     engineers understand that unnecessary code should be eliminated at all costs,
     and all new code must prove its worth before being allowed to live. This is part
