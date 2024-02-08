@@ -3,15 +3,18 @@
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: Elixir每年为Pinterest节省200万美元的服务器成本
 - en: 原文：[https://paraxial.io/blog/elixir-savings](https://paraxial.io/blog/elixir-savings)
   id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://paraxial.io/blog/elixir-savings](https://paraxial.io/blog/elixir-savings)
 - en: '![](../Images/72ce3dc71c32a2774c3bb532d5e6b77d.png)'
   id: totrans-2
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/72ce3dc71c32a2774c3bb532d5e6b77d.png)'
 - en: The [Elixir programming language](https://elixir-lang.org/) is well known in
     the world of software where uptime is critical to business success. The official
     description states, “Elixir is a dynamic, functional language for building scalable
@@ -21,6 +24,7 @@
   id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '[**Elixir编程语言**](https://elixir-lang.org/)在软件界中以业务成功关键性的稳定性而闻名。官方描述称，“Elixir是一种用于构建可扩展和可维护应用程序的动态、函数式语言。”这只是对Elixir所包含的巨大力量的谦逊总结，它已经为各行业的企业节省了数百万美元。'
 - en: The book “[Adopting Elixir, From Concept to Production (2018)](https://pragprog.com/titles/tvmelixir/adopting-elixir/)“
     by Ben Marx, José Valim, Bruce Tate is an excellent guide to the strategic and
     technical reasons to use Elixir in your business. The very first chapter clearly
@@ -28,16 +32,20 @@
   id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 书籍“[《Adopting Elixir, From Concept to Production (2018)》](https://pragprog.com/titles/tvmelixir/adopting-elixir/)”由Ben
+    Marx、José Valim、Bruce Tate编写，是一个关于在业务中使用Elixir的战略和技术原因的优秀指南。第一章清楚地说明了其中的好处。
 - en: '*Pinterest used Elixir for focused, high-volume, high-impact service around
     performance tooling and monitoring. Steve Cohen is a software engineer who’s been
     working with their early adoption teams:*'
   id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '*Pinterest使用Elixir来构建专注、高容量、高影响力的性能工具和监控服务。Steve Cohen是一位软件工程师，一直与他们的早期采用团队合作：*'
 - en: '***José**: Why did you choose Elixir?*'
   id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '***José**: 为什么选择Elixir？*'
 - en: '***Steve**: We chose Elixir because we were looking for a system that was easy
     for programmers to understand and could take better advantage of our servers.
     I was intrigued at Elixir’s combination of friendly syntax, powerful metaprogramming
@@ -45,10 +53,12 @@
   id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: '***Steve**: 我们选择Elixir是因为我们正在寻找一个易于程序员理解并能更好利用我们服务器的系统。我对Elixir友好的语法、强大的元编程功能和Actor模型的结合感到着迷。*'
 - en: '***José**: How has your company benefited from Elixir?*'
   id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: '***José**: 你的公司如何从Elixir中受益？*'
 - en: '***Steve**: That’s pretty easy. When I started on the spam team, we had close
     to 1,400 servers running. When we converted several parts to Elixir, we reduced
     that by around 95%. One of the systems that ran on 200 Python servers now runs
@@ -62,6 +72,7 @@
   id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: '***Steve**: 这很简单。当我加入垃圾邮件团队时，我们有近1400台服务器在运行。当我们将几个部分转换为Elixir时，我们将其减少了大约95%。一个原本在200台Python服务器上运行的系统现在在四台Elixir服务器上运行（实际上可以在两台服务器上运行，但我们觉得四台提供了更多的容错能力）。更好的架构和Elixir的结合效果使Pinterest每年节省了200万美元的服务器成本。此外，尽管运行在大大减少的硬件上，系统的性能和可靠性也有所提高。当我们的通知系统运行在Java上时，需要30个c32.xl实例。当我们转换到Elixir时，我们只需要15个。尽管运行在更少的硬件上，响应时间显著下降，错误也减少了。*'
 - en: A language that enables companies to save money while improving reliability
     and performance seems like fantasy. Elixir is able to demonstrate this incredible
     result because the language is built on top of Erlang, a platform designed for
@@ -72,32 +83,39 @@
   id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 一种能够让公司节省成本同时提高可靠性和性能的语言似乎是幻想。Elixir能够展示这一令人难以置信的结果，因为该语言是建立在Erlang之上的，Erlang是一种设计用于必须保持在线的并发软件的平台。银行门户、电子商务网站和SaaS产品只是一些例子，大多数商业软件今天都有这个要求。Elixir改进产品同时降低成本的故事一再重演。
 - en: '![](../Images/33ba0249e71cd5c1e4ada9f9ebb10ac1.png)'
   id: totrans-11
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/33ba0249e71cd5c1e4ada9f9ebb10ac1.png)'
 - en: '* * *'
   id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: '*@coryodaniel*'
   id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '*@coryodaniel*'
 - en: '*Rewrote an #AWS APIGateway & #lambda service that was costing us about $16000
     / month in #elixir. Its running in 3 nodes that cost us about $150 / month.*'
   id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '*重写了一个在#AWS APIGateway和#lambda服务中花费约每月16000美元的#elixir。现在它在3个节点上运行，每月成本约为150美元。*'
 - en: '*12 million requests / hour with sub-second latency, ~300GB of throughput /
     day.*'
   id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '*每小时处理1200万个请求，延迟在亚秒级别，每天吞吐量约为300GB。*'
 - en: '* * *'
   id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: '[Cory O’Daniel](https://twitter.com/coryodaniel) noticed this benefit in 2018,
     [releasing a detailed technical blog post](https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc)
     based on the enormous interest his tweet generated. The above example is not surprising
@@ -109,6 +127,7 @@
   id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Cory O’Daniel](https://twitter.com/coryodaniel)在2018年注意到了这一好处，[发布了一篇详细的技术博客文章](https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc)，基于他的推文引起的巨大兴趣。对于那些曾经在复杂的无服务器系统上工作过的人来说，上述例子并不令人意外。托管成本很快变得不合理，可能无法在本地机器上运行代码进行更改，这会增加昂贵的开发时间。开发人员喜欢Elixir提供的出色体验，企业喜欢提前完成更多工作。'
 - en: 'Bleacher Report, a top real time sports and media website, was hitting scaling
     problems due to their business success. With Elixir, they were able to [8x the
     average daily traffic load, going from 150 servers to only 5](https://web.archive.org/web/20181011093614/https://www.techworld.com/apps-wearables/how-elixir-helped-bleacher-report-handle-8x-more-traffic-3653957/):'
