@@ -1,11 +1,15 @@
 - en: Please Don't Ask if an Open Source Project is Dead | Max Woolf's Blog
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 请不要询问一个开源项目是否已经死亡 | Max Woolf的博客
 - en: 原文：[https://minimaxir.com/2023/11/open-source-dead-github/](https://minimaxir.com/2023/11/open-source-dead-github/)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://minimaxir.com/2023/11/open-source-dead-github/](https://minimaxir.com/2023/11/open-source-dead-github/)
 - en: Over the past few months, I’ve had an [existential crisis](https://minimaxir.com/2023/10/ai-sturgeons-law/)
     about [my work](https://github.com/minimaxir) in open source AI on [GitHub](https://github.com),
     particularly as there has been both increasingly toxic backlash against AI and
@@ -16,32 +20,46 @@
     with 3k GitHub Stars for interfacing with [ChatGPT](https://chat.openai.com),
     and it was explicitly designed with limited scope and minimal dependencies so
     that I could take a break from development without my code&mldr;breaking.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在过去的几个月里，我对在GitHub上的开源AI工作感到[存在危机](https://minimaxir.com/2023/10/ai-sturgeons-law/)，特别是因为对AI的反感越来越严重，以及因为AI行业发展如此迅速，我根本没有足够的带宽来跟进。在那段时间里，我暂停了我的项目工作，这本应该没问题。我的最新的开源项目之一是[simpleaichat](https://github.com/minimaxir/simpleaichat)，一个用于与[ChatGPT](https://chat.openai.com)进行交互的Python包，拥有3k个GitHub星标，它明确设计为范围有限且依赖最小，以便我可以在不破坏代码的情况下休息。
 - en: After I was in a good place mentally to resume my open source work, I glanced
     at the GitHub Issues for simpleaichat and someone filed a issue simply titled
     “has this been abandoned?” with another GitHub user following up with “With all
     due respect, I am also interested in the answer.”
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我精神状态良好，准备恢复我的开源工作时，我瞥了一眼simpleaichat的GitHub问题，有人提交了一个标题简单为“这个项目已经被放弃了吗？”的问题，另一个GitHub用户跟进说“恕我直言，我也对答案感兴趣。”
 - en: What the hell? I panicked and checked if there was a new breaking issue or dependency
     and there weren’t any.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 到底怎么了？我感到恐慌，检查是否有新的重大问题或依赖项，但没有。
 - en: 'Two days later, someone else filed another issue: “Is this package still in
     ongoing development?”:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 两天后，另一个人提交了另一个问题：“这个包仍在持续开发中吗？”
 - en: '![](../Images/8568472cd40e9e444706aec12fc63cba.png)'
+  id: totrans-6
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/8568472cd40e9e444706aec12fc63cba.png)'
 - en: To be perfectly clear, this absolutely is applying pressure and being rude.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 要非常清楚，这绝对是施加压力和粗鲁的行为。
 - en: The Expectations of Open Source Software Development[#](#the-expectations-of-open-source-software-development)
+  id: totrans-8
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 开源软件开发的期望
 - en: I’ve never seen any discussions or articles about whether it’s appropriate to
     ask if an open source repository is dead. Is there an implicit contract to actively
     maintain any open source software you publish? Are you obligated to provide free
@@ -49,8 +67,10 @@
     GitHub Sponsorships/Patreon? After all, most permissive open source code licenses
     like the [MIT License](https://en.wikipedia.org/wiki/MIT_License) contain some
     variant of “the software is provided ‘as is’, without warranty of any kind.”
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 我从未见过任何关于是否适当询问开源存储库是否已经死亡的讨论或文章。是否有一种隐含的合同要积极维护您发布的任何开源软件？如果您在GitHub上获得一定数量的星标或通过GitHub赞助/Patreon寻求资金，您是否有义务提供免费支持？毕竟，大多数开源代码许可证（如[MIT许可证](https://en.wikipedia.org/wiki/MIT_License)）都包含“软件按原样提供，不附带任何形式的保证”。
 - en: simpleaichat regretfully isn’t my first open source project with complaints
     like this. The [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings)
     to track adversarial user-input text strings, which I pushed to GitHub about a
@@ -59,14 +79,20 @@
     the list that don’t target a distinct string issue may clutter the list more than
     it already is so I’m hesitant to accept every pull request. But despite that,
     people are angry.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 遗憾的是，simpleaichat并不是我第一个有这种投诉的开源项目。我大约十年前推送到GitHub的[Naughty Strings大列表](https://github.com/minimaxir/big-list-of-naughty-strings)用于跟踪对抗性用户输入文本字符串，基本上只是一个带有45k个GitHub星标的`txt`文件。永远不会有依赖问题，而且对列表的添加如果不针对特定字符串问题，可能会使列表变得更加混乱，因此我不愿意接受每个拉取请求。但尽管如此，人们还是生气。
 - en: '![The duality of comment reactions.](../Images/31a65299a4129bef1ff22563ee67380d.png)'
+  id: totrans-11
   prefs: []
   type: TYPE_IMG
+  zh: '![评论反应的二元性。](../Images/31a65299a4129bef1ff22563ee67380d.png)'
 - en: The duality of comment reactions.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 评论反应的二元性。
 - en: 'Some seem to think that there’s such a thing as GitHub Issue-zero or pull request-zero,
     which like [inbox-zero](https://www.techtarget.com/whatis/definition/inbox-zero)
     is infeasible in practice due to the realities of professional life. ^(Every nontrivial
@@ -75,8 +101,10 @@
     queue. That’s something I’ve had to repeatedly learn the hard way as a maintainer
     since accepting a misguided PR will create [technical debt](https://en.wikipedia.org/wiki/Technical_debt)
     and take even more effort to address.)'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 有些人似乎认为GitHub问题零或拉取请求零是存在的，就像[inbox-zero](https://www.techtarget.com/whatis/definition/inbox-zero)一样，在实践中是不可行的，这是由于职业生活的现实。^(每个非平凡的开源项目都会有一个问题/PR队列，这需要对优先级进行分类：不是所有问题和PR都是相等的，需要时间和精力来筛选队列。这是我作为维护者不得不反复吸取的教训，因为接受一个错误的PR会产生[技术债务](https://en.wikipedia.org/wiki/Technical_debt)，并需要更多的努力来解决。)
 - en: I get that it’s a bummer to come across a cool GitHub project that hasn’t been
     updated in awhile. That happens to me all the time. If the code still works, that’s
     excellent and I’m happy. But if it doesn’t, I move on, or use it as a fun new
@@ -84,16 +112,20 @@
     an inactive open source project that’s absolutely critical for your own commercial
     project, then that’s a good financial reason to offer a consulting contract or
     a bounty to add the appropriate functionality.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 我知道发现一个很酷的GitHub项目很久没有更新是令人沮丧的。我经常遇到这种情况。如果代码仍然有效，那太好了，我很高兴。但如果不行，我会继续前进，或者将其作为一个有趣的新机会来满足我的需求。这就是开源的美妙之处！如果有一个不活跃的开源项目对你自己的商业项目非常关键，那么这是一个提供咨询合同或悬赏以添加适当功能的好理由。
 - en: One of the great things about open source is that if an open source project
     with a permissive license does become inactive, it can be [forked](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
     seamlessly. Sometimes the fork can become even better than the original project,
     which is great for everyone! But in my experience, it’s instead used as a *threat*.
     And it’s the maintainer’s fault for creating a reason for a fork to be made and
     fragment the development community.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源的一个伟大之处在于，如果一个具有宽松许可的开源项目变得不活跃，它可以无缝地被[分叉](https://docs.github.com/en/get-started/quickstart/fork-a-repo)。有时分叉甚至可以变得比原始项目更好，这对每个人都是好事！但根据我的经验，它却被用作一种*威胁*。这是维护者的错，因为他们创造了一个分叉的理由，并使开发社区分裂。
 - en: The AI industry is unique because it is indeed moving and evolving so fast that
     development expectations have shifted. Recent beneficiaries of the ChatGPT boon
     such as [LangChain](https://github.com/langchain-ai/langchain), [LlamaIndex](https://github.com/run-llama/llama_index),
@@ -101,8 +133,10 @@
     false sense that open source AI projects have to **always be shipping** 🚀🚀🚀. The
     difference is that they are maintained by those who do it as their full-time job
     and are now managed as companies backed by significant amounts of venture capital.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 人工智能行业是独特的，因为它确实发展迅速，发展预期已经发生变化。最近受益于ChatGPT繁荣的项目，如[LangChain](https://github.com/langchain-ai/langchain)、[LlamaIndex](https://github.com/run-llama/llama_index)和[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)已经产生了一种错误的观念，即开源人工智能项目必须**始终在运行**🚀🚀🚀。不同之处在于，它们由全职从事此工作的人维护，并且现在作为获得大量风险资本支持的公司进行管理。
 - en: The pressure to continually provide support for an open source project has become
     the biggest deterrent for me to continue my open source work. Personally, I’ve
     stopped pushing fun one-shot projects and AI models because I likely will not
@@ -111,11 +145,15 @@
     job as a Data Scientist to work on my open source projects full-time if I was
     able to make an equivalent salary by doing so. Ultimately, the only way to make
     it work nowadays would be to raise venture capital like all those AI startups.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 持续为开源项目提供支持的压力已经成为我继续进行开源工作的最大阻力。就个人而言，我已经停止推动有趣的一次性项目和人工智能模型，因为当项目的依赖关系在几年后出现问题时，我可能没有足够的带宽来处理不可避免的“嗨，这个有问题，请修复，谢谢”私信。如果我能够通过全职从事开源项目工作获得相当的薪水，我愿意辞去我作为数据科学家的专业工作。最终，如今使其运作的唯一方法将是像所有那些人工智能初创公司一样筹集风险资本。
 - en: The best-case scenario for asking if an open source project is dead is that
     you annoy the maintainers and delay development. The *worst*-case scenario is
     that you give the maintainers an opportunity to reconsider if continuing to work
     on the open source project is worth it.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 询问一个开源项目是否已经停止更新的最好情况是你会惹恼维护者并延迟开发。*最糟糕*的情况是你给了维护者一个重新考虑是否继续在开源项目上工作的机会。

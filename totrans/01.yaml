@@ -1,15 +1,21 @@
 - en: Signal >> Blog >> Privacy is Priceless, but Signal is Expensive
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: Signal >> 博客 >> 隐私无价，但Signal很昂贵
 - en: 原文：[https://signal.org/blog/signal-is-expensive/](https://signal.org/blog/signal-is-expensive/)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://signal.org/blog/signal-is-expensive/](https://signal.org/blog/signal-is-expensive/)
 - en: '![An illustration of a phone screen displaying the Signal interface. Every
     interface element is represented by photos of currencies from around the world.](../Images/aef94ef170d217d2a6e073267809a748.png)'
+  id: totrans-2
   prefs: []
   type: TYPE_IMG
+  zh: '![一幅显示Signal界面的手机屏幕插图。每个界面元素都用来自世界各地的货币的照片来代表。](../Images/aef94ef170d217d2a6e073267809a748.png)'
 - en: Signal is the world’s most widely used truly private messaging app, and our
     cryptographic technologies provide extra layers of privacy beyond the Signal app
     itself. Since launching in 2013, the Signal Protocol—our end-to-end encryption
@@ -25,8 +31,10 @@
     to communicate privately is one reason that we work in the open, documenting our
     thinking and [making our code open source](https://github.com/signalapp) and open
     to scrutiny—so you don’t have to take our word for it.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal是世界上最广泛使用的真正私密的消息应用程序，我们的加密技术提供了超越Signal应用程序本身的额外隐私层。自2013年推出以来，Signal协议——我们的端到端加密技术——已成为私人通信的事实标准，保护了WhatsApp、Google消息等数十亿对话的内容。Signal还继续投资于研究和开发，以扩展通信隐私。这一承诺支撑着我们最近为Signal协议添加[量子抗性](/blog/pqxdh/)一层的工作，以及我们之前关于[元数据保护技术](/blog/sealed-sender/)的工作，帮助保护个人详细信息，如您的[联系人列表](/blog/building-faster-oram/)、[群组成员](/blog/signal-private-group-system/)、[个人资料名称](/blog/signal-profiles-beta/)和其他私密信息。我们专注于保护私密通信能力的这一独特重点是我们在公开环境中工作的原因，记录我们的思考，并[使我们的代码开源](https://github.com/signalapp)并开放供审查——这样您就不必相信我们的话。
 - en: Signal is also a nonprofit, unlike almost every other consumer tech company.
     ^(This provides an essential structural safeguard ensuring that we stay true to
     our privacy-focused mission. To put it bluntly, as a nonprofit we don’t have investors
@@ -39,8 +47,10 @@
     feeds and notifications. While Signal is also free to use, we reject this kind
     of manipulation, focusing instead on creating a straightforward interpersonal
     communications app. We also reject business models that incentivize such practices.)
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal也是一个非营利组织，与几乎所有其他消费者科技公司不同。这提供了一个重要的结构保障，确保我们忠于我们以隐私为重点的使命。坦率地说，作为一个非营利组织，我们没有投资者或以盈利为目的的董事会成员在困难时期敲门，敦促我们“牺牲一点隐私”以达到增长和货币目标。在一个“免费”消费者科技几乎总是通过监视和侵犯隐私来支持的行业中，这一点非常重要。这种做法通常伴随着“增长黑客”和最大化参与度的技术，利用[黑暗模式](https://en.wikipedia.org/wiki/Dark_pattern)让人们沉迷于信息流和通知。虽然Signal也是免费使用的，但我们拒绝这种操纵，而是专注于创建一个直接的人际通信应用程序。我们还拒绝激励这种做法的商业模式。
 - en: 'Instead of monetizing surveillance, we’re supported by donations, including
     a generous initial loan from Brian Acton. Our goal is to move as close as possible
     to becoming fully supported by small donors, relying on a large number of modest
@@ -48,8 +58,10 @@
     form of funding in terms of sustainability: ensuring that we remain accountable
     to the people who use Signal, avoiding any single point of funding failure, and
     rejecting the widespread practice of monetizing surveillance.'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们不通过监视来获利，而是通过捐赠支持，包括Brian Acton的慷慨初次贷款。我们的目标是尽可能接近完全依靠小额捐赠的支持，依靠许多关心Signal的人的大量适度捐款。我们认为这是最安全的资金形式，可以确保我们对使用Signal的人负责，避免任何单一的资金失败点，并拒绝广泛实践的监视化。
 - en: But our nonprofit structure doesn’t mean it costs less for Signal to produce
     a globally distributed communications app. Signal is a nonprofit, but we’re playing
     in a lane dominated by multi-billion-dollar corporations that have defined the
@@ -58,8 +70,10 @@
     spends tens of millions of dollars every year. **We estimate that by 2025, Signal
     will require approximately $50 million dollars a year to operate—*and this is
     very lean compared to other popular messaging apps that don’t respect your privacy***.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 但我们的非营利结构并不意味着Signal生产全球分布的通信应用成本更低。Signal是一个非营利组织，但我们在一个由几十亿美元公司主导的领域中发挥作用，这些公司已经定义了规范并建立了科技生态系统，其商业模式直接违反了我们的隐私使命。因此，为了提供一个真正有用的替代方案，Signal每年花费数千万美元。**我们估计到2025年，Signal每年需要大约5000万美元的运营费用——*与其他不尊重您隐私的流行消息应用相比，这是非常节俭的***。
 - en: Here we review some of these costs and where this money goes, in the name of
     providing more transparency into Signal. But we hope to do more than that. Where
     money goes and how it’s made is a bit of a taboo in tech, something that most
@@ -71,19 +85,25 @@
     privacy-preserving alternative technology, and contribute to establishing a solid
     foundation from which we can grow alternatives that contest tech surveillance
     and the incentives behind it.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这里，我们回顾了一些这些成本以及这些资金的去向，以提供更多关于Signal的透明度。但我们希望做得更多。资金去向和如何赚取资金在科技领域有点禁忌，大多数科技公司都避免谈论这些。消费者科技的实际成本通常隐藏在创新故事和“免费”一词背后，高度盈利的科技行业的产品营销与利润和收入的进出之间的联系通常不明确。我们相信，这些动态的实质地图可以帮助澄清实现保护隐私的替代技术梦想所需的是什么，并有助于建立一个坚实的基础，从而我们可以发展竞争科技监控和其背后激励的替代方案。
 - en: This is not a comprehensive overview—this post isn’t meant to provide a full
     accounting or to review every line item in detail. Instead, we focus on illustrative
     examples, looking at infrastructure and labor in particular. We’ll also explore
     average costs that in practice vary dynamically in relation to factors that are
     often outside of our control.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 这并不是一个全面的概述——这篇文章并不旨在提供全面的会计或详细审查每一项细节。相反，我们专注于举例说明，特别关注基础设施和劳动力。我们还将探讨实际上与通常超出我们控制范围的因素动态变化相关的平均成本。
 - en: Infrastructurally Different
+  id: totrans-9
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 基础设施上的不同
 - en: 'We’ll start with an overview of some of Signal’s biggest infrastructural costs—what
     we pay for the utilities and services that let Signal reach you. These include
     the temporary storage of end-to-end encrypted data for message delivery; the global
@@ -93,35 +113,53 @@
     required to efficiently route end-to-end encrypted messages and calls around the
     world; and some of the additional services that keep everything running smoothly.
     We’ll dive into each of these in more detail, but here’s a quick breakdown:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们将从概述Signal的一些最大基础设施成本开始——这些成本是让Signal能够联系到您的公用事业和服务费用。这些包括临时存储端到端加密数据以进行消息传递；每天处理数十亿请求的全球服务器网络；在注册过程中发送验证码以帮助验证电话号码并防止垃圾账户的注册费用；为有效路由端到端加密消息和通话所需的带宽；以及一些保持一切正常运行的额外服务。我们将更详细地探讨每个方面，但这里是一个快速的分解：
 - en: '**Storage:** $1.3 million dollars per year.'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '**存储：**每年130万美元。'
 - en: '**Servers:** $2.9 million dollars per year.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '**服务器：**每年290万美元。'
 - en: '**Registration Fees:** $6 million dollars per year.'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '**注册费用：**每年600万美元。'
 - en: '**Total Bandwidth:** $2.8 million dollars per year.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '**总带宽：**每年280万美元。'
 - en: '**Additional Services:** $700,000 dollars per year.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '**额外服务：**每年70万美元。'
 - en: '**Current Infrastructure Costs (as of November 2023):** Approximately $14 million
     dollars per year.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**当前基础设施成本（截至2023年11月）：**每年约1400万美元。'
 - en: The Cost of Storing Nothing and Serving Everyone
+  id: totrans-17
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 不存储数据并为所有人提供服务的成本
 - en: Data is profitable, and we’re a nonprofit focused on collecting as little data
     as possible.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 数据是有利可图的，而我们是一个专注于尽可能收集尽可能少数据的非营利组织。
 - en: Most tech companies collect and create as much data as they can. They build
     large [data warehouses](https://en.wikipedia.org/wiki/Data_warehouse), and then
     later invent new terms like [“data lake”](https://en.wikipedia.org/wiki/Data_lake)
@@ -133,16 +171,20 @@
     after [data breach](https://www.npr.org/2023/07/12/1187208383/china-hack-us-government-microsoft),
     hoping to monetize this data by indirectly (or directly) selling it to advertisers
     or using it to train AI models. Again, data is profitable.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数科技公司会尽可能收集和创建尽可能多的数据。他们建立大型[数据仓库](https://en.wikipedia.org/wiki/Data_warehouse)，然后在他们对您的更多私人信息的无尽渴望无法适应单个仓库的限制时，后来发明新术语如[“数据湖”](https://en.wikipedia.org/wiki/Data_lake)。他们的默认做法是尽可能长时间地以易于访问和未加密的格式存储一切，遭受[数据泄露](https://www.theverge.com/2022/11/28/23481786/meta-fine-facebook-data-leak-ireland-dpc-gdpr)、[数据泄露](https://news.bloomberglaw.com/privacy-and-data-security/google-tax-firms-see-data-privacy-suits-after-congress-report)、[数据泄露](https://www.npr.org/2023/07/12/1187208383/china-hack-us-government-microsoft)之后，希望通过间接（或直接）将数据出售给广告商或用于训练AI模型来实现数据的盈利。再次强调，数据是有利可图的。
 - en: In contrast, Signal’s default move is to [end-to-end encrypt everything that
     we possibly can](/blog/looking-back-as-the-world-moves-forward/) and to [store
     as little as possible](/bigbrother/)—all while making sure your messages are delivered
     promptly and your calls are clear and free of delays. We do this by taking advantage
     of globally distributed hosting infrastructure and by paying for significant amounts
     of bandwidth from some of the top providers in the world.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 相比之下，Signal的默认做法是[尽可能对所有内容进行端到端加密](/blog/looking-back-as-the-world-moves-forward/)，并[尽可能少地存储](/bigbrother/)数据——同时确保您的消息能够及时送达，您的通话清晰无延迟。我们通过利用全球分布式托管基础设施，并向世界顶级供应商支付大量带宽来实现这一点。
 - en: Just like everything else in Signal, messages and files are always end-to-end
     encrypted. When you send a message, the Signal service *temporarily queues* that
     message for delivery. As soon as your message is delivered, that small bundle
@@ -151,8 +193,10 @@
     encrypted data is automatically purged after a period of inactivity. Even though
     everything is only temporary, **this storage still costs Signal around $1.3 million
     dollars per year**.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 就像Signal中的其他一切一样，消息和文件始终是端到端加密的。当您发送一条消息时，Signal服务会将该消息暂时排队等待传递。一旦您的消息传递成功，那个小包含加密数据的数据包（即您的消息）就可以从队列中删除。端到端加密文件的存储也是临时的，任何未传递的端到端加密数据在一段时间的不活动后会自动清除。尽管一切都是临时的，但这种存储每年仍然会给Signal带来大约130万美元的成本。
 - en: This is a lot of money, although it’s less than it would cost if we stored everything
     forever. But unlike the tech companies that collect and store everything, we don’t
     have (and do not want to have) any surveillance data to sell or use to recoup
@@ -165,16 +209,20 @@
     We believe that the inability to monetize encrypted data is one of the reasons
     that strong end-to-end encryption technology has not been widely deployed across
     the commercial tech industry.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一笔很大的开支，尽管比永久存储所有内容要少。但与那些收集和存储所有数据的科技公司不同，我们没有（也不想有）任何监视数据可出售或用来收回这些成本。我们无法阅读或访问任何端到端加密的消息，因为解密所需的密钥在您手中，而不是我们手中。这不仅仅是关于您的消息。Signal还使用我们的元数据加密技术来保护有关谁与谁通信的亲密信息-我们不知道谁给您发送消息，我们也无法访问您的通讯录或个人资料信息。我们认为无法将加密数据变现是强大的端到端加密技术尚未在商业科技行业广泛部署的原因之一。
 - en: In order to provide a globally accessible, reliable, and high-performance communications
     service for the many millions of people around the world who depend on Signal,
     it’s necessary for Signal’s servers to be globally distributed. Having a geographically
     distributed network of servers is particularly important for end-to-end encrypted
     voice and video calls, because latency can result in audio delays or degraded
     video connections that quickly make the app unusable for real-time communication.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了为全球数百万依赖Signal的人提供全球可访问、可靠和高性能的通信服务，Signal的服务器需要全球分布。对于端到端加密的语音和视频通话来说，具有地理分布的服务器网络尤为重要，因为延迟可能导致音频延迟或视频连接质量下降，从而迅速使应用程序无法用于实时通信。
 - en: Because everything in Signal is end-to-end encrypted, we can rent server infrastructure
     from a variety of providers like [Amazon AWS](https://aws.amazon.com/), [Google
     Compute Engine](https://cloud.google.com/compute), [Microsoft Azure](https://azure.microsoft.com/en-us),
@@ -185,8 +233,10 @@
     while also placing them in independent data centers around the world. Only a select
     few of the very largest companies globally are still capable of doing this, which
     is a hallmark of a troublingly concentrated industry.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 由于Signal中的一切都是端到端加密的，我们可以从各种提供商租用服务器基础设施，如亚马逊AWS、谷歌计算引擎、微软Azure等，同时确保您的消息和通话保持私密和安全。我们无法访问它们，提供我们租用的任何基础设施的公司也无法访问它们。作为一个小型非营利组织，我们无法负担购买所有必要的物理计算机来支持依赖Signal的所有人，同时将它们放置在全球独立的数据中心。全球仍有少数几家最大的公司仍然有能力做到这一点，这是一个令人担忧的集中行业的标志。
 - en: Signal’s addition of novel privacy-preserving features also affects our server
     costs. To pick one example, we developed a new approach to private contact discovery
     in 2017 that uses a [trusted execution environment](https://en.wikipedia.org/wiki/Trusted_execution_environment).
@@ -196,15 +246,19 @@
     of privacy protection in place, they can often access details about your network
     and relationships without restrictions, and many of them store this highly sensitive
     information for later use.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal引入新的保护隐私功能也会影响我们的服务器成本。举一个例子，我们在2017年开发了一种新的私人联系发现方法，使用了可信执行环境。这使我们成为第一个让人们可以自动找到他们的朋友和联系人而不向我们透露他们通讯录的大规模消息应用程序，从而保持这些联系的私密性。因为其他主流应用程序没有这种隐私保护层，他们通常可以在没有限制的情况下访问有关您网络和关系的详细信息，并且许多应用程序会将这些高度敏感的信息存储以供以后使用。
 - en: When we first deployed this system in 2017, only a few servers were necessary.
     But as the number of people using Signal increased, the number of servers required
     to support private contact discovery also rose. At its peak, nearly 600 servers
     were dedicated to private contact discovery alone, at a total cost of **more than
     $2 million dollars per year**.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我们在2017年首次部署这个系统时，只需要几台服务器。但随着使用Signal的人数增加，支持私人联系发现所需的服务器数量也在增加。在高峰时期，将近600台服务器专门用于私人联系发现，总成本超过每年200万美元。
 - en: This significant cost would have continued to rise. However, thanks to [algorithmic
     research advances](https://signal.org/blog/building-faster-oram/) and hardware
     updates, we’ve been able to reduce the total number of private contact discovery
@@ -213,12 +267,16 @@
     been dedicated to ensuring that your address book remains completely inaccessible
     to us, and Signal will continue to push the envelope and introduce new techniques
     to enhance your privacy even when the initial costs are high.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 这一巨大的成本本来会继续上升。然而，由于[算法研究进展](https://signal.org/blog/building-faster-oram/)和硬件更新，我们已经成功将私人联系发现服务器的总数减少到大约10个——尽管服务处理的流量比以往任何时候都要多。大量资金和工程资源已经投入到确保您的通讯录对我们完全不可访问，Signal将继续努力推动技术发展，并引入新技术来增强您的隐私，即使最初的成本很高。
 - en: Registration Fees
+  id: totrans-28
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 注册费用
 - en: Signal incurs expenses when people download Signal and sign up for an account,
     or when they re-register on a new device. We use third-party services to send
     a registration code via SMS or voice call in order to verify that the person in
@@ -226,8 +284,10 @@
     This is a critical step in helping to prevent spam accounts from signing up for
     the service and rendering it completely unusable—a non-trivial problem for any
     popular messaging app.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 当人们下载Signal并注册帐户，或者在新设备上重新注册时，Signal会产生费用。我们使用第三方服务通过短信或语音电话发送注册代码，以验证拥有特定电话号码的人是否真的打算注册Signal帐户。这是一个关键步骤，有助于防止垃圾帐户注册该服务并使其完全无法使用——这对于任何流行的消息应用程序来说都是一个非常重要的问题。
 - en: Signal’s registration service routes registration codes over multiple telephony
     providers to optimize delivery across the globe, and the fees we pay to third-party
     vendors for every verification code we send can be very high. This is in part,
@@ -238,13 +298,17 @@
     decreased SMS revenue from their own customers, these service providers have significantly
     raised their SMS rates in many locations, assuming (correctly) that tech companies
     will have to pay anyway.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal的注册服务通过多个电话服务提供商路由注册代码，以优化全球范围内的交付，并且我们为每个发送的验证代码支付给第三方供应商的费用可能非常高。我们认为，部分原因是因为传统电信运营商已经意识到短信现在主要用于应用程序注册和两步验证，在许多地方，人们转向依赖网络数据的通话和短信服务。针对来自Signal等应用程序的增加的验证流量，以及来自他们自己客户的减少的短信收入，这些服务提供商在许多地方显著提高了他们的短信费率，假设（正确地）认为技术公司无论如何都必须支付。
 - en: '**The cost of these registration services for verifying phone numbers when
     people first install Signal, or when they re-register on a new device, currently
     averages around $6 million dollars per year.**'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '**验证电话号码的这些注册服务的成本，当人们首次安装Signal时，或者在新设备上重新注册时，目前每年平均约为600万美元。**'
 - en: These costs vary dramatically from month to month, and the rates that we pay
     are sometimes inflated due to [“toll fraud”](https://www.twilio.com/docs/verify/preventing-toll-fraud#what-is-sms-pumping)—a
     practice where some network operators split revenue with fraudulent actors to
@@ -256,19 +320,25 @@
     fraud. We work closely with our voice and SMS verification providers to detect
     and shut down fraudulent registrations as quickly as possible. But it’s still
     a game of cat and mouse, with unavoidable expenses along the way.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些费用每个月都会有很大的变化，我们支付的费率有时会因为“通话诈骗”而被夸大——一种网络运营商与欺诈行为者分成收入，以增加他们网络上的短信和通话流量的做法。像Signal这样的应用程序依赖的电话服务提供商在注册过程中发送验证代码仍然会向他们自己的客户收费，这可能会以难以预测的方式增加注册成本。当然，Signal会尽一切努力减少或消除通话诈骗的影响。我们与语音和短信验证提供商密切合作，尽可能快地检测和关闭欺诈注册。但这仍然是一场猫鼠游戏，沿途难以避免的费用。
 - en: The Going Rate for Transfer Rates
+  id: totrans-33
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 传输速率的标准价格
 - en: You are probably familiar with the concept of paying for bandwidth in the form
     of buying a data plan from your cellular provider or signing up with an Internet
     Service Provider (ISP) for your home. But it may surprise you to learn that every
     website, app, and service also pays for the bandwidth they use whenever you connect
     to them.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 您可能熟悉通过购买数据套餐从您的移动运营商或与家庭互联网服务提供商（ISP）签约来支付带宽的概念。但也许让您惊讶的是，每个网站、应用和服务在您连接到它们时也会支付他们使用的带宽费用。
 - en: Some pay more than others. Most of the major tech companies (like Amazon, Google,
     and Microsoft) own and operate their own data centers. After spending billions
     of dollars to build massive hosting facilities, they install their own fiber optic
@@ -277,27 +347,36 @@
     organizations like Signal can’t afford to build matching infrastructure from scratch,
     so we (along with almost every startup and tech company) pay rent to the big players
     in order to access the bandwidth we need.)
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 有些人付出的代价比其他人更多。大多数主要的科技公司（如亚马逊、谷歌和微软）拥有并运营自己的数据中心。在花费数十亿美元建造大型托管设施后，他们安装自己的光纤电缆和定制网络设备。这也意味着他们可以通过向他人收费来使用那些设备而赚取大量资金。
+    （像Signal这样的较小组织无法从头开始建立匹配的基础设施，因此我们（以及几乎每家初创公司和科技公司）向大公司支付租金，以便访问我们需要的带宽。）
 - en: Millions of people use Signal every day, and it takes a *lot* of bandwidth to
     provide a fast and reliable service. **Signal spends around $2.8 million dollars
     per year on bandwidth** to support sending messages and files (such as photos,
     videos, voice notes, documents, etc.) and to enable voice and video calls.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 数百万人每天使用Signal，为了提供快速可靠的服务，需要大量带宽。Signal每年花费大约280万美元用于支持发送消息和文件（如照片、视频、语音备忘录、文件等）以及启用语音和视频通话。
 - en: Voice and video calls require significantly more bandwidth than text messages,
     and Signal’s end-to-end encrypted calling functionality is one of the most expensive
     services that we provide. Signal also goes far beyond other messaging apps when
     it comes to protecting your privacy during voice and video calls, and we do this
     in ways that substantially increase how much bandwidth we use in order to provide
     a high-quality calling experience.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 语音和视频通话需要比文本消息更多的带宽，Signal的端到端加密通话功能是我们提供的最昂贵的服务之一。在保护语音和视频通话隐私方面，Signal远远超越其他消息应用程序，我们通过一些方式大幅增加了我们使用的带宽，以提供高质量的通话体验。
 - en: To take one example, Signal always routes end-to-end encrypted calls from people
     who aren’t in your contacts through a relay server that obscures [IP address](https://en.wikipedia.org/wiki/IP_address)
     information.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 举一个例子，Signal总是通过一个中继服务器路由来自不在您联系人中的端到端加密通话，以隐藏IP地址信息。
 - en: Almost none of our competitors do this, and Signal’s default behavior is much
     more expensive than the alternative. Automatically relaying 1-on-1 voice and video
     calls from unknown contacts (instead of always using a [peer-to-peer connection](https://en.wikipedia.org/wiki/Peer-to-peer)
@@ -309,12 +388,16 @@
     calling***, and that figure doesn’t include the development costs associated with
     hiring experienced engineers to maintain our calling software, or the cost of
     the necessary server infrastructure to support those calls.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们的竞争对手几乎没有做到这一点，Signal的默认行为比替代方案更昂贵。自动中继来自未知联系人的1对1语音和视频通话（而不是在可能的情况下始终使用点对点连接）提供了额外的隐私层，但导致Signal通话相关的中继服务器的带宽成本大幅增加。在当前的流量水平下，支持Signal语音和视频通话所需的出站带宽约为每年20PB（即2000万GB），这仅仅为通话费用每年约为170万美元，这个数字不包括雇佣经验丰富的工程师来维护我们的通话软件的开发成本，或者支持这些通话所需的服务器基础设施的成本。
 - en: The Human Touch
+  id: totrans-40
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 人的触摸
 - en: Signal isn’t just a collection of privacy-preserving services that route end-to-end
     encrypted messages and calls around the world. It’s also a set of cross-platform
     apps and modular development components (commonly called libraries) that make
@@ -324,8 +407,10 @@
     surveillant defaults. Swimming against the tide of an ecosystem whose incentives
     and infrastructure promote surveillance and privacy invasions is, of course, more
     time-intensive and more expensive, and requires dedicated and experienced people.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal不仅仅是一组保护隐私的服务，它可以在全球范围内传递端到端加密的消息和通话。它还是一组跨平台应用程序和模块化开发组件（通常称为库），使这种私密通信成为可能。因为监视是常态，我们经常需要从头开始创建或修改自己的库，将隐私替换进去，而不是使用更常见的框架，这些框架默认假设监视。当然，与促进监视和侵犯隐私的生态系统抗衡是更耗时、更昂贵的，需要专业和经验丰富的人员。
 - en: 'First, we have three distinct client teams, one for each platform (Android,
     Desktop, and iOS). These teams are constantly working: adjusting to operating
     system updates, building new features, and making sure the app works on a wide
@@ -334,8 +419,10 @@
     and all of its infrastructure, our calling libraries like [RingRTC](https://github.com/signalapp/RingRTC),
     and core libraries like [libsignal](https://github.com/signalapp/libsignal). These
     also need constant development and monitoring.'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，我们有三个不同的客户端团队，分别针对每个平台（Android、桌面和iOS）。这些团队不断工作：适应操作系统更新，构建新功能，并确保应用程序在各种设备和硬件配置上正常运行。我们还有专门的工程团队负责开发和维护Signal服务器和所有基础设施，我们的通话库如RingRTC，以及核心库如libsignal。这些也需要不断的开发和监控。
 - en: Product and design teams help shape the future of the app and determine how
     it will look and function, while our localization team coordinates translation
     efforts across more than sixty languages. We even have a full-time, in-house support
@@ -343,8 +430,10 @@
     feedback and real-time troubleshooting information to every other team. This is
     an essential function, particularly at Signal, because we don’t collect analytics
     or telemetry data about how people are using Signal.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 产品和设计团队帮助塑造应用程序的未来，并确定其外观和功能，而我们的本地化团队协调超过六十种语言的翻译工作。我们甚至有一个全职的内部支持团队，与使用Signal的人交互，并为每个团队提供详细的技术反馈和实时故障排除信息。这是一个至关重要的功能，特别是在Signal，因为我们不收集有关人们如何使用Signal的分析或遥测数据。
 - en: This is a lot of work, and we do it with a small and mighty team. In total,
     around 50 full-time employees currently work on Signal, a number that is shockingly
     small by industry standards. For example, LINE Corporation, the developers of
@@ -353,14 +442,19 @@
     a messaging app popular in Korea, has around 4,000 employees. ^(Employee counts
     at bigger corporations like Apple, Meta, and Google’s parent company (Alphabet)
     are much, much higher.))
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一项艰巨的工作，我们是由一个小而强大的团队完成的。目前，大约有50名全职员工在Signal工作，按行业标准来看，这个数字非常小。例如，日本流行的LINE消息应用程序的开发商LINE
+    Corporation拥有大约3100名员工，而开发韩国流行的消息应用程序KakaoTalk的Kakao Corp部门拥有大约4000名员工。 （像苹果、Meta和谷歌母公司（Alphabet）这样的大公司的员工数量要高得多。）
 - en: To sustain our ongoing development efforts, about half of Signal’s overall operating
     budget goes towards recruiting, compensating, and retaining the people who build
     and care for Signal. When benefits, HR services, taxes, recruiting, and salaries
     are included, this **translates to around $19 million dollars per year.**
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了维持我们持续的开发工作，Signal整体运营预算的大约一半用于招募、补偿和留住建设和照顾Signal的人员。当包括福利、人力资源服务、税收、招聘和工资时，这意味着每年约1900万美元。
 - en: We are proud to pay people well. Our goal is to compensate our staff at as close
     to industry wages as possible within the boundaries of a nonprofit organization.
     We know that we can’t provide equity, expensive playpen offices, or other benefits
@@ -370,8 +464,10 @@
     with far more people and resources. And we don’t believe that precarity should
     be the cost of doing good. Compared to most tech companies, Signal’s numbers are
     a drop in the bucket.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们很自豪地支付员工薪水。我们的目标是在非营利组织的边界内尽可能接近行业工资来补偿我们的员工。我们知道我们无法提供股权、昂贵的办公室或其他大型科技公司常见的福利。我们也知道，如果我们要提供一项提供有意义的替代选择的服务，我们需要招募和留住一支经验丰富和专业化的劳动力，这在一个极具竞争性的行业中是必要的。我们不认为不稳定性应该是做好事的代价。与大多数科技公司相比，Signal的数字只是杯水车薪。
 - en: Growth in Signal translates into increased infrastructure costs, and having
     more infrastructure requires more labor. As of November 2023, Signal’s server
     network is regularly responding to around 100,000 requests per second, and we
@@ -385,8 +481,11 @@
     internet service providers. ^(Troubleshooting such infrastructure issues can be
     very expensive, because isolating a problem and developing a fix can take a lot
     of time and expertise.)
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 信号增长意味着基础设施成本的增加，而拥有更多基础设施需要更多的劳动力。截至2023年11月，Signal的服务器网络每秒通常会响应约10万次请求，我们经常打破以前的记录。当一个全球可访问的服务开始每天处理数十亿次请求时，会发生有趣的事情。突然之间，百万分之一的可能性不再是独特或罕见的，而不太可能的情况随着Signal的增长变得越来越普遍。我们的工程师经常会做一些事情，比如编写自定义代码来复制影响特定地区运行古怪和复杂的IPv6连接问题的人，但只有在通过某一组互联网服务提供商连接时才会出现的问题。
+    （解决此类基础设施问题可能非常昂贵，因为隔离问题并开发修复方案可能需要大量时间和专业知识。）
 - en: Identifying and fixing arcane problems is not the only thing that takes time
     and skill. In the context of building for privacy, adding a common feature or
     service in a way that avoids surveillance frequently requires significant work
@@ -402,8 +501,10 @@
     Instead of a weekend project for a single engineer, our teams were required to
     develop new approaches and concepts within the codebase (like profile keys), which
     they worked to roll out across multiple platforms after an extended testing period.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 辨识和解决神秘问题并不是唯一需要时间和技能的事情。在构建隐私保护方面，以一种避免监视的方式添加常见功能或服务通常需要大量的工作和创造力。举个例子，在Signal中，个人资料图片和个人资料名称始终是端到端加密的。这意味着Signal无法访问您的个人资料名称或选择的个人资料照片。这种方法在行业中是独一无二的。事实上，自从我们首次宣布这种额外的保护层以来已经超过六年了，据我们所知，我们的竞争对手尚未采用这种方法。其他通讯应用可以轻松查看您的个人资料照片、个人资料名称和Signal无法访问的其他敏感信息。我们的选择反映了我们对隐私的坚定承诺，但这也意味着Signal需要更多的努力来实现对个人资料照片的支持。我们的团队不仅需要在代码库中开发新的方法和概念（如个人资料密钥），而且还需要在经过长时间测试后在多个平台上推出这些方法。
 - en: The same dynamic played out again when Signal introduced support for animated
     GIF searches on Android and iOS. Instead of quickly and easily integrating the
     standard GIF search SDK that most other apps were using, engineers spent considerable
@@ -412,67 +513,91 @@
     for those terms from the GIF search engine itself. We later [expanded those techniques](/blog/signal-and-giphy-update/)
     to further obfuscate GIF search information by obscuring the amount of traffic
     that passes through the proxied connection.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 当Signal在Android和iOS上引入对动态GIF搜索的支持时，同样的情况再次出现。工程师们花费了大量时间和创造力开发了另一种独特的保护隐私技术，该技术将GIF搜索词隐藏在Signal的服务器中，同时也隐藏了搜索这些词的人员信息。我们后来将这些技术扩展到进一步混淆GIF搜索信息，通过掩盖通过代理连接传递的流量量。
 - en: When Meta [acquired GIPHY](https://techcrunch.com/2020/05/15/facebook-to-acquire-giphy-in-a-deal-reportedly-worth-400-million/),
     and many other apps were scrambling to [contend with the privacy implications
     of the deal](https://www.theverge.com/2020/5/16/21260104/facebook-giphy-acquisition-twitter-slack-snapchat-apple-imessage-signal-facebook-tinder),
     Signal employees slept soundly knowing that we had already built this feature
     correctly several years earlier.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 当Meta收购GIPHY时，许多其他应用程序正在争先应对这笔交易的隐私影响，而Signal的员工则可以安心入睡，因为我们几年前就已经正确地构建了这一功能。
 - en: Even more recently, Signal has started taking steps to protect today’s conversations
     from future threats by [adding post-quantum resistance to the Signal Protocol](/blog/pqxdh/).
     The financial costs associated with these research and development initiatives
     are substantial. They’re also essential for building privacy-preserving technology
     in a dynamic industry where surveillance is the norm.
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 最近，Signal开始采取措施，通过向Signal协议添加后量子抗性来保护当今的对话免受未来威胁。与这些研究和开发计划相关的财务成本是可观的。在一个监视成为常态的动态行业中，这些计划对于构建保护隐私技术至关重要。
 - en: By offering a competitive compensation package, Signal helps make it easy for
     people to choose to develop privacy-preserving technology that benefits the world
     instead of going to work for the surveillance-advertising-industrial complex.
     We’re proud of our healthcare plans, family-friendly policies like extended parental
     leave, flexible schedules, and the many other benefits that help make Signal a
     [great place to work](/workworkwork/).
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过提供有竞争力的薪酬套餐，Signal帮助人们选择开发有益于世界的隐私保护技术，而不是去为监视广告产业复杂化工作。我们为我们的医疗保健计划、延长的产假、灵活的工作时间表以及许多其他福利感到自豪，这些福利有助于使Signal成为一个优秀的工作场所。
 - en: These things cost money, but a world where Signal can attract talented people
     to work on privacy-preserving technology is a world that looks a lot more attractive.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些事情都需要花钱，但在Signal能够吸引人才来开发保护隐私技术的世界中，这个世界看起来更有吸引力。
 - en: Future Tense
+  id: totrans-54
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 未来时态
 - en: We hope that this cursory tour of some of Signal’s operations and costs helps
     provide a greater understanding of Signal’s unique place in the tech ecosystem,
     and of the tech ecosystem itself.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们希望这次对Signal一些运营和成本的粗略介绍能够更好地理解Signal在科技生态系统中的独特地位，以及科技生态系统本身。
 - en: Our goal of developing an open source private messenger that is supported and
     sustained by small donations is both highly ambitious and, we believe, existentially
     important. The cost of most consumer technology is underwritten by surveillance,
     which has allowed people to assume that “free” is the default, and a handful of
     industry players have accrued eye-watering amounts of personal data and the unprecedented
     power to use that data in ways that are shaping our lives and institutions globally.
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们的目标是开发一个由小额捐赠支持和维持的开源私人信使，这既是非常雄心勃勃的，我们认为也是至关重要的。大多数消费者技术的成本是由监视来支持的，这使人们认为“免费”是默认的，少数行业参与者积累了令人瞠目结舌的个人数据，并具有使用这些数据的前所未有的权力，这些数据正在全球塑造我们的生活和机构。
 - en: To put it another way, the social costs of normalized privacy invasion are staggeringly
     high, and maintaining and caring for alternative technology has never been more
     important.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 换句话说，正常化隐私侵犯的社会成本是惊人的高，维护和关心替代技术从未如此重要。
 - en: Signal is working to show that a different approach is possible—an approach
     that puts privacy at the center, and where organizations are accountable to the
     people who use and rely on their services, not to investors, or to the endless
     pursuit of growth and profit.
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: Signal正在努力展示一种不同的方法是可能的——一种将隐私置于中心的方法，组织对使用和依赖其服务的人民负责，而不是对投资者，或对无休止的增长和利润追求负责。
 - en: Thank you for your support. It’s an honor and privilege to work on Signal every
     day, and we—very literally—couldn’t do it without you. Please consider donating
     to Signal via [our website](/donate/) or learn how to [give using the app](https://support.signal.org/hc/en-us/articles/360031949872#how).
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 感谢您的支持。每天能够在Signal上工作是一种荣幸和特权，我们——非常字面意义上——没有您我们就无法做到。请考虑通过[我们的网站](/donate/)捐赠给Signal，或者学习如何[使用应用程序进行捐赠](https://support.signal.org/hc/en-us/articles/360031949872#how)。
 - en: '* * *'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
