@@ -1,28 +1,38 @@
 - en: Your Small Imprecise Ask Is a Big Waste of Their Time | Stay SaaSy
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 你模糊的要求浪费了他们的时间 | 保持SaaSy
 - en: 原文：[https://staysaasy.com/startups/2023/11/10/imprecise-asks.html](https://staysaasy.com/startups/2023/11/10/imprecise-asks.html)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 链接：[https://staysaasy.com/startups/2023/11/10/imprecise-asks.html](https://staysaasy.com/startups/2023/11/10/imprecise-asks.html)
 - en: 'The following examples happen regularly at all levels of all kinds of companies:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下示例在各种公司的各个层面经常发生：
 - en: A manager asks a direct report “can you do X?” The report spends 10 times the
     amount of time that was expected to do the task, leaving the manager befuddled
     - “I wish you hadn’t spent so much time.”
+  id: totrans-3
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 一位经理问直接下属“你能做X吗？”下属花了比预期的时间多10倍的时间来完成任务，让经理感到困惑 - “我希望你没有花那么多时间。”
 - en: An executive asks a quick question in a meeting “can you check this out for
     me?” This brief ask turns into 24 people preparing 4 versions of a slide deck
     and working over the weekend in preparation of a meeting that now has a career-making
     aura. In that meeting, the exec sees the first slide’s first sentence summary
     and says “oh ok, thanks, no need for a whole presentation.”
+  id: totrans-4
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 一位高管在会议中提出一个快速问题“你能帮我查一下吗？”这个简短的要求变成了24个人准备4个版本的幻灯片，并在周末为会议做准备，这个会议现在具有了能够改变职业生涯的氛围。在会议中，高管看到第一张幻灯片的第一句总结，然后说“哦，好的，谢谢，不需要整个演示文稿。”
 - en: 'A leader says “we need to be modern, no excuses!” Not wanting to seem dumb,
     nobody asks what that means. A month later that leader is deeply disappointed
     when a critical project is not being shipped on time: “you said to be modern,
@@ -30,65 +40,89 @@
     that pushed out a bunch of other projects.” The leader had meant to say that over
     the course of the next couple years, they needed to refresh the syntax of their
     APIs in a new version.'
+  id: totrans-5
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 一位领导说“我们需要现代化，没有借口！”为了不显得愚蠢，没有人问这是什么意思。一个月后，当一个关键项目没有按时交付时，这位领导深感失望：“你说要现代化，所以我们制定了一个专注于全面技术升级的现代化项目；这推迟了一堆其他项目。”
+    领导原本是想说，在接下来的几年里，他们需要在新版本中刷新API的语法。
 - en: 'Imprecise asks from managers and leaders cause a disproportionate amount of
     turmoil and wheel-spinning. To combat this, leaders should be very precise with
     the amount of time investment they’re asking for when they ask for things. A little
     bit of awkward precision up front can save major headaches down the line. Here’s
     some examples:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 经理和领导的模糊要求会导致不成比例的混乱和浪费时间。为了应对这种情况，领导在提出要求时应非常明确他们要求的时间投入量。提前一点尴尬的精确性可以避免后续的重大头疼。以下是一些例子：
 - en: 'Clarify the expected time investment: “Please look into this for me. Do not,
     DO NOT, spend more than 20 minutes on this. Please come back with whatever you
     have after 20 minutes.”'
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 澄清预期的时间投入：“请帮我查一下这个。绝对不要，绝对不要，花超过20分钟在这上面。请在20分钟后带着你所拥有的回来。”
 - en: 'Be clear about how it should be prioritized: “I expect this to take about 2
     weeks and not cause major deprioritization of other efforts. If that timeline
     doesn’t seem accurate after diving in, or if you end up having to prioritize against
     other things, reach out to me ASAP.”'
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 明确说明应该如何设置优先级：“我预计这需要大约2周时间，不会导致其他工作的重要性降低。如果在深入研究后发现这个时间表不准确，或者如果你最终需要与其他事情进行优先排序，请尽快与我联系。”
 - en: 'Distinguish between whether you’re looking for prior art or new art: “Tell
     me if we have anything on this topic already; if we haven’t even thought about
     it yet, that’s all I need to know.”'
+  id: totrans-9
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 区分你是在寻找先前的艺术品还是新的艺术品：“告诉我我们是否已经有关于这个主题的任何东西；如果我们甚至还没有考虑过，那我只需要知道这些。”
 - en: 'Tell people exactly what you’re going to use the information for so that they
     can calibrate effort levels: “I am going to put this into a response to a sales
     prospect”; “I need to know this just in case it comes up during Q&A at our next
     All Hands”; “this is going to be the main topic of our next board meeting”'
+  id: totrans-10
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 告诉人们你将如何使用这些信息，以便他们可以校准努力水平：“我将把这些信息用于回应销售前景”；“我需要知道这个以防它在我们下一个全员大会的问答环节中出现”；“这将是我们下次董事会会议的主要议题”
 - en: 'On the flip side, if you get an ask from a leader:'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一方面，如果你从领导那里得到一个要求：
 - en: Ask for how much time they think is appropriate. “Are you expecting something
     super thorough, like multiple hours of effort, or a quick write up?”
+  id: totrans-12
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 询问他们认为多少时间是合适的。“你是希望得到非常彻底的东西，比如多个小时的努力，还是一个快速的总结？”
 - en: Don’t assume everyone else knows what’s going on. You’re not going to look dumb
     if you ask a question; you’ll definitely look dumb if you do the totally wrong
     thing because you didn’t ask a question.
+  id: totrans-13
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 不要假设其他人都知道发生了什么。如果你提出问题，你不会显得愚蠢；如果你因为没有问问题而完全做错事情，那你肯定会显得愚蠢。
 - en: Do not, DO NOT, assume they are too busy to answer clarifying questions as you
     work on the ask. Dollars are flushed down the drain every day because people incorrectly
     assume leaders don’t have time to clarify their asks. Rooms full of people analyze
     emails and instant messages from the leader like ancient artifacts. Ask the leader
     for clarification - if they have time to ask you to do something, they have time
     to clarify that ask.
+  id: totrans-14
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 不要，绝对不要，假设他们太忙了，无法回答你在处理要求时提出的澄清问题。每天都有大量的资金被浪费，因为人们错误地认为领导没有时间澄清他们的要求。满屋子的人分析领导的电子邮件和即时消息，就像分析古代文物一样。向领导澄清问题
+    - 如果他们有时间要求你做某事，他们就有时间澄清这个要求。
 - en: '* * *'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
