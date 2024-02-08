@@ -1,0 +1,237 @@
+- en: 'Thunderbird Is Thriving: Our 2022 Financial Report'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/](https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'Thunderbird Is Thriving: Our 2022 Financial Report'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 'A few years ago, Thunderbird was in survival mode. Our dedicated core team,
+    passionate community of users, and generous donors kept Thunderbird alive during
+    some difficult times. Then, just last May, we [happily reported](https://blog.thunderbird.net/2022/05/thunderbird-2021-financial-report/)
+    that Thunderbird’s financial outlook was steadily improving: our 2021 income had
+    increased by 21% over 2020, and by more than 100% over 2018.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: But we are not content merely surviving. Our mission is to build the best email
+    client and personal information manager available. To build professional software
+    that puts your privacy first. To craft an experience that boosts your productivity,
+    compliments your daily workflow, and meets your customization needs. And to expand
+    the Thunderbird experience to Android and iOS. And to do all of this transparently,
+    guided by the values of free and open source software.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Donations In 2022**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Last year, our mighty donor base – representing approximately 300,000 daily
+    users – contributed a total of $6,442,704 in donations to the Thunderbird project.
+    (*Note: user donations represent more than 99.9% of our annual revenue*.) Our
+    2022 donation income was a bright, assertive sign that you also believe in that
+    mission, and you also want to see Thunderbird thriving. Not just in 2023, but
+    decades into the future!'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![Year-to-year donations to Thunderbird: 2017 through 2022\. ](../Images/4244870dc4cefaceeeb4d3caad9d0a13.png
+    "Chart")](https://blog.thunderbird.net/files/2023/05/image.png)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: This is nothing short of outstanding, and we are tremendously grateful for the
+    generous donations of our users. Below, we’ll talk about what this enables us
+    to do in the future, and how we spent some of that income in 2022.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Before we discuss that, you might be wondering what we did differently to generate
+    such a significant surge of support last year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At the end of 2021, we decided to make a bigger investment in communicating
+    with you. That meant more frequent blog posts and [newsletters](https://www.thunderbird.net/en-US/#mailing-list),
+    daily engagement across our social media channels, and expanding the number of
+    places we interact with you (like our relatively new [Mastodon account](https://www.thunderbird.net/en-US/#mailing-list)).
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![Donations by month, comparing 2021 and 2022\. ](../Images/a04798301f55a982bb45658da15fb251.png
+    "Chart")](https://blog.thunderbird.net/files/2023/05/image-1.png)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We also attribute this amazing uplift to the release of Thunderbird 102, as
+    well as a first-of-its-kind, in-app donation appeal at the end of year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In short, we learned that projects like ours can benefit greatly from simply
+    asking for donations, while simultaneously explaining how those donations will
+    benefit the project – and ultimately, how they will benefit you. So let’s talk
+    about that!
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Thunderbird’s People And Thunderbird’s Future**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'The heart of Thunderbird is obviously its people, and we invested heavily in
+    personnel last year. We began 2022 with 15 core staff, and now employ a team of
+    24 in these roles:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Product and Business Development Manager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Director of Operations**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Product Design Manager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Engineering Manager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Staff Engineers (3)**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Sr SW Engineers (2)**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Sr Security Engineer**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**SW Engineer, Add-Ons Ecosystem**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Sr UI/UX Developer**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**UI/UX Developers (2)**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Android Project Lead**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Android Developer (1)**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Build & Release Engineers (2)**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Full Stack Developer**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Front End Developer**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Community Manager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Marketing Manager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Bug Triager**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Support Engineer**'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: The breakout growth we enjoyed last year means hiring even more talented people
+    to vastly improve the Thunderbird desktop experience. This past year we expended
+    significant effort to dramatically [improve Thunderbird’s UX](https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/)
+    and bring it in-line with modern expectations and standards. In 2022 we also laid
+    the groundwork for large architectural changes for Thunderbird on the desktop.
+    These changes address many years of technical debt that has limited our ability
+    to add new features at a brisk pace. This work will largely pay off in our 2024
+    release, however it does power some of the improvements in the [115 “Supernova”](https://blog.thunderbird.net/tag/supernova/)
+    release this summer.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But we’re also building beyond the desktop, to provide you with a truly cross-platform,
+    synergistic experience. Last summer we invested in the K-9 Mail Project, which
+    is being steadily improved in its transformation to [Thunderbird on Android](https://blog.thunderbird.net/category/thunderbird-mobile/).
+    And yes, we’re almost ready to add an iOS version to our roadmap! Later in 2023,
+    we’ll hire an iOS developer to begin creating the foundation for Thunderbird on
+    iOS.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thunderbird is also expanding beyond the core experience you already use. We’ve
+    been exploring additional sources of revenue in the form of new tools and services
+    to increase your productivity. We’re planning to introduce some of these, in Beta
+    status, later this year. Rest assured that we have no plans to charge money for
+    the powerful Thunderbird experience you enjoy today (nor do we plan to remove
+    features and charge for them later).
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Total Spending In 2022**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'The Thunderbird Project’s total operating expenses for 2022 was $3,569,706\.
+    While personnel is where most of our money is spent, there are other areas crucial
+    to Thunderbird’s continued operation. Here’s an overview of our total spending
+    in 2022:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![A pie chart showing spending percentages for Thunderbird in 2022\. ](../Images/48b5a279963b80fa7eff77712b54c7d4.png)](https://blog.thunderbird.net/files/2023/05/2022-spending.png)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Professional Services are things like HR, legal and tax services, as well as
+    agreements with other Mozilla entities to provide technology infrastructure and
+    operational resources.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The remaining items help us to run the business, such as the services and technology
+    we use to communicate and manage operations, insurance, bank and donation processing
+    fees.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Closing Comments**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: The state of Thunderbird’s finances is strong. But that doesn’t make our team
+    complacent. We are careful stewards of the thoughtful donations we receive from
+    you. We don’t just use it to enhance features; we invest it strategically towards
+    ensuring long-term stability and viability of Thunderbird. Having healthy cash
+    reserves ensures the long-term sustainability of Thunderbird, even during periods
+    of economic instability.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Your ongoing financial gifts have enabled Thunderbird to go from surviving to
+    thriving. But as it has been since 2003, Thunderbird’s future is in your hands.
+    Please continue to donate, and we will continue to build software you can be proud
+    of.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thank you,
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Ryan Sipes'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thunderbird Product and Business Development Manager**
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![](../Images/14c22830ec33b4a10a9c96072ccd92be.png)](https://mzla.link/3LNc6tc)'
+  prefs: []
+  type: TYPE_NORMAL

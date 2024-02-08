@@ -1,0 +1,303 @@
+- en: Coding is the easy part | Swizec Teller
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://swizec.com/blog/coding-is-the-easy-part/](https://swizec.com/blog/coding-is-the-easy-part/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: <main id="content" class="css-1x80348">
+  prefs: []
+  type: TYPE_NORMAL
+- en: Tutorials make every project look easy. You start at the beginning and code
+    your way to the end. Wonderful.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The real world ... is not like that. I'm leading a vendor migration project
+    right now and this gif captures my experience perfectly.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/0d6a701e779fd9eac67484d2c040a421.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: 'The migration sounds easy: We''re using a product analytics library. It got
+    acquired. After 2 years, the new company wants to sunset that product and has
+    a drop-in replacement.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: But ...
+  prefs: []
+  type: TYPE_NORMAL
+- en: The project started in December – 4 months ago – when our head of engineering
+    tagged me in.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*"Hey Swiz, we have concerns about how this SDK plays with our analytics vendor.
+    Can you look into this?"*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: I looked. The old SDK, the one that got acquired, takes your tracking plan and
+    generates a custom client-side library. This gives you TypeScript support for
+    analytics events which is amazing. Highly recommend!
+  prefs: []
+  type: TYPE_NORMAL
+- en: The generated client-side library uses a plugin system to send events directly
+    to your analytics vendor.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But since that SDK got acquired, they wanted to change this. The new company
+    thinks of itself as an analytics vendor and sees our old vendor as a direct competitor.
+    They want to kill the direct integration 💩
+  prefs: []
+  type: TYPE_NORMAL
+- en: The new company wants to send events to itself *then* stream to other services,
+    if it really has to. This created problems for our HIPAA compliance because we
+    didn't have the right contract in place. Events cannot touch new company's servers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: After looking at alternatives, we decided to consolidate on the new company.
+    They offer tight integration between tracking plans, analytics, and a few other
+    features.
+  prefs: []
+  type: TYPE_NORMAL
+- en: All HIPAA compliant with the right contract and way easier for product teams
+    to use. Sweet.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Enterprise sales *sucks*. Even from the buyer's perspective. We spent 6+ hours
+    in demo after demo making sure this new vendor can do what we need, do it well,
+    and isn't selling promises from the backlog.
+  prefs: []
+  type: TYPE_NORMAL
+- en: It took two months. I was exhausted. And it almost fell apart in the final meeting
+    when they were like *"You know that price we quoted? It's actually 2x"*.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Kudos to my VP for handling that one.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'PS: watching them use every sales trick I''ve read about in books was cool.
+    They did anchoring, buddy buddy stuff, "going to war for us" with a hidden 3rd
+    party that sets prices ... Great stuff.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: It's now early March and we have to get off the old vendor by April. Otherwise
+    we have to renew the contract for another whole year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*"Swiz, you can make that happen right?"*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/e5d806c23309d6c5c9ef0273e83de9c4.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: I devised a 3 step plan for our migration. It's obvious, but someone had to
+    spend a few minutes thinking about it and then step up to make sure it happens.
+    It's the stepping up part that's valuable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Redirect events firehose
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: Migrate historic data
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: Integrate the other goodies
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: 1 and 2 have the deadline. A week out and we're close. I think we'll make it
+    🤞
+  prefs: []
+  type: TYPE_NORMAL
+- en: We can do 3 when there's time on the product roadmap.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The problem with that plan is that *the work is outside my control*. Not even
+    owned by my team 😅
+  prefs: []
+  type: TYPE_NORMAL
+- en: Out of the 15 repositories we needed to migrate, 2 are owned by my team, and
+    ~6 we could opportunistically help out because the changes were small. I had to
+    make the list of necessary changes, of course.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Herding cats is hard and I figured making other teams' work super easy will
+    help. My team ran ahead and migrated our repositories. We found the sharp edges
+    and [wrote an SOP](https://swizec.com/blog/nobody-is-coming-to-save-you/) – standard
+    operating procedure.
+  prefs: []
+  type: TYPE_NORMAL
+- en: With that doc in hand I went to every other team and said *"Hai we need your
+    help on this critical project with a tight deadline. It took our team an afternoon,
+    here's a step-by-step document. What's the earliest you can slot this into your
+    schedule?"*
+  prefs: []
+  type: TYPE_NORMAL
+- en: That worked. Migrations went smoothly and teams were able to adjust their schedules
+    ❤️
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*"Hey Swiz, where did all our events go?"*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: What do you mean, I said they'd be kinda broken while we do this migration.
+    We're diverting them from one vendor to another. You agreed 2 weeks ago.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I did not fully explain the consequences to all stakeholders. I didn't even
+    realize who all the stakeholders were. People high up in the company got upset
+    when their dashboards dropped to zero.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 😅
+  prefs: []
+  type: TYPE_NORMAL
+- en: Sometimes the only way to find a use-case is to break it. [Hyrum's law](https://www.hyrumslaw.com).
+  prefs: []
+  type: TYPE_NORMAL
+- en: People will ignore and downplay any communication until you force their hand.
+    It's unpleasant, but I'm not sure there's a better way. When's the last time you
+    willingly restarted your laptop or clicked on a *"try our new UI"* button? Exactly
+    😉
+  prefs: []
+  type: TYPE_NORMAL
+- en: Remember that sales process I mentioned?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Migrating old data was a key negotiating point. We asked *"Hey can we import
+    our old data?"* [all of it all at once] and they said *"yes of course you can
+    migrate old data!"* [within your monthly data limits].
+  prefs: []
+  type: TYPE_NORMAL
+- en: Notice the miscommunication? Yeah it's a big one.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Our initial data import would blow through the monthly budget 5 times over.
+    Thanks to the platform team for flagging that ❤️
+  prefs: []
+  type: TYPE_NORMAL
+- en: Face meet shovel. I had to pull-in our VP to go re-negotiate that contract.
+    That was a tense 2 days. But we did it. End of quarter is a great time to put
+    pressure on sales teams.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The platform team found another surprise: Our events don''t all match the tracking
+    plan. Certain teams were using the old analytics vendor through 3rd party integrations
+    and never told anyone.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We can't import those events because they don't match. But we'll have to find
+    a way.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/ab87d21c3c1f04e2481fe616e0c27e13.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: The most stressful part has been holding the tension between moving pieces.
+    You tell product teams the deadline is March 24 so platform has time to migrate
+    data by April. You tell platform to start migrating right now and start with the
+    oldest data so you can find sharp edges early.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Meanwhile you're talking to the old vendor to get the deadline pushed. Just
+    in case.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 😮‍💨
+  prefs: []
+  type: TYPE_NORMAL
+- en: The 2 hours I've spent coding on this 5 month project were downright relaxing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Cheers,
+  prefs: []
+  type: TYPE_NORMAL
+- en: ~Swizec
+  prefs: []
+  type: TYPE_NORMAL
+- en: Published on March 24th, 2023 in [Lessons](/categories/lessons/), [Mindset](/categories/mindset/),
+    [Leadership](/categories/leadership/)
+  prefs: []
+  type: TYPE_NORMAL
+- en: Did you enjoy this article?
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Continue reading about Coding is the easy part
+  prefs:
+  - PREF_H4
+  type: TYPE_NORMAL
+- en: Semantically similar articles hand-picked by GPT-4
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Get promoted, earn a bigger salary, work for top companies**'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Getting that senior title is easy. Just stick around. Being a *true* senior
+    takes a new way of thinking. Do you have it?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Get a **free chapter** from the Senior Engineer Mindset book and a **sample
+    audiobook chapter**, followed by a Senior Mindset 101 email course.
+  prefs: []
+  type: TYPE_NORMAL
+- en: You'll get insights to apply at your work right away.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Senior Mindset Book
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: Get promoted, earn a bigger salary, work for top companies
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Learn more](/senior-mindset/)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Have a burning question that you think I can answer?** Hit me up on [twitter](https://twitter.com/swizec)
+    and I''ll do my best.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Who am I and who do I help?** I''m Swizec Teller and I turn coders into engineers
+    with *"Raw and honest from the heart!"* writing. No bullshit. Real insights into
+    the career and skills of a modern software engineer.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Want to become a *true* senior engineer?** Take ownership, have autonomy,
+    and be a force multiplier on your team. The Senior Engineer Mindset ebook can
+    help 👉 [swizec.com/senior-mindset](https://swizec.com/senior-mindset). These are
+    the shifts in mindset that unlocked my career.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Curious about Serverless and the modern backend?** Check out Serverless Handbook,
+    for frontend engineers 👉 [ServerlessHandbook.dev](https://serverlesshandbook.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Want to Stop copy pasting D3 examples and create data visualizations of your
+    own?** Learn how to build scalable dataviz React components your whole team can
+    understand with [React for Data Visualization](https://reactfordataviz.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Want to get my best emails on JavaScript, React, Serverless, Fullstack Web,
+    or Indie Hacking?** Check out [swizec.com/collections](https://swizec.com/collections)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Did someone amazing share this letter with you?** Wonderful! You can sign
+    up for my weekly letters for software engineers on their path to greatness, here:
+    [swizec.com/blog](https://swizec.com/blog)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Want to brush up on your modern JavaScript syntax?** Check out my interactive
+    cheatsheet: [es6cheatsheet.com](https://es6cheatsheet.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**By the way, just in case no one has told you it yet today: I love and appreciate
+    you for who you are ❤️**'
+  prefs: []
+  type: TYPE_NORMAL
+- en: </main>
+  prefs: []
+  type: TYPE_NORMAL

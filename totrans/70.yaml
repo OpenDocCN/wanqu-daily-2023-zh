@@ -1,0 +1,234 @@
+- en: Why ChatGPT won't replace search engines | Algolia
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/](https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Since OpenAI announced ChatGPT and people started to try it out, there have
+    been plenty of breathless proclamations of how it will upend *everything*. One
+    of those upendings is search. Go on Twitter or LinkedIn (or [Bloomberg!](https://www.bloomberg.com/opinion/articles/2022-12-07/chatgpt-should-worry-google-and-alphabet-why-search-when-you-can-ask-ai)),
+    and you can read how ChatGPT and similar LLMs are going to replace Google and
+    other search engines.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But, really?
+  prefs: []
+  type: TYPE_NORMAL
+- en: No, Google has little to worry about, at least in the short– to mid–term. Search
+    engines have been around for decades, and will be around for decades more. The
+    lack of real danger to them has to do with search relevance and user experience
+    in chat-based environments.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’ve worked in search at [Algolia](https://algolia.com/) for seven years, the
+    last four exclusively on natural language, voice, and conversational search. I’ve
+    learned what works and what doesn’t, and while I’m long on LLMs (large language
+    models), I’m not long on replacing the existing search paradigm. Here’s why.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Query Formulation**'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first reason has to do, ironically, with query formulation. I say ironically
+    here because much of the work around artificial intellence (AI) and machine learning
+    (ML) in search is to make query formulation less of a hurdle. In the past, the
+    most basic search engines matched text to the exact same text inside results.
+    That means that if you searched for *JavaScript snippets*, then *JavaScript snippets*
+    had to be exactly in the document you wanted to find. The problem is that it forced
+    the searcher to try and predict which text is going to be in the documents.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Here’s an example: let’s say you’re cleaning your gas stovetop and you realize
+    that it’s warm, even though you haven’t used it in a while. With an unintelligent
+    search engine, you need to ask yourself before you search: “Should I use the word
+    *warm* or *hot*? Does it make a difference in the results I’ll get back?”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Intelligent, ML–driven search works to take this burden away by expanding what
+    counts as a match and including “conceptually” similar matches, like *warm* and
+    *hot*. Searchers spend less mental energy on determining the right search term,
+    and they are much more likely to find the information they wanted originally.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'ChatGPT responses are, however, heavily dependent on the prompt (i.e., query)
+    formulation. [OpenAI](https://openai.com/blog/chatgpt/) “lists this as a limitation”:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*ChatGPT is sensitive to tweaks to the input phrasing or attempting the same
+    prompt multiple times. For example, given one phrasing of a question, the model
+    can claim to not know the answer, but given a slight rephrase, can answer correctly.*'
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'Sometimes this manifests when searching things the searcher already knows a
+    lot about, but it’s much more of an issue when the searcher is hazy about details.
+    If someone searches for what the suffix *-gate* means, there’s a very, very good
+    chance that the correct result is about political scandals. Google and Kagi reflect
+    this, ChatGPT does not:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![chatgpt-results](../Images/8e541e94214b4799589ff50b0f866711.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '![google-search-results2](../Images/a882db7ed5736f5930010d20eb79f051.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '![ kagi-results](../Images/66306b9a9ebca256e26c5c51d0f4794a.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: (The end of ChatGPT’s response is saying that the use of the suffix -gate is
+    rare. Tell that to Washington!)
+  prefs: []
+  type: TYPE_NORMAL
+- en: This is even more stark when it comes to typos. We all make typos, don’t we?
+    And sometimes we spell words incorrectly because we don’t know any better. For
+    example, the phrase *cum laude* is an uncommon one in daily life, and so there
+    will be people who want to know more about it and don’t know the correct spelling.
+    How does ChatGPT handle a spelling of *come lad* compared to Kagi?
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![google search](../Images/1a904b0d744061fdd2890dcb7672b661.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '![chatgpt-results3](../Images/7286c8004b90e50b438f56b7c025bccc.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: 'This isn’t a case of ChatGPT not having the answer. It does when you use the
+    correct spelling:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![chatgpt-results2](../Images/2d5ba9e517529f3a284d29c5fcd2f745.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: 'Search must understand searchers even with misspellings, or else the experience
+    is a step back. Understanding and matching different spellings is difficult. At
+    Algolia, we take two approaches: one is a [straightforward edit distance between
+    text](https://www.algolia.com/doc/guides/managing-results/optimize-search-results/typo-tolerance/);
+    the other is via our upcoming AI Search that matches on concepts and takes into
+    account contextual clues to better match the correct spelling even when the edit
+    distance is large.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: There’s another problem with ChatGPT, which is how it shows the incorrect results.
+    Or, really, how it shows the results generally.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[](#user-experience)**User Experience**'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Search layouts have been, typically, the same for decades. Specifically: a
+    set of results in order from most to least relevant (however that is measured).
+    That has changed somewhat in recent years. With search engines bringing in answer
+    boxes, side boxes, suggested searches, multimedia searches, and more. Take a look
+    at a Bing search page:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![bing-search-results](../Images/cf6fab62358a0b98bfbe191e53207144.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: 'Of course, Bing is an outlier. This one search results page includes approximately
+    20 different components: streaming options, video results, image results, and
+    webpage results. Maybe that’s too much. Google, Kagi, and others have less. But
+    the point is that searchers *always get options*.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'It’s important for searchers to get options because the first result isn’t
+    always the best for the search. It may be “objectively” the best overall, but
+    a search is a combination of a query, an index, a user, and a context. All of
+    those combined might lead results beyond number one to be the most relevant at
+    that time. This blog post claims that the number one result on a Google search
+    is [clicked 28% of the time](https://www.sistrix.com/blog/why-almost-everything-you-knew-about-google-ctr-is-no-longer-valid/).
+    Whether that number is precisely right, it is generally correct: the majority
+    of clicks tend not to be the first result.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: What is chat-based searching? Only the first result.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Even more, it’s in a chat-based context. In a conversational interface, users
+    expect always to get a response that is relevant, with a minimal amount of “I
+    don’t know” responses.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At Algolia, I’ve seen this with some of our customers who have used our search
+    as a fallback for their chatbots. Chatbot natural language understanding (NLU)
+    can sometimes have a high failure rate (we’ve seen customers approaching 50% failure)
+    and search seems like a natural fallback. We’ve had to tailor the chatbot UX,
+    though, not presenting the first result as a response, but instead showing a few
+    results and being clear that the user is seeing a fallback. It’s what users expect.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Chat also robs information of context. Landing on a page and seeing related
+    information is good: it helps frame the information you find and perhaps even
+    show you where the original snippet was incorrect or misleading.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Take someone who wants to know about the baseball home run record. This person
+    has heard that the record used to have an asterisk. But why? What was the record?
+    This famously refers to Roger Maris’ 61 home run season in 1961, but the searcher
+    doesn’t know, and so searches *why was the home run record with an asterisk?*
+    Compare the answers from ChatGPT, Google, and Kagi:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![chatgpt-results4](../Images/bbd774f2bc203e5b5c7b1d3416be6638.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '![](../Images/43e2b2fc6ea509f52c513690aa3670fc.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '![](../Images/7262ffc01b6ce06847a48461b35a8fd4.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: ChatGPT provides an answer about the home run record from ‘98 with Mark McGwire,
+    which has been controversial years later, but isn’t *the* home run record with
+    an asterisk. Google gives the correct answer in an answer box along with links
+    out to sources, and Kagi provides results. Of these, Kagi might even be the best
+    because while Maris’ is the one that comes to mind when people say “astrisk,”
+    both McGwire and Bonds also have controversy attached to theirs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'To be fair, OpenAI is aware of this. Here’s a tweet from CEO Sam Altman:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![twitter-sam-altman-chatgpt](../Images/08eff0873c2c8ca60a310d85c12aed01.png)](https://twitter.com/sama/status/1601731503934697472)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: But I do think that the lack of context and multiple choices is inescapable
+    within a pure chat context. That’s why chat is great for finding business hours;
+    less great for learning what it’s like to go through boot camp or why people like
+    RomComs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This isn’t even touching on product search. A large amount of money spent on
+    search these days is not on SEO for Google, but [building search for a site’s
+    own product catalog](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/).
+    In these situations, it is *so* important for searchers to be able to see options,
+    filter down with a click, and generally get deep into a “discovery phase.” This
+    is not what chat is suited for.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'There are other hurdles: legal ([Australia has a law requiring payment from
+    Google and Facebook for news](https://www.reuters.com/technology/australia-says-law-making-facebook-google-pay-news-has-worked-2022-12-02/);
+    what will they think when the news is automatically summarized without sources?),
+    cost, and speed immediately come to mind. These may one day be surmountable. So,
+    too, might the overly confident incorrect results.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'But user experience: this one isn’t going away. Okay, yes, you might argue
+    that it’s easy enough to fix. A chat-based system could show multiple results
+    at once and let the user decide which is the best. Maybe even rank them by confidence.
+    Then it could even link out so that a searcher could see the information and decide
+    if it’s accurate. Even better, why not also include suggestions for follow-up
+    queries or multimedia that might be interesting?'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Congratulations, you’ve just rebuilt a search UI.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'So, in short: LLMs are great. Understanding user intent is fantastic. Automatic
+    summarization is powerful. Search is going nowhere.'
+  prefs: []
+  type: TYPE_NORMAL

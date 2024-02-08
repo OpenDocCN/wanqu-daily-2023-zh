@@ -1,0 +1,206 @@
+- en: 'AI: First New UI Paradigm in 60 Years'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.nngroup.com/articles/ai-paradigm/](https://www.nngroup.com/articles/ai-paradigm/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: '[ChatGPT](https://www.nngroup.com/articles/chatgpt-productivity/) and other
+    AI systems are shaping up to launch the third user-interface paradigm in the history
+    of computing — the first new interaction model in more than 60 years.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The First Two Paradigms
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Paradigm 1: Batch Processing'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: From the birth of computers, around **1945**, the **first UI paradigm** was
+    batch processing. In this paradigm, users specified a complete workflow of everything
+    they wanted the computer to do. This batch of instructions was submitted to a
+    data center (often as a deck of punched cards) and was processed at some unspecified
+    time, often overnight.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Later, often the next morning, users would pick up the output of their batch:
+    usually, this would be a thick fanfold of printouts, but it could also be a new
+    deck of punched cards. If the original batch contained even the slightest error,
+    there would be no output, or the result would be meaningless.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'From a UI perspective, batch processing did not involve any back-and-forth
+    between the user and the computer. The UI was a single point of contact: that
+    batch of punched cards. Usability was horrible, and it was common to need multiple
+    days to finetune the batch to the point where executing it would produce the desired
+    end result.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Paradigm 2: Command-Based Interaction Design'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: 'Around **1964**, the advent of time-sharing (where multiple users shared a
+    single mainframe computer through connected terminals) led to the **second UI
+    paradigm**: command-based interaction. In this paradigm, the user and the computer
+    would take turns, one command at a time. This paradigm is so powerful that it
+    has dominated computing ever since — for more than 60 years.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Command-based interactions have been the underlying approach *throughout three
+    generations* of user-interface technology: command lines (like DOS and Unix),
+    full-screen text-based terminals (common with IBM mainframes), and [graphical
+    user interfaces](https://www.nngroup.com/articles/direct-manipulation/) (GUI:
+    Macintosh, Windows, and all current smartphone platforms). Powerful and long-lasting
+    indeed.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The benefit of command-based interactions compared to batch processing is clear:
+    after each command has been executed, **the user can reassess the situation and
+    modify future commands** to progress toward the desired goal.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'In fact, users don’t even need to have a fully specified goal in mind because
+    they can adjust their approach to the problem at hand as they get more information
+    from the computer and see the results of their initial commands. (At least, that’s
+    the case if the design follows the first of the [10 usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/):
+    visibility of system status.) Early command-line systems often didn’t show the
+    current state of the system, with horrible usability as a result. For example,
+    in Unix, no news was good news because you would get feedback from the computer
+    only if your command resulted in an error message. No errors meant no information
+    from the computer about the new state, which made it harder for users to compose
+    the following command.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The beauty of graphical user interfaces is that they do show the status after
+    each command, at least when designed well. **The graphical user interface has
+    dominated the UX** **world** since the launch of the Macintosh in 1984: about
+    40 years of supremacy until it possibly is replaced by the next generation of
+    UI technology and, more importantly, the next UI paradigm in the form of artificial
+    intelligence.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Newest Paradigm
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Paradigm 3: Intent-Based Outcome Specification'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: I doubt that the current set of generative AI tools (like ChatGPT, Bard, etc.)
+    are representative of the UIs we’ll be using in a few years, because **they have
+    deep-rooted usability problems**. Their problems led to the development of a new
+    role — the “prompt engineer.” Prompt engineers exist to tickle ChatGPT in the
+    right spot so it coughs up the right results.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This new role reminds me of how we used to need specially trained query specialists
+    to search through extensive databases of medical research or legal cases. Then
+    Google came along, and anybody could search. The same level of usability leapfrogging
+    is needed with these new tools: **better usability of AI should be a significant
+    competitive advantage. **(And if you’re considering becoming a prompt engineer,
+    don’t count on a long-lasting career.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: The current chat-based interaction style also suffers from requiring users to
+    write out their problems as prose text. Based on recent literacy research, I deem
+    it likely that [half the population in rich countries is not articulate](https://www.linkedin.com/pulse/prompt-driven-ai-ux-hurts-usability-jakob-nielsen/) enough to
+    get good results from one of the current AI bots.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That said, **the AI user interface** represents a different paradigm of the
+    interaction between humans and computers — a paradigm that holds much promise.
+  prefs: []
+  type: TYPE_NORMAL
+- en: As I mentioned, in command-based interactions, the user issues commands to the
+    computer one at a time, gradually producing the desired result (if the design
+    has sufficient usability to allow people to understand what commands to issue
+    at each step). The computer is fully obedient and does exactly what it’s told.
+    The downside is that low usability often causes users to issue commands that do
+    something different than what the users really want.
+  prefs: []
+  type: TYPE_NORMAL
+- en: With the new AI systems**, the user no longer tells the computer what to** **do**.
+    Rather**, the user tells the computer what outcome they want. **Thus**, **the
+    third UI paradigm, represented by current generative AI, is **intent-based outcome
+    specification.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'A simple example of a prompt for an AI system is:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Make me a drawing suitable for the cover of a pulp science-fiction magazine,
+    showing a cowboy in a space suit on an airless planet with two red moons in the
+    heavens.*'
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Try ordering Photoshop circa 2021 to do that! Back then, you would have issued
+    hundreds of commands to bring forth the illustration gradually. Today, Bing Image
+    Creator made me four suggested images in a few seconds.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/267e3cf09adf1e791ff11cfbab87e544.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '*Image produced by Bing Image Creator* *from the prompt, "Make me a drawing
+    suitable for the cover of a pulp science-fiction magazine, showing a cowboy in
+    a space suit on an airless planet with two red moons in the heavens."*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: With this new UI paradigm, represented by current generative AI, the user tells
+    the computer the desired result but does not specify how this outcome should be
+    accomplished. Compared to traditional command-based interaction,this paradigm **completely
+    reverses the locus of control**. I doubt we should even describe this user experience
+    as an “interaction” because there is no turn-taking or gradual progress.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That said, in my science-fiction–illustration example, I’m not happy with the
+    space suits. This might be fixed by another round with the AI. Such rounds of
+    gradual refinement are a form of interaction that is currently poorly supported,
+    providing rich opportunities for usability improvements for those **AI vendors
+    who bother doing user research** to discover better ways for average humans to
+    control their systems.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Do what I mean, not what I say* is a seductive UI paradigm — as mentioned,
+    users often order the computer to do the wrong thing. On the other hand, assigning
+    the locus of control entirely to the computer does have downsides, especially
+    with current AI, which is **prone to including erroneous information in its results. **When
+    users [don’t know how something was done](https://www.nngroup.com/articles/machine-learning-ux/),
+    it can be harder for them to identify or correct the problem.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The intent-based paradigm doesn’t rise to the level of [**noncommand systems**](https://www.nngroup.com/articles/noncommand/)**,** which
+    I introduced in 1993\. A true noncommand system doesn’t require the user to specify
+    intent because the computer acts as a side effect of the user’s normal actions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'As an example, consider unlocking a car by pulling on the door handle: this
+    is a noncommand unlock because the user would perform the same action whether
+    the car is locked or unlocked. (In contrast, a car operated by voice recognition
+    could unlock the door because the user stated, “I want the car to be unlocked,”
+    which would be an intent-based outcome specification. And an old-fashioned car
+    could be operated by the explicit command to unlock the door by inserting and
+    twisting the key.)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Whether AI systems can achieve high usability within the intent-based-outcome-specification
+    paradigm is unclear. I doubt it because I am an enthusiastic fan of graphical
+    user interfaces. Visual information is often easier to understand and faster to
+    interact with than text. Could you fill out a long form (like a bank-account application
+    or a hotel reservation) by conversing with chatbot — even one as smart as the
+    new generative AI tools?!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Clicking or tapping things on a **screen is an intuitive and essential aspect
+    of user interaction that should not be overlooked.** Thus, the second UI paradigm
+    will survive, albeit in a less dominant role. Future AI systems will likely have
+    a **hybrid user interface** that combines elements of both intent-based and command-based
+    interfaces while still retaining many GUI elements.
+  prefs: []
+  type: TYPE_NORMAL

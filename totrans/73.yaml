@@ -1,0 +1,349 @@
+- en: Beware Flavored Software
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://every.to/divinations/beware-flavored-software](https://every.to/divinations/beware-flavored-software)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: One day 10 years ago I stood in an hour-long line outside an ice cream shop
+    near Dolores Park in San Francisco, and at the end I was greeted with options
+    such as “black sesame” and “balsamic strawberry.” Apparently this place was known
+    for its unique flavors. The good news is that the balsamic strawberry ice cream
+    was delicious. The bad news is that it planted an idea about competitive differentiation
+    in my head that clouded my thinking for years.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I consider myself a creative guy—I get excited about clever food, art, apparel,
+    architecture, music, packaging, writing, and so on. But because I make software,
+    I have a special place in my heart for clever apps. Unfortunately, though, they
+    usually don’t make great businesses. The older I get, the more I appreciate the
+    merits of vanilla software. There is money to be made in boring.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What is flavored software?
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Software that attempts to be different in a way that creates temporary excitement,
+    but doesn’t create lasting value, is what I call “flavored software.” Of course,
+    no one *thinks* this is what they’re building. They think their unique twist is
+    a revolution, and that everyone will adopt their innovation in the future. But
+    sadly, more often than not, they’ve invented the software equivalent of balsamic
+    strawberry ice cream.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The agonizing thing about balsamic strawberry is that it’s actually *good*.
+    You show it to users and they’re like, “Wow, tasty!” But because it’s software
+    and not ice cream, it’s less obvious that it’s never going to beat vanilla. These
+    apps can even grow substantially if the new flavor is good enough, but they often
+    have trouble sustaining growth.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Product categories that tend to be flavor-based include podcast apps, notes
+    apps, and to-do list apps. I have no disrespect for creators of products in these
+    spaces, so I won’t reference specific names. But for each category, I'll talk
+    about why I think products in it tend to hit early growth [asymptotes](https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes).
+    Then I’ll extract some general principles for distinguishing between mere flavor
+    differentiation versus scalable value. As a bonus, I’ll pick a few current ideas
+    that seem huge but I predict are just the flavor of the month (sorry, AI avatar
+    makers, I’m looking at you 🥲).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'One caveat: this analysis only applies if you want to build a VC-style business
+    that might go public or have a significant exit. If you want to build something
+    awesome and make enough money to live a great life, feel free to disregard it.
+    There is a lot of joy (and cash) to be had by selling balsamic strawberry ice
+    cream, as long as you keep your costs low and don’t raise money from investors
+    who are expecting you to disrupt vanilla.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Example 1: Podcast apps'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: There are a lot of great podcast apps out there. Unfortunately none of them
+    are great businesses. These two facts are linked.
+  prefs: []
+  type: TYPE_NORMAL
+- en: It’s relatively easy to make a podcast app. You can scrape Apple’s directory
+    and instantly have a library full of all the content any user could want. As a
+    result, developers have created a cornucopia of fun new ways of listening to podcasts.
+    Some apps have custom playlists, others focus on discovery, and there are even
+    some that have created custom audio engines to make the podcasts sound better.
+    Even design details, like the home screen as a beautiful grid of podcast art from
+    your favorite shows, can be enough to capture the hearts of tens of thousands
+    of users.
+  prefs: []
+  type: TYPE_NORMAL
+- en: None of these apps has achieved significant market share, except those that
+    leverage pre-existing power from an adjacent domain—like Apple’s control over
+    the iPhone and Spotify’s popular music app—to grow their podcast user base.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'So why haven’t any of the smaller podcast apps been able to discover features
+    that propel them past their initial niche? For three reasons:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: When they *do* discover a feature that is not just a “flavor of the month” thing
+    (like speeding up audio), it gets copied by every other app.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: Most features they discover are only interesting to a subset of users or are
+    only mildly useful, and not enough to get people to switch from an app they’re
+    used to.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: A great feature is not the same thing as a great growth engine (aka marketing
+    channel), and the types of founders that are focused on the former tend to neglect
+    the latter.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: (These ideas are applicable across all categories, not just podcast apps.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Example 2: Notes apps'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Most notes apps like to pretend they are defensible because they have “switching
+    costs”: they think you’ll be reluctant to leave once you fill them up with notes.
+    But in practice, there isn’t much evidence that this is true. In fact, I would
+    argue the opposite: there is a subculture of people who are note-taking enthusiasts,
+    and actively enjoy switching apps and trying new flavors. (To learn what drives
+    this behavior, I recommend reading Dan Shipper’s essay, “[Dopamine Stacking](https://every.to/superorganizers/dopamine-stacking-4289562).”)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Coming to market with a strawberry balsamic note-taking app and then getting
+    sad when your users churn is like being the frog that let the scorpion ride on
+    its back across the river:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: I can hear some of you wondering, “But wait, isn’t Lex kind of like a notes
+    app?” ([Lex](https://lex.page/) is the AI-native word processor I’m building.)
+    It’s a reasonable question. That’s the main reason I’m writing this essay—this
+    is a very real risk for Lex, and I want to understand it better. If you’re interested
+    in how I think about it, read to the end.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Example 3: To-do list apps'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: I’ll name a name in this category because it’s an old app that was universally
+    beloved in its time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Does anyone else remember [Clear](https://techcrunch.com/2012/02/14/clear-why-this-simple-to-do-list-app-has-everyone-talking/)??
+  prefs: []
+  type: TYPE_NORMAL
+- en: My god what a beautiful product! If Jiro dreamed of to-do list apps instead
+    of sushi, he would probably make something like this.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the grand scheme of things, the Clear team probably did alright, but it’s
+    safe to say they did not revolutionize to-do lists forever. It turned out to be
+    more of a [cronut](https://en.wikipedia.org/wiki/Cronut)-type of situation.
+  prefs: []
+  type: TYPE_NORMAL
+- en: To-do list apps face the same challenges that podcast and notes apps do, with
+    the additional challenge of competing with enterprise project management systems.
+    It’s nice to have a simple place to keep your personal tasks, but most of your
+    work is probably flowing through a larger enterprise system like Notion, Asana,
+    Jira, Linear, or a similar product. These are tough to compete with because they
+    have network effects (you have to use what everyone else in your company uses),
+    and unlike consumer apps, they do actually have switching costs (it’s much harder
+    to move a group of people than to try something new for yourself).
+  prefs: []
+  type: TYPE_NORMAL
+- en: Other flavor-based categories
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Other categories that tend to attract flavor-based competition are:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Email clients
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Read-it-later/RSS reader apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Food tracking apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Personal finance/stock-tracking apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: AI avatar apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Weather apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Habit-tracking apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Calculator apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Photo-editing apps
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Notice something in common? They all feed off of a resource that is either widely
+    accessible or easily recreated. The Gmail API makes it easy to build an email
+    app, the AccuWeather API makes it easy to build a weather app, Stable Diffusion
+    makes it easy to build an AI avatar app, every programming language comes with
+    math functions built-in, you can easily get access to people’s photos from Apple
+    or Google, etc.
+  prefs: []
+  type: TYPE_NORMAL
+- en: To be clear, sometimes scalable businesses do emerge from categories that are
+    usually fragmented and flavor-based. My point is that it’s rare.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Warning signs
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Be wary of software with certain characteristics, especially if they’re used
+    together:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Uses gimmicky and/or clever feature names (e.g., “The Imbox” from [HEY](https://every.to/divinations/will-hey-work-590853?sid=13208))
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Has prominent graphics or animations only because it looks cool, not because
+    they explain or make information more meaningful
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Uses game-like elements to encourage repeat behavior
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Leans hard on in-app copy to make users feel an emotional connection with the
+    software
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '*Side note: every time I see software that is trying a little bit too hard
+    with their copy, it reminds me of this* [*iconic moment*](https://youtu.be/yEQV2OJVBx4?t=45)
+    *in movie history:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*What about media?*'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '*Media—books, music, games, movies, etc.—is flavor-based, but it’s worth considering
+    separately from software because most media companies are designed to churn out
+    a steady stream of new stuff, whereas most software companies create one thing
+    and then keep polishing and extending it. If software is about “stock,” media
+    is about “flow.”*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Some software companies have tried to release new apps—a company called [Not
+    Boring](https://www.andy.works/) (not to be confused with [Packy McCormick’s newsletter](https://www.notboring.co/))
+    is executing this strategy pretty well—but it generally doesn’t work as well as
+    it does in media because there’s a much smaller audience of people that wants
+    to continually try new software than people who want to continually consume new
+    content.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*What about CPG?*'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '*Consumer packaged goods (CPG) like food, drinks, and toiletries are clearly
+    flavor-based. But they tend to work a bit better as businesses than flavor-based
+    software because, like media, they’re consumable: when you use them, they run
+    out, and you need to buy more. The only difference is people are more likely to
+    keep buying the same unique type of hand soap or whatever for a long time, whereas
+    with media once you’ve consumed a thing you’re unlikely to consume it again. And
+    because there are hard marginal costs associated with manufacturing and distribution,
+    the price never goes all the way to zero in the way that it often does with software
+    or media.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*How to escape flavor-based competition*'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '*Let’s say you’re building a software company, and you’d like it to be venture-backable.
+    Or perhaps you’re an investor who is responsible for allocating capital into new
+    technology ventures. How can you tell if a software company is going to be more
+    like strawberry balsamic ice cream or Google?*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Here are a few guidelines:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**   **Enterprise software is (mostly) not flavor-based.** Sure, there are
+    enterprise fads [like the metaverse,](https://every.to/napkin-math/the-meh-taverse?sid=13211)
+    but generally speaking, large companies only sign contracts when it feels like
+    there is an obvious commercial advantage to doing so.*   **Networks are (mostly)
+    not flavor-based.** If you’re using an app because of the content created by its
+    other users, it’s not necessarily a guarantee for success, but at least if it
+    fails it probably won’t be because it hit a flavor-based asymptote. For instance,
+    BeReal leveraged a unique flavor of photo sharing to build a network, but people
+    are still using it because they like the way it helps them stay in touch with
+    their friends. If it were just a single-player utility, it would not have scaled
+    in the same way. Another historical example is Instagram versus [Hipstamatic](https://www.theatlantic.com/technology/archive/2012/10/how-instagram-beat-hipstamatic-its-own-game/322743/).
+    Both had a cool new flavor called “photo filters,” but one had a network and the
+    other did not. Here’s a more recent example: the network is what sets Substack
+    stands apart from its flavor-based competition.*   **Tech-enabled services are
+    not flavor-based.** If you act like a tech company but really do grocery delivery,
+    banking, education, housing, healthcare, or any other real-world service, your
+    competition is mostly not flavor-based because starting this type of business
+    involves a lot of cost and complexity. (Also, some, like ride hailing and delivery,
+    are networks.) The downside is that your cost structure is probably not as great
+    as pure tech companies, but the upside is that you have less competition.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*All of these types of products can involve some flavoring to help them get
+    off the ground. The point is not that flavoring is bad. It’s good! But it has
+    a very specific role. Flavor provides an initial [product wedge](https://every.to/divinations/product-wedges-a-complete-guide?sid=13212).
+    It’s helpful for standing out initially but doesn’t provide long-term differentiation
+    or durable advantage.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Postscript: What about Lex?*'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '*[Lex](https://lex.page/) is an AI-powered word processor that I’m building.
+    Its initial traction is based on the unique flavor of the way that it feels to
+    write in it, which could be a red flag. But over the long run, Lex might be able
+    to sustain value in a couple of ways:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**   **Vertical focus.** Right now Lex seems like a general-purpose AI writing
+    tool. But over time it will become more obvious that there is a subset of writing
+    that deserves a specific tool. For example, it used to be the case that software
+    UI designers used a design tool (Photoshop) that was made for photo editing; I
+    think we’ll look back on today’s writing apps, like Google Docs, as similarly
+    broad.*   **Network.** For creative tools, an industry tends to consolidate on
+    a standard way of doing things. Programmers use git partially because all the
+    other programmers use it. Designers use Figma partially because all the other
+    designers use it. I think the same can happen for writing.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*This is all very speculative and early, though, so my approach is to just
+    focus on shipping improvements to the product as quickly as possible. In order
+    for anything else to matter, Lex has to be a great tool first.*'
+  prefs: []
+  type: TYPE_NORMAL

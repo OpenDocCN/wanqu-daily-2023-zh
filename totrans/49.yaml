@@ -1,0 +1,169 @@
+- en: 'The Fallacy of Forever Bottoms Up For Devtools: The Power of Enterprise Sales'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up](https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: '*“We added a record 212 new large customers, those paying us more than $100,000
+    per year and now have 1,749 customers over that threshold. **These large customers
+    [1.1% of customers*] now represent 60% of our revenue, up from 50% six quarters
+    ago. This trend illustrates how large established enterprises increasingly formed
+    the foundation of cloud business.**”*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*- Cloudflare Q2 2022 Earnings Call Transcript. *'
+  prefs: []
+  type: TYPE_NORMAL
+- en: One of the most valuable lessons I learned when entering venture capital was
+    that I should always ask myself when evaluating a new investment whether I could
+    envision an S-1 (the form that must be filed by companies when they go public
+    prior to an IPO) for the company. Intrigued by what this meant at a more granular
+    level, I began to explore the common traits of developer tool / cloud infra companies
+    that go public. **Specifically, in this world of “bottoms-up” and self-serve,
+    can devtool companies go all the way to Wall Street on such a sales motion?**
+    Do I need to expect a company I am considering investing in to be able to close
+    hundreds or thousands of $100k+ enterprise contracts or even $1M+ contracts in
+    order to go public?
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'In an effort to answer this billion dollar question, I took S-1 data from every
+    major devtool company I could think of that went public in the last decade (28
+    of them) to add some color to these questions:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The first level of insights we can derive from the data are:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: First, of the 28 companies, the average ARR/customer (which I’ll refer to as
+    ARPU, or average revenue per user, going forward) was $92k and the median was
+    $35k.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: 8 companies had an ARPU >$100k, 4 between $50k-$100k, 5 between $25k-$50k, and
+    11 that were <$25k.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: 'Digging a level deeper, we notice some interesting findings. Despite there
+    being many companies with relatively low ARPU:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 21 of the 28 companies stated a metric in their S-1 for the number of paying
+    customers with contracts paying $100k+/year (median being 300)
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: At least 10 specified the number of customers paying >$1M+/year (median being
+    27) - though likely many more did but simply did not specify having such contracts
+    in the S-1 form.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Interestingly, nearly all of the lower ARPU companies had many >$100k+ customers,
+    with at least 4 of the 11 companies in the lowest <$25k ARPU bucket specifying
+    $1M+ customers. **'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**What this means is that, even for companies with large swaths of bottoms
+    up customers and lower ACVs, a top-down sales motion and larger-ACV strategy is
+    nearly always added to a developer tool company’s strategy prior to going public**.
+    Furthermore, these small number of enterprise customers typically account for
+    sizable portions of a company’s overall revenue. This becomes even more prevalent
+    if we examine the <$25k ARPU public companies at an individual level to see the
+    impact those larger contracts had on the business’ abilities to go public:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[JFrog](https://jfrog.com/): Their customers paying >$100k ARR (4.9% of customers)
+    comprised 48% of ARR'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[GitLab](https://about.gitlab.com/): Despite having 15k+ customers, 60% of
+    their revenue came from their enterprise customers, with 383 paying >$100k and
+    27 paying >$1M'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Tenable](https://www.tenable.com/): Enterprise Accounts (18% of customers)
+    comprised 72% of revenue'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Atlassian](https://www.atlassian.com/): There were 864 customers paying >$50k.
+    Without further info, all this implies is that these 1.9% of customers accounted
+    for *at least* 16.25% of revenue (likely far more though since this assumes they
+    all only paid $50k each)'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Cloudflare](https://www.cloudflare.com/): As the quote at the beginning noted,
+    Cloudflare stated in their Q2 2022 earnings that 1749 customers - only 1.1% of
+    their total customers - comprised more than 60% of their revenue.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[DigitalOcean](https://www.digitalocean.com/): While I don’t have the data
+    at their IPO, [15% of their customers in 2022 paying >$50k comprised 83% of revenue](https://www.saastr.com/5-interesting-learnings-from-digitalocean-at-500000000-in-arr/)'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: 'Looking outside of the lowest bucket, we continue to see the effects that large
+    enterprise contracts have on devtool company’s abilities to go public:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[DataDog](https://www.datadoghq.com/): With an ARPU of $37k, their top 10 accounts
+    (0.1% of customers) comprised 14% of revenue and their accounts paying >$100k+
+    (6.7% accounts) comprised 72% revenue'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Fastly](https://www.fastly.com/): Their top 10 (0.6% customers) comprised
+    32% revenue, and their top 14% of customers comprised 84% of revenue'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Snowflake](https://www.snowflake.com/en/): Their $1M+ ACV customers (1.8%
+    of total customers) comprised 47% of revenue'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: 'If we examine the companies by category, we see what we’d expect, with Median
+    ARPUs being lowest and Median Total # of Customers being highest for Cloud Infra
+    and Devtool companies relative to Observability, Security, and Storage/Data Infra
+    – though, as discussed with Cloudflare, Fastly, Atlassian, Gitlab, and DigitalOcean,
+    all sectors are still significantly impacted by enterprise contracts.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Finally, if we look at the sales efficiency for each company against their ARPU,
+    we see….not that much correlation, implying that both low-volume/high ACV and
+    high-volume/low ACV types of business require high sales and marketing spend typically.
+    However, we do see some very high sales efficiency for some of the low ARPU ones
+    like DigitalOcean, Atlassian, and Twilio, which demonstrate that even if these
+    businesses still needed to add on enterprise sales eventually, they were able
+    to do so in a very capital efficient manner.
+  prefs: []
+  type: TYPE_NORMAL
+- en: So does this mean as an investor I stop investing in bottoms up devtool companies?
+    10000% no (if 100% wasn’t clear enough!). It’s one of the most effective forms
+    of growing an early stage business in a capital efficient manner. However, in
+    most cases, I do need to see the potential for there to be several hundred businesses
+    paying $100k+ and in some cases the potential for even $1M+ contracts down the
+    road. After all, we’ve seen just how much $$$ enterprises are willing to shell
+    over and how much they can comprise a business’ total revenue!
+  prefs: []
+  type: TYPE_NORMAL
+- en: __
+  prefs: []
+  type: TYPE_NORMAL
+- en: Whether you are a bottom-up or top-down business, we at Redpoint would love
+    to chat. Follow me on [on Twitter @jordan_segall](https://twitter.com/jordan_segall)
+    or subscribe to my substack below!
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**I added in for context*'
+  prefs: []
+  type: TYPE_NORMAL

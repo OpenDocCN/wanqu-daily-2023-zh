@@ -1,0 +1,131 @@
+- en: I Bought Back My Acquihired Startup
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://steveridout.com/2023/03/23/buy-back.html](https://steveridout.com/2023/03/23/buy-back.html)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: March 23, 2023
+  prefs: []
+  type: TYPE_NORMAL
+- en: I wrote about my language learning startup, [Readlang](https://readlang.com),
+    back in [2014](https://steveridout.com/2014/03/22/readlang-my-bootstrapped-language-learning-web-app.html),
+    and then again in [2016](https://steveridout.com/2016/01/04/readlang-3-years-as-a-one-man-startup.html),
+    both times attracting attention on Hacker News, where my story of a struggling
+    one-man startup seemed to resonate. Well, it’s now 7 years later, and a bunch
+    has happened since, so it’s time for an update…
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Aquihire
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: My Readlang story caught the attention of Duolingo and I went to work there
+    in 2016\. Meeting them for the first time on their company vacation at a fancy
+    resort in Costa Rica was a culture shock after my frugal bootstrapper lifestyle.
+    “You’ll get used to it” said one of the other engineers, which turned out to be
+    half right. It was a wonderful, surreal experience.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We talked about a potential Readlang sale before I joined Duolingo. But they
+    were more excited for me to work for on other projects. It sounded like an aquihire
+    which made me uncomfortable. So instead we agreed that I would work for them for
+    a while and keep Readlang on the side. I spent the first 9 months working on an
+    [ill-fated chatbot](https://techcrunch.com/2016/10/06/duolingos-chatbots-help-you-learn-a-new-language/)
+    (a few years too early [as it turns out](https://blog.duolingo.com/duolingo-max/)).
+    After this, I decided that I had unfinished business and emailed to say that I’d
+    be leaving to work on Readlang again. They quickly got back to me and said I could
+    have carte-blanche to work on a completely new product around listening. I had
+    ideas in this area already, and it seemed too cool to turn down. Get paid to hack
+    together a new prototype that I would be in charge of? Yes please!
+  prefs: []
+  type: TYPE_NORMAL
+- en: My idea was to launch an MVP and then leave to work on Readlang again. Within
+    a few months we launched the first version of Duolingo Stories and the reception
+    both internally and externally was really promising. So much so that I was now
+    pretty excited to continue growing it. It seemed we were onto something. Given
+    that Stories was kinda similar to Readlang, it felt weird for me to be running
+    Readlang on the side, so I brought up the option of a sale again with the idea
+    that I’d either go all in with Duolingo or leave for Readlang. I figured that
+    eventually I’d either work on Readlang inside Duolingo or Stories might even evolve
+    to become a replacement for Readlang. So we did the deal. We migrated the site
+    to run on their infrastructure and the customer’s payments went to Duolingo’s
+    Stripe account instead of mine. Beyond that, nothing much changed with Readlang.
+    Stories grew, but it never did turn into a Readlang replacement. I occasionally
+    thought about pitching Readlang as a project to focus on, but I could never convince
+    myself that it would move the needle at Duolingo’s scale, and so it was neglected.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Buy-Back
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: At the end of 2021 [I left Duolingo](https://steveridout.com/2022/04/05/back-to-bootstrapping-a-new-web-app.html)
+    and with it, Readlang. I left instructions on how to maintain Readlang but figured
+    that one day something would break, and there was a good chance they’d want to
+    shut it down. I said that if it ever got to that point to please get in touch
+    with me.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I spent most of 2022 half-heartedly working on some other projects ([JigglePix](https://jigglepix.com/),
+    [Flashdown](https://github.com/SteveRidout/flashdown), [Notepad Calculator](https://notepadcalculator.com/)),
+    until in December I got 3 emails from random people complaining about payments
+    being taken by Readlang that they had no idea about. To get 3 emails to my personal
+    email was pretty strange. I asked Duolingo and they confirmed that something was
+    going wrong. It turned out that people were using Readlang for [card testing fraud](https://stripe.com/docs/disputes/prevention/card-testing).
+    After I helped them to fix the problem and refund everyone they asked if I wanted
+    Readlang back and how much I’d pay. Of course I said yes!
+  prefs: []
+  type: TYPE_NORMAL
+- en: How Is Readlang Doing Now?
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Surprisingly OK! If you had asked me 7 years ago what would happen to Readlang
+    if I just abandoned it and left it in maintanence mode for all this time, I would
+    have bet that it would have declined, but actually, it basically held steady.
+    Here’s a monthly revenue graph:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Readlang Revenue](../Images/f628acf74ab6b475d3da8086c78daab7.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: The first few years show good growth. During this time I was constantly adding
+    new features, blogging about it, and it largely spread organically with enthusiastic
+    users sharing it in different online and offline communities. After putting it
+    maintenance mode in early 2016 it continued growing until the sale to Duolingo.
+    At this point we dropped PayPal for simplicity resulting in a dip but after that
+    revenue held surprisingly constant. About 10% of users were churning each month
+    but the supply of new users never dried up. People continued to recommend Readlang,
+    it even appeared in one of Tim Ferriss’ “5 Bullet Friday” newsletters in 2018!
+    There was a noticeable bump in 2020 likely driven by the pandemic lockdowns.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That’s the beauty of software - up-front work can continue delivering value
+    for years to come!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Now that I have it back, I’m wondering how to get it to do this…
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Readlang Future Revenue](../Images/7e09011ff293cd2e5130f0c01dd2e705.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: I have ideas. And of course there are more ideas that time to implement them.
+    Recently I experimented with adding ChatGPT-powered [Smart Definitions](https://blog.readlang.com/2023/03/23/smart-definitions.html).
+    But I think the most important thing is to improve the streak mechanic to get
+    people more invested in returning every day - did I mention I worked at Duolingo?
+    :-) If I manage to improve growth then I might even think about re-investing the
+    profits and get someone else to help out. It’s not like I’m committed to this
+    one-man-startup approach forever!
+  prefs: []
+  type: TYPE_NORMAL
+- en: Anyway, I’m looking forward to improving Readlang again. It’s fun to have my
+    baby back!
+  prefs: []
+  type: TYPE_NORMAL
+- en: UPDATE
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL

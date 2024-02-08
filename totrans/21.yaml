@@ -1,0 +1,431 @@
+- en: Series A fundraising for an open source company
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck](https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: TL;DR
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Series A investors evaluate open-source companies based on product-market fit,
+    with adoption being the primary indicator.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: OSS companies often do not reach the same revenue milestones as other companies
+    by the time they raise Series A funding. Top open-source investors understand
+    this and look at different metrics to determine project adoption and community
+    engagement as indicators of product-market fit.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '"Vanity" metrics, such as GitHub stars, watchers, forks, and contributors may
+    represent "mindshare" among the target audience and can vary across different
+    categories of projects.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Gauging these metrics with peer projects can give a sense of the relative overall
+    awareness or recognition your project has, similar to "Share of Voice" in marketing.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: The number of downloads is another metric founders often track, but it is not
+    a reliable measure of adoption due to automated workflows and systems driving
+    this number artificially up without providing clarity on user numbers.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: To assess meaningful adoption, the size of your community is a better reflection
+    of the project's success.
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the Unusual Field Guide, we described how [Series A](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond)
+    investors will evaluate your company for indicators of product-market fit. Series
+    A fundraising for an OSS company has important nuances because the primary indicator
+    of product-market fit is adoption, not revenue. In the first phase of building
+    an OSS company, prioritization should be given to adoption at the expense of monetization.
+    Therefore, OSS companies do not reach the same revenue milestones as other companies
+    by the time it comes to raise Series A. The good news is that top open-source
+    investors understand this and don’t evaluate OSS companies based on revenue. Instead,
+    they will look at a different set of metrics to determine project adoption and
+    community engagement as indicators of product-market fit and how well-positioned
+    you are to achieve repeatable sales with your commercial offering.
+  prefs: []
+  type: TYPE_NORMAL
+- en: <WhatarethebestmetricstousetomeasureOSSadoption>What are the best metrics to
+    use to measure OSS adoption?<WhatarethebestmetricstousetomeasureOSSadoption>
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Determining whether your OSS project is progressing toward product-market requires
+    paying attention to metrics that can help you assess its traction. There are many
+    OSS metrics that are available for founders to measure, and understanding the
+    relevance of each is important to figure out how to best drive awareness and interest.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: So-called “vanity” metrics are the easiest to immediately look at because they’re
+    publicly displayed but could simply reflect passing interest — these include GitHub
+    stars, watchers, forks, and contributors.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**GitHub Stars:** [Stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)
+    are a feature on GitHub for users to keep track of projects they find interesting.
+    They can be used to bookmark your repository for later reference or to show appreciation
+    for your project, akin to a “like” on social media.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**GitHub Watchers:** Watchers track the number of people watching your repository.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**GitHub Forks:** Forks are local copies of your repository.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**GitHub Contributors:** Contributors are those who have contributed commits
+    to your repository.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: These metrics, however, are not necessarily a reliable indicator of actual adoption.
+    Many users who star your project may never end up using it. Instead, these metrics
+    represent “mindshare” among your target audience. We’ve also observed that these
+    types of metrics for OSS projects can vary widely across different categories
+    of projects.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: For example, OSS developer tool projects tend to generate many more stars than
+    OSS security projects. Gauging your public metrics with those of peer projects
+    will give you a sense of the relative overall awareness or recognition your project
+    has, akin to “Share of Voice” in marketing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: For reference, in the table below, we’ve listed GitHub star count data drawn
+    from 67 open-source companies who announced their Series A fundraisings in 2021
+    and 2022\. You’ll see that average, median, and top-quartile star counts vary
+    between open-source developer tools, data/ML, and security projects. Growth rate
+    also varies though it’s worth noting that top decile month-over-month star growth
+    across all companies is above 12%, which we consider to be best-in-class.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Another metric founders often track is the number of downloads. This is oftentimes
+    not a reliable measure of adoption since automated workflows and systems will
+    drive this number artificially up without providing clarity on the numbers of
+    users, a much more important metric.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Another caveat to these metrics is that their counts do not decrease even if
+    activity starts to wane. Therefore, tracking absolute counts is insufficient.
+    It’s necessary to measure growth rates in these metrics — week-over-week and month-over-month
+    — to determine if your OSS project is maintaining or capturing additional mindshare.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: If these public metrics on GitHub can help you measure your relative mindshare
+    among your target audience, what metrics can you use to assess meaningful adoption?
+    To start, the size of your community is a far better reflection of the number
+    of users who have adopted your OSS than the number of GitHub stars. The degree
+    of activity of user engagement in your community Slack or Discord is incredibly
+    important — having hundreds of members with very little activity is a telling
+    sign that your project adoption is minimal.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Adoption typically corresponds to project “velocity,” the pace at which changes
+    in the OSS occur. To measure your project velocity, evaluate metrics such as the
+    number of active project contributors (those who have contributed commits within
+    a given recent time period), the number of issues that have been filed, and the
+    number of pull requests.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Measuring adoption is also not just about quantitative data but about qualitative
+    aspects. For example, as we previously highlighted, it’s valuable to understand
+    the organizations that your users belong to since lighthouse companies provide
+    early credibility. “The right metrics depend on your market, your product, and
+    how it works,” says Ev Kontsevoy, Co-founder and CEO of [Teleport](https://goteleport.com/).
+    “Find the proxy metric that measures your market-share capture.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: <Whatdoinvestorswanttoseeinapitchdeck>What do investors want to see in a pitch
+    deck?<Whatdoinvestorswanttoseeinapitchdeck>
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the Unusual Field Guide, we shared [how to best position yourself for a successful
+    fundraising process](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond).
+    If you are an open-source founder, this starts with identifying Series A investors
+    with a track record of working with open-source companies and who know how to
+    evaluate whether your OSS project has achieved (or is well on its way) to product-market
+    fit. **Open-source software gives these investors ways to gauge traction early
+    in a startup’s journey, before the company is generating revenue. The same transparency
+    that makes OSS projects easy to adopt also provides a window for investors to
+    assess your progress to date.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: As with any investor presentation, [your pitch deck](https://www.field-guide.unusual.vc/field-guide-enterprise/pitch-and-process)
+    must communicate a compelling narrative that highlights the strength of your team,
+    the large market opportunity, and the goals for this financing. However, for slides
+    that cover traction, Series A investors want to see specific information to evaluate
+    whether your OSS project has reached product-market fit and if your company is
+    ready to build a repeatable sales motion. Here’s what you can expect them to look
+    for.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Metrics (and their momentum)**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'As mentioned above, public metrics provide a window into only part of the story.
+    They help investors gain a sense of relative project popularity, mindshare, and
+    awareness, which is the starting point for broad user adoption. But investors
+    also want to understand metrics for actual adoption including the ones we listed:
+    how large your user base is, their level of engagement, active contributions,
+    support requests, and project velocity. Momentum, as evidenced in growth rates,
+    is a key aspect across these metrics that investors will pay attention to.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***Who* is in your user base and what they’re saying**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Beyond metrics, investors will want to understand *who* is engaging with your
+    project and the organizations they belong to. Early lighthouse adopters that are
+    technically sophisticated and forward-thinking provide credibility and influence
+    with the broader market. Mid-market and large enterprises with sizable budgets
+    represent real buying power that make it easier for investors to believe your
+    company is well-positioned to achieve a repeatable sales motion.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: It’s worth keeping in mind that many popular OSS projects achieve sizable adoption
+    but are unable to monetize because their users have low willingness to pay. For
+    example, if your user base is primarily made up of hobbyist developers, investors
+    may question the commercial potential of your company. Investors will look out
+    for what these adopters are saying about your project — why they found it compelling,
+    what features they like best, why everyone else needs to be using it. Expect that
+    investors will conduct reference checks with users at lighthouse companies to
+    ask them directly.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***How* users are adopting your OSS**'
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: Beyond the metrics and understanding your user base, investors (at least the
+    best ones) will want to understand the details of how those users are implementing
+    your OSS. **Is it being used in production? This increases the likelihood that
+    users are getting high value out of it. Has it been integrated with existing tooling
+    and/or workflows? This signals that your OSS has some level of stickiness and
+    is being used regularly.** What are the use cases that everyone gets started with?
+    This suggests there is strong repeatability for user onboarding.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**<SeriesAchecklistforOSScompanies>Series A checklist for OSS companies<SeriesAchecklistforOSScompanies>**'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Here’s an investor checklist that will help you prepare for what investors
+    will evaluate as part of your Series A fundraising process:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: ☑️ Public GitHub metrics — as a measure of relative mindshare
+  prefs: []
+  type: TYPE_NORMAL
+- en: Stars
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Watchers
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Forks
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Contributors
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Growth rates for the above
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ☑️ Community metrics — as a measure of project usage
+  prefs: []
+  type: TYPE_NORMAL
+- en: Members
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Level of engagement on Slack/Discord
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Active project contributors
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Issues filed
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Support requests
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Pull requests
+  prefs:
+  - PREF_IND
+  type: TYPE_NORMAL
+- en: ☑️ Profile of users and their organizations — as a measure of credible, influential
+    early adopters
+  prefs: []
+  type: TYPE_NORMAL
+- en: Number of lighthouse companies
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Number of mid-market / enterprise companies
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: What are they saying
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ☑️ Examples of usage
+  prefs: []
+  type: TYPE_NORMAL
+- en: Deployments in production
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Integrations
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Use cases
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ☑️ Caliber of team
+  prefs: []
+  type: TYPE_NORMAL
+- en: Engineering
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Community-oriented roles such as DevRel
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Level of project leadership
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: It’s important to note that beyond Series A, OSS adoption isn’t a substitute
+    for revenue. Companies must demonstrate product-market fit for their commercial
+    offering in terms of actual revenue and paying customers, while continuing to
+    grow their OSS velocity.
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*This is part four of* [*The Open Source Software Field Guide for Founders*](https://www.field-guide.unusual.vc/field-guide-enterprise/start-an-open-source-software-company)*.
+    Read part five:* [*Open-source people strategy and hiring*](http://www.field-guide.unusual.vc/field-guide-enterprise/hiring-for-an-oss-company)*.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Sign up for the* [*Unusual Ventures newsletter*](https://mailchi.mp/unusual/signup)
+    *to stay up to date on forthcoming sections.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: ‍
+  prefs:
+  - PREF_H3
+  type: TYPE_NORMAL

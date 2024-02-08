@@ -1,0 +1,30 @@
+- en: Don’t Build AI Products The Way Everyone Else Is Doing It
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.builder.io/blog/build-ai](https://www.builder.io/blog/build-ai)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: It likely would have become so complex, slow, and expensive that our product
+    might never have even shipped.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Instead, we considered the problem and said, well, how can we solve this without
+    AI? How far can we get before it gets impossible without the types of specialized
+    decision-making AI is best at?
+  prefs: []
+  type: TYPE_NORMAL
+- en: So we broke the problem down and said, okay, we need to convert each of these
+    nodes to things we can represent in code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We needed to understand, in detail, working with elements such as images, backgrounds,
+    and foregrounds. And most importantly, we needed to intricately understand how
+    to make any input responsive.
+  prefs: []
+  type: TYPE_NORMAL
+- en: After that, we started considering more complex examples and realized there
+    are lots of cases where many, many layers would need to be turned into one image.
+  prefs: []
+  type: TYPE_NORMAL

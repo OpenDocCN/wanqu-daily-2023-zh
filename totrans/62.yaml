@@ -1,0 +1,75 @@
+- en: Why Engineers Need To Write - by Ryan Peterman
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.developing.dev/p/why-engineers-need-to-write](https://www.developing.dev/p/why-engineers-need-to-write)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: I hated writing in high school. It wasn’t objective like my favorite subjects,
+    math and science. It also didn’t help that we had to write about old, hard-to-understand
+    literature like Shakespeare. But my perspective on writing changed once I started
+    working full-time as a software engineer.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I use my laptop but you get the point
+  prefs: []
+  type: TYPE_NORMAL
+- en: The way I worked started to change around when I became a mid-level engineer.
+    I led a small workstream of a few engineers and to get my work done, I was writing
+    more and more without realizing it. Soon writing became a significant part of
+    my work outside of coding. This became even more true when COVID hit since most
+    conversations moved to async chats and word docs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Almost everything software engineers do requires writing. We need to write when
+    we ask technical questions, comment on code reviews, or create design docs. This
+    is because writing software is collaborative. **The better you are at writing,
+    the more effective you will be at building software.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: Aside from being a necessity, writing is the most efficient way for you to scale
+    yourself. As a concrete example, I have a friend who takes incredible notes at
+    work. His notes become a wiki of common terminal commands, code pointers, and
+    diagrams for the team he works on. The best part is that his writing helps others
+    move faster without any work on his part after sharing it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At the end of the day, you can only ship so much code by yourself. You can have
+    much more impact by influencing others to ship what matters most. **Writing is
+    the most scalable way to influence others.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: Some worry that ChatGPT may make writing obsolete. Even if AI tools write for
+    us, I still think writing is valuable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Writing your thoughts down forces them into a coherent, logical narrative. Condensing
+    your writing gives you a deeper understanding. This process improves your thinking.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Also, writing doesn’t just clarify your existing ideas; it generates more
+    of them**. When I write design docs, I often discover optimizations or edge cases
+    I didn’t think of at first. So long as critical thinking is necessary, writing
+    will not be obsolete.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '* * *'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**It is no coincidence that the strongest engineers I know are all excellent
+    technical writers**. It is one of the key skills engineers need to be effective
+    at work. This is one of the main reasons I’ve committed to writing once a week
+    for this Substack.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Over to you: Do you think writing is important for engineers? If so, what’s
+    helped you improve most?**'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thanks for reading,
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Ryan Peterman*'
+  prefs: []
+  type: TYPE_NORMAL

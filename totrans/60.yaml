@@ -1,0 +1,129 @@
+- en: The secret history of Elon Musk, Sam Altman, and OpenAI | Semafor
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai](https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: But in 2018, there was no reason to think that either the impulsive Musk or
+    quirky, quiet Altman would become so central to the Silicon Valley narrative,
+    even if they were already among its most prominent names. Musk, for one, had other
+    headaches. Tesla was [struggling](https://www.businessinsider.com/why-tesla-is-struggling-to-make-model-3-2017-10)
+    to keep up with production goals of its Model 3 sedan and the stock was [tanking](https://www.cnbc.com/2017/11/01/tesla-q3-2017-earnings.html),
+    threatening the company’s future.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Greg Brockman, an OpenAI co-founder who was chief technology officer at that
+    time, also opposed Musk’s takeover as did others at OpenAI. A power struggle ensued,
+    according to people familiar with the matter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Altman, who also ran the powerful startup accelerator YCombinator, stepped in.
+    According to tax documents, he added president to his title in 2018, in addition
+    to being a director.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Musk then stepped down from OpenAI’s board of directors. Publicly, he and OpenAI
+    said the reason for his departure was a conflict of interest. Tesla, which was
+    developing its own artificial intelligence for autonomous driving, would be competing
+    for talent with OpenAI.
+  prefs: []
+  type: TYPE_NORMAL
+- en: There was some truth to that rivalry. Tesla had already [poached](https://techcrunch.com/2017/06/20/tesla-hires-deep-learning-expert-andrej-karpathy-to-lead-autopilot-vision/)
+    one of OpenAI’s best minds, Andrej Karpathy, who became the architect of Tesla’s
+    autonomous driving program.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But few people at OpenAI believed Musk was leaving for that reason, and a speech
+    he gave at OpenAI’s offices at the time of his departure, which focused mainly
+    on the potential conflict of interest, was not received well by most employees,
+    who didn’t entirely buy the story.
+  prefs: []
+  type: TYPE_NORMAL
+- en: An OpenAI [announcement](https://openai.com/blog/openai-supporters) said Musk
+    would continue to fund the organization, but Musk did not, according to people
+    familiar with the matter. He had promised to donate roughly $1 billion over a
+    period of years (he had already contributed $100 million), but his payments stopped
+    after his departure, people familiar with the matter said. That left the nonprofit
+    with no ability to pay the [astronomical](https://openai.com/research/ai-and-compute)
+    fees associated with training AI models on supercomputers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Elon Musk](../Images/ba9c3bd6380beea328033e9d1c073ca8.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: Reuters/NTB/Carina Johansen
+  prefs: []
+  type: TYPE_NORMAL
+- en: That fall, it became even more apparent to some people at OpenAI that the costs
+    of becoming a cutting edge AI company were going to go up. Google Brain’s “[transformer](https://www.youtube.com/watch?v=9P_VAMyb-7k)”
+    had blown open a new frontier, where AI could improve endlessly. But that meant
+    feeding it endless data to train it — a costly endeavor.
+  prefs: []
+  type: TYPE_NORMAL
+- en: OpenAI made a big decision to pivot toward these transformer models.
+  prefs: []
+  type: TYPE_NORMAL
+- en: On March 11, 2019, OpenAI announced it was creating a [for profit](https://futurism.com/ai-elon-musk-openai-profit)
+    entity so that it could raise enough money to pay for the compute power necessary
+    to pursue the most ambitious AI models. “We want to increase our ability to raise
+    capital while still serving our mission, and no pre-existing legal structure we
+    know of strikes the right balance,” the company wrote at the time. OpenAI said
+    it was capping profits for investors, with any excess going to the original nonprofit.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Altman also made an unusual decision for a tech boss: He would take no equity
+    in the new for-profit entity, according to people familiar with the matter. Altman
+    was already extremely wealthy, investing in several wildly successful tech startups,
+    and didn’t need the money. The Information first [reported](https://www.theinformation.com/articles/microsoft-openai-inside-techs-hottest-romance?utm_source=ti_app&rc=nocdws)
+    on the equity.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: He also believed the company needed to become a business to continue its work,
+    but he told people the project was not designed to make money. Eschewing any ownership
+    interest would help him stay aligned with the original mission.  But that decision
+    actually turned off some potential investors in OpenAI, who worried that Altman
+    didn’t see upside in the project.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Less than six months later, OpenAI took [$1 billion](https://techcrunch.com/2019/07/22/microsoft-invests-1-billion-in-openai-in-new-multiyear-partnership/)
+    from Microsoft, which could provide not just funding but infrastructure know-how.
+    Together they built a supercomputer to train massive models that eventually created
+    ChatGPT and the image generator DALL-E. The latest language model, GPT-4, has
+    1 trillion parameters.
+  prefs: []
+  type: TYPE_NORMAL
+- en: When ChatGPT [launched](https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans)
+    in November, OpenAI instantly became the hottest new tech startup, forcing Google
+    to scramble to play catchup. Musk was furious, according to people familiar with
+    the matter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In December, a month after the launch of ChatGPT, Musk [pulled](https://twitter.com/elonmusk/status/1599291104687374338?s=20)
+    OpenAI’s access to the Twitter “fire hose” of data — a contract that was signed
+    before Musk acquired Twitter.
+  prefs: []
+  type: TYPE_NORMAL
+- en: On Feb. 17, he [tweeted](https://twitter.com/elonmusk/status/1626516035863212034?s=20)
+    “OpenAI was created as an open source (which is why I named it “Open” AI), non-profit
+    company to serve as a counterweight to Google, but now it has become a closed
+    source, maximum-profit company effectively controlled by Microsoft.”
+  prefs: []
+  type: TYPE_NORMAL
+- en: On March 15, he [tweeted](https://twitter.com/elonmusk/status/1636047019893481474?s=20),
+    “I’m still confused as to how a non-profit to which I donated ~$100M somehow became
+    a $30B market cap for-profit. If this is legal, why doesn’t everyone do it?”
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'OpenAI declined to comment. Musk didn’t respond to a request for comment but
+    on Friday, he tweeted “I’m sure it will be fine” and [a meme of Elmo](https://twitter.com/elonmusk/status/1639200036578885632?s=20)
+    with the words: “Me realizing AI, the most powerful tool that mankind has ever
+    created, is now in the hands of a ruthless corporate monopoly.”'
+  prefs: []
+  type: TYPE_NORMAL
+- en: On Thursday, The Information reported that Shivon Zilis, an OpenAI board member,
+    had stepped down. Zilis, who gave birth to Musk’s twins, did not respond to requests
+    for comment.
+  prefs: []
+  type: TYPE_NORMAL

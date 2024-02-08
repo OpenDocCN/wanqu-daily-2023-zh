@@ -1,0 +1,133 @@
+- en: Same Stop
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.engineersneedart.com/blog/samestop/samestop.html](https://www.engineersneedart.com/blog/samestop/samestop.html)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Same Stop
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: <date>21 May 2023</date>
+  prefs: []
+  type: TYPE_NORMAL
+- en: I retired a year and a half ago after having worked for twenty-six years as
+    a programmer for Apple. I’m not sure which would have been more surprising: if
+    I had continued programming in my spare time after I had retired or if I never
+    programmed again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I suppose most people would not be surprised by, perhaps might expect the latter
+    to be the case — might expect that I would hang up the keyboard after I retire
+    in the same way we expect that a retired doctor probably stops performing surgeries
+    and begins to spend more time on the golf course.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In fact right after retirement there was a sense of relief that I would never
+    again have to step through code trying to determine why a dispatch to a background
+    thread never completed. No longer would I have to worry about completely screwing
+    up the project repo because of my misadventures with git.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The respite from programming though lasted maybe about four months after retiring.
+    I started a [small project](https://github.com/EngineersNeedArt/SystemSix) , in
+    part to learn Python, in part to play with e-ink displays. I was back programming
+    (back abusing git) but of course the pressure was off. It both was and wasn’t
+    like the day job I had left behind.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![A younger programmer in the late 1980''s.](../Images/f186496eb2d455df4f8dac7a6ce75f02.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: In college, unknowingly anticipating the next three decades of his life.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I should mention though that before my twenty-six years at Apple, I had originally
+    been writing shareware games for fun and, a few years after that, a few commercial
+    games for a living. Since programming had initially been a kind of hobby to me
+    it is probably less surprising then that I would eventually return to writing
+    code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I am not sure though if this is still the case for software engineers. Are there
+    younger engineers, new to the career, for whom programming is not merely a job
+    but something they can imagine doing in their spare time? I think I met a few
+    as I was winding down my career. I do feel though that back around 1988 or so
+    when I started getting serious into programming that *all* fellow programmers
+    I met were also doing it with a kind of passion. How is it you can love a machine?
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: I dabbled with [writing a game in Javascript](https://www.mooncraft2000.com)
+    after my Python foray. And then roughly a year after I retired I went back to
+    Python to write an application this time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But this year, 2023, I find myself suddenly on a kind of tear. Though I eventually
+    began programming again, in the first fourteen months of retirement I did all
+    manner of other things in my spare time as well. I kept also-busy with woodworking
+    projects, experiments learning Blender and 3D printing, bike riding — just to
+    name a few. But somehow this year I have found myself tipping head-long back into
+    full-time programming. It is distinctly reminding me of my sleepless days spent
+    writing shareware games for the Macintosh thirty-five years ago.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’m not sure if that is a good thing. I am back to coding late into the night,
+    and back at it after coffee and an English muffin the following morning (thankfully
+    though I quit the cigarettes decades ago). Programming is beginning again to be
+    to the exclusion of all else in my life. (The table saw sits slowly rusting. The
+    bike hangs on the wall in the garage.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: And just to further complete the circle, it's not Javascript or Python (or Swift)
+    that is calling to me, but my old nemesis C. And further, I have this desire to
+    revisit/rewrite some of the shareware games that I wrote over three decades ago.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What am I trying to say? I have a programming addiction? (Maybe.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'From here I could go into detail on any number of things: working for Apple
+    in the 90’s vs. working for Apple post-iPhone, why something that others would
+    consider a job (programming) some do for fun, why game authoring appeals to both
+    sides of the brain.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: I guess at this moment though I am simply marveling at having hopped off the
+    career train only to find I have come full circle — somehow got off at the same
+    stop where I got on. Perhaps I can talk about some of those other things in the
+    future.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Laughably, I’m reminded of the last MST3K episode where Mike and the ‘bots finally
+    get back to Earth only to plop down in front of a TV to watch “The Crawling Eye”,
+    one of the first films they riffed a decade earlier.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Or maybe I’m just an old guy looking back and romanticizing the early days.
+    I’m back to coding in C again, writing little inconsequential games to amuse myself.
+    Or maybe there was something a little magical then. Simpler times?
+  prefs: []
+  type: TYPE_NORMAL
+- en: Lets be clear, I’m not back coding on a Mac Plus with a floppy drive, habitually
+    hitting command-S to save my progress every few minutes — no dial-up modem (ha
+    ha, no land line). I comb through StackOverflow like everyone else trying to figure
+    out why toggling fullscreen mode trashes the SDL_Textures I marked as targetable.
+    (Right?)
+  prefs: []
+  type: TYPE_NORMAL
+- en: But there is something becoming more familiar to me as I go back to the wild
+    west of C programming (where very little happens *behind the scenes* I might point
+    out - no garbage collection here!). And so [why not rewrite some familiar little
+    games](https://store.steampowered.com/app/2318420/Glypha_Vintage) as well?
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Now thirty-five years older.](../Images/06b8ad6f0497dd42d1f7a4933be848d7.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: To be clear, Glypha is 35 years old, not me, ha ha.
+  prefs: []
+  type: TYPE_NORMAL

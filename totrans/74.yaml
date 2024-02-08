@@ -1,0 +1,854 @@
+- en: twenty-five years of curl | daniel.haxx.se
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/](https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Time flies when you are having fun. Today is [curl](https://curl.se/)‘s 25th
+    birthday.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The curl project started out very humbly as a small renamed URL transfer tool
+    that almost nobody knew about for the first few years. It scratched a personal
+    itch of mine,
+  prefs: []
+  type: TYPE_NORMAL
+- en: Me back then
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: I made that first curl release and I’ve packaged every single release since.
+    The day I did that first curl release I was 27 years old and I worked as a software
+    engineer for **Frontec Tekniksystem**, where I mostly did contract development
+    on embedded systems for larger Swedish product development companies. For a few
+    years in the late 90s I would for example do quite a few projects at and for the
+    telecom giant Ericsson.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I have enjoyed programming and development ever since I got my first computer
+    in the mid 80s. In the 1990s I had already established a daily schedule where
+    I stayed up late when my better half went to bed at night, and I spent another
+    hour or two on my spare time development. This is basically how I have manged
+    to find time to devote to my projects the first few decades. Less sleep. Less
+    other things.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Gradually and always improving
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: The concept behind curl development has always been to gradually and iteratively
+    improve all aspects of it. Keep behavior, but enhance the code, add test cases,
+    improve the documentation. Over and over, year after year. It never stops. As
+    the timeline below helps showing.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Similarly, there was no sudden specific moment when suddenly curl became popular
+    and the number of users skyrocketed. Instead, the number of users and the popularity
+    of the tool and library has gradually and continuously grown. In 1998 there were
+    few users. By 2010 there were hundreds of millions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We really have no idea exactly how many users or installations of libcurl there
+    are now. It is easy to estimate that it runs in **way more than ten billion installations**
+    purely based on the fact that there are 7 billion smart phones and 1 billion tablets
+    in the world , and we know that each of them run at least one, but likely many
+    more curl installs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Before curl
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: My internet transfer journey started in late 1996 when I downloaded *httpget*
+    0.1 to automatically download currency rates daily to make my currency exchange
+    converter work correctly for my IRC bot. httpget had some flaws so I sent back
+    fixes, but Rafael, the author, quickly decided I could rather take over maintenance
+    of the thing. So I did.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I added support for GOPHER, change named of the project, added FTP support and
+    then in early 1998 I started adding FTP upload support as well…
+  prefs: []
+  type: TYPE_NORMAL
+- en: '1998'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '![](../Images/8113bc366773135db6162a6fb4e3697d.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: The original curl logo.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'On March 20 1998, curl 4.0 was released and it was already 2,200 lines of code
+    on its birthday because it was built on the projects previously named httpget
+    and urlget. It then supported three protocols: HTTP, GOPHER and FTP and featured
+    24 glorious command line options.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first release of curl was not that special event since I had been shipping
+    httpget and urlget releases for over a year already, so while this was a new name
+    it was also “just another release” as I had done many times already.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We would add HTTPS and TELNET support already the first curl year, which also
+    introduced the first ever curl man page. curl started out GPL licensed but I switched
+    to MPL already within that first calendar year 1998.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first SSL support was powered by SSLeay. The project that in late 1998 would
+    transition over into becoming OpenSSL.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In August 1998, we added curl on the open source directory site freshmeat.net.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first curl web page was published at `http://www.fts.frontec.se/~dast`.
+    (the oldest version archived by the wayback machine is [from December 1998](https://web.archive.org/web/19981202234521/http://www.fts.frontec.se:80/~dast/curl/))
+  prefs: []
+  type: TYPE_NORMAL
+- en: In November 1998 I added a note to the website about the mind-blowing success
+    as the latest release had been downloaded **300 times**! Success and popularity
+    were far from instant.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/88d9ef9b759301f85c63ef22ea0d3022.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: Screenshot from the curl website of November 1998
+  prefs: []
+  type: TYPE_NORMAL
+- en: During this first year, we shipped 20 curl releases. We have never repeated
+    that feat again.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '1999'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We created the first configure script, added support for cookies and appeared
+    as a package in Debian Linux.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The curl website moved to `http://curl.haxx.nu`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for DICT, LDAP and FILE through the year. Now supporting 8
+    protocols.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the last days of 1999 we imported the curl code to the cool new service called
+    Sourceforge. All further commit counts in curl starts with this import. December
+    29, 1999.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2000'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Privately, I switched jobs early 2000 but continued doing embedded contract
+    development during my days.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The rules for the TLD .se changed and we moved the curl website to `[curl.haxx.se](http://curl.haxx.se)`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I got married.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In August 2000, we shipped curl 7.1 and things changed. This release introduced
+    the library we decided to call libcurl because we couldn’t come up with a better
+    name. At this point the project were at 17,200 lines of code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The libcurl API was inspired by how `fopen()` works and returns just an opaque
+    handle, and how `ioctl()` can be used to set options.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Creating a library out of curl was an idea I had almost from the beginning,
+    as I’ve already before that point realized the power a good library can bring
+    to applications.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The [first CVE for curl](https://curl.se/docs/CVE-2000-0973.html) was reported.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Users found the library useful and increased the curl uptake. One of the first
+    early adopters of libcurl was the PHP language, which decided to use libcurl as
+    their default HTTP/URL transfer engine.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We created the first test suite.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2001'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We changed the license and offered curl under the new curl license (effectively
+    MIT) as well as MPL. The idea to slightly modify the curl license was a crazy
+    one, but the reason for that has been forgotten.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for HTTP/1.1 and IPv6.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In June, the THANKS file counted 67 named contributors. This is a team effort.
+    We surpassed 1,100 total commits in March and in July curl was 20,000 lines of
+    code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Apple started bundling curl with Mac OS X when curl 7.7.2 shipped in Mac OS
+    X 10.1.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2002'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: The test suite contained 79 test cases.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We dropped the MPL option. We would never again play the license change game.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for [gzip compression](https://zlib.net/) over HTTP and learned
+    how to use SOCKS proxies.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2003'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'The curl “autobuild” system was introduced: volunteers run scripts on their
+    machines that download, build and run the curl tests frequently and email back
+    the results to our central server for reporting and analyses. Long before modern
+    CI systems made these things so much easier.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for Digest, NTLM and Negotiate authentication for HTTP.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In August we offered 40 individual man pages.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Support for FTPS was added, protocol number 9.
+  prefs: []
+  type: TYPE_NORMAL
+- en: My first child, Agnes, was born.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I forked the ares project and started the [c-ares project](https://c-ares.org/)
+    to provide and maintain a library for doing asynchronous name resolves – for curl
+    and others. This project has since then also become fairly popular and widely
+    used.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2004'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: At the beginning of 2003, curl was 32,700 lines of code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We made curl support “large files”, which back then meant supporting files larger
+    than 2 and 4 gigabytes.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We implemented support for IDN, International Domain Names.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2005'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: GnuTLS become the second supported TLS library. Users could now select which
+    TLS library they wanted their build to use.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thanks to a grant from the Swedish “Internetfonden”, I took a leave of absence
+    from work and could implement the first version of the [multi_socket() API](https://everything.curl.dev/libcurl/drive/multi-socket)
+    to allow applications to do more parallel transfers faster.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[git](https://git-scm.com/) was created and they quickly adopted curl for their
+    HTTP(S) transfers.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: TFTP became the 10th protocol curl supports.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2006'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We decided to drop support for “third party FTP transfers” which made us bump
+    the SONAME because of the modified ABI. The most recent such bump. It triggered
+    some arguments. We learned how tough bumping the SONAME can be to users.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The [wolfSSL](https://wolfssl.com/) precursor called cyassl became the third
+    SSL library curl supported.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for HTTP/1.1 Pipelining and in the later half of the year I
+    accepted a contract development work for Adobe and added support for SCP and SFTP.
+  prefs: []
+  type: TYPE_NORMAL
+- en: As part of the SCP and SFTP work, I took a rather big step into and would later
+    become maintainer of the [libssh2](https://libssh2.org/) project. This project
+    is also pretty widely used.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I had a second child, my son Rex.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2007'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'Now at 51,500 lines of code we added support for a fourth SSL library: NSS'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for LDAPS and the first port to OS/400 was merged.
+  prefs: []
+  type: TYPE_NORMAL
+- en: For curl 7.16.1 we added support for `[--libcurl](https://everything.curl.dev/libcurl/libcurl)`.
+    Possibly my single favorite curl command line option. Generate libcurl-using source
+    code repeating the command line transfer.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In April, curl had 348 test cases.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2008'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: By now the command line tool had grown to feature 126 command line options.
+    A 5x growth during curl’s ten first years.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In March we surpassed 10,000 commits.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I joined the [httpbis working group mailing list](https://lists.w3.org/Archives/Public/ietf-http-wg/)
+    and started slowly to actively participate within the IETF and the work on the
+    HTTP protocol.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Solaris ships curl and libcurl. The Adobe flash player on Linux uses libcurl.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In September the total count of curl contributors reached 654.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2009'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: On [FLOSS Weekly 51](https://twit.tv/shows/floss-weekly/episodes/51), I talked
+    about curl on a [podcast](https://daniel.haxx.se/podcasts.html) for the first
+    time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We introduced support for building curl with [cmake](https://cmake.org/). A
+    decision that is still being discussed and questioned if it actually helps us.
+    To make the loop complete, cmake itself uses libcurl.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'In July [the IETF 75 meeting](https://www.ietf.org/proceedings/75/) was held
+    in Stockholm, my home town, and this was the first time I got to physically meet
+    several of my personal protocol heroes that created and kept working on the HTTP
+    protocol: Mark, Roy, Larry, Julian etc.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: In August, I quit my job [to work for my own](https://daniel.haxx.se/blog/2009/08/30/going-full-time-haxx/)
+    company Haxx, but still doing contracted development. Mostly doing embedded Linux
+    by then.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Thanks to yet another contract, I introduced support for IMAP(S), SMTP(S) and
+    POP3(S) to curl, bumping the number of supported protocols to 19.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I was [awarded the Nordic Free Software Award 2009](https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/).
+    For my work on curl, c-ares and libssh2.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2010'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: We added support for RTSP, and RTMP(S).
+  prefs: []
+  type: TYPE_NORMAL
+- en: PolarSSL became the 6th supported SSL library.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We switched version control system from CVS to git and at the same time we switched
+    hosting from Sourceforge to [GitHub](https://github.com/). From this point on
+    we track authorship of commits correctly and appropriately, something that was
+    much harder to do with CVS.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Added support for the AxTLS library. The 7th.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2011'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Over 80,000 lines of code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The [cookie RFC 6265 shipped](https://daniel.haxx.se/blog/2011/04/28/the-cookie-rfc-6265/).
+    I was there and did some minor contributions for it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We introduced the `[checksrc](https://github.com/curl/curl/blob/master/docs/CHECKSRC.md)`
+    script that verifies that source code adheres to the curl code style. Started
+    out simple, has improved and been made stricter over time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I got a [thank you from Googlers](https://daniel.haxx.se/blog/2011/12/06/a-special-thank-you-from-google/)
+    which eventually landed me some Google swag.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We surpassed 100 individual committers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2012'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 149 command line options.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Added support for Schannel and Secure Transport for TLS.
+  prefs: []
+  type: TYPE_NORMAL
+- en: When I did an attempt at a vanity count of number of curl users, I ended up
+    estimating they were [550 million](https://daniel.haxx.se/blog/2012/05/16/300m-users/).
+    This was one of the earlier realizations of mine that *man, curl is everywhere!*
+  prefs: []
+  type: TYPE_NORMAL
+- en: During the entire year of 2012, there were 67 commit authors.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2013'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Added support for GSKit, a TLS library mostly used on OS/400\. The 10th supported
+    TLS library.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In April the number of contributors had surpassed 1,000 and we reached over
+    800 test cases.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We refactored the internals to make sure everything is done non-blocking and
+    what we call “use multi internally” so that the easy interface is just a wrapper
+    for a multi transfer.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The initial attempts at HTTP/2 support were merged (powered by the great [nghttp2](https://nghttp2.org/)
+    library) as well as support for doing connects using the Happy Eyeballs approach.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We created our first two CI jobs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2014'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: I [started working for Mozilla](https://daniel.haxx.se/blog/2014/01/13/this-is-my-first-day-at-mozilla/)
+    in the Firefox networking team, remotely from my house in Sweden. For the first
+    time in my career, I would actually work primarily with networking and HTTP etc
+    with a significant overlap with what curl is and does. Up until this point, the
+    two sides of my life had been strangely separated. Mozilla allowed me to spend
+    some work hours on curl.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At 161 command line options and 20 reported CVEs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 59 man pages exploded into 270 man pages in July when every libcurl option got
+    its own separate page.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for the [libressl](https://www.libressl.org/) OpenSSL fork
+    and removed support for QsoSSL. Still at 10 supported TLS libraries.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In September, there was 105,000 lines of code.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Added support for SMB(S). 24 protocols.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2015'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Added support for BoringSSL and mbedTLS.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We introduced support for doing proper multiplexed transfers using HTTP/2\.
+    A pretty drastic paradigm change in the architecture when suddenly multiple transfers
+    would share a single connection. Lots of refactors and it took a while until HTTP/2
+    support got stable.
+  prefs: []
+  type: TYPE_NORMAL
+- en: It followed by our first support for HTTP/2 server push.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We switched over to the GitHub working model completely, using its issue tracker
+    and doing pull-requests.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first [HTTP/2 RFC was published in May](https://daniel.haxx.se/blog/2015/05/15/rfc-7540-is-http2/).
+    I like to think I contributed a little bit to the working group effort behind
+    it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: My HTTP/2 work this year was in part sponsored by Netflix and it was a dance
+    to make that happen while still employed by and working for Mozilla.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 20,000 commits.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I started writing [everything curl](https://everything.curl.dev/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: We also added support for [libpsl](https://github.com/rockdaboot/libpsl), using
+    the [Public Suffix List](https://publicsuffix.org/) for better cookie handling.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2016'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: curl switched to using HTTP/2 by default for HTTPS transfers.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In May, curl feature 185 command line options.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We got a [new logo](https://daniel.haxx.se/blog/2016/05/27/a-new-curl-logo/),
+    the present one. Designed by Adrian Burcea at Soft Dreams.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Added support for HTTPS proxies and TLS 1.3.
+  prefs: []
+  type: TYPE_NORMAL
+- en: curl was [audited by Cure 53](https://daniel.haxx.se/blog/2016/11/23/curl-security-audit/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: A Swedish tech site named me [2nd best developer in Sweden](https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/).
+    Because of my work on curl.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At 115,500 lines of code at the end of the year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2017'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: curl got support for building with and using multiple TLS libraries and doing
+    the choice of which to use at start-up.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Fastly reached out and graciously and generously [started hosting](https://daniel.haxx.se/blog/2017/05/02/a-curl-delivery-network/)
+    the curl website as well as my personal website. This help putting the end to
+    previous instabilities when blog posts got too popular for my site to hold up
+    and it made the curl site snappier for more people around the globe. They have
+    remained faithful sponsors of the project ever since.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the spring of 2017, we had our first ever physical developers conference,
+    [curl up](https://github.com/curl/curl-up/wiki), as twenty something curl fans
+    and developers [went to Nuremberg](https://daniel.haxx.se/blog/2017/03/20/curlup-2017-curl-now/),
+    Germany to spend a weekend doing nothing but curl stuff.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In June I was [denied traveling to the US](https://daniel.haxx.se/blog/2017/06/28/denied-entry/).
+    This would subsequently take me on a prolonged and painful adventure trying to
+    get a US visa.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first [SSLKEYLOGFILE](https://everything.curl.dev/usingcurl/tls/sslkeylogfile#sslkeylogfile)
+    support landed, we introduced the new MIME API and support for brotli compression.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The curl project was adopted into the [OSS-Fuzz project](https://google.github.io/oss-fuzz/),
+    which immediately started to point out mistakes in our code. They have kept fuzzing
+    curl nonstop since then.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In October, I was [awarded the Polhem Prize](https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/).
+    Sweden’s oldest and probably most prestigious engineering award. This prize was
+    established and has been awarded since 1876\. A genuine gold medal, handed over
+    to me by no other than his majesty the king of Sweden. The medal even has my name
+    engraved.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2018'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Added support for DNS over HTTPS and the new URL API was introduced to allow
+    applications to parse URLs the exact same way curl does it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I joined the [Changelog podcast and talked about curl](https://changelog.com/podcast/299)
+    turning 20.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Microsoft started shipping curl bundled with Windows. But [the curl alias remains](https://daniel.haxx.se/blog/2016/08/19/removing-the-powershell-curl-alias/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: We introduced support for a second SSH library, so now SCP and SFTP could be
+    powered by [libssh](https://libssh.org) in addition to the already supported [libssh2](https://libssh2.org/)
+    library.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for MesaLink but dropped support for AxTLS. At 12 TLS libraries.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 129,000 lines of code. Reached 10,000 stars on GitHub.
+  prefs: []
+  type: TYPE_NORMAL
+- en: To accept a donation it was requested we create an account with [Open Collective](https://opencollective.com/curl),
+    and so we did. It has since been a good channel for the project to receive donations
+    and sponsorships.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In November 2018 it was decided that the HTTP-over-QUIC protocol should officially
+    become HTTP/3.
+  prefs: []
+  type: TYPE_NORMAL
+- en: At 27 CI jobs at the end of the year. Running over 1200 test cases.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2019'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: I [started working for wolfSSL](https://daniel.haxx.se/blog/2019/02/02/im-on-team-wolfssl/),
+    doing curl full-time. It just took 21 years to make curl my job.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added support for Alt-Svc and we removed support for the always so [problematic
+    HTTP/1.1 Pipelining](https://daniel.haxx.se/blog/2019/04/06/curl-says-bye-bye-to-pipelining/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: We introduced our first curl [bug bounty](https://curl.se/docs/bugbounty.html)
+    program and we have effectively had a bug bounty running since. In association
+    with [hackerone](https://hackerone.com/curl). We have paid almost 50,000 USD in
+    reward money for 45 vulnerabilities (up to Feb 2023).
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Added support for [AmiSSL](https://github.com/jens-maus/amissl) and [BearSSL](https://bearssl.org/):
+    at 14 libraries.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'We merged [initial support for HTTP/3](https://daniel.haxx.se/blog/2019/08/05/first-http-3-with-curl/),
+    powered by the [quiche](https://docs.quic.tech/quiche/) library, and a little
+    later also with a second library: [ngtcp2](https://github.com/ngtcp2/ngtcp2).
+    Because why not do many backends?'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We started offering curl in an “official” [docker image](https://hub.docker.com/r/curlimages/curl).
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2020'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: The curl tool got parallel transfer powers, the ability to output data in JSON
+    format with `-w` and the scary `--help` output was cleaned up and arranged better
+    into subcategories.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In March, for [curl 7.69.0](https://youtu.be/X7Jlv87Nb8Y), I started doing release
+    video presentations, live-streamed.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The [curl website](https://curl.se/) moved to `curl.se` and [everything curl](https://everything.curl.dev/)
+    moved over to the `curl.dev` domain.
+  prefs: []
+  type: TYPE_NORMAL
+- en: MQTT become the 25th supported protocol.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The first support for HSTS was added, as well as support for zstd compression.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[wolfSSH](https://www.wolfssl.com/products/wolfssh/) became the third supported
+    SSH library.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: We removed support for PolarSSL.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Initial [support for hyper](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)
+    as an alternative backend for HTTP/1 and HTTP/2.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In November, in the middle of Covid, I [finally got a US visa](https://daniel.haxx.se/blog/2020/11/09/a-us-visa-in-937-days/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: The 90th CI job was created just before the end of the year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2021'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Dropped support for MesaLink but added support for rustls. At 13 TLS libraries.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Ingenuity landed on Mars, and [curl helped it happen](https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: Received a very unpleasant [death threat over email](https://un.curl.dev/emails/slaughter)
+    from someone deeply confused, blaming me for all sorts of bad things that happened
+    to him.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Reached 20,000 stars on GitHub.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Supports GOPHERS. 26 protocols.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 187 individuals authored commits that were merged during the year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2022'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Merged initial support WebSocket (`WS://` and `WSS://` URLs) and a new API for
+    handling it. At 28 protocols.
+  prefs: []
+  type: TYPE_NORMAL
+- en: We added the `[--json](https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/)`
+    command line option and libcurl got a new [header API](https://daniel.haxx.se/blog/2022/03/22/a-headers-api-for-libcurl/),
+    which then also made the command line tool get new [“header picking” ability](https://daniel.haxx.se/blog/2022/03/24/easier-header-picking-with-curl/)
+    added to `-w`. We also added `[--rate](https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/)`
+    and `[--url-query](https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/)`.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The [HTTP/3 RFC](https://datatracker.ietf.org/doc/html/rfc9114) was published
+    in June.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[msh3](https://github.com/nibanks/msh3) become the third supported HTTP/3 library.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Trail of Bits did a [curl security audit](https://daniel.haxx.se/blog/2022/12/21/the-2022-curl-security-audit/),
+    sponsored by [OpenSSF](https://openssf.org/).
+  prefs: []
+  type: TYPE_NORMAL
+- en: The 212th curl release was done in December. Issue **10,000** was created on
+    GitHub.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '2023'
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'At the start of the year: 155,100 lines of code. 486 man pages. 1560 test cases.
+    2,771 contributors. 1,105 commit authors. 132 CVEs. 122 CI jobs. 29,733 commits.
+    48,580 USD rewarded in bug-bounties. 249 command line options. 28 protocols. 13
+    TLS libraries. 3 SSH libraries. 3 HTTP/3 libraries.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Introduce support for HTTP/3 with fall-back to older versions, making it less
+    error-prone to use it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: On March 13 we surpassed **30,000** commits.
+  prefs: []
+  type: TYPE_NORMAL
+- en: On March 20, we release curl 8.0.0\. Exactly 25 years since the first curl release.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Staying relevant
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Over the last 25 years we have all stopped using and forgotten lots of software,
+    tools and services. Things come and go. Everything has its time and lots of projects
+    simply do not keep up and gets replaced by something else at some point.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I like to think that curl is still a highly relevant software project with lots
+    of users and use cases. I want to think that this is partly because we maintain
+    it intensely and with both care and love. We make it do what users want it to
+    do. Keep up, keep current, run the latest versions, support the latest security
+    measures, be the project you would like to use and participate. Lead by example.
+  prefs: []
+  type: TYPE_NORMAL
+- en: My life is forever curl tinted
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Taking curl this far and being able to work full time on my hobby project is
+    a dream come real. curl is a huge part of my life.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[![](../Images/518ac1d7356bd9ea0a66eeac7dbbeb75.png)](https://daniel.haxx.se/blog/wp-content/uploads/2023/02/daniel-curl-back.jpg)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Me, on vacation in Portugal in 2019.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This said, curl is a team effort and it would never have taken off or become
+    anything real without all our awesome contributors. People will call me “the curl
+    guy” and some will say that it is “my” project, but everyone who has ever been
+    close to the project knows that we are many more in the team than just me.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 25 years
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: That day found httpget I was 26 years old. I was 27 by the time I shipped curl.
+    I turned 52 last November.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’ve worked on curl longer than I’ve worked for any company. None of my kids
+    are this old. 25 years ago I did not live in my house yet. 25 years ago Google
+    didn’t exist and neither did Firefox.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Many current curl users were not even born when I started working on it.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Beyond twenty-five
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: I feel obligated to add this section because people will ask.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I don’t know what the future holds. I was never good at predictions or forecasts
+    and frankly I always try to avoid reading tea leaves. I hope to stay active in
+    the project and to continue working with client-side internet transfers for as
+    long as it is fun and people want to use the results of my work.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Will I be around in the project in another 25 years? Will curl still be relevant
+    then? I don’t know. Let’s find out!
+  prefs: []
+  type: TYPE_NORMAL

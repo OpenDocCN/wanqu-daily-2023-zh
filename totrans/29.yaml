@@ -1,0 +1,177 @@
+- en: 'AskTog: John Denver: When Interfaces Kill'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://www.asktog.com/columns/027InterfacesThatKill.html](https://www.asktog.com/columns/027InterfacesThatKill.html)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: <csobj w="168" h="1108" t="Component" csref="../../askTogSite.data/Components/leftbar.html"
+    occur="0">**Ask Tog, June, 1999**
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**When Interfaces Kill:** What Really Happened to John Denver'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: On October 12, 1997, John Denver, popular folk singer and amateur pilot, at
+    the controls of a newly-purchased experimental aircraft, died after crashing into
+    Monterey Bay, in California. He died in an aircraft that had already done its
+    best to kill two previous pilots, an aircraft with a human interface flaw so fundamental,
+    so profound, that it finally managed to kill.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Long EZ is a kit aircraft designed by Burt Rutan, one of the world's greatest
+    aerospace designers. Rutan was responsible for the Voyager, the first aircraft
+    to circumnavigate the globe without refueling. He is currently working on a reusable
+    spacecraft for commercial and tourist operations that can fly into space in the
+    morning, be checked out and refueled over lunch, and fly again that very afternoon.
+    One of his Long EZ planes, similar to John Denver's, holds the altitude record
+    for conventional aircraft. It is a brilliant design, and is well respected in
+    the aviation community.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Experimental aircraft kits, however, need not be built as the designer intended.
+    Indeed, the flaws that led to Denver's death were the work of the builder, and
+    had nothing to do with Burt Rutan. These flaws led from the builder's sincere
+    desire to improve on Rutan's work, a goal that could actually be said to have
+    been accomplished from an engineering perspective, even if it did kill the pilot.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Background
+  prefs: []
+  type: TYPE_NORMAL
+- en: Aircraft are designed to be as safe as possible. This sounds pretty obvious,
+    but if you look back to the history of the motorcar, you can see quite a contrast
+    with aviation. The car companies required government intervention before adding,
+    while still kicking and screaming, such esoteric safety equipment as headlights,
+    windshield wipers, and seat belts. The aviation community, on the contrary, from
+    the beginning made safety their primary goal.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Car fires are a common enough occurrence along America's freeways. A gas line
+    breaks under the hood and soon the engine is engulfed in flames. The cure? Pull
+    over, get out, find a long stick, and start roasting marshmallows.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That same fire in an aircraft at 10,000 feet is a far more serious affair. It
+    can take several minutes to "pull over," during which time that fire can be pouring
+    inky black smoke into the cockpit, blinding the pilot, making a crash inevitable.
+    As a result, aircraft have fuel shutoff valves in the cockpit. Flip the valve
+    and find a nice, friendly field somewhere below where you can safely land your
+    plane.
+  prefs: []
+  type: TYPE_NORMAL
+- en: These shutoff valves, on most aircraft, serve a second purpose, letting you
+    choose between the tank located in the left wing and the tank located in the right
+    wing. (I prefer flying aircraft that also have a "Both" position, so all this
+    gas selection can be avoided.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Bad Interface
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'John Denver''s aircraft had a fuel selection valve with only three positions:
+    Off, Left, and Right. Burt Rutan''s design called for that valve to be placed
+    on the front panel of the aircraft, making it easy to switch among the options.
+    The builder of the aircraft, however, elected to place the valve back behind the
+    pilot''s left shoulder. He did so with the best of intentions. By placing the
+    valve behind the pilot''s compartment, on the other side of the back firewall,
+    with only a long rod leading to the handle behind the pilot''s left shoulder,
+    he avoided running the gas lines through the passenger compartment, eliminating
+    any possibility of a gasline rupture occuring inside the compartment.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: "He did so, however, at a terrible cost to the human interface, because the\
+    \ only way to switch tanks was to let go of the controls, twist your head to the\
+    \ left to look behind you, reach over your left shoulder with your right hand,\
+    \ find the valve, and turn it. As the National Transportation Safety Board (NTSB)\
+    \ discovered, it was difficult to do this without bracing yourself with your right\
+    \ foot\x97by pressing the right rudder pedal all the way to the floor. And that's\
+    \ what killed John Denver. His plane was seen veering to the right and plunging\
+    \ into the ocean from only a few hundred feet up, consistent with the NTSB's reconstruction."
+  prefs: []
+  type: TYPE_NORMAL
+- en: Making things worse
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**The fuel:** Denver had three ways to ensure he had enough fuel. Evidence
+    suggests he made use of two of them:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: He had fuel gauges in the rear of the aircraft, behind the pilot, and a mirror
+    (!) used to look at them. However, the fuel gauges were not linear and had no
+    markings to indicate that apparently half-full was really close to empty.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: He dipped a rod into the fuel tanks while pre-checking the plane before flight
+    to test the fuel level. He may not have been aware, however, that, because of
+    the way the Long-EZ rests, the fuel tends to slosh toward the fuel tank filler
+    port, giving a highly-optimistic reading.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: The third method is adding fuel to the tanks, which Denver failed to do. Because
+    the Long-EZ has very large tanks, the common practice is to add an amount of fuel
+    suffient for the flight, plus a healthy margin. It may be John Denver was told
+    not to fill the tanks, but was not told of this partial-filling practice.
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: '**The valve:** The builder not only placed the valve in a non-standard location,
+    he also rotated it in such a way that turning the valve to the right turned on
+    the left fuel tank. This ensured that a pilot unfamiliar with the aircraft, upon
+    hearing the engine begin missing and spotting in his mirror that the left fuel
+    tank was empty, would attempt to rotate the fuel valve to the right, away from
+    the full tank, guaranteeing his destruction.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Lessons to be Learned
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'John Denver learned the biggest lesson of all, even if he only had a few seconds
+    to appreciate it: Let the User Beware! And, indeed, the NTSB, as per its long
+    history of setting aside findings, human factors or otherwise, that might conflict
+    with a verdict of pilot error, ruled that the responsibility for this crash lay
+    with the pilot. The interface was relegated to a mere "factor." Had John Denver
+    fueled his aircraft in spite of evidence indicating he had sufficient fuel, had
+    he somehow managed to thoroughly familiarize himself with the idiosyncrasies of
+    this uniquely-assembled experimental aircraft *sans* manual, he would be alive
+    and well today.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: However, to those of us versed in even rudimentary human factors, it is easy
+    to see that the design of this fuel system was a disaster waiting to happen, as
+    was borne out not only by what Denver experienced, but by incidents reported by
+    two previous pilots of this same plane who almost met death under the same circumstances.
+    Presumably, they had a bit more altitude when their fuel starved out and, therefore,
+    a bit more time to react.
+  prefs: []
+  type: TYPE_NORMAL
+- en: "With all of aviation's emphasis on safety, the human factors of small planes\
+    \ and the environment in which they fly would be laughable, if it weren't so dangerous.\
+    \ Why? Because the whole thing is awash in \"macho.\" Just as with Unix, just\
+    \ as with DOS, the more confounding everything is, the better it is, because it\
+    \ helps separate the men from the boys\x97and the girls, who aren't really invited.\
+    \ Until that changes, general aviation will continue to experience both a high\
+    \ fatality rate and a continuing drop in new pilots."
+  prefs: []
+  type: TYPE_NORMAL
+- en: We in the PC and web worlds have a lot to learn from this, too. We have a lot
+    of bad design floating around that is just as perverse as fuel valves that face
+    the wrong way, hidden behind firewalls. And it is not all to be found in freeware
+    and shareware programs, where one might argue that, as with experimental aircraft,
+    "let the user beware." Indeed, some of the most egregious examples of design are
+    apparent in the most expensive, mainstream operating systems and applications.
+    Fortunately for the corporations behind them, our screw-ups generally don't kill
+    people outright. Instead, we specialize in driving our users slowly insane.
+  prefs: []
+  type: TYPE_NORMAL
+- en: If you approach software design the way experts in commercial and military cockpit
+    human factors approach their craft, you will end up with designs that are fast,
+    familiar, and forgiving. Such designs would be a refreshing change in the ghastly
+    world of PC software. They'd be a refreshing change in the world of general aviation,
+    too.</csobj>
+  prefs: []
+  type: TYPE_NORMAL

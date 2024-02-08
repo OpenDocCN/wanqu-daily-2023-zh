@@ -1,0 +1,150 @@
+- en: Elixir Saves Pinterest $2 Million a Year In Server Costs
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://paraxial.io/blog/elixir-savings](https://paraxial.io/blog/elixir-savings)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: '![](../Images/72ce3dc71c32a2774c3bb532d5e6b77d.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: The [Elixir programming language](https://elixir-lang.org/) is well known in
+    the world of software where uptime is critical to business success. The official
+    description states, “Elixir is a dynamic, functional language for building scalable
+    and maintainable applications.” This is a humble summary of the enormous power
+    Elixir contains, which has saved businesses millions of dollars per year across
+    industries.
+  prefs: []
+  type: TYPE_NORMAL
+- en: The book “[Adopting Elixir, From Concept to Production (2018)](https://pragprog.com/titles/tvmelixir/adopting-elixir/)“
+    by Ben Marx, José Valim, Bruce Tate is an excellent guide to the strategic and
+    technical reasons to use Elixir in your business. The very first chapter clearly
+    illustrates the benefits.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Pinterest used Elixir for focused, high-volume, high-impact service around
+    performance tooling and monitoring. Steve Cohen is a software engineer who’s been
+    working with their early adoption teams:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***José**: Why did you choose Elixir?*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***Steve**: We chose Elixir because we were looking for a system that was easy
+    for programmers to understand and could take better advantage of our servers.
+    I was intrigued at Elixir’s combination of friendly syntax, powerful metaprogramming
+    features, and incorporation of the Actor model.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***José**: How has your company benefited from Elixir?*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '***Steve**: That’s pretty easy. When I started on the spam team, we had close
+    to 1,400 servers running. When we converted several parts to Elixir, we reduced
+    that by around 95%. One of the systems that ran on 200 Python servers now runs
+    on four Elixir servers (it can actually run on two servers, but we felt that four
+    provided more fault tolerance). The combined effect of better architecture and
+    Elixir saved Pinterest over $2 million per year in server costs. In addition,
+    the performance and reliability of the systems went up despite running on drastically
+    less hardware. When our notifications system was running on Java, it was on 30
+    c32.xl instances. When we switched over to Elixir, we could run on 15\. Despite
+    running on less hardware, the response times dropped significantly, as did errors.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: A language that enables companies to save money while improving reliability
+    and performance seems like fantasy. Elixir is able to demonstrate this incredible
+    result because the language is built on top of Erlang, a platform designed for
+    concurrent software that must stay online. Banking portals, e-commerce sites,
+    and SaaS products are just a few examples, most business software today has this
+    requirement. The story of Elixir improving a product while reducing costs repeats
+    itself.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![](../Images/33ba0249e71cd5c1e4ada9f9ebb10ac1.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: '* * *'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*@coryodaniel*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Rewrote an #AWS APIGateway & #lambda service that was costing us about $16000
+    / month in #elixir. Its running in 3 nodes that cost us about $150 / month.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*12 million requests / hour with sub-second latency, ~300GB of throughput /
+    day.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '* * *'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Cory O’Daniel](https://twitter.com/coryodaniel) noticed this benefit in 2018,
+    [releasing a detailed technical blog post](https://medium.com/coryodaniel/from-erverless-to-elixir-48752db4d7bc)
+    based on the enormous interest his tweet generated. The above example is not surprising
+    to anyone who has worked on a complicated serverless system. The hosting costs
+    quickly become unreasonable, and it may not be possible to run the code locally
+    on your machine when making a change, adding days of expensive development time.
+    Developers love Elixir for the excellent experience it provides when creating
+    software, and the business loves how much more work gets done ahead of schedule.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Bleacher Report, a top real time sports and media website, was hitting scaling
+    problems due to their business success. With Elixir, they were able to [8x the
+    average daily traffic load, going from 150 servers to only 5](https://web.archive.org/web/20181011093614/https://www.techworld.com/apps-wearables/how-elixir-helped-bleacher-report-handle-8x-more-traffic-3653957/):'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*The site was originally written on the Ruby on Rails framework but Bleacher
+    Report reached the point where they could no longer scale it, according to Dave
+    Marks, BR’s senior engineering director.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Elixir has proven so efficient that testing the limits of our services became
+    a challenge unto itself, requiring investment in new benchmarking tools and strategies.
+    In a recent test, for example, our most heavily trafficked service was able to
+    handle 8x our average traffic load, without autoscaling, before the database proved
+    to be a bottleneck,” he said.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*“On our monolith we needed roughly 150 servers to power the more intensive
+    portions of BR. Following our move to Elixir we’re now able to power those same
+    functions on five servers and we’re probably overprovisioned. We could probably
+    get away with it on two,” Marks says.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Let’s do a Fermi estimate where each server costs $17,000/year.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '| One server: | $17,000/year (example) |'
+  prefs: []
+  type: TYPE_TB
+- en: '| 150 servers: | $2,550,000/year |'
+  prefs: []
+  type: TYPE_TB
+- en: '| 5 servers: | $85,000/year |'
+  prefs: []
+  type: TYPE_TB
+- en: '| Savings: | $2,465,000/year |'
+  prefs: []
+  type: TYPE_TB
+- en: '|  |  |'
+  prefs: []
+  type: TYPE_TB
+- en: '| 30x cost savings, | final bill reduced by 97% |'
+  prefs: []
+  type: TYPE_TB
+- en: The final result was a 97% reduction in the server bill, with improved reliability
+    and performance. All this is possible because Elixir, and the Erlang platform
+    underneath, are fundamentally designed for always-online software with many users.
+    When you use the right tool for the job, the benefits are clear.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '* * *'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*[Paraxial.io](https://paraxial.io/) stops data breaches by securing your Elixir
+    and Phoenix apps. [Detect and fix critical security issues today.](https://calendly.com/paraxial/paraxial-io)*'
+  prefs: []
+  type: TYPE_NORMAL

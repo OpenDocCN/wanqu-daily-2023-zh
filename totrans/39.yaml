@@ -1,0 +1,269 @@
+- en: Cal.com | Open Startup
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://cal.com/open](https://cal.com/open)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Our Open Source Friends
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Meet other projects whose code and culture is open
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Appsmith](https://www.appsmith.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Build build custom software on top of your data.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Aptabase](https://aptabase.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Analytics for Apps, open source, simple and privacy-friendly. SDKs for Swift,
+    React Native, Electron, Flutter and many others.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Argos](https://argos-ci.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Argos provides the developer tools to debug tests and detect visual regressions..
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[BoxyHQ](https://boxyhq.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: BoxyHQ’s suite of APIs for security and privacy helps engineering teams build
+    and ship compliant cloud applications faster.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Crowd.dev](https://www.crowd.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Centralize community, product, and customer data to understand which companies
+    are engaging with your open source project.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[DevHunt](https://devhunt.org/)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Find the best Dev Tools upvoted by the community every week.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Documenso](https://documenso.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Open-Source DocuSign Alternative. We aim to earn your trust by enabling
+    you to self-host the platform and examine its inner workings.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[dyrector.io](https://dyrector.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: dyrector.io is an open-source continuous delivery & deployment platform with
+    version management.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Erxes](https://erxes.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The Open-Source HubSpot Alternative. A single XOS enables to create unique and
+    life-changing experiences that work for all types of business.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Formbricks](https://formbricks.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Survey granular user segments at any point in the user journey. Gather up to
+    6x more insights with targeted micro-surveys. All open-source.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Firecamp](https://firecamp.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: vscode for apis, open-source postman/insomnia alternative
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Ghostfolio](https://ghostfol.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Ghostfolio is a privacy-first, open source dashboard for your personal finances.
+    Designed to simplify asset tracking and empower informed investment decisions.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[GitWonk](https://gitwonk.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: GitWonk is an open-source technical documentation tool, designed and built focusing
+    on the developer experience.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Hanko](https://www.hanko.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-source authentication and user management for the passkey era. Integrated
+    in minutes, for web and mobile apps.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Hook0](https://www.hook0.com/)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-Source Webhooks-as-a-service (WaaS) that makes it easy for developers to
+    send webhooks.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[HTMX](https://htmx.org)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: HTMX is a dependency-free JavaScript library that allows you to access AJAX,
+    CSS Transitions, WebSockets, and Server Sent Events directly in HTML.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Inbox Zero](https://getinboxzero.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Inbox Zero makes it easy to clean up your inbox and reach inbox zero fast. It
+    provides bulk newsletter unsubscribe, cold email blocking, email analytics, and
+    AI automations.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Infisical](https://infisical.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open source, end-to-end encrypted platform that lets you securely manage secrets
+    and configs across your team, devices, and infrastructure.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Langfuse](https://langfuse.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open source LLM engineering platform. Debug, analyze and iterate together.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Lost Pixel](https://lost-pixel.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open source visual regression testing alternative to Percy & Chromatic
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Mockoon](https://mockoon.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Mockoon is the easiest and quickest way to design and run mock REST APIs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Novu](https://novu.co)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The open-source notification infrastructure for developers. Simple components
+    and APIs for managing all communication channels in one place.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[OpenBB](https://openbb.co)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Democratizing investment research through an open source financial ecosystem.
+    The OpenBB Terminal allows everyone to perform investment research, from everywhere.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[OpenStatus](https://www.openstatus.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-source monitoring platform with beautiful status pages
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Papermark](https://www.papermark.io/)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-Source Docsend Alternative to securely share documents with real-time analytics.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Requestly](https://requestly.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Makes frontend development cycle 10x faster with API Client, Mock Server, Intercept
+    & Modify HTTP Requests and Session Replays.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Revert](https://revert.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The open-source unified API to build B2B integrations remarkably fast
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Rivet](https://rivet.gg)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-source solution to deploy, scale, and operate your multiplayer game.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Shelf.nu](https://www.shelf.nu/)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open Source Asset and Equipment tracking software that lets you create QR asset
+    labels, manage and overview your assets across locations.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Sniffnet](https://www.sniffnet.net)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Sniffnet is a network monitoring tool to help you easily keep track of your
+    Internet traffic.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Spark.NET](https://spark-framework.net)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The .NET Web Framework for Makers. Build production ready, full-stack web applications
+    fast without sweating the small stuff.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Tolgee](https://tolgee.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Software localization from A to Z made really easy.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Trigger.dev](https://trigger.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Create long-running Jobs directly in your codebase with features like API integrations,
+    webhooks, scheduling and delays.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Typebot](https://typebot.io)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Typebot gives you powerful blocks to create unique chat experiences. Embed them
+    anywhere on your apps and start collecting results like magic.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Twenty](https://twenty.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: A modern CRM offering the flexibility of open-source, advanced features and
+    sleek design.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Unkey](https://unkey.dev)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: An API authentication and authorization platform for scaling user facing APIs.
+    Create, verify, and manage low latency API keys in seconds.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Webiny](https://www.webiny.com)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Open-source enterprise-grade serverless CMS. Own your data. Scale effortlessly.
+    Customize everything.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Webstudio](https://webstudio.is)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Webstudio is an open source alternative to Webflow
+  prefs: []
+  type: TYPE_NORMAL

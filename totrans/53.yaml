@@ -1,0 +1,510 @@
+- en: The Third-Party API Economy. How to Give Your Users Superpowers | by Grace Isford
+    | Medium
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://gisford.medium.com/the-third-party-api-economy-891b2a774fa5](https://gisford.medium.com/the-third-party-api-economy-891b2a774fa5)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: The Third-Party API Economy
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: How to Give Your Users Superpowers
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: '*Starting an API-first company bringing your users superpowers? I’d love to
+    hear from you.*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: APIs are nothing new. In 2006, my colleague Gary Little wrote the first check
+    into [MuleSoft](https://www.mulesoft.com/), the software integration platform
+    to connect any app or data source using APIs. An overwhelming majority of software
+    today is built using APIs.
+  prefs: []
+  type: TYPE_NORMAL
+- en: But the next, exciting phase of the API economy, specifically third-party APIs,
+    is just beginning in 2020\. With the rise of serverless applications, backend
+    functionalities are increasingly behind APIs, rather than on web servers. With
+    an accelerated transition to cloud computing, APIs are playing a more crucial
+    role integrating and facilitating cloud migration. App development is cheaper
+    than ever before, and JAMstack is reliant upon APIs to shield complexity from
+    web architecture. Not to mention third-party APIs are easier to flexibly use and
+    integrate with query languages like GraphQL, and network effects compound a given
+    API’s value over time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: This convergence of factors creates a ripe environment for APIs to flourish
+    — and those companies that provide APIs that deliver value for frequent, universal
+    cases will dominate. Users discern and switch APIs until they find the one that
+    best fits their needs — fostering a competitive market driving innovation forward.
+  prefs: []
+  type: TYPE_NORMAL
+- en: What’s an API? [Justin Gage’s breakdown](https://technically.substack.com/p/whats-an-api)
+    is one of the clearest I’ve seen. At a basic level, an API takes a specific input
+    and provides an output. An API can be internal within an existing company or app’s
+    software stack, external or public APIs or functional code interfaces. Most often,
+    APIs serve a specific use case and are often paired with a front-end dashboard
+    tracking key metrics and analytics.
+  prefs: []
+  type: TYPE_NORMAL
+- en: My definition? **The best API-first companies give their users “superpowers”
+    that they wouldn’t have otherwise.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: While you might not think of them this way, some of the biggest companies of
+    the past few decades originated from easily-implemented APIs that gave their users
+    heightened power, efficiency or accessibility. API-first companies like Stripe,
+    Twilio & Okta either created new markets or dramatically grew existing categories.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Yet as more and more APIs enter the landscape (several of which are doing seemingly
+    the same function) how do you identify which one pulls away? How do translate
+    these superpowers into concrete terms — what are the defining attributes of successful
+    third-party API companies?
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Josh Nussbaum](https://medium.com/@josh_nussbaum/disruption-vs-enablement-api-startups-db731e27e361)
+    puts it this way: *“The best API companies are those that take a problem that
+    is core to their customers’ businesses yet isn’t their core competency and provides
+    a simple and cheaper solution.”*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Inspired by his words, here’s my own take and how it applies to existing winners
+    and emerging API categories.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Common Characteristics of a Successful API-First Company
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: '**Simplifies Complexity** → API takes away complexity, and makes a previous
+    function easier than it was before, with a clear ROI in terms of either time or
+    money. The best third-party APIs champion their users and a consumer often doesn’t
+    even know it’s there (e.g. Stripe on e-commerce sites or Twilio messaging within
+    apps.)'
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: '**Provides Business Critical Functionality**→ While third-party API functionality
+    may not be a business’ core competency, it should be critical to the business’
+    success, often tied in to a customer monetization or engagement loop (e.g. bank
+    connectivity for Plaid, messaging for Twilio, online payments for Stripe), and
+    is frequently used in day-to-day product operations.'
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: '**Takes Advantage of a Tectonic Shift** → The most successful third-party API
+    companies have taken off at unique points in time (e.g. the advent of the Internet,
+    the proliferation of the smartphone, an explosion in contactless payments) and
+    oftentimes enable a functionality that was previously impossible prior to said
+    tectonic shift.'
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: '**Community X-Factor →** One interesting phenomenon I’ve noticed across successful
+    API-first companies is an evangelist community of early users, often leveraging
+    open source software. Stripe, Twilio and Okta all invested deeply in the user
+    communities of which they were a part, championing their users and empowering
+    them so meaningfully that they organically spread the product across peer groups.'
+  prefs:
+  - PREF_OL
+  type: TYPE_NORMAL
+- en: 'A few examples of incumbent API winners:'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: '**Twilio, Current Market Cap: $36B *Messaging***'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Superpower:** amplifies developers with text and voice messaging functionality'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Simplifies Complexity** → made adding voice or text messages easy to implement
+    with just a few lines of code'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Business Critical Functionality** → messaging isn’t the core competency of
+    most tech companies, however, it’s a critical business functionality to communicate
+    using tech apps (e.g. texting your Uber or Lyft driver in-app)'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Tectonic Shift** → advent of the smartphone & Apple App Store, where consumers
+    were faced with a litany of apps and heightened customer service expectations
+    allowed Twilio to seamlessly democratize a global telecommunications platform
+    to its customers.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**X-Factor** → over [5M developers](https://www.twilio.com/blog/twilio-community-surpasses-five-million-developer-accounts)
+    in the community championed by Twilio to democratize text, voice & chat communications.
+    Gave developers 1000 free minutes in their sandbox in early days.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Stripe, Current Valuation: $36B *Payments***'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Superpower:** empowers online payments for merchants'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Simplifies Complexity** → made it easier and simpler to accept online payments'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Business Critical Functionality** → while online payments isn’t the core
+    competency of merchants, the ability to easily accept online credit card payments
+    (on their own website) is crucial.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Tectonic Shift** → building off the Shopify tools for e-commerce, Stripe
+    took advantage of the e-commerce explosion and the shortcomings of incumbents
+    (e.g. PayPal) coupled with increasing usage of credit cards over cash.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**X-Factor** → started as a [single GitHub repository](https://github.com/customer-stories/stripe)
+    nurturing an early developer community (and has grown to 9 public libraries &
+    90 public repositories!)'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Okta, Current Market Cap: $27B *Authentication/Identity***'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Superpower:**enabledIT managers to easily manage identity & access management'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Simplifies Complexity** → made single-sign-on & identity verification easy
+    to implement as an on-demand product'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Business Critical Functionality** → while user authentication isn’t the core
+    competency of most companies, user identification is critical for a business to
+    maintain security & access controls'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Tectonic Shift** → explosion of mobile, consumerization of IT with digitization
+    of companies and apps presenting new challenges for organizational user management'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**X-Factor** → nurtured customer base of “SMB IT Network” to become sales advocates
+    and grow early community'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: Beyond messaging, payments and authentication, another successful category is
+    the content management space — pioneered by Automattic/Wordpress enabling easy
+    blog and website creation or location data with Foursquare. Several more massive
+    companies have also been built assembling a unique collection of API services
+    together, such as Uber in the transportation space (APIs for maps, messaging,
+    payments), or AWS in the computing space (APIs for a variety of web services,
+    across frameworks and languages.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: A key distinction — many successful companies like Stripe or Twilio were API-first
+    from inception, while others start with a non-API use case (e.g. Shopify with
+    e-commerce back-end) but expand into APIs over time. The opposite is also true
+    — API-first companies are strategically positioned to expand customer usage in
+    other non-API products (e.g. Stripe Atlas, Shopify fulfillment, Okta lifecycle
+    management.) Another interesting area of analysis is how companies broach the
+    API to non-API product transition and the common attributes and strategies of
+    those companies that successfully do so.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’m excited about third party APIs especially those fitting the criteria above
+    to invent and improve functionalities in categories where the superhero community
+    hasn’t yet been built from Banking-as-a-Service to payroll and data management.
+    While you can see a bunch of categories I’m generally excited about in my market
+    map, I’ll highlight a few below.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Image: [Grace Isford](https://medium.com/u/cfdf20a7534?source=post_page-----891b2a774fa5--------------------------------)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Emerging Third-Party API Categories:'
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: '**Banking-as-a-Service (BaaS) —** API-first companies in the banking-as-a-service
+    space are simplifying the previously complex back-end of banking systems, equipping
+    businesses with added banking service functionalities, and exploiting a tectonic
+    shift to modernize an archaic banking ecosystem.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Function:* easily deliver a bank’s financial services'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Plaid](https://plaid.com/) — connect bank accounts to an app'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Galileo](http://t) — provide sophisticated payment card & banking solutions'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Modern Treasury](https://www.moderntreasury.com/) — automate & manage full
+    cycle of payment flows via API'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Treasury Prime](https://treasuryprime.com/) — API banking platform to open
+    & service bank accounts'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[SynapseFI](https://synapsefi.com/) — build & launch financial banking products'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Bond](https://www.bond.tech/) — personalized financial banking products'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Fidel](https://fidel.uk/) — API for linking bank cards to applications globally'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Sila](https://silamoney.com/) — API for KYC, money transfer, bank account
+    linking'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Moov](http://moov.io) — API for ACH transactions/bank processing'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Identity —** API-first companies in the identity space make it easy to authenticate
+    users either in terms of identifying attributes (credit card info, email etc.),
+    exploiting tailwinds of the increased need for digital authentication in a COVID
+    era.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* authenticate data or identity users'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Okta](https://www.okta.com/) — secure identity management'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[ForgeRock](https://www.forgerock.com/) — digital identity'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Auth0](https://auth0.com/) — integrate authentication seamlessly'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Persona](https://withpersona.com/) — all-in-one identity platform'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Passbase](https://passbase.com/) — identify verification as a service'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Trusona](https://www.trusona.com/) — passwordless multi-factor authentication'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[WorkOS](https://workos.com/) — API for single sign on'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Data Storage/Management —** API-first companies in the data management space
+    are simplifying complex ways to move and manage data, providing added value and
+    efficiency gains, leveraging tectonic shift in developer first technology with
+    increasing preferences for serverless, simpler data setups.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* move, collect or store data'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Representative Companies:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Segment](https://segment.com/) — API for analytics data collection'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[FaunaDB](https://fauna.com/) — data API for client-serverless applications'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Jexia](https://www.jexia.com/en/) — API-enabled backend services to build
+    serverless applications'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Cherre](https://cherre.com/) — API to connect & analyze real-estate data'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Clearbit](https://clearbit.com/) — API to find customer data'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Gretel.ai](https://gretel.ai/) — API to create safe data'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Verification/Checks —** API-first companies in the verification space are
+    providing background and employment verification checks with a few clicks, often
+    building APIs or technical integrations with courts & historical data, leveraging
+    improvements in technology to simplify and speed up a previously complex process.
+    While Checkr is the incumbent in background checking, there’s many more types
+    of checks, manual processes and whitespace in international markets to innovate.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* verify individuals for employment, background checks'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Checkr](https://checkr.com/) — background checks'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Middesk](https://www.middesk.com/) — business verification & risk assessment'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Certn](http://certn.co/) — background checks in U.S. & Canada'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Truework](https://www.truework.com/) — employment verification & income'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Argyle](https://argyle.io/) — verification & payroll data aggregator'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Payroll —** API-first companies in the payroll space are making payroll instant,
+    easy and simple via APIs and SDKs streamlining a previously high-friction process.
+    Payroll companies are exploiting tailwinds to open up and modernize esoteric financial
+    systems and put more power back in the hands of the consumer. (*Note:* several
+    companies in the employee verification category over time can bleed into the payroll
+    space and vice versa.)'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* facilitate payroll connections'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Health —** API-first companies in the health space are innovating data sharing
+    in healthcare ecosystems across insurers, healthcare providers and more. There’s
+    ripe opportunity here given the complexity of the healthcare industry, and there
+    may uniquely be a tectonic shift in further digitizing and streamlining healthcare
+    data in the face of the pandemic.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* aggregate health data'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Fraud —** In an increasingly digital world, it’s more crucial than ever before
+    to identify and manage fraud. Technological improvements are making it easier
+    to detect fraud and simpler APIs are allowing companies without the tech team
+    in-house to implement world-class fraud detection.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* identify fraud'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Alloy](https://alloy.co/) — complete identity OS — use single API & dashboard
+    to manage KYC/AML, fraud etc.'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Sentilink](https://www.sentilink.com/) — API to identify synthetic fraud'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Cognito](https://cognitohq.com/) — anti-fraud & compliance solutions to verify
+    customers'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Signifyd](https://www.signifyd.com/) — e-commerce fraud detection'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Video —** API-first video companies are doing exactly what you’d think —
+    helping provide the infrastructure for companies to provide their own real-time
+    video communications in a browser. While you could build this in-house, it is
+    a non-core critical business functionality for many companies and API companies
+    in the space make the process simpler and easier while maintaining integrity of
+    the user experience and has become even more relevant in the wake of COVID-19.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* provides video functionality, often improving WebRTC'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[mux](https://mux.com/) — API to enable on-demand video'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Daily.co](http://daily.co/) — 1-click video chat API'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Agora](https://www.agora.io/en/) — embed real-time voice & video'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[API.video](https://api.video/) — video cloud hosting & streaming'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '**Automation —** API-first companies are automating workflows and help enable
+    companies to connect & integrate apps seamlessly, coupled with advances in automation
+    and engineering technology and a proliferation of cloud-first apps and workflows.
+    There’s still extensive opportunity here especially as we democratize usage of
+    RPA (robotic process automation), beyond IPaaS (Integration Platform as a Service).'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*API Use Case:* automate workflows'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '*Representative Companies:*'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[Zapier](https://zapier.com/) — API to connect apps & automate workflows'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL
+- en: '[Tray.io](https://tray.io/) — connect cloud stack using APIs & automate complex
+    processes'
+  prefs:
+  - PREF_UL
+  type: TYPE_NORMAL

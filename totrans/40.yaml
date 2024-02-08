@@ -1,0 +1,241 @@
+- en: Lessons from 6 software rewrite stories | by Herb Caudill | Medium
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22](https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: In 2004, they took a project-management tool that [they had developed for internal
+    use](https://basecamp.com/about/story), and released it as a software-as-a-service
+    product called [Basecamp](https://signalvnoise.com/archives/000542.php).
+  prefs: []
+  type: TYPE_NORMAL
+- en: This was at a time when subscribing to software was still a novelty. Project
+    management tools came in shrink-wrapped boxes with four-figure price tags and
+    hefty manuals, and were all about modeling critical paths and generating complex
+    Gantt charts.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Basecamp sold for $50 a month and was a breath of fresh air, with its super-simple
+    interface and its focus on communication.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Fast forward a few years, Basecamp has half a million happy users, checks are
+    rolling in every month, and Jason and David are starting to get restless.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'I saw David tell this story at the [Business of Software](http://www.businessofsoftware.org)
+    conference a few years ago. He said that not only had he been convinced by Joel
+    Spolsky that rewriting software would kill the company, but [there was an element
+    of self-righteousness](https://businessofsoftware.org/2015/10/david-heinemeier-hansson-rewrite-basecamp-business-of-software-conference-video-dhh-bos2015/)
+    inspired by the Agile movement:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '[I was] completely taken in with the idea of transcendent software. … That
+    code is infinitely malleable. That legacy is infinitely valuable. That you can
+    change anything, any piece of software, any piece of code can be rewritten. …
+    If software is hard to change, it is your fault. You’re a bad programmer and you
+    just have to learn to be better.'
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: After what he calls “seven fat years”, though, they were in a bind — and it
+    had **nothing to do with technical debt**.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Golden handcuffs
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: They started by noticing *in their gut* a lack of enthusiasm. Not only were
+    they not motivated to work on their flagship product, but they themselves weren’t
+    *using* the product as much.
+  prefs: []
+  type: TYPE_NORMAL
+- en: They had lots of ideas about how to make the product fundamentally better, but
+    with hundreds of thousands of people building their workflows around Basecamp,
+    every change they made was disruptive to lots and lots of people. **The obstacle
+    to change wasn’t a crufty codebase, it was their users.**
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Their focus on keeping their existing customer base happy was freezing the
+    product in time, and preventing them from appealing to new customers. This wasn’t
+    an immediate problem for the business, but it posed a long-term threat. DHH used
+    the metaphor of trying to keep a leaky bucket full:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: You might be plugging all the holes, you might be fixing all the bugs, you might
+    be upgrading all the features the existing customers are complaining about so
+    that no water escapes — but some water always escapes. Customers move on from
+    their job and they leave your software even if they [love it]. But you can kind
+    of delude yourself that, “Hey, this bucket is more than half full still. That’s
+    just a tiny little hole there seeping out and that’s perfectly natural.” But,
+    if you just keep that on for long enough, the bucket is going to end up empty.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'Part of the problem is that you hear all the time from your present customers,
+    but you don’t hear from your future customers:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: People who showed up at the Basecamp homepage in 2011 and chose not to buy because
+    our ideas were no longer good enough, how often do you think we were hearing from
+    them? Never. We were hearing from this broad base of existing customers who very
+    much would love us to just keep plugging those little holes.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'They started to see their profitable product as a set of golden handcuffs:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: The number one thing is just to make sure all the users you already have are
+    still happy. The money just keeps coming in every month, new check, new check,
+    new check. Great. But, you have to stick your arms forward and say, “Okay, I will
+    never change my software again.”
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'Spoiler alert: They rewrote Basecamp from scratch and it turned out great.
+    It took around a year, and new signups doubled immediately following the release
+    of Basecamp 2.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: They did two interesting things that, I think, made this work.
+  prefs: []
+  type: TYPE_NORMAL
+- en: First, **they didn’t try to rebuild the exact product they already had** — because
+    they had new ideas about how to solve the problems they’d originally set out to
+    solve.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Are we really that arrogant to think that the ideas we had in 2003 were still
+    going to be the very best ideas in 2011? I mean, I’ve been accused of being pretty
+    arrogant, but I ran out of steam on that one in like 2008.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: So they presented Basecamp 2 as a completely new product, with no guarantees
+    that it would be backwards compatible with Basecamp Classic. Lots of things were
+    new, other things were gone, and lots of things were just totally different.
+  prefs: []
+  type: TYPE_NORMAL
+- en: That decision gave them a degree of freedom. Freedom is motivating, and motivated
+    human beings get more done.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Not having to support every one of the original product’s use cases also bought
+    them a lot of time. For example, the original Basecamp allowed users to host documents
+    on their own FTP server. Cutting out that feature — and others like it, that might
+    have made business sense at one time, but didn’t any more—made it possible to
+    bring the new product to market in a reasonable amount of time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Sunset considered harmful
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: But what about all those hundreds of thousands of existing users? All those
+    people who complain loudly when their cheese is moved?
+  prefs: []
+  type: TYPE_NORMAL
+- en: That brings us to the second interesting thing they did, which was that **they
+    didn’t sunset their existing product**.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'David riffed for a while on the notion of “sunsetting” software:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Someone somewhere came up with this beautiful euphemism called the sunset. …
+    Let’s call killing software “sunsetting”. … All the users can sit on the beach
+    and they can watch all their data fade away. It’s going to be beautiful!
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: ''
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: The only people who believe in the “sunset” are the people who call it the “sunset”.
+    No user who’s actually ever been through a period of sunset actually comes back
+    and says, “Oh that was beautiful.” They come back and say, “Fuck! I put in years
+    of work in this thing! … And now you’re going to *sunset* me?”
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'He points out that when you force users to pack up and move, *that’s* when
+    you’re making “the worst strategic mistake ever”: Because you’re taking your entire
+    recurring customer base and making them think about whether they want to keep
+    using your software or move to something else altogether.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: “Is Basecamp even actually the thing I want anymore? If we have to move all
+    our crap over anyway, maybe I can just move it somewhere else. If I have to pack
+    it all up into boxes and load it on the truck, I can just send that truck across
+    town instead. That’s not a big hassle. The big hassle is to pack up all my shit.
+    Whether it goes to Basecamp again or it goes somewhere else, that’s not the big
+    decision.”
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: 'David compares Basecamp Classic to a Leica M3: It hasn’t been manufactured
+    since 1967, but Leica is still committed to supporting it and repairing it for
+    as long as they’re in business. (Photo [Dnalor 01](https://commons.wikimedia.org/w/index.php?curid=27903569))'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Instead, Basecamp committed to “**honoring their legacy**”: They made it easy
+    for people to upgrade, but didn’t require them to leave Basecamp Classic. Not
+    only that, but they’ve committed to continuing to host, support, and maintain
+    Basecamp Classic indefinitely.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'The kicker is that, four years later, they did it all over again: [Basecamp
+    3 was released in 2015](https://signalvnoise.com/posts/3968-launch-basecamp-3),
+    rewritten from the ground up, with some features cut, some added, and lots of
+    things changed. And just as before, users of older versions can easily upgrade
+    — but if they prefer, they can continue using Basecamp Classic or Basecamp 2 “until
+    the end of the internet”.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: Basecamp 3 is not going to sunset anything. Not the current version of Basecamp,
+    not the classic, original version of Basecamp. Either of those work well for you?
+    Awesome! Please keep using them until the end of the internet! We’ll make sure
+    they’re fast, secure, and always available.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: ''
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: But, but, but isn’t that expensive? Isn’t that hard? What about security? What
+    about legacy code bases? Yes, what about it? Taking care of customers — even if
+    they’re not interested in upgrading on our schedule — is what we do here.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: Lessons
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Personally, I find this model really inspiring.
+  prefs: []
+  type: TYPE_NORMAL
+- en: Each rewrite allowed Basecamp to revisit design decisions and build the product
+    they wished they’d built the previous time.
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'For users, this is the best of both worlds: People who don’t like change don’t
+    get their cheese moved; but people who are bumping against your product’s limitations
+    get to work with a new and, hopefully better thought-out application.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'Having to maintain multiple versions of product indefinitely doesn’t come without
+    a price; but as David says:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: It’s not free. Why would you expect it to be free? It’s valuable, so of course
+    it’s not free. But it’s worth doing.
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL

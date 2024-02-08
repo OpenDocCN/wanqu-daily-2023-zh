@@ -1,0 +1,102 @@
+- en: The Bitcoin Whitepaper Is Hidden in Every Modern Copy of macOS - Waxy.org
+  prefs:
+  - PREF_H1
+  type: TYPE_NORMAL
+- en: 原文：[https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/](https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: While trying to fix my printer today, I discovered that a PDF copy of Satoshi
+    Nakamoto’s [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) apparently shipped
+    with every copy of macOS since Mojave in 2018.
+  prefs: []
+  type: TYPE_NORMAL
+- en: I’ve asked over a dozen Mac-using friends to confirm, and it was there for every
+    one of them. The file is found in every version of macOS from Mojave (10.14.0)
+    to the current version, Ventura (13.3), but isn’t in High Sierra (10.13) or earlier.
+    **Update:** As [confirmed by 9to5Mac](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/),
+    it was removed in macOS Ventura 13.4 beta 3.
+  prefs: []
+  type: TYPE_NORMAL
+- en: See for Yourself
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: 'If you’re on a Mac, open a Terminal and type the following command:'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '`open /System/Library/Image\ Capture/Devices/VirtualScanner.app/Contents/Resources/simpledoc.pdf`'
+  prefs:
+  - PREF_BQ
+  type: TYPE_NORMAL
+- en: If you’re on macOS 10.14 or later, the Bitcoin PDF should immediately open in
+    Preview.
+  prefs: []
+  type: TYPE_NORMAL
+- en: (If you’re not comfortable with Terminal, open Finder and click on Macintosh
+    HD, then open the System→Library→Image Capture→Devices folder. Control-click on
+    VirtualScanner.app and Show Package Contents, open the Contents→Resources folder
+    inside, then open simpledoc.pdf.)
+  prefs: []
+  type: TYPE_NORMAL
+- en: In the Image Capture utility, the Bitcoin whitepaper is used as a sample document
+    for a device called “Virtual Scanner II,” which is either hidden or not installed
+    for everyone by default. It’s not clear why it’s hidden for some or what exactly
+    it’s used for, but [Reid Beels](https://reidbeels.com/) suggested it may power
+    the “Import from iPhone” feature.
+  prefs: []
+  type: TYPE_NORMAL
+- en: In Image Capture, select the “Virtual Scanner II” device if it exists, and in
+    the Details, set the Media to “Document” and Media DPI to “72 DPI.” You should
+    see the preview of the first page of the Bitcoin paper.
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Screenshot of Image Capture utility with the Virtual Scanner II device selected,
+    previewing the first page of the Bitcoin whitepaper](../Images/d158fb3a7123c78e1aaee1672187df12.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: But Why
+  prefs:
+  - PREF_H2
+  type: TYPE_NORMAL
+- en: Of all the documents in the world, why was the Bitcoin whitepaper chosen? Is
+    there a secret Bitcoin maxi working at Apple? The filename is “simpledoc.pdf”
+    and it’s only 184 KB. Maybe it was just a convenient, lightweight multipage PDF
+    for testing purposes, never meant to be seen by end users.
+  prefs: []
+  type: TYPE_NORMAL
+- en: There’s virtually nothing about this online. As of this moment, there are only
+    a couple references to “Virtual Driver II” or the whitepaper file in Google results.
+    Namely, this Twitter thread from designer Joshua Dickens in November 2020, who
+    also spotted the whitepaper PDF, inspiring [this Apple Community post](https://discussions.apple.com/thread/252657375)
+    in April 2021\. And that’s it!
+  prefs: []
+  type: TYPE_NORMAL
+- en: 'One other oddity: there’s a file called cover.jpg in the Resources folder used
+    for testing the Photo media type, a 2,634×3,916 JPEG photo of a sign [taken on
+    Treasure Island](https://www.google.com/maps/@37.8252421,-122.3672424,3a,15y,182.29h,84.04t/data=!3m7!1e1!3m5!1sknhGiz09PMlvcbdaJj6Bjg!2e0!5s20110501T000000!7i13312!8i6656)
+    in the San Francisco Bay. There’s no EXIF metadata in the file, but photographer
+    Thomas Hawk [identified it](https://twitter.com/thomashawk/status/1450961809125511168)
+    as the location of a [nearly identical photo](https://www.flickr.com/photos/thomashawk/3661857599)
+    he shot in 2008.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '![Photo of a weathered hand-painted "6" sign and a sticker reading "Warning!
+    Alarm System" on blue painted wood](../Images/dd5394337c1d762b8f4e8581a55c3ce3.png)'
+  prefs: []
+  type: TYPE_IMG
+- en: If you know anything more — about how or why the Bitcoin paper ended up in macOS
+    or what Virtual Scanner II is for — [get in touch](/cdn-cgi/l/email-protection#6e0201092e190f161740011c09)
+    or leave a comment. (Anonymity guaranteed!)
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Update:** A little bird tells me that someone internally filed it as an issue
+    nearly a year ago, assigned to the same engineer who put the PDF there in the
+    first place, and that person hasn’t taken action or commented on the issue since.
+    They’ve indicated it will likely be removed in future versions.'
+  prefs: []
+  type: TYPE_NORMAL
+- en: '**Update (April 26):** As [confirmed by 9to5Mac](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/),
+    it was removed in macOS Ventura 13.4 beta 3.'
+  prefs: []
+  type: TYPE_NORMAL
