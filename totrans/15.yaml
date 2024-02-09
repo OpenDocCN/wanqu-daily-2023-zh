@@ -1,97 +1,143 @@
 - en: Until the end of the internet
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 直到互联网的尽头
 - en: 原文：[https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce](https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce](https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce)
 - en: It's hard to know what'll stick around when shopping for software online. Popular
     services and crucial products get shut down all the time.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在网上购买软件时很难知道什么会留下来。流行的服务和关键产品经常被关闭。
 - en: '[You can''t even trust that major conglomerates like Google](https://world.hey.com/dhh/you-can-t-trust-google-f7d64064)'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '[你甚至不能相信像Google这样的大型企业](https://world.hey.com/dhh/you-can-t-trust-google-f7d64064)'
 - en: to provide something you can count on two-five-ten years from now. And if you're
     betting on
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 提供你可以在两五十年后依赖的东西。如果你打赌的话
 - en: '[something backed by venture capital](https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57)'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '[由风险投资支持的东西](https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57)'
 - en: ', well, you know that the odds of permanence are as long as can be. It needn''t
     be this way.'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: ，嗯，你知道永久性的可能性有多小。这不必然是这样的。
 - en: Look at some of the most beloved brands of the 20th century. The Leicas, the
     Rolexes, the Porsches of the world. Companies that proudly embrace their legacy,
     and ensure that enthusiasts can still service their camera, watch, or car, even
     if it's fifty-plus years old. What a beautiful model, and what a contrast to what
     passes for product dedication these days in the digital realm.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 看看20世纪最受喜爱的品牌。世界上的Leica、Rolex、Porsche。这些公司自豪地拥抱他们的传统，并确保爱好者仍然可以维修他们的相机、手表或汽车，即使它已经超过五十年了。多么美丽的模式，与当今数字领域所谓的产品奉献形成鲜明对比。
 - en: If anything, it should be
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果有什么的话，那应该是
 - en: '*easier*'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: '*更容易*'
 - en: for companies like Google to honor their legacy than the likes of Leica, Rolex,
     and Porsche. The latter have to keep generations of old spareparts in warehouses,
     just in case that 1959 Leica M3, 1967 Rolex Daytona, or 1974 Carrera needs a replacement
     bit. Software services look comparably trivial to maintain in contrast.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 像Google这样的公司更愿意尊重他们的传统，而不是Leica、Rolex和Porsche这样的公司。后者必须在仓库里保存几代旧备件，以防1959年的Leica
+    M3、1967年的Rolex Daytona或1974年的Carrera需要更换零件。与之相比，软件服务看起来相对容易维护。
 - en: Not that it's entirely free, mind you. We've been keeping virtually every single
     service we've ever sold or offered running over the past twenty years. There's
     the occasional security updates that need applying, the relocation to new servers,
     and the continued monitoring of uptime. It's an expense, but an oh-so-worthwhile
     one.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 并不是完全免费，你要知道。在过去的二十年里，我们一直在运行几乎我们曾经销售或提供的每一个服务。偶尔需要应用安全更新，迁移到新服务器，以及持续监控运行时间。这是一笔开支，但是非常值得的。
 - en: Take
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 采取
 - en: '[Basecamp](https://basecamp.com/)'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Basecamp](https://basecamp.com/)'
 - en: ', for example. The original version went live back in'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: ，例如。原始版本是在
 - en: '[February of 2004](https://signalvnoise.com/archives/000542.php)'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '[2004年2月](https://signalvnoise.com/archives/000542.php)'
 - en: . That's before the iPhone! Before SaaS was even coined as a concept! It built
     the business we run today, but by 2010, we decided to do a full rewrite, and from
     2012 onward sold
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 。这是在iPhone之前！在SaaS甚至被定义为一个概念之前！它建立了我们今天经营的业务，但到2010年，我们决定进行全面重写，并从2012年开始向新客户销售
 - en: '[a totally new version](https://signalvnoise.com/posts/3129-launch-the-all-new-basecamp)'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: '[一个全新版本](https://signalvnoise.com/posts/3129-launch-the-all-new-basecamp)'
 - en: of the software to new customers. Yet, we kept the old version running for all
     who enjoyed that.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 的软件。然而，我们为所有喜欢的人保留了旧版本。
 - en: That's the nasty secret of SaaS. Even if the service doesn't just disappear
     entirely, like it often does, it might well "evolve" in a direction you don't
     care for one bit. But what choice do you have? Almost all companies will simply
     tell you to get with the program, find where they hid the cheese now, and just
     be grateful that updates are even rolling out.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是SaaS的恶毒秘密。即使服务不会完全消失，像经常发生的那样，它也可能会“发展”成你不喜欢的方向。但你有什么选择呢？几乎所有公司都会告诉你跟上步伐，找到他们现在藏着的奶酪，只要庆幸更新正在推出。
 - en: '[We choose a different path](https://signalvnoise.com/posts/3959-rewrite-why-basecamp-3-is-a-brand-new-code)'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '[我们选择了一条不同的道路](https://signalvnoise.com/posts/3959-rewrite-why-basecamp-3-is-a-brand-new-code)'
 - en: . That original version of Basecamp, developed from 2004-2010, continues to
     exist for the customers who are happy to use it. And there are thousands of customers,
     generating millions in revenue, who are just that, happy with what they got. Not
     in the market for something new. And we are thrilled to serve them! Like I imagine
     a Rolex executive feeling a pang of pride when spotting a Daytona 6263 in the
     wild.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 。那个从2004年到2010年开发的Basecamp的原始版本，继续存在于那些愿意使用它的客户中。有成千上万的客户，创造了数百万的收入，他们就是那样，对他们所得到的感到满意。不在市场上寻找新东西。我们很高兴为他们服务！就像我想象中的劳力士高管在野外发现Daytona
+    6263时感到自豪一样。
 - en: What we've done with the original version of Basecamp, we've done with all our
     major services that are no longer for sale to new customers. Highrise, our beloved
     CRM, is still also used by thousands of companies, generating millions in revenue.
@@ -99,31 +145,49 @@
     manager. The revenue we make continuing to offer these services would never interest
     the likes of a Google, but so what? It makes us proud and our customers happy,
     do we need any other justification?
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们对Basecamp的原始版本所做的，我们对所有不再向新客户出售的主要服务所做的都是一样的。我们心爱的CRM Highrise仍然被成千上万家公司使用，创造了数百万的收入。我们的旧聊天工具Campfire也是如此。我们的旧个人信息管理器Backpack。我们继续提供这些服务所赚取的收入可能永远不会引起Google这样的公司的兴趣，但又怎样呢？这让我们感到自豪，让我们的客户感到满意，我们需要其他的理由吗？
 - en: This is exactly what I mean when I say marketing is everything we do. Keeping
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 这正是我所说的市场营销是我们所做的一切。保持
 - en: '[even free services like Ta-da List](https://signalvnoise.com/posts/3830-ta-da-list-until-the-end-of-the-internet)'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '[甚至像Ta-da List这样的免费服务](https://signalvnoise.com/posts/3830-ta-da-list-until-the-end-of-the-internet)'
 - en: around might not make strict financial sense in isolation, but it sends a signal
     to the market that we're here for the long term. That if you sign up for
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 在孤立的情况下，这可能不符合严格的财务意义，但它向市场发出了一个信号，表明我们是为了长远考虑而在这里。如果你今天注册
 - en: '[Basecamp](https://basecamp.com/)'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Basecamp](https://basecamp.com/)'
 - en: today or
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 或
 - en: '[HEY](https://www.hey.com/)'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: '[HEY](https://www.hey.com/)'
 - en: tomorrow, you can count on those services being here for probably decades to
     come. That means something, that's worth something.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 明天，你可以相信这些服务可能会持续几十年。这意味着一些东西，这是值得的。
 - en: We're here until the end of the internet.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们会一直在互联网的尽头等着。

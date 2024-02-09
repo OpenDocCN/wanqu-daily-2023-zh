@@ -1,69 +1,99 @@
 - en: File over app — Steph Ango
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 文件胜过应用 — 斯蒂芬·安戈
 - en: 原文：[https://stephanango.com/file-over-app](https://stephanango.com/file-over-app)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://stephanango.com/file-over-app](https://stephanango.com/file-over-app)
 - en: <content class=""># File over app
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: <content class=""># 文件胜过应用
 - en: July 1, 2023 · 1 minute read
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 2023年7月1日 · 阅读1分钟
 - en: '*File over app* is a philosophy: if you want to create digital artifacts that
     last, they must be files you can control, in formats that are easy to retrieve
     and read. Use tools that give you this freedom.'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: '*文件胜过应用*是一种哲学：如果您想创建持久存在的数字文物，它们必须是您可以控制的文件，以易于检索和阅读的格式。使用能给予您这种自由的工具。'
 - en: '*File over app* is an appeal to tool makers: accept that all software is ephemeral,
     and give people ownership over their data.'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '*文件胜过应用*是对工具制造者的呼吁：接受所有软件都是短暂的，并让人们拥有对其数据的所有权。'
 - en: '* * *'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: In the fullness of time, the files you create are more important than the tools
     you use to create them. Apps are ephemeral, but your files have a chance to last.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 随着时间的推移，您创建的文件比您用来创建它们的工具更重要。应用程序是短暂的，但您的文件有机会持久存在。
 - en: The ancient temples of Egypt contain hieroglyphs that were chiseled in stone
     thousands of years ago. The ideas hieroglyphs convey are more important than the
     type of chisel that was used to carve them.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 埃及的古代神庙中包含了数千年前用石头凿刻的象形文字。象形文字传达的思想比用来雕刻它们的凿子的类型更重要。
 - en: The world is filled with ideas from generations past, transmitted through many
     mediums, from clay tablets to manuscripts, paintings, sculptures, and tapestries.
     These artifacts are objects that you can touch, hold, own, store, preserve, and
     look at. To read something written on paper all you need is eyeballs.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 世界上充满了来自过去几代人的思想，通过许多媒介传播，从粘土板到手稿、绘画、雕塑和挂毯。这些文物是您可以触摸、拥有、存储、保护和观看的物体。要阅读纸上的文字，您只需要眼睛。
 - en: Today, we are creating innumerable digital artifacts, but most of these artifacts
     are out of our control. They are stored on servers, in databases, gated behind
     an internet connection, and login to a cloud service. Even the files on your hard
     drive use proprietary formats that make them incompatible with older systems and
     other tools.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 今天，我们正在创造无数的数字文物，但其中大多数文物都不在我们的控制之下。它们存储在服务器上，在数据库中，被限制在互联网连接之后，并登录到云服务。即使是您硬盘上的文件也使用专有格式，使它们与旧系统和其他工具不兼容。
 - en: Paraphrasing something [I wrote recently](https://obsidian.md/blog/new-obsidian-icon/)
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 对我最近写的一些东西的释义(https://obsidian.md/blog/new-obsidian-icon/)
 - en: If you want your writing to still be readable on a computer from the 2060s or
     2160s, it’s important that your notes can be read on a computer from the 1960s.
+  id: totrans-12
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 如果您希望您的写作在2060年或2160年的计算机上仍然可读，那么重要的是您的笔记可以在1960年的计算机上阅读。
 - en: You should want the files you create to be durable, not only for posterity,
     but also for your future self. You never know when you might want to go back to
     something you created years or decades ago. Don’t lock your data into a format
     you can’t retrieve.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 您应该希望您创建的文件是持久的，不仅是为了后人，也是为了您未来的自己。您永远不知道何时可能想要回到您几年甚至几十年前创建的东西。不要将您的数据锁定在无法检索的格式中。
 - en: These days I write using an app I help make called [Obsidian](/obsidian), but
     it’s a delusion to think it will last forever. The app will eventually become
     obsolete. It’s the plain text files I create that are designed to last. Who knows
     if anyone will want to read them besides me, but *future me* is enough of an audience
     to make it worthwhile.</content>
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 如今，我使用一个我帮助制作的应用程序写作，名为[Obsidian](/obsidian)，但认为它会永存是一种幻想。这个应用程序最终会过时。我创建的纯文本文件才是设计用来持久保存的。谁知道除了我之外还有谁会想要阅读它们，但*未来的我*足以成为一个观众，使其值得。
