@@ -1,11 +1,15 @@
 - en: How to Blow Up a Timeline — Remains of the Day
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 如何炸毁时间线 —— 《日终余辉》
 - en: 原文：[https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline](https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline)
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline](https://www.eugenewei.com/blog/2023/7/6/how-to-blow-up-a-timeline)
 - en: 'NOTE: *I’d been working on this piece on and off for a few weeks while trying
     to move to NYC and settle into my new apartment, and just as I was about to publish
     it, Elon rate-limited Twitter and so, sensing a moment of weakness, Meta pulled
@@ -19,35 +23,50 @@
     the ideas in this piece to analyzing Threads’ prospects. And I’ll push a follow-up
     piece with my specific reactions to and predictions for Threads soon-ish. [Follow
     me on Substack](https://eugenewei.substack.com) to get a note when that drops.*'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意：*我在搬到纽约市并安顿到新公寓的过程中断断续续地写了这篇文章几个星期，就在我准备发布时，埃隆对Twitter进行了速率限制，因此，察觉到一个弱点，Meta提前将Threads的发布日期提前到了昨天。这篇文章并没有直接涉及Threads，也没有谈论速率限制的惨败。它专注于我认为Twitter在过去一年里变得更糟的原因。我考虑过推迟发布并重新完全重写以纳入本周发生的所有事情，但最终我决定按原样发布这篇文章。如果Twitter在过去一年里没有搞砸那么多，Threads就不重要。尽管如此，就像我之前写过与Twitter相关主题的文章一样，你可以将本文中的许多想法应用于分析Threads的前景。我将很快推出一篇关于Threads的具体反应和预测的后续文章。[关注我的Substack](https://eugenewei.substack.com)以获取发布通知。*
 - en: “I shall be writing about how cities work in real life, because this is the
     only way to learn what principles of planning and what practices in rebuilding
     can promote social and economic vitality in cities, and what practices and principles
     will deaden these attributes.” — Jane Jacobs, [The Death and Life of Great American
     Cities](https://amzn.to/3XCJgBk)
+  id: totrans-3
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “我将写关于城市在现实生活中是如何运作的，因为这是了解规划原则和重建实践如何促进城市社会和经济活力，以及哪些实践和原则会削弱这些属性的唯一途径。” —
+    简·雅各布斯，《[伟大美国城市的死与生](https://amzn.to/3XCJgBk)》
 - en: Today, I come to bury Twitter, not to appraise him.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 今天，我来埋葬Twitter，而不是来评价它。
 - en: Oh, who am I kidding, I’m mostly here to appraise how it blew up.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 哦，我在开玩笑，我主要是来评价它是如何炸毁的。
 - en: 'For years, I thought Twitter would persist like a cockroach because:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 多年来，我认为Twitter会像蟑螂一样持续存在，因为：
 - en: At its core, it’s a niche experience that alienates most but strongly appeals
     to a few
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 在其核心，它是一种狭隘的体验，使大多数人疏远，但强烈吸引了少数人。
 - en: Those few who love Twitter comprise an influential intellectual and cultural
     cohort, and at internet scale, even niches can be substantial in size
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 那些热爱Twitter的少数人构成了一个有影响力的知识分子和文化群体，在互联网规模上，即使是小众也可能规模庞大
 - en: I’ve written before in [Status as a Service](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service)
     or [The Network’s the Thing](https://www.eugenewei.com/blog/2015/9/1/when-the-network-is-mature)
     about how Twitter hit upon some narrow product-market fit despite itself. It has
@@ -59,8 +78,10 @@
     to the face of a mountain, it’s best not to start undoing any of them willy-nilly.
     Especially if, as I think was the case for Twitter, the knots were tied by someone
     else (in this case, the users of Twitter themselves).
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 我之前在《[作为服务的地位](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service)》或《[网络是关键](https://www.eugenewei.com/blog/2015/9/1/when-the-network-is-mature)》中写过，Twitter尽管自身存在问题，但却找到了一些狭窄的产品市场契合点。它似乎从未理解为什么对某些人有效，或者它想要成为什么，以及这两者是否有关联。但在命运的转折中，这往往比大多数人愿意承认的更多地影响到产品市场契合度，Twitter的犹豫不决保护了它免受自身的伤害。在某种规模上的社交炼金术可能是一件神秘的事情。当你不确定哪根绳索将你的身体系在山脸上时，最好不要随意解开其中任何一根。尤其是如果，正如我认为对Twitter来说是这样的，这些绳索是由别人（在这种情况下是Twitter的用户们）系的。
 - en: But Elon Musk is not one to trust someone else’s knots. He’s made his fortune
     by disregarding other people’s work and rethinking things from first principles.
     To his credit, he’s worked miracles in categories most entrepreneurs would never
@@ -69,8 +90,10 @@
     and maybe only one who could’ve done both. When the game is man versus nature,
     he’s an obvious choice. When it comes to man versus human nature, on the other
     hand…
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 但埃隆·马斯克不是一个会相信别人的结的人。他通过无视他人的工作并从头开始重新思考事物而积累了财富。值得肯定的是，他在大多数企业家永远不会想着去解决的领域取得了奇迹，从电动汽车到火箭再到卫星互联网服务。也许只有少数几个人能够完成特斯拉和SpaceX，也许只有一个人能够做到这两者。当游戏是人类对抗自然时，他是一个明显的选择。但当涉及到人类对抗人性时，另一方面...
 - en: 'This past year, for the first time, I could see the end of the road for Twitter.
     Not in an abstract way; I felt its decline. Don’t misunderstand me; Twitter will
     persist in a deteriorated state, perhaps indefinitely. However, it''s already
@@ -81,8 +104,10 @@
     privilege. In the past year, so many random meetings I have with one-time Twitter
     junkies begin with a long sigh and then a question that is more lamentation than
     anything else: “How did Twitter get so bad?”'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 去年，我第一次看到了Twitter的尽头。不是抽象地；我感受到了它的衰落。不要误会我；Twitter将以一种恶化的状态继续存在，也许是无限期的。然而，它已经是它鼎盛时期的一个苍白的影子。酷酷的孩子们不再坐在瓶子服务区敲击着热门推文。相反，时间轴上充满了越来越多的陌生人，保安让他们进来推销他们的推文风暴，其中许多是支付了每月8美元的特权的Twitter认证账户。在过去的一年里，我与曾经是Twitter迷的人的许多随机会议都以长长的叹息开始，然后是一个更多是哀叹而不是其他的问题：“Twitter怎么变得这么糟糕？”
 - en: It’s sad, but it’s also a fascinating case study. The internet is still so young
     that it’s still momentous to see a social network of some scale and lifespan suddenly
     lose its vitality. The regime change to Elon and his brain trust and the drastic
@@ -91,25 +116,34 @@
     social network. Twitter went out and bought Chekhov’s gun in the first act and
     use it to shoot itself in the foot in the third act. Zuckerberg can now extend
     his quip about Twitter being a clown car that fell into a gold mine.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这很悲哀，但也是一个迷人的案例研究。互联网仍然如此年轻，以至于看到一个规模和寿命相当的社交网络突然失去活力仍然是一个重大事件。埃隆及其智囊团的政权更迭以及他们所做的
+    drastical 变化构成了我们不经常看到的一个自然实验。通常，社交网络被一些外部因素杀死，通常是另一个更新的社交网络。Twitter在第一幕中买了车臣的枪，并在第三幕中用它射中了自己的脚。扎克伯格现在可以扩展他关于Twitter是一个掉进金矿的小丑车的俏皮话了。
 - en: 'In [The Rise and Decline of Nations](https://amzn.to/3reI6QB), Mancur Olson
     builds on his previous book [The Logic of Collective Action: Public Goods and
     the Theory of Groups](https://amzn.to/46BhhWI) to discuss how and why groups form.
     What are the incentives that guide their behavior?'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 在《国家的兴衰》中，曼库尔·奥尔森在他之前的著作《集体行动的逻辑：公共物品与群体理论》的基础上讨论了群体是如何以及为什么形成的。是什么激励引导了他们的行为？
 - en: One of his key insights is what I think of as his theory of group inertia. Groups
     are hard to form in the first place. Think of how many random Discord communities
     you were invited into the past few years and how many are still active. “Organization
     for collective action takes a good deal of time to emerge” observes Olson.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 他的一个关键见解是我认为他的群体惯性理论。群体很难形成。想想过去几年你被邀请加入多少随机的Discord社区，还有多少仍然活跃。“集体行动的组织需要相当长的时间才能出现”奥尔森观察到。
 - en: However, inertia works both before and after product-market fit. Once a group
     has formed, it tends to persist even after the collective good it came together
     to provide is no longer needed.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，惯性在产品市场契合之前和之后都起作用。一旦一个群体形成，即使它们聚集在一起提供的集体利益不再需要，它也往往会持续存在。
 - en: The same is true of social networks. As anyone who has tried to start one knows,
     it’s not easy to jump-start a social graph. But if you manage by some miracle
     to conjure one from the void, and if you provide that group with a reasonable
@@ -118,16 +152,20 @@
     a community is your friend after it’s formed. Anyone who’s ever hosted a party
     and provided booze knows it’s often hard to get the last stragglers to leave.
     We are a social species.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 社交网络也是如此。任何试图创建一个社交网络的人都知道，要启动一个社交图并不容易。但是，如果你设法通过某种奇迹从虚空中召唤一个社交图，并且为每个人提供一个合理的方式来聚会，网络效应可以在最后一杯酒后继续派对。在你形成社区之前是你的敌人的群体惯性在形成后就成为了你的朋友。任何曾经举办过派对并提供酒水的人都知道，往往很难让最后的落伍者离开。我们是社会物种。
 - en: No social network epitomizes this more than Twitter. It’s not that Twitter was
     a group of users that assembled for the explicit goal of producing some collective
     good. Its rise was too emergent to fit into any such directed narrative. But the
     early years of inertial drag (for years it was literally inert, inertia and inert
     sharing the same etymological root) followed by later years of inertial momentum
     fit the broad arc of Olson’s group theory.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 没有哪个社交网络比Twitter更能体现这一点。并不是说Twitter是一个为了产生某种集体利益而聚集在一起的用户群体。它的崛起太过突然，无法适应任何这样的有目的的叙述。但是早期的惰性阻力（多年来它实际上是惰性的，惯性和惰性共享相同的词源）后来的惯性动量符合奥尔森群体理论的广泛弧线。
 - en: I revisit Olson and Twitter’s history because the specifics of how Twitter found
     product-market fit are critical to understanding its current dissolution. Social
     networks are path dependent. This is especially true in the West where social
@@ -142,22 +180,28 @@
     of life, those ad dynamics then influence the network’s middle age evolution as
     a service. Money may not begin the conversation, that starts with the users, but
     money gets the final word.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 我回顾奥尔森和Twitter的历史，因为了解Twitter如何找到产品市场契合点的具体细节对于理解它当前的解体至关重要。社交网络是路径依赖的。这在西方尤为明显，因为社交网络在很大程度上是由广告资助的，几乎所有社交网络都围绕着一个无限滚动的供移动电话上广告的优化的主导架构构建。每个网络达到产品市场契合点的路径都选择了特定的用户群体。与任何社区一样，但尤其是那些被迫聚集在一个单一的信息流中的社区，正如在西方普遍存在的那样，构成社区的人们在很大程度上决定了它的氛围和价值观。它的氛围。用户的构成然后决定了该网络对什么类型的广告以及在什么规模下有多有利。最后，这些广告动态影响了网络作为服务的中年演变。金钱可能不是谈话的开始，那是从用户开始的，但金钱有最后的决定权。
 - en: Of all the social networks that achieved some level of scale in this first era
     of social media, perhaps no other was tried and abandoned by as many users as
     Twitter. Except for the extremely online community in which I’m deeply embedded
     (and that I suspect many of my readers are a part of), most normal, well-adjusted
     humans churned out of Twitter long ago.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 在社交媒体的第一个时代中，所有达到一定规模的社交网络中，也许没有其他社交网络像Twitter那样被尝试并被放弃的用户那么多。除了我深深融入其中的极端在线社区（我怀疑我的许多读者也是其中的一部分），大多数正常、适应良好的人早就离开了Twitter。
 - en: Out of a petri dish that was lifeless for years emerged a culture of creatives,
     trolls, humorists, politicians, and other public intellectuals screaming at each
     other in 140 and later 280-character bursts, with even more users quietly gawking
     from the sideline. This so-called new town square was a 24/7 nightclub for real-world
     introverts but textual extroverts. My tribe.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 在多年来一直死气沉沉的培养皿中，涌现出了一群创意人士、恶搞者、幽默家、政治家和其他公共知识分子，他们在140字和后来的280字中互相尖叫，更多的用户则在一旁静静地凝视。这所谓的新城镇广场是一个24/7的夜总会，适合现实生活中的内向者，但文字上的外向者。我的部落。
 - en: This was as entertaining a spectacle as it was shaky a business. Twitter ads
     have always been hilariously random, and it’s to the credit of the desirable demographics
     of many of its users that advertisers continued to stick around to have their
@@ -167,14 +211,18 @@
     seemed Twitter might persist in this delicate equilibrium, a Galapagos tortoise
     sunning on an island all to itself, surrounded by ocean as far as the eye could
     see.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一场既有趣又摇摇欲坠的商业表演。Twitter的广告一直都是荒谬地随机，多亏了许多用户的理想人群，广告商们继续留在这里，让他们的品牌在有时可疑、经常令人震惊的推文之间展示。但作为一项商业活动，它的经济状况不佳，使其免受直接竞争的影响。即使你能重新创造出它那种书呆子般的角斗氛围，你为什么要这样做呢？多年来，Twitter似乎会继续保持这种微妙的平衡，就像一只在自己周围被无边无际的海洋包围的加拉帕戈斯象龟一样。
 - en: 'Back to Olson: “Selective incentives make indefinite survival feasible. Thus
     those organizations for collective action, at least for large groups, that can
     emerge often take a long time to emerge, but once established they usually survive
     until there is a social upheaval or some other form of violence or instability.”'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 回到奥尔森：“选择性激励使无限生存成为可能。因此，那些为集体行动而组织的组织，至少对于大团体来说，通常需要很长时间才能出现，但一旦建立起来，它们通常会一直存活下去，直到社会动荡或其他形式的暴力或不稳定出现。”
 - en: Well, “violence and instability” finally came to Twitter in the form of Elon
     Musk’s ownership. In almost every way, his stewardship has been the polar opposite
     of the previous regime’s. Politically, to be sure. But more notably, whereas Twitter
@@ -184,22 +232,28 @@
     were pushed out and then reversed within the day. Many a day this past year, Twitter
     has been the main character of the types of drama it used to serve as the forum
     to discuss.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 好吧，“暴力和不稳定”最终以埃隆·马斯克的所有权形式出现在Twitter上。在几乎所有方面，他的管理方式与以前的政权截然相反。政治上，当然是如此。但更值得注意的是，以前Twitter被认为很少推出任何重大变化，而新的Twitter似乎在几个月内推出了一些东西，甚至在考虑或进行QA之前就推出了。应用程序中经常出现随机错误，并且更改在当天内被推出然后被撤销。在过去的一年中，Twitter往往是各种戏剧的主角，而不再是讨论这些戏剧的论坛。
 - en: In classic Twitter fashion, the irony is that it now seems to be in decline
     not from doing too little but from doing too much. It turns out the way to overcome
     Olson’s group inertia is to run in swinging a machete, cutting wires, firing people,
     unplugging computers, flipping switches, tweaking parameters, anything to upset
     an ecosystem hanging on by a delicate balance. It was, if nothing else, a fascinating
     natural experiment in how to nudge a network out of longstanding homeostasis.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 以经典的Twitter风格，讽刺的是，它现在似乎不是因为做得太少而在衰落，而是因为做得太多。事实证明，克服奥尔森的群体惯性的方法是挥舞着一把砍刀奔跑，剪断电线，解雇员工，拔掉电脑插头，翻转开关，调整参数，任何事情都可以打破这种靠微妙平衡维持的生态系统。无论如何，这是一个关于如何推动网络摆脱长期稳态的迷人自然实验。
 - en: Given that Musk ended up having to overpay for Twitter by upwards of 4X, thanks
     to Delaware Chancery Court, it’s not at all surprising he and his new brain trust
     might choose to take an active hand in trying to salvage as much of his purchase
     price as possible.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 鉴于马斯克最终不得不为推特支付高达4倍的溢价，多亏了特拉华州法院，他和他的新智囊团选择积极参与，试图尽可能挽救他的购买价格，这一点并不令人意外。
 - en: But this heavy-handed top-down management approach runs counter to how Twitter
     achieved its stable equilibrium. In this way, Musk’s reign at Twitter resembles
     one of James Scott’s authoritarian high modernist failures. Twitter may have seemed
@@ -210,8 +264,10 @@
     community, Jane Jacobs style. Every piece of duct tape and every shim put there
     by a user had a purpose. It may have been Frankensteinian in its construction,
     but it was our little monster.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 但这种高压的自上而下的管理方式与Twitter实现稳定平衡的方式相悖。在这方面，马斯克在Twitter的统治方式类似于詹姆斯·斯科特的高度现代主义失败之一。在此之前，Twitter可能看起来像一个表现不佳的混乱，但其结构是由用户多年来的关注、取消关注、点赞、静音和屏蔽逐渐构建起来的，与feed算法进行持续对话？这种结构具有一种欺骗性但微妙的稳定性。Twitter及其用户已经建立了一个复杂但功能齐全的社区，简·雅各布斯风格。每个用户放置的每一块胶带和每个垫片都有其目的。它的构建可能像弗兰肯斯坦一样，但它是我们的小怪物。
 - en: This democratic evolution has long been part of Twitter’s history. Many of Twitter’s
     primary innovations like hashtags, much of its terminology like the word tweets,
     seemed to come bottom-up from the community of users and developers. This may
@@ -221,22 +277,30 @@
     But, conversely, the service seemed to mold itself around the users who stuck
     with its peculiar vernacular. After all, they were often the ones who came up
     with it.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种民主演变长期以来一直是Twitter历史的一部分。许多Twitter的主要创新，如标签，以及其大部分术语，如推文这个词，似乎都是从用户和开发者社区中自下而上产生的。这可能限制了其可扩展性；它的许多语法一直似乎很晦涩（谁能忘记如果在用户名前加一个句号，以便在打开推文时网络不会将其视为回复并将其隐藏在时间线中）。但相反，该服务似乎围绕着坚持其独特用语的用户塑造自己。毕竟，他们通常是那些想出这些用语的人。
 - en: 'Olson again:'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 奥尔森再次说：
 - en: Stable societies with unchanged boundaries tend to accumulate more collusions
     and organizations for collective action over time.
+  id: totrans-29
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 稳定的社会与不变的边界往往会随着时间的推移积累更多的勾结和组织进行集体行动。
 - en: What established the boundaries of Twitter? Two things primarily. The topology
     of its graph, and the timeline algorithm. The two are so entwined you could consider
     them to be a single item. The algorithm determines how the nodes of that graph
     interact.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 是什么确定了Twitter的边界？主要有两个因素。其图的拓扑结构和时间线算法。这两者是如此交织在一起，以至于你可以将它们视为一个单一项目。算法决定了该图的节点如何相互作用。
 - en: The machine learning algorithms have been crucial to scaling our largest social
     media feeds. They are among the most enormous social institutions in human history,
     but we don't often think of them that way. It's often remarked upon that Facebook
@@ -244,8 +308,10 @@
     I think it's so shocking and horrifying to so many people that they prefer to
     block it out of their mind. In a literal sense, Twitter has always just been whose
     tweets show up in your timeline and in what order.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 机器学习算法对于扩展我们最大的社交媒体信息流至关重要。它们是人类历史上最庞大的社会制度之一，但我们往往不这样认为。人们经常说Facebook比任何国家或政府都大，但应该更多地谈论它吗？我认为这对许多人来说是如此令人震惊和可怕，以至于他们更愿意将其排除在脑外。从字面上说，Twitter一直只是你的时间线中显示的推文及其顺序。
 - en: In the modern world, machine learning algorithms that mediate who interacts
     with whom and how in social media feeds are, in essence, social institutions.
     When you change those algorithms you might as well be reconfiguring a city around
@@ -253,14 +319,18 @@
     with years of information accumulated inside its black box of an algorithm, the
     one thing you might recommend is not punching a hole in the side of that black
     box and inserting a grenade.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 在现代世界中，调解社交媒体信息流中谁与谁如何互动的机器学习算法本质上是社会制度。当你改变这些算法时，你就好像在用户睡觉时重新配置一个城市。因此，如果你要控制这样一个社区，其中积累了多年的信息，存储在其算法的黑匣子中，你可能唯一推荐的是不要在那个黑匣子的一侧打孔并插入手榴弹。
 - en: So of course that seems to have been what the new management team did. By pushing
     everyone towards paid subscriptions and kneecapping distribution for accounts
     who don’t pay, by switching a TikTok style algorithm, new Twitter has redrawn
     the once stable “borders” of Twitter’s communities.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，新管理团队似乎做了这件事。通过推动所有人转向付费订阅，并削弱不付费账户的分发，通过切换TikTok风格的算法，新Twitter重新绘制了曾经稳定的Twitter社区的“边界”。
 - en: This new pay-to-play scheme may not have altered the lattice of the Twitter
     graph, but it has changed how the graph is interpreted. There’s little difference.
     My For You feed shows me less from people I follow, so my effective Twitter graph
@@ -268,28 +338,36 @@
     center of our Twitter graph like a spider in its web built out of follows and
     likes, with some empty space made of blocks and mutes. We can sense when the algorithm
     changes. Something changed. The web feels deadened.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种新的付费模式可能并没有改变Twitter图的结构，但它改变了图的解释方式。几乎没有区别。我的“为你推荐”信息流向我展示了更少来自我关注的人，因此我的有效Twitter图与我的文字图之间的差距越来越大。我们每个人都像蜘蛛一样坐在我们的Twitter图的中心，由关注和点赞构建而成，还有一些由屏蔽和静音构成的空白空间。我们可以感觉到算法的变化。有些事情发生了变化。这个网络感觉变得麻木了。
 - en: I’ve never cared much about the presence or not of a blue check by a user’s
     name, but I do notice when tweets from people I follow make up a smaller and smaller
     percentage of my feed. It’s as if neighbors of years moved out from my block overnight,
     replaced by strangers who all came knocking on my front door carrying not a casserole
     but a tweetstorm about how to tune my ChatGPT and MidJourney prompts.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 我从来不太在意用户姓名旁是否有蓝色勾号，但我确实注意到我关注的人的推文在我的Feed中所占比例越来越小。就好像多年的邻居一夜之间搬走了，被一群陌生人取代，他们敲响我的前门，不是拿着热菜，而是拿着关于如何调整我的ChatGPT和MidJourney提示的推文风暴。
 - en: I tried switching to the Following from the For You feed, but it seems the Following
     feed is strictly reverse chronological. This is a serious regression to the early
     days of Twitter when you had to check your feed frequently to hope to catch a
     good tweet from any single person you followed. We tried this before; it was terrible
     then, it’s terrible now.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 我尝试切换到关注Feed，但似乎关注Feed严格按时间顺序排列。这是Twitter早期的严重倒退，当时您必须经常检查Feed，希望能够从您关注的任何一个人那里捕捉到一条好推文。我们以前尝试过这种方式；那时很糟糕，现在也很糟糕。
 - en: This weakening of the follow works in the other direction, too. Many people
     who follow me tell me they don’t see as many of my tweets as they used to. All
     my followers are accumulated social capital that seem to have been rendered near
     worthless by algorithmic deflation.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种关注的减弱也存在另一方向。许多关注我的人告诉我，他们看到我的推文的次数不如以前多。所有我的关注者都是通过算法通货累积的社会资本，似乎已经被算法性通货累积贬值。
 - en: With every social network, one of the most important questions is how much information
     the structure of the graph itself contains. Because Twitter allows one-way following,
     its graph has always skewed towards expressing at least something about the interests
@@ -297,17 +375,23 @@
     The Twitter graph, more than most, is an interest graph assembled from a bunch
     of social graphs standing on each other’s shoulders wearing an interest graph
     costume. Not perfect, but not nothing.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于每个社交网络来说，最重要的问题之一是图本身的结构包含多少信息。因为Twitter允许单向关注，其图一直倾向于至少表达其用户兴趣的某些内容。与Facebook不同，我在Twitter上并不是盲目地关注我认识的人。Twitter图，比大多数图更多，是由一堆社交图组成的兴趣图，这些社交图相互站在彼此的肩膀上，穿着兴趣图的服装。不完美，但也不是没有。
 - en: The new Twitter algorithm tossed that out.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 新的Twitter算法抛弃了这一点。
 - en: 'If you’re going to devalue the Twitter graph’s core primitive, the act of following
     someone, you’d better replace it with something great. The name of the new algorithmic
     feed hints at what they tried: For You. It’s nomenclature borrowed from TikTok,
     the entertainment sensation of the past few years.'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果您要贬低Twitter图的核心原语，即关注某人的行为，那么您最好用一些伟大的东西来替代它。新算法提供的名称暗示了他们尝试的内容：为您。这个命名法借鉴了TikTok，过去几年的娱乐热点。
 - en: 'I’ve written tens of thousands of words on TikTok in recent years (my three
     essays on TikTok are [here](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat),
     [here](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm), and
@@ -315,8 +399,10 @@
     it all here. What prompted my fascination with the app was that it attacked the
     Western social media incumbents at an oblique angle. In [TikTok and the Sorting
     Hat](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat), I wrote:'
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 我最近几年在TikTok上写了成千上万字（我的三篇关于TikTok的文章在这里），我不会在这里重复。我对这个应用程序的迷恋是因为它以一种斜角攻击了西方社交媒体的现有者。在《TikTok和分选帽》中，我写道：
 - en: 'The idea of using a social graph to build out an interest-based network has
     always been a sort of approximation, a hack. You follow some people in an app,
     and it serves you some subset of the content from those people under the assumption
@@ -329,10 +415,13 @@
     what to tweet. The early days were filled with a lot of status updates of the
     variety people cite when criticizing social media: "nobody cares what you ate
     for lunch."'
+  id: totrans-42
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 利用社交图谱构建基于兴趣的网络的想法一直是一种近似，一种黑客。您在应用程序中关注一些人，它会为您提供这些人发布内容的一部分，假设您会发现他们发布的大部分内容都对您感兴趣。在大学里，这对Facebook来说是有效的，因为一群荷尔蒙分泌旺盛的大学生对彼此都非常感兴趣。在Twitter上也有效，尽管花了一些时间。Twitter的单向关注图允许人们以比Facebook最初的双向朋友模型更灵活地选择关注谁，但Twitter最初没有提供足够的反馈机制来帮助用户学会发推文。早期充满了很多人们在批评社交媒体时引用的那种状态更新：“没人在乎你吃了什么午餐。”
 - en: ''
+  id: totrans-43
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
@@ -342,10 +431,13 @@
     And what if that could be done really quickly and cheaply at scale, across millions
     of users? And what if the algorithm that pulled this off could also adjust to
     your evolving tastes in near real-time, without you having to actively tune it?
+  id: totrans-44
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 但是，如果有一种方法可以为您构建一个兴趣图谱，而无需您关注任何人呢？如果您可以跳过组装社交图谱的漫长而费力的中间步骤，直接跳到兴趣图谱呢？如果这可以在数百万用户之间以非常快速和廉价的方式进行，并且如果实现这一目标的算法还可以根据您的兴趣在几乎实时中调整，而无需您积极调整它呢？
 - en: ''
+  id: totrans-45
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
@@ -357,49 +449,63 @@
     not his Yankees tweets. Or my tweets on tech but not on film. And so on. You can
     try to use Twitter Lists, or mute or block certain people or topics, but it’s
     all a big hassle that few have the energy or will to tackle.'
+  id: totrans-46
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 用社交图来近似兴趣图的问题在于，社交图在规模扩大时会产生负面网络效应。以Twitter这样的社交网络为例：单向关注图结构非常适合构建兴趣图，但问题在于你很少对你关注的任何一个人的所有内容感兴趣。你可能喜欢Gruber关于苹果的想法，但不喜欢他关于洋基队的推文。或者喜欢我关于科技的推文，但不喜欢关于电影的。等等。你可以尝试使用Twitter列表，或者静音或屏蔽某些人或话题，但这都是一件很麻烦的事情，很少有人有精力或意愿去解决。
 - en: This is more commonly accepted now, but back in 2020 when I wrote this piece,
     TikTok’s success was still viewed with a lot of skepticism and puzzlement. Since
     then, we’ve seen Instagram and Twitter both try emulating TikTok’s strategy. Both
     Instagram and Twitter now serve much less content from people you follow and more
     posts selected by machine learning algorithms trying to guess your interests.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在这种情况更为普遍接受了，但在我写这篇文章的2020年，人们对TikTok的成功仍然持有很多怀疑和困惑。从那时起，我们看到Instagram和Twitter都尝试模仿TikTok的策略。现在，Instagram和Twitter都提供了更少来自你关注的人的内容，而更多是由机器学习算法选择的帖子，试图猜测你的兴趣。
 - en: Instagram has been more successful in part because it has formats like Stories
     that keep content from one’s follows prominent in the interface. There’s social
     capital of value embodied in the follow graph, and arguably it’s easier for Instagram
     to preserve much of that while copying TikTok than it is for TikTok to build a
     social graph like Instagram.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: Instagram之所以更成功，部分原因是它拥有像Stories这样的格式，可以使用户关注的内容在界面中保持突出。在关注图中体现了社交资本的价值，可以说Instagram在复制TikTok时更容易保留其中大部分内容，而TikTok要建立像Instagram那样的社交图则更为困难。
 - en: But that’s a topic for another day. Twitter is the app on trial today. And of
     all Twitter’s recent missteps, I think this was the most serious unforced error.
     For a variety of design reasons, Twitter will likely never be as accurate an interest
     graph as, say, TikTok is an entertainment network.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 但这是另一个话题了。今天受审的是Twitter应用。在Twitter最近的所有失误中，我认为这是最严重的不必要错误。出于各种设计原因，Twitter可能永远不会像TikTok那样准确地构建一个兴趣图。
 - en: As I’ve written about before in [Seeing Like An Algorithm](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm),
     Twitter’s interface doesn’t capture sentiment, both positive and negative, as
     cleanly, as TikTok.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 正如我之前在《像算法一样看待》一文中所写的那样，Twitter的界面并没有像TikTok那样清晰地捕捉到情绪，无论是积极的还是消极的。
 - en: Let’s start with positive sentiment. On this front, Twitter is…fine? It’s not
     for lack of usage. I’ve used Twitter a ton over more than a decade now, I’ve followed
     and unfollowed thousands of accounts, liked even more tweets, and posted plenty
     of tweets and links. I suspect one issue is that many tweets don’t contain enough
     context to be accurately classified automatically. How would you classify a tweet
     by Dril?
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们从积极情绪开始。在这方面，Twitter怎么样呢？它并不是因为缺乏使用率。我已经使用Twitter超过十年了，关注和取消关注了成千上万个账户，点赞了更多的推文，发布了大量的推文和链接。我怀疑的一个问题是，许多推文没有足够的上下文可以被准确地自动分类。你会如何对Dril的推文进行分类呢？
 - en: But perhaps even more damning for Twitter is its inability to see negative sentiment.
     Allowing users to pay for better tweet distribution leaves the network vulnerable
     to adverse selection. That’s why the ability to capture negative sentiment, especially
     passive negative sentiment, is so important to preserving a floor of quality for
     the Timeline.
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 但对于Twitter来说，更加致命的可能是它无法看到消极情绪。允许用户支付以获得更好的推文分发会使网络容易受到逆向选择的影响。这就是为什么捕捉到消极情绪，尤其是被动的消极情绪，对于保持时间线质量的底线是如此重要。
 - en: Unfortunately, capturing that passive disapproval is something Twitter has never
     done well. In Seeing Like an Algorithm, I wrote about how critical it was for
     a service’s design to help machine learning algorithms “see” the necessary feedback
@@ -407,8 +513,10 @@
     [Seeing Like a State](https://amzn.to/3O3jdA7) which described how high modernist
     governments depended on systems of imposed legibility for a particular authoritarian
     style of governance.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 不幸的是，捕捉到那种被动的不满是Twitter从未做好的事情。在《像算法一样看待》一文中，我写到了服务设计对于帮助机器学习算法“看到”用户的必要反馈，无论是积极的还是消极的，是多么关键。这篇文章的标题灵感来自斯科特的《像国家一样看待》一书，描述了高现代主义政府如何依赖于强加的可读性系统来实现特定的威权统治风格。
 - en: 'Modern social networks lean heavily on machine learning algorithms to achieve
     sufficient signal-to-noise in feeds. To manually manage complex adaptive systems
     at the scale of modern social media networks would be impossible otherwise. One
@@ -419,37 +527,47 @@
     The two entities that most epitomize each of these both come out of China: Bytedance
     and the CCP. The latter, in particular, has long been obsessed with cybernetics,
     despite [having followed it down a disastrous policy rabbit hole before](https://www.jstor.org/stable/20192474).'
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 现代社交网络在很大程度上依赖于机器学习算法来在动态中实现足够的信号与噪音。要手动管理现代社交媒体网络规模下的复杂自适应系统是不可能的。对专制技术官僚体制的批评之一是他们很快就会失去与他们统治的人民的联系。毫不奇怪，这样的政府也看到了机器学习算法与互联网的监控广度结合起来，作为一个潜在的灵丹妙药，让他们能够扩大他们的治理规模。最能体现这两者的实体都来自中国：字节跳动和中共。尤其是后者，长期以来一直着迷于控制论，尽管[之前曾陷入灾难性的政策兔子洞](https://www.jstor.org/stable/20192474)。
 - en: But these cybernetic systems, in the Norbert Wiener sense, only work well if
     their algorithms see enough user sentiment and see it accurately. Just as Scott
     felt high modernism failed again and again because those systems overly simplified
     complex realities, Twitter’s algorithm operates with serious blind spots. Since
     every output is an input in a cybernetic system, failure to capture all necessary
     inputs leads to noise in the timeline.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是，这些控制系统，从诺伯特·维纳的角度来看，只有在它们的算法看到足够的用户情感并准确地看到它时才能正常运行。正如斯科特感到高度现代主义一次又一次失败，因为这些系统过度简化了复杂的现实，Twitter的算法存在严重的盲点。由于每个输出都是控制系统中的一个输入，未能捕捉到所有必要的输入会导致时间轴中的噪音。
 - en: Twitter doesn’t see a lot of passive negative sentiment; it’s a structural blind
     spot. In a continuous scrolling interface with multiple tweets on screen at any
     one time, it’s hard to tell disapproval from apathy or even mild approval because
     the user will just scroll past a tweet for any number of reasons.
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: Twitter并没有看到很多消极情绪；这是一个结构性的盲点。在一个连续滚动的界面上，屏幕上同时显示多条推文，很难区分不满意和冷漠，甚至是轻微的赞同，因为用户可能会因为各种原因而只是滚动过一条推文。
 - en: This leads to a For You page that feels like it’s missing my friends and awkwardly
     misinterpreting my interests. Would you like yet another tweetstorm on AI and
     how it can change your life? No, well too bad, have another. And another. For
     someone who claims to be worried about the dangers of AI, Elon’s new platform
     sure seems to be pushing us to play with it.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 这导致了一个“为你”页面，感觉像是缺少我的朋友，尴尬地误解了我的兴趣。你想再听一次关于人工智能如何改变你生活的推文风暴吗？不想？那太糟糕了，再来一次。再来一次。埃隆声称担心人工智能的危险，但他的新平台似乎在推动我们与之互动。
 - en: In the rush to copy TikTok, many Western social networks have misread how easy
     it is to apply lessons of a very particular short video experience to social feeds
     built around other formats. If you’re Instagram Reels and your format and interface
     are a near carbon copy, then sure, applying the lessons of my three TikTok essays
     is straightforward. But if you’re Twitter, a continuous scrolling feed of short
     textual content, you’re dealing with a different beast entirely.
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 在追赶TikTok的过程中，许多西方社交网络误解了将非常特定的短视频体验的教训应用于围绕其他格式构建的社交动态。如果你是Instagram Reels，你的格式和界面几乎是一模一样的，那么，应用我写的三篇TikTok文章的教训是直截了当的。但如果你是Twitter，一个连续滚动的短文本内容动态，你正在处理一个完全不同的问题。
 - en: Even TikTok sometimes seems to misunderstand that its strength is its purity
     of function as an interest/entertainment graph. Its attempts to graft a social
     graph onto that have struggled because social networking is a different problem
@@ -459,32 +577,42 @@
     channel personalized to each of them is an agglomeration of millions of local
     maximums. TikTok’s interface paired with ByteDance’s machine learning algorithms
     are perfect for solving the latter but much less well-suited towards social networking.
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 即使TikTok有时似乎误解了它的优势是其作为兴趣/娱乐图的纯度。它试图将社交图形植入其中的尝试遇到了困难，因为社交网络是一个完全不同的问题空间。在TikTok上追踪我的朋友会混淆一个本来非常清晰的产品主张。社交网络是一个复杂的全局最大值问题。相比之下，为数百万人提供个性化频道的娱乐是数百万个局部最大值的聚合。TikTok的界面与字节跳动的机器学习算法非常适合解决后者，但对社交网络则不太适合。
 - en: Here’s another way to think about it. The difference between Twitter and an
     algorithmic entertainment network like TikTok is that you could fairly quickly
     reconstitute TikTok even without its current graph because its graph is a much
     less critical input to its algorithm than the user reactions to any random sequence
     of videos they’re served.
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 还有另一种思考方式。Twitter和像TikTok这样的算法娱乐网络之间的区别在于，即使没有当前的图形，你也可以相当快速地重建TikTok，因为与用户对他们所看到的任意视频序列的反应相比，其图形对其算法的影响要小得多。
 - en: If Twitter had to start over without its graph, on the other hand, it would
     be dead (which speaks to why Twitter clones like BlueSky which are just Twitter
     minus the graph and with the same clunky onboarding process seem destined for
     failure). The new For You feed gives us a partial taste of what that might look
     like, and it's not pretty.
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一方面，如果Twitter不得不重新开始而没有其图形，它将会消亡（这说明了为什么像BlueSky这样的Twitter克隆品，只是没有图形，拥有相同笨拙的入门流程，似乎注定会失败）。新的“为你”动态给了我们一个部分的预览，看起来并不美观。
 - en: I ran a report recently on all the accounts I follow on Twitter. I hadn’t realized
     how many of them had been dormant for months now. Many were people whose tweets
     used to draw me to the timeline regularly. I hesitate to unfollow them; perhaps
     they’ll return? But I’m fooling myself. They won’t. Inertia again. A user at rest
     tends to stay at rest, and a user that flees tends to be gone for good.
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: 最近我对我在Twitter上关注的所有账户进行了一份报告。我没有意识到其中有多少账户已经停滞数月。许多是以前经常吸引我查看时间线的人。我犹豫是否要取消关注他们；也许他们会回来？但我在自欺欺人。他们不会回来。惯性又起作用了。静止的用户往往会保持静止，而逃离的用户往往会永远离开。
 - en: Even worse, many accounts I follow look to have continued to tweet regularly
     over the past year. I just don’t see their tweets anymore. The changes to the
     Twitter algorithm bulldozed over a decade’s worth of Chesterton fences in a few
     months.
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 更糟糕的是，我关注的许多账户似乎在过去一年里继续定期发推文。我再也看不到他们的推文了。Twitter算法的变化在几个月内推倒了十年的栅栏。
