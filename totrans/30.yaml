@@ -1,33 +1,47 @@
 - en: My product is my garden | ᕕ( ᐛ )ᕗ Herman's blog
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://herman.bearblog.dev/my-product-is-my-garden/](https://herman.bearblog.dev/my-product-is-my-garden/)"
+  zh: 我的产品就是我的花园 | ᕕ( ᐛ )ᕗ Herman的博客
+- en: 'Original Text: [https://herman.bearblog.dev/my-product-is-my-garden/](https://herman.bearblog.dev/my-product-is-my-garden/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://herman.bearblog.dev/my-product-is-my-garden/](https://herman.bearblog.dev/my-product-is-my-garden/)
 - en: <main>
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: <main>
 - en: My product is my garden
+  id: totrans-3
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 我的产品就是我的花园
 - en: '*01 Dec, 2020*'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: '*2020年12月01日*'
 - en: 'I’ve been part of the internet startup scene for a while. There are so many
     different camps: the bootstrappers, the VC-backed tech-bros, the crypto “investors”,
     the people marketing their courses on marketing courses, the newsletter gurus,
     the micro-saas homeboys. The list goes on.'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我已经在互联网创业圈待了一段时间。有很多不同的阵营：自给自足者、风险投资支持的科技兄弟、加密“投资者”、在营销课程上营销自己课程的人、新闻简报大师、微型SaaS小伙子。名单还在继续。
 - en: Each of these groups have their own, unique views on building companies and
     products. Some are moonshots, others are sustainable “grow-slowly” types, and
     each has its own subset of hard-core, flame-war inducing followers. Ah, the internet
     is a beautiful, terrible, magical, ghastly, colourful place.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些群体中的每一个都有他们自己独特的建立公司和产品的观点。有些是大胆的尝试，有些是可持续的“慢慢成长”类型，每个群体都有自己一群激进的、引发火药味的追随者。啊，互联网是一个美丽、可怕、神奇、可怕、多彩的地方。
 - en: 'I’ve been associated with, and in some cases, been a part of a few of these
     various subcultures. After working at a VC backed startup, I went the bootstrapped
     route (popularised by the IndieHackers movement) with my own product. It was an
@@ -36,11 +50,15 @@
     Hustle Boys with their Twitter feeds full of “Work like no-one works today, so
     you can live like no-one lives tomorrow. #entrepreneur”. Neither of these resonated
     with me.'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 我曾经与这些不同的亚文化有所关联，并在某些情况下，成为这些亚文化的一部分。在一家风险投资支持的初创公司工作后，我选择了自给自足的道路（由IndieHackers运动推广），拥有了自己的产品。这是一段有趣的经历，但仍然充斥着营销课程乔，他们上周刚刚通过他们的“如何营销无代码应用”课程赚了3000美元，以及那些在Twitter上充满“今天工作得像没人今天工作一样，明天就能过得像没人明天过一样。#企业家”的奋斗男孩。这两者都没有引起我的共鸣。
 - en: I have found my own analogy/ideology. My product is my garden.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 我找到了自己的类比/意识形态。我的产品就是我的花园。
 - en: During the early days of lockdown, my girlfriend got deep into gardening. She
     would spend hours nurturing her tomato plants, weeding, watering, puttering about.
     She would spend afternoons reading articles on permaculture, figuring out which
@@ -48,8 +66,10 @@
     away, slight shade for the granadilla vine, some water, but not too much for the
     root vegetables. It was lovely to watch her coax tasty and nutritious food individually
     out of the ground. I can’t imagine full-scale farming being nearly as enjoyable.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在封锁早期，我的女朋友深深地沉迷于园艺。她会花几个小时照料她的番茄植物，除草、浇水，慢慢摸索。她会花下午时间阅读关于永续农业的文章，弄清楚哪些植物可以与其他植物共同生长。薰衣草和番茄一起种可以驱赶害虫，为石榴藤提供轻微的阴凉，为根茎蔬菜提供适量的水，但不要过多。看着她从土地中精心培育出美味又营养的食物是一种愉悦。我无法想象全面的农业会像这样令人愉快。
 - en: That’s what I want from my products. I want to putter about, feel connected
     to the process, and have fun doing so. I want to make things that don’t scale.
     To see people tuck into them and enjoy them as people, not as stats. I’ve done
@@ -57,34 +77,51 @@
     small, diverse, and amazing community of artists and illustrators making awesome
     things. I’m trying to build a similar product with [Bear Blog](https://bearblog.dev).
     Something niche but valuable. Something I can spend time on because I want to.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是我对我的产品的期望。我想要慢慢摸索，与整个过程建立联系，并且在这个过程中享受乐趣。我想要制作那些不可扩展的东西。看到人们享用它们，将它们当作人而不是统计数据。我在[JustSketchMe](https://justsketch.me)上已经相当成功地做到了这一点。我们拥有一个小而多样化的、令人惊叹的艺术家和插画家社区，创作出了令人惊叹的作品。我正试图用[Bear
+    Blog](https://bearblog.dev)构建一个类似的产品。一个有价值但又具有特定利基的产品。一个我可以花时间投入其中的产品，因为我愿意。
 - en: Being able to talk to, and interact with the people using my tools is fulfilling.
     Spending time meticulously improving subtle aspects of the product is enjoyable.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 能够与使用我的工具的人交谈和互动是令人满足的。花时间精心改进产品的微妙方面是令人愉快的。
 - en: Obviously, to do this a product has to reach a basic threshold of profitability.
     This will differ depending on where you are. I live in Cape Town, South Africa
     where the cost of living is low (compared to the US and EU). I reached basic profitability,
     matching an average developer salary here, about 10 months ago, and since then
     I’ve been improving my projects. Not to grow at all cost, but to ensure that people
     using the tool have an ever-improving experience.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 显然，要做到这一点，产品必须达到基本的盈利门槛。这将取决于你所在的地方。我住在南非开普敦，那里的生活成本较低（与美国和欧盟相比）。大约10个月前，我达到了基本的盈利能力，与这里的平均开发者工资相匹配，从那时起，我一直在改进我的项目。并非不惜一切成本增长，而是确保使用该工具的人有着不断改善的体验。
 - en: This is my garden, and I intend to putter.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我的花园，我打算闲逛。
 - en: --
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: --
 - en: Enjoyed the article? I write about 1-2 a month. Subscribe via [email](/subscribe/)
     or [RSS feed](/feed/).
+  id: totrans-15
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: 喜欢这篇文章吗？我每个月写1-2篇。通过[电子邮件](/subscribe/)或[RSS feed](/feed/)订阅。
 - en: '[#product](/blog/?q=product) [#writing](/blog/?q=writing)'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '[#product](/blog/?q=product) [#writing](/blog/?q=writing)'
 - en: </main>
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: </main>

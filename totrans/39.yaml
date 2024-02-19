@@ -1,269 +1,429 @@
 - en: Cal.com | Open Startup
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://cal.com/open](https://cal.com/open)"
+  zh: Cal.com | 开放式创业公司
+- en: 'Original Text: [https://cal.com/open](https://cal.com/open)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://cal.com/open](https://cal.com/open)
 - en: Our Open Source Friends
+  id: totrans-2
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 我们的开源朋友
 - en: Meet other projects whose code and culture is open
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 结识其他代码和文化开放的项目
 - en: '[Appsmith](https://www.appsmith.com)'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Appsmith](https://www.appsmith.com)'
 - en: Build build custom software on top of your data.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 在您的数据之上构建定制软件。
 - en: '[Aptabase](https://aptabase.com)'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Aptabase](https://aptabase.com)'
 - en: Analytics for Apps, open source, simple and privacy-friendly. SDKs for Swift,
     React Native, Electron, Flutter and many others.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 应用程序分析，开源、简单且注重隐私。适用于 Swift、React Native、Electron、Flutter 等 SDK。
 - en: '[Argos](https://argos-ci.com)'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Argos](https://argos-ci.com)'
 - en: Argos provides the developer tools to debug tests and detect visual regressions..
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: Argos 提供开发者工具，用于调试测试并检测视觉回归。
 - en: '[BoxyHQ](https://boxyhq.com)'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: '[BoxyHQ](https://boxyhq.com)'
 - en: BoxyHQ’s suite of APIs for security and privacy helps engineering teams build
     and ship compliant cloud applications faster.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: BoxyHQ 的安全和隐私 API 套件帮助工程团队更快地构建和发布符合规定的云应用程序。
 - en: '[Crowd.dev](https://www.crowd.dev)'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Crowd.dev](https://www.crowd.dev)'
 - en: Centralize community, product, and customer data to understand which companies
     are engaging with your open source project.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 集中管理社区、产品和客户数据，了解哪些公司正在参与您的开源项目。
 - en: '[DevHunt](https://devhunt.org/)'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: '[DevHunt](https://devhunt.org/)'
 - en: Find the best Dev Tools upvoted by the community every week.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 每周由社区投票评选出的最佳开发工具。
 - en: '[Documenso](https://documenso.com)'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Documenso](https://documenso.com)'
 - en: The Open-Source DocuSign Alternative. We aim to earn your trust by enabling
     you to self-host the platform and examine its inner workings.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源的 DocuSign 替代品。我们的目标是通过让您自行托管平台并检查其内部运作来赢得您的信任。
 - en: '[dyrector.io](https://dyrector.io)'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '[dyrector.io](https://dyrector.io)'
 - en: dyrector.io is an open-source continuous delivery & deployment platform with
     version management.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: dyrector.io 是一个具有版本管理的开源持续交付和部署平台。
 - en: '[Erxes](https://erxes.io)'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Erxes](https://erxes.io)'
 - en: The Open-Source HubSpot Alternative. A single XOS enables to create unique and
     life-changing experiences that work for all types of business.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源的 HubSpot 替代品。一个 XOS 能够创建独特且改变生活的体验，适用于所有类型的业务。
 - en: '[Formbricks](https://formbricks.com)'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Formbricks](https://formbricks.com)'
 - en: Survey granular user segments at any point in the user journey. Gather up to
     6x more insights with targeted micro-surveys. All open-source.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 在用户旅程中的任何时点调查细分用户群。通过有针对性的微调查收集多达 6 倍的见解。全部开源。
 - en: '[Firecamp](https://firecamp.io)'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Firecamp](https://firecamp.io)'
 - en: vscode for apis, open-source postman/insomnia alternative
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 用于 API 的 vscode，开源的 postman/insomnia 替代品
 - en: '[Ghostfolio](https://ghostfol.io)'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Ghostfolio](https://ghostfol.io)'
 - en: Ghostfolio is a privacy-first, open source dashboard for your personal finances.
     Designed to simplify asset tracking and empower informed investment decisions.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: Ghostfolio 是一个以隐私为首要考虑的开源个人财务仪表板。旨在简化资产跟踪并赋予知情投资决策权。
 - en: '[GitWonk](https://gitwonk.com)'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: '[GitWonk](https://gitwonk.com)'
 - en: GitWonk is an open-source technical documentation tool, designed and built focusing
     on the developer experience.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: GitWonk 是一个专注于开发者体验的开源技术文档工具。
 - en: '[Hanko](https://www.hanko.io)'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Hanko](https://www.hanko.io)'
 - en: Open-source authentication and user management for the passkey era. Integrated
     in minutes, for web and mobile apps.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 针对通行证时代的开源身份验证和用户管理。分钟级集成，适用于 Web 和移动应用。
 - en: '[Hook0](https://www.hook0.com/)'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Hook0](https://www.hook0.com/)'
 - en: Open-Source Webhooks-as-a-service (WaaS) that makes it easy for developers to
     send webhooks.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源 Webhooks 服务（WaaS），使开发人员能够轻松发送 Webhooks。
 - en: '[HTMX](https://htmx.org)'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: '[HTMX](https://htmx.org)'
 - en: HTMX is a dependency-free JavaScript library that allows you to access AJAX,
     CSS Transitions, WebSockets, and Server Sent Events directly in HTML.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: HTMX 是一个无依赖的 JavaScript 库，允许您直接在 HTML 中访问 AJAX、CSS 过渡、WebSockets 和服务器发送事件。
 - en: '[Inbox Zero](https://getinboxzero.com)'
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Inbox Zero](https://getinboxzero.com)'
 - en: Inbox Zero makes it easy to clean up your inbox and reach inbox zero fast. It
     provides bulk newsletter unsubscribe, cold email blocking, email analytics, and
     AI automations.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: Inbox Zero 让您轻松清理收件箱，快速达到收件箱零。提供批量取消订阅新闻简报、拦截冷邮件、电子邮件分析和 AI 自动化。
 - en: '[Infisical](https://infisical.com)'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Infisical](https://infisical.com)'
 - en: Open source, end-to-end encrypted platform that lets you securely manage secrets
     and configs across your team, devices, and infrastructure.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源、端到端加密平台，让您可以安全地管理团队、设备和基础设施中的秘密和配置。
 - en: '[Langfuse](https://langfuse.com)'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Langfuse](https://langfuse.com)'
 - en: Open source LLM engineering platform. Debug, analyze and iterate together.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源 LLM 工程平台。一起调试、分析和迭代。
 - en: '[Lost Pixel](https://lost-pixel.com)'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Lost Pixel](https://lost-pixel.com)'
 - en: Open source visual regression testing alternative to Percy & Chromatic
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源视觉回归测试替代方案，可替代Percy和Chromatic。
 - en: '[Mockoon](https://mockoon.com)'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Mockoon](https://mockoon.com)'
 - en: Mockoon is the easiest and quickest way to design and run mock REST APIs.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: Mockoon是设计和运行模拟REST API的最简单最快速的方法。
 - en: '[Novu](https://novu.co)'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Novu](https://novu.co)'
 - en: The open-source notification infrastructure for developers. Simple components
     and APIs for managing all communication channels in one place.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 面向开发人员的开源通知基础设施。用于管理所有通信渠道的简单组件和API。
 - en: '[OpenBB](https://openbb.co)'
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: '[OpenBB](https://openbb.co)'
 - en: Democratizing investment research through an open source financial ecosystem.
     The OpenBB Terminal allows everyone to perform investment research, from everywhere.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过开源金融生态系统使投资研究民主化。OpenBB终端让每个人都可以从任何地方进行投资研究。
 - en: '[OpenStatus](https://www.openstatus.dev)'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: '[OpenStatus](https://www.openstatus.dev)'
 - en: Open-source monitoring platform with beautiful status pages
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 具有美丽状态页面的开源监控平台。
 - en: '[Papermark](https://www.papermark.io/)'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Papermark](https://www.papermark.io/)'
 - en: Open-Source Docsend Alternative to securely share documents with real-time analytics.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 安全共享文档的开源Docsend替代方案，具有实时分析功能。
 - en: '[Requestly](https://requestly.io)'
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Requestly](https://requestly.io)'
 - en: Makes frontend development cycle 10x faster with API Client, Mock Server, Intercept
     & Modify HTTP Requests and Session Replays.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 使用API客户端、模拟服务器、拦截和修改HTTP请求以及会话重放，使前端开发周期加快10倍。
 - en: '[Revert](https://revert.dev)'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Revert](https://revert.dev)'
 - en: The open-source unified API to build B2B integrations remarkably fast
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 用于快速构建B2B集成的开源统一API。
 - en: '[Rivet](https://rivet.gg)'
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Rivet](https://rivet.gg)'
 - en: Open-source solution to deploy, scale, and operate your multiplayer game.
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 开源解决方案，用于部署、扩展和运营您的多人游戏。
 - en: '[Shelf.nu](https://www.shelf.nu/)'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Shelf.nu](https://www.shelf.nu/)'
 - en: Open Source Asset and Equipment tracking software that lets you create QR asset
     labels, manage and overview your assets across locations.
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 资产和设备跟踪软件的开源解决方案，可让您创建QR资产标签，管理和概览各个位置的资产。
 - en: '[Sniffnet](https://www.sniffnet.net)'
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Sniffnet](https://www.sniffnet.net)'
 - en: Sniffnet is a network monitoring tool to help you easily keep track of your
     Internet traffic.
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: Sniffnet是一个网络监控工具，可帮助您轻松跟踪您的互联网流量。
 - en: '[Spark.NET](https://spark-framework.net)'
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Spark.NET](https://spark-framework.net)'
 - en: The .NET Web Framework for Makers. Build production ready, full-stack web applications
     fast without sweating the small stuff.
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: 用于制作人员的.NET Web框架。快速构建生产就绪的全栈Web应用程序，无需担心琐事。
 - en: '[Tolgee](https://tolgee.io)'
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Tolgee](https://tolgee.io)'
 - en: Software localization from A to Z made really easy.
+  id: totrans-67
   prefs: []
   type: TYPE_NORMAL
+  zh: 从A到Z的软件本地化变得非常简单。
 - en: '[Trigger.dev](https://trigger.dev)'
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Trigger.dev](https://trigger.dev)'
 - en: Create long-running Jobs directly in your codebase with features like API integrations,
     webhooks, scheduling and delays.
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: 直接在您的代码库中创建长时间运行的作业，具有API集成、webhooks、调度和延迟等功能。
 - en: '[Typebot](https://typebot.io)'
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Typebot](https://typebot.io)'
 - en: Typebot gives you powerful blocks to create unique chat experiences. Embed them
     anywhere on your apps and start collecting results like magic.
+  id: totrans-71
   prefs: []
   type: TYPE_NORMAL
+  zh: Typebot为您提供强大的模块，以创建独特的聊天体验。将它们嵌入到应用程序的任何位置，并开始像魔术一样收集结果。
 - en: '[Twenty](https://twenty.com)'
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Twenty](https://twenty.com)'
 - en: A modern CRM offering the flexibility of open-source, advanced features and
     sleek design.
+  id: totrans-73
   prefs: []
   type: TYPE_NORMAL
+  zh: 一款现代CRM，提供开源的灵活性、高级功能和时尚设计。
 - en: '[Unkey](https://unkey.dev)'
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Unkey](https://unkey.dev)'
 - en: An API authentication and authorization platform for scaling user facing APIs.
     Create, verify, and manage low latency API keys in seconds.
+  id: totrans-75
   prefs: []
   type: TYPE_NORMAL
+  zh: 用于扩展用户面向API的API身份验证和授权平台。在几秒钟内创建、验证和管理低延迟API密钥。
 - en: '[Webiny](https://www.webiny.com)'
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Webiny](https://www.webiny.com)'
 - en: Open-source enterprise-grade serverless CMS. Own your data. Scale effortlessly.
     Customize everything.
+  id: totrans-77
   prefs: []
   type: TYPE_NORMAL
+  zh: 企业级开源无服务器CMS。拥有您的数据。轻松扩展。自定义一切。
 - en: '[Webstudio](https://webstudio.is)'
+  id: totrans-78
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Webstudio](https://webstudio.is)'
 - en: Webstudio is an open source alternative to Webflow
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: Webstudio是Webflow的开源替代方案。

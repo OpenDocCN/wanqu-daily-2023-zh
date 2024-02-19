@@ -1,29 +1,42 @@
 - en: Building GitHub with Ruby and Rails - The GitHub Blog
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://github.blog/2023-04-06-building-github-with-ruby-and-rails/](https://github.blog/2023-04-06-building-github-with-ruby-and-rails/)"
+  zh: 使用 Ruby 和 Rails 构建 GitHub - GitHub 博客
+- en: 'Original Text: [https://github.blog/2023-04-06-building-github-with-ruby-and-rails/](https://github.blog/2023-04-06-building-github-with-ruby-and-rails/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://github.blog/2023-04-06-building-github-with-ruby-and-rails/](https://github.blog/2023-04-06-building-github-with-ruby-and-rails/)
 - en: Since the beginning, GitHub.com has been a Ruby on Rails monolith. Today, the
     application is nearly two million lines of code and more than 1,000 engineers
     collaborate on it daily. We deploy as often as 20 times a day, and nearly every
     week one of those deploys is a Rails upgrade.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 从一开始，GitHub.com 就是一个基于 Ruby on Rails 的单体应用。如今，该应用几乎有两百万行代码，每天有超过 1,000 名工程师在其中协作。我们每天部署多达
+    20 次，几乎每周都有一次部署是 Rails 升级。
 - en: Upgrading Rails weekly
+  id: totrans-3
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 每周升级 Rails
 - en: Every Monday a [scheduled GitHub Action workflow](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)
     triggers an automated pull request, which bumps our Rails version to the latest
     commit on the Rails main branch for that day. All our builds run on this new version
     of Rails. Once all the builds pass, we review the changes and ship it the next
     day. Starting an upgrade on Monday you will already have an open pull request
     linking the changes this Rails upgrade proposes and a completed build.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 每周一，一个[预定的 GitHub Action 工作流](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule)触发一个自动化拉取请求，将我们的
+    Rails 版本升级到当天 Rails 主分支上的最新提交。我们所有的构建都在这个新版本的 Rails 上运行。一旦所有构建通过，我们审查更改并在第二天发布。从周一开始升级，您将已经有一个打开的拉取请求，链接到这次
+    Rails 升级提议的更改和一个已完成的构建。
 - en: This process is a far stretch from how we did Rails upgrades only a few years
     ago. In the past, we spent months migrating from our custom fork of Rails to a
     newer stable release, and then we maintained two Gemfiles to ensure we’d remain
@@ -31,66 +44,93 @@
     read more about this process in this [2018 blog post](https://github.blog/2018-09-28-upgrading-github-from-rails-3-2-to-5-2/).
     We work closely with the community to ensure that each Rails release is running
     in production before the release is officially cut.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个过程与我们几年前进行 Rails 升级的方式有很大不同。过去，我们花了几个月从我们的自定义 Rails 分支迁移到更新的稳定版本，然后我们维护两个
+    Gemfiles 以确保与即将发布的版本兼容。现在，升级只需要不到一周的时间。您可以在这篇[2018年的博客文章](https://github.blog/2018-09-28-upgrading-github-from-rails-3-2-to-5-2/)中了解更多关于这个过程的信息。我们与社区密切合作，确保每个
+    Rails 发布版本在正式发布之前在生产环境中运行。
 - en: 'There are real tangible benefits to running the latest version of Rails:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 运行最新版本的 Rails 有真正的实际好处：
 - en: '**We give developers at GitHub the very best version of our tools** by providing
     the latest version of Rails. This ensures users can take advantage of all the
     latest improvements including better database connection handling, faster view
     rendering, and all the amazing work happening in Rails every day.'
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**我们为 GitHub 的开发人员提供我们工具的最佳版本**，提供最新版本的 Rails。这确保用户可以利用所有最新的改进，包括更好的数据库连接处理、更快的视图渲染，以及每天在
+    Rails 中发生的所有令人惊叹的工作。'
 - en: '**We have removed nearly all of our Rails patches**. Since we are running on
     the latest version of Rails, instead of patching Rails and waiting for a change,
     developers can suggest the patch to Rails itself.'
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**我们几乎已经移除了所有的 Rails 补丁**。由于我们正在运行最新版本的 Rails，而不是打补丁并等待变更，开发人员可以向 Rails 本身建议补丁。'
 - en: '**Working on Rails is now easier than ever** to share with your team! Instead
     of telling your team you found something in Rails that will be fixed in the next
     release, you can work on something in Rails and see it the following week!'
+  id: totrans-9
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**现在与团队分享 Rails 的工作比以往任何时候都更容易**！不再需要告诉团队你在 Rails 中发现了一个将在下一个版本中修复的问题，你可以在
+    Rails 中处理某些事情，并在下周看到结果！'
 - en: '**Maintaining more up-to-date dependencies gives us a better security posture**.
     Since we already do weekly upgrades, adding an upgrade when there is a security
     advisory is standard practice and doesn’t require any extra work.'
+  id: totrans-10
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**保持更为更新的依赖关系可以提升我们的安全性**。由于我们已经每周进行升级，当有安全公告时进行升级是标准做法，不需要额外工作。'
 - en: '**There are no “big bang” migrations**. Since each Rails upgrade incorporates
     only a small number of changes, it’s easier to understand and dig into if there
     are incompatibilities. The *worst issues from a tough upgrade are unexpected changes
     from an unknown location.* These issues can be mitigated by this upgrade strategy.'
+  id: totrans-11
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**没有“大爆炸”式的迁移**。由于每次 Rails 升级只包含少量更改，如果存在不兼容性，更容易理解和深入挖掘。*从一次艰难的升级中产生的最糟糕问题是来自未知位置的意外更改*。这些问题可以通过这种升级策略来缓解。'
 - en: '**Catching bugs in the main branch and contributing back** strengthens our
     engineering team and helps our developers deepen their expertise and understanding
     of our application and its dependencies.'
+  id: totrans-12
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**在主分支中捕捉错误并贡献回来** 加强了我们的工程团队，并帮助我们的开发人员加深对我们的应用程序及其依赖关系的专业知识和理解。'
 - en: Testing Ruby continuously
+  id: totrans-13
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 持续测试Ruby
 - en: 'Naturally, we have a similar process for Ruby upgrades. In February 2022, shortly
     after upgrading to Ruby 3.1, we started building and testing Ruby shas from 3.2-alpha
     in a parallel build. When CI runs for the GitHub Rails application, two versions
     of the builds run: one build uses the Ruby version we are running in production
     and one uses the latest Ruby commit including the latest changes in Ruby, which
     we update weekly.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 当然，我们对Ruby升级也有类似的过程。2022年2月，就在升级到Ruby 3.1后不久，我们开始在并行构建中构建和测试来自3.2-alpha的Ruby
+    shas。当CI运行GitHub Rails应用程序时，会运行两个版本的构建：一个构建使用我们在生产中运行的Ruby版本，另一个使用包括Ruby最新更改的最新Ruby提交，我们每周更新。
 - en: While we build Ruby with every change, GitHub only ships numbered Ruby versions
     to production. The builds help us maintain compatibility with the upcoming Ruby
     version and give us insight into what Ruby changes are coming.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 虽然我们每次更改都会构建Ruby，但GitHub只会将带有编号的Ruby版本发布到生产环境。这些构建帮助我们保持与即将发布的Ruby版本的兼容性，并让我们了解即将到来的Ruby更改。
 - en: In early December 2022, with CI giving us confidence we were compatible before
     the usual Christmas release of Ruby 3.2, we were able to test Ruby release candidates
     with a portion of production traffic and give the Ruby team insights into any
@@ -100,55 +140,76 @@
     a subtle change when [`to_str` and `#to_i` is applied](https://github.com/ruby/ruby/commit/7563604fb868d87057733f52d780d841fc1ab6bb).
     Because we upgrade all the time, identifying and resolving these issues was standard
     practice.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 2022年12月初，通过CI让我们在通常的圣诞节发布Ruby 3.2之前就有了兼容性的信心，我们能够使用部分生产流量测试Ruby的发布候选版本，并向Ruby团队提供我们注意到的任何变化。例如，我们可以重现由于这一过程而在Ruby
+    3.2发布前修复的[由于关键字参数处理而导致的分配增加](https://bugs.ruby-lang.org/issues/19165)。我们还确定了当[`to_str`和`#to_i`被应用时的微妙变化](https://github.com/ruby/ruby/commit/7563604fb868d87057733f52d780d841fc1ab6bb)。因为我们一直在升级，识别和解决这些问题是标准做法。
 - en: This weekly upgrade process for Ruby allowed us to upgrade our monolith from
     Ruby 3.1 to Ruby 3.2 within a month of release. After all, we had already tested
     and run it in production! At this point, this was the **fastest Ruby upgrade we
     had ever done**. We broke this record with the release of Ruby 3.2.1, which we
     adopted **on release day**.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种每周升级Ruby的过程使我们能够在发布一个月内将我们的单体应用从Ruby 3.1升级到Ruby 3.2。毕竟，我们已经在生产中测试并运行了它！在这一点上，这是我们**迄今为止做过的最快的Ruby升级**。我们在Ruby
+    3.2.1发布当天打破了这一记录，我们**在发布当天**就采用了它。
 - en: This upgrade process has proved to be invaluable for our collaboration with
     the Ruby core team. A nice side effect of having these builds is that we are able
     to easily test and profile our own Ruby changes before we suggest them upstream.
     This can make it easier for us to identify regressions in our own application
     and better understand the impact of changes on a production environment.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种升级过程已被证明对我们与Ruby核心团队的合作是非常宝贵的。拥有这些构建的一个好处是，我们能够在向上建议之前轻松测试和分析我们自己的Ruby更改。这可以帮助我们更容易地识别我们自己应用程序中的回归，并更好地了解更改对生产环境的影响。
 - en: Should I do it, too?
+  id: totrans-19
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 我也应该这样做吗？
 - en: Our ability to do frequent Ruby and Rails upgrades is due to some engineering
     maturity at GitHub. Doing weekly Rails upgrades requires a thorough test suite
     with many great engineers working to maintain and improve it. We also gain confidence
     from having great test environments along with progressive rollout deploys. Our
     test suite is likely to catch problems, and if it doesn’t, we are confident we
     will catch it during deploy before it reaches customers.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们能够频繁升级Ruby和Rails的能力归功于GitHub的一些工程成熟度。每周升级Rails需要一个全面的测试套件，许多优秀的工程师致力于维护和改进它。我们还从拥有出色的测试环境以及渐进式部署中获得信心。我们的测试套件很可能会捕捉问题，如果没有，我们有信心在将其交付给客户之前在部署过程中捕捉到它。
 - en: If you have these tools, you should also upgrade Rails weekly and test using
     the latest Ruby. GitHub is a better Rails app because of it and it has enabled
     work from my team that I am really proud of.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果您拥有这些工具，您还应该每周升级Rails，并使用最新的Ruby进行测试。GitHub是一个更好的Rails应用程序，因为它使得我的团队能够进行我真正引以为傲的工作。
 - en: 'Ruby champion Eileen Uchitelle explains why investing in Rails is important
     in her [Rails Conf 2022 Keynote](https://www.youtube.com/watch?v=MbqJzACF-54):'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: Ruby冠军Eileen Uchitelle在她的[Rails Conf 2022主题演讲](https://www.youtube.com/watch?v=MbqJzACF-54)中解释了为什么投资于Rails是重要的：
 - en: Ultimately, if more companies treated the framework as an extension of the application,
     it would result in higher resilience and stability. Investment in Rails ensures
     your foundation will not crumble under the weight of your application. Treating
     it as an unimportant part of your application is a mistake and many, many leaders
     make this mistake.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，如果更多公司将框架视为应用程序的延伸，将会导致更高的弹性和稳定性。投资于Rails可以确保您的基础不会在应用程序的重压下崩溃。将其视为应用程序中不重要的部分是一个错误，许多领导者都犯了这个错误。
 - en: Thanks to contributions from people around the world, using Ruby is better than
     ever. GitHub, along with hundreds of other companies, benefits from Ruby and Rails
     continuing to improve. Upgrading regularly and investing in our frameworks is
     a staple of the work we do on the Ruby Architecture team at GitHub. We are always
     grateful for the Ruby community and glad that we can give back in a way that improves
     our application and tools as much as it improves them for everyone else.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 多亏了来自世界各地的人们的贡献，使用Ruby比以往任何时候都更好。GitHub以及其他数百家公司受益于Ruby和Rails不断改进。定期升级并投资于我们的框架是我们在GitHub
+    Ruby架构团队所做工作的重要组成部分。我们始终感激Ruby社区，并很高兴我们能以一种改进我们的应用程序和工具的方式回馈，就像它为其他人改进它们一样。

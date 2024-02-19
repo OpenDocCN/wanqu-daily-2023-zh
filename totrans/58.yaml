@@ -1,40 +1,58 @@
 - en: Idea for file hosting and proxy services | Satoshi Nakamoto Institute
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/)"
+  zh: 文件托管和代理服务的想法 | 中本聪研究所
+- en: 'Original Text: [https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/91/)
 - en: '##### BitcoinTalk'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '##### BitcoinTalk'
 - en: Idea for file hosting and proxy services
+  id: totrans-3
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 文件托管和代理服务的想法
 - en: When you want to upload an image to embed in a forum post, there are services
     like imageshack, but because they're free, they limit the number of views.  It's
     a minuscule amount of bandwidth cost, but they can't just give it away for free,
     there has to be something in it for them.  It would be nice to be able to pay
     for the bandwidth and avoid the limits, but conventional payments are too inconvenient
     for such a minor thing.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你想上传一张图片以嵌入到论坛帖子中时，有像 imageshack 这样的服务，但因为它们是免费的，它们限制了浏览次数。这只是微不足道的带宽成本，但他们不能白白地提供服务，他们必须得有所回报。能够支付带宽费用并避免限制将是很好的，但传统的支付方式对于这样微小的事情来说太不方便了。
 - en: It's worse if you want to upload a file for others to download.  There are services
     like rapidshare, but they require the downloaders to go through extra steps and
     delays to make them look at advertising or encourage upgrading to a paid subscription,
     and they limit it to 10 or so downloads.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你想上传一个文件供他人下载，情况就更糟了。有像 rapidshare 这样的服务，但他们要求下载者经历额外的步骤和延迟，让他们看广告或鼓励升级到付费订阅，并且将下载次数限制在
+    10 次左右。
 - en: It would be nice if we made some free PHP code for an image and file hosting
     service that charges Bitcoins.  Anyone with some extra bandwidth quota could throw
     it on their webserver and run it.  Users could finally pay the minor fee to cover
     bandwidth cost and avoid the limits and hassles.  Ideally, it should be MIT license
     or public domain.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果我们能为一个收取比特币的图像和文件托管服务制作一些免费的 PHP 代码，那将是很不错的。任何有额外带宽配额的人都可以将其放在他们的 Web 服务器上并运行。用户最终可以支付微小费用以覆盖带宽成本并避免限制和麻烦。理想情况下，它应该是
+    MIT 许可证或公共领域。
 - en: Services like this would be great for anonymous users, who have trouble paying
     for things.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 这样的服务对于那些有困难支付费用的匿名用户来说将是很棒的。

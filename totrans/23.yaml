@@ -1,160 +1,235 @@
 - en: 'Thunderbird Is Thriving: Our 2022 Financial Report'
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/](https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/)"
+  zh: Thunderbird 蓬勃发展：我们的 2022 年财务报告
+- en: 'Original Text: [https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/](https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/](https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/)
 - en: 'Thunderbird Is Thriving: Our 2022 Financial Report'
+  id: totrans-2
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: Thunderbird 蓬勃发展：我们的 2022 年财务报告
 - en: 'A few years ago, Thunderbird was in survival mode. Our dedicated core team,
     passionate community of users, and generous donors kept Thunderbird alive during
     some difficult times. Then, just last May, we [happily reported](https://blog.thunderbird.net/2022/05/thunderbird-2021-financial-report/)
     that Thunderbird’s financial outlook was steadily improving: our 2021 income had
     increased by 21% over 2020, and by more than 100% over 2018.'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 几年前，Thunderbird 处于生存模式。我们敬业的核心团队、充满激情的用户社区和慷慨的捐赠者在一些困难时期内保持了 Thunderbird 的生机。然后，就在去年五月，我们[高兴地报道](https://blog.thunderbird.net/2022/05/thunderbird-2021-financial-report/)，Thunderbird
+    的财务前景稳步改善：我们 2021 年的收入比 2020 年增长了 21%，比 2018 年增长了超过 100%。
 - en: But we are not content merely surviving. Our mission is to build the best email
     client and personal information manager available. To build professional software
     that puts your privacy first. To craft an experience that boosts your productivity,
     compliments your daily workflow, and meets your customization needs. And to expand
     the Thunderbird experience to Android and iOS. And to do all of this transparently,
     guided by the values of free and open source software.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 但我们并不满足于仅仅生存。我们的使命是打造最好的电子邮件客户端和个人信息管理器。构建将您的隐私放在首位的专业软件。打造一个提升您生产力、完善您日常工作流程、满足您定制需求的体验。并将
+    Thunderbird 体验扩展到 Android 和 iOS。并且透明地做所有这些，遵循自由和开源软件的价值观。
 - en: '**Donations In 2022**'
+  id: totrans-5
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**2022 年捐赠**'
 - en: 'Last year, our mighty donor base – representing approximately 300,000 daily
     users – contributed a total of $6,442,704 in donations to the Thunderbird project.
     (*Note: user donations represent more than 99.9% of our annual revenue*.) Our
     2022 donation income was a bright, assertive sign that you also believe in that
     mission, and you also want to see Thunderbird thriving. Not just in 2023, but
     decades into the future!'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 去年，我们强大的捐赠者群体 - 代表约 30 万日活用户 - 向 Thunderbird 项目捐赠了总计 6,442,704 美元。 (*注：用户捐款占我们年度收入的
+    99.9% 以上。*) 我们 2022 年的捐款收入是一个明亮、坚定的迹象，表明您也相信这个使命，您也希望看到 Thunderbird 蓬勃发展。不仅在 2023
+    年，而且在未来几十年！
 - en: '[![Year-to-year donations to Thunderbird: 2017 through 2022\. ](../Images/4244870dc4cefaceeeb4d3caad9d0a13.png
     "Chart")](https://blog.thunderbird.net/files/2023/05/image.png)'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![Thunderbird 年度捐款：2017 至 2022 年。](../Images/4244870dc4cefaceeeb4d3caad9d0a13.png
+    "图表")](https://blog.thunderbird.net/files/2023/05/image.png)'
 - en: This is nothing short of outstanding, and we are tremendously grateful for the
     generous donations of our users. Below, we’ll talk about what this enables us
     to do in the future, and how we spent some of that income in 2022.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 这简直是非常出色的，我们对用户慷慨捐赠表示非常感激。接下来，我们将谈论这将使我们未来能够做什么，以及我们如何在 2022 年花费了部分收入。
 - en: Before we discuss that, you might be wondering what we did differently to generate
     such a significant surge of support last year.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我们讨论这些之前，您可能想知道去年我们做了什么不同的事情，以产生如此显著的支持激增。
 - en: At the end of 2021, we decided to make a bigger investment in communicating
     with you. That meant more frequent blog posts and [newsletters](https://www.thunderbird.net/en-US/#mailing-list),
     daily engagement across our social media channels, and expanding the number of
     places we interact with you (like our relatively new [Mastodon account](https://www.thunderbird.net/en-US/#mailing-list)).
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 2021 年底，我们决定加大与您的沟通投入。这意味着更频繁的博客文章和[通讯](https://www.thunderbird.net/en-US/#mailing-list)，每天在社交媒体渠道上的互动，以及扩大我们与您互动的地方数量（比如我们相对较新的[Mastodon账户](https://www.thunderbird.net/en-US/#mailing-list)）。
 - en: '[![Donations by month, comparing 2021 and 2022\. ](../Images/a04798301f55a982bb45658da15fb251.png
     "Chart")](https://blog.thunderbird.net/files/2023/05/image-1.png)'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![2021 年和 2022 年捐款对比图。](../Images/a04798301f55a982bb45658da15fb251.png "图表")](https://blog.thunderbird.net/files/2023/05/image-1.png)'
 - en: We also attribute this amazing uplift to the release of Thunderbird 102, as
     well as a first-of-its-kind, in-app donation appeal at the end of year.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们还将这一惊人的增长归因于 Thunderbird 102 的发布，以及年底首次推出的应用内捐赠呼吁。
 - en: In short, we learned that projects like ours can benefit greatly from simply
     asking for donations, while simultaneously explaining how those donations will
     benefit the project – and ultimately, how they will benefit you. So let’s talk
     about that!
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 简而言之，我们发现像我们这样的项目可以通过简单地请求捐赠而受益匪浅，同时解释这些捐赠将如何使项目受益 - 最终，它们将如何使您受益。所以让我们谈谈这个！
 - en: '**Thunderbird’s People And Thunderbird’s Future**'
+  id: totrans-14
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**Thunderbird的人员和Thunderbird的未来**'
 - en: 'The heart of Thunderbird is obviously its people, and we invested heavily in
     personnel last year. We began 2022 with 15 core staff, and now employ a team of
     24 in these roles:'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: Thunderbird的核心显然是其人员，去年我们在人员方面投入了大量资金。我们在2022年初有15名核心员工，现在在以下职位上雇用了一个由24人组成的团队：
 - en: '**Product and Business Development Manager**'
+  id: totrans-16
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**产品和业务发展经理**'
 - en: '**Director of Operations**'
+  id: totrans-17
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**运营总监**'
 - en: '**Product Design Manager**'
+  id: totrans-18
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**产品设计经理**'
 - en: '**Engineering Manager**'
+  id: totrans-19
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**工程经理**'
 - en: '**Staff Engineers (3)**'
+  id: totrans-20
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**员工工程师（3）**'
 - en: '**Sr SW Engineers (2)**'
+  id: totrans-21
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**高级软件工程师（2）**'
 - en: '**Sr Security Engineer**'
+  id: totrans-22
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**高级安全工程师**'
 - en: '**SW Engineer, Add-Ons Ecosystem**'
+  id: totrans-23
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**软件工程师，附加组件生态系统**'
 - en: '**Sr UI/UX Developer**'
+  id: totrans-24
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**高级UI/UX开发人员**'
 - en: '**UI/UX Developers (2)**'
+  id: totrans-25
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**UI/UX开发人员（2）**'
 - en: '**Android Project Lead**'
+  id: totrans-26
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**安卓项目负责人**'
 - en: '**Android Developer (1)**'
+  id: totrans-27
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**安卓开发人员（1）**'
 - en: '**Build & Release Engineers (2)**'
+  id: totrans-28
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**构建和发布工程师（2）**'
 - en: '**Full Stack Developer**'
+  id: totrans-29
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**全栈开发人员**'
 - en: '**Front End Developer**'
+  id: totrans-30
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**前端开发人员**'
 - en: '**Community Manager**'
+  id: totrans-31
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**社区经理**'
 - en: '**Marketing Manager**'
+  id: totrans-32
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**市场营销经理**'
 - en: '**Bug Triager**'
+  id: totrans-33
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**Bug跟踪员**'
 - en: '**Support Engineer**'
+  id: totrans-34
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**支持工程师**'
 - en: The breakout growth we enjoyed last year means hiring even more talented people
     to vastly improve the Thunderbird desktop experience. This past year we expended
     significant effort to dramatically [improve Thunderbird’s UX](https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/)
@@ -164,74 +239,104 @@
     to add new features at a brisk pace. This work will largely pay off in our 2024
     release, however it does power some of the improvements in the [115 “Supernova”](https://blog.thunderbird.net/tag/supernova/)
     release this summer.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 去年我们享受的突破性增长意味着雇佣更多才华横溢的人员，大大改善Thunderbird桌面体验。去年，我们投入了大量精力，大幅[改善了Thunderbird的用户体验](https://blog.thunderbird.net/2023/02/the-future-of-thunderbird-why-were-rebuilding-from-the-ground-up/)，使其符合现代期望和标准。在2022年，我们还为Thunderbird桌面版进行了大规模架构变更的基础工作。这些变化解决了多年来限制我们以快速速度添加新功能的技术债务。这项工作将在我们的2024年发布中大部分得到回报，但它确实支持了今年夏天的[115“超新星”](https://blog.thunderbird.net/tag/supernova/)发布中的一些改进。
 - en: But we’re also building beyond the desktop, to provide you with a truly cross-platform,
     synergistic experience. Last summer we invested in the K-9 Mail Project, which
     is being steadily improved in its transformation to [Thunderbird on Android](https://blog.thunderbird.net/category/thunderbird-mobile/).
     And yes, we’re almost ready to add an iOS version to our roadmap! Later in 2023,
     we’ll hire an iOS developer to begin creating the foundation for Thunderbird on
     iOS.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 但我们也在桌面之外进行扩展，为您提供真正跨平台、协同的体验。去年夏天，我们投资了K-9邮件项目，该项目正在稳步改进，转变为[安卓上的Thunderbird](https://blog.thunderbird.net/category/thunderbird-mobile/)。是的，我们几乎准备好将iOS版本添加到我们的路线图中！在2023年晚些时候，我们将雇用一名iOS开发人员，开始为Thunderbird在iOS上打下基础。
 - en: Thunderbird is also expanding beyond the core experience you already use. We’ve
     been exploring additional sources of revenue in the form of new tools and services
     to increase your productivity. We’re planning to introduce some of these, in Beta
     status, later this year. Rest assured that we have no plans to charge money for
     the powerful Thunderbird experience you enjoy today (nor do we plan to remove
     features and charge for them later).
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: Thunderbird 也在扩展已经使用的核心体验之外。我们一直在探索新工具和服务的额外收入来源，以提高您的生产力。我们计划在今年晚些时候推出其中一些处于测试阶段的新功能。请放心，我们没有计划收费您目前享受的强大Thunderbird体验（也没有计划删除功能并以后收费）。
 - en: '**Total Spending In 2022**'
+  id: totrans-38
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**2022年总支出**'
 - en: 'The Thunderbird Project’s total operating expenses for 2022 was $3,569,706\.
     While personnel is where most of our money is spent, there are other areas crucial
     to Thunderbird’s continued operation. Here’s an overview of our total spending
     in 2022:'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: Thunderbird项目2022年的总运营支出为$3,569,706。虽然人员是我们大部分资金的支出来源，但还有其他对Thunderbird持续运营至关重要的领域。以下是我们2022年总支出的概述：
 - en: '[![A pie chart showing spending percentages for Thunderbird in 2022\. ](../Images/48b5a279963b80fa7eff77712b54c7d4.png)](https://blog.thunderbird.net/files/2023/05/2022-spending.png)'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![一个饼图显示2022年Thunderbird的支出百分比。](../Images/48b5a279963b80fa7eff77712b54c7d4.png)](https://blog.thunderbird.net/files/2023/05/2022-spending.png)'
 - en: Professional Services are things like HR, legal and tax services, as well as
     agreements with other Mozilla entities to provide technology infrastructure and
     operational resources.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 专业服务包括人力资源、法律和税务服务，以及与其他Mozilla实体达成协议提供技术基础设施和运营资源。
 - en: The remaining items help us to run the business, such as the services and technology
     we use to communicate and manage operations, insurance, bank and donation processing
     fees.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 剩余的项目帮助我们经营业务，例如我们用来沟通和管理运营的服务和技术，保险、银行和捐赠处理费用。
 - en: '**Closing Comments**'
+  id: totrans-43
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**结束语**'
 - en: The state of Thunderbird’s finances is strong. But that doesn’t make our team
     complacent. We are careful stewards of the thoughtful donations we receive from
     you. We don’t just use it to enhance features; we invest it strategically towards
     ensuring long-term stability and viability of Thunderbird. Having healthy cash
     reserves ensures the long-term sustainability of Thunderbird, even during periods
     of economic instability.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: Thunderbird的财务状况良好。但这并不会让我们的团队自满。我们谨慎地管理着您给予我们的慷慨捐赠。我们不仅用它来增强功能；我们还会战略性地投资，以确保Thunderbird的长期稳定性和可持续性。拥有健康的现金储备可以确保Thunderbird的长期可持续性，即使在经济不稳定时期也是如此。
 - en: Your ongoing financial gifts have enabled Thunderbird to go from surviving to
     thriving. But as it has been since 2003, Thunderbird’s future is in your hands.
     Please continue to donate, and we will continue to build software you can be proud
     of.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 您持续的财政赠与使Thunderbird从生存到蓬勃发展。但自2003年以来，Thunderbird的未来掌握在您手中。请继续捐赠，我们将继续开发让您感到自豪的软件。
 - en: Thank you,
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 谢谢，
 - en: '**Ryan Sipes'
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: '**Ryan Sipes'
 - en: Thunderbird Product and Business Development Manager**
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: Thunderbird产品和业务发展经理**
 - en: '[![](../Images/14c22830ec33b4a10a9c96072ccd92be.png)](https://mzla.link/3LNc6tc)'
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![](../Images/14c22830ec33b4a10a9c96072ccd92be.png)](https://mzla.link/3LNc6tc)'

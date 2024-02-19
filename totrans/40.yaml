@@ -1,70 +1,97 @@
 - en: Lessons from 6 software rewrite stories | by Herb Caudill | Medium
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22](https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22)"
+  zh: 6个软件重写故事的教训 | Herb Caudill | Medium
+- en: 'Original Text: [https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22](https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22](https://medium.com/@herbcaudill/lessons-from-6-software-rewrite-stories-635e4c8f7c22)
 - en: In 2004, they took a project-management tool that [they had developed for internal
     use](https://basecamp.com/about/story), and released it as a software-as-a-service
     product called [Basecamp](https://signalvnoise.com/archives/000542.php).
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 2004年，他们拿出了一款[他们为内部使用开发的项目管理工具](https://basecamp.com/about/story)，并将其发布为名为[Basecamp](https://signalvnoise.com/archives/000542.php)的软件即服务产品。
 - en: This was at a time when subscribing to software was still a novelty. Project
     management tools came in shrink-wrapped boxes with four-figure price tags and
     hefty manuals, and were all about modeling critical paths and generating complex
     Gantt charts.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 那时订阅软件仍然是一种新奇。项目管理工具以装订箱形式出售，价格高达四位数，并附带庞大的手册，主要是关于建模关键路径和生成复杂的甘特图。
 - en: Basecamp sold for $50 a month and was a breath of fresh air, with its super-simple
     interface and its focus on communication.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: Basecamp 以每月 $50 的价格出售，以其超级简单的界面和专注于沟通的特点，给人一种清新的感觉。
 - en: Fast forward a few years, Basecamp has half a million happy users, checks are
     rolling in every month, and Jason and David are starting to get restless.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 几年后，Basecamp 拥有五十万快乐的用户，每个月都有支票进账，Jason 和 David 开始变得不安。
 - en: 'I saw David tell this story at the [Business of Software](http://www.businessofsoftware.org)
     conference a few years ago. He said that not only had he been convinced by Joel
     Spolsky that rewriting software would kill the company, but [there was an element
     of self-righteousness](https://businessofsoftware.org/2015/10/david-heinemeier-hansson-rewrite-basecamp-business-of-software-conference-video-dhh-bos2015/)
     inspired by the Agile movement:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 几年前，我在[软件业务](http://www.businessofsoftware.org)会议上看到 David 讲述这个故事。他说，他不仅被 Joel
+    Spolsky 说服，重写软件会毁掉公司，而且还受到敏捷运动的一种自以为是的影响：
 - en: '[I was] completely taken in with the idea of transcendent software. … That
     code is infinitely malleable. That legacy is infinitely valuable. That you can
     change anything, any piece of software, any piece of code can be rewritten. …
     If software is hard to change, it is your fault. You’re a bad programmer and you
     just have to learn to be better.'
+  id: totrans-7
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '[我]完全被超越性软件的想法所吸引。…那代码是无限可塑的。那遗留代码是无限有价值的。你可以改变任何东西，任何软件的任何代码都可以重写。…如果软件难以更改，那是你的错。你是一个糟糕的程序员，你只需要学会变得更好。'
 - en: After what he calls “seven fat years”, though, they were in a bind — and it
     had **nothing to do with technical debt**.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，在他所称的“七肥年”之后，他们陷入了困境 —— 这与**技术债务无关**。
 - en: Golden handcuffs
+  id: totrans-9
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 金色的手铐
 - en: They started by noticing *in their gut* a lack of enthusiasm. Not only were
     they not motivated to work on their flagship product, but they themselves weren’t
     *using* the product as much.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们开始注意到*内心的感觉*缺乏热情。他们不仅没有动力去改进他们的旗舰产品，而且他们自己也没有像以前那样*使用*这个产品。
 - en: They had lots of ideas about how to make the product fundamentally better, but
     with hundreds of thousands of people building their workflows around Basecamp,
     every change they made was disruptive to lots and lots of people. **The obstacle
     to change wasn’t a crufty codebase, it was their users.**
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们有很多关于如何使产品从根本上变得更好的想法，但是由于成千上万的人正在围绕 Basecamp 构建他们的工作流程，他们所做的每一个改变都会对很多人造成干扰。**改变的障碍不是陈旧的代码库，而是他们的用户。**
 - en: 'Their focus on keeping their existing customer base happy was freezing the
     product in time, and preventing them from appealing to new customers. This wasn’t
     an immediate problem for the business, but it posed a long-term threat. DHH used
     the metaphor of trying to keep a leaky bucket full:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们专注于让现有客户群体满意，这导致产品停滞不前，并阻止他们吸引新客户。这对业务来说并不是一个立即的问题，但却构成了一个长期的威胁。DHH 用一个比喻来描述这种情况，就像试图让一个漏水的桶保持满：
 - en: You might be plugging all the holes, you might be fixing all the bugs, you might
     be upgrading all the features the existing customers are complaining about so
     that no water escapes — but some water always escapes. Customers move on from
@@ -72,87 +99,124 @@
     of delude yourself that, “Hey, this bucket is more than half full still. That’s
     just a tiny little hole there seeping out and that’s perfectly natural.” But,
     if you just keep that on for long enough, the bucket is going to end up empty.
+  id: totrans-13
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 你可能正在堵塞所有漏洞，修复所有错误，升级所有现有客户抱怨的功能，以防止任何水流失 — 但总会有一些水流失。即使客户[喜欢它]，他们也会离开工作并离开您的软件。但你可能会自欺欺人地认为，“嘿，这个桶仍然超过一半满。只有一个小小的漏洞在渗出，这是完全自然的。”
+    但是，如果你坚持这样做足够长的时间，桶最终会变空。
 - en: 'Part of the problem is that you hear all the time from your present customers,
     but you don’t hear from your future customers:'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 问题的一部分是你总是听到来自现有客户的声音，但你却听不到来自未来客户的声音：
 - en: People who showed up at the Basecamp homepage in 2011 and chose not to buy because
     our ideas were no longer good enough, how often do you think we were hearing from
     them? Never. We were hearing from this broad base of existing customers who very
     much would love us to just keep plugging those little holes.
+  id: totrans-15
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 2011年访问Basecamp首页并选择不购买的人，因为我们的想法不再足够好，你认为我们从他们那里听到了多少次？从来没有。我们听到的是这个广泛的现有客户群体，他们非常希望我们继续堵塞那些小漏洞。
 - en: 'They started to see their profitable product as a set of golden handcuffs:'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们开始将他们盈利的产品视为一套金色的手铐：
 - en: The number one thing is just to make sure all the users you already have are
     still happy. The money just keeps coming in every month, new check, new check,
     new check. Great. But, you have to stick your arms forward and say, “Okay, I will
     never change my software again.”
+  id: totrans-17
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 最重要的是确保你已经拥有的所有用户仍然满意。每个月都有钱进账，新支票，新支票，新支票。很好。但是，你必须伸出双臂说，“好吧，我永远不会再改变我的软件了。”
 - en: 'Spoiler alert: They rewrote Basecamp from scratch and it turned out great.
     It took around a year, and new signups doubled immediately following the release
     of Basecamp 2.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 剧透警告：他们从头开始重写了Basecamp，结果非常好。大约花了一年的时间，Basecamp 2发布后立即有两倍的新注册用户。
 - en: They did two interesting things that, I think, made this work.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们做了两件有趣的事情，我认为这样做很成功。
 - en: First, **they didn’t try to rebuild the exact product they already had** — because
     they had new ideas about how to solve the problems they’d originally set out to
     solve.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，**他们没有试图重建他们已经拥有的确切产品** — 因为他们对如何解决最初设定的问题有了新的想法。
 - en: Are we really that arrogant to think that the ideas we had in 2003 were still
     going to be the very best ideas in 2011? I mean, I’ve been accused of being pretty
     arrogant, but I ran out of steam on that one in like 2008.
+  id: totrans-21
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 我们真的那么傲慢，认为我们在2003年拥有的想法仍然会是2011年最好的想法吗？我的意思是，我曾被指责为相当傲慢，但我在2008年就放弃了这个想法。
 - en: So they presented Basecamp 2 as a completely new product, with no guarantees
     that it would be backwards compatible with Basecamp Classic. Lots of things were
     new, other things were gone, and lots of things were just totally different.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，他们将Basecamp 2呈现为一个全新的产品，没有保证它与Basecamp经典版兼容。许多东西是新的，其他东西消失了，还有很多东西完全不同。
 - en: That decision gave them a degree of freedom. Freedom is motivating, and motivated
     human beings get more done.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个决定给了他们一定程度的自由。自由是激励人的，而受到激励的人会做更多事情。
 - en: Not having to support every one of the original product’s use cases also bought
     them a lot of time. For example, the original Basecamp allowed users to host documents
     on their own FTP server. Cutting out that feature — and others like it, that might
     have made business sense at one time, but didn’t any more—made it possible to
     bring the new product to market in a reasonable amount of time.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 不必支持原始产品的每一个用例也为他们节省了很多时间。例如，原始的Basecamp允许用户在自己的FTP服务器上托管文档。剔除这个功能 — 以及其他类似的功能，可能在某个时候是有商业意义的，但现在不再有意义
+    — 使得能够在合理的时间内将新产品推向市场。
 - en: Sunset considered harmful
+  id: totrans-25
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 淘汰有害
 - en: But what about all those hundreds of thousands of existing users? All those
     people who complain loudly when their cheese is moved?
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是那些成千上万的现有用户呢？所有那些在他们的奶酪被挪动时大声抱怨的人呢？
 - en: That brings us to the second interesting thing they did, which was that **they
     didn’t sunset their existing product**.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就引出了他们做的第二件有趣的事情，**他们没有淘汰他们现有的产品**。
 - en: 'David riffed for a while on the notion of “sunsetting” software:'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 大卫对“日落”软件的概念进行了一番演绎：
 - en: Someone somewhere came up with this beautiful euphemism called the sunset. …
     Let’s call killing software “sunsetting”. … All the users can sit on the beach
     and they can watch all their data fade away. It’s going to be beautiful!
+  id: totrans-29
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 某个地方有人想出了这个美丽的委婉说法，叫做日落。…让我们称软件的终结为“日落”。…所有用户都可以坐在海滩上，看着他们的所有数据逐渐消失。这将会很美丽！
 - en: ''
+  id: totrans-30
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
@@ -160,82 +224,114 @@
     No user who’s actually ever been through a period of sunset actually comes back
     and says, “Oh that was beautiful.” They come back and say, “Fuck! I put in years
     of work in this thing! … And now you’re going to *sunset* me?”
+  id: totrans-31
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 唯一相信“日落”的人是那些称之为“日落”的人。从未经历过日落时期的用户从来不会回来说，“哦，那真是美丽。” 他们会回来说，“该死！我在这个东西上花了几年的时间！…现在你要*日落*我？”
 - en: 'He points out that when you force users to pack up and move, *that’s* when
     you’re making “the worst strategic mistake ever”: Because you’re taking your entire
     recurring customer base and making them think about whether they want to keep
     using your software or move to something else altogether.'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 他指出，当你强迫用户打包搬迁时，*那*才是在犯下“有史以来最糟糕的战略错误”：因为你正在让你的整个持续客户群体思考他们是否想继续使用你的软件或者转移到其他地方。
 - en: “Is Basecamp even actually the thing I want anymore? If we have to move all
     our crap over anyway, maybe I can just move it somewhere else. If I have to pack
     it all up into boxes and load it on the truck, I can just send that truck across
     town instead. That’s not a big hassle. The big hassle is to pack up all my shit.
     Whether it goes to Basecamp again or it goes somewhere else, that’s not the big
     decision.”
+  id: totrans-33
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “Basecamp实际上还是我想要的东西吗？如果我们必须搬移所有东西，也许我可以把它搬到别的地方。如果我必须把所有东西打包装箱装上卡车，我可以把那辆卡车送到城市的另一边。这不是什么大麻烦。大麻烦是把所有东西打包起来。无论它再次回到Basecamp还是去别的地方，这不是重要的决定。”
 - en: 'David compares Basecamp Classic to a Leica M3: It hasn’t been manufactured
     since 1967, but Leica is still committed to supporting it and repairing it for
     as long as they’re in business. (Photo [Dnalor 01](https://commons.wikimedia.org/w/index.php?curid=27903569))'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 大卫将Basecamp Classic比作Leica M3：自1967年以来就没有再生产过，但Leica仍致力于支持它并在他们经营的时间内修复它。（照片[Dnalor
+    01](https://commons.wikimedia.org/w/index.php?curid=27903569)）
 - en: 'Instead, Basecamp committed to “**honoring their legacy**”: They made it easy
     for people to upgrade, but didn’t require them to leave Basecamp Classic. Not
     only that, but they’ve committed to continuing to host, support, and maintain
     Basecamp Classic indefinitely.'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 相反，Basecamp承诺“**尊重他们的传统**”：他们让人们升级变得容易，但并不要求他们离开Basecamp Classic。不仅如此，他们承诺会继续无限期地托管、支持和维护Basecamp
+    Classic。
 - en: 'The kicker is that, four years later, they did it all over again: [Basecamp
     3 was released in 2015](https://signalvnoise.com/posts/3968-launch-basecamp-3),
     rewritten from the ground up, with some features cut, some added, and lots of
     things changed. And just as before, users of older versions can easily upgrade
     — but if they prefer, they can continue using Basecamp Classic or Basecamp 2 “until
     the end of the internet”.'
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 更有趣的是，四年后，他们又做了一次：[Basecamp 3于2015年发布](https://signalvnoise.com/posts/3968-launch-basecamp-3)，从头开始重写，一些功能被削减，一些被添加，许多事情发生了变化。就像以前一样，旧版本的用户可以轻松升级——但如果他们愿意，他们可以继续使用Basecamp
+    Classic或Basecamp 2“直到互联网的尽头”。
 - en: Basecamp 3 is not going to sunset anything. Not the current version of Basecamp,
     not the classic, original version of Basecamp. Either of those work well for you?
     Awesome! Please keep using them until the end of the internet! We’ll make sure
     they’re fast, secure, and always available.
+  id: totrans-37
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: Basecamp 3不会让任何东西日落。不是当前版本的Basecamp，也不是经典的、原始的Basecamp版本。其中任何一个对你有用吗？太棒了！请继续使用它们直到互联网的尽头！我们会确保它们快速、安全且始终可用。
 - en: ''
+  id: totrans-38
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
 - en: But, but, but isn’t that expensive? Isn’t that hard? What about security? What
     about legacy code bases? Yes, what about it? Taking care of customers — even if
     they’re not interested in upgrading on our schedule — is what we do here.
+  id: totrans-39
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 但是，但是，但是这不是很昂贵吗？这不是很困难吗？安全性呢？遗留代码呢？是的，怎么了？照顾客户——即使他们对我们的升级计划不感兴趣——这就是我们在这里做的事情。
 - en: Lessons
+  id: totrans-40
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 教训
 - en: Personally, I find this model really inspiring.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 就我个人而言，我觉得这个模式真的很鼓舞人心。
 - en: Each rewrite allowed Basecamp to revisit design decisions and build the product
     they wished they’d built the previous time.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 每次重写都让Basecamp重新审视设计决策，并构建他们希望上一次构建的产品。
 - en: 'For users, this is the best of both worlds: People who don’t like change don’t
     get their cheese moved; but people who are bumping against your product’s limitations
     get to work with a new and, hopefully better thought-out application.'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于用户来说，这是两全其美：不喜欢改变的人不会让他们的奶酪被挪动；但是那些受限于产品局限性的人可以使用一个新的、希望更为周密考虑的应用程序。
 - en: 'Having to maintain multiple versions of product indefinitely doesn’t come without
     a price; but as David says:'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 不得不永远维护产品的多个版本并非没有代价；但正如大卫所说：
 - en: It’s not free. Why would you expect it to be free? It’s valuable, so of course
     it’s not free. But it’s worth doing.
+  id: totrans-45
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 这不是免费的。你为什么期望它是免费的？它是有价值的，所以当然不是免费的。但这是值得做的。

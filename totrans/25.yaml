@@ -1,152 +1,223 @@
 - en: 'Chess.com: Bootstrapping a Community to $50M/Year'
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear](https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear)"
+  zh: Chess.com：将社区发展到每年5,000万美元
+- en: 'Original Text: [https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear](https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear](https://www.the5to9.xyz/p/chesscom-bootstrapping-community-50myear)
 - en: '[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
     is the world’s leading chess community. It started in 2007 and currently makes
     over $50M/year. Completely bootstrapped.'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)是世界领先的国际象棋社区。它始于2007年，目前每年收入超过5000万美元。完全自给自足。'
 - en: 'But as I researched this story, a few things stood out to me:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 但在我研究这个故事时，有几点引起了我的注意：
 - en: Live Chess, the core feature, took over 5 months to release. By then, the site
     had nearly 100,000 members already. (we’ll go into **how** in a bit)
+  id: totrans-4
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 核心功能直播国际象棋花了超过5个月才发布。那时，该网站已经有近10万名会员了。（我们稍后会详细介绍**如何**）
 - en: The importance of Chess.com domain
+  id: totrans-5
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: Chess.com域名的重要性
 - en: '**80% of their users came in the last 4 years**'
+  id: totrans-6
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**80%的用户是在过去的4年中加入的**'
 - en: The effect of Twitch and Netflix’s Queens Gambit
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: Twitch和Netflix的《女王的棋局》的影响
 - en: Erik Allebest turned down offers from Palantir, FB, Mint, etc in 2007 to pursue
     his dreams
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 埃里克·阿勒贝斯特在2007年拒绝了Palantir、FB、Mint等公司的邀约，以追求他的梦想
 - en: In 2005, Erik Allebest was admitted to Stanford Business School and obsessed
     with chess. He’d practice new strategies in his free time and even ran a chess
     tutoring and wholesale e-commerce chess business.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 2005年，埃里克·阿勒贝斯特被斯坦福商学院录取，并且对国际象棋着迷。他在空闲时间练习新策略，甚至经营过国际象棋辅导和批发电子商务国际象棋业务。
 - en: Social networking was becoming popular with Facebook, Myspace, and other online
     communities. Live Chess sites were good at this time but Erik saw an opportunity
     to provide a social community for chess lovers.
+  id: totrans-10
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 社交网络在Facebook、Myspace和其他在线社区中变得流行。当时的直播国际象棋网站做得不错，但埃里克看到了为国际象棋爱好者提供社交社区的机会。
 - en: Early browsers like Internet Explorer or Firefox would automatically redirect
     you to **Chess.com** if you just type “chess”. Fortunately, the company that owned
     the domain was going through bankruptcy and he was able to acquire the domain
     for $55,000 (which he obtained by selling his other businesses)
+  id: totrans-11
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 早期浏览器如Internet Explorer或Firefox会自动将您重定向到**Chess.com**，如果您只是输入“chess”。幸运的是，拥有该域名的公司正在破产，他以55,000美元的价格收购了该域名（他通过出售其他业务获得了这笔资金）
 - en: But Erik’s first intention wasn’t even to let people play Chess **against each
     other**. It started off as an online community where people could post links (think
     Reddit-esque) and watch video tutorials on how to play certain openings.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 但埃里克最初的意图甚至不是让人们互相对弈。它起初是一个在线社区，人们可以在那里发布链接（类似Reddit）并观看关于如何下某些开局的视频教程。
 - en: Within a few months, the strong domain and popular press coverage from places
     like [TechCrunch](https://techcrunch.com/2007/07/08/chesscom-a-social-networking-site-forwell-you-can-probably-guess/?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
     and BBC helped Chess.com reach 50,000+ users.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 几个月内，强大的域名和来自[TechCrunch](https://techcrunch.com/2007/07/08/chesscom-a-social-networking-site-forwell-you-can-probably-guess/?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)和BBC等地方的热门新闻报道帮助Chess.com吸引了50,000多名用户。
 - en: It turns out people wanted one place to learn about chess, talk about chess,
     and even **play chess.** Live Chess was the most requested feature and Erik launched
     this 6 months after the initial beta.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 人们希望有一个地方可以学习国际象棋、讨论国际象棋，甚至**玩国际象棋**。直播国际象棋是最受欢迎的功能，埃里克在最初测试版发布后的6个月推出了这一功能。
 - en: Scaling to millions of users
+  id: totrans-15
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 扩展到数百万用户
 - en: '[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
     had a very strong advantage with its domain name and invested a lot in chess content,
     which naturally drove a lot of traffic from curious chess players.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)凭借其域名的优势，并且在国际象棋内容上投入了大量资金，自然吸引了许多对国际象棋感兴趣的玩家。'
 - en: Early on, they realized that the ads-business model wasn’t going to be profitable
     enough. Instead, they focused on creating video tutorials and lessons.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们很早就意识到广告业务模式不会带来足够的利润。相反，他们专注于创建视频教程和课程。
 - en: Part of this included creating software to easily teach Chess openings. Specifically,
     you would be able to draw arrows and visuals to help explain moves.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 其中一部分包括创建软件来轻松教授国际象棋开局。具体来说，你可以画箭头和图形来帮助解释走法。
 - en: One of the earliest pioneers of this was a Master level chess player Jerry,
     of [ChessNetwork](https://www.youtube.com/@ChessNetwork/featured?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year),
     who has been making chess videos on YouTube since 2007 and breaks down the most
     popular openings, famous games of people like Bobby Fischer, Magnus Carlsen, and
     overall chess theory.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 其中一个最早的先驱是大师级别的国际象棋选手 Jerry，来自 [ChessNetwork](https://www.youtube.com/@ChessNetwork/featured?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)，自
+    2007 年以来一直在 YouTube 上制作国际象棋视频，解析最流行的开局，像鲍比·费舍尔、马格努斯·卡尔森等人的著名比赛，以及整体国际象棋理论。
 - en: Within 3 years of launch, Chess.com reached 1,000,000 users, and they easily
     crossed 10 million users by 2014\.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 在推出后的 3 年内，Chess.com 达到了 100 万用户，到 2014 年轻松突破了 1000 万用户。
 - en: But in the last 4 years, [Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
     has gone from **25 million users to nearly 100 million users**.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 但在过去的 4 年里，[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
+    的用户数量从**2500 万增长到近 1 亿**。
 - en: Twitch, Pandemic, and Queen’s Gambit
+  id: totrans-22
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: Twitch、大流行和女王的棋局
 - en: 'Worldwide interest in chess surged during the Covid pandemic and peaked when
     Netflix released its hit show Queen’s Gambit, which ranked #1 in over 92 countries
     and had over 62 million people watching in the first 28 days.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: Covid 大流行期间，全球对国际象棋的兴趣激增，并在 Netflix 推出热门节目《女王的棋局》时达到顶峰，该节目在 92 个国家排名第一，在首个 28
+    天内有超过 6200 万观众观看。
 - en: But how do you take advantage of this global interest? Erik and his team knew
     early on they needed to get influencers or “Chess.com Ambassadors”
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是你如何利用这种全球兴趣呢？Erik 和他的团队很早就意识到他们需要邀请一些影响者或“Chess.com 大使”。
 - en: They reached out to the biggest name in online Chess at the time, **Hikaru Nakamura**,
     and convinced him to start playing and streaming exclusively on Chess.com.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们联系到当时在线国际象棋界最知名的人物**Hikaru Nakamura**，并说服他开始在 Chess.com 上独家玩耍和直播。
 - en: Erik noticed a few miles away was a young girl at Stanford University named
     **Alexandra Botez** who met with her in person to begin teaching and live-streaming
     Chess to help appeal to female audiences.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: Erik 发现斯坦福大学附近有一个名叫**Alexandra Botez**的年轻女孩，他亲自与她会面开始教授和直播国际象棋，以吸引女性观众。
 - en: Eventually, the biggest names in both the Chess and Twitch worlds began using
     Chess.com as the de facto online playing platform.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，国际象棋和 Twitch 领域最知名的人物开始将 Chess.com 视为事实上的在线游戏平台。
 - en: They began hosting amateur chess tournaments for streamers such as **PogChamps**
     which would have some of the biggest names like **xQcOW**, **Ludwig**, and **Yassuo**
     while receiving coaching and commentary from Botez and Nakamaru.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们开始为像**PogChamps**这样的流媒体主办业余国际象棋比赛，其中包括**xQcOW**、**Ludwig**和**Yassuo**等最知名的人物，同时接受
+    Botez 和 Nakamaru 的指导和评论。
 - en: These events even received praise from **Magnus Carlsen** for bringing even
     more interest to Chess!
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些活动甚至受到**马格努斯·卡尔森**的赞扬，为国际象棋带来更多的兴趣！
 - en: At its peak, Twitch users watched over 20 million hours of Chess in a month,
     surpassing games like Fortnite, League of Legends, and Valorant.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 在巅峰时期，Twitch 用户在一个月内观看了超过 2000 万小时的国际象棋比赛，超过了 Fortnite、英雄联盟和 Valorant 等游戏。
 - en: Today, [Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
     has over 100 million users, receives 280 million monthly visits, and generates
     between 50 million to 100 million in annual revenue.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 如今，[Chess.com](http://Chess.com?utm_source=www.the5to9.xyz&utm_medium=referral&utm_campaign=chess-com-bootstrapping-a-community-to-50m-year)
+    拥有超过 1 亿用户，每月接待 2.8 亿访问量，并年收入在 5000 万至 1 亿之间。
 - en: '*Thanks for reading, and I hope this helped you or you found it interesting!
     If you want to give some feedback, you can either respond to the poll or reply
     to this email.*'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: '*感谢阅读，希望这对你有所帮助或你觉得有趣！如果你想提供一些反馈，你可以回复这封电子邮件或者回复这封电子邮件。*'

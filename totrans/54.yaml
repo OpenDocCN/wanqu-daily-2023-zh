@@ -1,33 +1,45 @@
 - en: Is Y Combinator worth the money (equity)? Brutally honest review of W22 batch
     experience
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://acecreamu.substack.com/p/is-y-combinator-worth-the-money](https://acecreamu.substack.com/p/is-y-combinator-worth-the-money)"
+  zh: Y Combinator是否值得投资（股权）？对W22批次经验的残酷诚实评价
+- en: 'Original Text: [https://acecreamu.substack.com/p/is-y-combinator-worth-the-money](https://acecreamu.substack.com/p/is-y-combinator-worth-the-money)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://acecreamu.substack.com/p/is-y-combinator-worth-the-money](https://acecreamu.substack.com/p/is-y-combinator-worth-the-money)
 - en: '*Disclaimer:'
+  id: totrans-2
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '*免责声明：'
 - en: 1\. My impression is based purely on my own experience working on a particular
     company (Suggestr) in a particular industry (AI+ecommerce) while going through
     a particular batch (W22). The impression will be different for every founder,
     especially now after Covid, when the program is back to being in-person.
+  id: totrans-3
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 1\. 我的印象纯粹基于我在一个特定行业（AI+电子商务）的一个特定公司（Suggestr）上工作，同时经历了一个特定批次（W22）。对于每位创始人来说，印象会有所不同，尤其是在疫情后，当项目重新变成面对面时。
 - en: 2\. The article is a translation from the original I wrote back in the end of
     the batch.
+  id: totrans-4
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 2\. 本文是我在批次结束时写的原文的翻译。
 - en: 3\. I don’t try to censure bad because YC are the ones who teach how important
     is negative feedback for improvement.*
+  id: totrans-5
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 3\. 我不试图批评不好，因为YC教导了负面反馈对于改进的重要性。*
 - en: '**TLDR:** The overall impression you get is that the program has turned into
     a conveyor, pushing everyone through the same pipeline, which doesn''t allow it
     to give a decent value to each individual company. It’s hardly surprising given
@@ -35,81 +47,114 @@
     At the same time, the same theory is given to everyone, and the partner, on average,
     is one for 20 companies. But now, let''s look individually at each component that
     makes up the value of any accelerator:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '**TLDR：** 你会得到的整体印象是，这个项目已经变成了一个传送带，将每个人都推进同一个管道，这样就无法为每家公司提供合适的价值。这并不奇怪，因为**a)
+    很多公司，b) 处于不同阶段，c) 在不同行业。** 同时，每个人都被给予相同的理论，而合作伙伴，平均每个人负责20家公司。但现在，让我们分别看看构成任何加速器价值的每个组成部分：'
 - en: '* * *'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: Due to the fact that the entire program (was) remote, the founders are at different
     stages, and there is no dependency on each other in any way—no relationship or
     a sense of community is formed.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 由于整个项目都是远程的，创始人处于不同阶段，彼此之间没有任何依赖——没有建立关系或社区感。
 - en: There are just too many companies to meet them all. I’ve heard the intro of
     ~60 companies in our group once, and for the rest of the 340 companies in our
     batch, I haven’t even seen them. YC tried to split the teams into even smaller
     groups, but due to the fact that everyone is relatively independent and doesn’t
     have much in common, neither mutual interest nor connection is built.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 有太多的公司要见面了。我们组中的大约60家公司我听过介绍，而我们批次中其他340家公司，我甚至都没见过。YC试图将团队分成更小的小组，但由于每个人相对独立，没有太多共同之处，既没有建立共同兴趣也没有联系。
 - en: You can try to get to know all the batchmates, but given their large number
     and constant lack of time, it is nearly impossible.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 你可以尝试了解所有批次的同学，但由于他们数量众多且时间不足，几乎是不可能的。
 - en: Moreover, if you’re located in an inconvenient timezone, don’t expect SF people
     to adapt, you will sleep on the calls or skip half of them. (We had the calls
     at 2 am and 8 am right after it, and we chose to sleep.)
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 此外，如果你位于一个不便的时区，不要指望旧金山的人去适应，你会在电话会议上睡着或跳过一半。 （我们在凌晨2点和随后的早上8点进行电话会议，我们选择睡觉。）
 - en: On the positive side, there were local dinners organized so that people could
     meet up in person. But, if you are not in SF or NY, expect very few people to
     show up. We met only 2-3 new companies at the local meet-ups in Singapore.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 在积极的一面，有组织当地晚餐，让人们可以面对面交流。但是，如果你不在旧金山或纽约，预计会有很少的人出现。在新加坡的当地聚会上，我们只遇到了2-3家新公司。
 - en: The closest I’ve been to Michael Seibel
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 我与迈克尔·塞贝尔最亲近的时刻
 - en: There is also an internal forum called Bookface, but it serves more as an abstract
     omniscient brain. It is really good for searching for specific questions, and
     it does contain a lot of first-hand information that cannot be found anywhere
     else, but it’s not a tool for live communication, and since your questions are
     tied to your profile and are seen by everyone, it’s unlikely you will want to
     use it for particularly dumb or personal questions.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 还有一个名为Bookface的内部论坛，但它更像是一个抽象的全知大脑。它非常适合搜索特定问题，并且包含很多无法在其他地方找到的第一手信息，但它不是用于实时交流的工具，因为你的问题与你的个人资料相关，并且被所有人看到，你不太可能想用它来问特别愚蠢或个人的问题。
 - en: First, it really depends on the industry. If you sell to startups, for example,
     you have a dev tool, or analytics SaaS, then there is a puddle of clients for
     you. But, you are not alone in that puddle. Again, due to the fact that there
     are not 20, but 400 companies, it will be difficult to sell even within the batch,
     because other members are already overloaded with unique offers from other YC
     companies.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，这确实取决于行业。例如，如果你销售给初创公司，拥有开发工具或分析SaaS，那么你将有一大批客户。但是，你并不是唯一一个在这一领域的公司。再次，由于不是20家公司，而是400家公司，即使在同一批次内销售也会很困难，因为其他成员已经被来自其他YC公司的独特提议压得喘不过气来。
 - en: What I received the most during the whole program was spam from YC companies!
     After the first ten, you stop opening them.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 在整个项目期间，我收到的最多的是来自YC公司的垃圾邮件！前十封还可以打开，之后就不再打开了。
 - en: But at the same time, if you sell to more mature companies, then you can use
     Bookface to find leads or ask YC community for an intro to the customers. It works,
     but again, depending on the industry and the person you ask.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 但与此同时，如果你销售给更成熟的公司，那么你可以利用Bookface找到潜在客户或向YC社区寻求介绍客户。这是有效的，但同样取决于行业和你询问的人。
 - en: I’ve seen enough cases when saying “oh, I’m also from YC” didn’t move the needle.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 我见过足够多的情况，说“哦，我也是YC的一员”并没有起到什么作用。
 - en: In our case, we got acquainted with all the e-commerce startups working on Shopify,
     had interesting conversations, but eventually, it didn't affect our business much.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我们的情况下，我们结识了所有在Shopify上运营的电子商务初创公司，进行了有趣的对话，但最终并没有对我们的业务产生太大影响。
 - en: If you have some kind of b2c or Enterprise business, all you will get is a knowledge
     exchange with homies. YC does not have any industrial partners, and YC partners
     themselves will not do external intros to clients/investors for you! (Maybe investors,
     in rare cases, but under the table).
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你有某种b2c或企业业务，你将得到的只是与同行的知识交流。YC没有任何工业合作伙伴，YC合作伙伴们也不会为你向客户/投资者做外部介绍！（也许在少数情况下会向投资者介绍，但是在幕后）。
 - en: '* * *'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: This is a debatable topic since there is one set of theory, but it’s useful
     to different people differently. In general, there is an evident focus on the
     very early stage without a product. The main theory and advice are about how to
@@ -119,22 +164,31 @@
     it won’t be very valuable. In addition, all of it can be found publicly in the
     Startup School directory, Youtube, or other sources (in our case, we’ve covered
     it all in Entrepreneur First).
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一个有争议的话题，因为有一套理论，但对不同的人有不同的用处。一般来说，重点明显放在没有产品的早期阶段。主要的理论和建议是关于如何找出要做什么，如何构建MVP，如何推出，如何与客户交谈，如何找到前10个客户，如何筹集第一笔资金等等。不用说，对于收入达到数万甚至数十万的公司来说，这些内容并不是很有价值。此外，所有这些内容都可以在创业学校目录、YouTube或其他来源（在我们的情况下，我们已经在Entrepreneur
+    First中涵盖了所有内容）中公开找到。
 - en: 'Talking about positives, there is a Knowledge Base on the Bookface with articles
     from people from YC on all possible topics around the startup building: Hiring,
     Legal, Taxes, Fundraising, Sales, you name it, and even growth at later stages.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 谈到积极的一面，Bookface上有一个知识库，其中包含来自YC成员的关于创业建设各种可能主题的文章：招聘、法律、税收、筹款、销售，你想到的，甚至是后期的增长。
 - en: Months after the program I still find answers to my questions there and I’m
     nowhere near exhausting it. This is a very useful and really ground-breaking resource.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 在项目结束几个月后，我仍然在那里找到了我的问题的答案，而且我远远没有用尽它的资源。这是一个非常有用且真正开创性的资源。
 - en: Live presentations (which took place in Zoom for 800+ participants) at the same
     time do not come close to it, in 90% of cases covering stories of successful success
     from the founders (which you can watch on Youtube if you want a boost of motivation).
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Zoom上为800多名参与者举行的现场演示与之相比，90%的情况下都无法与之媲美，这些演示讲述了创始人的成功故事（如果你想获得动力，可以在YouTube上观看）。
 - en: 'As for personal Office Hours with partners, they didn''t help us much. Firstly,
     there are not so many of them and they’re difficult to book, secondly, the expertise
     of the partners is more generic, and thirdly, when everything is just working
@@ -142,8 +196,11 @@
     case, we went through all the consultations with two tips: “send more emails (like
     really more)” and “don''t call your subscription revenue MRR because you don''t
     have MRR", that was it.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 至于与合伙人的个人办公时间，他们并没有给我们太多帮助。首先，他们的数量并不多，而且很难预订，其次，合伙人的专业知识更加通用，第三，当一切都在慢慢运作时，你可能没有具体的问题或困难需要询问。在我们的情况下，我们通过两个提示进行了所有的咨询：“发送更多的电子邮件（真的更多）”和“不要称你的订阅收入为
+    MRR，因为你没有 MRR”，就是这样。
 - en: In general, there was this feeling in the air that they want to cram everyone
     into their framework, and any attempts to go beyond the framework are quickly
     suppressed. In their picture of the world, you, the founders, should only build
@@ -151,14 +208,18 @@
     Hiring is waste of time, paid advertising is waste of time, content is waste of
     time, talking to investors is waste of time, getting media coverage is waste of
     time.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 总的来说，空气中有这样一种感觉，他们想把每个人都塞进他们的框架里，任何试图超越框架的尝试都会很快被镇压。在他们的世界观中，你，创始人，只应该构建一个产品并与客户交谈，其他一切都是多余和浪费时间。招聘是浪费时间，付费广告是浪费时间，内容是浪费时间，与投资者交谈是浪费时间，获得媒体报道是浪费时间。
 - en: 'Their logic can be understood: make a good product, and the rest will catch
     up. But in real life marketing and hype really matters, and when everyone does
     these things while you naively sit and code, they get an advantage in the market,
     and you get your cool product.'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们的逻辑很容易理解：做一个好产品，其他的就会跟上。但在现实生活中，营销和炒作真的很重要，当每个人都在做这些事情的时候，而你天真地坐在那里编码，他们在市场上就会占据优势，而你只是有一个很酷的产品。
 - en: Even when it came to fundraising, all the YC’s advice came down not to how to
     raise smarter and more, but to the fact that everyone needs to follow their simple
     framework, not try to shine too much, not try to choose the right words, wash
@@ -171,32 +232,46 @@
     process among 400 companies easier for the investors, and cover their own reputational
     risks, instead of trying to wrap each company in a beautiful wrapper and help
     it to raise easier.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 即使在筹款方面，YC 的所有建议都归结为不是如何更聪明地筹集资金，而是每个人都需要遵循他们简单的框架，不要试图太过耀眼，不要试图选择正确的词语，洗掉所有的化妆，穿上灰色制服，呈现干燥的事实——客户已经付给你多少钱，市场规模是多少，如果你计算所有你可以销售的单位，你实际上建造了什么以及今天正在运作的是什么。而这对任何人来说总是听起来不好，它在早期阶段就不可能听起来好。而实际上有效的是讲故事，自信的愿景，稳定的收入，以及所有这些微妙的东西。看起来他们似乎是在试图让投资者在
+    400 家公司中进行选择更容易，并掩盖自己的声誉风险，而不是试图用美丽的包装纸包裹每家公司并帮助其更容易筹集资金。
 - en: '* * *'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: Demo day is where YC generates its main value, and what people go to YC for.
     Undoubtedly, YC companies receive extra attention from investors and the very
     fact of their pre-selection by YC makes the deal hotter and increases its valuation.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: Demo day 是 YC 创造其主要价值的地方，也是人们去 YC 的原因。毫无疑问，YC 公司受到投资者额外的关注，而且他们被 YC 预先选择的事实使交易更加热门并增加了其估值。
 - en: However, now this trend is fading, and the valuations of YC startups do not
     go very far from the valuations of outside companies. Undoubtedly, a large number
     of companies in the batch and dilution of the YC brand work against it.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，现在这种趋势正在消退，YC 初创公司的估值并没有远离外部公司的估值。毫无疑问，一个批次中的大量公司和 YC 品牌的稀释都对其不利。
 - en: Moreover, do not expect YC to guarantee that you will raise only from tier-1
     funds. The best funds make 10-15 investments in a batch maximum, therefore, all
     others go on the market, and raise from the same VC they were talking to even
     before YC.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 此外，不要指望 YC 会保证你只从一流基金那里筹集资金。最好的基金在一个批次中最多进行 10-15 次投资，因此，所有其他的都会进入市场，并从他们在 YC
+    之前就在谈话的同一个风险投资公司那里筹集资金。
 - en: 'Where the benefit of YC really feels is: publicity, more inbound from small
     funds, more opportunities to find an intro to anyone, and never again write cold
     emails, a slightly higher valuation.'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: YC 的真正好处在于：宣传、更多来自小基金的内部资金、更多机会找到任何人的介绍，再也不用写冷冰冰的电子邮件，稍微更高的估值。
 - en: Now let’s talk about the Demo Day. According to rumors, good companies close
     the round a week before the demo day, or at least they get a lead, and at DD only
     get the follow-ons. (You can see the conflict between YC advice and reality).
@@ -205,71 +280,104 @@
     earlier, rather than later, when the queue is already lined up. Demo day can attract
     only micro-funds and angels who do not have the resources to scout and who learn
     about companies on the demo day.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在让我们谈谈演示日。据传闻，优秀的公司在演示日前一周结束融资，或者至少他们找到了领头投资者，而在演示日上只是得到跟投者。（你可以看到 YC 的建议与现实之间的冲突）。为什么会发生这种情况？高质量的基金不需要演示日，他们的唯一工作就是寻找优秀的初创公司，当然，他们会希望尽早开始与公司建立关系，而不是等到队伍已经排好了的时候。演示日只能吸引那些没有资源来寻找公司并且只在演示日上了解公司的微型基金和天使投资者。
 - en: Don't expect big players to reach out to you after the demo day. They know about
     you, if they haven't reached out yet it means they're not interested.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 不要指望大公司在演示日后会联系你。如果他们还没有联系你，那就意味着他们对你不感兴趣。
 - en: Back in the day, I would say “forget it, what money are you even talking about?
     If this is not the first money for the company, then it’s a spare change you won’t
     even notice.” Now, with a 500k deal, the amount is more substantial, but in turn,
     its terms are not super funder-friendly. Imho, the previous 125k deal was better
     for the founders since once the company gets accepted to YC it can raise easily
     a lot more money and on better terms.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 从前，我会说“算了吧，你到底在说什么钱？如果这不是公司的第一笔资金，那么这只是你根本不会注意到的零钱。” 现在，有了一笔 500k 的交易，金额更为可观，但反过来，其条款并不是非常有利于创始人。在我看来，之前的
+    125k 交易对创始人更有利，因为一旦公司被 YC 接受，它可以更容易地筹集更多资金，并且条件更好。
 - en: On the other hand, in the reality of the current environment, getting 500k quickly,
     without extra overhead, can be a good deal that defines companies life or death,
     and a little extra dilution may be a reasonable price to pay.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一方面，在当前环境的现实中，快速获得 500k，而不需要额外的开支，可能是一个决定公司生死的好交易，稍微多一点的稀释可能是一个合理的代价。
 - en: '* * *'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: 'My subjective opinion is that it makes sense to do if you:'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的主观看法是，如果你：
 - en: A) A super young team of 2-3 people, with burning eyes, a crazy idea, but without
     experience and resources, and you want someone to give you a kick and help build
     up the moment.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: A) 一个由 2-3 个年轻团队组成，眼睛闪烁着热情，有一个疯狂的想法，但缺乏经验和资源，你希望有人给你一脚，并帮助推动事情发展。
 - en: B) Sell your product to startups and see a lot of benefits from gaining access
     to the YC network.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: B) 将产品销售给初创企业，并从获得 YC 网络访问权限中获得许多好处。
 - en: 'What it doesn''t make sense to go for:'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 不值得去做的事情：
 - en: 'Considering that for the majority the main benefit of YC concentrates around
     fundraising, it can be easily estimated by doing simple cap table modeling: **what
     valuation will you raise the next round at and what will be your final dilution
     “with” and “without” YC?** If you save 2% in the next round and get no business
     benefit, but give away 7% for it, then well...'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 考虑到对于大多数人来说，YC 的主要好处集中在筹款方面，可以通过简单的股本表建模来轻松估算：**你将在下一轮以什么估值筹集资金，以及在“有”和“没有”
+    YC 的情况下你的最终稀释率是多少？** 如果你在下一轮节省了 2%，却没有业务好处，但为此放弃了 7%，那么...
 - en: In the end, YC is an investor, an investor with a strong reputation, who is
     now sitting in a very comfortable chair and can select the best startups and invest
     in them at a meager price, while standardizing all its value-add so much that
     it soon can be outsourced.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，YC 是一家投资者，一家声誉卓著的投资者，现在坐在一个非常舒适的椅子上，可以选择最好的初创公司，并以微薄的价格投资于它们，同时标准化其所有增值服务，以至于很快就可以外包。
 - en: 'Remember: accelerators and their help are temporary but the equity you give
     away forever'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 记住：加速器及其帮助是暂时的，但你放弃的股权是永远的。
 - en: 'P.S.: In the end, I’m thankful to YC for the experience and discipline it gave
     us. In the hindsight, we got more out of it than the average company, as the constant
     comparison and growth benchmarking triggered us to look differently at our business
     and we decided to **wind up its operation right after the Demo Day**. YC teaches
     you one thing well—startups are all about growth, and if you didn’t grow today,
     it’s on you to find out how to grow tomorrow.'
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 'P.S.: 最后，我感谢YC给我们带来的经验和纪律。事后看来，我们从中获得的比一般公司更多，因为不断的比较和成长基准激励我们以不同的方式看待我们的业务，我们决定**在
+    Demo Day 结束后立即结束运营**。YC教会你一件事情——创业就是关于成长的，如果你今天没有成长，那么明天的成长就取决于你。'
 - en: '[PRE0]'
+  id: totrans-48
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: '[Share](https://acecreamu.substack.com/p/is-y-combinator-worth-the-money?utm_source=substack&utm_medium=email&utm_content=share&action=share)'
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: '[分享](https://acecreamu.substack.com/p/is-y-combinator-worth-the-money?utm_source=substack&utm_medium=email&utm_content=share&action=share)'

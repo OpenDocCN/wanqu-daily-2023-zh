@@ -1,29 +1,39 @@
 - en: ‘Overemployed’ Hustlers Exploit ChatGPT To Take On Even More Full-Time Jobs
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs](https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs)"
+  zh: ‘过度就业者’利用ChatGPT来承担更多全职工作
+- en: 'Original Text: [https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs](https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs](https://www.vice.com/en/article/v7begx/overemployed-hustlers-exploit-chatgpt-to-take-on-even-more-full-time-jobs)
 - en: Credit: Getty stock photo)
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 图片来源：Getty库存照片）
 - en: About a year ago, Ben found out that one of his friends had quietly started
     to work multiple jobs at the same time. The idea had become popular during the
     COVID-19 pandemic, when working from home became normalized, making the scheme
     easier to pull off. A community of multi-job hustlers, in fact, had come together
     online, referring to themselves as the “overemployed.”
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 大约一年前，本发现他的一个朋友悄悄开始同时从事多份工作。这个想法在COVID-19大流行期间变得流行起来，当时在家工作变得正常化，使得这种计划更容易实施。事实上，一个多工作的社区在线聚集在一起，他们自称为“过度就业者”。
 - en: The idea excited Ben, who lives in Toronto and asked that Motherboard not use
     his real name, but he didn’t think it was possible for someone like him to pull
     it off. He helps financial technology companies market new products; the job involves
     creating reports, storyboards, and presentations, all of which involve writing.
     There was “no way,” he said, that he could have done his job two times over on
     his own.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个想法让居住在多伦多的本兴奋不已，他要求Motherboard不要使用他的真名，但他认为像他这样的人不可能做到。他帮助金融科技公司推广新产品；这项工作涉及创建报告、故事板和演示文稿，所有这些都涉及写作。他说，“绝对不可能”，他自己无法完成两份工作。
 - en: Then, last year, he started to hear more and more about ChatGPT, an artificial
     intelligence chatbot developed by the research lab OpenAI. Soon enough, he was
     trying to figure out how to use it to do his job faster and more efficiently,
@@ -33,27 +43,35 @@
     he started to wonder whether he could pull off a second job. Then, this year,
     he took the plunge, a decision he attributes to his new favorite online robot
     toy.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 然后，去年，他开始越来越多地听说ChatGPT，这是由研究实验室OpenAI开发的人工智能聊天机器人。很快，他试图弄清楚如何使用它来更快更高效地完成工作，原本耗时的工作变得更加容易。（“不仅仅是更容易一点，”他说，“而是，容易太多了。”）这一点并没有让他在营销界独一无二。他说，他认识的每个人都在工作中使用ChatGPT。但他开始想知道自己是否能够兼职。然后，今年，他下定决心，这个决定归功于他新的最爱在线机器人玩具。
 - en: '***How are people you know using ChatGPT at work? We want to hear from you.
     From a non-work device, contact our reporter at maxwell.strachan@vice.com or via
     Signal at 310-614-3752 for extra security.***'
+  id: totrans-6
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '***你认识的人如何在工作中使用ChatGPT？我们想听听你的意见。请从非工作设备上联系我们的记者maxwell.strachan@vice.com，或通过Signal联系310-614-3752以获得额外的安全保障。***'
 - en: “That's the only reason I got my job this year,” Ben said of OpenAI's tool.
     “ChatGPT does like 80 percent of my job if I’m being honest.” He even used it
     to generate cover letters to apply for jobs.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: “这是我今年获得工作的唯一原因，”本（Ben）谈到OpenAI的工具时说道。“说实话，如果我诚实的话，ChatGPT就占了我工作的80%。” 他甚至用它来生成求职信。
 - en: Over the last few months, the exploding popularity of ChatGPT and similar products
     has led to growing concerns about AI’s potential effects on the international
     job market—specifically, the percentage of jobs that could be automated away,
     replaced by a well-oiled army of chatbots. But for a small cohort of fast-thinking
     and occasionally devious go-getters, AI technology has turned into an opportunity
     not to be feared but exploited, with their employers apparently none the wiser.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 在过去几个月里，ChatGPT和类似产品的爆炸性流行引发了人们对人工智能对国际就业市场的潜在影响的担忧，特别是那些可能被自动化取代的工作岗位，被一支精密运作的聊天机器人军团所取代。但对于一小部分思维敏捷且偶尔狡猾的人来说，人工智能技术已经变成了一个不必害怕而是要利用的机会，他们的雇主似乎一无所知。
 - en: The people Motherboard spoke with for this article requested anonymity to avoid
     losing their jobs. For clarity, Motherboard in some cases assigned people aliases
     in order to differentiate them, though we verified each of their identities. Some,
@@ -62,19 +80,27 @@
     turbocharge their situation, like one Ohio-based technology worker who upped his
     number of jobs from two to four after he started to integrate ChatGPT into his
     work process. “I think five would probably just be overkill,” he said.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 本文接受 Motherboard 采访的人士要求匿名以避免失去工作。为了明确起见，在某些情况下，Motherboard 为这些人分配了化名以加以区分，尽管我们核实了每个人的身份。一些人，比如本，是因为
+    ChatGPT 而被吸引到过度就业社区。其他已经在从事多份工作的人利用了人工智能的最新进展来加速他们的情况，比如一位俄亥俄州的技术工作者，在开始将 ChatGPT
+    纳入工作流程后，将他的工作数量从两份增加到四份。“我认为五份可能就有些过头了，”他说。
 - en: ‘The Best Assistant Ever’
+  id: totrans-10
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: ‘有史以来最好的助手’
 - en: Throughout the overemployed community, there is a quiet arms race to figure
     out just how much of the corporate workday can be automated away using an assortment
     of AI tools, some of which predate ChatGPT. The possibility of increasing their
     income, or at least easing the burden of holding down multiple jobs, has led to
     an explosion of experimentation.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 在过度就业的社区中，存在着一个安静的军备竞赛，试图通过使用各种人工智能工具自动化掉企业工作日的多少，其中一些工具早于 ChatGPT。增加收入的可能性，或者至少减轻承担多份工作的负担，导致了实验的激增。
 - en: When one of Ben’s bosses, for example, now asks him to create a story for an
     upcoming product release, he will explain the context and provide a template to
     ChatGPT, which then creates an outline for him and helps fill out the sections.
@@ -84,21 +110,29 @@
     does it for me, based off the context that I gave it.” Ben still needs to verify
     the information—”sometimes it gets stuff wrong, which is totally normal,” he said—but
     the adjustments are relatively “minor” and easy to fix.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 例如，当本的一位老板现在要求他为即将发布的产品制作一个故事时，他会解释背景并向 ChatGPT 提供模板，然后 ChatGPT 为他创建大纲并帮助填写各个部分。这款
+    AI 聊天机器人知道本的职称和职责范围，并且自从最新版本 GPT-4 推出以来，它在理解背景方面变得更加优秀，他说。“我只需告诉它创建一个故事，”本说，“它就会根据我给它的背景来做。”
+    本仍然需要验证信息——“有时候它会弄错东西，这是完全正常的，”他说——但调整相对“微小”且容易修正。
 - en: Occasionally, he even asks ChatGPT to craft responses to Slack messages from
     his manager. In such cases, he requests that ChatGPT write the message in all
     lowercase, so that it appears more organic to the boss.  Another overemployed
     worker also told me they have started using ChatGPT to transcribe Zoom meetings
     so they can be largely ignored in the moment and referenced later.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 有时，他甚至要求 ChatGPT 为他的经理的 Slack 消息制作回复。在这种情况下，他要求 ChatGPT 以全小写的方式撰写消息，以便对老板更有机感。
 - en: Charles, who has worked as a software engineer and product manager and solutions
     architect, including at a FAANG company, had been all-in on overemployment since
     2020—while he currently works two jobs, he worked four at the height of the pandemic—but
     said that AI tools have made juggling the positions much easier.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 查尔斯，曾在一家 FAANG 公司担任软件工程师、产品经理和解决方案架构师，自 2020 年以来一直全力以赴于过度就业——尽管他目前有两份工作，但在疫情高峰期时有四份工作——但他表示，人工智能工具使得同时处理多个职位变得更加容易。
 - en: At the FAANG company, he was able to outsource written tasks to AI tools, like
     writing a memo to defend and justify a business decision. In such a case, he’d
     input the relevant facts and parameters into an AI chatbot, which would cohesively
@@ -107,8 +141,11 @@
     expand it out into a paragraph”); and create a “foundation” when coding. The ChatGPT-created
     code “oftentimes” would work perfectly, he said, but the errors could be identified
     and resolved easily enough, he said.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 FAANG 公司，他能够将书面任务外包给 AI 工具，比如写一份备辩和辩护业务决策的备忘录。在这种情况下，他会将相关事实和参数输入到一个 AI 聊天机器人中，后者会比他更快地将它们连贯地呈现出来。此外，他会用它来为工程师制定指导方针（“它允许你将一句话扩展成一段话”）；并在编码时创建一个“基础”。他说，ChatGPT
+    创建的代码“往往”能够完美运行，但错误可以很容易地被识别和解决。
 - en: One member of the overemployed, who, unusually, works three financial reporting
     jobs, said he’s found ChatGPT useful in the creation of [macros in Excel](https://support.microsoft.com/en-us/office/quick-start-create-a-macro-741130ca-080d-49f5-9471-1e5fb3d581a8).
     “I can create macros, but it takes me an hour, two hours, plus, to write the code,
@@ -117,8 +154,12 @@
     and tweak to his specifications. The process can allow him to cram what is traditionally
     a “two-week long process” into a few hours.  (He says he avoids providing ChatGPT
     with confidential information.)
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个在三个财务报告工作中工作的过度工作人员成员说，他发现 ChatGPT 在创建 [Excel 中的宏](https://support.microsoft.com/en-us/office/quick-start-create-a-macro-741130ca-080d-49f5-9471-1e5fb3d581a8)方面很有用。“我可以创建宏，但编写代码、测试、确保一切正常，需要花费一个小时、两个小时，甚至更长时间，”他说。相比之下，使用
+    ChatGPT，他可以提供参数，然后它会“吐出”一些内容，他可以根据自己的要求进行更新和调整。这个过程可以让他把传统上需要“两周时间”的过程压缩到几个小时内。（他说他避免向
+    ChatGPT 提供机密信息。）
 - en: Daniel, a staff engineer on the East Coast who works one director-level position
     and another as a senior dev (one job is on Pacific time and one is in the United
     Kingdom), similarly said that ChatGPT’s code can leave something to be desired,
@@ -128,8 +169,11 @@
     a problem, as he can plug the key points into ChatGPT and ask the AI assistant
     to rewrite it “in a more professional way,” he said. “It's really good for stuff
     like that.”
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 丹尼尔是东海岸的一名员工工程师，他既担任一家主管级职位，又担任一家高级开发人员（一份工作在太平洋时区，另一份在英国），他同样表示，ChatGPT 的代码可能有待改进，但在写电子邮件方面非常有用。“技术领域的大多数人可能不如其他行业的大多数人擅长写作，”丹尼尔说。他将自己也包括在对自己行业的批评中，但他说这不再是问题，因为他可以将关键要点输入
+    ChatGPT，并要求这款人工智能助手“以更专业的方式”重写。他说：“对于这类事情，它真的很有用。”
 - en: Excitement for the potential of ChatGPT isn’t limited to the technology and
     financial spheres of the overemployed community. Marshall, a university lecturer
     in the United Kingdom who secretly runs a digital marketing agency and tech startup
@@ -137,22 +181,31 @@
     often has students run through exercises, during which time he is often able to
     open up his laptop and work on his side hustles.) “It’s the best assistant ever,”
     he told me excitedly.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于 ChatGPT 的潜力，人们的兴奋并不仅限于过度工作社区的技术和金融领域。马歇尔是英国的一名大学讲师，他暗中经营着一家数字营销机构和科技初创公司，自从
+    ChatGPT 发布以来，他就成为了一个 ChatGPT 狂热者。（在课堂上，他经常让学生做练习，而在此期间，他通常能打开笔记本电脑，处理他的兼职业务。）“这是迄今为止最好的助手”，他兴奋地告诉我。
 - en: Marshall has come to see himself as the idea man, and ChatGPT as the labor.
     “I'm quite a conceptualizing person. So I'm quite happy for my brain to do that.
     But the first draft of anything almost always goes through GPT,” he said.  Already,
     the chatbot has helped him generate business plans, internal system documents,
     blog posts, and Excel spreadsheets. He estimated that ChatGPT can often pull off
     80 percent of the legwork, leaving him to handle the final 20 percent.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 马歇尔开始把自己看作是构思者，而把 ChatGPT 看作是劳动力。“我是一个很善于构思的人。所以我很乐意让我的大脑来做这件事。但几乎所有的初稿都会经过
+    GPT，”他说。这款聊天机器人已经帮助他制定商业计划、内部系统文件、博客文章和 Excel 电子表格。他估计，ChatGPT 往往可以完成 80% 的工作，剩下的
+    20% 由他来处理。
 - en: The tool has even helped him win a grant from the U.K. government (the application
     was “50-50 me and ChatGPT,” he said) and complete coursework for a master’s degree
     necessary to receive a university teaching qualification he was too busy to handle
     by himself while working three jobs.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个工具甚至帮助他赢得了来自英国政府的一笔资助（他说申请过程中“ChatGPT和我各占一半”），并且在忙于从事三份工作的同时完成了获得大学教学资格所需的硕士学位课程，这是他自己无法应付的。
 - en: The members of the overemployed community know that what they’re doing is frowned
     on by corporate leaders. But that doesn’t mean they think what they are doing
     is amoral. “I never could mentally comprehend why it was so taboo for me to work
@@ -162,20 +215,27 @@
     said he started working multiple jobs because he doesn't trust that working as
     hard as he can at a single job will be “rewarded with more pay,” just “more work.”
     By taking on more jobs, he can do more work but also “get paid for it,” he said.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 过度就业社区的成员知道他们的做法受到企业领导的反对。但这并不意味着他们认为自己的做法是不道德的。“我从未能理解为什么我同时担任两个薪水职位是如此忌讳，”居住在俄亥俄州的技术工作者说道。“我个人生活中认识的很多人都在沃尔玛工作，从早上4点到下午2点，然后去做另一份工作。”
+    金融专业人士同样表示，他开始从事多份工作是因为他不相信在一份工作中努力工作会“得到更多的报酬”，只会“得到更多的工作”。通过承担更多的工作，他可以做更多的工作，同时也“得到报酬”。
 - en: ‘One Loom Operator As Opposed to 100 Weavers’
+  id: totrans-22
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: ‘一个织布工与100名织工’
 - en: More than a member of the overemployed community, Charles, the FAANG alumni,
     considers himself part of the FIRE movement—short for “Financial Independence,
     Retire Early” Not yet 30, he is already making $500,000 working two jobs and worth
     around $3 million, claims he backed up to Motherboard with documentation. But
     he hopes to increase his compensation to $800,000 by tacking on a third position,
     and reach a net worth of $10 million by 35.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 作为过度就业社区的一员，查尔斯，这位FAANG的校友，认为自己是FIRE运动的一部分——即“财务独立，早日退休”。尽管还不到30岁，他已经通过从事两份工作赚取了50万美元，并且价值约300万美元，这些主张他已经通过文件向Motherboard证实。但他希望通过增加第三份工作来增加自己的薪酬至80万美元，并在35岁时达到1000万美元的净资产。
 - en: Even though he is already using ChatGPT to work multiple jobs, Charles still
     is trying to figure out ways to make his dream even easier to obtain. When we
     spoke he said he’s already been “able to outsource” coding tasks to a third party
@@ -183,8 +243,10 @@
     someone else mimic both his voice and image on a computer screen. Once he can
     do so, he said, he hopes to offshore his job to someone in India who can “do my
     job for me.”
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管查尔斯已经在利用ChatGPT来从事多个工作，但他仍在努力寻找让他的梦想更容易实现的方法。在我们交谈时，他说他过去已经“成功外包”编码任务给第三方，并且他一直在努力开发一种方法，让别人能够在计算机屏幕上模仿他的声音和形象。他说，一旦他能做到这一点，他希望将自己的工作外包给印度的某人，让对方“替我做我的工作”。
 - en: 'In such moments, it can feel like the AI-infused overemployed community is
     taking advantage of a brief moment in time, when the tools that can be used to
     automate a job are much better understood by the workforce than the bosses with
@@ -194,28 +256,38 @@
     jobs can be handled by robots, they could be at risk of their jobs being automated
     away. As a result, he said, there’s good reason to keep quiet about what they’ve
     discovered.'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这种时刻，AI技术助力下的过度就业社区似乎正在利用一个短暂的时刻，当工作自动化所需的工具比雇主更为了解时。一位在信息技术领域从事多份工作的人公开谈到了这种紧张感：今天人们更容易同时从事多份工作；但是，如果老板们意识到他们的工作可以被机器人处理的程度，他们的工作可能会面临被自动化取代的风险。因此，他说，有充分的理由保持对他们所发现的事情保持沉默。
 - en: Most of the overemployed workers themselves maintain that their jobs require
     a baseline level of expertise, even with ChatGPT. Still, some members of the overemployed
     community feel they have peered into the future, and not liked everything they’ve
     seen.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数过度就业的工作者自己认为，即使使用了ChatGPT，他们的工作仍需要基本水平的专业知识。然而，一些过度就业社区的成员感觉他们已经窥视到了未来，并且并不喜欢他们所看到的一切。
 - en: One such person is Ryan, who works multiple jobs in data analytics and marketing
     in a large Midwestern city. Over the last year, he has watched in astonishment
     as ChatGPT figured out a way to automate an ever-growing percentage of his job,
     including writing ad copy and blog posts. The feat can feel exciting, and it has
     temporarily made his job easier.  “I can crank out a blog post in, you know, 45
     minutes now, as opposed to three hours. It's insane,” he said.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 其中一位是瑞安，他在美国中西部的一个大城市从事数据分析和营销等多个工作。在过去的一年里，他惊讶地看着 ChatGPT 找到了一种自动化他工作中越来越多部分的方法，包括撰写广告文案和博客文章。这一壮举令人兴奋，也暂时让他的工作变得更轻松。“我现在可以在，你知道的，45分钟内写完一篇博客文章，而不是三个小时。太疯狂了，”他说。
 - en: But Ryan does worry. At times, he said, he could not help but feel that the
     entrance of ChatGPT into the marketing sector felt like the insertion of the modern
     loom into the textile industry.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 但瑞安也担心。有时，他说，他不禁觉得 ChatGPT 进入营销领域感觉就像现代织布机进入纺织行业一样。
 - en: “It's gonna be one loom operator, as opposed to, you know, 100 weavers,” he
     said.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: “这将是一个织布机操作员，而不是，你知道的，100名织工，”他说。

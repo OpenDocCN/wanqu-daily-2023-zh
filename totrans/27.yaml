@@ -1,19 +1,25 @@
 - en: Scaling up the Prime Video audio/video monitoring service and reducing costs
     by 90% - Prime Video Tech
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)"
+  zh: 扩展Prime Video音视频监控服务并将成本降低90% - Prime Video Tech
+- en: 'Original Text: [https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
 - en: At Prime Video, we offer thousands of live streams to our customers. To ensure
     that customers seamlessly receive content, Prime Video set up a tool to monitor
     every stream viewed by customers. This tool allows us to automatically identify
     perceptual quality issues (for example, block corruption or audio/video sync problems)
     and trigger a process to fix them.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 Prime Video，我们为客户提供数千个直播流。为了确保客户无缝接收内容，Prime Video建立了一个工具来监控客户观看的每个流。这个工具使我们能够自动识别感知质量问题（例如，块损坏或音视频同步问题）并触发修复过程。
 - en: Our Video Quality Analysis (VQA) team at Prime Video already owned a tool for
     audio/video quality inspection, but we never intended nor designed it to run at
     high scale (our target was to monitor thousands of concurrent streams and grow
@@ -22,8 +28,10 @@
     scaling bottlenecks that prevented us from monitoring thousands of streams. So,
     we took a step back and revisited the architecture of the existing service, focusing
     on the cost and scaling bottlenecks.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在Prime Video的视频质量分析（VQA）团队已经拥有了一个用于音视频质量检查的工具，但我们从未打算也没有设计它以高规模运行（我们的目标是监控数千个并发流并随着时间增长这个数字）。在将更多流接入服务时，我们注意到以高规模运行基础设施非常昂贵。我们还注意到存在阻碍我们监控数千个流的扩展瓶颈。因此，我们退后一步，重新审视了现有服务的架构，专注于成本和扩展瓶颈。
 - en: The initial version of our service consisted of distributed components that
     were orchestrated by [AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html).
     The two most expensive operations in terms of cost were the orchestration workflow
@@ -34,12 +42,18 @@
     Compute Cloud (Amazon EC2)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
     and [Amazon Elastic Container Service (Amazon ECS)](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
     instances for the deployment.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们服务的初始版本由分布式组件组成，由[AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)编排。从成本的角度来看，最昂贵的两个操作是编排工作流和分布式组件之间的数据传输。为了解决这个问题，我们将所有组件移动到一个单一进程中，以保持数据传输在进程内存中，这也简化了编排逻辑。因为我们将所有操作编译到一个单一进程中，我们可以依赖可扩展的[Amazon
+    Elastic Compute Cloud（Amazon EC2）](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)和[Amazon
+    Elastic Container Service（Amazon ECS）](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)实例进行部署。
 - en: '**Distributed systems overhead**'
+  id: totrans-5
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**分布式系统开销**'
 - en: Our service consists of three major components. The media converter converts
     input audio/video streams to frames or decrypted audio buffers that are sent to
     detectors. Defect detectors execute algorithms that analyze frames and audio buffers
@@ -49,8 +63,11 @@
     learning to ensure video quality](https://www.primevideotech.com/computer-vision/how-prime-video-uses-machine-learning-to-ensure-video-quality)
     article. The third component provides orchestration that controls the flow in
     the service.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们的服务由三个主要组件组成。媒体转换器将输入音频/视频流转换为帧或解密的音频缓冲区，然后发送给检测器。缺陷检测器执行算法，实时分析帧和音频缓冲区，寻找缺陷（如视频冻结、块损坏或音视频同步问题），并在发现缺陷时发送实时通知。有关此主题的更多信息，请参阅我们的[Prime
+    Video如何使用机器学习确保视频质量](https://www.primevideotech.com/computer-vision/how-prime-video-uses-machine-learning-to-ensure-video-quality)文章。第三个组件提供了控制服务流程的编排。
 - en: We designed our initial solution as a distributed system using serverless components
     (for example, AWS Step Functions or [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)),
     which was a good choice for building the service quickly. In theory, this would
@@ -58,28 +75,39 @@
     some components caused us to hit a hard scaling limit at around 5% of the expected
     load. Also, the overall cost of all the building blocks was too high to accept
     the solution at a large scale.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们将初始解决方案设计为使用无服务器组件（例如，AWS Step Functions或[AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)）的分布式系统，这对于快速构建服务是一个不错的选择。理论上，这将允许我们独立扩展每个服务组件。然而，我们使用某些组件的方式导致我们在预期负载的约5%处达到了硬性扩展限制。此外，所有构建块的总成本太高，无法接受在大规模上采用该解决方案。
 - en: The following diagram shows the serverless architecture of our service.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下图显示了我们服务的无服务器架构。
 - en: <picture>![The diagram shows a control plane and data plan in the initial architecture.
     The customer's request is handled by a lambda function that is then forwarded
     to relevant step functions that execute detectors. At the same time, Media Conversion
     service starts processing the input stream, providing artifacts to detectors through
     an S3 bucket. Once the analysis is completed, the aggregated result is being stored
     in an S3 bucket.](../Images/d7a44d014e7b886e83336b05baab1e15.png)</picture>
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: <picture>![该图显示了初始架构中的控制平面和数据平面。客户的请求由一个Lambda函数处理，然后转发到执行检测器的相关步骤函数。同时，媒体转换服务开始处理输入流，并通过S3存储桶向检测器提供工件。分析完成后，聚合结果被存储在S3存储桶中。](../Images/d7a44d014e7b886e83336b05baab1e15.png)</picture>
 - en: '**The initial architecture of our defect detection system.**'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我们缺陷检测系统的初始架构。**'
 - en: The main scaling bottleneck in the architecture was the orchestration management
     that was implemented using AWS Step Functions. Our service performed multiple
     state transitions for every second of the stream, so we quickly reached account
     limits. Besides that, AWS Step Functions charges users per state transition.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 架构中的主要扩展瓶颈是使用AWS Step Functions实现的编排管理。我们的服务每秒执行多个状态转换，因此我们很快达到了账户限制。此外，AWS
+    Step Functions按状态转换收取用户费用。
 - en: The second cost problem we discovered was about the way we were passing video
     frames (images) around different components. To reduce computationally expensive
     video conversion jobs, we built a microservice that splits videos into frames
@@ -87,44 +115,63 @@
     bucket. Defect detectors (where each of them also runs as a separate microservice)
     then download images and processed it concurrently using AWS Lambda. However,
     the high number of Tier-1 calls to the S3 bucket was expensive.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们发现的第二个成本问题涉及我们在不同组件之间传递视频帧（图像）的方式。为了减少计算密集型的视频转换作业，我们构建了一个微服务，将视频拆分为帧，并临时上传图像到[Amazon
+    Simple Storage Service (Amazon S3)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)存储桶。缺陷检测器（每个缺陷检测器也作为单独的微服务运行）然后下载图像，并使用AWS
+    Lambda并行处理。然而，对S3存储桶的Tier-1调用次数很高，成本昂贵。
 - en: '**From distributed microservices to a monolith application**'
+  id: totrans-13
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**从分布式微服务到单体应用**'
 - en: 'To address the bottlenecks, we initially considered fixing problems separately
     to reduce cost and increase scaling capabilities. We experimented and took a bold
     decision: we decided to rearchitect our infrastructure.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了解决瓶颈问题，我们最初考虑分别解决问题以减少成本并增加扩展能力。我们进行了实验并做出了大胆的决定：我们决定重新架构我们的基础设施。
 - en: We realized that distributed approach wasn’t bringing a lot of benefits in our
     specific use case, so we packed all of the components into a single process. This
     eliminated the need for the S3 bucket as the intermediate storage for video frames
     because our data transfer now happened in the memory. We also implemented orchestration
     that controls components within a single instance.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们意识到，在我们特定的使用情况下，分布式方法并没有带来太多好处，因此我们将所有组件打包到一个单独的进程中。这消除了作为视频帧中间存储的S3存储桶的需求，因为我们现在的数据传输是在内存中进行的。我们还实现了在单个实例内控制组件的编排。
 - en: The following diagram shows the architecture of the system after migrating to
     the monolith.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下图显示了迁移到单体架构后系统的架构。
 - en: <picture>![The diagram represents a control and data plan for the updated architecture.
     All the components run within a single ECS task, therefore the control doesn't
     go through the network. Data sharing is done through instance memory and only
     the final results are uploaded to an S3 bucket.](../Images/1273e691c58d63bf5ff297e81308c5b5.png)</picture>
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: <picture>![该图表代表了更新架构的控制和数据计划。所有组件都在单个 ECS 任务中运行，因此控制不通过网络传输。数据共享通过实例内存进行，只有最终结果上传到
+    S3 存储桶。](../Images/1273e691c58d63bf5ff297e81308c5b5.png)</picture>
 - en: '**The updated architecture for monitoring a system with all components running
     inside a single Amazon ECS task.**'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**监控系统的更新架构，所有组件都在单个亚马逊 ECS 任务中运行。**'
 - en: Conceptually, the high-level architecture remained the same. We still have exactly
     the same components as we had in the initial design (media conversion, detectors,
     or orchestration). This allowed us to reuse a lot of code and quickly migrate
     to a new architecture.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 从概念上讲，高级架构保持不变。我们仍然拥有与初始设计中相同的组件（媒体转换、检测器或编排）。这使我们能够重用大量代码，并快速迁移到新架构。
 - en: In the initial design, we could scale several detectors horizontally, as each
     of them ran as a separate microservice (so adding a new detector required creating
     a new microservice and plug it in to the orchestration). However, in our new approach
@@ -134,44 +181,63 @@
     the service multiple times, parametrizing each copy with a different subset of
     detectors. We also implemented a lightweight orchestration layer to distribute
     customer requests.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 在初始设计中，我们可以水平扩展多个检测器，因为每个检测器都作为一个单独的微服务运行（因此添加新的检测器需要创建一个新的微服务并将其插入到编排中）。然而，在我们的新方法中，检测器的数量只能垂直扩展，因为它们都在同一个实例中运行。我们的团队定期向服务添加更多检测器，我们已经超过了单个实例的容量。为了解决这个问题，我们多次克隆了服务，为每个副本使用不同的检测器子集进行参数化。我们还实现了一个轻量级的编排层来分发客户请求。
 - en: The following diagram shows our solution for deploying detectors when the capacity
     of a single instance is exceeded.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下图表展示了我们在单个实例容量不足时部署检测器的解决方案。
 - en: <picture>![Customer's request is being forwarded by a lambda function to relevant
     ECS tasks. The result for each detector is stored in S3 bucket separately.](../Images/b59640544938f3d5dfd2387b5f4fe527.png)</picture>
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: <picture>![客户的请求通过一个 Lambda 函数转发到相关的 ECS 任务。每个检测器的结果都分别存储在 S3 存储桶中。](../Images/b59640544938f3d5dfd2387b5f4fe527.png)</picture>
 - en: '**Our approach for deploying more detectors to the service.**'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我们部署更多检测器到服务的方法。**'
 - en: '**Results and takeaways**'
+  id: totrans-24
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**结果和收获**'
 - en: Microservices and serverless components are tools that do work at high scale,
     but whether to use them over monolith has to be made on a case-by-case basis.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 微服务和无服务器组件是在高规模下工作的工具，但是否使用它们取代单体架构必须根据具体情况而定。
 - en: Moving our service to a monolith reduced our infrastructure cost by over 90%.
     It also increased our scaling capabilities. Today, we’re able to handle thousands
     of streams and we still have capacity to scale the service even further. Moving
     the solution to Amazon EC2 and Amazon ECS also allowed us to use the [Amazon EC2
     compute saving plans](https://aws.amazon.com/savingsplans/compute-pricing/) that
     will help drive costs down even further.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 将我们的服务迁移到单体架构后，我们的基础设施成本降低了超过 90%。同时，我们的扩展能力也得到了提升。如今，我们能够处理成千上万个流，并且我们仍然有能力进一步扩展服务。将解决方案迁移到亚马逊
+    EC2 和亚马逊 ECS 还使我们能够使用[亚马逊 EC2 计算节省计划](https://aws.amazon.com/savingsplans/compute-pricing/)，这将进一步降低成本。
 - en: Some decisions we’ve taken are not obvious but they resulted in significant
     improvements. For example, we replicated a computationally expensive media conversion
     process and placed it closer to the detectors. Whereas running media conversion
     once and caching its outcome might be considered to be a cheaper option, we found
     this not be a cost-effective approach.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们做出的一些决定并不明显，但却带来了显著的改进。例如，我们复制了一个计算密集型的媒体转换过程，并将其放置在靠近检测器的位置。虽然运行媒体转换一次并缓存其结果可能被认为是一种更便宜的选择，但我们发现这并不是一种划算的方法。
 - en: The changes we’ve made allow Prime Video to monitor all streams viewed by our
     customers and not just the ones with the highest number of viewers. This approach
     results in even higher quality and an even better customer experience.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们所做的改变使Prime Video能够监控所有被我们客户观看的流，而不仅仅是观众数量最多的那些。这种方法会带来更高的质量和更好的客户体验。

@@ -1,52 +1,72 @@
 - en: Series A fundraising for an open source company
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck](https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck)"
+  zh: 开源公司的A轮融资
+- en: 'Original Text: [https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck](https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck](https://www.field-guide.unusual.vc/field-guide-enterprise/open-source-fundraising-pitch-deck)
 - en: TL;DR
+  id: totrans-2
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: TL;DR
 - en: Series A investors evaluate open-source companies based on product-market fit,
     with adoption being the primary indicator.
+  id: totrans-3
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: A轮投资者根据产品市场契合度评估开源公司。采纳度是主要指标。
 - en: OSS companies often do not reach the same revenue milestones as other companies
     by the time they raise Series A funding. Top open-source investors understand
     this and look at different metrics to determine project adoption and community
     engagement as indicators of product-market fit.
+  id: totrans-4
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 开源软件公司通常在进行A轮融资时并不会达到其他公司相同的收入里程碑。顶级开源投资者了解这一点，并查看不同的指标来确定项目采纳度和社区参与作为产品市场契合度的指标。
 - en: '"Vanity" metrics, such as GitHub stars, watchers, forks, and contributors may
     represent "mindshare" among the target audience and can vary across different
     categories of projects.'
+  id: totrans-5
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: “虚荣”指标，如 GitHub 星标、观察者、分支和贡献者可能代表目标受众中的“心智份额”，在不同类别的项目之间可能有所不同。
 - en: Gauging these metrics with peer projects can give a sense of the relative overall
     awareness or recognition your project has, similar to "Share of Voice" in marketing.
+  id: totrans-6
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 与同行项目一起评估这些指标可以让您对您的项目的整体知名度或认可度有所了解，类似于营销中的“声音份额”。
 - en: The number of downloads is another metric founders often track, but it is not
     a reliable measure of adoption due to automated workflows and systems driving
     this number artificially up without providing clarity on user numbers.
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 下载次数是创始人经常跟踪的另一个指标，但由于自动化工作流和系统推动这一数字人为增加，而没有提供用户数量的清晰度，因此它并不是一个可靠的采纳度衡量标准。
 - en: To assess meaningful adoption, the size of your community is a better reflection
     of the project's success.
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 要评估有意义的采纳度，您的社区规模是项目成功的更好反映。
 - en: ‍
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: In the Unusual Field Guide, we described how [Series A](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond)
     investors will evaluate your company for indicators of product-market fit. Series
     A fundraising for an OSS company has important nuances because the primary indicator
@@ -58,107 +78,157 @@
     they will look at a different set of metrics to determine project adoption and
     community engagement as indicators of product-market fit and how well-positioned
     you are to achieve repeatable sales with your commercial offering.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 Unusual Field Guide 中，我们描述了 [A轮](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond)
+    投资者将评估您的公司是否具有产品市场契合度的指标。对于开源软件公司的A轮融资具有重要的细微差别，因为产品市场契合度的主要指标是采纳度，而不是收入。在建立开源软件公司的第一阶段，应该优先考虑采纳度，而不是以牺牲盈利为代价。因此，开源软件公司在进行A轮融资时并不会达到其他公司相同的收入里程碑。好消息是，顶级开源投资者了解这一点，不会根据收入来评估开源软件公司。相反，他们将查看一组不同的指标，以确定项目采纳度和社区参与作为产品市场契合度的指标，以及您在实现与商业产品相关的可重复销售方面的定位如何。
 - en: <WhatarethebestmetricstousetomeasureOSSadoption>What are the best metrics to
     use to measure OSS adoption?<WhatarethebestmetricstousetomeasureOSSadoption>
+  id: totrans-11
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: <用于衡量开源软件采纳度的最佳指标是什么>用于衡量开源软件采纳度的最佳指标是什么?<用于衡量开源软件采纳度的最佳指标是什么>
 - en: ‍
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: ‍
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: Determining whether your OSS project is progressing toward product-market requires
     paying attention to metrics that can help you assess its traction. There are many
     OSS metrics that are available for founders to measure, and understanding the
     relevance of each is important to figure out how to best drive awareness and interest.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 确定您的开源项目是否朝着产品市场发展的方向前进需要关注可以帮助您评估其吸引力的指标。创始人可以使用许多开源软件指标来衡量，并了解每个指标的相关性对于找出如何最好地提高知名度和兴趣至关重要。
 - en: ‍
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: So-called “vanity” metrics are the easiest to immediately look at because they’re
     publicly displayed but could simply reflect passing interest — these include GitHub
     stars, watchers, forks, and contributors.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 所谓的“虚荣”指标是最容易立即查看的，因为它们是公开显示的，但可能只是反映了短暂的兴趣 — 包括 GitHub 星标、观察者、分支和贡献者。
 - en: ‍
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '**GitHub Stars:** [Stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)
     are a feature on GitHub for users to keep track of projects they find interesting.
     They can be used to bookmark your repository for later reference or to show appreciation
     for your project, akin to a “like” on social media.'
+  id: totrans-18
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**GitHub Stars:** [Stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars)
+    是 GitHub 上的一个功能，用户可以用来跟踪他们发现有趣的项目。它们可以用来收藏您的存储库以供以后参考，或者表示对您的项目的赞赏，类似于社交媒体上的“喜欢”。'
 - en: '**GitHub Watchers:** Watchers track the number of people watching your repository.'
+  id: totrans-19
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**GitHub Watchers:** Watchers 跟踪观看您存储库的人数。'
 - en: '**GitHub Forks:** Forks are local copies of your repository.'
+  id: totrans-20
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**GitHub Forks:** Forks 是您存储库的本地副本。'
 - en: '**GitHub Contributors:** Contributors are those who have contributed commits
     to your repository.'
+  id: totrans-21
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**GitHub Contributors:** 贡献者是那些向您的存储库贡献提交的人。'
 - en: ‍
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: These metrics, however, are not necessarily a reliable indicator of actual adoption.
     Many users who star your project may never end up using it. Instead, these metrics
     represent “mindshare” among your target audience. We’ve also observed that these
     types of metrics for OSS projects can vary widely across different categories
     of projects.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，这些指标并不一定是实际采纳度的可靠指标。许多收藏您的项目的用户可能最终不会使用它。相反，这些指标代表了您目标受众中的“心智份额”。我们还观察到，这些类型的指标对于不同类别的项目可能有很大差异。
 - en: ‍
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: For example, OSS developer tool projects tend to generate many more stars than
     OSS security projects. Gauging your public metrics with those of peer projects
     will give you a sense of the relative overall awareness or recognition your project
     has, akin to “Share of Voice” in marketing.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 例如，OSS 开发者工具项目往往比 OSS 安全项目获得更多的星标。将您的公共指标与同行项目的指标进行比较，可以让您了解您的项目相对整体知名度或认可度，类似于营销中的“声音份额”。
 - en: ‍
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: For reference, in the table below, we’ve listed GitHub star count data drawn
     from 67 open-source companies who announced their Series A fundraisings in 2021
     and 2022\. You’ll see that average, median, and top-quartile star counts vary
     between open-source developer tools, data/ML, and security projects. Growth rate
     also varies though it’s worth noting that top decile month-over-month star growth
     across all companies is above 12%, which we consider to be best-in-class.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 作为参考，在下表中，我们列出了从 2021 年和 2022 年宣布进行 A 轮融资的 67 家开源公司中提取的 GitHub 星标计数数据。您会发现，开源开发者工具、数据/机器学习和安全项目之间的平均值、中位数和四分位数星标计数有所不同。增长率也有所不同，尽管值得注意的是，所有公司中十分位数的月度星标增长率超过
+    12%，我们认为这是最佳水平。
 - en: ‍
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: Another metric founders often track is the number of downloads. This is oftentimes
     not a reliable measure of adoption since automated workflows and systems will
     drive this number artificially up without providing clarity on the numbers of
     users, a much more important metric.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 创始人经常跟踪的另一个指标是下载次数。这通常不是采用情况的可靠衡量标准，因为自动化工作流和系统会使这一数字人为增加，而不提供关于用户数量的清晰信息，这是一个更重要的指标。
 - en: ‍
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: Another caveat to these metrics is that their counts do not decrease even if
     activity starts to wane. Therefore, tracking absolute counts is insufficient.
     It’s necessary to measure growth rates in these metrics — week-over-week and month-over-month
     — to determine if your OSS project is maintaining or capturing additional mindshare.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些指标的另一个注意事项是，即使活动开始减少，它们的计数也不会减少。因此，跟踪绝对计数是不够的。必须测量这些指标的增长率 —— 每周和每月 —— 以确定您的
+    OSS 项目是否在保持或获取额外的关注度。
 - en: ‍
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: If these public metrics on GitHub can help you measure your relative mindshare
     among your target audience, what metrics can you use to assess meaningful adoption?
     To start, the size of your community is a far better reflection of the number
@@ -166,40 +236,58 @@
     of activity of user engagement in your community Slack or Discord is incredibly
     important — having hundreds of members with very little activity is a telling
     sign that your project adoption is minimal.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果 GitHub 上这些公共指标可以帮助您衡量您在目标受众中的相对关注度，那么您可以使用哪些指标来评估有意义的采用情况呢？首先，您社区的规模远比 GitHub
+    星标的数量更好地反映了采用您的 OSS 的用户数量。用户在您社区的 Slack 或 Discord 中的参与度程度非常重要 —— 如果有数百名成员但活动很少，这表明您的项目采用情况很低。
 - en: ‍
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: Adoption typically corresponds to project “velocity,” the pace at which changes
     in the OSS occur. To measure your project velocity, evaluate metrics such as the
     number of active project contributors (those who have contributed commits within
     a given recent time period), the number of issues that have been filed, and the
     number of pull requests.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 采用通常对应于项目的“速度”，即 OSS 发生变化的速度。要衡量您的项目速度，请评估诸如活跃项目贡献者人数（在最近一段时间内提交了提交的人数）、已提交的问题数量和拉取请求数量等指标。
 - en: ‍
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: Measuring adoption is also not just about quantitative data but about qualitative
     aspects. For example, as we previously highlighted, it’s valuable to understand
     the organizations that your users belong to since lighthouse companies provide
     early credibility. “The right metrics depend on your market, your product, and
     how it works,” says Ev Kontsevoy, Co-founder and CEO of [Teleport](https://goteleport.com/).
     “Find the proxy metric that measures your market-share capture.”
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 衡量采用情况不仅仅是关于定量数据，还涉及到质量方面。例如，正如我们之前强调的，了解您的用户所属的组织是有价值的，因为领头公司提供早期的可信度。“正确的指标取决于您的市场、您的产品以及它的运作方式，”
+    [Teleport](https://goteleport.com/) 的联合创始人兼首席执行官 Ev Kontsevoy 表示。“找到衡量您市场份额占有率的替代指标。”
 - en: ‍
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: <Whatdoinvestorswanttoseeinapitchdeck>What do investors want to see in a pitch
     deck?<Whatdoinvestorswanttoseeinapitchdeck>
+  id: totrans-39
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: <投资者在 pitch deck 中想看到什么>投资者在 pitch deck 中想看到什么?<投资者在 pitch deck 中想看到什么>
 - en: ‍
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: ''
 - en: In the Unusual Field Guide, we shared [how to best position yourself for a successful
     fundraising process](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond).
     If you are an open-source founder, this starts with identifying Series A investors
@@ -209,11 +297,15 @@
     in a startup’s journey, before the company is generating revenue. The same transparency
     that makes OSS projects easy to adopt also provides a window for investors to
     assess your progress to date.**
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 在《非同寻常领域指南》中，我们分享了[如何最好地为成功的筹款过程定位自己](https://www.field-guide.unusual.vc/chapters-enterprise/fundraising-series-a-beyond)。如果你是一个开源创始人，首先要找到那些与开源公司合作经验丰富、知道如何评估你的开源项目是否已经实现（或正在逐步实现）产品市场契合度的A轮投资者。**开源软件为这些投资者提供了在初创公司旅程早期衡量动力的方式，甚至在公司开始产生收入之前。使开源项目易于采用的透明度也为投资者提供了评估你迄今为止进展的窗口。**
 - en: ‍
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: As with any investor presentation, [your pitch deck](https://www.field-guide.unusual.vc/field-guide-enterprise/pitch-and-process)
     must communicate a compelling narrative that highlights the strength of your team,
     the large market opportunity, and the goals for this financing. However, for slides
@@ -221,18 +313,26 @@
     whether your OSS project has reached product-market fit and if your company is
     ready to build a repeatable sales motion. Here’s what you can expect them to look
     for.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 与任何投资者演示一样，[您的演示文稿](https://www.field-guide.unusual.vc/field-guide-enterprise/pitch-and-process)必须传达一个引人注目的叙述，突出您团队的实力、巨大的市场机会以及此次融资的目标。然而，对于涉及增长的幻灯片，A轮投资者希望看到具体信息，以评估您的OSS项目是否已达到产品市场契合度，以及您的公司是否已准备好构建可重复销售动作。以下是他们可能寻找的内容。
 - en: ‍
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '**Metrics (and their momentum)**'
+  id: totrans-45
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '**指标（及其动力）**'
 - en: ‍
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: 'As mentioned above, public metrics provide a window into only part of the story.
     They help investors gain a sense of relative project popularity, mindshare, and
     awareness, which is the starting point for broad user adoption. But investors
@@ -240,29 +340,41 @@
     how large your user base is, their level of engagement, active contributions,
     support requests, and project velocity. Momentum, as evidenced in growth rates,
     is a key aspect across these metrics that investors will pay attention to.'
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 如上所述，公共指标只提供了故事的一部分。它们帮助投资者了解项目的相对受欢迎程度、知名度和认知度，这是广泛用户采用的起点。但投资者还想了解实际采用的指标，包括我们列出的指标：您的用户群体有多大，他们的参与程度，活跃贡献，支持请求和项目速度。增长率所体现的动力是投资者将关注的这些指标中的一个关键方面。
 - en: ‍
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '***Who* is in your user base and what they’re saying**'
+  id: totrans-49
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '***您的用户群体是谁，他们在说些什么**'
 - en: ‍
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: Beyond metrics, investors will want to understand *who* is engaging with your
     project and the organizations they belong to. Early lighthouse adopters that are
     technically sophisticated and forward-thinking provide credibility and influence
     with the broader market. Mid-market and large enterprises with sizable budgets
     represent real buying power that make it easier for investors to believe your
     company is well-positioned to achieve a repeatable sales motion.
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了指标外，投资者还想了解*谁*正在参与您的项目以及他们所属的组织。技术上精通和具有前瞻性的早期灯塔采用者为更广泛的市场提供了可信度和影响力。具有可观预算的中等市场和大型企业代表了真正的购买力，这使投资者更容易相信您的公司有望实现可重复的销售动作。
 - en: ‍
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: It’s worth keeping in mind that many popular OSS projects achieve sizable adoption
     but are unable to monetize because their users have low willingness to pay. For
     example, if your user base is primarily made up of hobbyist developers, investors
@@ -271,18 +383,27 @@
     what features they like best, why everyone else needs to be using it. Expect that
     investors will conduct reference checks with users at lighthouse companies to
     ask them directly.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 值得注意的是，许多受欢迎的OSS项目实现了可观的采用，但由于用户不愿意支付，无法实现盈利。例如，如果您的用户群主要由业余开发人员组成，投资者可能会质疑您公司的商业潜力。投资者将关注这些采用者对您的项目的评价
+    — 他们为什么觉得它引人注目，他们最喜欢的功能是什么，为什么其他人都需要使用它。预计投资者将与灯塔公司的用户进行参考检查，直接询问他们。
 - en: ‍
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '***How* users are adopting your OSS**'
+  id: totrans-55
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '***用户如何采用您的OSS**'
 - en: ‍
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: Beyond the metrics and understanding your user base, investors (at least the
     best ones) will want to understand the details of how those users are implementing
     your OSS. **Is it being used in production? This increases the likelihood that
@@ -290,142 +411,216 @@
     and/or workflows? This signals that your OSS has some level of stickiness and
     is being used regularly.** What are the use cases that everyone gets started with?
     This suggests there is strong repeatability for user onboarding.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了了解您的用户群体和指标外，投资者（至少是最好的投资者）还希望了解这些用户如何实施您的OSS。**它是否在生产中使用？这增加了用户从中获得高价值的可能性。它是否已与现有工具和/或工作流程集成？这表明您的OSS具有一定程度的粘性，并且正在定期使用。**每个人都从哪些用例开始？这表明用户入门有很强的可重复性。
 - en: ‍
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '**<SeriesAchecklistforOSScompanies>Series A checklist for OSS companies<SeriesAchecklistforOSScompanies>**'
+  id: totrans-59
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '**<OSS公司的A轮清单>OSS公司的A轮清单<OSS公司的A轮清单>**'
 - en: ‍
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: 'Here’s an investor checklist that will help you prepare for what investors
     will evaluate as part of your Series A fundraising process:'
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 以下是一个投资者清单，将帮助您为您的A轮融资过程做好准备，投资者将评估以下内容：
 - en: ‍
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: ☑️ Public GitHub metrics — as a measure of relative mindshare
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: ☑️ 公共GitHub指标 — 作为相对知名度的衡量标准
 - en: Stars
+  id: totrans-64
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 星标
 - en: Watchers
+  id: totrans-65
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 观察者
 - en: Forks
+  id: totrans-66
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 分支
 - en: Contributors
+  id: totrans-67
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 贡献者
 - en: Growth rates for the above
+  id: totrans-68
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 上述增长率
 - en: ☑️ Community metrics — as a measure of project usage
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: ☑️ 社区指标 — 作为项目使用情况的衡量标准
 - en: Members
+  id: totrans-70
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 成员
 - en: Level of engagement on Slack/Discord
+  id: totrans-71
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 在Slack/Discord上的参与程度
 - en: Active project contributors
+  id: totrans-72
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 活跃的项目贡献者
 - en: Issues filed
+  id: totrans-73
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 已提交的问题
 - en: Support requests
+  id: totrans-74
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 支持请求
 - en: Pull requests
+  id: totrans-75
   prefs:
   - PREF_IND
   type: TYPE_NORMAL
+  zh: 拉取请求
 - en: ☑️ Profile of users and their organizations — as a measure of credible, influential
     early adopters
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: ☑️ 用户及其组织的概况 — 作为可信、有影响力的早期采用者的衡量标准
 - en: Number of lighthouse companies
+  id: totrans-77
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 灯塔公司的数量
 - en: Number of mid-market / enterprise companies
+  id: totrans-78
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 中等市场/企业公司的数量
 - en: What are they saying
+  id: totrans-79
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 他们在说些什么
 - en: ☑️ Examples of usage
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: ☑️ 使用示例
 - en: Deployments in production
+  id: totrans-81
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 在生产中的部署
 - en: Integrations
+  id: totrans-82
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 集成
 - en: Use cases
+  id: totrans-83
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 用例
 - en: ☑️ Caliber of team
+  id: totrans-84
   prefs: []
   type: TYPE_NORMAL
+  zh: ☑️ 团队的素质
 - en: Engineering
+  id: totrans-85
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 工程
 - en: Community-oriented roles such as DevRel
+  id: totrans-86
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 诸如DevRel之类的面向社区的角色
 - en: Level of project leadership
+  id: totrans-87
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 项目领导水平
 - en: ‍
+  id: totrans-88
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: It’s important to note that beyond Series A, OSS adoption isn’t a substitute
     for revenue. Companies must demonstrate product-market fit for their commercial
     offering in terms of actual revenue and paying customers, while continuing to
     grow their OSS velocity.
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
+  zh: 需要注意的是，超过A轮融资后，开源软件的采用并不能替代收入。公司必须证明其商业产品在实际收入和付费客户方面具有产品市场契合度，同时继续增加其开源软件的速度。
 - en: ‍
+  id: totrans-90
   prefs: []
   type: TYPE_NORMAL
+  zh: ‍
 - en: '*This is part four of* [*The Open Source Software Field Guide for Founders*](https://www.field-guide.unusual.vc/field-guide-enterprise/start-an-open-source-software-company)*.
     Read part five:* [*Open-source people strategy and hiring*](http://www.field-guide.unusual.vc/field-guide-enterprise/hiring-for-an-oss-company)*.*'
+  id: totrans-91
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是《创始人的开源软件领域指南》的第四部分。阅读第五部分：《开源人才战略和招聘》。
 - en: '*Sign up for the* [*Unusual Ventures newsletter*](https://mailchi.mp/unusual/signup)
     *to stay up to date on forthcoming sections.*'
+  id: totrans-92
   prefs: []
   type: TYPE_NORMAL
+  zh: 订阅《Unusual Ventures通讯》以及时了解即将推出的章节。
 - en: ‍
+  id: totrans-93
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: ‍

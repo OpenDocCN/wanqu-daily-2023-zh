@@ -1,75 +1,107 @@
 - en: Why Engineers Need To Write - by Ryan Peterman
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.developing.dev/p/why-engineers-need-to-write](https://www.developing.dev/p/why-engineers-need-to-write)"
+  zh: 为什么工程师需要写作 - Ryan Peterman著
+- en: 'Original Text: [https://www.developing.dev/p/why-engineers-need-to-write](https://www.developing.dev/p/why-engineers-need-to-write)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://www.developing.dev/p/why-engineers-need-to-write](https://www.developing.dev/p/why-engineers-need-to-write)
 - en: I hated writing in high school. It wasn’t objective like my favorite subjects,
     math and science. It also didn’t help that we had to write about old, hard-to-understand
     literature like Shakespeare. But my perspective on writing changed once I started
     working full-time as a software engineer.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在高中讨厌写作。它不像我最喜欢的数学和科学那样客观。我们还必须写关于莎士比亚等古老、难以理解的文学作品，这也不利于我。但是，一旦我开始全职担任软件工程师，我对写作的看法就改变了。
 - en: I use my laptop but you get the point
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我用我的笔记本电脑，但你明白我的意思
 - en: The way I worked started to change around when I became a mid-level engineer.
     I led a small workstream of a few engineers and to get my work done, I was writing
     more and more without realizing it. Soon writing became a significant part of
     my work outside of coding. This became even more true when COVID hit since most
     conversations moved to async chats and word docs.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我成为中级工程师时，我的工作方式开始发生变化。我领导了几名工程师的一个小工作流程，为了完成工作，我写作的频率越来越高，而我并没有意识到。很快，写作成为了我的工作的一个重要部分，超越了编码。当COVID爆发后，由于大多数对话转移到异步聊天和文档中，这一点变得更加真实。
 - en: Almost everything software engineers do requires writing. We need to write when
     we ask technical questions, comment on code reviews, or create design docs. This
     is because writing software is collaborative. **The better you are at writing,
     the more effective you will be at building software.**
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 几乎所有软件工程师所做的事情都需要写作。当我们提出技术问题、评论代码审查或创建设计文档时，我们需要写作。这是因为编写软件是协作的。**你在写作方面越好，构建软件时就会更有效率。**
 - en: Aside from being a necessity, writing is the most efficient way for you to scale
     yourself. As a concrete example, I have a friend who takes incredible notes at
     work. His notes become a wiki of common terminal commands, code pointers, and
     diagrams for the team he works on. The best part is that his writing helps others
     move faster without any work on his part after sharing it.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了是一种必需品外，写作是你提升自己效率的最有效方式。举个具体例子，我有一个朋友在工作中记笔记做得非常出色。他的笔记成为了他所在团队的常见终端命令、代码指针和图表的维基。最棒的部分是，他的写作帮助他人在分享后无需任何工作即可更快地前进。
 - en: At the end of the day, you can only ship so much code by yourself. You can have
     much more impact by influencing others to ship what matters most. **Writing is
     the most scalable way to influence others.**
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，你只能靠自己发布那么多代码。通过影响他人发布最重要的内容，你可以产生更大的影响。**写作是影响他人的最具规模化方式。**
 - en: Some worry that ChatGPT may make writing obsolete. Even if AI tools write for
     us, I still think writing is valuable.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 有些人担心ChatGPT可能会使写作过时。即使AI工具为我们写作，我仍然认为写作是有价值的。
 - en: Writing your thoughts down forces them into a coherent, logical narrative. Condensing
     your writing gives you a deeper understanding. This process improves your thinking.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 将你的想法写下来会迫使它们形成一种连贯、逻辑的叙述。压缩你的写作会让你更深入地理解。这个过程会改善你的思维。
 - en: '**Also, writing doesn’t just clarify your existing ideas; it generates more
     of them**. When I write design docs, I often discover optimizations or edge cases
     I didn’t think of at first. So long as critical thinking is necessary, writing
     will not be obsolete.'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: '**此外，写作不仅澄清你现有的想法；它还会产生更多的想法**。当我写设计文档时，我经常发现我一开始没有考虑到的优化或边缘情况。只要批判性思维是必要的，写作就不会过时。'
 - en: '* * *'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: '**It is no coincidence that the strongest engineers I know are all excellent
     technical writers**. It is one of the key skills engineers need to be effective
     at work. This is one of the main reasons I’ve committed to writing once a week
     for this Substack.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我认识的最优秀的工程师都是出色的技术作家，这并非巧合**。这是工程师在工作中需要有效的关键技能之一。这也是我承诺每周为这个Substack写作的主要原因之一。'
 - en: '**Over to you: Do you think writing is important for engineers? If so, what’s
     helped you improve most?**'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '**现在轮到你了：你认为写作对工程师重要吗？如果是，什么帮助你最大？**'
 - en: Thanks for reading,
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 感谢阅读，
 - en: '*Ryan Peterman*'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '*Ryan Peterman*'

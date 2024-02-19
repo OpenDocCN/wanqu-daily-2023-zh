@@ -1,854 +1,1290 @@
 - en: twenty-five years of curl | daniel.haxx.se
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/](https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/)"
+  zh: curl的二十五年 | daniel.haxx.se
+- en: 'Original Text: [https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/](https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/](https://daniel.haxx.se/blog/2023/03/20/twenty-five-years-of-curl/)
 - en: Time flies when you are having fun. Today is [curl](https://curl.se/)‘s 25th
     birthday.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 快乐时光总是过得很快。今天是[curl](https://curl.se/)的25周年。
 - en: The curl project started out very humbly as a small renamed URL transfer tool
     that almost nobody knew about for the first few years. It scratched a personal
     itch of mine,
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: curl项目最初非常谦卑，是一个几乎没有人知道的小型重命名的URL传输工具，前几年几乎没有人知道。它解决了我的个人问题，
 - en: Me back then
+  id: totrans-4
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 当时的我
 - en: I made that first curl release and I’ve packaged every single release since.
     The day I did that first curl release I was 27 years old and I worked as a software
     engineer for **Frontec Tekniksystem**, where I mostly did contract development
     on embedded systems for larger Swedish product development companies. For a few
     years in the late 90s I would for example do quite a few projects at and for the
     telecom giant Ericsson.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我发布了第一个curl版本，并且自那时起打包了每一个版本。我发布第一个curl版本的那天，我27岁，当时在**Frontec Tekniksystem**担任软件工程师，主要为瑞典较大的产品开发公司的嵌入式系统进行合同开发。在90年代末的几年里，我会在瑞典电信巨头爱立信做一些项目。
 - en: I have enjoyed programming and development ever since I got my first computer
     in the mid 80s. In the 1990s I had already established a daily schedule where
     I stayed up late when my better half went to bed at night, and I spent another
     hour or two on my spare time development. This is basically how I have manged
     to find time to devote to my projects the first few decades. Less sleep. Less
     other things.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 自从80年代中期我得到第一台计算机以来，我就喜欢编程和开发。在90年代，我已经建立了一个日常时间表，在晚上我的另一半上床睡觉时，我会熬夜，然后在业余时间再花一两个小时进行开发。这基本上是我在前几十年里如何找到时间投入到我的项目中的。少睡觉。少其他事情。
 - en: Gradually and always improving
+  id: totrans-7
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 逐渐并不断改进
 - en: The concept behind curl development has always been to gradually and iteratively
     improve all aspects of it. Keep behavior, but enhance the code, add test cases,
     improve the documentation. Over and over, year after year. It never stops. As
     the timeline below helps showing.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: curl开发背后的概念一直是逐渐和迭代地改进所有方面。保持行为，但增强代码，添加测试用例，改进文档。一遍又一遍，年复一年。永不停止。如下面的时间线所示。
 - en: Similarly, there was no sudden specific moment when suddenly curl became popular
     and the number of users skyrocketed. Instead, the number of users and the popularity
     of the tool and library has gradually and continuously grown. In 1998 there were
     few users. By 2010 there were hundreds of millions.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 同样地，并没有突然的特定时刻，curl突然变得流行，用户数量激增。相反，用户数量和工具库的受欢迎程度逐渐而持续地增长。1998年几乎没有用户。到2010年，用户已经达到数亿。
 - en: We really have no idea exactly how many users or installations of libcurl there
     are now. It is easy to estimate that it runs in **way more than ten billion installations**
     purely based on the fact that there are 7 billion smart phones and 1 billion tablets
     in the world , and we know that each of them run at least one, but likely many
     more curl installs.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们实际上并不知道现在有多少用户或安装了libcurl。仅仅基于世界上有70亿智能手机和10亿平板电脑这一事实，我们可以估计它的安装量远远超过**一百亿**。
 - en: Before curl
+  id: totrans-11
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 在curl之前
 - en: My internet transfer journey started in late 1996 when I downloaded *httpget*
     0.1 to automatically download currency rates daily to make my currency exchange
     converter work correctly for my IRC bot. httpget had some flaws so I sent back
     fixes, but Rafael, the author, quickly decided I could rather take over maintenance
     of the thing. So I did.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的互联网传输之旅始于1996年末，当时我下载了*httpget* 0.1，以便每天自动下载货币汇率，以使我的IRC机器人的货币兑换转换器能够正确工作。httpget有一些缺陷，所以我发送了修复，但作者Rafael很快决定我可以接管这个东西的维护。所以我接手了。
 - en: I added support for GOPHER, change named of the project, added FTP support and
     then in early 1998 I started adding FTP upload support as well…
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 我添加了GOPHER支持，更改了项目名称，添加了FTP支持，然后在1998年初开始添加FTP上传支持...
 - en: '1998'
+  id: totrans-14
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 1998年
 - en: '![](../Images/8113bc366773135db6162a6fb4e3697d.png)'
+  id: totrans-15
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/8113bc366773135db6162a6fb4e3697d.png)'
 - en: The original curl logo.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 最初的curl标志。
 - en: 'On March 20 1998, curl 4.0 was released and it was already 2,200 lines of code
     on its birthday because it was built on the projects previously named httpget
     and urlget. It then supported three protocols: HTTP, GOPHER and FTP and featured
     24 glorious command line options.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 1998 年 3 月 20 日，curl 4.0 发布，因为它是建立在之前命名为 httpget 和 urlget 的项目之上，所以在其生日时已经有 2,200
+    行代码。它支持三种协议：HTTP、GOPHER 和 FTP，并拥有 24 个命令行选项。
 - en: The first release of curl was not that special event since I had been shipping
     httpget and urlget releases for over a year already, so while this was a new name
     it was also “just another release” as I had done many times already.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: curl 的第一个发布并不是特别的事件，因为我已经在之前一年多发布了 httpget 和 urlget 的版本，所以虽然这是一个新名称，但也是“又一个发布”，因为我已经做过很多次了。
 - en: We would add HTTPS and TELNET support already the first curl year, which also
     introduced the first ever curl man page. curl started out GPL licensed but I switched
     to MPL already within that first calendar year 1998.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在第一个 curl 年就添加了 HTTPS 和 TELNET 支持，同时也推出了第一个 curl 手册页。curl 最初是 GPL 许可的，但在那个第一个日历年
+    1998 年内我就转换为 MPL 许可。
 - en: The first SSL support was powered by SSLeay. The project that in late 1998 would
     transition over into becoming OpenSSL.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一个 SSL 支持由 SSLeay 提供。这个项目在 1998 年末过渡为 OpenSSL。
 - en: In August 1998, we added curl on the open source directory site freshmeat.net.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 1998 年 8 月，我们在开源目录网站 freshmeat.net 上添加了 curl。
 - en: The first curl web page was published at `http://www.fts.frontec.se/~dast`.
     (the oldest version archived by the wayback machine is [from December 1998](https://web.archive.org/web/19981202234521/http://www.fts.frontec.se:80/~dast/curl/))
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一个 curl 网页发布在 `http://www.fts.frontec.se/~dast`。（wayback 机器存档的最古老版本是 [1998
+    年 12 月](https://web.archive.org/web/19981202234521/http://www.fts.frontec.se:80/~dast/curl/)）
 - en: In November 1998 I added a note to the website about the mind-blowing success
     as the latest release had been downloaded **300 times**! Success and popularity
     were far from instant.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 1998 年 11 月，我在网站上添加了一条关于令人震惊的成功的说明，因为最新版本已经被下载了**300次**！成功和受欢迎程度远非瞬间之间就能达到的。
 - en: '![](../Images/88d9ef9b759301f85c63ef22ea0d3022.png)'
+  id: totrans-24
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/88d9ef9b759301f85c63ef22ea0d3022.png)'
 - en: Screenshot from the curl website of November 1998
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 1998 年 11 月 curl 网站的截图
 - en: During this first year, we shipped 20 curl releases. We have never repeated
     that feat again.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这第一年，我们发布了 20 个 curl 版本。我们再也没有重复过这一壮举。
 - en: '1999'
+  id: totrans-27
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 1999 年
 - en: We created the first configure script, added support for cookies and appeared
     as a package in Debian Linux.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们创建了第一个配置脚本，添加了对 cookies 的支持，并在 Debian Linux 中作为一个软件包出现。
 - en: The curl website moved to `http://curl.haxx.nu`.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: curl 网站迁移到 `http://curl.haxx.nu`。
 - en: We added support for DICT, LDAP and FILE through the year. Now supporting 8
     protocols.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们通过这一年增加了对 DICT、LDAP 和 FILE 的支持。现在支持 8 种协议。
 - en: In the last days of 1999 we imported the curl code to the cool new service called
     Sourceforge. All further commit counts in curl starts with this import. December
     29, 1999.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 1999 年的最后几天，我们将 curl 代码导入了一个名为 Sourceforge 的新服务。curl 中的所有后续提交计数都从这次导入开始。1999
+    年 12 月 29 日。
 - en: '2000'
+  id: totrans-32
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2000 年
 - en: Privately, I switched jobs early 2000 but continued doing embedded contract
     development during my days.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 私下里，我在 2000 年初换了工作，但白天继续做嵌入式合同开发。
 - en: The rules for the TLD .se changed and we moved the curl website to `[curl.haxx.se](http://curl.haxx.se)`.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: .se 顶级域的规则发生了变化，我们将 curl 网站迁移到 `[curl.haxx.se](http://curl.haxx.se)`。
 - en: I got married.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 我结婚了。
 - en: In August 2000, we shipped curl 7.1 and things changed. This release introduced
     the library we decided to call libcurl because we couldn’t come up with a better
     name. At this point the project were at 17,200 lines of code.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 2000 年 8 月，我们发布了 curl 7.1，事情发生了变化。这个版本引入了我们决定称为 libcurl 的库，因为我们想不出更好的名字。此时项目代码行数为
+    17,200 行。
 - en: The libcurl API was inspired by how `fopen()` works and returns just an opaque
     handle, and how `ioctl()` can be used to set options.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: libcurl API 的灵感来自于 `fopen()` 的工作方式，只返回一个不透明句柄，并且可以使用 `ioctl()` 来设置选项。
 - en: Creating a library out of curl was an idea I had almost from the beginning,
     as I’ve already before that point realized the power a good library can bring
     to applications.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 从一开始，将 curl 创建为一个库是我一直以来的想法，因为在那之前我已经意识到一个好的库可以为应用程序带来的力量。
 - en: The [first CVE for curl](https://curl.se/docs/CVE-2000-0973.html) was reported.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '[curl 的第一个 CVE](https://curl.se/docs/CVE-2000-0973.html) 被报告。'
 - en: Users found the library useful and increased the curl uptake. One of the first
     early adopters of libcurl was the PHP language, which decided to use libcurl as
     their default HTTP/URL transfer engine.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 用户发现这个库很有用，并增加了对 curl 的使用。libcurl 的最早采用者之一是 PHP 语言，他们决定将 libcurl 作为默认的 HTTP/URL
+    传输引擎。
 - en: We created the first test suite.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们创建了第一个测试套件。
 - en: '2001'
+  id: totrans-42
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2001'
 - en: We changed the license and offered curl under the new curl license (effectively
     MIT) as well as MPL. The idea to slightly modify the curl license was a crazy
     one, but the reason for that has been forgotten.
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们更改了许可证，并根据新的curl许可证（实际上是MIT）以及MPL提供了curl。稍微修改curl许可证的想法是一个疯狂的想法，但其原因已经被遗忘。
 - en: We added support for HTTP/1.1 and IPv6.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们添加了对HTTP/1.1和IPv6的支持。
 - en: In June, the THANKS file counted 67 named contributors. This is a team effort.
     We surpassed 1,100 total commits in March and in July curl was 20,000 lines of
     code.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 六月份，感谢文件中列出了67位贡献者。这是一个团队的努力。我们在三月份超过了1,100次提交，在七月份curl有了20,000行代码。
 - en: Apple started bundling curl with Mac OS X when curl 7.7.2 shipped in Mac OS
     X 10.1.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 苹果在Mac OS X中捆绑了curl，当curl 7.7.2在Mac OS X 10.1中发布时。
 - en: '2002'
+  id: totrans-47
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2002'
 - en: The test suite contained 79 test cases.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 测试套件包含了79个测试用例。
 - en: We dropped the MPL option. We would never again play the license change game.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们放弃了MPL选项。我们再也不会玩许可证更改游戏了。
 - en: We added support for [gzip compression](https://zlib.net/) over HTTP and learned
     how to use SOCKS proxies.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们添加了对[HTTP上的gzip压缩](https://zlib.net/)的支持，并学会了如何使用SOCKS代理。
 - en: '2003'
+  id: totrans-51
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2003'
 - en: 'The curl “autobuild” system was introduced: volunteers run scripts on their
     machines that download, build and run the curl tests frequently and email back
     the results to our central server for reporting and analyses. Long before modern
     CI systems made these things so much easier.'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 引入了curl的“自动构建”系统：志愿者在他们的机器上运行脚本，频繁下载、构建和运行curl测试，并将结果通过电子邮件发送回我们的中央服务器进行报告和分析。这些事情在现代CI系统出现之前就已经存在了。
 - en: We added support for Digest, NTLM and Negotiate authentication for HTTP.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们为HTTP添加了Digest、NTLM和Negotiate身份验证的支持。
 - en: In August we offered 40 individual man pages.
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 八月份我们提供了40个单独的man页面。
 - en: Support for FTPS was added, protocol number 9.
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 添加了对FTPS的支持，协议编号为9。
 - en: My first child, Agnes, was born.
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的第一个孩子，Agnes，出生了。
 - en: I forked the ares project and started the [c-ares project](https://c-ares.org/)
     to provide and maintain a library for doing asynchronous name resolves – for curl
     and others. This project has since then also become fairly popular and widely
     used.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 我分叉了ares项目，并开始了[c-ares项目](https://c-ares.org/)，为curl和其他项目提供和维护一个进行异步名称解析的库。这个项目后来也变得相当受欢迎和广泛使用。
 - en: '2004'
+  id: totrans-58
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2004'
 - en: At the beginning of 2003, curl was 32,700 lines of code.
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 2003年初，curl有32,700行代码。
 - en: We made curl support “large files”, which back then meant supporting files larger
     than 2 and 4 gigabytes.
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们让curl支持“大文件”，那时指的是支持大于2和4千兆字节的文件。
 - en: We implemented support for IDN, International Domain Names.
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们实现了对IDN，国际域名的支持。
 - en: '2005'
+  id: totrans-62
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2005'
 - en: GnuTLS become the second supported TLS library. Users could now select which
     TLS library they wanted their build to use.
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: GnuTLS成为第二个受支持的TLS库。用户现在可以选择他们想要使用的TLS库。
 - en: Thanks to a grant from the Swedish “Internetfonden”, I took a leave of absence
     from work and could implement the first version of the [multi_socket() API](https://everything.curl.dev/libcurl/drive/multi-socket)
     to allow applications to do more parallel transfers faster.
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: 多亏了瑞典“Internetfonden”的资助，我从工作中休假，实现了第一个版本的[multi_socket() API](https://everything.curl.dev/libcurl/drive/multi-socket)，以允许应用程序更快地进行更多并行传输。
 - en: '[git](https://git-scm.com/) was created and they quickly adopted curl for their
     HTTP(S) transfers.'
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: '[git](https://git-scm.com/)诞生了，他们迅速采用了curl进行HTTP(S)传输。'
 - en: TFTP became the 10th protocol curl supports.
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: TFTP成为curl支持的第10种协议。
 - en: '2006'
+  id: totrans-67
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2006'
 - en: We decided to drop support for “third party FTP transfers” which made us bump
     the SONAME because of the modified ABI. The most recent such bump. It triggered
     some arguments. We learned how tough bumping the SONAME can be to users.
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们决定放弃对“第三方FTP传输”的支持，这使我们因修改后的ABI而提升了SONAME。最近的这种提升。这引发了一些争论。我们了解到提升SONAME对用户来说是多么困难。
 - en: The [wolfSSL](https://wolfssl.com/) precursor called cyassl became the third
     SSL library curl supported.
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: '[wolfSSL](https://wolfssl.com/)的前身cyassl成为curl支持的第三个SSL库。'
 - en: We added support for HTTP/1.1 Pipelining and in the later half of the year I
     accepted a contract development work for Adobe and added support for SCP and SFTP.
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们添加了对HTTP/1.1 Pipelining的支持，并在年底接受了Adobe的合同开发工作，并添加了对SCP和SFTP的支持。
 - en: As part of the SCP and SFTP work, I took a rather big step into and would later
     become maintainer of the [libssh2](https://libssh2.org/) project. This project
     is also pretty widely used.
+  id: totrans-71
   prefs: []
   type: TYPE_NORMAL
+  zh: 作为SCP和SFTP工作的一部分，我迈出了一个相当大的步伐，并后来成为[libssh2项目](https://libssh2.org/)的维护者。这个项目也被广泛使用。
 - en: I had a second child, my son Rex.
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: 我有了第二个孩子，我的儿子Rex。
 - en: '2007'
+  id: totrans-73
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2007'
 - en: 'Now at 51,500 lines of code we added support for a fourth SSL library: NSS'
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在有51,500行代码，我们增加了对第四个SSL库NSS的支持。
 - en: We added support for LDAPS and the first port to OS/400 was merged.
+  id: totrans-75
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们增加了对LDAPS的支持，并合并了对OS/400的第一个端口。
 - en: For curl 7.16.1 we added support for `[--libcurl](https://everything.curl.dev/libcurl/libcurl)`.
     Possibly my single favorite curl command line option. Generate libcurl-using source
     code repeating the command line transfer.
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于curl 7.16.1，我们增加了对`[--libcurl](https://everything.curl.dev/libcurl/libcurl)`的支持。可能是我最喜欢的curl命令行选项。生成使用libcurl的源代码，重复命令行传输。
 - en: In April, curl had 348 test cases.
+  id: totrans-77
   prefs: []
   type: TYPE_NORMAL
+  zh: 四月份，curl有348个测试用例。
 - en: '2008'
+  id: totrans-78
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2008'
 - en: By now the command line tool had grown to feature 126 command line options.
     A 5x growth during curl’s ten first years.
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: 到目前为止，命令行工具已经增长到拥有126个命令行选项。在curl的前十年中增长了5倍。
 - en: In March we surpassed 10,000 commits.
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: 三月份，我们的提交次数超过了10,000次。
 - en: I joined the [httpbis working group mailing list](https://lists.w3.org/Archives/Public/ietf-http-wg/)
     and started slowly to actively participate within the IETF and the work on the
     HTTP protocol.
+  id: totrans-81
   prefs: []
   type: TYPE_NORMAL
+  zh: 我加入了[httpbis工作组邮件列表](https://lists.w3.org/Archives/Public/ietf-http-wg/)，并开始在IETF和HTTP协议的工作中积极参与。
 - en: Solaris ships curl and libcurl. The Adobe flash player on Linux uses libcurl.
+  id: totrans-82
   prefs: []
   type: TYPE_NORMAL
+  zh: Solaris发行了curl和libcurl。Linux上的Adobe Flash播放器使用了libcurl。
 - en: In September the total count of curl contributors reached 654.
+  id: totrans-83
   prefs: []
   type: TYPE_NORMAL
+  zh: 九月份，curl的贡献者总数达到了654人。
 - en: '2009'
+  id: totrans-84
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2009'
 - en: On [FLOSS Weekly 51](https://twit.tv/shows/floss-weekly/episodes/51), I talked
     about curl on a [podcast](https://daniel.haxx.se/podcasts.html) for the first
     time.
+  id: totrans-85
   prefs: []
   type: TYPE_NORMAL
+  zh: 在[FLOSS Weekly 51](https://twit.tv/shows/floss-weekly/episodes/51)上，我第一次在[播客](https://daniel.haxx.se/podcasts.html)中谈到了curl。
 - en: We introduced support for building curl with [cmake](https://cmake.org/). A
     decision that is still being discussed and questioned if it actually helps us.
     To make the loop complete, cmake itself uses libcurl.
+  id: totrans-86
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们引入了使用[cmake](https://cmake.org/)构建curl的支持。这个决定仍在讨论中，人们质疑它是否真的有帮助。为了使循环完整，cmake本身使用了libcurl。
 - en: 'In July [the IETF 75 meeting](https://www.ietf.org/proceedings/75/) was held
     in Stockholm, my home town, and this was the first time I got to physically meet
     several of my personal protocol heroes that created and kept working on the HTTP
     protocol: Mark, Roy, Larry, Julian etc.'
+  id: totrans-87
   prefs: []
   type: TYPE_NORMAL
+  zh: 七月份，IETF 75会议在斯德哥尔摩举行，这是我第一次亲自见到几位个人协议英雄，他们创造并继续致力于HTTP协议：Mark、Roy、Larry、Julian等。
 - en: In August, I quit my job [to work for my own](https://daniel.haxx.se/blog/2009/08/30/going-full-time-haxx/)
     company Haxx, but still doing contracted development. Mostly doing embedded Linux
     by then.
+  id: totrans-88
   prefs: []
   type: TYPE_NORMAL
+  zh: 八月份，我辞去了工作，[为自己的公司Haxx工作](https://daniel.haxx.se/blog/2009/08/30/going-full-time-haxx/)，但仍在进行合同开发。那时主要是做嵌入式Linux。
 - en: Thanks to yet another contract, I introduced support for IMAP(S), SMTP(S) and
     POP3(S) to curl, bumping the number of supported protocols to 19.
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
+  zh: 多亏又一份合同，我为curl引入了对IMAP(S)、SMTP(S)和POP3(S)的支持，将支持的协议数量提升到19个。
 - en: I was [awarded the Nordic Free Software Award 2009](https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/).
     For my work on curl, c-ares and libssh2.
+  id: totrans-90
   prefs: []
   type: TYPE_NORMAL
+  zh: 我获得了[2009年北欧自由软件奖](https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/)，以表彰我在curl、c-ares和libssh2上的工作。
 - en: '2010'
+  id: totrans-91
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2010'
 - en: We added support for RTSP, and RTMP(S).
+  id: totrans-92
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们增加了对RTSP和RTMP(S)的支持。
 - en: PolarSSL became the 6th supported SSL library.
+  id: totrans-93
   prefs: []
   type: TYPE_NORMAL
+  zh: PolarSSL成为第6个支持的SSL库。
 - en: We switched version control system from CVS to git and at the same time we switched
     hosting from Sourceforge to [GitHub](https://github.com/). From this point on
     we track authorship of commits correctly and appropriately, something that was
     much harder to do with CVS.
+  id: totrans-94
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们从CVS切换到git版本控制系统，同时也从Sourceforge切换到[GitHub](https://github.com/)。从那时起，我们正确和适当地跟踪提交的作者，这在CVS中要困难得多。
 - en: Added support for the AxTLS library. The 7th.
+  id: totrans-95
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对AxTLS库的支持。这是第7个版本。
 - en: '2011'
+  id: totrans-96
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2011'
 - en: Over 80,000 lines of code.
+  id: totrans-97
   prefs: []
   type: TYPE_NORMAL
+  zh: 超过80,000行代码。
 - en: The [cookie RFC 6265 shipped](https://daniel.haxx.se/blog/2011/04/28/the-cookie-rfc-6265/).
     I was there and did some minor contributions for it.
+  id: totrans-98
   prefs: []
   type: TYPE_NORMAL
+  zh: '[cookie RFC 6265发布](https://daniel.haxx.se/blog/2011/04/28/the-cookie-rfc-6265/)。我参与其中并做了一些小的贡献。'
 - en: We introduced the `[checksrc](https://github.com/curl/curl/blob/master/docs/CHECKSRC.md)`
     script that verifies that source code adheres to the curl code style. Started
     out simple, has improved and been made stricter over time.
+  id: totrans-99
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们引入了`[checksrc](https://github.com/curl/curl/blob/master/docs/CHECKSRC.md)`脚本，用于验证源代码是否符合curl的代码风格。一开始很简单，随着时间的推移得到改进并变得更加严格。
 - en: I got a [thank you from Googlers](https://daniel.haxx.se/blog/2011/12/06/a-special-thank-you-from-google/)
     which eventually landed me some Google swag.
+  id: totrans-100
   prefs: []
   type: TYPE_NORMAL
+  zh: 我收到了来自谷歌员工的 [感谢](https://daniel.haxx.se/blog/2011/12/06/a-special-thank-you-from-google/)，最终为我带来了一些谷歌周边产品。
 - en: We surpassed 100 individual committers.
+  id: totrans-101
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们超过了 100 位独立的提交者。
 - en: '2012'
+  id: totrans-102
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2012'
 - en: 149 command line options.
+  id: totrans-103
   prefs: []
   type: TYPE_NORMAL
+  zh: 149 个命令行选项。
 - en: Added support for Schannel and Secure Transport for TLS.
+  id: totrans-104
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对 Schannel 和 Secure Transport 的支持。
 - en: When I did an attempt at a vanity count of number of curl users, I ended up
     estimating they were [550 million](https://daniel.haxx.se/blog/2012/05/16/300m-users/).
     This was one of the earlier realizations of mine that *man, curl is everywhere!*
+  id: totrans-105
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我试图估算 curl 用户数量时，我最终估计他们有 [5.5 亿](https://daniel.haxx.se/blog/2012/05/16/300m-users/)。这是我早期意识到
+    *哇，curl 到处都是！* 的一个体现。
 - en: During the entire year of 2012, there were 67 commit authors.
+  id: totrans-106
   prefs: []
   type: TYPE_NORMAL
+  zh: 在整个 2012 年，有 67 位提交作者。
 - en: '2013'
+  id: totrans-107
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2013'
 - en: Added support for GSKit, a TLS library mostly used on OS/400\. The 10th supported
     TLS library.
+  id: totrans-108
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对 GSKit 的支持，这是主要用于 OS/400 的 TLS 库。第 10 种支持的 TLS 库。
 - en: In April the number of contributors had surpassed 1,000 and we reached over
     800 test cases.
+  id: totrans-109
   prefs: []
   type: TYPE_NORMAL
+  zh: 四月份，贡献者人数超过了 1,000 人，我们达到了 800 多个测试用例。
 - en: We refactored the internals to make sure everything is done non-blocking and
     what we call “use multi internally” so that the easy interface is just a wrapper
     for a multi transfer.
+  id: totrans-110
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们重构了内部结构，确保一切都是非阻塞的，并且我们称之为“内部使用多传输”，这样易用的接口只是多传输的一个包装器。
 - en: The initial attempts at HTTP/2 support were merged (powered by the great [nghttp2](https://nghttp2.org/)
     library) as well as support for doing connects using the Happy Eyeballs approach.
+  id: totrans-111
   prefs: []
   type: TYPE_NORMAL
+  zh: 最初的 HTTP/2 支持尝试被合并（由伟大的 [nghttp2](https://nghttp2.org/) 库提供支持），以及使用 Happy Eyeballs
+    方法进行连接的支持。
 - en: We created our first two CI jobs.
+  id: totrans-112
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们创建了我们的前两个 CI 作业。
 - en: '2014'
+  id: totrans-113
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2014'
 - en: I [started working for Mozilla](https://daniel.haxx.se/blog/2014/01/13/this-is-my-first-day-at-mozilla/)
     in the Firefox networking team, remotely from my house in Sweden. For the first
     time in my career, I would actually work primarily with networking and HTTP etc
     with a significant overlap with what curl is and does. Up until this point, the
     two sides of my life had been strangely separated. Mozilla allowed me to spend
     some work hours on curl.
+  id: totrans-114
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在 Mozilla 的 Firefox 网络团队开始工作，远程从瑞典的家中工作。这是我职业生涯中第一次主要从事网络和 HTTP 等工作，与 curl
+    的工作有很大的重叠。直到这一刻，我生活的两个方面一直奇怪地分开。Mozilla 允许我在 curl 上花费一些工作时间。
 - en: At 161 command line options and 20 reported CVEs.
+  id: totrans-115
   prefs: []
   type: TYPE_NORMAL
+  zh: 共有 161 个命令行选项和 20 个报告的 CVE。
 - en: 59 man pages exploded into 270 man pages in July when every libcurl option got
     its own separate page.
+  id: totrans-116
   prefs: []
   type: TYPE_NORMAL
+  zh: 59 个 man 页面在七月份爆炸性增长到了 270 个 man 页面，当时每个 libcurl 选项都有自己的独立页面。
 - en: We added support for the [libressl](https://www.libressl.org/) OpenSSL fork
     and removed support for QsoSSL. Still at 10 supported TLS libraries.
+  id: totrans-117
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们增加了对 [libressl](https://www.libressl.org/) OpenSSL 分支的支持，并移除了对 QsoSSL 的支持。仍然支持
+    10 种 TLS 库。
 - en: In September, there was 105,000 lines of code.
+  id: totrans-118
   prefs: []
   type: TYPE_NORMAL
+  zh: 九月份，代码行数达到了 105,000 行。
 - en: Added support for SMB(S). 24 protocols.
+  id: totrans-119
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对 SMB(S) 24 协议的支持。
 - en: '2015'
+  id: totrans-120
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2015'
 - en: Added support for BoringSSL and mbedTLS.
+  id: totrans-121
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对 BoringSSL 和 mbedTLS 的支持。
 - en: We introduced support for doing proper multiplexed transfers using HTTP/2\.
     A pretty drastic paradigm change in the architecture when suddenly multiple transfers
     would share a single connection. Lots of refactors and it took a while until HTTP/2
     support got stable.
+  id: totrans-122
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们引入了支持使用 HTTP/2 进行适当的多路传输。当多个传输共享一个连接时，这是架构上的一次相当激进的范式变化。进行了大量的重构，直到 HTTP/2
+    支持变得稳定。
 - en: It followed by our first support for HTTP/2 server push.
+  id: totrans-123
   prefs: []
   type: TYPE_NORMAL
+  zh: 随后是我们对 HTTP/2 服务器推送的第一次支持。
 - en: We switched over to the GitHub working model completely, using its issue tracker
     and doing pull-requests.
+  id: totrans-124
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们完全转向了 GitHub 的工作模式，使用其问题跟踪器并进行拉取请求。
 - en: The first [HTTP/2 RFC was published in May](https://daniel.haxx.se/blog/2015/05/15/rfc-7540-is-http2/).
     I like to think I contributed a little bit to the working group effort behind
     it.
+  id: totrans-125
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一份 [HTTP/2 RFC 在五月份发布](https://daniel.haxx.se/blog/2015/05/15/rfc-7540-is-http2/)。我想我对背后的工作组努力做出了一点贡献。
 - en: My HTTP/2 work this year was in part sponsored by Netflix and it was a dance
     to make that happen while still employed by and working for Mozilla.
+  id: totrans-126
   prefs: []
   type: TYPE_NORMAL
+  zh: 今年我的 HTTP/2 工作部分由 Netflix 赞助，这是一场在仍然受雇于 Mozilla 并为其工作的情况下发生的舞蹈。
 - en: 20,000 commits.
+  id: totrans-127
   prefs: []
   type: TYPE_NORMAL
+  zh: 20,000 次提交。
 - en: I started writing [everything curl](https://everything.curl.dev/).
+  id: totrans-128
   prefs: []
   type: TYPE_NORMAL
+  zh: 我开始写作 [everything curl](https://everything.curl.dev/)。
 - en: We also added support for [libpsl](https://github.com/rockdaboot/libpsl), using
     the [Public Suffix List](https://publicsuffix.org/) for better cookie handling.
+  id: totrans-129
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们还添加了对[libpsl](https://github.com/rockdaboot/libpsl)的支持，使用[公共后缀列表](https://publicsuffix.org/)来更好地处理cookie。
 - en: '2016'
+  id: totrans-130
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2016年
 - en: curl switched to using HTTP/2 by default for HTTPS transfers.
+  id: totrans-131
   prefs: []
   type: TYPE_NORMAL
+  zh: curl默认切换到使用HTTP/2进行HTTPS传输。
 - en: In May, curl feature 185 command line options.
+  id: totrans-132
   prefs: []
   type: TYPE_NORMAL
+  zh: 五月，curl具有185个命令行选项。
 - en: We got a [new logo](https://daniel.haxx.se/blog/2016/05/27/a-new-curl-logo/),
     the present one. Designed by Adrian Burcea at Soft Dreams.
+  id: totrans-133
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们有了[新标志](https://daniel.haxx.se/blog/2016/05/27/a-new-curl-logo/)，现在这个。由Soft
+    Dreams的Adrian Burcea设计。
 - en: Added support for HTTPS proxies and TLS 1.3.
+  id: totrans-134
   prefs: []
   type: TYPE_NORMAL
+  zh: 添加了对HTTPS代理和TLS 1.3的支持。
 - en: curl was [audited by Cure 53](https://daniel.haxx.se/blog/2016/11/23/curl-security-audit/).
+  id: totrans-135
   prefs: []
   type: TYPE_NORMAL
+  zh: curl被[Cure 53审计](https://daniel.haxx.se/blog/2016/11/23/curl-security-audit/)。
 - en: A Swedish tech site named me [2nd best developer in Sweden](https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/).
     Because of my work on curl.
+  id: totrans-136
   prefs: []
   type: TYPE_NORMAL
+  zh: 一家名为瑞典技术网站将我评为瑞典第二好的开发者，因为我在curl上的工作。
 - en: At 115,500 lines of code at the end of the year.
+  id: totrans-137
   prefs: []
   type: TYPE_NORMAL
+  zh: 年底代码行数达到115,500行。
 - en: '2017'
+  id: totrans-138
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2017年
 - en: curl got support for building with and using multiple TLS libraries and doing
     the choice of which to use at start-up.
+  id: totrans-139
   prefs: []
   type: TYPE_NORMAL
+  zh: curl支持使用多个TLS库构建和使用，并在启动时选择使用哪个。
 - en: Fastly reached out and graciously and generously [started hosting](https://daniel.haxx.se/blog/2017/05/02/a-curl-delivery-network/)
     the curl website as well as my personal website. This help putting the end to
     previous instabilities when blog posts got too popular for my site to hold up
     and it made the curl site snappier for more people around the globe. They have
     remained faithful sponsors of the project ever since.
+  id: totrans-140
   prefs: []
   type: TYPE_NORMAL
+  zh: Fastly联系并慷慨地[开始托管](https://daniel.haxx.se/blog/2017/05/02/a-curl-delivery-network/)curl网站以及我的个人网站。这有助于解决以前博客文章过于受欢迎而导致网站无法支撑的不稳定性，并使curl网站对全球更多人变得更快。自那时起，他们一直是该项目的忠实赞助商。
 - en: In the spring of 2017, we had our first ever physical developers conference,
     [curl up](https://github.com/curl/curl-up/wiki), as twenty something curl fans
     and developers [went to Nuremberg](https://daniel.haxx.se/blog/2017/03/20/curlup-2017-curl-now/),
     Germany to spend a weekend doing nothing but curl stuff.
+  id: totrans-141
   prefs: []
   type: TYPE_NORMAL
+  zh: 2017年春天，我们举办了有史以来第一次的实体开发者大会，[curl up](https://github.com/curl/curl-up/wiki)，作为二十多名curl粉丝和开发者前往德国纽伦堡度过一个周末，什么都不做，只做curl相关的事情。
 - en: In June I was [denied traveling to the US](https://daniel.haxx.se/blog/2017/06/28/denied-entry/).
     This would subsequently take me on a prolonged and painful adventure trying to
     get a US visa.
+  id: totrans-142
   prefs: []
   type: TYPE_NORMAL
+  zh: 六月，我被[拒绝前往美国](https://daniel.haxx.se/blog/2017/06/28/denied-entry/)。随后，这使我陷入了一场漫长而痛苦的冒险，试图获得美国签证。
 - en: The first [SSLKEYLOGFILE](https://everything.curl.dev/usingcurl/tls/sslkeylogfile#sslkeylogfile)
     support landed, we introduced the new MIME API and support for brotli compression.
+  id: totrans-143
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一个[SSLKEYLOGFILE](https://everything.curl.dev/usingcurl/tls/sslkeylogfile#sslkeylogfile)支持到位，我们引入了新的MIME
+    API和对brotli压缩的支持。
 - en: The curl project was adopted into the [OSS-Fuzz project](https://google.github.io/oss-fuzz/),
     which immediately started to point out mistakes in our code. They have kept fuzzing
     curl nonstop since then.
+  id: totrans-144
   prefs: []
   type: TYPE_NORMAL
+  zh: curl项目被纳入[OSS-Fuzz项目](https://google.github.io/oss-fuzz/)，该项目立即开始指出我们代码中的错误。从那时起，他们一直在不停地对curl进行模糊测试。
 - en: In October, I was [awarded the Polhem Prize](https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/).
     Sweden’s oldest and probably most prestigious engineering award. This prize was
     established and has been awarded since 1876\. A genuine gold medal, handed over
     to me by no other than his majesty the king of Sweden. The medal even has my name
     engraved.
+  id: totrans-145
   prefs: []
   type: TYPE_NORMAL
+  zh: 十月，我被授予[波尔海姆奖](https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/)。瑞典最古老且可能是最负盛名的工程奖。该奖项自1876年设立并颁发至今。一枚真正的金质奖牌，由瑞典国王亲自颁发给我。奖牌上甚至刻有我的名字。
 - en: '2018'
+  id: totrans-146
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2018年
 - en: Added support for DNS over HTTPS and the new URL API was introduced to allow
     applications to parse URLs the exact same way curl does it.
+  id: totrans-147
   prefs: []
   type: TYPE_NORMAL
+  zh: 添加了对DNS over HTTPS的支持，并引入了新的URL API，允许应用程序以与curl完全相同的方式解析URL。
 - en: I joined the [Changelog podcast and talked about curl](https://changelog.com/podcast/299)
     turning 20.
+  id: totrans-148
   prefs: []
   type: TYPE_NORMAL
+  zh: 我参加了[Changelog播客并谈论了curl](https://changelog.com/podcast/299)的20周年。
 - en: Microsoft started shipping curl bundled with Windows. But [the curl alias remains](https://daniel.haxx.se/blog/2016/08/19/removing-the-powershell-curl-alias/).
+  id: totrans-149
   prefs: []
   type: TYPE_NORMAL
+  zh: 微软开始捆绑curl与Windows一起发布。但是[curl别名仍然存在](https://daniel.haxx.se/blog/2016/08/19/removing-the-powershell-curl-alias/)。
 - en: We introduced support for a second SSH library, so now SCP and SFTP could be
     powered by [libssh](https://libssh.org) in addition to the already supported [libssh2](https://libssh2.org/)
     library.
+  id: totrans-150
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们引入了对第二个SSH库的支持，因此现在SCP和SFTP可以由[libssh](https://libssh.org)提供支持，除了已支持的[libssh2](https://libssh2.org/)库。
 - en: We added support for MesaLink but dropped support for AxTLS. At 12 TLS libraries.
+  id: totrans-151
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们增加了对MesaLink的支持，但放弃了对AxTLS的支持。共计12个TLS库。
 - en: 129,000 lines of code. Reached 10,000 stars on GitHub.
+  id: totrans-152
   prefs: []
   type: TYPE_NORMAL
+  zh: 代码行数达到了129,000行。在GitHub上获得了1万颗星。
 - en: To accept a donation it was requested we create an account with [Open Collective](https://opencollective.com/curl),
     and so we did. It has since been a good channel for the project to receive donations
     and sponsorships.
+  id: totrans-153
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了接受捐赠，我们被要求在[Open Collective](https://opencollective.com/curl)上创建一个账户，于是我们这样做了。这后来成为项目接受捐赠和赞助的一个良好渠道。
 - en: In November 2018 it was decided that the HTTP-over-QUIC protocol should officially
     become HTTP/3.
+  id: totrans-154
   prefs: []
   type: TYPE_NORMAL
+  zh: 2018年11月，决定将HTTP-over-QUIC协议正式成为HTTP/3。
 - en: At 27 CI jobs at the end of the year. Running over 1200 test cases.
+  id: totrans-155
   prefs: []
   type: TYPE_NORMAL
+  zh: 年底时有27个CI作业。运行了超过1200个测试用例。
 - en: '2019'
+  id: totrans-156
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2019年
 - en: I [started working for wolfSSL](https://daniel.haxx.se/blog/2019/02/02/im-on-team-wolfssl/),
     doing curl full-time. It just took 21 years to make curl my job.
+  id: totrans-157
   prefs: []
   type: TYPE_NORMAL
+  zh: 我[开始为wolfSSL工作](https://daniel.haxx.se/blog/2019/02/02/im-on-team-wolfssl/)，全职从事curl工作。花了21年才让curl成为我的工作。
 - en: We added support for Alt-Svc and we removed support for the always so [problematic
     HTTP/1.1 Pipelining](https://daniel.haxx.se/blog/2019/04/06/curl-says-bye-bye-to-pipelining/).
+  id: totrans-158
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们添加了对Alt-Svc的支持，并移除了一直存在问题的HTTP/1.1 Pipelining的支持。
 - en: We introduced our first curl [bug bounty](https://curl.se/docs/bugbounty.html)
     program and we have effectively had a bug bounty running since. In association
     with [hackerone](https://hackerone.com/curl). We have paid almost 50,000 USD in
     reward money for 45 vulnerabilities (up to Feb 2023).
+  id: totrans-159
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们推出了我们的第一个curl[漏洞赏金](https://curl.se/docs/bugbounty.html)计划，自那以来我们一直有效地进行着漏洞赏金活动。与[hackerone](https://hackerone.com/curl)合作。我们已经支付了近5万美元的奖励金用于发现45个漏洞（截至2023年2月）。
 - en: 'Added support for [AmiSSL](https://github.com/jens-maus/amissl) and [BearSSL](https://bearssl.org/):
     at 14 libraries.'
+  id: totrans-160
   prefs: []
   type: TYPE_NORMAL
+  zh: 增加了对[AmiSSL](https://github.com/jens-maus/amissl)和[BearSSL](https://bearssl.org/)的支持：共计14个库。
 - en: 'We merged [initial support for HTTP/3](https://daniel.haxx.se/blog/2019/08/05/first-http-3-with-curl/),
     powered by the [quiche](https://docs.quic.tech/quiche/) library, and a little
     later also with a second library: [ngtcp2](https://github.com/ngtcp2/ngtcp2).
     Because why not do many backends?'
+  id: totrans-161
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们合并了[对HTTP/3的初始支持](https://daniel.haxx.se/blog/2019/08/05/first-http-3-with-curl/)，由[quiche](https://docs.quic.tech/quiche/)库提供支持，稍后还使用了第二个库：[ngtcp2](https://github.com/ngtcp2/ngtcp2)。因为为什么不使用多个后端呢？
 - en: We started offering curl in an “official” [docker image](https://hub.docker.com/r/curlimages/curl).
+  id: totrans-162
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们开始提供curl的“官方”[docker镜像](https://hub.docker.com/r/curlimages/curl)。
 - en: '2020'
+  id: totrans-163
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2020年
 - en: The curl tool got parallel transfer powers, the ability to output data in JSON
     format with `-w` and the scary `--help` output was cleaned up and arranged better
     into subcategories.
+  id: totrans-164
   prefs: []
   type: TYPE_NORMAL
+  zh: curl工具获得了并行传输功能，可以使用`-w`以JSON格式输出数据，而令人恐惧的`--help`输出被清理整理得更好，分成了子类别。
 - en: In March, for [curl 7.69.0](https://youtu.be/X7Jlv87Nb8Y), I started doing release
     video presentations, live-streamed.
+  id: totrans-165
   prefs: []
   type: TYPE_NORMAL
+  zh: 2020年3月，对于[curl 7.69.0](https://youtu.be/X7Jlv87Nb8Y)，我开始进行发布视频演示，进行直播。
 - en: The [curl website](https://curl.se/) moved to `curl.se` and [everything curl](https://everything.curl.dev/)
     moved over to the `curl.dev` domain.
+  id: totrans-166
   prefs: []
   type: TYPE_NORMAL
+  zh: '[curl网站](https://curl.se/)迁移到了`curl.se`，而[everything curl](https://everything.curl.dev/)迁移到了`curl.dev`域名。'
 - en: MQTT become the 25th supported protocol.
+  id: totrans-167
   prefs: []
   type: TYPE_NORMAL
+  zh: MQTT成为第25个支持的协议。
 - en: The first support for HSTS was added, as well as support for zstd compression.
+  id: totrans-168
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一次添加了对HSTS的支持，以及对zstd压缩的支持。
 - en: '[wolfSSH](https://www.wolfssl.com/products/wolfssh/) became the third supported
     SSH library.'
+  id: totrans-169
   prefs: []
   type: TYPE_NORMAL
+  zh: '[wolfSSH](https://www.wolfssl.com/products/wolfssh/)成为第三个支持的SSH库。'
 - en: We removed support for PolarSSL.
+  id: totrans-170
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们移除了对PolarSSL的支持。
 - en: Initial [support for hyper](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)
     as an alternative backend for HTTP/1 and HTTP/2.
+  id: totrans-171
   prefs: []
   type: TYPE_NORMAL
+  zh: 初始[对hyper的支持](https://daniel.haxx.se/blog/2020/10/09/rust-in-curl-with-hyper/)作为HTTP/1和HTTP/2的替代后端。
 - en: In November, in the middle of Covid, I [finally got a US visa](https://daniel.haxx.se/blog/2020/11/09/a-us-visa-in-937-days/).
+  id: totrans-172
   prefs: []
   type: TYPE_NORMAL
+  zh: 2020年11月，在新冠疫情期间，我[终于获得了美国签证](https://daniel.haxx.se/blog/2020/11/09/a-us-visa-in-937-days/)。
 - en: The 90th CI job was created just before the end of the year.
+  id: totrans-173
   prefs: []
   type: TYPE_NORMAL
+  zh: 第90个CI作业在年底前刚刚创建。
 - en: '2021'
+  id: totrans-174
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 2021年
 - en: Dropped support for MesaLink but added support for rustls. At 13 TLS libraries.
+  id: totrans-175
   prefs: []
   type: TYPE_NORMAL
+  zh: 放弃了对MesaLink的支持，但增加了对rustls的支持。共计13个TLS库。
 - en: Ingenuity landed on Mars, and [curl helped it happen](https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/).
+  id: totrans-176
   prefs: []
   type: TYPE_NORMAL
+  zh: Ingenuity 登陆火星，而 [curl 帮助实现了这一切](https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/)。
 - en: Received a very unpleasant [death threat over email](https://un.curl.dev/emails/slaughter)
     from someone deeply confused, blaming me for all sorts of bad things that happened
     to him.
+  id: totrans-177
   prefs: []
   type: TYPE_NORMAL
+  zh: 收到了一封非常不愉快的 [死亡威胁邮件](https://un.curl.dev/emails/slaughter)，来自一个深感困惑的人，责怪我发生在他身上的各种不好的事情。
 - en: Reached 20,000 stars on GitHub.
+  id: totrans-178
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 GitHub 上获得了 20,000 颗星。
 - en: Supports GOPHERS. 26 protocols.
+  id: totrans-179
   prefs: []
   type: TYPE_NORMAL
+  zh: 支持 GOPHERS。共支持 26 种协议。
 - en: 187 individuals authored commits that were merged during the year.
+  id: totrans-180
   prefs: []
   type: TYPE_NORMAL
+  zh: 187 个个人在今年合并的提交中拥有作者身份。
 - en: '2022'
+  id: totrans-181
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2022'
 - en: Merged initial support WebSocket (`WS://` and `WSS://` URLs) and a new API for
     handling it. At 28 protocols.
+  id: totrans-182
   prefs: []
   type: TYPE_NORMAL
+  zh: 合并了对 WebSocket 的初始支持（`WS://` 和 `WSS://` URL）以及一个新的处理它的 API。共支持 28 种协议。
 - en: We added the `[--json](https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/)`
     command line option and libcurl got a new [header API](https://daniel.haxx.se/blog/2022/03/22/a-headers-api-for-libcurl/),
     which then also made the command line tool get new [“header picking” ability](https://daniel.haxx.se/blog/2022/03/24/easier-header-picking-with-curl/)
     added to `-w`. We also added `[--rate](https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/)`
     and `[--url-query](https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/)`.
+  id: totrans-183
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们添加了 `[--json](https://daniel.haxx.se/blog/2022/02/02/curl-dash-dash-json/)`
+    命令行选项，libcurl 得到了一个新的 [header API](https://daniel.haxx.se/blog/2022/03/22/a-headers-api-for-libcurl/)，然后也使命令行工具得到了新的“header
+    picking”能力，添加到 `-w`。我们还添加了 `[--rate](https://daniel.haxx.se/blog/2022/05/23/curl-offers-repeated-transfers-at-slower-pace/)`
+    和 `[--url-query](https://daniel.haxx.se/blog/2022/11/10/append-data-to-the-url-query/)`。
 - en: The [HTTP/3 RFC](https://datatracker.ietf.org/doc/html/rfc9114) was published
     in June.
+  id: totrans-184
   prefs: []
   type: TYPE_NORMAL
+  zh: '[HTTP/3 RFC](https://datatracker.ietf.org/doc/html/rfc9114) 在 6 月发布。'
 - en: '[msh3](https://github.com/nibanks/msh3) become the third supported HTTP/3 library.'
+  id: totrans-185
   prefs: []
   type: TYPE_NORMAL
+  zh: '[msh3](https://github.com/nibanks/msh3) 成为第三个支持的 HTTP/3 库。'
 - en: Trail of Bits did a [curl security audit](https://daniel.haxx.se/blog/2022/12/21/the-2022-curl-security-audit/),
     sponsored by [OpenSSF](https://openssf.org/).
+  id: totrans-186
   prefs: []
   type: TYPE_NORMAL
+  zh: Trail of Bits 进行了由 [OpenSSF](https://openssf.org/) 赞助的 [curl 安全审计](https://daniel.haxx.se/blog/2022/12/21/the-2022-curl-security-audit/)。
 - en: The 212th curl release was done in December. Issue **10,000** was created on
     GitHub.
+  id: totrans-187
   prefs: []
   type: TYPE_NORMAL
+  zh: 第 212 个 curl 发布是在 12 月完成的。GitHub 上创建了第 **10,000** 个问题。
 - en: '2023'
+  id: totrans-188
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '2023'
 - en: 'At the start of the year: 155,100 lines of code. 486 man pages. 1560 test cases.
     2,771 contributors. 1,105 commit authors. 132 CVEs. 122 CI jobs. 29,733 commits.
     48,580 USD rewarded in bug-bounties. 249 command line options. 28 protocols. 13
     TLS libraries. 3 SSH libraries. 3 HTTP/3 libraries.'
+  id: totrans-189
   prefs: []
   type: TYPE_NORMAL
+  zh: 年初：155,100 行代码。486 个 man 页面。1560 个测试用例。2,771 个贡献者。1,105 个提交作者。132 个 CVE。122
+    个 CI 作业。29,733 次提交。48,580 美元的漏洞赏金。249 个命令行选项。28 种协议。13 个 TLS 库。3 个 SSH 库。3 个 HTTP/3
+    库。
 - en: Introduce support for HTTP/3 with fall-back to older versions, making it less
     error-prone to use it.
+  id: totrans-190
   prefs: []
   type: TYPE_NORMAL
+  zh: 引入对 HTTP/3 的支持，并回退到旧版本，使其使用起来更少出错。
 - en: On March 13 we surpassed **30,000** commits.
+  id: totrans-191
   prefs: []
   type: TYPE_NORMAL
+  zh: 3 月 13 日，我们超过了 **30,000** 次提交。
 - en: On March 20, we release curl 8.0.0\. Exactly 25 years since the first curl release.
+  id: totrans-192
   prefs: []
   type: TYPE_NORMAL
+  zh: 3 月 20 日，我们发布了 curl 8.0.0。距离第一个 curl 发布已经整整 25 年。
 - en: Staying relevant
+  id: totrans-193
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 保持相关性
 - en: Over the last 25 years we have all stopped using and forgotten lots of software,
     tools and services. Things come and go. Everything has its time and lots of projects
     simply do not keep up and gets replaced by something else at some point.
+  id: totrans-194
   prefs: []
   type: TYPE_NORMAL
+  zh: 在过去的 25 年里，我们都停止使用和遗忘了许多软件、工具和服务。事物来来去去。一切都有它的时机，许多项目在某个时刻无法跟上并被其他东西取代。
 - en: I like to think that curl is still a highly relevant software project with lots
     of users and use cases. I want to think that this is partly because we maintain
     it intensely and with both care and love. We make it do what users want it to
     do. Keep up, keep current, run the latest versions, support the latest security
     measures, be the project you would like to use and participate. Lead by example.
+  id: totrans-195
   prefs: []
   type: TYPE_NORMAL
+  zh: 我认为 curl 仍然是一个非常相关的软件项目，拥有大量用户和用例。我想这部分是因为我们密切维护它，并充满关怀和爱。我们让它做用户想要的事情。保持更新，跟上潮流，运行最新版本，支持最新的安全措施，成为您想要使用和参与的项目。以身作则。
 - en: My life is forever curl tinted
+  id: totrans-196
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 我的生活永远被 curl 染色
 - en: Taking curl this far and being able to work full time on my hobby project is
     a dream come real. curl is a huge part of my life.
+  id: totrans-197
   prefs: []
   type: TYPE_NORMAL
+  zh: 将 curl 发展到这一步，并且能够全职从事我的爱好项目是一个梦想成真。curl 是我生活的重要组成部分。
 - en: '[![](../Images/518ac1d7356bd9ea0a66eeac7dbbeb75.png)](https://daniel.haxx.se/blog/wp-content/uploads/2023/02/daniel-curl-back.jpg)'
+  id: totrans-198
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![](../Images/518ac1d7356bd9ea0a66eeac7dbbeb75.png)](https://daniel.haxx.se/blog/wp-content/uploads/2023/02/daniel-curl-back.jpg)'
 - en: Me, on vacation in Portugal in 2019.
+  id: totrans-199
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在2019年在葡萄牙度假时的照片。
 - en: This said, curl is a team effort and it would never have taken off or become
     anything real without all our awesome contributors. People will call me “the curl
     guy” and some will say that it is “my” project, but everyone who has ever been
     close to the project knows that we are many more in the team than just me.
+  id: totrans-200
   prefs: []
   type: TYPE_NORMAL
+  zh: 话虽如此，curl是一个团队的努力，没有我们所有出色的贡献者，它永远不会起飞或成为真正的东西。人们会称我为“curl的那个人”，有些人会说这是“我的”项目，但每一个曾经接近这个项目的人都知道我们的团队不仅仅是我一个人。
 - en: 25 years
+  id: totrans-201
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 25年
 - en: That day found httpget I was 26 years old. I was 27 by the time I shipped curl.
     I turned 52 last November.
+  id: totrans-202
   prefs: []
   type: TYPE_NORMAL
+  zh: 那天我26岁找到了httpget。我在发行curl时已经27岁了。去年11月我已经52岁了。
 - en: I’ve worked on curl longer than I’ve worked for any company. None of my kids
     are this old. 25 years ago I did not live in my house yet. 25 years ago Google
     didn’t exist and neither did Firefox.
+  id: totrans-203
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在curl上工作的时间比在任何公司工作的时间都长。我的孩子们都还没有这么大。25年前我还没有住在我现在的房子里。25年前Google和Firefox都不存在。
 - en: Many current curl users were not even born when I started working on it.
+  id: totrans-204
   prefs: []
   type: TYPE_NORMAL
+  zh: 许多现在使用curl的用户在我开始开发它时甚至还没有出生。
 - en: Beyond twenty-five
+  id: totrans-205
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 超过二十五
 - en: I feel obligated to add this section because people will ask.
+  id: totrans-206
   prefs: []
   type: TYPE_NORMAL
+  zh: 我觉得有义务添加这一部分，因为人们会问。
 - en: I don’t know what the future holds. I was never good at predictions or forecasts
     and frankly I always try to avoid reading tea leaves. I hope to stay active in
     the project and to continue working with client-side internet transfers for as
     long as it is fun and people want to use the results of my work.
+  id: totrans-207
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不知道未来会发生什么。我从来不擅长预测或预测，坦率地说，我总是尽量避免占卜。我希望能继续活跃在项目中，并继续与客户端互联网传输工作，只要这仍然有趣，人们愿意使用我的工作成果。
 - en: Will I be around in the project in another 25 years? Will curl still be relevant
     then? I don’t know. Let’s find out!
+  id: totrans-208
   prefs: []
   type: TYPE_NORMAL
+  zh: 在项目中再过25年我还会在吗？curl那时还会有影响力吗？我不知道。让我们拭目以待！

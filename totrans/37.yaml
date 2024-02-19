@@ -1,37 +1,54 @@
 - en: The early days of Linux [LWN.net]
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://lwn.net/SubscriberLink/928581/841b747332791ac4/](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)"
+  zh: Linux 早期的日子 [LWN.net]
+- en: 'Original Text: [https://lwn.net/SubscriberLink/928581/841b747332791ac4/](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://lwn.net/SubscriberLink/928581/841b747332791ac4/](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)
 - en: '| **Benefits for LWN subscribers**The primary benefit from [subscribing to
     LWN](/subscribe/) is helping to keep us publishing, but, beyond that, subscribers
     get immediate access to all site content and access to a number of extra site
     features. Please sign up today! |'
+  id: totrans-2
   prefs: []
   type: TYPE_TB
+  zh: '| **LWN 订阅者的好处**[订阅 LWN](/subscribe/) 的主要好处是帮助我们继续出版，此外，订阅者可以立即访问所有网站内容，并获得许多额外的网站功能。请立即注册！
+    |'
 - en: April 12, 2023
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 2023 年 4 月 12 日
 - en: This article was contributed by Lars Wirzenius
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 本文由 Lars Wirzenius 贡献
 - en: My name is Lars Wirzenius, and I was there when Linux started. Linux is now
     a global success, but its beginnings were rather more humble. These are my memories
     of the earliest days of Linux, its creation, and the start of its path to where
     it is today.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我是 Lars Wirzenius，我见证了 Linux 的诞生。Linux 现在是一个全球成功的项目，但它的起步却相当不起眼。这是我对 Linux 最早期的日子、它的创造以及它走向今天的回忆。
 - en: I started my [computer science studies at the University of Helsinki](https://www.helsinki.fi/en/faculty-science/faculty/computer-science)
     in the fall of 1988, and met Linus Torvalds, who was the other new Swedish speaking
     student in computer science that year. Toward the end of that first year, we had
     gotten access to a Unix server, and I accidentally found [Usenet](https://en.wikipedia.org/wiki/Usenet),
     the discussion system, by mistyping `rm` as `rn`, the Usenet reader. I told Linus
     about it and we spent way too much time exploring this.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在 1988 年秋季开始在赫尔辛基大学攻读计算机科学，那一年 Linus Torvalds 也是计算机科学系里另一位新的瑞典语系学生。在那第一年结束时，我们获得了一个
+    Unix 服务器的访问权限，我无意中发现了 [Usenet](https://en.wikipedia.org/wiki/Usenet)，一个讨论系统，因为我将
+    `rm` 打成了 `rn`，也就是 Usenet 阅读器。我告诉了 Linus，我们花了太多时间探索这个系统。
 - en: After the first year, we both went away to do the mandatory military service,
     though in different places. We returned to our university studies in the fall
     of 1990, and both took the course on C and Unix programming, which included a
@@ -41,8 +58,13 @@
     discussed with some enthusiasm how an operating system should be built correctly.
     We had all the overconfidence of 20-year-old second-year university students.
     Everyone is better off that this wasn't recorded for posterity.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一年过后，我们都去不同的地方服完了义务兵役，然后在 1990 年秋季回到大学继续学业，我们都选修了 C 和 Unix 编程课程，其中包括了 Unix
+    内核架构的理论知识。这让我们开始阅读其他操作系统内核的资料，比如 [QNX](https://en.wikipedia.org/wiki/QNX) 和 [Plan
+    9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs)。Linus 和我热情地讨论着如何正确构建一个操作系统。我们当时都是
+    20 岁大学二年级学生的自信。幸好这段对话没有被记录下来。
 - en: In January 1991, Linus bought his first [PC](https://en.wikipedia.org/wiki/IBM_PC_compatible)
     from a local shop that assembled computers from parts. The PC had a 386 CPU, which
     was relatively fancy at that time, because Linus wanted to explore multitasking.
@@ -50,33 +72,47 @@
     with a 32-bit Motorola 68008 CPU, he wanted a 32-bit CPU, and did not want to
     step down to a 16-bit one, so a 286 was not an option. Linus's first PC had a
     whopping 4 megabytes of RAM and a hard drive.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 1991 年 1 月，Linus 在当地一家组装电脑的商店购买了他的第一台 [PC](https://en.wikipedia.org/wiki/IBM_PC_compatible)。这台
+    PC 配备了一颗 386 CPU，在当时相当先进，因为 Linus 想要探索多任务处理。此外，由于他之前使用的是带有 32 位 Motorola 68008
+    CPU 的 [Sinclair QL](https://en.wikipedia.org/wiki/Sinclair_QL)，他想要一颗 32 位 CPU，不想退步到
+    16 位，所以 286 不是一个选择。Linus 的第一台 PC 配备了惊人的 4 兆字节的内存和一个硬盘。
 - en: He got a copy of the game Prince of Persia, which occupied most of his spare
     time for the next couple of months. He later also bought a copy of [MINIX](https://en.wikipedia.org/wiki/Minix),
     because after using Unix at the university, he wanted something like that at home
     as well.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 他得到了《波斯王子》的游戏副本，这占据了他大部分的空闲时间，接下来的几个月。后来他还购买了一份 [MINIX](https://en.wikipedia.org/wiki/Minix)
+    的副本，因为在大学使用 Unix 后，他也想在家里有类似的系统。
 - en: As and Bs
+  id: totrans-10
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: A 和 B
 - en: After finishing the game, Linus started learning Intel assembly language. One
     day he showed me a program that did multitasking. One task or thread would write
     a stream of the letter "A" on the screen, the other "B"; the context switches
     were visually obvious when the stream of As became Bs. This was the first version
     of what would later become known as the Linux kernel.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 完成游戏后，Linus开始学习Intel汇编语言。有一天他向我展示了一个进行多任务处理的程序。一个任务或线程会在屏幕上写一串字母"A"，另一个写"B"；当A的流变成B时，上下文切换在视觉上是明显的。这就是后来被称为Linux内核的第一个版本。
 - en: Linus would later expand the program, and write most of it in C. During this
     time, late spring of 1991, I wrote an implementation of the C [`sprintf()`](https://linux.die.net/man/3/sprintf)
     function for him, as he hadn't yet learned how to write functions with variable
     argument lists. I wanted to spare him the pain of having a different function
     for every type of value to write out. The core of this code is still in the kernel,
     [as `snprintf()`](https://elixir.bootlin.com/linux/v6.3-rc6/source/lib/vsprintf.c#L2911).
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: Linus后来扩展了这个程序，并且大部分用C语言编写。在1991年的晚春，我为他写了一个C语言的[`sprintf()`](https://linux.die.net/man/3/sprintf)函数的实现，因为他当时还不知道如何编写带有可变参数列表的函数。我想要避免他为每种数值类型编写不同的函数而痛苦。这段代码的核心仍然在内核中，[作为`snprintf()`](https://elixir.bootlin.com/linux/v6.3-rc6/source/lib/vsprintf.c#L2911)。
 - en: As time went on, Linus made his fledgling kernel better and kept implementing
     new things. After a while, he had drivers for the keyboard and the serial port,
     emulation of [VT100](https://en.wikipedia.org/wiki/VT100) terminal escape sequences
@@ -86,8 +122,10 @@
     with ["ATDT"](https://en.wikipedia.org/wiki/Hayes_AT_command_set) and the university
     modem-pool phone number. After recovering from this, he implemented file permissions
     in his kernel.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 随着时间的推移，Linus不断改进他初创的内核并继续实现新功能。过了一段时间，他有了键盘和串口的驱动程序，屏幕的[VT100](https://en.wikipedia.org/wiki/VT100)终端转义序列的仿真，并且可以使用调制解调器拨号到大学，从家里阅读Usenet。科幻！有一天，Linus不小心尝试使用他的硬盘拨号到大学，导致他的主引导扇区以["ATDT"](https://en.wikipedia.org/wiki/Hayes_AT_command_set)开头和大学调制解调器池的电话号码。从这件事中恢复后，他在内核中实现了文件权限。
 - en: In August 1991, Linus mentioned his new kernel in [public for the first time](https://en.wikipedia.org/wiki/History_of_Linux#The_creation_of_Linux),
     in the `comp.os.minix` newsgroup. This included the phrase "<q>I'm doing a (free)
     operating system (just a hobby, won't be big and professional like gnu)</q>".
@@ -95,8 +133,11 @@
     asked Ari Lemmke, one of the administrators of `ftp.funet.fi`, to do an upload
     of the first tar archive. Ari chose the name Linux. The initial version still
     contains the original name embedded in [one of the source files](https://elixir.bootlin.com/linux/0.01/source/kernel/Makefile).
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 1991年8月，Linus在`comp.os.minix`新闻组中[首次公开提到他的新内核](https://en.wikipedia.org/wiki/History_of_Linux#The_creation_of_Linux)，其中包括短语"<q>我正在做一个（免费）操作系统（只是一项爱好，不会像gnu那样大而专业）</q>"。如此谦逊。该系统最初被称为Freax。几周后，Linus请求`ftp.funet.fi`的管理员之一Ari
+    Lemmke上传第一个tar归档文件。Ari选择了名字Linux。初始版本仍然在[一个源文件中包含原始名称](https://elixir.bootlin.com/linux/0.01/source/kernel/Makefile)。
 - en: 'During this time, people were interested in trying out this new thing, so Linus
     needed to provide an installation method and instructions. Since he only had one
     PC, he came to visit to install it on mine. Since his computer had been used to
@@ -104,51 +145,71 @@
     never actually been installed before. Thus, mine was the first PC where Linux
     was ever installed. While this was happening, I was taking a nap, and I recommend
     this method of installing Linux: napping, while Linus does the hard work.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这段时间里，人们对尝试这个新事物感兴趣，所以Linus需要提供安装方法和说明。由于他只有一台PC，他来我这里安装。由于他的计算机一直被用来开发Linux，Linux只是简单地在他的Minix安装之上增长，它实际上从未被安装过。因此，我的PC是第一台安装Linux的PC。在这一过程中，我正在午睡，我推荐这种安装Linux的方法：午睡，而Linus做辛苦的工作。
 - en: The first releases of Linux used a license that forbade commercial use. Some
     of the early contributors suggested a change to a free-software license. In the
     fall of 1991, Richard Stallman visited Finland and I took Linus to a talk given
     by Stallman. This, the pressure from contributors, and my nagging eventually convinced
     Linus to choose the GNU GPL license instead, in early 1992.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: Linux最初的版本使用了一个禁止商业使用的许可证。一些早期的贡献者建议改用自由软件许可证。1991年秋天，理查德·斯托曼访问芬兰，我带Linus去听了斯托曼的演讲。这次经历、贡献者的压力以及我的唠叨最终说服了Linus在1992年初选择GNU
+    GPL许可证。
 - en: Over the Christmas break, Linus implemented virtual memory in Linux. This made
     Linux a much more practical operating system on cheap machines with little memory.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 在圣诞节假期期间，Linus在Linux中实现了虚拟内存。这使得Linux在内存较少的廉价机器上成为一个更实用的操作系统。
 - en: '1992'
+  id: totrans-18
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 1992年
 - en: The year 1992 started with the famous [debate with Andrew Tanenbaum](https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate),
     who is a university professor and the author of MINIX. He had some opinions about
     Linux and its architecture. Linus had opinions on MINIX. The debate has been described
     as a flame war, but was actually rather civil in hindsight.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 1992年开始于与[安德鲁·坦宁鲍姆的辩论](https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate)，他是一位大学教授，也是MINIX的作者。他对Linux及其架构有一些看法。Linus对MINIX也有自己的看法。这场辩论被描述为一场火药味十足的战争，但事实上回顾起来相当文明。
 - en: More importantly for the future success of Linux was that the X11 system was
     ported to it, making 1992 the year of the Linux desktop.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于Linux未来成功更为重要的是，X11系统被移植到了Linux上，使得1992年成为Linux桌面的元年。
 - en: I had chosen to contribute on the community side, rather than to the kernel
     directly, and helped answer questions, write documentation, and such. I also ran
     a short-lived newsletter about Linux, which is mainly interesting for publishing
     the [first ever interview with Linus](https://liw.fi/linux-news/issue03/). The
     newsletter was effectively replaced by the `comp.os.linux.announce` newsgroup.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 我选择在社区方面做出贡献，而不是直接参与内核开发，并帮助回答问题、撰写文档等。我还曾经运营过一个关于Linux的短暂时期的新闻简报，主要因为发布了[与Linus的首次采访](https://liw.fi/linux-news/issue03/)而引人关注。这份简报最终被`comp.os.linux.announce`新闻组取代。
 - en: 'The first Linux distribution was also started in 1992: [Softlanding Linux System](https://en.wikipedia.org/wiki/Softlanding_Linux_System)
     or SLS. The next year, SLS morphed into Slackware, which inspired Ian Murdock
     to start Debian in 1993, in order to explore a more community-based development
     structure. A few other distributions would follow in the years to come.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一个Linux发行版也是在1992年开始的：[Softlanding Linux System](https://en.wikipedia.org/wiki/Softlanding_Linux_System)或SLS。第二年，SLS演变为Slackware，这启发了Ian
+    Murdock于1993年开始Debian，以探索更基于社区的开发结构。在接下来的几年里，还会有其他几个发行版相继出现。
 - en: In 1993, both Linus and I got hired as teaching assistants at the university.
     We got to share an office. That room had a PC, which Linus took over, and used
     for Linux development. I was happy with a DEC terminal for Usenet access.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 1993年，Linus和我都被大学聘为助教。我们共享一个办公室。那个房间有一台PC，Linus接管了它，用于Linux开发。我则很高兴用DEC终端访问Usenet。
 - en: One day, Linus was bored and the PC at work felt slow. He spent the day rewriting
     the Linux kernel command-line parser in assembly language, for speed. (That was,
     of course, quite pointless, and the parser would later be rewritten again in C,
@@ -156,8 +217,10 @@
     days playing Quake, ostensibly to stress-test kernel memory management, although
     that was with a newer PC. Much fun was had in that room, and there were no pranks
     whatsoever. None at all.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 有一天，Linus感到无聊，工作中的PC速度太慢。他花了一天时间用汇编语言重写了Linux内核的命令行解析器，以提高速度。（当然，那是相当无意义的，后来解析器又被用C语言重写，以实现可移植性。速度并不重要。）几年后，他花了几天时间玩Quake，表面上是为了对内核内存管理进行压力测试，尽管那是用一台更新的PC。在那个房间里玩得很开心，绝对没有恶作剧。一点也没有。
 - en: At some point, Linux gained support for Ethernet and TCP/IP. That meant one
     could read Usenet without having to use a modem. Alas, early Linux networking
     code was occasionally a little rough, having been written from scratch. At one
@@ -165,12 +228,16 @@
     on the network. As it was difficult to get the Sun kernel fixed, Linux was banned
     from the university network until its bug was fixed. Not having Usenet access
     from one's desk is a great motivator.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 某个时候，Linux获得了对以太网和TCP/IP的支持。这意味着可以在不使用调制解调器的情况下阅读Usenet。然而，早期的Linux网络代码有时会有些粗糙，因为是从头开始编写的。有一次，Linux发送了一些破损的数据包，导致网络上所有的Sun机器都崩溃了。由于很难修复Sun内核，Linux被禁止进入大学网络，直到其bug被修复。从自己的桌子上无法访问Usenet是一个很好的动力。
 - en: '1.0'
+  id: totrans-26
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: '1.0'
 - en: In the spring of 1994 we felt that Linux was done. Finished. Nothing more to
     add. One could use Linux to compile itself, to read Usenet, and run many copies
     of the `xeyes` program at once. We decided to release version 1.0 and arranged
@@ -179,8 +246,11 @@
     of ceremonially compiling Linux 1.0 in the background, while Linus and others
     spoke about what Linux was and what it was good for. Linus explained that commercial
     Unix for a PC was so expensive that it was easier to write your own.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 1994年春天，我们觉得Linux已经完成了。完工了。没有更多要添加的了。人们可以使用Linux来编译自身，阅读Usenet，并同时运行多个`xeyes`程序。我们决定发布1.0版本，并安排了一个[发布活动](https://www.youtube.com/watch?v=qaDpjlFpbfo)。芬兰计算机媒体受邀参加，甚至有一家电视台派出了一个摄制组。活动的大部分时间都是在背景中庄严地编译Linux
+    1.0，而Linus和其他人则谈论Linux是什么以及它有什么用处。Linus解释说，商业PC上的Unix是如此昂贵，以至于更容易自己编写。
 - en: 'In 1995 Linus and I did a software engineering course at the university, which
     mostly consisted of a large practical project. This was built on top of Linux,
     of course. I insisted that a version-control system be used. I had witnessed students
@@ -190,41 +260,59 @@
     [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System), which I''d just
     learned about. This experience is why Linus dislikes CVS and for years refused
     to use any version control beyond uploading tar balls to FTP sites.'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 1995年，Linus和我在大学参加了一门软件工程课程，主要包括一个大型实践项目。当然，这是建立在Linux之上的。我坚持使用版本控制系统。我曾目睹早期课程中的学生进行喊叫式的版本控制：学生们通过NFS共享源代码树，在他们修改文件时大声喊“我在编辑这个文件”。这对我来说似乎不是一种有效的方法，所以我坚持使用[CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System)，这是我刚学会的。这段经历是为什么Linus不喜欢CVS，并多年来拒绝使用除了上传tar包到FTP站点之外的任何版本控制的原因。
 - en: That year was also when Linux was first ported to a new architecture by Linus.
     He'd been given a DEC Alpha machine. I would later get the machine to use as a
     terminal for reading Usenet. Other people ported Linux to other architectures,
     but that did not result in me getting any more machines to read Usenet on.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 那一年也是Linus首次将Linux移植到新架构的时候。他得到了一台DEC Alpha机器。后来我得到了这台机器，用作阅读Usenet的终端。其他人将Linux移植到其他架构，但这并没有让我得到更多的机器来阅读Usenet。
 - en: In 1997 Linus graduated and moved to the US to take a job at [Transmeta](https://en.wikipedia.org/wiki/Transmeta).
     I took a job at a different university in the Helsinki area.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 1997年，Linus毕业并搬到美国，在[Transmeta](https://en.wikipedia.org/wiki/Transmeta)工作。我在赫尔辛基地区的另一所大学找到了一份工作。
 - en: In the following years, many things happened. It turned out that there were
     still a few missing features from Linux, so people worked on those. The term "open
     source" was coined and IBM invested a ton of money in Linux development. Netscape
     published a version of its web browser as open source. Skipping a few details
     and many years, open source basically took over the world. LWN was started and
     covered much of this history on a week-by-week basis.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 在接下来的几年里，发生了许多事情。发现Linux仍然有一些缺失的功能，因此人们开始着手解决这些问题。术语“开源”被创造出来，IBM在Linux开发中投入了大量资金。Netscape将其网页浏览器的一个版本发布为开源。略过一些细节和许多年后，开源基本上占据了世界。LWN开始并以每周的方式报道了许多这方面的历史。
 - en: In 1991, Linus wrote that Linux "<q>won't be big and professional like gnu</q>".
     In 2023\. Linux is running on every continent, on every ocean, on billions of
     devices, in orbit, and on Mars. Not bad for what started as two threads, writing
     streams of As and Bs on the screen.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 1991年，Linus写道Linux“<q>不会像gnu那样大而专业</q>”。到了2023年，Linux在每个大洲、每个海洋、数十亿设备上、轨道上以及火星上都在运行。对于最初只是在屏幕上写着一串A和B的两个线程来说，这已经不错了。
 - en: '* * *'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: (
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: (
 - en: '[Log in](https://lwn.net/Login/?target=/Articles/928581/)'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: '[登录](https://lwn.net/Login/?target=/Articles/928581/)'
 - en: to post comments)
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 发表评论）

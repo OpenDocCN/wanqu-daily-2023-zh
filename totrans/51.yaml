@@ -1,24 +1,32 @@
 - en: Brainstorm Questions Not Ideas — Mule Design
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.muledesign.com/blog/brainstorm-questions](https://www.muledesign.com/blog/brainstorm-questions)"
+  zh: 头脑风暴问题而不是想法 — Mule Design
+- en: 'Original Text: [https://www.muledesign.com/blog/brainstorm-questions](https://www.muledesign.com/blog/brainstorm-questions)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.muledesign.com/blog/brainstorm-questions](https://www.muledesign.com/blog/brainstorm-questions)
 - en: We vastly overvalue the idea of “ideas” in design. Meaningful additions to the
     world rest on novel connections among pre-existing concepts, objects and situations,
     not self-indulgent originality for its own sake. What we glorify as flashes of
     brilliance are usually astute observations about the world, improved by critical
     thinking and critique. And observations often begin from a question.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在设计中过分高估了“想法”的价值。对世界的有意义的贡献建立在对现有概念、对象和情况之间的新颖联系上，而不是为了自我放纵的原创性。我们所推崇的闪光点通常是对世界的敏锐观察，通过批判性思维和批评得到改进。而观察通常始于一个问题。
 - en: However, because many of us have been rewarded and praised for having right
     answers and clever ideas, in school as well as in professional life, the questioning
     and critiquing part of design can get very uncomfortable. So much easier to sink
     into the fluffy pillow of groupthink.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，因为我们许多人在学校以及职业生活中因为有正确答案和聪明想法而受到奖励和赞扬，设计中的质疑和批评部分可能会变得非常不舒服。沉溺于群体思维的软枕头要容易得多。
 - en: Brainstorming ideas and solutions together is an extremely popular activity
     because it *feels* collaborative and creativity-enhancing even when it’s really
     not. [Research has shown group brainstorming to be a waste of time](https://hbr.org/2015/03/why-group-brainstorming-is-a-waste-of-time).
@@ -28,58 +36,82 @@
     that make it out into the world because no one wants to be the bummer or stick
     their neck out or kill that one lovely darling that already made it into a prototype
     so we might as well ship it. The Emperor's New Clothes plays out on the daily.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 一起头脑风暴想法和解决方案是一项非常受欢迎的活动，因为即使实际上并非如此，它*感觉*是协作和增强创造力的。[研究表明，团体头脑风暴是浪费时间的](https://hbr.org/2015/03/why-group-brainstorming-is-a-waste-of-time)。此外，头脑风暴想法通常是反协作的。每个人都秘密地或公开地希望自己的贡献“获胜”。一旦将一项练习框定为“没有坏主意”，那么这就是您得到蚂蚁和真正糟糕的主意的方式，这些主意进入世界，因为没有人想成为扫兴者，或者冒险，或者淘汰那个已经进入原型的可爱宝贝，所以我们不妨就这样发货。每天都在上演《皇帝的新装》。
 - en: A quick and effective fix is to stop brainstorming ideas with your team, and
     start brainstorming questions instead. Getting together and listing every question
     you can think of about a problem, a process, or a situation is uncomfortable at
     first, and then in very short order enhances collaboration, decreases risk and
     puts you on the path to being a learning organization.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个快速有效的解决方法是停止与团队一起进行头脑风暴，而是开始一起进行问题头脑风暴。聚在一起，列出您能想到的关于问题、过程或情况的每一个问题，起初可能会感到不舒服，然后很快增强了协作，降低了风险，并使您走上成为学习型组织的道路。
 - en: Whether you’re confronting a lack of clarity or a wellspring of curiosity, getting
     it out in the open contributes to shared understanding and shared goals, and is
     far more efficient than pretending mutual understanding. You can fire up the Mystery
     Machine and investigate together.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 无论您面对的是缺乏清晰度还是满腔好奇心，将其公之于众有助于共同理解和共同目标，远比假装相互理解更有效。您可以启动神秘机器，一起进行调查。
 - en: Known unknowns are interesting and manageable. Unknown unknowns will jump out
     and bite you.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 已知未知是有趣且可管理的。未知未知会突然袭击你。
 - en: How to run the conversation
+  id: totrans-8
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 如何进行对话管理
 - en: Excuses to avoid asking questions abound just because it can feel so risky and
     uncomfortable and daunting at first. So, frame the first try as just that. Take
     an hour, or even 30 minutes, just to get a bunch out and roughly sorted.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 有很多借口可以避免提问问题，只是因为一开始可能感觉如此冒险、不舒服和令人畏惧。因此，将第一次尝试框定为仅仅如此。花一个小时，甚至30分钟，只是为了提出一堆问题并粗略排序。
 - en: Participants may feel like they need permission to ask anything but the safest,
     smallest questions, so give it to them. Depending on the group, you may need to
     prep a couple of more senior people in advance and ask them to model admitting
     what they don’t know.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 参与者可能觉得他们需要获得许可才能提出任何问题，但最安全、最小的问题，所以给他们。根据群体的不同，您可能需要提前准备一些更资深的人，并请他们示范承认自己不知道的事情。
 - en: I bet you’ll soon start hearing a chorus of “Hey, I was wondering that myself.”
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 我敢打赌，您很快就会听到一阵“嘿，我也在想那个问题”。
 - en: 'Follow these simple steps in order, and explicitly time-boxed from the top:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 按照这些简单的步骤顺序进行，并明确从头部设置时间限制：
 - en: Identify the most important goal/decision at hand (this could turn into a discussion,
     or start with prepared material to work from)
+  id: totrans-13
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 确定手头最重要的目标/决策（这可能会变成讨论，或者从准备好的材料开始工作）
 - en: Take suggestions for any and all, large or small, questions it might be helpful
     to answer
+  id: totrans-14
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 接受任何和所有建议，无论大小，可能有助于回答的问题
 - en: Once you have all your question, plot them according to how little you know
     and how critical it is to find out
+  id: totrans-15
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 一旦你有了所有问题，根据你所知道的少和需要找出的关键性来排列它们

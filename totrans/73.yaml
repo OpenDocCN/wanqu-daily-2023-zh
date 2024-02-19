@@ -1,45 +1,59 @@
 - en: Beware Flavored Software
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://every.to/divinations/beware-flavored-software](https://every.to/divinations/beware-flavored-software)"
+  zh: 警惕口味软件
+- en: 'Original Text: [https://every.to/divinations/beware-flavored-software](https://every.to/divinations/beware-flavored-software)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://every.to/divinations/beware-flavored-software](https://every.to/divinations/beware-flavored-software)
 - en: One day 10 years ago I stood in an hour-long line outside an ice cream shop
     near Dolores Park in San Francisco, and at the end I was greeted with options
     such as “black sesame” and “balsamic strawberry.” Apparently this place was known
     for its unique flavors. The good news is that the balsamic strawberry ice cream
     was delicious. The bad news is that it planted an idea about competitive differentiation
     in my head that clouded my thinking for years.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 十年前的一天，我站在旧金山多洛雷斯公园附近的一家冰淇淋店外排了一个小时的队，最后我看到了“黑芝麻”和“香醋草莓”等选择。显然这家店以其独特口味而闻名。好消息是香醋草莓冰淇淋很美味。坏消息是它在我的脑海中植下了关于竞争差异化的想法，这影响了我的思维多年。
 - en: I consider myself a creative guy—I get excited about clever food, art, apparel,
     architecture, music, packaging, writing, and so on. But because I make software,
     I have a special place in my heart for clever apps. Unfortunately, though, they
     usually don’t make great businesses. The older I get, the more I appreciate the
     merits of vanilla software. There is money to be made in boring.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我认为自己是一个有创意的人——我对聪明的食物、艺术、服装、建筑、音乐、包装、写作等都感到兴奋。但因为我做软件，我对聪明的应用有特殊的喜爱。不幸的是，它们通常不会成为伟大的企业。我变老后，越来越欣赏香草软件的优点。在无聊中有钱可赚。
 - en: What is flavored software?
+  id: totrans-4
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 什么是口味软件？
 - en: Software that attempts to be different in a way that creates temporary excitement,
     but doesn’t create lasting value, is what I call “flavored software.” Of course,
     no one *thinks* this is what they’re building. They think their unique twist is
     a revolution, and that everyone will adopt their innovation in the future. But
     sadly, more often than not, they’ve invented the software equivalent of balsamic
     strawberry ice cream.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 试图以一种创造临时兴奋但不创造持久价值的方式与众不同的软件，我称之为“口味软件”。当然，没有人*认为*他们正在构建这样的东西。他们认为他们独特的创意是一场革命，每个人将来都会采纳他们的创新。但遗憾的是，往往情况并非如此，他们发明了软件版的香醋草莓冰淇淋。
 - en: The agonizing thing about balsamic strawberry is that it’s actually *good*.
     You show it to users and they’re like, “Wow, tasty!” But because it’s software
     and not ice cream, it’s less obvious that it’s never going to beat vanilla. These
     apps can even grow substantially if the new flavor is good enough, but they often
     have trouble sustaining growth.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 香醋草莓的令人痛苦之处在于它实际上是*好的*。你向用户展示它，他们会说，“哇，好吃！”但因为它是软件而不是冰淇淋，很难看出它永远无法击败香草口味。如果新口味足够好，这些应用甚至可以大幅增长，但它们往往难以维持增长。
 - en: Product categories that tend to be flavor-based include podcast apps, notes
     apps, and to-do list apps. I have no disrespect for creators of products in these
     spaces, so I won’t reference specific names. But for each category, I'll talk
@@ -48,24 +62,32 @@
     differentiation versus scalable value. As a bonus, I’ll pick a few current ideas
     that seem huge but I predict are just the flavor of the month (sorry, AI avatar
     makers, I’m looking at you 🥲).
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 以口味为基础的产品类别包括播客应用、笔记应用和待办事项应用。我对这些领域的产品创作者没有任何不敬之意，所以我不会提及具体的名称。但对于每个类别，我将谈谈为什么我认为该类别的产品往往会在早期增长[渐近线](https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes)。然后我将提取一些区分纯粹口味差异与可扩展价值的一般原则。作为奖励，我将挑选一些目前看起来很大但我预测只是短暂风靡的想法（抱歉，AI头像制作者，我在看着你🥲）。
 - en: 'One caveat: this analysis only applies if you want to build a VC-style business
     that might go public or have a significant exit. If you want to build something
     awesome and make enough money to live a great life, feel free to disregard it.
     There is a lot of joy (and cash) to be had by selling balsamic strawberry ice
     cream, as long as you keep your costs low and don’t raise money from investors
     who are expecting you to disrupt vanilla.'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个警告：这种分析仅适用于您想要建立可能上市或有重大退出的VC风格企业。如果您想要构建一些了不起的东西并赚足够的钱过上美好的生活，可以忽略它。卖香醋草莓冰淇淋可以获得很多乐趣（和现金），只要您保持成本低，不从期望您颠覆香草口味的投资者那里筹集资金。
 - en: 'Example 1: Podcast apps'
+  id: totrans-9
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 示例1：播客应用
 - en: There are a lot of great podcast apps out there. Unfortunately none of them
     are great businesses. These two facts are linked.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 有很多优秀的播客应用。不幸的是，它们都不是很好的业务。这两个事实是相关的。
 - en: It’s relatively easy to make a podcast app. You can scrape Apple’s directory
     and instantly have a library full of all the content any user could want. As a
     result, developers have created a cornucopia of fun new ways of listening to podcasts.
@@ -74,81 +96,113 @@
     Even design details, like the home screen as a beautiful grid of podcast art from
     your favorite shows, can be enough to capture the hearts of tens of thousands
     of users.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 制作播客应用相对容易。你可以爬取苹果的目录，立即拥有用户可能想要的所有内容的丰富库。因此，开发人员创造了各种有趣的新方式来收听播客。一些应用程序有自定义播放列表，其他应用程序专注于发现，甚至有一些应用程序创建了自定义音频引擎，使播客听起来更好。甚至设计细节，比如主屏幕上展示你最喜欢节目的漂亮的播客艺术网格，就足以吸引数以万计的用户的心。
 - en: None of these apps has achieved significant market share, except those that
     leverage pre-existing power from an adjacent domain—like Apple’s control over
     the iPhone and Spotify’s popular music app—to grow their podcast user base.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些应用中没有一个取得了显著的市场份额，除了那些利用邻近领域的现有力量——比如苹果对iPhone的控制和Spotify的流行音乐应用——来扩大他们的播客用户群。
 - en: 'So why haven’t any of the smaller podcast apps been able to discover features
     that propel them past their initial niche? For three reasons:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 那么为什么没有任何较小的播客应用能够发现能够推动它们超越最初的利基的功能呢？有三个原因：
 - en: When they *do* discover a feature that is not just a “flavor of the month” thing
     (like speeding up audio), it gets copied by every other app.
+  id: totrans-14
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 当他们发现一个不仅仅是“一时的风尚”（比如加快音频速度）的功能时，它会被每个其他应用程序复制。
 - en: Most features they discover are only interesting to a subset of users or are
     only mildly useful, and not enough to get people to switch from an app they’re
     used to.
+  id: totrans-15
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 大多数他们发现的功能只对一部分用户有趣，或者只是稍微有用，不足以让人们从他们习惯的应用程序中切换。
 - en: A great feature is not the same thing as a great growth engine (aka marketing
     channel), and the types of founders that are focused on the former tend to neglect
     the latter.
+  id: totrans-16
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 一个伟大的功能并不等同于一个伟大的增长引擎（又称营销渠道），而那些专注于前者的创始人往往忽视后者。
 - en: (These ideas are applicable across all categories, not just podcast apps.)
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: （这些想法适用于所有类别，不仅仅是播客应用。）
 - en: 'Example 2: Notes apps'
+  id: totrans-18
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 例2：笔记应用
 - en: 'Most notes apps like to pretend they are defensible because they have “switching
     costs”: they think you’ll be reluctant to leave once you fill them up with notes.
     But in practice, there isn’t much evidence that this is true. In fact, I would
     argue the opposite: there is a subculture of people who are note-taking enthusiasts,
     and actively enjoy switching apps and trying new flavors. (To learn what drives
     this behavior, I recommend reading Dan Shipper’s essay, “[Dopamine Stacking](https://every.to/superorganizers/dopamine-stacking-4289562).”)'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数笔记应用喜欢假装它们是可防御的，因为它们有“切换成本”：它们认为一旦你用笔记填满它们，你会不愿意离开。但实际上，并没有太多证据表明这是真的。事实上，我会认为相反：有一群热衷于记笔记的人，他们积极地尝试切换应用程序和尝试新的风味。（要了解驱动这种行为的原因，我建议阅读丹·希珀的文章“[多巴胺叠加](https://every.to/superorganizers/dopamine-stacking-4289562)”）
 - en: 'Coming to market with a strawberry balsamic note-taking app and then getting
     sad when your users churn is like being the frog that let the scorpion ride on
     its back across the river:'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 推出一个草莓香醋记事应用，然后当你的用户流失时感到悲伤，就像是让蝎子骑在背上过河的青蛙：
 - en: I can hear some of you wondering, “But wait, isn’t Lex kind of like a notes
     app?” ([Lex](https://lex.page/) is the AI-native word processor I’m building.)
     It’s a reasonable question. That’s the main reason I’m writing this essay—this
     is a very real risk for Lex, and I want to understand it better. If you’re interested
     in how I think about it, read to the end.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 我能听到一些人想知道，“但等等，Lex不是有点像笔记应用吗？”（[Lex](https://lex.page/)是我正在构建的AI原生文字处理器。）这是一个合理的问题。这也是我写这篇文章的主要原因——这对Lex来说是一个非常真实的风险，我想更好地了解它。如果你对我如何看待这个问题感兴趣，请读到最后。
 - en: 'Example 3: To-do list apps'
+  id: totrans-22
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 例3：待办事项应用
 - en: I’ll name a name in this category because it’s an old app that was universally
     beloved in its time.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 我会在这个类别中提到一个名字，因为这是一个在其时代广受好评的老应用程序。
 - en: Does anyone else remember [Clear](https://techcrunch.com/2012/02/14/clear-why-this-simple-to-do-list-app-has-everyone-talking/)??
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 还有谁记得[Clear](https://techcrunch.com/2012/02/14/clear-why-this-simple-to-do-list-app-has-everyone-talking/)吗？
 - en: My god what a beautiful product! If Jiro dreamed of to-do list apps instead
     of sushi, he would probably make something like this.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 天哪，这是一个多么美丽的产品！如果次郎梦想着待办事项应用而不是寿司，他可能会做出类似的东西。
 - en: In the grand scheme of things, the Clear team probably did alright, but it’s
     safe to say they did not revolutionize to-do lists forever. It turned out to be
     more of a [cronut](https://en.wikipedia.org/wiki/Cronut)-type of situation.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 从宏观角度来看，Clear团队可能做得不错，但可以肯定的是他们没有永远改变待办事项列表。结果更像是一种[cronut](https://en.wikipedia.org/wiki/Cronut)-类型的情况。
 - en: To-do list apps face the same challenges that podcast and notes apps do, with
     the additional challenge of competing with enterprise project management systems.
     It’s nice to have a simple place to keep your personal tasks, but most of your
@@ -157,117 +211,171 @@
     have network effects (you have to use what everyone else in your company uses),
     and unlike consumer apps, they do actually have switching costs (it’s much harder
     to move a group of people than to try something new for yourself).
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 待办事项应用程序面临与播客和笔记应用程序相同的挑战，还要面对与企业项目管理系统竞争的额外挑战。拥有一个简单的地方来保存个人任务是很好的，但您的大部分工作可能是通过更大的企业系统（如Notion、Asana、Jira、Linear或类似产品）流动的。这些很难竞争，因为它们具有网络效应（您必须使用您公司中的其他人使用的东西），并且与消费者应用程序不同，它们实际上具有切换成本（移动一群人比为自己尝试新事物更困难）。
 - en: Other flavor-based categories
+  id: totrans-28
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 其他基于口味的类别
 - en: 'Other categories that tend to attract flavor-based competition are:'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 其他倾向于吸引基于口味竞争的类别包括：
 - en: Email clients
+  id: totrans-30
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 电子邮件客户端
 - en: Read-it-later/RSS reader apps
+  id: totrans-31
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 阅读稍后/订阅阅读器应用程序
 - en: Food tracking apps
+  id: totrans-32
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 食物跟踪应用程序
 - en: Personal finance/stock-tracking apps
+  id: totrans-33
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 个人财务/股票跟踪应用程序
 - en: AI avatar apps
+  id: totrans-34
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: AI头像应用程序
 - en: Weather apps
+  id: totrans-35
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 天气应用程序
 - en: Habit-tracking apps
+  id: totrans-36
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 习惯跟踪应用程序
 - en: Calculator apps
+  id: totrans-37
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 计算器应用程序
 - en: Photo-editing apps
+  id: totrans-38
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 图片编辑应用程序
 - en: Notice something in common? They all feed off of a resource that is either widely
     accessible or easily recreated. The Gmail API makes it easy to build an email
     app, the AccuWeather API makes it easy to build a weather app, Stable Diffusion
     makes it easy to build an AI avatar app, every programming language comes with
     math functions built-in, you can easily get access to people’s photos from Apple
     or Google, etc.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意到了什么共同点吗？它们都依赖于一种广泛可访问或易于重现的资源。Gmail API使构建电子邮件应用程序变得容易，AccuWeather API使构建天气应用程序变得容易，Stable
+    Diffusion使构建AI头像应用程序变得容易，每种编程语言都内置了数学函数，您可以轻松获取Apple或Google的照片等。
 - en: To be clear, sometimes scalable businesses do emerge from categories that are
     usually fragmented and flavor-based. My point is that it’s rare.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 明确地说，有时可扩展的企业确实会从通常是碎片化和基于口味的类别中出现。我的观点是这种情况很少见。
 - en: Warning signs
+  id: totrans-41
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 警告信号
 - en: 'Be wary of software with certain characteristics, especially if they’re used
     together:'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 警惕具有特定特征的软件，特别是如果它们一起使用：
 - en: Uses gimmicky and/or clever feature names (e.g., “The Imbox” from [HEY](https://every.to/divinations/will-hey-work-590853?sid=13208))
+  id: totrans-43
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 使用花哨和/或巧妙的功能名称（例如，[HEY](https://every.to/divinations/will-hey-work-590853?sid=13208)中的“The
+    Imbox”）
 - en: Has prominent graphics or animations only because it looks cool, not because
     they explain or make information more meaningful
+  id: totrans-44
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 具有突出的图形或动画，只是因为看起来酷，而不是因为它们解释或使信息更有意义
 - en: Uses game-like elements to encourage repeat behavior
+  id: totrans-45
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 使用类似游戏的元素来鼓励重复行为
 - en: Leans hard on in-app copy to make users feel an emotional connection with the
     software
+  id: totrans-46
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 依赖应用内文案来让用户与软件建立情感联系
 - en: '*Side note: every time I see software that is trying a little bit too hard
     with their copy, it reminds me of this* [*iconic moment*](https://youtu.be/yEQV2OJVBx4?t=45)
     *in movie history:*'
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: '*旁注：每当我看到软件在文案上有点过分努力时，就会让我想起电影史上这个* [*标志性时刻*](https://youtu.be/yEQV2OJVBx4?t=45)
+    *：*'
 - en: '*What about media?*'
+  id: totrans-48
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '*媒体呢？*'
 - en: '*Media—books, music, games, movies, etc.—is flavor-based, but it’s worth considering
     separately from software because most media companies are designed to churn out
     a steady stream of new stuff, whereas most software companies create one thing
     and then keep polishing and extending it. If software is about “stock,” media
     is about “flow.”*'
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: '*媒体——书籍、音乐、游戏、电影等——是基于口味的，但值得单独考虑，因为大多数媒体公司的设计是为了不断推出新内容，而大多数软件公司则是创建一样东西，然后不断打磨和扩展。如果软件是关于“存量”，媒体则是关于“流量”。*'
 - en: '*Some software companies have tried to release new apps—a company called [Not
     Boring](https://www.andy.works/) (not to be confused with [Packy McCormick’s newsletter](https://www.notboring.co/))
     is executing this strategy pretty well—but it generally doesn’t work as well as
     it does in media because there’s a much smaller audience of people that wants
     to continually try new software than people who want to continually consume new
     content.*'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: '-   *一些软件公司尝试发布新的应用程序——一个名为[Not Boring](https://www.andy.works/)的公司（不要与[Packy
+    McCormick的新闻简报](https://www.notboring.co/)混淆）正在很好地执行这一策略——但通常它不像在媒体领域那样有效，因为想要不断尝试新软件的受众比想要不断消费新内容的人群要小得多。*'
 - en: '*What about CPG?*'
+  id: totrans-51
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '-   *CPG是什么意思？*'
 - en: '*Consumer packaged goods (CPG) like food, drinks, and toiletries are clearly
     flavor-based. But they tend to work a bit better as businesses than flavor-based
     software because, like media, they’re consumable: when you use them, they run
@@ -277,21 +385,29 @@
     because there are hard marginal costs associated with manufacturing and distribution,
     the price never goes all the way to zero in the way that it often does with software
     or media.*'
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: '-   *消费品包装（CPG）如食品、饮料和洗漱用品显然是基于口味的。但它们作为企业的运作要比基于口味的软件更好一些，因为和媒体一样，它们是可消耗的：当你使用它们时，它们会用完，你需要再购买。唯一的区别是人们更有可能长时间购买同一种独特类型的洗手液或其他产品，而对于媒体来说，一旦你消费了某样东西，你不太可能再次消费它。由于生产和分销都有硬性边际成本，价格永远不会像软件或媒体那样降到零。*'
 - en: '*How to escape flavor-based competition*'
+  id: totrans-53
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '-   *如何摆脱基于口味的竞争*'
 - en: '*Let’s say you’re building a software company, and you’d like it to be venture-backable.
     Or perhaps you’re an investor who is responsible for allocating capital into new
     technology ventures. How can you tell if a software company is going to be more
     like strawberry balsamic ice cream or Google?*'
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: '-   *假设你正在建立一家软件公司，并希望它能够获得风险投资。或者你是一位负责将资金投入新技术公司的投资者。你如何判断一家软件公司更像是草莓香醋冰淇淋还是谷歌？*'
 - en: '*Here are a few guidelines:*'
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: '-   *以下是一些建议：*'
 - en: '**   **Enterprise software is (mostly) not flavor-based.** Sure, there are
     enterprise fads [like the metaverse,](https://every.to/napkin-math/the-meh-taverse?sid=13211)
     but generally speaking, large companies only sign contracts when it feels like
@@ -312,25 +428,35 @@
     involves a lot of cost and complexity. (Also, some, like ride hailing and delivery,
     are networks.) The downside is that your cost structure is probably not as great
     as pure tech companies, but the upside is that you have less competition.*'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: '**   **企业软件（大部分）不是基于风味的。** 当然，有企业潮流[比如元宇宙，](https://every.to/napkin-math/the-meh-taverse?sid=13211)但一般来说，大公司只有在感觉到明显的商业优势时才会签订合同。**网络（大部分）不是基于风味的。**
+    如果你使用一个应用程序是因为其其他用户创建的内容，这并不一定保证成功，但至少如果失败了，可能不是因为它达到了基于风味的渐近线。例如，BeReal利用了独特的照片分享风味来构建网络，但人们仍在使用它，因为他们喜欢它帮助他们与朋友保持联系的方式。如果它只是一个单人实用程序，它不会以同样的方式扩展。另一个历史性的例子是Instagram与[Hipstamatic](https://www.theatlantic.com/technology/archive/2012/10/how-instagram-beat-hipstamatic-its-own-game/322743/)。两者都有一个称为“照片滤镜”的酷新风味，但一个有一个网络，另一个没有。这里有一个更近期的例子：网络是什么让Substack与基于风味的竞争对手有所不同。**技术驱动的服务不是基于风味的。**
+    如果你表现得像一个科技公司，但实际上做的是杂货配送、银行业务、教育、住房、医疗保健或任何其他现实世界服务，你的竞争大部分不是基于风味的，因为开展这种类型的业务涉及很多成本和复杂性。（此外，一些，比如打车和配送，是网络。）不利之处是你的成本结构可能不如纯科技公司那么好，但好处是你面对的竞争更少。*'
 - en: '*All of these types of products can involve some flavoring to help them get
     off the ground. The point is not that flavoring is bad. It’s good! But it has
     a very specific role. Flavor provides an initial [product wedge](https://every.to/divinations/product-wedges-a-complete-guide?sid=13212).
     It’s helpful for standing out initially but doesn’t provide long-term differentiation
     or durable advantage.*'
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: '*所有这些类型的产品都可以添加一些调味品来帮助它们起步。重点不是调味品不好。它是好的！但它有一个非常具体的作用。调味品提供了一个初始的[产品楔](https://every.to/divinations/product-wedges-a-complete-guide?sid=13212)。它有助于最初脱颖而出，但并不提供长期的差异化或持久的优势。*'
 - en: '*Postscript: What about Lex?*'
+  id: totrans-58
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '*附言：那么Lex呢？*'
 - en: '*[Lex](https://lex.page/) is an AI-powered word processor that I’m building.
     Its initial traction is based on the unique flavor of the way that it feels to
     write in it, which could be a red flag. But over the long run, Lex might be able
     to sustain value in a couple of ways:*'
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: '*[Lex](https://lex.page/)是一款我正在开发的基于人工智能的文字处理器。它最初的吸引力基于写作感觉的独特风味，这可能是一个警示信号。但从长远来看，Lex可能能够以几种方式维持价值：*'
 - en: '**   **Vertical focus.** Right now Lex seems like a general-purpose AI writing
     tool. But over time it will become more obvious that there is a subset of writing
     that deserves a specific tool. For example, it used to be the case that software
@@ -340,10 +466,15 @@
     a standard way of doing things. Programmers use git partially because all the
     other programmers use it. Designers use Figma partially because all the other
     designers use it. I think the same can happen for writing.*'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: '**垂直专注。** 目前，Lex似乎是一款通用的AI写作工具。但随着时间的推移，将会更明显地看到有一部分写作需要一个特定的工具。例如，过去软件UI设计师使用的设计工具（Photoshop）是为照片编辑而设计的；我认为我们将会回顾今天的写作应用，如Google
+    Docs，同样是如此广泛。*   **网络。** 对于创意工具，一个行业往往会在一种标准的做事方式上达成共识。程序员使用git部分原因是因为其他程序员都在使用它。设计师使用Figma部分原因是因为其他设计师都在使用它。我认为写作也会出现同样的情况。*'
 - en: '*This is all very speculative and early, though, so my approach is to just
     focus on shipping improvements to the product as quickly as possible. In order
     for anything else to matter, Lex has to be a great tool first.*'
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: '*尽管这一切都是非常推测性和早期的，但我的方法是尽快专注于快速改进产品。为了让其他事情变得重要，Lex首先必须是一个优秀的工具。*'

@@ -1,36 +1,50 @@
 - en: Why ChatGPT won't replace search engines | Algolia
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/](https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/)"
+  zh: 为什么ChatGPT不会取代搜索引擎 | Algolia
+- en: 'Original Text: [https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/](https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/](https://www.algolia.com/blog/ai/why-chatgpt-wont-replace-search-engines-any-time-soon/)
 - en: Since OpenAI announced ChatGPT and people started to try it out, there have
     been plenty of breathless proclamations of how it will upend *everything*. One
     of those upendings is search. Go on Twitter or LinkedIn (or [Bloomberg!](https://www.bloomberg.com/opinion/articles/2022-12-07/chatgpt-should-worry-google-and-alphabet-why-search-when-you-can-ask-ai)),
     and you can read how ChatGPT and similar LLMs are going to replace Google and
     other search engines.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 自从OpenAI宣布ChatGPT并开始尝试之后，就有很多人兴奋地宣称它将颠覆*一切*。其中之一就是搜索。在Twitter或LinkedIn（或[Bloomberg！](https://www.bloomberg.com/opinion/articles/2022-12-07/chatgpt-should-worry-google-and-alphabet-why-search-when-you-can-ask-ai)）上，你可以看到ChatGPT和类似的LLMs将取代Google和其他搜索引擎的言论。
 - en: But, really?
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 但，真的吗？
 - en: No, Google has little to worry about, at least in the short– to mid–term. Search
     engines have been around for decades, and will be around for decades more. The
     lack of real danger to them has to do with search relevance and user experience
     in chat-based environments.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 不，至少在短期到中期内，Google没有什么可担心的。搜索引擎已经存在了几十年，将继续存在几十年。它们没有真正的危险，这与搜索相关性和在基于对话的环境中的用户体验有关。
 - en: I’ve worked in search at [Algolia](https://algolia.com/) for seven years, the
     last four exclusively on natural language, voice, and conversational search. I’ve
     learned what works and what doesn’t, and while I’m long on LLMs (large language
     models), I’m not long on replacing the existing search paradigm. Here’s why.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在[Algolia](https://algolia.com/)的搜索领域工作了七年，过去四年专门从事自然语言、语音和对话搜索。我了解了什么有效，什么无效，虽然我对LLMs（大型语言模型）持久乐观，但我不认同替代现有搜索范式。原因如下。
 - en: '**Query Formulation**'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: '**查询表达**'
 - en: The first reason has to do, ironically, with query formulation. I say ironically
     here because much of the work around artificial intellence (AI) and machine learning
     (ML) in search is to make query formulation less of a hurdle. In the past, the
@@ -38,70 +52,101 @@
     That means that if you searched for *JavaScript snippets*, then *JavaScript snippets*
     had to be exactly in the document you wanted to find. The problem is that it forced
     the searcher to try and predict which text is going to be in the documents.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 第一个原因与查询表达有关，具有讽刺意味的是。我在这里说具有讽刺意味是因为围绕人工智能（AI）和机器学习（ML）在搜索领域的工作很大程度上是为了减少查询表达的障碍。过去，最基本的搜索引擎将文本与结果中完全相同的文本进行匹配。这意味着，如果你搜索*JavaScript代码片段*，那么*JavaScript代码片段*必须完全在你想要找到的文档中。问题在于，这迫使搜索者试图预测文档中将出现哪些文本。
 - en: 'Here’s an example: let’s say you’re cleaning your gas stovetop and you realize
     that it’s warm, even though you haven’t used it in a while. With an unintelligent
     search engine, you need to ask yourself before you search: “Should I use the word
     *warm* or *hot*? Does it make a difference in the results I’ll get back?”'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里举个例子：假设你正在清洁燃气灶顶，你意识到它是温暖的，尽管你有一段时间没有使用它。使用一个不智能的搜索引擎，你需要在搜索之前问自己：“我应该使用*温暖*还是*热*这个词吗？这会影响我得到的结果吗？”
 - en: Intelligent, ML–driven search works to take this burden away by expanding what
     counts as a match and including “conceptually” similar matches, like *warm* and
     *hot*. Searchers spend less mental energy on determining the right search term,
     and they are much more likely to find the information they wanted originally.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 智能的、基于ML的搜索通过扩展匹配范围并包括“概念上”相似的匹配项，如*温暖*和*热*，来减轻这种负担。搜索者在确定正确的搜索词上花费的精力更少，他们更有可能找到最初想要的信息。
 - en: 'ChatGPT responses are, however, heavily dependent on the prompt (i.e., query)
     formulation. [OpenAI](https://openai.com/blog/chatgpt/) “lists this as a limitation”:'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，ChatGPT的响应在很大程度上取决于提示（即查询）的表达。[OpenAI](https://openai.com/blog/chatgpt/)将此列为“限制”：
 - en: '*ChatGPT is sensitive to tweaks to the input phrasing or attempting the same
     prompt multiple times. For example, given one phrasing of a question, the model
     can claim to not know the answer, but given a slight rephrase, can answer correctly.*'
+  id: totrans-11
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '*ChatGPT对输入短语的微调或多次尝试相同提示非常敏感。例如，给定一个问题的某种表达方式，模型可能声称不知道答案，但稍微改变一下，就能正确回答。*'
 - en: 'Sometimes this manifests when searching things the searcher already knows a
     lot about, but it’s much more of an issue when the searcher is hazy about details.
     If someone searches for what the suffix *-gate* means, there’s a very, very good
     chance that the correct result is about political scandals. Google and Kagi reflect
     this, ChatGPT does not:'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 有时，当搜索者搜索自己已经了解很多的事物时，这种情况就会出现，但当搜索者对细节模糊不清时，这个问题就更加严重。如果有人搜索后缀*-gate*的含义，那么正确结果与政治丑闻有很大的关联。谷歌和Kagi反映了这一点，ChatGPT没有：
 - en: '![chatgpt-results](../Images/8e541e94214b4799589ff50b0f866711.png)'
+  id: totrans-13
   prefs: []
   type: TYPE_IMG
+  zh: '![chatgpt-results](../Images/8e541e94214b4799589ff50b0f866711.png)'
 - en: '![google-search-results2](../Images/a882db7ed5736f5930010d20eb79f051.png)'
+  id: totrans-14
   prefs: []
   type: TYPE_IMG
+  zh: '![google-search-results2](../Images/a882db7ed5736f5930010d20eb79f051.png)'
 - en: '![ kagi-results](../Images/66306b9a9ebca256e26c5c51d0f4794a.png)'
+  id: totrans-15
   prefs: []
   type: TYPE_IMG
+  zh: '![ kagi-results](../Images/66306b9a9ebca256e26c5c51d0f4794a.png)'
 - en: (The end of ChatGPT’s response is saying that the use of the suffix -gate is
     rare. Tell that to Washington!)
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: （ChatGPT的回应结尾说后缀-gate的使用很少。告诉这一点给华盛顿吧！）
 - en: This is even more stark when it comes to typos. We all make typos, don’t we?
     And sometimes we spell words incorrectly because we don’t know any better. For
     example, the phrase *cum laude* is an uncommon one in daily life, and so there
     will be people who want to know more about it and don’t know the correct spelling.
     How does ChatGPT handle a spelling of *come lad* compared to Kagi?
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 当涉及拼写错误时，情况变得更加明显。我们都会犯拼写错误，不是吗？有时我们会拼错单词，因为我们不知道正确的拼写。例如，短语*cum laude*在日常生活中并不常见，因此会有人想了解更多信息，但不知道正确的拼写。ChatGPT如何处理*come
+    lad*这种拼写与Kagi相比呢？
 - en: '![google search](../Images/1a904b0d744061fdd2890dcb7672b661.png)'
+  id: totrans-18
   prefs: []
   type: TYPE_IMG
+  zh: '![google search](../Images/1a904b0d744061fdd2890dcb7672b661.png)'
 - en: '![chatgpt-results3](../Images/7286c8004b90e50b438f56b7c025bccc.png)'
+  id: totrans-19
   prefs: []
   type: TYPE_IMG
+  zh: '![chatgpt-results3](../Images/7286c8004b90e50b438f56b7c025bccc.png)'
 - en: 'This isn’t a case of ChatGPT not having the answer. It does when you use the
     correct spelling:'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 这不是ChatGPT没有答案。当你使用正确的拼写时，它就有了：
 - en: '![chatgpt-results2](../Images/2d5ba9e517529f3a284d29c5fcd2f745.png)'
+  id: totrans-21
   prefs: []
   type: TYPE_IMG
+  zh: '![chatgpt-results2](../Images/2d5ba9e517529f3a284d29c5fcd2f745.png)'
 - en: 'Search must understand searchers even with misspellings, or else the experience
     is a step back. Understanding and matching different spellings is difficult. At
     Algolia, we take two approaches: one is a [straightforward edit distance between
@@ -109,32 +154,44 @@
     the other is via our upcoming AI Search that matches on concepts and takes into
     account contextual clues to better match the correct spelling even when the edit
     distance is large.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 搜索必须能够理解搜索者即使拼写错误，否则体验就会退步。理解和匹配不同的拼写是困难的。在Algolia，我们采取了两种方法：一种是[文本之间的简单编辑距离](https://www.algolia.com/doc/guides/managing-results/optimize-search-results/typo-tolerance/)；另一种是通过我们即将推出的AI搜索，它匹配概念并考虑上下文线索以更好地匹配正确的拼写，即使编辑距离很大。
 - en: There’s another problem with ChatGPT, which is how it shows the incorrect results.
     Or, really, how it shows the results generally.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: ChatGPT还存在另一个问题，就是它如何显示不正确的结果。或者说，它如何一般性地显示结果。
 - en: '[](#user-experience)**User Experience**'
+  id: totrans-24
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: '[](#user-experience)**用户体验**'
 - en: 'Search layouts have been, typically, the same for decades. Specifically: a
     set of results in order from most to least relevant (however that is measured).
     That has changed somewhat in recent years. With search engines bringing in answer
     boxes, side boxes, suggested searches, multimedia searches, and more. Take a look
     at a Bing search page:'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 搜索布局在过去几十年一直都是相同的。具体来说：一组结果按照相关性从高到低的顺序排列（无论如何衡量）。近年来这种情况有所改变。随着搜索引擎引入答案框、侧边框、建议搜索、多媒体搜索等。看看必应搜索页面：
 - en: '![bing-search-results](../Images/cf6fab62358a0b98bfbe191e53207144.png)'
+  id: totrans-26
   prefs: []
   type: TYPE_IMG
+  zh: '![必应搜索结果](../Images/cf6fab62358a0b98bfbe191e53207144.png)'
 - en: 'Of course, Bing is an outlier. This one search results page includes approximately
     20 different components: streaming options, video results, image results, and
     webpage results. Maybe that’s too much. Google, Kagi, and others have less. But
     the point is that searchers *always get options*.'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 当然，必应是一个离群值。这个搜索结果页面包括大约20个不同的组件：流媒体选项，视频结果，图像结果和网页结果。也许这太多了。谷歌、Kagi和其他搜索引擎的组件更少。但关键是搜索者*总是有选择*。
 - en: 'It’s important for searchers to get options because the first result isn’t
     always the best for the search. It may be “objectively” the best overall, but
     a search is a combination of a query, an index, a user, and a context. All of
@@ -143,92 +200,128 @@
     is [clicked 28% of the time](https://www.sistrix.com/blog/why-almost-everything-you-knew-about-google-ctr-is-no-longer-valid/).
     Whether that number is precisely right, it is generally correct: the majority
     of clicks tend not to be the first result.'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于搜索者来说，获得选项是很重要的，因为第一个结果并不总是最适合搜索的。它可能在“客观上”是整体最好的，但搜索是查询、索引、用户和上下文的组合。所有这些结合在一起可能导致除第一名之外的结果在那个时候是最相关的。这篇博文声称在谷歌搜索中，第一个结果被点击的概率为[28%](https://www.sistrix.com/blog/why-almost-everything-you-knew-about-google-ctr-is-no-longer-valid/)。无论这个数字是否准确，它通常是正确的：大多数点击通常不是第一个结果。
 - en: What is chat-based searching? Only the first result.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 什么是基于聊天的搜索？只有第一个结果。
 - en: Even more, it’s in a chat-based context. In a conversational interface, users
     expect always to get a response that is relevant, with a minimal amount of “I
     don’t know” responses.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 更重要的是，这是在基于聊天的上下文中。在对话界面中，用户总是期望得到一个相关的回应，最好是最少量的“我不知道”的回应。
 - en: At Algolia, I’ve seen this with some of our customers who have used our search
     as a fallback for their chatbots. Chatbot natural language understanding (NLU)
     can sometimes have a high failure rate (we’ve seen customers approaching 50% failure)
     and search seems like a natural fallback. We’ve had to tailor the chatbot UX,
     though, not presenting the first result as a response, but instead showing a few
     results and being clear that the user is seeing a fallback. It’s what users expect.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 在Algolia，我看到一些客户将我们的搜索用作他们聊天机器人的备用。聊天机器人的自然语言理解（NLU）有时会有很高的失败率（我们看到客户接近50%的失败率），搜索似乎是一个自然的备选方案。然而，我们必须定制聊天机器人的用户体验，不要将第一个结果呈现为回应，而是显示几个结果，并明确告知用户正在看到一个备用方案。这是用户的期望。
 - en: 'Chat also robs information of context. Landing on a page and seeing related
     information is good: it helps frame the information you find and perhaps even
     show you where the original snippet was incorrect or misleading.'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 聊天也会剥夺信息的背景。着陆在一个页面上并看到相关信息是好的：它有助于框定你找到的信息，甚至可能向你展示原始片段错误或误导的地方。
 - en: 'Take someone who wants to know about the baseball home run record. This person
     has heard that the record used to have an asterisk. But why? What was the record?
     This famously refers to Roger Maris’ 61 home run season in 1961, but the searcher
     doesn’t know, and so searches *why was the home run record with an asterisk?*
     Compare the answers from ChatGPT, Google, and Kagi:'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 拿一个想了解棒球全垒打记录的人来说。这个人听说记录曾经带有星号。但是为什么？什么是记录？这通常指的是罗杰·马里斯在1961年61次全垒打的赛季，但搜索者不知道，于是搜索*为什么全垒打记录带有星号？*比较一下ChatGPT、谷歌和Kagi的答案：
 - en: '![chatgpt-results4](../Images/bbd774f2bc203e5b5c7b1d3416be6638.png)'
+  id: totrans-34
   prefs: []
   type: TYPE_IMG
+  zh: '![chatgpt-results4](../Images/bbd774f2bc203e5b5c7b1d3416be6638.png)'
 - en: '![](../Images/43e2b2fc6ea509f52c513690aa3670fc.png)'
+  id: totrans-35
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/43e2b2fc6ea509f52c513690aa3670fc.png)'
 - en: '![](../Images/7262ffc01b6ce06847a48461b35a8fd4.png)'
+  id: totrans-36
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/7262ffc01b6ce06847a48461b35a8fd4.png)'
 - en: ChatGPT provides an answer about the home run record from ‘98 with Mark McGwire,
     which has been controversial years later, but isn’t *the* home run record with
     an asterisk. Google gives the correct answer in an answer box along with links
     out to sources, and Kagi provides results. Of these, Kagi might even be the best
     because while Maris’ is the one that comes to mind when people say “astrisk,”
     both McGwire and Bonds also have controversy attached to theirs.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: ChatGPT提供了关于‘98年马克·麦奎尔的全垒打记录的答案，多年后这个问题仍然有争议，但并不是带有星号的*全垒打记录。谷歌在答案框中给出了正确答案以及指向来源的链接，Kagi提供了结果。其中，Kagi可能是最好的，因为当人们说“星号”时，马里斯的名字会浮现在脑海中，但麦奎尔和邦德也有争议与他们相关。
 - en: 'To be fair, OpenAI is aware of this. Here’s a tweet from CEO Sam Altman:'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 要公平起见，OpenAI已经意识到这一点。以下是首席执行官Sam Altman的一条推文：
 - en: '[![twitter-sam-altman-chatgpt](../Images/08eff0873c2c8ca60a310d85c12aed01.png)](https://twitter.com/sama/status/1601731503934697472)'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: '[![twitter-sam-altman-chatgpt](../Images/08eff0873c2c8ca60a310d85c12aed01.png)](https://twitter.com/sama/status/1601731503934697472)'
 - en: But I do think that the lack of context and multiple choices is inescapable
     within a pure chat context. That’s why chat is great for finding business hours;
     less great for learning what it’s like to go through boot camp or why people like
     RomComs.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 但我认为在纯聊天环境中无法避免缺乏上下文和多个选择。这就是为什么聊天非常适合查找营业时间；但不太适合了解经历军事训练营是什么样子，或者为什么人们喜欢浪漫喜剧片。
 - en: This isn’t even touching on product search. A large amount of money spent on
     search these days is not on SEO for Google, but [building search for a site’s
     own product catalog](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/).
     In these situations, it is *so* important for searchers to be able to see options,
     filter down with a click, and generally get deep into a “discovery phase.” This
     is not what chat is suited for.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 这甚至没有涉及产品搜索。如今在搜索上花费的大量资金不是用于谷歌的SEO，而是[为网站自己的产品目录构建搜索](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/)。在这些情况下，对于搜索者能够看到选项、通过点击进行筛选，并深入“发现阶段”是*非常*重要的。这不是聊天所适合的。
 - en: 'There are other hurdles: legal ([Australia has a law requiring payment from
     Google and Facebook for news](https://www.reuters.com/technology/australia-says-law-making-facebook-google-pay-news-has-worked-2022-12-02/);
     what will they think when the news is automatically summarized without sources?),
     cost, and speed immediately come to mind. These may one day be surmountable. So,
     too, might the overly confident incorrect results.'
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 还有其他障碍：法律（[澳大利亚有一项法律要求谷歌和Facebook支付新闻费用](https://www.reuters.com/technology/australia-says-law-making-facebook-google-pay-news-has-worked-2022-12-02/)；当新闻被自动摘要而没有来源时，他们会怎么想？）、成本和速度立即浮现在脑海中。这些问题可能有一天会被克服。同样，过于自信的错误结果也可能被克服。
 - en: 'But user experience: this one isn’t going away. Okay, yes, you might argue
     that it’s easy enough to fix. A chat-based system could show multiple results
     at once and let the user decide which is the best. Maybe even rank them by confidence.
     Then it could even link out so that a searcher could see the information and decide
     if it’s accurate. Even better, why not also include suggestions for follow-up
     queries or multimedia that might be interesting?'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 但用户体验：这个问题不会消失。好吧，是的，你可能会争辩说这很容易解决。一个基于聊天的系统可以同时显示多个结果，让用户决定哪个是最好的。甚至可以按置信度对它们进行排名。然后甚至可以链接出去，让搜索者看到信息并决定其准确性。更好的是，为什么不还包括关于后续查询或可能有趣的多媒体的建议呢？
 - en: Congratulations, you’ve just rebuilt a search UI.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 恭喜，你刚刚重新构建了一个搜索UI。
 - en: 'So, in short: LLMs are great. Understanding user intent is fantastic. Automatic
     summarization is powerful. Search is going nowhere.'
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，简而言之：LLMs很棒。理解用户意图是很棒的。自动摘要功能很强大。搜索不会消失。

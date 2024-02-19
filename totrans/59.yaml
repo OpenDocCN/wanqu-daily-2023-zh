@@ -1,531 +1,890 @@
 - en: All $1B+ Revenue Software Companies - Google Drive
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview](https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview)"
+  zh: 所有营收超过10亿美元的软件公司 - 谷歌云
+- en: 'Original Text: [https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview](https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '原文链接: [https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview](https://docs.google.com/spreadsheets/d/1-F7_sCcqSZzH4TpYgyqQgjoUfahyGkOrpFHaBxxsn9E/htmlview)'
 - en: 'All $1B+ Revenue Software Companies : $1B+SWCO'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '所有营收超过10亿美元的软件公司 : $1B+SWCO'
 - en: '| A |  | B | C | D | E | F | G | H | I | J | K | L |'
+  id: totrans-3
   prefs: []
   type: TYPE_TB
+  zh: '| A |  | B | C | D | E | F | G | H | I | J | K | L |'
 - en: '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
     |'
+  id: totrans-4
   prefs: []
   type: TYPE_TB
+  zh: '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+    |'
 - en: '| Company |  | Market(s) | Status | Founded | IPO/Exit Year | Years to Exit
     | Curent Age (years) | Revenue (B) | Valuation (B) | Private Funding (M) | Headcount
     |  |'
+  id: totrans-5
   prefs: []
   type: TYPE_TB
+  zh: '| 公司 |  | 市场 | 状态 | 成立时间 | IPO/退出年份 | 上市年限 | 目前年龄（年） | 营收（十亿美元） | 估值（十亿美元）
+    | 私人融资（百万美元） | 员工人数 |  |'
 - en: '|  |  |  |  |  |  |  |  |  |  |  |  |  |  |'
+  id: totrans-6
   prefs: []
   type: TYPE_TB
+  zh: '|  |  |  |  |  |  |  |  |  |  |  |  |  |  |'
 - en: '| Facebook |  | Internet | IPO | 2004 | 2012 | 8 | 20 | $80.0 | $860.0 | $16,100
     | 35,000 |  |'
+  id: totrans-7
   prefs: []
   type: TYPE_TB
+  zh: '| Facebook |  | 互联网 | IPO | 2004 | 2012 | 8 | 20 | $80.0 | $860.0 | $16,100
+    | 35,000 |  |'
 - en: '| Tencent |  | Internet | IPO | 1998 | 2004 | 6 | 26 | $60.0 | $750.0 | $6,600
     | 63,000 |  |'
+  id: totrans-8
   prefs: []
   type: TYPE_TB
+  zh: '| Tencent |  | 互联网 | IPO | 1998 | 2004 | 6 | 26 | $60.0 | $750.0 | $6,600 |
+    63,000 |  |'
 - en: '| [Snap](https://www.google.com/url?q=https://snap.com/&sa=D&source=editors&ust=1707397559960259&usg=AOvVaw2jILuGNHIe_OSif5O5cAbJ)
     |  | Social Network | IPO | 2011 | 2017 | 6 | 10 | $2.0 | $80.0 | $4,900 | 5,000
     |  |'
+  id: totrans-9
   prefs: []
   type: TYPE_TB
+  zh: '| [Snap](https://www.google.com/url?q=https://snap.com/&sa=D&source=editors&ust=1707397559960259&usg=AOvVaw2jILuGNHIe_OSif5O5cAbJ)
+    |  | 社交网络 | IPO | 2011 | 2017 | 6 | 10 | $2.0 | $80.0 | $4,900 | 5,000 |  |'
 - en: '| Palantir |  | National Security | IPO | 2003 | 2020 | 17 | 21 | $1.3 | $23.0
     | $2,600 | 2,500 |  |'
+  id: totrans-10
   prefs: []
   type: TYPE_TB
+  zh: '| Palantir |  | 国家安全 | IPO | 2003 | 2020 | 17 | 21 | $1.3 | $23.0 | $2,600
+    | 2,500 |  |'
 - en: '| Stripe |  | Internet | Private | 2010 | - | - | 14 | $10.0 | $120.0 | $2,200
     | 3,300 |  |'
+  id: totrans-11
   prefs: []
   type: TYPE_TB
+  zh: '| Stripe |  | 互联网 | 私有 | 2010 | - | - | 14 | $10.0 | $120.0 | $2,200 | 3,300
+    |  |'
 - en: '| Epic Games |  | Computer Games | Private | 1991 | - | - | 33 | $4.0 | $32.0
     | $2,000 | 8,700 |  |'
+  id: totrans-12
   prefs: []
   type: TYPE_TB
+  zh: '| Epic Games |  | 电脑游戏 | 私有 | 1991 | - | - | 33 | $4.0 | $32.0 | $2,000 | 8,700
+    |  |'
 - en: '| [Dropbox](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Dropbox_(service)&sa=D&source=editors&ust=1707397559962302&usg=AOvVaw3vfzSjuwPkxTw9DvYTPSxz)
     |  | File Storage | IPO | 2007 | 2018 | 11 | 17 | $2.0 | $8.0 | $1,700 | 4,000
     |  |'
+  id: totrans-13
   prefs: []
   type: TYPE_TB
+  zh: '| [Dropbox](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Dropbox_(service)&sa=D&source=editors&ust=1707397559962302&usg=AOvVaw3vfzSjuwPkxTw9DvYTPSxz)
+    |  | 文件存储 | IPO | 2007 | 2018 | 11 | 17 | $2.0 | $8.0 | $1,700 | 4,000 |  |'
 - en: '| Kakao |  | Computer Games | IPO | 1995 | 2010 | 15 | 29 | $4.0 | $32.6 |
     $1,600 | 10,000 |  |'
+  id: totrans-14
   prefs: []
   type: TYPE_TB
+  zh: '| Kakao |  | 电脑游戏 | IPO | 1995 | 2010 | 15 | 29 | $4.0 | $32.6 | $1,600 | 10,000
+    |  |'
 - en: '| [Twitter](https://www.google.com/url?q=https://twitter.com/&sa=D&source=editors&ust=1707397559963351&usg=AOvVaw3-ZIBWwnFmzCoGMWpdKHNR)
     |  | Internet | IPO | 2006 | 2013 | 7 | 15 | $4.0 | $62.0 | $1,500 | 6500 |  |'
+  id: totrans-15
   prefs: []
   type: TYPE_TB
+  zh: '| [Twitter](https://www.google.com/url?q=https://twitter.com/&sa=D&source=editors&ust=1707397559963351&usg=AOvVaw3-ZIBWwnFmzCoGMWpdKHNR)
+    |  | 互联网 | IPO | 2006 | 2013 | 7 | 15 | $4.0 | $62.0 | $1,500 | 6500 |  |'
 - en: '| Coinbase |  | Crypto Platform | IPO | 2012 | 2021 | 9 | 9 | $3.0 | $80.0
     | $1,400 | 2,000 |  |'
+  id: totrans-16
   prefs: []
   type: TYPE_TB
+  zh: '| Coinbase |  | 加密平台 | IPO | 2012 | 2021 | 9 | 9 | $3.0 | $80.0 | $1,400 |
+    2,000 |  |'
 - en: '| [Slack](https://www.google.com/url?q=https://slack.com/&sa=D&source=editors&ust=1707397559964083&usg=AOvVaw23-0QwUbpGV8odItGe2hsy)
     |  | Chat/Messaging | IPO + Acquisition | 2009 | 2019 | 10 | 15 | $1.0 | $30.0
     | $1,400 | 2,800 |  |'
+  id: totrans-17
   prefs: []
   type: TYPE_TB
+  zh: '| [Slack](https://www.google.com/url?q=https://slack.com/&sa=D&source=editors&ust=1707397559964083&usg=AOvVaw23-0QwUbpGV8odItGe2hsy)
+    |  | 聊天/消息 | IPO + 收购 | 2009 | 2019 | 10 | 15 | $1.0 | $30.0 | $1,400 | 2,800
+    |  |'
 - en: '| Snowflake |  | Database | IPO | 2012 | 2020 | 8 | 12 | $2.0 | $40.0 | $1,400
     | 5,200 |  |'
+  id: totrans-18
   prefs: []
   type: TYPE_TB
+  zh: '| Snowflake |  | 数据库 | IPO | 2012 | 2020 | 8 | 12 | $2.0 | $40.0 | $1,400 |
+    5,200 |  |'
 - en: '| [SAP](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAP&sa=D&source=editors&ust=1707397559964807&usg=AOvVaw0WZEyTz2jFtw6m2_vW-HjF)
     |  | ERP and Business Apps | IPO | 1972 | 1988 | 16 | 52 | $32.0 | $170.0 | $1,300
     | 100,000 |  |'
+  id: totrans-19
   prefs: []
   type: TYPE_TB
+  zh: '| [SAP](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAP&sa=D&source=editors&ust=1707397559964807&usg=AOvVaw0WZEyTz2jFtw6m2_vW-HjF)
+    |  | ERP和商业应用 | IPO | 1972 | 1988 | 16 | 52 | $32.0 | $170.0 | $1,300 | 100,000
+    |  |'
 - en: '| [NortonLifeLock fka Symantec](https://www.google.com/url?q=https://en.wikipedia.org/wiki/NortonLifeLock&sa=D&source=editors&ust=1707397559965313&usg=AOvVaw0Fytuuvsd9kA4Y7d6NpjAs)
     |  | Cybersecurity | IPO | 1982 | 1989 | 7 | 42 | $2.6 | $12.0 | $1,200 | 12,000
     |  |'
+  id: totrans-20
   prefs: []
   type: TYPE_TB
+  zh: '| [NortonLifeLock fka Symantec](https://www.google.com/url?q=https://en.wikipedia.org/wiki/NortonLifeLock&sa=D&source=editors&ust=1707397559965313&usg=AOvVaw0Fytuuvsd9kA4Y7d6NpjAs)
+    |  | 网络安全 | IPO | 1982 | 1989 | 7 | 42 | $2.6 | $12.0 | $1,200 | 12,000 |  |'
 - en: '| Cloudera |  | Big Data | IPO | 2008 | 2017 | 9 | 16 | $1.0 | $4.0 | $1,040
     | 4,000 |  |'
+  id: totrans-21
   prefs: []
   type: TYPE_TB
+  zh: '| Cloudera |  | 大数据 | IPO | 2008 | 2017 | 9 | 16 | $1.0 | $4.0 | $1,040 | 4,000
+    |  |'
 - en: '| Zynga |  | Computer Games | IPO | 2007 | 2011 | 4 | 17 | $1.3 | $10.6 | $867
     | 2,255 |  |'
+  id: totrans-22
   prefs: []
   type: TYPE_TB
+  zh: '| Zynga |  | 电脑游戏 | IPO | 2007 | 2011 | 4 | 17 | $1.3 | $10.6 | $867 | 2,255
+    |  |'
 - en: '| Roblox |  | Computer Games | Upcoming IPO | 2004 | 2021 | 17 | 20 | $2.0
     | $29.5 | $855 | 2,500 |  |'
+  id: totrans-23
   prefs: []
   type: TYPE_TB
+  zh: '| Roblox |  | 电脑游戏 | 即将上市 | 2004 | 2021 | 17 | 20 | $2.0 | $29.5 | $855 | 2,500
+    |  |'
 - en: '| Ubisoft |  | Computer Games | IPO | 1986 | 1996 | 10 | 38 | $1.5 | $9.7 |
     $770 | 18,045 |  |'
+  id: totrans-24
   prefs: []
   type: TYPE_TB
+  zh: '| Ubisoft |  | 电脑游戏 | IPO | 1986 | 1996 | 10 | 38 | $1.5 | $9.7 | $770 | 18,045
+    |  |'
 - en: '| [JDA / Blue Yonder](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Blue_Yonder&sa=D&source=editors&ust=1707397559967138&usg=AOvVaw29axZsFjana_k_zpjcL1ap)
     |  | SCM | Acquired | 1985 | 1996 | 11 | 39 | $1.0 | $5.5 | $575 | 5,300 |  |'
+  id: totrans-25
   prefs: []
   type: TYPE_TB
+  zh: '| [JDA / Blue Yonder](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Blue_Yonder&sa=D&source=editors&ust=1707397559967138&usg=AOvVaw29axZsFjana_k_zpjcL1ap)
+    |  | 供应链管理 | 被收购 | 1985 | 1996 | 11 | 39 | $1.0 | $5.5 | $575 | 5,300 |  |'
 - en: '| ZeniMax |  | Computer Games | Acquired | 1999 | 2020 | 21 | 25 | $1.0 | $7.5
     | $574 | 2,300 |  |'
+  id: totrans-26
   prefs: []
   type: TYPE_TB
+  zh: '| ZeniMax |  | 电脑游戏 | 被收购 | 1999 | 2020 | 21 | 25 | $1.0 | $7.5 | $574 | 2,300
+    |  |'
 - en: '| Krafton |  | Computer Gaming | IPO | 2007 | 2021 | 14 | 14 | $1.0 | $30.0
     | $550 | 1,400 |  |'
+  id: totrans-27
   prefs: []
   type: TYPE_TB
+  zh: '| Krafton |  | 电脑游戏 | IPO | 2007 | 2021 | 14 | 14 | $1.0 | $30.0 | $550 | 1,400
+    |  |'
 - en: '| [Docusign](https://www.google.com/url?q=https://en.wikipedia.org/wiki/DocuSign&sa=D&source=editors&ust=1707397559968296&usg=AOvVaw1XwfmiHvzyxiiwq5-18YCN)
     |  | Electronic Signing | IPO | 2003 | 2018 | 15 | 21 | $1.8 | $50.0 | $536 |
     4,000 |  |'
+  id: totrans-28
   prefs: []
   type: TYPE_TB
+  zh: '| [Docusign](https://www.google.com/url?q=https://en.wikipedia.org/wiki/DocuSign&sa=D&source=editors&ust=1707397559968296&usg=AOvVaw1XwfmiHvzyxiiwq5-18YCN)
+    |  | 电子签名 | IPO | 2003 | 2018 | 15 | 21 | $1.8 | $50.0 | $536 | 4,000 |  |'
 - en: '| [Veeam](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veeam&sa=D&source=editors&ust=1707397559968815&usg=AOvVaw20mG0EK_iPCPToAGODqtR0)
     |  | Data Protection | PE / Acquired | 2006 | 2020 | 14 | 18 | $1.0 | $5.0 | $500
     | 4,000 |  |'
+  id: totrans-29
   prefs: []
   type: TYPE_TB
+  zh: '| [Veeam](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veeam&sa=D&source=editors&ust=1707397559968815&usg=AOvVaw20mG0EK_iPCPToAGODqtR0)
+    |  | 数据保护 | 私募 / 被收购 | 2006 | 2020 | 14 | 18 | $1.0 | $5.0 | $500 | 4,000 |  |'
 - en: '| [Niantic](https://www.google.com/url?q=https://www.nianticlabs.com/&sa=D&source=editors&ust=1707397559969352&usg=AOvVaw2D2ltszDZeUdtVhj6AgD0d)
     |  | Computer Games | Private | 2010 | - | - | 11 | $1.0 | $15.0 | $470 | 750
     |  |'
+  id: totrans-30
   prefs: []
   type: TYPE_TB
+  zh: '| [Niantic](https://www.google.com/url?q=https://www.nianticlabs.com/&sa=D&source=editors&ust=1707397559969352&usg=AOvVaw2D2ltszDZeUdtVhj6AgD0d)
+    |  | 电脑游戏 | 私有 | 2010 | - | - | 11 | $1.0 | $15.0 | $470 | 750 |  |'
 - en: '| [Qualtrics](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Qualtrics&sa=D&source=editors&ust=1707397559969746&usg=AOvVaw37XUdSD9-XDCIKUorjKNKQ)
     |  | Surveys | IPO + Acquisition | 2002 | 2018 | 16 | 22 | $1.0 | $8.0 | $400
     | 3,500 |  |'
+  id: totrans-31
   prefs: []
   type: TYPE_TB
+  zh: '| [Qualtrics](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Qualtrics&sa=D&source=editors&ust=1707397559969746&usg=AOvVaw37XUdSD9-XDCIKUorjKNKQ)
+    |  | 调查 | IPO + 收购 | 2002 | 2018 | 16 | 22 | $1.0 | $8.0 | $400 | 3,500 |  |'
 - en: '| [VMware](https://www.google.com/url?q=https://en.wikipedia.org/wiki/VMware&sa=D&source=editors&ust=1707397559970146&usg=AOvVaw0TktlIRKJJGyktBfQ01ijX)
     |  | Server Virtualization / Management | IPO | 1998 | 2007 | 9 | 26 | $13.0 |
     $70.0 | $393 | 31,000 |  |'
+  id: totrans-32
   prefs: []
   type: TYPE_TB
+  zh: '| [VMware](https://www.google.com/url?q=https://en.wikipedia.org/wiki/VMware&sa=D&source=editors&ust=1707397559970146&usg=AOvVaw0TktlIRKJJGyktBfQ01ijX)
+    |  | 服务器虚拟化 / 管理 | IPO | 1998 | 2007 | 9 | 26 | $13.0 | $70.0 | $393 | 31,000
+    |  |'
 - en: '| [Infor](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Infor&sa=D&source=editors&ust=1707397559970644&usg=AOvVaw1NHHsaHWyswvIslboNgJ1X)
     |  | ERP and Business Apps | IPO + Acquisition | 2002 | 2020 | 18 | 22 | $4.0
     | $13.0 | $304 | 17,000 |  |'
+  id: totrans-33
   prefs: []
   type: TYPE_TB
+  zh: '| [Infor](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Infor&sa=D&source=editors&ust=1707397559970644&usg=AOvVaw1NHHsaHWyswvIslboNgJ1X)
+    |  | ERP 和商业应用 | IPO + 收购 | 2002 | 2020 | 18 | 22 | $4.0 | $13.0 | $304 | 17,000
+    |  |'
 - en: '| [Twilio](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Twilio&sa=D&source=editors&ust=1707397559971164&usg=AOvVaw18LB6MkneDx1zM2KkZSjxQ)
     |  | Developer APIs | IPO | 2008 | 2016 | 8 | 16 | $1.7 | $44.0 | $263 | 3,700
     |  |'
+  id: totrans-34
   prefs: []
   type: TYPE_TB
+  zh: '| [Twilio](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Twilio&sa=D&source=editors&ust=1707397559971164&usg=AOvVaw18LB6MkneDx1zM2KkZSjxQ)
+    |  | 开发者 API | IPO | 2008 | 2016 | 8 | 16 | $1.7 | $44.0 | $263 | 3,700 |  |'
 - en: '| [MuleSoft](https://www.google.com/url?q=https://www.mulesoft.com/&sa=D&source=editors&ust=1707397559971583&usg=AOvVaw3E5VawSneqNQZC6gmVBLXd)
     |  | Middleware | IPO + M&A | 2006 | 2017 | 11 | 17 | $1.0 | $20.0 | $260 | 2,100
     |  |'
+  id: totrans-35
   prefs: []
   type: TYPE_TB
+  zh: '| [MuleSoft](https://www.google.com/url?q=https://www.mulesoft.com/&sa=D&source=editors&ust=1707397559971583&usg=AOvVaw3E5VawSneqNQZC6gmVBLXd)
+    |  | 中间件 | IPO + M&A | 2006 | 2017 | 11 | 17 | $1.0 | $20.0 | $260 | 2,100 |  |'
 - en: '| [Workday](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Workday,_Inc.&sa=D&source=editors&ust=1707397559972039&usg=AOvVaw1sh9myX_d-W5LPXV7gqXT-)
     |  | HCM + Finance | IPO | 2005 | 2012 | 7 | 19 | $4.0 | $53.0 | $230 | 13,000
     |  |'
+  id: totrans-36
   prefs: []
   type: TYPE_TB
+  zh: '| [Workday](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Workday,_Inc.&sa=D&source=editors&ust=1707397559972039&usg=AOvVaw1sh9myX_d-W5LPXV7gqXT-)
+    |  | 人力资源管理 + 财务 | IPO | 2005 | 2012 | 7 | 19 | $4.0 | $53.0 | $230 | 13,000 |  |'
 - en: '| [Atlassian](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Atlassian&sa=D&source=editors&ust=1707397559972432&usg=AOvVaw0UquYO5mqcQ2s8BiQZvsG-)
     |  | Software Development | IPO | 2002 | 2015 | 13 | 22 | $3.8 | $50.0 | $210
     | 5,700 |  |'
+  id: totrans-37
   prefs: []
   type: TYPE_TB
+  zh: '| [Atlassian](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Atlassian&sa=D&source=editors&ust=1707397559972432&usg=AOvVaw0UquYO5mqcQ2s8BiQZvsG-)
+    |  | 软件开发 | IPO | 2002 | 2015 | 13 | 22 | $3.8 | $50.0 | $210 | 5,700 |  |'
 - en: '| Cvent |  | Events Platform | Acquired | 1999 | 2016 | 17 | 25 | $1.0 | $1.6
     | $150 | 4,000 |  |'
+  id: totrans-38
   prefs: []
   type: TYPE_TB
+  zh: '| Cvent |  | 活动平台 | 收购 | 1999 | 2016 | 17 | 25 | $1.0 | $1.6 | $150 | 4,000
+    |  |'
 - en: '| [Zoom](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Zoom_Video_Communications&sa=D&source=editors&ust=1707397559973120&usg=AOvVaw0EzK5a3cBuqn5shHxJL62U)
     |  | Video Communications | IPO | 2011 | 2019 | 8 | 13 | $4.0 | $85.0 | $146 |
     5,500 |  |'
+  id: totrans-39
   prefs: []
   type: TYPE_TB
+  zh: '| [Zoom](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Zoom_Video_Communications&sa=D&source=editors&ust=1707397559973120&usg=AOvVaw0EzK5a3cBuqn5shHxJL62U)
+    |  | 视频通讯 | IPO | 2011 | 2019 | 8 | 13 | $4.0 | $85.0 | $146 | 5,500 |  |'
 - en: '| Square Enix |  | Computer Games | IPO | 1975 | 2004 | 29 | 49 | $2.6 | $7.0
     | $144 | 4,601 |  |'
+  id: totrans-40
   prefs: []
   type: TYPE_TB
+  zh: '| [史克威尔艾尼克斯](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Square_Enix&sa=D&source=editors&ust=1707397559975625&usg=AOvVaw2TBuYa4gILkHSG6uQ8i1m9)
+    |  | 电脑游戏 | IPO | 1975 | 2004 | 29 | 49 | $2.6 | $7.0 | $144 | 4,601 |  |'
 - en: '| Supercell |  | Gaming | Acquired | 2010 | 2016 | 6 | 14 | $2.5 | $15.0 |
     $143 | 900 |  |'
+  id: totrans-41
   prefs: []
   type: TYPE_TB
+  zh: '| Supercell |  | 游戏 | 收购 | 2010 | 2016 | 6 | 14 | $2.5 | $15.0 | $143 | 900
+    |  |'
 - en: '| Shopify |  | eCommerce Platform | Direct Listing IPO | 2006 | 2017 | 11 |
     18 | $4.0 | $130.0 | $122 | 8,000 |  |'
+  id: totrans-42
   prefs: []
   type: TYPE_TB
+  zh: '| Shopify |  | 电子商务平台 | 直接上市IPO | 2006 | 2017 | 11 | 18 | $4.0 | $130.0 | $122
+    | 8,000 |  |'
 - en: '| Bungie |  | Computer Games | Private | 1991 | 2000 | 9 | 33 | $1.0 | $1.0
     | $100 | 1,000 |  |'
+  id: totrans-43
   prefs: []
   type: TYPE_TB
+  zh: '| Bungie |  | 电脑游戏 | 私有 | 1991 | 2000 | 9 | 33 | $1.0 | $1.0 | $100 | 1,000
+    |  |'
 - en: '| Hubspot |  | CRM + Marketing Automation | IPO | 2006 | 2014 | 8 | 18 | $1.0
     | $18.0 | $100 | 4,500 |  |'
+  id: totrans-44
   prefs: []
   type: TYPE_TB
+  zh: '| Hubspot |  | CRM + 营销自动化 | IPO | 2006 | 2014 | 8 | 18 | $1.0 | $18.0 | $100
+    | 4,500 |  |'
 - en: '| [RealPage](https://www.google.com/url?q=https://en.wikipedia.org/wiki/RealPage&sa=D&source=editors&ust=1707397559975625&usg=AOvVaw2TBuYa4gILkHSG6uQ8i1m9)
     |  | Property Management | IPO | 1998 | 2010 | 12 | 26 | $1.0 | $6.0 | $86 | 6,500
     |  |'
+  id: totrans-45
   prefs: []
   type: TYPE_TB
+  zh: '| [RealPage](https://www.google.com/url?q=https://en.wikipedia.org/wiki/RealPage&sa=D&source=editors&ust=1707397559975625&usg=AOvVaw2TBuYa4gILkHSG6uQ8i1m9)
+    |  | 物业管理 | IPO | 1998 | 2010 | 12 | 26 | $1.0 | $6.0 | $86 | 6,500 |  |'
 - en: '| [Proofpoint](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Proofpoint,_Inc.&sa=D&source=editors&ust=1707397559976127&usg=AOvVaw13H3BpgKHETjsJD30zJvSU)
     |  | Cybersecurity | IPO | 2002 | 2012 | 10 | 22 | $1.0 | $6.0 | $85 | 3,500 |  |'
+  id: totrans-46
   prefs: []
   type: TYPE_TB
+  zh: '| [Proofpoint](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Proofpoint,_Inc.&sa=D&source=editors&ust=1707397559976127&usg=AOvVaw13H3BpgKHETjsJD30zJvSU)
+    |  | 网络安全 | IPO | 2002 | 2012 | 10 | 22 | $1.0 | $6.0 | $85 | 3,500 |  |'
 - en: '| [Zendesk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Zendesk&sa=D&source=editors&ust=1707397559976506&usg=AOvVaw1CsahcPlNi9imfOBKJm2gQ)
     |  | Helpdesk | IPO | 2007 | 2014 | 7 | 17 | $1.0 | $15.0 | $85 | 4,200 |  |'
+  id: totrans-47
   prefs: []
   type: TYPE_TB
+  zh: '| [Zendesk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Zendesk&sa=D&source=editors&ust=1707397559976506&usg=AOvVaw1CsahcPlNi9imfOBKJm2gQ)
+    |  | 帮助台 | IPO | 2007 | 2014 | 7 | 17 | $1.0 | $15.0 | $85 | 4,200 |  |'
 - en: '| [King.com](https://www.google.com/url?q=http://king.com/&sa=D&source=editors&ust=1707397559976872&usg=AOvVaw0XlHBonm4qztSivDy6KhPG)
     |  | Computer Games | IPO + Acquisition | 2003 | 2014 | 11 | 21 | $1.0 | $5.9
     | $84 | 2,000 |  |'
+  id: totrans-48
   prefs: []
   type: TYPE_TB
+  zh: '| [King.com](https://www.google.com/url?q=http://king.com/&sa=D&source=editors&ust=1707397559976872&usg=AOvVaw0XlHBonm4qztSivDy6KhPG)
+    |  | 电脑游戏 | IPO + 收购 | 2003 | 2014 | 11 | 21 | $1.0 | $5.9 | $84 | 2,000 |  |'
 - en: '| [ServiceNow](https://www.google.com/url?q=https://en.wikipedia.org/wiki/ServiceNow&sa=D&source=editors&ust=1707397559977243&usg=AOvVaw2BoluPZdeL1GJk4eVS-O-P)
     |  | IT Service Management | IPO | 2003 | 2012 | 9 | 21 | $4.0 | $100.0 | $84
     | 13,000 |  |'
+  id: totrans-49
   prefs: []
   type: TYPE_TB
+  zh: '| [ServiceNow](https://www.google.com/url?q=https://en.wikipedia.org/wiki/ServiceNow&sa=D&source=editors&ust=1707397559977243&usg=AOvVaw2BoluPZdeL1GJk4eVS-O-P)
+    |  | IT服务管理 | IPO | 2003 | 2012 | 9 | 21 | $4.0 | $100.0 | $84 | 13,000 |  |'
 - en: '| [CA](https://www.google.com/url?q=https://en.wikipedia.org/wiki/CA_Technologies&sa=D&source=editors&ust=1707397559977862&usg=AOvVaw17OMcKKrcCPI6rGYN8OhaA)
     |  | ERP and Business Apps | IPO + Acquisition | 1976 | 1987 | 11 | 48 | $4.5
     | $19.0 | $81 | 43,530 |  |'
+  id: totrans-50
   prefs: []
   type: TYPE_TB
+  zh: '| [CA](https://www.google.com/url?q=https://en.wikipedia.org/wiki/CA_Technologies&sa=D&source=editors&ust=1707397559977862&usg=AOvVaw17OMcKKrcCPI6rGYN8OhaA)
+    |  | ERP和商业应用 | IPO + 收购 | 1976 | 1987 | 11 | 48 | $4.5 | $19.0 | $81 | 43,530
+    |  |'
 - en: '| [Salesforce](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Salesforce&sa=D&source=editors&ust=1707397559978229&usg=AOvVaw0m_noDX2QYrXxvgpc_W2UV)
     |  | CRM and Business Apps | IPO | 1999 | 2004 | 5 | 25 | $22.0 | $200.0 | $64
     | 50,000 |  |'
+  id: totrans-51
   prefs: []
   type: TYPE_TB
+  zh: '| [Salesforce](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Salesforce&sa=D&source=editors&ust=1707397559978229&usg=AOvVaw0m_noDX2QYrXxvgpc_W2UV)
+    |  | CRM和商业应用 | IPO | 1999 | 2004 | 5 | 25 | $22.0 | $200.0 | $64 | 50,000 |  |'
 - en: '| [Wix](https://www.google.com/url?q=https://www.wix.com/&sa=D&source=editors&ust=1707397559978599&usg=AOvVaw0fOg4cTIopoFOtu0swe7Ka)
     |  | Website Builder | IPO | 2006 | 2013 | 7 | 15 | $1.0 | $15.0 | $58 | 4,000
     |  |'
+  id: totrans-52
   prefs: []
   type: TYPE_TB
+  zh: '| [Wix](https://www.google.com/url?q=https://www.wix.com/&sa=D&source=editors&ust=1707397559978599&usg=AOvVaw0fOg4cTIopoFOtu0swe7Ka)
+    |  | 网站构建 | IPO | 2006 | 2013 | 7 | 15 | $1.0 | $15.0 | $58 | 4,000 |  |'
 - en: '| Yelp |  | Internet | IPO | 2004 | 2012 | 8 | 20 | $1.2 | $2.4 | $56 | 7,700
     |  |'
+  id: totrans-53
   prefs: []
   type: TYPE_TB
+  zh: '| Yelp |  | 互联网 | IPO | 2004 | 2012 | 8 | 20 | $1.2 | $2.4 | $56 | 7,700 |  |'
 - en: '| BEA Systems |  | Infrastructure Software | IPO + Acquisition | 1995 | 1997
     | 2 | 29 | $2.0 | $10.0 | $50 | 5,500 |  |'
+  id: totrans-54
   prefs: []
   type: TYPE_TB
+  zh: '| BEA Systems |  | 基础设施软件 | IPO + 收购 | 1995 | 1997 | 2 | 29 | $2.0 | $10.0
+    | $50 | 5,500 |  |'
 - en: '| Nexon |  | Computer Games | IPO | 1994 | 2011 | 17 | 30 | $2.4 | $27.0 |
     $46 | 6,400 |  |'
+  id: totrans-55
   prefs: []
   type: TYPE_TB
+  zh: '| Nexon |  | 电脑游戏 | IPO | 1994 | 2011 | 17 | 30 | $2.4 | $27.0 | $46 | 6,400
+    |  |'
 - en: '| RingCentral |  | Cloud Communications | IPO | 1999 | 2013 | 14 | 25 | $1.0
     | $24.0 | $44 | 4,500 |  |'
+  id: totrans-56
   prefs: []
   type: TYPE_TB
+  zh: '| RingCentral |  | 云通信 | IPO | 1999 | 2013 | 14 | 25 | $1.0 | $24.0 | $44 |
+    4,500 |  |'
 - en: '| [Splunk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Splunk&sa=D&source=editors&ust=1707397559980518&usg=AOvVaw2o0P_LpblJDgXpcgGNnmdK)
     |  | Monitoring and Logging | IPO | 2003 | 2012 | 9 | 21 | $2.5 | $32.0 | $40
     | 6,500 |  |'
+  id: totrans-57
   prefs: []
   type: TYPE_TB
+  zh: '| [Splunk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Splunk&sa=D&source=editors&ust=1707397559980518&usg=AOvVaw2o0P_LpblJDgXpcgGNnmdK)
+    |  | 监控和日志 | IPO | 2003 | 2012 | 9 | 21 | $2.5 | $32.0 | $40 | 6,500 |  |'
 - en: '| Alphabet |  | Internet | IPO | 1998 | 2004 | 6 | 26 | $160.0 | $1,550.0 |
     $36 | 130,000 |  |'
+  id: totrans-58
   prefs: []
   type: TYPE_TB
+  zh: '| Alphabet |  | 互联网 | IPO | 1998 | 2004 | 6 | 26 | $160.0 | $1,550.0 | $36
+    | 130,000 |  |'
 - en: '| Twitch |  | Internet | Acquired | 2011 | 2014 | 3 | 13 | $1.0 | $15.0 | $35
     | 10,000 |  |'
+  id: totrans-59
   prefs: []
   type: TYPE_TB
+  zh: '| Twitch |  | 互联网 | 收购 | 2011 | 2014 | 3 | 13 | $1.0 | $15.0 | $35 | 10,000
+    |  |'
 - en: '| LogMeIn |  | Remote Work | IPO + Acquisition | 2003 | 2009 | 6 | 21 | $1.2
     | $4.3 | $30 | 4,200 |  |'
+  id: totrans-60
   prefs: []
   type: TYPE_TB
+  zh: '| LogMeIn |  | 远程工作 | IPO + 收购 | 2003 | 2009 | 6 | 21 | $1.2 | $4.3 | $30 |
+    4,200 |  |'
 - en: '| [CoreLogic](https://www.google.com/url?q=https://www.corelogic.com/&sa=D&source=editors&ust=1707397559982012&usg=AOvVaw1zsrZE5J9Bpb2H0SOWvmJG)
     |  | Real Estate Data / Finance | IPO / PE | 1991 | 2010 | 21 | 30 | $1.7 | 6
     | $25 | 5100 |  |'
+  id: totrans-61
   prefs: []
   type: TYPE_TB
+  zh: '| [CoreLogic](https://www.google.com/url?q=https://www.corelogic.com/&sa=D&source=editors&ust=1707397559982012&usg=AOvVaw1zsrZE5J9Bpb2H0SOWvmJG)
+    |  | 房地产数据 / 金融 | IPO / PE | 1991 | 2010 | 21 | 30 | $1.7 | 6 | $25 | 5100 |  |'
 - en: '| Red Hat |  | Middleware | IPO + Acquisition | 1993 | 1999 | 6 | 31 | $5.0
     | $32.0 | $25 | 15,000 |  |'
+  id: totrans-62
   prefs: []
   type: TYPE_TB
+  zh: '| Red Hat |  | 中间件 | IPO + 收购 | 1993 | 1999 | 6 | 31 | $5.0 | $32.0 | $25 |
+    15,000 |  |'
 - en: '| Riot |  | Computer Games | Acquired | 2006 | 2015 | 9 | 18 | $1.5 | $21.0
     | $21 | 2,500 |  |'
+  id: totrans-63
   prefs: []
   type: TYPE_TB
+  zh: '| Riot |  | 电脑游戏 | 收购 | 2006 | 2015 | 9 | 18 | $1.5 | $21.0 | $21 | 2,500 |  |'
 - en: '| [Citrix](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Citrix_Systems&sa=D&source=editors&ust=1707397559983330&usg=AOvVaw0U__OXRcQMKpA1E469a1dz)
     |  | App and Desktop Virtualization | PE / Acquired | 1989 | 1995 | 6 | 35 | $3.5
     | $14.0 | $20 | 11,000 |  |'
+  id: totrans-64
   prefs: []
   type: TYPE_TB
+  zh: '| [Citrix](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Citrix_Systems&sa=D&source=editors&ust=1707397559983330&usg=AOvVaw0U__OXRcQMKpA1E469a1dz)
+    |  | 应用和桌面虚拟化 | PE / 收购 | 1989 | 1995 | 6 | 35 | $3.5 | $14.0 | $20 | 11,000 |  |'
 - en: '| [Intuit](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Intuit&sa=D&source=editors&ust=1707397559983771&usg=AOvVaw3973wiypFosLV8lHTZ_hZY)
     |  | Tax Software | IPO | 1983 | 1993 | 10 | 41 | $8.0 | $120.0 | $19 | 12,000
     |  |'
+  id: totrans-65
   prefs: []
   type: TYPE_TB
+  zh: '| [Intuit](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Intuit&sa=D&source=editors&ust=1707397559983771&usg=AOvVaw3973wiypFosLV8lHTZ_hZY)
+    |  | 税务软件 | IPO | 1983 | 1993 | 10 | 41 | $8.0 | $120.0 | $19 | 12,000 |  |'
 - en: '| [Ultimate Software](https://www.google.com/url?q=https://www.ultimatesoftware.com/&sa=D&source=editors&ust=1707397559984140&usg=AOvVaw2TsDKpZGZBKSG9x6Bwv5af)
     |  | HCM | IPO + Acquisition | 1990 | 2019 | 29 | 31 | $1.0 | $15.0 | $19 | 5,500
     |  |'
+  id: totrans-66
   prefs: []
   type: TYPE_TB
+  zh: '| [Ultimate Software](https://www.google.com/url?q=https://www.ultimatesoftware.com/&sa=D&source=editors&ust=1707397559984140&usg=AOvVaw2TsDKpZGZBKSG9x6Bwv5af)
+    |  | 人力资源管理 | IPO + 收购 | 1990 | 2019 | 29 | 31 | $1.0 | $15.0 | $19 | 5,500 |  |'
 - en: '| [Tableau](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Tableau_Software&sa=D&source=editors&ust=1707397559984514&usg=AOvVaw3RdqcqE2ZfsrO7xPFyUU2E)
     |  | Business Intelligence | IPO | 2003 | 2013 | 10 | 21 | $1.8 | $20.0 | $15
     | 5,200 |  |'
+  id: totrans-67
   prefs: []
   type: TYPE_TB
+  zh: '| [Tableau](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Tableau_Software&sa=D&source=editors&ust=1707397559984514&usg=AOvVaw3RdqcqE2ZfsrO7xPFyUU2E)
+    |  | 商业智能 | IPO | 2003 | 2013 | 10 | 21 | $1.8 | $20.0 | $15 | 5,200 |  |'
 - en: '| [Qlik](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Qlik&sa=D&source=editors&ust=1707397559984970&usg=AOvVaw2umM0VrTXWvktKUS8rfJSE)
     |  | Business Intelligence | IPO + Acquisition | 1993 | 2016 | 23 | 31 | $1.0
     | $3.0 | $13 | 2,500 |  |'
+  id: totrans-68
   prefs: []
   type: TYPE_TB
+  zh: '| [Qlik](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Qlik&sa=D&source=editors&ust=1707397559984970&usg=AOvVaw2umM0VrTXWvktKUS8rfJSE)
+    |  | 商业智能 | IPO + 收购 | 1993 | 2016 | 23 | 31 | $1.0 | $3.0 | $13 | 2,500 |  |'
 - en: '| Capcom |  | Computer Games | IPO | 1979 | 2013 | 34 | 45 | $1.0 | $7.0 |
     $12 | 3,000 |  |'
+  id: totrans-69
   prefs: []
   type: TYPE_TB
+  zh: '| Capcom |  | 电脑游戏 | IPO | 1979 | 2013 | 34 | 45 | $1.0 | $7.0 | $12 | 3,000
+    |  |'
 - en: '| SolarWinds |  | Network Monitoring | IPO + Acquisition | 1999 | 2009 | 10
     | 25 | $1.0 | $5.0 | $8 | 2,500 |  |'
+  id: totrans-70
   prefs: []
   type: TYPE_TB
+  zh: '| SolarWinds |  | 网络监控 | IPO + 收购 | 1999 | 2009 | 10 | 25 | $1.0 | $5.0 | $8
+    | 2,500 |  |'
 - en: '| [Veeva](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veeva_Systems&sa=D&source=editors&ust=1707397559986080&usg=AOvVaw3AuYkdllhsZzamcIfqpQmX)
     |  | Life Sciences | IPO | 2007 | 2013 | 6 | 17 | $1.1 | $45.0 | $7 | 4,000 |  |'
+  id: totrans-71
   prefs: []
   type: TYPE_TB
+  zh: '| [Veeva](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veeva_Systems&sa=D&source=editors&ust=1707397559986080&usg=AOvVaw3AuYkdllhsZzamcIfqpQmX)
+    |  | 生命科学 | IPO | 2007 | 2013 | 6 | 17 | $1.1 | $45.0 | $7 | 4,000 |  |'
 - en: '| [Epicor](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Epicor&sa=D&source=editors&ust=1707397559986526&usg=AOvVaw1t1W6SNqOSfzTQZyhDFTN-)
     |  | ERP and Business Apps | IPO + Acquisition | 1972 | 2011 | 39 | 52 | $1.0
     | $4.7 | $6 | 4,250 |  |'
+  id: totrans-72
   prefs: []
   type: TYPE_TB
+  zh: '| [Epicor](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Epicor&sa=D&source=editors&ust=1707397559986526&usg=AOvVaw1t1W6SNqOSfzTQZyhDFTN-)
+    |  | ERP和商业应用 | IPO + 收购 | 1972 | 2011 | 39 | 52 | $1.0 | $4.7 | $6 | 4,250 |  |'
 - en: '| Valve corporation |  | Computer Games | Private | 1996 | - | - | 28 | $1.0
     | $10.0 | $5 | 900 |  |'
+  id: totrans-73
   prefs: []
   type: TYPE_TB
+  zh: '| Valve corporation |  | 电脑游戏 | 私有 | 1996 | - | - | 28 | $1.0 | $10.0 | $5
+    | 900 |  |'
 - en: '| [Concur](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAP_Concur&sa=D&source=editors&ust=1707397559987257&usg=AOvVaw37wLRHV0KPK7MXHG7N3VlH)
     |  | Expense Management | IPO + Acquisition | 1993 | 1998 | 5 | 31 | $2.0 | $8.3
     | $4 | 9,500 |  |'
+  id: totrans-74
   prefs: []
   type: TYPE_TB
+  zh: '| [Concur](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAP_Concur&sa=D&source=editors&ust=1707397559987257&usg=AOvVaw37wLRHV0KPK7MXHG7N3VlH)
+    |  | 费用管理 | IPO + 收购 | 1993 | 1998 | 5 | 31 | $2.0 | $8.3 | $4 | 9,500 |  |'
 - en: '| [Adobe](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Adobe_Inc.&sa=D&source=editors&ust=1707397559987696&usg=AOvVaw1IEWShAY0QcMDauaJOvsKw)
     |  | Creative, Marketing, Business | IPO | 1982 | 1986 | 4 | 42 | $13.0 | $230.0
     | $3 | 27,000 |  |'
+  id: totrans-75
   prefs: []
   type: TYPE_TB
+  zh: '| [Adobe](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Adobe_Inc.&sa=D&source=editors&ust=1707397559987696&usg=AOvVaw1IEWShAY0QcMDauaJOvsKw)
+    |  | 创意、营销、商业 | IPO | 1982 | 1986 | 4 | 42 | $13.0 | $230.0 | $3 | 27,000 |  |'
 - en: '| Electronic Arts |  | Computer Games | IPO | 1983 | 1989 | 6 | 41 | $5.5 |
     $37.0 | $2 | 25,000 |  |'
+  id: totrans-76
   prefs: []
   type: TYPE_TB
+  zh: '| Electronic Arts |  | 电脑游戏 | IPO | 1983 | 1989 | 6 | 41 | $5.5 | $37.0 | $2
+    | 25,000 |  |'
 - en: '| [Microsoft](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Microsoft&sa=D&source=editors&ust=1707397559988461&usg=AOvVaw0-33ny5nVRPYsKdG83fupj)
     *** |  | Productivity Software | IPO | 1975 | 1986 | 11 | 49 | $150.0 | $1,900.0
     | $1 | 156,000 |  |'
+  id: totrans-77
   prefs: []
   type: TYPE_TB
+  zh: '| [Microsoft](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Microsoft&sa=D&source=editors&ust=1707397559988461&usg=AOvVaw0-33ny5nVRPYsKdG83fupj)
+    *** |  | 生产力软件 | IPO | 1975 | 1986 | 11 | 49 | $150.0 | $1,900.0 | $1 | 156,000
+    |  |'
 - en: '| Mixi |  | Internet | IPO | 1999 | 2006 | 7 | 25 | $1.1 | $2.0 | $1 | 1,037
     |  |'
+  id: totrans-78
   prefs: []
   type: TYPE_TB
+  zh: '| Mixi |  | 互联网 | IPO | 1999 | 2006 | 7 | 25 | $1.1 | $2.0 | $1 | 1,037 |  |'
 - en: '| Activision Blizzard |  | Computer Games | IPO | 1979 | 1993 | 14 | 45 | $7.0
     | $60.0 | $0 | 9,200 |  |'
+  id: totrans-79
   prefs: []
   type: TYPE_TB
+  zh: '| Activision Blizzard |  | 电脑游戏 | IPO | 1979 | 1993 | 14 | 45 | $7.0 | $60.0
+    | $0 | 9,200 |  |'
 - en: '| [ADP](https://www.google.com/url?q=https://en.wikipedia.org/wiki/ADP_(company)&sa=D&source=editors&ust=1707397559989506&usg=AOvVaw3ielXEpHcINTMXVgge_MV6)
     |  | Human Resources | IPO | 1949 | 1961 | 12 | 75 | $15.0 | $70.0 | $0 | 60,000
     |  |'
+  id: totrans-80
   prefs: []
   type: TYPE_TB
+  zh: '| [ADP](https://www.google.com/url?q=https://en.wikipedia.org/wiki/ADP_(company)&sa=D&source=editors&ust=1707397559989506&usg=AOvVaw3ielXEpHcINTMXVgge_MV6)
+    |  | 人力资源 | IPO | 1949 | 1961 | 12 | 75 | $15.0 | $70.0 | $0 | 60,000 |  |'
 - en: '| [Allscripts](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Allscripts&sa=D&source=editors&ust=1707397559989916&usg=AOvVaw0x1IL7JDZXH_BbcyjKDZPq)
     |  | Healthcare | IPO | 1986 | 1999 | 13 | 38 | $1.7 | $1.7 | $0 | 8,500 |  |'
+  id: totrans-81
   prefs: []
   type: TYPE_TB
+  zh: '| [Allscripts](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Allscripts&sa=D&source=editors&ust=1707397559989916&usg=AOvVaw0x1IL7JDZXH_BbcyjKDZPq)
+    |  | 医疗保健 | IPO | 1986 | 1999 | 13 | 38 | $1.7 | $1.7 | $0 | 8,500 |  |'
 - en: '| [Amdocs](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Amdocs&sa=D&source=editors&ust=1707397559990491&usg=AOvVaw1McxxTbvaE0DeWO6T3fcdy)
     |  | Telecommunications | IPO | 1982 | 1998 | 16 | 42 | $4.0 | $8.0 | $0 | 30,000
     |  |'
+  id: totrans-82
   prefs: []
   type: TYPE_TB
+  zh: '| [Amdocs](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Amdocs&sa=D&source=editors&ust=1707397559990491&usg=AOvVaw1McxxTbvaE0DeWO6T3fcdy)
+    |  | 电信 | IPO | 1982 | 1998 | 16 | 42 | $4.0 | $8.0 | $0 | 30,000 |  |'
 - en: '| [Autodesk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Autodesk&sa=D&source=editors&ust=1707397559990925&usg=AOvVaw02_2-WaczoBRuaZDLPidAq)
     |  | 3D Design | IPO | 1982 | 1985 | 3 | 42 | $4.0 | $56.0 | $0 | 13,000 |  |'
+  id: totrans-83
   prefs: []
   type: TYPE_TB
+  zh: '| [Autodesk](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Autodesk&sa=D&source=editors&ust=1707397559990925&usg=AOvVaw02_2-WaczoBRuaZDLPidAq)
+    |  | 3D设计 | IPO | 1982 | 1985 | 3 | 42 | $4.0 | $56.0 | $0 | 13,000 |  |'
 - en: '| Blackbaud |  | Non-Profit Fundraising | IPO | 1983 | 2004 | 21 | 41 | $1.0
     | $2.5 | $0 | 3,500 |  |'
+  id: totrans-84
   prefs: []
   type: TYPE_TB
+  zh: '| Blackbaud |  | 非营利筹款 | IPO | 1983 | 2004 | 21 | 41 | $1.0 | $2.5 | $0 | 3,500
+    |  |'
 - en: '| [BMC](https://www.google.com/url?q=https://en.wikipedia.org/wiki/BMC_Software&sa=D&source=editors&ust=1707397559991817&usg=AOvVaw3c6U8noR1Co2iC2Q3sAV2a)
     |  | ITSM | IPO + Acquisition | 1980 | 1988 | 8 | 44 | $3.2 | $8.5 | $0 | 6,750
     |  |'
+  id: totrans-85
   prefs: []
   type: TYPE_TB
+  zh: '| [BMC](https://www.google.com/url?q=https://en.wikipedia.org/wiki/BMC_Software&sa=D&source=editors&ust=1707397559991817&usg=AOvVaw3c6U8noR1Co2iC2Q3sAV2a)
+    |  | ITSM | IPO + 收购 | 1980 | 1988 | 8 | 44 | $3.2 | $8.5 | $0 | 6,750 |  |'
 - en: '| Business Objects |  | Business Intelligence | IPO + Acquisition | 1990 |
     1994 | 4 | 34 | $1.5 | $7.0 | $0 | 6,500 |  |'
+  id: totrans-86
   prefs: []
   type: TYPE_TB
+  zh: '| 商业对象 |  | 商业智能 | IPO + 收购 | 1990 | 1994 | 4 | 34 | $1.5 | $7.0 | $0 | 6,500
+    |  |'
 - en: '| [Cadence](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Cadence_Design_Systems&sa=D&source=editors&ust=1707397559992531&usg=AOvVaw26ygt5tPSLkFCWYBOH9jgi)
     |  | Electronic Design Automation | IPO | 1982 | 1987 | 5 | 42 | $2.6 | $35 |
     $0 | 8,100 |  |'
+  id: totrans-87
   prefs: []
   type: TYPE_TB
+  zh: '| [Cadence](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Cadence_Design_Systems&sa=D&source=editors&ust=1707397559992531&usg=AOvVaw26ygt5tPSLkFCWYBOH9jgi)
+    |  | 电子设计自动化 | IPO | 1982 | 1987 | 5 | 42 | $2.6 | $35 | $0 | 8,100 |  |'
 - en: '| [Cerner](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Cerner&sa=D&source=editors&ust=1707397559993160&usg=AOvVaw3BcuA59IUpNF5yYTXjAYjC)
     |  | Healthcare | IPO | 1979 | 1986 | 7 | 45 | $5.7 | $22.0 | $0 | 26,000 |  |'
+  id: totrans-88
   prefs: []
   type: TYPE_TB
+  zh: '| [Cerner](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Cerner&sa=D&source=editors&ust=1707397559993160&usg=AOvVaw3BcuA59IUpNF5yYTXjAYjC)
+    |  | 医疗保健 | IPO | 1979 | 1986 | 7 | 45 | $5.7 | $22.0 | $0 | 26,000 |  |'
 - en: '| Cognos |  | Business Intelligence | IPO + Acquisition | 1969 | 1986 | 17
     | 55 | $1.0 | $5.0 | $0 | 3,500 |  |'
+  id: totrans-89
   prefs: []
   type: TYPE_TB
+  zh: '| Cognos |  | 商业智能 | IPO + 收购 | 1969 | 1986 | 17 | 55 | $1.0 | $5.0 | $0 |
+    3,500 |  |'
 - en: '| [Dassault Systèmes](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Dassault_Syst%25C3%25A8mes&sa=D&source=editors&ust=1707397559993915&usg=AOvVaw0wT-oc6mou2w6kaEBnBVYE)
     |  | 3D Design | IPO | 1981 | 1996 | 15 | 43 | $4.2 | $50.0 | $0 | 17,000 |  |'
+  id: totrans-90
   prefs: []
   type: TYPE_TB
+  zh: '| [达索系统](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Dassault_Syst%25C3%25A8mes&sa=D&source=editors&ust=1707397559993915&usg=AOvVaw0wT-oc6mou2w6kaEBnBVYE)
+    |  | 3D设计 | IPO | 1981 | 1996 | 15 | 43 | $4.2 | $50.0 | $0 | 17,000 |  |'
 - en: '| [Epic](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Epic_Systems&sa=D&source=editors&ust=1707397559994356&usg=AOvVaw3qBj4EwzaZYFQET6jH6YEx)
     |  | Healthcare | Private | 1979 | - | - | 45 | $3.0 | $5.0 | $0 | 4,000 |  |'
+  id: totrans-91
   prefs: []
   type: TYPE_TB
+  zh: '| [史诗](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Epic_Systems&sa=D&source=editors&ust=1707397559994356&usg=AOvVaw3qBj4EwzaZYFQET6jH6YEx)
+    |  | 医疗保健 | 私有 | 1979 | - | - | 45 | $3.0 | $5.0 | $0 | 4,000 |  |'
 - en: '| [Esri](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Esri&sa=D&source=editors&ust=1707397559994737&usg=AOvVaw3c0sWlRLslakvobvjy7qxV)
     |  | Geographic Information System | Private | 1969 | - | - | 55 | $1.5 | $6.0
     | $0 | 5,000 |  |'
+  id: totrans-92
   prefs: []
   type: TYPE_TB
+  zh: '| [Esri](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Esri&sa=D&source=editors&ust=1707397559994737&usg=AOvVaw3c0sWlRLslakvobvjy7qxV)
+    |  | 地理信息系统 | 私有 | 1969 | - | - | 55 | $1.5 | $6.0 | $0 | 5,000 |  |'
 - en: '| [FICO](https://www.google.com/url?q=https://en.wikipedia.org/wiki/FICO&sa=D&source=editors&ust=1707397559995147&usg=AOvVaw0d465Fut25hyRW43weiTZp)
     |  | Credit Scoring | IPO | 1956 | 1987 | 31 | 68 | $1.2 | $12.5 | $0 | 4,000
     |  |'
+  id: totrans-93
   prefs: []
   type: TYPE_TB
+  zh: '| [FICO](https://www.google.com/url?q=https://en.wikipedia.org/wiki/FICO&sa=D&source=editors&ust=1707397559995147&usg=AOvVaw0d465Fut25hyRW43weiTZp)
+    |  | 信用评分 | IPO | 1956 | 1987 | 31 | 68 | $1.2 | $12.5 | $0 | 4,000 |  |'
 - en: '| GungHo |  | Computer Games | IPO | 1998 | 2014 | 16 | 26 | $1.0 | $2.5 |
     $0 | 400 |  |'
+  id: totrans-94
   prefs: []
   type: TYPE_TB
+  zh: '| GungHo |  | 电脑游戏 | IPO | 1998 | 2014 | 16 | 26 | $1.0 | $2.5 | $0 | 400 |  |'
 - en: '| [Informatica](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Informatica&sa=D&source=editors&ust=1707397559996114&usg=AOvVaw0aSJVrtU_XjmMBFj81QFxt)
     |  | Data Integration | IPO + Acquisition | 1993 | 1999 | 6 | 31 | $1.4 | $9.0
     | $0 | 5,250 |  |'
+  id: totrans-95
   prefs: []
   type: TYPE_TB
+  zh: '| [Informatica](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Informatica&sa=D&source=editors&ust=1707397559996114&usg=AOvVaw0aSJVrtU_XjmMBFj81QFxt)
+    |  | 数据集成 | IPO + 收购 | 1993 | 1999 | 6 | 31 | $1.4 | $9.0 | $0 | 5,250 |  |'
 - en: '| Informix |  | Database | IPO + Acquisition | 1980 | 1986 | 6 | 44 | $1.0
     | $2.0 | $0 | 3,000 |  |'
+  id: totrans-96
   prefs: []
   type: TYPE_TB
+  zh: '| Informix |  | 数据库 | IPO + 收购 | 1980 | 1986 | 6 | 44 | $1.0 | $2.0 | $0 |
+    3,000 |  |'
 - en: '| [Mailchimp](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Mailchimp&sa=D&source=editors&ust=1707397559996954&usg=AOvVaw1ej34imn5W9mIJ3qkemH-S)
     |  | Email Marketing | Private | 2001 | - | - | 23 | $1.0 | $10.0 | $0 | 1,100
     |  |'
+  id: totrans-97
   prefs: []
   type: TYPE_TB
+  zh: '| [Mailchimp](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Mailchimp&sa=D&source=editors&ust=1707397559996954&usg=AOvVaw1ej34imn5W9mIJ3qkemH-S)
+    |  | 电子邮件营销 | 私有 | 2001 | - | - | 23 | $1.0 | $10.0 | $0 | 1,100 |  |'
 - en: '| [Mentor Graphics](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Mentor_Graphics&sa=D&source=editors&ust=1707397559997428&usg=AOvVaw0dwkJvEJHn_07kJ_iCKiud)
     |  | Electronic Design Automation | IPO + Acquisition | 1981 | 1984 | 3 | 43 |
     $1.3 | $4.5 | $0 | 4,500 |  |'
+  id: totrans-98
   prefs: []
   type: TYPE_TB
+  zh: '| [导师图形](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Mentor_Graphics&sa=D&source=editors&ust=1707397559997428&usg=AOvVaw0dwkJvEJHn_07kJ_iCKiud)
+    |  | 电子设计自动化 | IPO + 收购 | 1981 | 1984 | 3 | 43 | $1.3 | $4.5 | $0 | 4,500 |  |'
 - en: '| Micro Focus |  | Middleware | IPO | 1976 | 2005 | 29 | 48 | $3.3 | $4.5 |
     $0 | 11,000 |  |'
+  id: totrans-99
   prefs: []
   type: TYPE_TB
+  zh: '| Micro Focus |  | 中间件 | IPO | 1976 | 2005 | 29 | 48 | $3.3 | $4.5 | $0 | 11,000
+    |  |'
 - en: '| NCSoft |  | Computer Games | IPO | 1997 | 2010 | 13 | 27 | $1.5 | $19.0 |
     $0 | 4,000 |  |'
+  id: totrans-100
   prefs: []
   type: TYPE_TB
+  zh: '| NCSoft |  | 电脑游戏 | IPO | 1997 | 2010 | 13 | 27 | $1.5 | $19.0 | $0 | 4,000
+    |  |'
 - en: '| NetEase |  | Computer Games | IPO | 1997 | 2000 | 3 | 27 | $9.0 | $76.8 |
     $0 | 20,000 |  |'
+  id: totrans-101
   prefs: []
   type: TYPE_TB
+  zh: '| 网易 |  | 电脑游戏 | IPO | 1997 | 2000 | 3 | 27 | $9.0 | $76.8 | $0 | 20,000 |  |'
 - en: '| NICE |  | Security | IPO | 1986 | 1991 | 5 | 38 | $1.6 | $15.0 | $0 | 6,000
     |  |'
+  id: totrans-102
   prefs: []
   type: TYPE_TB
+  zh: '| NICE |  | 安全 | IPO | 1986 | 1991 | 5 | 38 | $1.6 | $15.0 | $0 | 6,000 |  |'
 - en: '| Nintendo |  | Computer Games | IPO | 1889 | 1963 | 74 | 135 | $12.3 | $74.9
     | $0 | 6,200 |  |'
+  id: totrans-103
   prefs: []
   type: TYPE_TB
+  zh: '| 任天堂 |  | 电脑游戏 | IPO | 1889 | 1963 | 74 | 135 | $12.3 | $74.9 | $0 | 6,200
+    |  |'
 - en: '| Novell |  | Business Software | IPO + Acquisition | 1979 | 1985 | 6 | 45
     | $1.0 | $1.2 | $0 | 5,500 |  |'
+  id: totrans-104
   prefs: []
   type: TYPE_TB
+  zh: '| Novell |  | 商业软件 | IPO + 收购 | 1979 | 1985 | 6 | 45 | $1.0 | $1.2 | $0 | 5,500
+    |  |'
 - en: '| [Nuance](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Nuance_Communications&sa=D&source=editors&ust=1707397560000204&usg=AOvVaw2iQETnfBxBFBMgVrH2aOFp)
     |  | Speech Recognition | IPO | 1992 | 2000 | 8 | 32 | $2.0 | $10.0 | $0 | 7,500
     |  |'
+  id: totrans-105
   prefs: []
   type: TYPE_TB
+  zh: '| [Nuance](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Nuance_Communications&sa=D&source=editors&ust=1707397560000204&usg=AOvVaw2iQETnfBxBFBMgVrH2aOFp)
+    |  | 语音识别 | IPO | 1992 | 2000 | 8 | 32 | $2.0 | $10.0 | $0 | 7,500 |  |'
 - en: '| [OpenText](https://www.google.com/url?q=https://en.wikipedia.org/wiki/OpenText&sa=D&source=editors&ust=1707397560000618&usg=AOvVaw1AhP_wYs7Z8gdLfkOjMnfg)
     |  | Enterprise Content Management | IPO | 1991 | 1996 | 5 | 33 | $3.0 | $11.0
     | $0 | 13,500 |  |'
+  id: totrans-106
   prefs: []
   type: TYPE_TB
+  zh: '| [OpenText](https://www.google.com/url?q=https://en.wikipedia.org/wiki/OpenText&sa=D&source=editors&ust=1707397560000618&usg=AOvVaw1AhP_wYs7Z8gdLfkOjMnfg)
+    |  | 企业内容管理 | IPO | 1991 | 1996 | 5 | 33 | $3.0 | $11.0 | $0 | 13,500 |  |'
 - en: '| [Oracle](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Oracle_Corporation&sa=D&source=editors&ust=1707397560001011&usg=AOvVaw3rVuuDPYoP07k-BTUoMOKc)
     *** |  | Database + Apps | IPO | 1977 | 1986 | 9 | 47 | $39.0 | $230.0 | $0 |
     135,000 |  |'
+  id: totrans-107
   prefs: []
   type: TYPE_TB
+  zh: '| [Oracle](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Oracle_Corporation&sa=D&source=editors&ust=1707397560001011&usg=AOvVaw3rVuuDPYoP07k-BTUoMOKc)
+    *** |  | 数据库 + 应用 | IPO | 1977 | 1986 | 9 | 47 | $39.0 | $230.0 | $0 | 135,000
+    |  |'
 - en: '| [Pegasystems](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Pegasystems&sa=D&source=editors&ust=1707397560001477&usg=AOvVaw1dZzdLBPWpMfzUu04NrG_l)
     |  | Business Process Management | IPO | 1983 | 1996 | 13 | 41 | $1.0 | $10.0
     | $0 | 6,000 |  |'
+  id: totrans-108
   prefs: []
   type: TYPE_TB
+  zh: '| [Pegasystems](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Pegasystems&sa=D&source=editors&ust=1707397560001477&usg=AOvVaw1dZzdLBPWpMfzUu04NrG_l)
+    |  | 业务流程管理 | IPO | 1983 | 1996 | 13 | 41 | $1.0 | $10.0 | $0 | 6,000 |  |'
 - en: '| [PTC](https://www.google.com/url?q=https://en.wikipedia.org/wiki/PTC_(software_company)&sa=D&source=editors&ust=1707397560001942&usg=AOvVaw1niSrmsTkclNPXHTWbI_lh)
     |  | CAD and PLM | IPO | 1985 | 1989 | 4 | 39 | $1.5 | $10.8 | $0 | 7,000 |  |'
+  id: totrans-109
   prefs: []
   type: TYPE_TB
+  zh: '| [PTC](https://www.google.com/url?q=https://en.wikipedia.org/wiki/PTC_(software_company)&sa=D&source=editors&ust=1707397560001942&usg=AOvVaw1niSrmsTkclNPXHTWbI_lh)
+    |  | CAD 和 PLM | IPO | 1985 | 1989 | 4 | 39 | $1.5 | $10.8 | $0 | 7,000 |  |'
 - en: '| [Sage](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Sage_Group&sa=D&source=editors&ust=1707397560002361&usg=AOvVaw0mXi6p6v5LgZZrIaBOD7xo)
     |  | ERP and Business Apps | IPO + Acquisition | 1981 | 1989 | 8 | 43 | $2.0 |
     $7.0 | $0 | 15,430 |  |'
+  id: totrans-110
   prefs: []
   type: TYPE_TB
+  zh: '| [Sage](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Sage_Group&sa=D&source=editors&ust=1707397560002361&usg=AOvVaw0mXi6p6v5LgZZrIaBOD7xo)
+    |  | ERP 和商业应用 | IPO + 收购 | 1981 | 1989 | 8 | 43 | $2.0 | $7.0 | $0 | 15,430 |  |'
 - en: '| [SAS Institute](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAS_Institute&sa=D&source=editors&ust=1707397560002741&usg=AOvVaw2YgUNLgJqforq2igFVBoSM)
     |  | Analytics | Private | 1976 | - | - | 48 | $3.5 | $10.0 | $0 | 14,000 |  |'
+  id: totrans-111
   prefs: []
   type: TYPE_TB
+  zh: '| [SAS Institute](https://www.google.com/url?q=https://en.wikipedia.org/wiki/SAS_Institute&sa=D&source=editors&ust=1707397560002741&usg=AOvVaw2YgUNLgJqforq2igFVBoSM)
+    |  | 分析 | 私有 | 1976 | - | - | 48 | $3.5 | $10.0 | $0 | 14,000 |  |'
 - en: '| Solera |  | Auto Insurance Claims Software | IPO + Acquisition | 2005 | 2007
     | 2 | 19 | $1.0 | $4.0 | $0 | 1,200 |  |'
+  id: totrans-112
   prefs: []
   type: TYPE_TB
+  zh: '| Solera |  | 汽车保险理赔软件 | IPO + 收购 | 2005 | 2007 | 2 | 19 | $1.0 | $4.0 | $0
+    | 1,200 |  |'
 - en: '| Sybase |  | Database | IPO + Acquisition | 1984 | 1991 | 7 | 40 | $1.1 |
     $6.0 | $0 | 5,000 |  |'
+  id: totrans-113
   prefs: []
   type: TYPE_TB
+  zh: '| Sybase |  | 数据库 | IPO + 收购 | 1984 | 1991 | 7 | 40 | $1.1 | $6.0 | $0 | 5,000
+    |  |'
 - en: '| [Synopsys](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Synopsys&sa=D&source=editors&ust=1707397560004018&usg=AOvVaw2KIQc3DT3JeWQuulVbhUT4)
     |  | Electronic Design Automation | IPO | 1986 | 1992 | 6 | 38 | $3.8 | $35 |
     $0 | 14,500 |  |'
+  id: totrans-114
   prefs: []
   type: TYPE_TB
+  zh: '| [Synopsys](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Synopsys&sa=D&source=editors&ust=1707397560004018&usg=AOvVaw2KIQc3DT3JeWQuulVbhUT4)
+    |  | 电子设计自动化 | IPO | 1986 | 1992 | 6 | 38 | $3.8 | $35 | $0 | 14,500 |  |'
 - en: '| Take Two |  | Computer Games | IPO | 1993 | 1997 | 4 | 31 | $3.4 | $23.1
     | $0 | 4,800 |  |'
+  id: totrans-115
   prefs: []
   type: TYPE_TB
+  zh: '| Take Two |  | 电脑游戏 | IPO | 1993 | 1997 | 4 | 31 | $3.4 | $23.1 | $0 | 4,800
+    |  |'
 - en: '| TEMENOS |  | Core Banking | IPO | 1993 | 2001 | 8 | 31 | $1.0 | $10.0 | $0
     | 7,500 |  |'
+  id: totrans-116
   prefs: []
   type: TYPE_TB
+  zh: '| TEMENOS |  | 核心银行 | IPO | 1993 | 2001 | 8 | 31 | $1.0 | $10.0 | $0 | 7,500
+    |  |'
 - en: '| Teradata |  | Data Warehouse | Acquisition + IPO | 1979 | 2007 | 28 | 45
     | $2.0 | $2.2 | $0 | 10,000 |  |'
+  id: totrans-117
   prefs: []
   type: TYPE_TB
+  zh: '| Teradata |  | 数据仓库 | 收购 + IPO | 1979 | 2007 | 28 | 45 | $2.0 | $2.2 | $0
+    | 10,000 |  |'
 - en: '| [TIBCO](https://www.google.com/url?q=https://en.wikipedia.org/wiki/TIBCO_Software&sa=D&source=editors&ust=1707397560006193&usg=AOvVaw3Jeu8uZR_GKYoe_jf-YNJC)
     |  | Middleware | IPO | 1997 | 1999 | 2 | 27 | $1.0 | $3.0 | $0 | 4,200 |  |'
+  id: totrans-118
   prefs: []
   type: TYPE_TB
+  zh: '| [TIBCO](https://www.google.com/url?q=https://en.wikipedia.org/wiki/TIBCO_Software&sa=D&source=editors&ust=1707397560006193&usg=AOvVaw3Jeu8uZR_GKYoe_jf-YNJC)
+    |  | 中间件 | IPO | 1997 | 1999 | 2 | 27 | $1.0 | $3.0 | $0 | 4,200 |  |'
 - en: '| [Trend Micro](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Trend_Micro&sa=D&source=editors&ust=1707397560008870&usg=AOvVaw0lAWensPprah83hhpT-gBy)
     |  | Cybsersecurity | IPO | 1988 | 1999 | 11 | 36 | $1.6 | $8.4 | $0 | 6,750 |  |'
+  id: totrans-119
   prefs: []
   type: TYPE_TB
+  zh: '| [趋势科技](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Trend_Micro&sa=D&source=editors&ust=1707397560008870&usg=AOvVaw0lAWensPprah83hhpT-gBy)
+    |  | 网络安全 | IPO | 1988 | 1999 | 11 | 36 | $1.6 | $8.4 | $0 | 6,750 |  |'
 - en: '| [Veritas](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veritas_Technologies&sa=D&source=editors&ust=1707397560009442&usg=AOvVaw3ve90bHn-JmW4gxj8htiYk)
     |  | Backup and Storage | IPO + Acquisitions | 1983 | 1993 | 10 | 41 | $2.5 |
     $10.0 | $0 | 6,000 |  |'
+  id: totrans-120
   prefs: []
   type: TYPE_TB
+  zh: '| [真相科技](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Veritas_Technologies&sa=D&source=editors&ust=1707397560009442&usg=AOvVaw3ve90bHn-JmW4gxj8htiYk)
+    |  | 备份和存储 | IPO + 收购 | 1983 | 1993 | 10 | 41 | $2.5 | $10.0 | $0 | 6,000 |  |'

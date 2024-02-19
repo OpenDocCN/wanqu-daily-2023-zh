@@ -1,42 +1,57 @@
 - en: GitHub replaces code search engine with Rust-based Blackbird • The Register
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.theregister.com/2023/05/09/blackbird_github_search/](https://www.theregister.com/2023/05/09/blackbird_github_search/)"
+  zh: GitHub用基于Rust的Blackbird替换了代码搜索引擎 • The Register
+- en: 'Original Text: [https://www.theregister.com/2023/05/09/blackbird_github_search/](https://www.theregister.com/2023/05/09/blackbird_github_search/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.theregister.com/2023/05/09/blackbird_github_search/](https://www.theregister.com/2023/05/09/blackbird_github_search/)
 - en: GitHub's reworked Rust-based code search engine entered general availability
     on Monday, promising faster, more comprehensive explorations of software repositories.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: GitHub重新设计的基于Rust的代码搜索引擎于周一正式推出，承诺更快、更全面地探索软件存储库。
 - en: The revision, dubbed Blackbird internally, has been three years in the making,
     and is part of the corporation's enduring effort to make text-based search techniques
     more effective on queries of computer code.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个内部称为Blackbird的修订版已经历时三年，是该公司不懈努力的一部分，旨在使基于文本的搜索技术在计算机代码查询中更加有效。
 - en: '"Our goal with the new code search and code view is to enable developers to
     quickly search, navigate and understand their code, put critical information into
     context, and ultimately make them more productive," said Colin Merkel, a GitHub
     software engineer, in an [announcement](https://github.blog/2023-05-08-github-code-search-is-generally-available/).'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: '"我们新代码搜索和代码查看的目标是使开发人员能够快速搜索、导航和理解他们的代码，将关键信息放入上下文，并最终提高他们的生产力，" GitHub软件工程师Colin
+    Merkel在一篇[公告](https://github.blog/2023-05-08-github-code-search-is-generally-available/)中表示。'
 - en: Founded in 2008, GitHub initially used Apache Solr to handle its code search.
     Then, after Solr was folded into Lucene, the collaborative code biz built a new
     search service [using Elasticsearch](https://github.blog/2013-01-23-a-whole-new-code-search/)
     in 2013\. [Outages followed](https://github.blog/2013-02-04-recent-code-search-outages/)
     and by 2020 – two years after Microsoft acquired the company – work on Blackbird
     commenced.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 成立于2008年，GitHub最初使用Apache Solr处理其代码搜索。然后，在Solr被合并到Lucene之后，这家协作代码公司在2013年构建了一个新的搜索服务，[使用Elasticsearch](https://github.blog/2013-01-23-a-whole-new-code-search/)。[随之而来的是故障](https://github.blog/2013-02-04-recent-code-search-outages/)，直到2020年—即微软收购该公司两年后—Blackbird的工作开始。
 - en: 'The goals for the project were: to index all source code on GitHub; to support
     incremental indexing and document deletion, and to provide fast exact-match and
     regex queries (< 1 second for 95 percent of users on global queries, and faster
     still for more narrowly scoped queries); to integrate without GitHub code info;
     and to do so without expanding resource demands on GitHub''s existing Elasticsearch
     cluster.'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 该项目的目标是：索引GitHub上的所有源代码；支持增量索引和文档删除，并提供快速的精确匹配和正则表达式查询（对于全局查询的95%用户在1秒内完成，对于更狭隘范围的查询速度更快）；集成GitHub代码信息而无需扩展GitHub现有的Elasticsearch集群的资源需求。
 - en: An off-the-shelf tool capable of the above did not exist, so GitHub committed
     to Blackbird, written in Rust, [as the biz discussed](https://www.theregister.com/2023/02/07/github_code_search/)
     in February. The resulting system can manage about 640 queries per second, compared
@@ -44,32 +59,46 @@
     thanks to precomputed search indices that map numeric keys to values and other
     architectural improvements. And it can index at a rate of roughly 120,000 documents
     per second.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 一个能够实现上述功能的现成工具并不存在，因此GitHub承诺了Blackbird，使用Rust编写，[如该公司在二月讨论的那样](https://www.theregister.com/2023/02/07/github_code_search/)。由此产生的系统可以每秒处理大约640个查询，而[ripgrep](https://github.com/BurntSushi/ripgrep)每秒只能处理大约0.01个查询，这要归功于预先计算的搜索索引，将数字键映射到值以及其他架构改进。它可以以大约每秒约120,000个文档的速度进行索引。
 - en: '"It is incredibly fast (about twice as fast as the old code search), far more
     capable (supporting substring queries, regular expressions, and symbol search),
     and understands code, putting the most relevant results first," explained Merkel.'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: '"它速度非常快（大约比旧代码搜索快两倍），功能更加强大（支持子串查询、正则表达式和符号搜索），并且能够理解代码，将最相关的结果放在首位，" Merkel解释道。'
 - en: Beyond the [technical fiddling](https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/)
     necessary to index and query 45 million repositories (which excludes many redundant
     forks), GitHub's new [code search](https://docs.github.com/en/search-github) engine
     has been framed with search interface improvements that show suggestions and competitions,
     and with a redesigned code view that brings search, browsing, and code navigation
     together.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 除了必要的技术调整，用于索引和查询 4500 万个存储库（排除了许多冗余分支）的 GitHub 的新 [代码搜索](https://docs.github.com/en/search-github)
+    引擎已经通过搜索界面改进，显示建议和竞争，并通过重新设计的代码视图将搜索、浏览和代码导航结合在一起。
 - en: The result finds specific text across repos works rather well. Take trying to
     locate values associated with the "memory" key in YAML configuration files for
     a Kubernetes cluster. GitHub code search makes it easy to focus only on YAML files.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 结果发现跨存储库查找特定文本效果相当不错。试图在 Kubernetes 集群的 YAML 配置文件中定位与 "memory" 键关联的值时，GitHub
+    代码搜索使得仅关注 YAML 文件变得容易。
 - en: That kind of precise filtering is also useful when trying to identify which
     particular part of an application produced a specific error message.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 当尝试确定应用程序的哪个特定部分产生了特定的错误消息时，这种精确的过滤也很有用。
 - en: Merkel says that GitHub's goal with the new code search and code view is to
     help developers find important information scattered across their codebase, to
     contextualize that information, and to make developers more productive. ®
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 默克尔表示，GitHub 的新代码搜索和代码视图的目标是帮助开发人员找到散布在其代码库中的重要信息，对这些信息进行上下文化，并使开发人员更加高效。®

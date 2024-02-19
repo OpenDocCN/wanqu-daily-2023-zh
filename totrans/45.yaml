@@ -1,77 +1,115 @@
 - en: The Bitcoin Whitepaper Is Hidden in Every Modern Copy of macOS - Waxy.org
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/](https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)"
+  zh: 每个现代 macOS 副本中都隐藏了比特币白皮书 - Waxy.org
+- en: 'Original Text: [https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/](https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文：[https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/](https://waxy.org/2023/04/the-bitcoin-whitepaper-is-hidden-in-every-modern-copy-of-macos/)
 - en: While trying to fix my printer today, I discovered that a PDF copy of Satoshi
     Nakamoto’s [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) apparently shipped
     with every copy of macOS since Mojave in 2018.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 今天在修理打印机时，我发现自 2018 年 Mojave 以来的每个 macOS 副本中似乎都附带了 Satoshi Nakamoto 的[比特币白皮书](https://bitcoin.org/bitcoin.pdf)的
+    PDF 副本。
 - en: I’ve asked over a dozen Mac-using friends to confirm, and it was there for every
     one of them. The file is found in every version of macOS from Mojave (10.14.0)
     to the current version, Ventura (13.3), but isn’t in High Sierra (10.13) or earlier.
     **Update:** As [confirmed by 9to5Mac](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/),
     it was removed in macOS Ventura 13.4 beta 3.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我询问了十多位使用 Mac 的朋友来确认，对于每个人来说都存在。该文件在从 Mojave（10.14.0）到当前版本 Ventura（13.3）的每个
+    macOS 版本中都可以找到，但在 High Sierra（10.13）或更早版本中找不到。**更新：**正如[9to5Mac确认的](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/)，在
+    macOS Ventura 13.4 beta 3 中已将其移除。
 - en: See for Yourself
+  id: totrans-4
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 亲自查看
 - en: 'If you’re on a Mac, open a Terminal and type the following command:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你使用 Mac，请打开终端并输入以下命令：
 - en: '`open /System/Library/Image\ Capture/Devices/VirtualScanner.app/Contents/Resources/simpledoc.pdf`'
+  id: totrans-6
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: '`open /System/Library/Image\ Capture/Devices/VirtualScanner.app/Contents/Resources/simpledoc.pdf`'
 - en: If you’re on macOS 10.14 or later, the Bitcoin PDF should immediately open in
     Preview.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你使用 macOS 10.14 或更高版本，比特币的 PDF 应该会立即在预览中打开。
 - en: (If you’re not comfortable with Terminal, open Finder and click on Macintosh
     HD, then open the System→Library→Image Capture→Devices folder. Control-click on
     VirtualScanner.app and Show Package Contents, open the Contents→Resources folder
     inside, then open simpledoc.pdf.)
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: （如果你不熟悉终端，请打开 Finder，点击 Macintosh HD，然后打开 System→Library→Image Capture→Devices
+    文件夹。右键点击 VirtualScanner.app 并显示包内容，打开里面的 Contents→Resources 文件夹，然后打开 simpledoc.pdf。）
 - en: In the Image Capture utility, the Bitcoin whitepaper is used as a sample document
     for a device called “Virtual Scanner II,” which is either hidden or not installed
     for everyone by default. It’s not clear why it’s hidden for some or what exactly
     it’s used for, but [Reid Beels](https://reidbeels.com/) suggested it may power
     the “Import from iPhone” feature.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 Image Capture 实用程序中，比特币白皮书被用作名为“Virtual Scanner II”的设备的示例文档，该设备可能对每个人默认隐藏或未安装。目前尚不清楚为什么对于某些人而言它是隐藏的，或者它究竟用于什么，但[Reid
+    Beels](https://reidbeels.com/)建议它可能用于支持“从 iPhone 导入”功能。
 - en: In Image Capture, select the “Virtual Scanner II” device if it exists, and in
     the Details, set the Media to “Document” and Media DPI to “72 DPI.” You should
     see the preview of the first page of the Bitcoin paper.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 在 Image Capture 中，如果存在“Virtual Scanner II”设备，请选择它，并在详细信息中将媒体设置为“文档”，媒体 DPI 设置为“72
+    DPI”。你应该能看到比特币白皮书的第一页预览。
 - en: '![Screenshot of Image Capture utility with the Virtual Scanner II device selected,
     previewing the first page of the Bitcoin whitepaper](../Images/d158fb3a7123c78e1aaee1672187df12.png)'
+  id: totrans-11
   prefs: []
   type: TYPE_IMG
+  zh: '![Image Capture 实用程序的截图，选择了 Virtual Scanner II 设备，预览了比特币白皮书的第一页](../Images/d158fb3a7123c78e1aaee1672187df12.png)'
 - en: But Why
+  id: totrans-12
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 但为什么
 - en: Of all the documents in the world, why was the Bitcoin whitepaper chosen? Is
     there a secret Bitcoin maxi working at Apple? The filename is “simpledoc.pdf”
     and it’s only 184 KB. Maybe it was just a convenient, lightweight multipage PDF
     for testing purposes, never meant to be seen by end users.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 在世界上所有文档中，为什么选择比特币白皮书？苹果公司有没有秘密的比特币极客？文件名为“simpledoc.pdf”，大小仅为 184 KB。也许它只是一个方便的、轻量级的多页
+    PDF 用于测试目的，从未被终端用户看到。
 - en: There’s virtually nothing about this online. As of this moment, there are only
     a couple references to “Virtual Driver II” or the whitepaper file in Google results.
     Namely, this Twitter thread from designer Joshua Dickens in November 2020, who
     also spotted the whitepaper PDF, inspiring [this Apple Community post](https://discussions.apple.com/thread/252657375)
     in April 2021\. And that’s it!
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 在网上几乎找不到任何关于这个的信息。截至目前，谷歌搜索结果中只有几个关于“Virtual Driver II”或白皮书文件的参考。特别是，这是来自设计师
+    Joshua Dickens 在 2020 年 11 月的 Twitter 线程，他也发现了白皮书 PDF，激发了 2021 年 4 月的[这篇苹果社区帖子](https://discussions.apple.com/thread/252657375)。就是这样！
 - en: 'One other oddity: there’s a file called cover.jpg in the Resources folder used
     for testing the Photo media type, a 2,634×3,916 JPEG photo of a sign [taken on
     Treasure Island](https://www.google.com/maps/@37.8252421,-122.3672424,3a,15y,182.29h,84.04t/data=!3m7!1e1!3m5!1sknhGiz09PMlvcbdaJj6Bjg!2e0!5s20110501T000000!7i13312!8i6656)
@@ -79,24 +117,35 @@
     Thomas Hawk [identified it](https://twitter.com/thomashawk/status/1450961809125511168)
     as the location of a [nearly identical photo](https://www.flickr.com/photos/thomashawk/3661857599)
     he shot in 2008.'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一个奇怪之处：在用于测试照片媒体类型的资源文件夹中有一个名为cover.jpg的文件，这是一张2634×3916像素的JPEG照片，拍摄于旧金山湾的[金银岛](https://www.google.com/maps/@37.8252421,-122.3672424,3a,15y,182.29h,84.04t/data=!3m7!1e1!3m5!1sknhGiz09PMlvcbdaJj6Bjg!2e0!5s20110501T000000!7i13312!8i6656)。文件中没有EXIF元数据，但摄影师托马斯·霍克[确认了](https://twitter.com/thomashawk/status/1450961809125511168)，这是他2008年拍摄的[几乎相同的照片](https://www.flickr.com/photos/thomashawk/3661857599)的地点。
 - en: '![Photo of a weathered hand-painted "6" sign and a sticker reading "Warning!
     Alarm System" on blue painted wood](../Images/dd5394337c1d762b8f4e8581a55c3ce3.png)'
+  id: totrans-16
   prefs: []
   type: TYPE_IMG
+  zh: '![一只风化的手绘“6”标志和一个贴有“警告！报警系统”标签的蓝色涂木板的照片](../Images/dd5394337c1d762b8f4e8581a55c3ce3.png)'
 - en: If you know anything more — about how or why the Bitcoin paper ended up in macOS
     or what Virtual Scanner II is for — [get in touch](/cdn-cgi/l/email-protection#6e0201092e190f161740011c09)
     or leave a comment. (Anonymity guaranteed!)
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果您了解更多信息——比如比特币白皮书是如何以及为什么出现在macOS中，或者Virtual Scanner II是用来做什么的——请[联系我们](/cdn-cgi/l/email-protection#6e0201092e190f161740011c09)或留下评论。（匿名性得到保证！）
 - en: '**Update:** A little bird tells me that someone internally filed it as an issue
     nearly a year ago, assigned to the same engineer who put the PDF there in the
     first place, and that person hasn’t taken action or commented on the issue since.
     They’ve indicated it will likely be removed in future versions.'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '**更新：** 一只小鸟告诉我，有人在将近一年前将其作为问题提交，分配给了最初放置PDF的工程师，而那个人至今没有采取行动或对问题发表评论。他们表示这可能会在未来版本中被移除。'
 - en: '**Update (April 26):** As [confirmed by 9to5Mac](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/),
     it was removed in macOS Ventura 13.4 beta 3.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: '**更新（4月26日）：** 正如[9to5Mac确认的](https://9to5mac.com/2023/04/25/apple-removes-bitcoin-whitepaper-from-macos/)，它在macOS
+    Ventura 13.4 beta 3中被移除。'

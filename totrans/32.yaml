@@ -1,35 +1,49 @@
 - en: Why you should teach at a Community College | Timo Zander
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://timozander.de/blog/why-you-should-teach/](https://timozander.de/blog/why-you-should-teach/)"
+  zh: 为什么你应该在社区学院教书 | Timo Zander
+- en: 'Original Text: [https://timozander.de/blog/why-you-should-teach/](https://timozander.de/blog/why-you-should-teach/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://timozander.de/blog/why-you-should-teach/](https://timozander.de/blog/why-you-should-teach/)
 - en: 'Last year, I took the plunge and held IT courses at the [closest German equivalent](https://en.wikipedia.org/wiki/Folk_high_school)
     of a Community College. In retrospect, this was one of the best experiences for
     my technical career. Here are my reasons to endorse teaching as a Software Developer:'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 去年，我冒险在[最接近的德国等同机构](https://en.wikipedia.org/wiki/Folk_high_school)举办了IT课程。回顾来看，这是我技术生涯中最好的经历之一。以下是我支持软件开发者从事教学的原因：
 - en: Continue reading to learn more about my personal experiences teaching and my
     takeaways.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 继续阅读以了解更多关于我个人教学经验和我的收获。
 - en: '* * *'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: Getting to know the average user
+  id: totrans-5
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 了解普通用户
 - en: One of the truths of software development is that users will *always* find a
     way to break your software. No matter how much thought you put in, how much user
     testing was done or how expertly designed your interface is. Users will break
     and misuse it. It is easy to lock yourself up in an Ivory Tower and ignore all
     complaints by users that are not perfectly tech-savvy. But that’s not actually
     the reality. And it’s certainly not the reality that you should be designing for.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 软件开发的一个真理是，用户*总是*会找到一种方法来破坏你的软件。无论你投入多少思考，做了多少用户测试，或者你的界面设计得多么精巧。用户会破坏和误用它。很容易把自己关在象牙塔里，忽略那些不完全精通技术的用户的所有投诉。但这实际上并不是现实。你设计的现实也绝对不应该是这样。
 - en: Teaching gave me an idea of how small details, which I would not even notice,
     can make users fail. For example, in my course about WordPress, I often created
     some screenshot-guided tasks that my students were supposed to complete. However,
@@ -38,54 +52,74 @@
     the students rarely voiced their confusion and instead spent a lot of time trying
     to figure it out on their own. But with their limited tech knowledge, this would
     only lead to frustration and eventually to giving up.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 教学让我意识到，我甚至不会注意到的小细节可能会导致用户失败。例如，在我关于WordPress的课程中，我经常创建一些以截图为指导的任务，我的学生应该完成。然而，由于创建这些任务很繁琐（而且我承认我经常匆忙创建它们），我有时会忘记包括“点击按钮”之类的步骤。此外，学生们很少表达困惑，而是花费大量时间试图自己解决问题。但由于他们有限的技术知识，这只会导致沮丧，最终放弃。
 - en: The students were not even *average users* per se. They decided to sign up for
     the course, they were willing to sacrifice their free time to learn something
     new, and they paid for it — even though such courses are fairly cheap here. So
     their motivation during the course was higher than what you might expect from
     a typical user. This means that if even they get frustrated by unclear user interfaces,
     you can be sure that your average user will be even more irritated.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 学生们甚至不是*普通用户*。他们决定报名参加课程，愿意牺牲自己的空闲时间学习新东西，并为此付费 — 尽管这里的课程相当便宜。因此，他们在课程期间的动力比你对典型用户的期望更高。这意味着即使他们对不清晰的用户界面感到沮丧，你可以肯定你的普通用户会更加恼火。
 - en: From a teaching perspective, this taught me that instructions should be *very*
     detailed. More detailed than you think they should reasonably be. I also introduced
     more frequent checkpoints, I actively asked my students if they have some troubles,
     and I made sure to always have a backup plan in case they got stuck.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 从教学的角度来看，这让我明白指导应该*非常*详细。比你认为合理的还要详细。我还增加了更频繁的检查点，积极询问我的学生是否遇到了困难，并确保始终有备用计划以防他们被卡住。
 - en: So, as a developer, make sure to
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，作为开发者，请确保
 - en: Give instructions which are *very* detailed
+  id: totrans-11
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 给出*非常*详细的指导
 - en: Provide assistance and checkpoints
+  id: totrans-12
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 提供帮助和检查点
 - en: Think about your users’ emotional state
+  id: totrans-13
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 思考你的用户的情绪状态
 - en: Multistep registration or activation forms, in particular, can benefit from
     having optional “Got stuck? Click here for help”-prompts that will prevent user
     frustration.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 特别是多步骤的注册或激活表单可以受益于具有可选的“遇到问题？点击这里寻求帮助”提示，这将防止用户沮丧。
 - en: Honing your language skills
+  id: totrans-15
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 磨练你的语言技能
 - en: The only people I normally talk about tech with are programmers or at least
     techies at heart. So I often fall into the trap of over-relying on technical terms,
     jargon and acronyms. Especially since English is not my native language, I end
     up communicating in a weird mix between English terms and — in my case — German
     prose. My excuse has always been that using such terms helps me to be less verbose
     and more precise. But that’s not true. It’s just a **lazy way of communicating**.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 我通常只与程序员或至少是技术爱好者交谈。因此，我经常陷入过度依赖技术术语、行话和缩写的陷阱。特别是因为英语不是我的母语，我最终以一种奇怪的混合语言——在我这种情况下是德语散文——进行交流。我一直的借口是使用这些术语可以帮助我更简洁、更准确。但这是不正确的。这只是一种**懒惰的沟通方式**。
 - en: Don’t get me wrong, there is nothing wrong with being lazy while communicating.
     Not every chat you have with coworkers needs to be a deeply insightful and well-crafted
     conversation. The goal is to first and foremost get your point across. But when
@@ -93,8 +127,10 @@
     complex concepts in a way that is easy to understand *without* using some specific
     terms. And especially when students ask questions about some feature’s background,
     that’s not easy.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 不要误会，在沟通时懒惰并没有错。你与同事的每次聊天都不需要是深刻见解和精心制作的对话。首要目标是首先让对方理解你的观点。但是当你在教学时，你需要简明扼要、清晰明了。你需要能够以易于理解的方式解释复杂概念，*而不*使用某些特定术语。尤其是当学生询问某个功能背后的问题时，这并不容易。
 - en: For example, many questions about more advanced features of the WordPress block
     editor required knowledge about HTML. I suggest you to **not** fall into the trap
     of saying “Sorry, the answer requires too much background knowledge and is out-of-scope”.
@@ -102,24 +138,32 @@
     to learn from those “X explained in 3 minutes” videos. Many of them do a great
     job at compressing complex topics into a condensed video. And this brevity is
     really needed to not lose your students in the midst of a lengthy explanation.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 例如，关于WordPress区块编辑器更高级功能的许多问题需要了解HTML知识。我建议你**不要**陷入这样的陷阱说“抱歉，答案需要太多背景知识，超出范围”。相反，尝试给出一些关于为什么和如何的想法。实际上，从那些“3分钟解释X”视频中可以学到很多东西。许多视频将复杂的主题压缩成简短的视频，做得非常出色。这种简洁确实很有必要，以免在冗长的解释中迷失学生。
 - en: My advice is to look up some explainers on YouTube for topics that you are familiar
     with and pay attention to how they explain things, but also to where corners were
     cut and where not.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的建议是在YouTube上查找一些你熟悉的主题的解释者，注意他们如何解释事物，但也要注意他们在哪些地方偷懒了，在哪些地方没有。
 - en: Learning to teach
+  id: totrans-20
   prefs:
   - PREF_H2
   type: TYPE_NORMAL
+  zh: 学会教学
 - en: I never wanted to teach, the idea alone sounded dreadful to me. However, on
     a random Sunday morning, I stumbled upon this job posting for a teaching position
     at the local Community College. My biggest motivation was money. Having some extra
     money is always needed, especially as a student. And I honestly expected it to
     be a quite low-effort job but was thankfully proven wrong.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 我从未想过要当老师，光是这个想法就让我感到可怕。然而，在一个随意的星期天早晨，我偶然看到了本地社区学院招聘教学职位的广告。我最大的动力是金钱。作为一名学生，额外的钱总是需要的。而且我最初以为这是一份相当轻松的工作，但幸运的是我被证明是错的。
 - en: One of my mistakes was consistently **underestimating the time** needed for
     any task. The administration asked me to draw up an initial plan for the course
     so that they could schedule and advertise it. For a course about the basics of
@@ -128,33 +172,46 @@
     homework. When presenting ideas and concepts, I quickly realized that I needed
     to slow down and explain things in more detail. And besides that, students (thankfully)
     had a lot of questions. So answering them also took a good chunk of time.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的一个错误是一直**低估所需时间**。管理部门要求我起草课程的初步计划，以便他们能够安排和宣传。对于一个关于HTML、CSS和JavaScript基础的课程，我认为4节课，每节约2小时，足够了。因此，课程最终变得非常快节奏，依赖于家庭作业。在呈现想法和概念时，我很快意识到我需要放慢速度，更详细地解释事物。而且，学生们（幸运地）有很多问题。因此回答这些问题也占用了大量时间。
 - en: 'In my other course, the first lesson was basically spent to set up all the
     student’s local environments. For WordPress, I decided to use [XAMPP](https://www.apachefriends.org/de/index.html)
     with some pre-bundled WordPress installation. My naïve assumption was that this
     would work out smoothly, but the issues were endless: work computers without the
     privilege to install software, Mac users (for which I wasn’t prepared), students
     that had issues just sharing their screen with me, etc.'
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我的另一个课程中，第一课基本上是用来设置所有学生的本地环境。对于 WordPress，我决定使用[XAMPP](https://www.apachefriends.org/de/index.html)并附带一些预装的
+    WordPress。我天真地以为这会顺利进行，但问题却是无穷无尽的：工作电脑没有安装软件的权限，Mac 用户（我没有准备好），学生们与我分享屏幕时出现问题等等。
 - en: Surprisingly, explaining many of the technical concepts worked out quite well.
     I made heavy use of metaphors, similes and used popular and widespread websites
     as demonstration. For example, teaching CSS can heavily rely on interactive playgrounds
     and visual demos.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 令人惊讶的是，解释许多技术概念效果相当不错。我大量使用比喻、类比，并使用流行和广泛使用的网站进行演示。例如，教授 CSS 可以大量依赖交互式游乐场和视觉演示。
 - en: '* * *'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: 'The added benefit of teaching: You can help people to learn new skills and
     be more capable when using technology. With the growing [shortage of teachers](https://www.dw.com/en/germanys-schools-are-running-out-of-teachers/a-64541184),
     especially in STEM, any helping hand is needed. In Germany specially, the level
     of commitment is quite low, and the pay is tax-free until a certain threshold:
     So if you got curious, check out your local Community College and see if they
     need some help.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 教学的额外好处：你可以帮助人们学习新技能，在使用技术时更有能力。随着STEM领域教师日益短缺，任何帮助都是需要的。特别是在德国，承诺程度相当低，而且在达到一定门槛之前是免税的：所以如果你感兴趣，看看你当地的社区学院，看看他们是否需要帮助。
 - en: '[Discuss on Hacker News](https://news.ycombinator.com/item?id=35674077)'
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: '[在 Hacker News 上讨论](https://news.ycombinator.com/item?id=35674077)'

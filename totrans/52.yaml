@@ -1,48 +1,66 @@
 - en: Early Remote Work Impacts on Family Formation - Economic Innovation Group
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://eig.org/remote-work-family-formation/](https://eig.org/remote-work-family-formation/)"
+  zh: 早期远程工作对家庭形成的影响 - 经济创新集团
+- en: 'Original Text: [https://eig.org/remote-work-family-formation/](https://eig.org/remote-work-family-formation/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://eig.org/remote-work-family-formation/](https://eig.org/remote-work-family-formation/)
 - en: by Lyman Stone and Adam Ozimek
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 作者：莱曼·斯通（Lyman Stone）和亚当·奥兹米克（Adam Ozimek）
 - en: '**Key Findings:**'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '**主要发现：**'
 - en: In absence of time-consuming commutes, remote workers—particularly those living
     with children—are spending more time on childcare and housework. This increased
     flexibility and time helped boost birth rates over the pandemic, specifically
     for wealthier or more educated women.
+  id: totrans-4
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 在没有耗时的通勤的情况下，远程工作者——尤其是与孩子同住的人——花更多时间在育儿和家务上。这种增加的灵活性和时间有助于提高疫情期间的出生率，特别是对富裕或受教育程度较高的女性。
 - en: Unmarried remote workers are significantly more likely to marry in the next
     year than their non-remote counterparts, potentially driven by higher migration
     rates.
+  id: totrans-5
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 未婚的远程工作者比非远程工作者更有可能在接下来的一年内结婚，这可能是由更高的迁移率驱动。
 - en: Though remote work only has a mild positive effect on the likelihood of near-term
     pregnancy, its effects on fertility intentions are particularly pronounced for
     women over age 35 (and especially over age 39).
+  id: totrans-6
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 尽管远程工作对近期怀孕的可能性只有轻微积极影响，但对于35岁以上的女性（尤其是39岁以上的女性），其对生育意愿的影响尤为显著。
 - en: For women whose household finances have significantly improved in the past year,
     the likelihood to report being pregnant or trying to be so if they are remote
     is more than 10 percentage points higher than that of non-remote workers.
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 对于家庭财务状况在过去一年显著改善的女性来说，如果她们是远程工作者，报告怀孕或试图怀孕的可能性比非远程工作者高出10个百分点以上。
 - en: Remote work has the biggest effects on fertility for women who already have
     several children, and no effect on the fertility intentions of women who have
     no or one child.
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 远程工作对已经有几个孩子的女性的生育率影响最大，对没有或一个孩子的女性的生育意愿没有影响。
 - en: 'The rapid rise of remote work over the last two years has rippled through society
     and the economy in a variety of ways. Amid many other negative social disruptions
     from the pandemic, there has been one positive change: remote work has provided
@@ -56,8 +74,10 @@
     likely to help push in the other direction, at least in some subgroups of the
     population. Given the importance of birth rates for demographic change, economic
     growth, and much much more, this is an important issue.'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 过去两年远程工作的迅速崛起在社会和经济中产生了各种影响。在疫情带来的许多其他负面社会扰乱中，有一个积极的变化：远程工作为一些个人和家庭提供了更多与家人在一起的工作灵活性和时间。出于各种原因，可以认为这种灵活性和时间可能是导致疫情期间富裕或受教育程度较高的女性生育率增加的一个因素。在这项分析中，我们提供了实证证据表明这是事实。尽管发达世界长期以来生育率的下降使人们难以对未来的出生率走势持乐观态度，但远程工作的崛起似乎是一个可能有助于推动另一方向的因素，至少在人口的某些亚群中是如此。鉴于出生率对人口变化、经济增长等方面的重要性，这是一个重要问题。
 - en: To begin, it is useful to understand how remote work has provided greater flexibility
     and more free time. In the U.S., individuals save on average just under an hour
     of commuting time every day they work from home. In addition to this added leisure
@@ -71,8 +91,10 @@
     that time spent on parental care of their own children is associated with more
     positive reports of subjective well-being; that is, people tend to derive satisfaction
     and happiness from being with their own children.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，了解远程工作如何提供更大的灵活性和更多的空闲时间是很有用的。在美国，每天在家工作的人平均节省了将近一小时的通勤时间。除了这增加的休闲和工作时间外，这使他们能够花更多时间与家人在一起，做更多家务，总体上为家庭生产做出更多贡献。早期数据表明，工作者将他们节省的通勤时间的11.1％用于照顾儿童，15.5％用于家务。在与儿童同住的人中，用于照顾儿童的时间比例提高到了18.2％，这与疫情前的数据一致，显示远程工作的母亲和父亲在在家工作的日子里与子女在一起的时间明显增加。其他研究表明，父母亲自照顾自己的孩子所花费的时间与主观幸福感更为积极相关；也就是说，人们从与自己的孩子在一起中获得满足感和幸福感。
 - en: In addition, remote work provides some workers an added flexibility about not
     just *where* to work, but also *when*. This flexibility allows parents to not
     just have more time for childcare overall, but also more control over how they
@@ -80,8 +102,10 @@
     that parenting can require. Indeed, in pre-pandemic data, the number one reason
     parents stated they worked from home was “to coordinate their work schedule with
     their personal or family needs.”
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 此外，远程工作为一些工作者提供了不仅是*在哪里*工作，而且*何时*工作的额外灵活性。这种灵活性不仅让父母们在整体上有更多时间照顾孩子，还让他们更有控制权决定如何利用这段时间，使得更容易适应育儿可能需要的有时不太灵活的时间表。事实上，在疫情前的数据中，父母们表示他们在家工作的主要原因是“协调工作时间与个人或家庭需求”。
 - en: Overall, time-use patterns both pre- and post-pandemic make it plausible that
     remote work has made being a parent easier both for the remote parent, who can
     now help more, and the non-remote parent, who now has more help. There is some
@@ -95,8 +119,10 @@
     women. But altogether, the intuitive case for how remote work might support fertility
     is clear, and there is some suggestive evidence that the evidence remains fairly
     indirect.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 总体而言，疫情前后的时间利用模式使得远程工作让作为父母的生活更加便利，无论是远程工作的父母，他们现在可以提供更多帮助，还是非远程工作的父母，他们现在得到了更多帮助。有一些数据表明这确实导致了更高的出生率。首先，在暗示方面，贝利、柯里和施万特发现，疫情后出生率的增加主要集中在受过大学教育的人群中，他们指出，“当他们能够在家工作并且工作时间更加灵活时，生育子女的机会成本大幅降低。”在比利亚里、朱恩特拉和斯特拉（2019）的研究中可以找到更直接的证据，他们发现德国疫情前扩大的宽带接入增加了受过更高教育的女性的生育率。但总体而言，远程工作如何支持生育的直观案例是清晰的，而且有一些暗示性证据表明证据仍然相当间接。
 - en: We add to this literature using two waves of a survey of the Demographic Intelligence
     Family Survey (DIFS-5 and DIFS-6) conducted in April and September 2022, respectively.
     This biannual survey developed by the consulting firm Demographic Intelligence
@@ -115,8 +141,10 @@
     intentions, desires, ideals, recent changes in plans, and broader attitudes or
     dispositions. The data also provides numerous detailed demographic and socioeconomic
     information, allowing us to control for a broad set of other factors.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们通过对2022年4月和9月分别进行的两轮人口智能家庭调查（DIFS-5和DIFS-6）的调查，为这一领域增加了一些文献。这是由咨询公司人口智能开发的半年度调查，样本包括3,000名年龄在18-44岁的美国女性。该调查专门设计用于评估生育意向和生育前景，因此其重点是生育年龄的女性，即可能有更多子女的人群。EIG协助设计了DIFS-6的调查工具，并为调查提供了部分资金，而DIFS-5已经包含了一个远程工作问题。受访者根据年龄、种族、先前生育史、收入和州进行了加权。由于调查没有对男性进行抽样，因此它专门探讨了远程工作如何影响美国女性的生活和家庭倾向。由于DIFS已经运作了几年，我们能够确保我们对生育意向问题的基线结果与先前波次不偏斜，并且我们可以访问一个涵盖许多女性生活方面的控制变量集，如对生育意向、愿望、理想、最近计划变化以及更广泛的态度或倾向的影响。数据还提供了许多详细的人口统计和社会经济信息，使我们能够控制一系列其他因素。
 - en: First, in terms of family formation, after controlling for a variety of factors
     like age, race, education, relationship status, prior number of children, and
     recent changes in financial health, we find that currently unmarried remote workers
@@ -127,16 +155,20 @@
     Survey; thus, remote work may have enabled people interested in marriage to relocate
     closer to a potential spouse. In other words, remote work may have helped alleviate
     the “[two body problem](https://research.upjohn.org/up_workingpapers/346/).”
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 首先，在家庭形成方面，在控制年龄、种族、教育、关系状况、先前子女数量和最近财务状况变化等各种因素后，我们发现，目前未婚的远程工作者明显更有可能计划在未来一年内结婚。这种影响效应非常大，并且对一系列替代控制变量具有稳健性。对于这种效应的一个推测性解释是，根据美国人口普查数据，远程工作者现在具有比其他工作者更高的迁移率；因此，远程工作可能已经帮助那些有意结婚的人搬迁到潜在配偶附近。换句话说，远程工作可能已经帮助缓解了“[两体问题](https://research.upjohn.org/up_workingpapers/346/)”。
 - en: Next, we assess whether women are pregnant or trying to become pregnant. This
     question is a good indicator of very near-term fertility outlooks, since respondents
     generally have a pretty clear and stable idea whether they are pregnant or trying
     to conceive, or not. When looking directly at the impact of remote work on this
     variable with the same controls, we find that remote workers are indeed more likely
     to be pregnant or trying; however, the difference is not statistically significant.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 接下来，我们评估女性是否怀孕或试图怀孕。这个问题是非常接近短期生育前景的一个很好的指标，因为受访者通常对自己是否怀孕或试图怀孕有一个相当清晰和稳定的想法。当直接观察远程工作对这一变量的影响时，我们发现，即使在相同的控制条件下，远程工作者确实更有可能怀孕或试图怀孕；然而，这种差异并不具有统计学意义。
 - en: When we focus on the subset of workers who are doing relatively well, we see
     a larger and more statistically significant impact of remote work on fertility.
     Indeed, the association of remote work with likelihood of near-term pregnancy
@@ -148,8 +180,10 @@
     between remote and non-remote. Remote work seems to help women in improving circumstances
     to capitalize on those improvements and convert financial success into family
     life.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我们关注相对情况较好的工作者子集时，我们发现远程工作对生育率的影响更大且具有更显著的统计意义。事实上，远程工作与近期怀孕努力的可能性的关联似乎随着过去一年中自我报告的家庭财务状况的变化而单调增加。在过去一年中家庭财务状况“好转”的女性如果进行远程工作，报告怀孕或试图怀孕的可能性要高出10个百分点以上，而对于家庭财务状况稳定或恶化的女性，远程和非远程之间没有区别。远程工作似乎帮助处于改善环境中的女性利用这些改善并将财务成功转化为家庭生活。
 - en: Next, we turn to longer-term intentions. In particular, we look at the subsample
     of women who said that their *ideal* number of children was higher than their
     *actual current number* of children; that is, we analyze *intentions to have more
@@ -159,8 +193,10 @@
     who believe their ideal family size is attainable and thus intend to reach it,
     since intending *not* to reach family-size goals amounts to a foreshortening of
     family goals that are important to many people.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 接下来，我们转向长期意图。特别是，我们关注那些表示他们的*理想*孩子数量高于*当前实际孩子数量*的女性子样本；也就是说，我们专门分析*想要更多孩子的意愿*，仅限于*表示他们理想情况下想要更多孩子*的女性。换句话说，我们分析远程工作如何与女性拥有实现理想家庭规模的现实意图相关联。我们考虑那些认为他们的理想家庭规模是可以实现的，并因此打算实现它的女性，因为打算*不*实现家庭规模目标相当于缩短了许多人重要的家庭目标。
 - en: In general, we find that remote work increases intentions to have more children
     by about five percentage points, though the effect is not quite statistically
     significant; however, segmenting our results by age yields striking differences.
@@ -171,8 +207,10 @@
     much higher fertility intentions. In other words, remote work doesn’t necessarily
     trigger women to *initiate* childbearing, but it may help older women balance
     the competing demands of work and family and thereby to achieve their family goals.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 总的来说，我们发现远程工作会使想要更多孩子的意愿增加约五个百分点，尽管效果并不完全具有统计学意义；然而，根据年龄对我们的结果进行分段会产生显著差异。毫不奇怪，远程工作可能对25岁以下的女性的生育意愿产生负面影响，因为许多女性不愿在这个年龄开始生育。对于25至34岁的女性，远程工作似乎没有影响。但对于35岁以上的女性（尤其是39岁以上的女性），那些进行远程工作的女性具有更高的生育意愿。换句话说，远程工作不一定会促使女性*开始*生育，但它可能帮助年长的女性平衡工作和家庭之间的竞争需求，从而实现他们的家庭目标。
 - en: Likewise, when we segment our sample by number of prior live births, we find
     that remote work has the biggest effect for women who already have several children.
     Remote work had no effect on the fertility intentions of women who have no or
@@ -181,25 +219,33 @@
     to have more children. Here again we see that remote work may not do much to help
     women launch their family life at first, but it can help working mothers reach
     their ideal family size.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 同样，当我们根据先前生育次数对样本进行分段时，我们发现远程工作对已经有几个孩子的女性影响最大。对于没有或只有一个孩子的女性，远程工作对生育意愿没有影响。但对于有两个或更多孩子的女性，尤其是有四个或更多孩子的工作女性，远程工作与更多孩子的意愿相关联。在这里，我们再次看到远程工作可能一开始并不能帮助女性启动家庭生活，但它可以帮助工作母亲达到他们理想的家庭规模。
 - en: 'Finally, we also asked women to assess their family outcomes: did they have
     the family life they always dreamed of; did they not have it yet but were on their
     way; or did they feel their family size goal would never be obtained? We find
     that with all relevant control variables, women who worked remotely were less
     likely to report the negative, disappointed outcome and more likely to report
     the positive, achievement outcome.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，我们还要求女性评估他们的家庭结果：他们是否拥有他们一直梦寐以求的家庭生活；他们是否还没有实现，但正在努力；或者他们是否认为他们的家庭规模目标永远无法实现？我们发现，在所有相关控制变量中，远程工作的女性更不太可能报告消极、失望的结果，而更有可能报告积极、成就的结果。
 - en: For the family achievement outcome, the effect is not significant. But these
     results are consistent with the intuitions laid out in the introduction, namely
     that remote work helps families balance work and family life better and therefore
     they are more likely to achieve the family life they believe will make them happiest.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于家庭成就结果，效应并不显著。但这些结果与引言中提出的直觉一致，即远程工作有助于家庭更好地平衡工作和家庭生活，因此他们更有可能实现他们认为会让他们最幸福的家庭生活。
 - en: '**Conclusion**'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '**结论**'
 - en: Overall we see the impact of remote work on women’s intentions for family formation
     and the desire to have children. While remote work appears to have the biggest
     positive impact on older women who already have children, the clear positive impact
@@ -212,5 +258,7 @@
     rates, and that governments interested in supporting marriage and implementing
     pro-natal policies may be interested in considering how flexible work arrangements
     can be supported and encouraged.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 总体而言，我们看到远程工作对女性的家庭形成意愿和生育欲望的影响。虽然远程工作似乎对已经有孩子的年长女性产生了最大的积极影响，但婚姻率的明显正面影响表明了对年轻女性的生育率等长期影响的潜力。虽然证据尚早且远非定论，但我们认为这项研究支持了这样一个假设：COVID期间远程工作水平的提高对美国和其他发达国家的生育率产生了积极贡献。此外，我们认为这一证据表明“回到办公室”可能会导致出生率下降，对于支持婚姻并实施促进生育政策的政府可能有兴趣考虑如何支持和鼓励灵活的工作安排。

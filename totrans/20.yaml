@@ -1,70 +1,96 @@
 - en: Same Stop
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.engineersneedart.com/blog/samestop/samestop.html](https://www.engineersneedart.com/blog/samestop/samestop.html)"
+  zh: 同一站
+- en: 'Original Text: [https://www.engineersneedart.com/blog/samestop/samestop.html](https://www.engineersneedart.com/blog/samestop/samestop.html)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.engineersneedart.com/blog/samestop/samestop.html](https://www.engineersneedart.com/blog/samestop/samestop.html)
 - en: Same Stop
+  id: totrans-2
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: 同一站
 - en: <date>21 May 2023</date>
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: <date>2023年5月21日</date>
 - en: I retired a year and a half ago after having worked for twenty-six years as
     a programmer for Apple. I’m not sure which would have been more surprising: if
     I had continued programming in my spare time after I had retired or if I never
     programmed again.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 一年半前，我在苹果公司担任程序员工作了二十六年后退休了。我不确定哪种情况更令人惊讶：如果我退休后继续在业余时间编程，还是永远不再编程。
 - en: I suppose most people would not be surprised by, perhaps might expect the latter
     to be the case — might expect that I would hang up the keyboard after I retire
     in the same way we expect that a retired doctor probably stops performing surgeries
     and begins to spend more time on the golf course.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想大多数人可能不会感到惊讶，也许会预料到后一种情况——可能会预料到我退休后会放下键盘，就像我们预料到退休的医生可能停止做手术，开始更多时间在高尔夫球场上度过一样。
 - en: In fact right after retirement there was a sense of relief that I would never
     again have to step through code trying to determine why a dispatch to a background
     thread never completed. No longer would I have to worry about completely screwing
     up the project repo because of my misadventures with git.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 事实上，退休后的那段时间，我感到一种解脱，再也不必为了弄清为什么后台线程的调度没有完成而逐行查看代码。我再也不必担心因为我在git上的冒险而完全搞砸项目仓库。
 - en: The respite from programming though lasted maybe about four months after retiring.
     I started a [small project](https://github.com/EngineersNeedArt/SystemSix) , in
     part to learn Python, in part to play with e-ink displays. I was back programming
     (back abusing git) but of course the pressure was off. It both was and wasn’t
     like the day job I had left behind.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管退休后的编程休息可能只持续了大约四个月。我开始了一个[小项目](https://github.com/EngineersNeedArt/SystemSix)，部分是为了学习Python，部分是为了玩电子墨水显示器。我又开始编程了（又开始滥用git），但当然压力已经解除了。这既是又不是我离开的那份工作。
 - en: '![A younger programmer in the late 1980''s.](../Images/f186496eb2d455df4f8dac7a6ce75f02.png)'
+  id: totrans-8
   prefs: []
   type: TYPE_IMG
+  zh: '![上世纪80年代末的年轻程序员。](../Images/f186496eb2d455df4f8dac7a6ce75f02.png)'
 - en: In college, unknowingly anticipating the next three decades of his life.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在大学里，不知不觉地预示着他未来三十年的生活。
 - en: I should mention though that before my twenty-six years at Apple, I had originally
     been writing shareware games for fun and, a few years after that, a few commercial
     games for a living. Since programming had initially been a kind of hobby to me
     it is probably less surprising then that I would eventually return to writing
     code.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 我应该提一下，在苹果公司工作了二十六年之前，我最初是为了好玩而写共享软件游戏，之后几年为了生计写了一些商业游戏。由于编程最初对我来说是一种爱好，所以我最终会回到编写代码上可能就不那么令人惊讶了。
 - en: I am not sure though if this is still the case for software engineers. Are there
     younger engineers, new to the career, for whom programming is not merely a job
     but something they can imagine doing in their spare time? I think I met a few
     as I was winding down my career. I do feel though that back around 1988 or so
     when I started getting serious into programming that *all* fellow programmers
     I met were also doing it with a kind of passion. How is it you can love a machine?
+  id: totrans-11
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 尽管我不确定这对软件工程师是否仍然适用。是否有年轻的工程师，刚刚开始职业生涯，对编程不仅仅是一份工作，而是他们可以想象在业余时间做的事情？我想我在结束职业生涯时遇到了一些。然而，我确实感觉到，大约在1988年左右，当我开始认真学习编程时，我遇到的*所有*同行程序员也都是出于一种激情在做这件事。你怎么会爱上一台机器呢？
 - en: I dabbled with [writing a game in Javascript](https://www.mooncraft2000.com)
     after my Python foray. And then roughly a year after I retired I went back to
     Python to write an application this time.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 在尝试了[用Javascript编写游戏](https://www.mooncraft2000.com)之后，我又回到Python写了一个应用程序。
 - en: But this year, 2023, I find myself suddenly on a kind of tear. Though I eventually
     began programming again, in the first fourteen months of retirement I did all
     manner of other things in my spare time as well. I kept also-busy with woodworking
@@ -72,62 +98,86 @@
     name a few. But somehow this year I have found myself tipping head-long back into
     full-time programming. It is distinctly reminding me of my sleepless days spent
     writing shareware games for the Macintosh thirty-five years ago.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是在2023年，我突然发现自己陷入了某种狂热状态。尽管最终我又开始编程了，但在退休的头十四个月里，我还做了各种其他事情。我还忙于木工项目、学习Blender和3D打印的实验、骑自行车等等。但不知何故，今年我发现自己又开始全职编程。这让我明显地想起了三十五年前为Macintosh编写共享软件游戏时度过的无眠日子。
 - en: I’m not sure if that is a good thing. I am back to coding late into the night,
     and back at it after coffee and an English muffin the following morning (thankfully
     though I quit the cigarettes decades ago). Programming is beginning again to be
     to the exclusion of all else in my life. (The table saw sits slowly rusting. The
     bike hangs on the wall in the garage.)
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不确定这是好事。我又开始在深夜编程，第二天早晨喝完咖啡和吃完英式松饼后又开始编程（幸运的是，几十年前我戒烟了）。编程又开始逐渐成为我生活中排他性的事情。（台锯慢慢生锈。自行车挂在车库墙上。）
 - en: And just to further complete the circle, it's not Javascript or Python (or Swift)
     that is calling to me, but my old nemesis C. And further, I have this desire to
     revisit/rewrite some of the shareware games that I wrote over three decades ago.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了完全圆满，吸引我的不是Javascript或Python（或Swift），而是我的老对手C。此外，我有这种愿望重新审视/重写三十多年前写的一些共享软件游戏。
 - en: What am I trying to say? I have a programming addiction? (Maybe.)
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想说什么？我有编程瘾吗？（也许吧。）
 - en: 'From here I could go into detail on any number of things: working for Apple
     in the 90’s vs. working for Apple post-iPhone, why something that others would
     consider a job (programming) some do for fun, why game authoring appeals to both
     sides of the brain.'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 从这里，我可以详细介绍很多事情：在90年代为苹果工作与iPhone后为苹果工作的区别，为什么有些人把别人认为是工作（编程）当作乐趣，为什么游戏创作吸引大脑的两面。
 - en: I guess at this moment though I am simply marveling at having hopped off the
     career train only to find I have come full circle — somehow got off at the same
     stop where I got on. Perhaps I can talk about some of those other things in the
     future.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 不过此刻，我只是惊叹于跳下职业列车，却发现自己已经走了一整圈——不知怎么地下车的地方和上车的地方是同一个。也许我可以在未来谈谈其他一些事情。
 - en: Laughably, I’m reminded of the last MST3K episode where Mike and the ‘bots finally
     get back to Earth only to plop down in front of a TV to watch “The Crawling Eye”,
     one of the first films they riffed a decade earlier.
+  id: totrans-19
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 令人发笑的是，我想起了最后一集MST3K，迈克和机器人们最终回到地球，只是坐在电视机前观看《爬行之眼》，这是十年前他们开玩笑的第一部电影之一。
 - en: Or maybe I’m just an old guy looking back and romanticizing the early days.
     I’m back to coding in C again, writing little inconsequential games to amuse myself.
     Or maybe there was something a little magical then. Simpler times?
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 或许我只是一个回顾和浪漫化早期日子的老家伙。我又开始用C编程，写一些无关紧要的小游戏来取悦自己。或许那时有一些魔力。更简单的时代？
 - en: Lets be clear, I’m not back coding on a Mac Plus with a floppy drive, habitually
     hitting command-S to save my progress every few minutes — no dial-up modem (ha
     ha, no land line). I comb through StackOverflow like everyone else trying to figure
     out why toggling fullscreen mode trashes the SDL_Textures I marked as targetable.
     (Right?)
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们明确一点，我不是在Mac Plus上编码，带着软盘驱动器，习惯性地每隔几分钟按下命令-S保存我的进度——没有拨号调制解调器（哈哈，没有座机）。我像其他人一样搜索StackOverflow，试图弄清楚为什么切换全屏模式会破坏我标记为可定位的SDL_Textures。（对吧？）
 - en: But there is something becoming more familiar to me as I go back to the wild
     west of C programming (where very little happens *behind the scenes* I might point
     out - no garbage collection here!). And so [why not rewrite some familiar little
     games](https://store.steampowered.com/app/2318420/Glypha_Vintage) as well?
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 但随着我回到C编程的荒野（在这里几乎没有什么*幕后发生*，我要指出——这里没有垃圾收集！），有些东西变得越来越熟悉。那么，为什么不重新编写一些熟悉的小游戏呢？
 - en: '![Now thirty-five years older.](../Images/06b8ad6f0497dd42d1f7a4933be848d7.png)'
+  id: totrans-23
   prefs: []
   type: TYPE_IMG
+  zh: '![现在老了三十五岁。](../Images/06b8ad6f0497dd42d1f7a4933be848d7.png)'
 - en: To be clear, Glypha is 35 years old, not me, ha ha.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 明确一点，Glypha已经35岁了，不是我，哈哈。

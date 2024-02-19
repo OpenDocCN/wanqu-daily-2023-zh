@@ -1,46 +1,63 @@
 - en: The secret history of Elon Musk, Sam Altman, and OpenAI | Semafor
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai](https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai)"
+  zh: Elon Musk、Sam Altman和OpenAI的秘密历史 | Semafor
+- en: 'Original Text: [https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai](https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai](https://www.semafor.com/article/03/24/2023/the-secret-history-of-elon-musk-sam-altman-and-openai)
 - en: But in 2018, there was no reason to think that either the impulsive Musk or
     quirky, quiet Altman would become so central to the Silicon Valley narrative,
     even if they were already among its most prominent names. Musk, for one, had other
     headaches. Tesla was [struggling](https://www.businessinsider.com/why-tesla-is-struggling-to-make-model-3-2017-10)
     to keep up with production goals of its Model 3 sedan and the stock was [tanking](https://www.cnbc.com/2017/11/01/tesla-q3-2017-earnings.html),
     threatening the company’s future.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是在2018年，没有理由认为冲动的马斯克或古怪安静的阿尔特曼会成为硅谷叙事的核心，即使他们已经是其中最知名的名字之一。马斯克本人也有其他烦恼。特斯拉正在[努力](https://www.businessinsider.com/why-tesla-is-struggling-to-make-model-3-2017-10)实现Model
+    3轿车的生产目标，股价[下跌](https://www.cnbc.com/2017/11/01/tesla-q3-2017-earnings.html)，威胁着公司的未来。
 - en: Greg Brockman, an OpenAI co-founder who was chief technology officer at that
     time, also opposed Musk’s takeover as did others at OpenAI. A power struggle ensued,
     according to people familiar with the matter.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: OpenAI联合创始人、当时的首席技术官格雷格·布罗克曼也反对马斯克的接管，其他OpenAI的人也是如此。据知情人士透露，一场权力斗争随之而来。
 - en: Altman, who also ran the powerful startup accelerator YCombinator, stepped in.
     According to tax documents, he added president to his title in 2018, in addition
     to being a director.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 阿尔特曼，还经营着强大的初创企业加速器YCombinator。根据税务文件，他在2018年将总裁职务加入到自己的头衔中，除了担任董事。
 - en: Musk then stepped down from OpenAI’s board of directors. Publicly, he and OpenAI
     said the reason for his departure was a conflict of interest. Tesla, which was
     developing its own artificial intelligence for autonomous driving, would be competing
     for talent with OpenAI.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 马斯克随后从OpenAI的董事会辞职。公开来说，他和OpenAI表示他离开的原因是利益冲突。特斯拉正在开发自己的人工智能用于自动驾驶，将与OpenAI竞争人才。
 - en: There was some truth to that rivalry. Tesla had already [poached](https://techcrunch.com/2017/06/20/tesla-hires-deep-learning-expert-andrej-karpathy-to-lead-autopilot-vision/)
     one of OpenAI’s best minds, Andrej Karpathy, who became the architect of Tesla’s
     autonomous driving program.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 这种竞争确实存在一些真实性。特斯拉已经挖走了OpenAI最优秀的头脑之一安德烈·卡帕西，他成为了特斯拉自动驾驶项目的架构师。
 - en: But few people at OpenAI believed Musk was leaving for that reason, and a speech
     he gave at OpenAI’s offices at the time of his departure, which focused mainly
     on the potential conflict of interest, was not received well by most employees,
     who didn’t entirely buy the story.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是在OpenAI，很少有人相信马斯克是因为那个原因离开的，他在离职时在OpenAI办公室发表的演讲主要集中在潜在的利益冲突上，并没有得到大多数员工的好评，他们并不完全相信这个故事。
 - en: An OpenAI [announcement](https://openai.com/blog/openai-supporters) said Musk
     would continue to fund the organization, but Musk did not, according to people
     familiar with the matter. He had promised to donate roughly $1 billion over a
@@ -48,82 +65,117 @@
     after his departure, people familiar with the matter said. That left the nonprofit
     with no ability to pay the [astronomical](https://openai.com/research/ai-and-compute)
     fees associated with training AI models on supercomputers.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 一份OpenAI的[公告](https://openai.com/blog/openai-supporters)称，马斯克将继续资助该组织，但据知情人士透露，马斯克并没有这样做。他曾承诺在几年内捐赠大约10亿美元（他已经捐赠了1亿美元），但据知情人士透露，他在离职后停止了捐款。这让这家非营利组织无法支付在超级计算机上训练AI模型所需的[巨额](https://openai.com/research/ai-and-compute)费用。
 - en: '![Elon Musk](../Images/ba9c3bd6380beea328033e9d1c073ca8.png)'
+  id: totrans-9
   prefs: []
   type: TYPE_IMG
+  zh: '![Elon Musk](../Images/ba9c3bd6380beea328033e9d1c073ca8.png)'
 - en: Reuters/NTB/Carina Johansen
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 路透社/NTB/卡琳娜·约翰森
 - en: That fall, it became even more apparent to some people at OpenAI that the costs
     of becoming a cutting edge AI company were going to go up. Google Brain’s “[transformer](https://www.youtube.com/watch?v=9P_VAMyb-7k)”
     had blown open a new frontier, where AI could improve endlessly. But that meant
     feeding it endless data to train it — a costly endeavor.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 那年秋天，OpenAI的一些人更加明显地意识到，成为一家尖端人工智能公司的成本将会上升。Google Brain的“[transformer](https://www.youtube.com/watch?v=9P_VAMyb-7k)”打开了一个新的领域，人工智能可以不断改进。但这意味着要为其提供无限的数据来训练它
+    —— 这是一项昂贵的事业。
 - en: OpenAI made a big decision to pivot toward these transformer models.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: OpenAI做出了一个重大决定，转向这些transformer模型。
 - en: On March 11, 2019, OpenAI announced it was creating a [for profit](https://futurism.com/ai-elon-musk-openai-profit)
     entity so that it could raise enough money to pay for the compute power necessary
     to pursue the most ambitious AI models. “We want to increase our ability to raise
     capital while still serving our mission, and no pre-existing legal structure we
     know of strikes the right balance,” the company wrote at the time. OpenAI said
     it was capping profits for investors, with any excess going to the original nonprofit.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 2019年3月11日，OpenAI宣布正在创建一个[盈利](https://futurism.com/ai-elon-musk-openai-profit)实体，以便筹集足够的资金来支付追求最雄心勃勃的人工智能模型所需的计算能力。公司当时写道：“我们希望增加筹集资本的能力，同时仍然服务于我们的使命，我们所知道的任何现有法律结构都没有找到合适的平衡点。”
+    OpenAI表示，它正在为投资者设定利润上限，任何超额利润都将归原非营利组织所有。
 - en: 'Altman also made an unusual decision for a tech boss: He would take no equity
     in the new for-profit entity, according to people familiar with the matter. Altman
     was already extremely wealthy, investing in several wildly successful tech startups,
     and didn’t need the money. The Information first [reported](https://www.theinformation.com/articles/microsoft-openai-inside-techs-hottest-romance?utm_source=ti_app&rc=nocdws)
     on the equity.'
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 阿尔特曼还做出了一项对于科技老板来说不寻常的决定：根据知情人士的说法，他不会在这家新的盈利实体中持有任何股权。阿尔特曼已经非常富有，投资了几家极其成功的科技初创公司，不需要这笔钱。《信息》首次[报道](https://www.theinformation.com/articles/microsoft-openai-inside-techs-hottest-romance?utm_source=ti_app&rc=nocdws)了这笔股权交易。
 - en: He also believed the company needed to become a business to continue its work,
     but he told people the project was not designed to make money. Eschewing any ownership
     interest would help him stay aligned with the original mission.  But that decision
     actually turned off some potential investors in OpenAI, who worried that Altman
     didn’t see upside in the project.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 他还相信公司需要成为一家企业才能继续其工作，但他告诉人们，这个项目并不是为了赚钱。放弃任何所有权利将有助于他与最初的使命保持一致。但这个决定实际上让一些潜在的OpenAI投资者感到失望，他们担心阿尔特曼没有看到该项目的上升空间。
 - en: Less than six months later, OpenAI took [$1 billion](https://techcrunch.com/2019/07/22/microsoft-invests-1-billion-in-openai-in-new-multiyear-partnership/)
     from Microsoft, which could provide not just funding but infrastructure know-how.
     Together they built a supercomputer to train massive models that eventually created
     ChatGPT and the image generator DALL-E. The latest language model, GPT-4, has
     1 trillion parameters.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 不到六个月后，OpenAI从微软那里获得了[10亿美元](https://techcrunch.com/2019/07/22/microsoft-invests-1-billion-in-openai-in-new-multiyear-partnership/)，微软不仅提供资金，还提供基础设施专业知识。他们一起建立了一个超级计算机来训练庞大的模型，最终创造了ChatGPT和图像生成器DALL-E。最新的语言模型GPT-4有1万亿个参数。
 - en: When ChatGPT [launched](https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans)
     in November, OpenAI instantly became the hottest new tech startup, forcing Google
     to scramble to play catchup. Musk was furious, according to people familiar with
     the matter.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 当ChatGPT在11月[推出](https://www.theguardian.com/technology/2022/dec/05/what-is-ai-chatbot-phenomenon-chatgpt-and-could-it-replace-humans)时，OpenAI立即成为最炙手可热的新科技初创公司，迫使谷歌匆忙跟进。据知情人士称，马斯克感到愤怒。
 - en: In December, a month after the launch of ChatGPT, Musk [pulled](https://twitter.com/elonmusk/status/1599291104687374338?s=20)
     OpenAI’s access to the Twitter “fire hose” of data — a contract that was signed
     before Musk acquired Twitter.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 在ChatGPT推出一个月后的12月，马斯克[取消了](https://twitter.com/elonmusk/status/1599291104687374338?s=20)OpenAI对Twitter“火管道”的数据访问
+    —— 这是在马斯克收购Twitter之前签署的合同。
 - en: On Feb. 17, he [tweeted](https://twitter.com/elonmusk/status/1626516035863212034?s=20)
     “OpenAI was created as an open source (which is why I named it “Open” AI), non-profit
     company to serve as a counterweight to Google, but now it has become a closed
     source, maximum-profit company effectively controlled by Microsoft.”
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 2月17日，他 [发推文](https://twitter.com/elonmusk/status/1626516035863212034?s=20)，“OpenAI
+    最初是作为一个开源（这就是为什么我将其命名为“Open” AI）的非营利公司，旨在成为谷歌的对抗力量，但现在它已经变成了一个闭源、追求最大利润的公司，实际上被微软控制。”
 - en: On March 15, he [tweeted](https://twitter.com/elonmusk/status/1636047019893481474?s=20),
     “I’m still confused as to how a non-profit to which I donated ~$100M somehow became
     a $30B market cap for-profit. If this is legal, why doesn’t everyone do it?”
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 3月15日，他 [发推文](https://twitter.com/elonmusk/status/1636047019893481474?s=20)，“我仍然困惑于我捐赠了约100百万美元的非营利组织如何变成了一个市值300亿美元的盈利公司。如果这是合法的，为什么不是每个人都这样做呢？”
 - en: 'OpenAI declined to comment. Musk didn’t respond to a request for comment but
     on Friday, he tweeted “I’m sure it will be fine” and [a meme of Elmo](https://twitter.com/elonmusk/status/1639200036578885632?s=20)
     with the words: “Me realizing AI, the most powerful tool that mankind has ever
     created, is now in the hands of a ruthless corporate monopoly.”'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: OpenAI 拒绝置评。Musk 没有回应评论请求，但在上周五，他发推文说“我相信一切都会好起来”，并附上了 [一张 Elmo 的表情包](https://twitter.com/elonmusk/status/1639200036578885632?s=20)，上面写着：“我意识到
+    AI，人类创造的最强大工具，现在掌握在一个残酷的企业垄断手中。”
 - en: On Thursday, The Information reported that Shivon Zilis, an OpenAI board member,
     had stepped down. Zilis, who gave birth to Musk’s twins, did not respond to requests
     for comment.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 上周四，《The Information》报道称，OpenAI 董事会成员 Shivon Zilis 辞职了。Zilis 是 Musk 的双胞胎的母亲，但没有回应评论请求。

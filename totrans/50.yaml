@@ -1,19 +1,25 @@
 - en: 'The Bookseller - Comment - The profits from publishing: a publisher''s perspective'
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective](https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective)"
+  zh: 书商 - 评论 - 出版利润：出版商的视角
+- en: 'Original Text: [https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective](https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective](https://www.thebookseller.com/comment/the-profits-from-publishing-a-publishers-perspective)
 - en: 'Sir Stanley Unwin, who founded the great independent house Allen & Unwin, was
     famous for his catchphrase: “The first duty of any publisher to their authors
     is to remain solvent.” He wrote one of the better guides to the book trade, *The
     Truth About Publishing*, and it is amusing that he wrote in his introduction:
     “The publisher’s task is no easy one and the whole process of publication is vastly
     more complicated than it was even a generation ago”. That was in 1926.'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 创立了伟大的独立出版社Allen & Unwin的斯坦利·昂温爵士以他的口头禅而闻名：“任何出版商对作者的首要责任是保持健康。”他写了一本关于图书贸易的较好指南，*出版业的真相*，有趣的是他在序言中写道：“出版商的任务并不容易，整个出版过程比一个时代前复杂得多。”那是在1926年。
 - en: At the risk of being a bore, it is worth stressing that to be solvent, publishers
     must be profitable and —obviously—to be profitable their books must make a profit.
     Even subsidised poetry publishers must adhere to the “Micawber principle”. So
@@ -24,20 +30,26 @@
     us begins when an editor wants to acquire it, frequently from a literary agent,
     but even before acquisition the editor is supposed to complete a financial appraisal.
     This is never a popular task.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 冒着变得乏味的风险，值得强调的是，为了保持健康，出版商必须盈利，而且——显而易见——为了盈利，他们的书籍必须盈利。即使是受资助的诗歌出版商也必须遵循“麦考伯原则”。因此，本文涉及数字，因为利润和现金流是让我们存在的基础。就像Unwin在他的伟大著作中所说的那样，跟踪一本书的生命周期是有意义的，以查看它产生成本和收入的地方。每一份手稿在进入出版社之前都有一个漫长的孕育期，但对我们来说，它的存在始于编辑想要收购它的时候，通常是从文学代理处收购，但即使在收购之前，编辑也应该完成财务评估。这从来不是一项受欢迎的任务。
 - en: In both 2016 and 2017, Profile paid out just over 22% of its total revenues
     to its authors. But where does the rest go?
+  id: totrans-4
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 在2016年和2017年，Profile向其作者支付的总收入仅占其总收入的22%左右。但其余的钱去哪了呢？
 - en: Our appraisal form at Profile is a five-page Excel workbook. Other publishers’
     appraisal forms are similar, though I have seen some that are much more intimidating.
     The editor must include the advance, the number of pages and formats, the proposed
     retail price, the home and international sales by key market, the rights income
     and marketing costs. This is where most editors are inclined to cheat.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在Profile的评估表格是一个五页的Excel工作簿。其他出版商的评估表格类似，尽管我见过一些更加令人生畏的。编辑必须包括预付款、页数和格式、建议的零售价格、主要市场的国内和国际销售、版权收入和营销成本。这是大多数编辑倾向于作弊的地方。
 - en: Let’s suppose the figures are believable. The house can now make an offer for
     the book. Profile’s offer is always for an advance against royalties (and rights
     income if the publisher is taking, say, translation rights). In theory, publishers
@@ -49,8 +61,10 @@
     of failure—a big “unearned” spells certain loss—and improves the business’ cashflow
     because you pay royalties when a book sells, so you have money from that sale.
     Advances are paid upfront.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们假设这些数字是可信的。出版社现在可以为这本书提供报价。Profile的报价总是针对预付款（以及版权收入，如果出版商拥有，比如翻译权）。理论上，出版商会根据作者赚取的版税来确定预付款的水平。实际上，预付款经常无法“赚回来”，因此作者从书籍的总收入中获得的份额比版税赚取的要高。当然，每个出版商都知道，即使预付款没有赚回来，也可以盈利出版。当预付款赚回来时，情况会更好，因为这既降低了失败的风险——大额“未赚回来”的预付款意味着确定的损失——又改善了企业的现金流，因为当书籍销售时，您会支付版税，因此您会从销售中获得收入。预付款是预先支付的。
 - en: Advances can be anything from a few hundred pounds, though rarely less than
     £1,000 for a reputable trade house, up to a reported eight- figure sum for last
     year’s multi-book contract signed by Bonnier with Wilbur Smith. In theory, they
@@ -66,19 +80,25 @@
     to bookshops, then the author will receive 23% of the publisher’s total net revenue.
     This is extraordinarily close to the 25% of net receipts that is now the gold
     standard for e-book royalties.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 进步可以是从几百英镑起，尽管对于一家声誉良好的贸易公司来说很少低于£1,000，一直到去年Bonnier与Wilbur Smith签订的多本书合同中报告的八位数金额。理论上，它们是按市场价格支付的。但贸易书籍的版税几乎总是相同的，变化很小。正如所有作者所知道的，标准精装书的版税是r.r.p.的10%，通常在指定的销售门槛后上升到12.5%和15%。同样，标准平装书的版税是7.5%，通常上升到10%。但这是基于r.r.p.，而不是出版商收取的金额。现在书店和批发商拿走了r.r.p.的一半以上。标准折扣在52%到60%之间，而最大的书店自然会获得最大的折扣。因此，对于一本£10的精装书，按照10%的版税，作者将获得£1，或者出版商总净收入的10%。但如果出版商以56%的折扣向书店销售书籍，那么作者将获得出版商总净收入的23%。这与现在电子书版税的净收入的25%非常接近。
 - en: In export, where royalties are paid on net receipts, discounts can be even higher
     and publishers’ costs are greater because of the greater shipping and sales costs.
     So bookshops take more than half of the total and publishers give almost a quarter
     of their revenue to the author. In both 2016 and 2017, Profile paid out just over
     22% of its total revenues to its authors. But where does the rest go?
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 在出口领域，版税是按净收入支付的，折扣甚至更高，出版商的成本更高，因为运输和销售成本更高。因此，书店拿走了总额的一半以上，出版商将近四分之一的收入给作者。在2016年和2017年，Profile向其作者支付了总收入的略高于22%。但剩下的钱去哪了呢？
 - en: Rising costs
+  id: totrans-9
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 成本上升
 - en: 'Publishing accountants, like all others, split costs into two, the direct costs
     of selling each book and the overheads. The overheads are easy to enumerate but
     hard to control: salaries, heating, lighting, computers and desks, rent, business
@@ -89,8 +109,10 @@
     control. Like all publishers, at Profile we aim to keep them down but salaries,
     like authors’ remuneration, are not generous in the book trade and costs continue
     to rise year on year.'
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 出版会计师，像其他所有人一样，将成本分为两部分，销售每本书的直接成本和一般费用。一般费用很容易列举，但很难控制：工资、供暖、照明、计算机和桌子、租金、营业税以及每家企业的其他必需品，无论是销售书籍还是奶油蛋糕。它们还包括一些不那么明显的费用，如员工培训、诽谤保险（大多数出版商在发生索赔时为他们的作者支付费用）和计算机软件。这些是固定成本，它们有一种超出出版商控制的方式上升。像所有出版商一样，在Profile，我们的目标是将它们控制在较低水平，但是工资，就像作者的报酬一样，在书籍行业并不丰厚，成本继续年复一年地上升。
 - en: Any author who has been to a Big Four (trade) publisher’s office will know they
     cut costs by cramming staff into huge open-plan offices that are not unlike old-fashioned
     factory production lines, no matter how elegant the space. Profile Books employs
@@ -102,14 +124,18 @@
     the services that they do. As our most recent (2017) accounts show, our salary
     bill last year was £2.6m. We pay out much more in advances and royalties than
     in salaries, and we are not a “Gradgrind” employer.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 任何去过四大（贸易）出版商办公室的作者都会知道，他们通过将员工塞进类似于老式工厂生产线的巨大开放式办公室来削减成本，无论空间多么优雅。Profile Books雇佣了40人，其位于Angel的办公室每年租金约为33.5万英镑。商业税额外增加，而且即将大幅增加。固定成本还包括资本支出。所有这些都必须从书籍销售的净收入中支付。除了从版权销售中获得的一小部分收入外，出版商没有其他方式来支付这些费用，以便提供他们所提供的服务。正如我们最近（2017年）的财务报表显示的那样，去年我们的薪资支出为260万英镑。我们在预付款和版税方面支付的金额比薪资支出要多得多，我们不是一个“格雷格兰德”雇主。
 - en: These costs do not change whether we sell one book or one million. All publishers
     like to think we manage our overheads tautly, but whether we do or not, these
     are the inescapable costs of running our businesses before we start selling the
     books we publish.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些成本无论我们销售一本书还是一百万本书都不会改变。所有出版商都喜欢认为我们严格管理我们的一般费用，但无论我们是否这样做，这些是在开始销售我们出版的书籍之前运营我们业务不可避免的成本。
 - en: And then there are the direct costs attached to each book. These are the costs
     of sales. For publishers to sell their books they must have a sales force, which
     never comes cheap. It can mean international offices too, in the case of the largest
@@ -117,21 +143,27 @@
     some, but not all, of the sales arrangements. This all costs up to 12.5% of the
     total net sales revenue depending on the type of sale, with international sales
     more expensive.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 此外，每本书都附带直接成本。这些是销售成本。出版商要销售他们的书籍，他们必须拥有销售团队，这并不便宜。对于最大的公司来说，这可能意味着国际办事处。Profile是独立联盟的一部分，Faber提供了一些销售安排，但并非全部。这一切根据销售类型的不同，销售净收入的总额高达12.5％，国际销售成本更高。
 - en: The entire UK book trade operates on sale or return, with the supermarkets being
     the most “dangerous” customers. Profile’s total returns on UK sales are approximately
     14%, but that average hides some books with far worse rates. Sometimes more than
     40% or even 50%. Returns are a real cost, because the publisher has paid to print
     and deliver the books, and when the books come back they are generally pulped.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 英国整个图书行业都是按照销售或退货的方式运作，超市是最“危险”的客户。Profile在英国销售的总退货率约为14％，但这个平均数掩盖了一些退货率更糟糕的书籍。有时甚至超过40％甚至50％。退货是一个真实的成本，因为出版商已经支付印刷和交付书籍的费用，当书籍退回时，它们通常会被销毁。
 - en: Distribution (warehousing and physically shipping books around the world) is
     one of two costs attached to physical sales only. They do not apply to e-books,
     of course. We budget around 7% of our net sales revenue for distribution, delivery
     and invoicing.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 分销（仓储和全球实物书籍运输）是仅适用于实体销售的两项成本之一。当然，这些不适用于电子书。我们的净销售收入中约有7％用于分销、交付和开票。
 - en: Marketing is a tricky one. Publicity, for Profile, is a fixed cost because it
     employs four full-time publicists and three full-time marketers who work on however
     many (or few) titles are published. But marketing costs—billboards, Tube and bus
@@ -142,21 +174,27 @@
     the campaign, buy the media slots and send the party invitations before we have
     any idea how many books we will sell. So this is a risky business—a difficult
     judgement call.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 营销是一个棘手的问题。对于Profile来说，公关是一个固定成本，因为它雇佣了四名全职公关人员和三名全职营销人员，他们负责出版的书籍数量。但营销成本—广告牌、地铁和公交车广告、数字和社交媒体活动，甚至作者派对—是可变的。出版商倾向于为营销预算6%–8%的预期净销售收入。对于每个季度最大的作品，这可能会花费数万英镑，特别是如果电视广告也在其中。实际上，我们必须在任何书籍销售之前决定活动，购买媒体广告位并发送派对邀请。因此，这是一项风险投资—一个困难的判断。
 - en: Finally there is the cost of goods sold (COGS), i.e. making the physical books.
     Printing and binding is relatively straightforward to calculate, and is generally
     between 8%–12% of the retail price. So 17%–25% of the net sales revenue; in other
     words, slightly less than the author share.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后是销售成本（COGS），即制作实体书籍的成本。印刷和装订相对容易计算，通常占零售价格的8%–12%。因此，占净销售收入的17%–25%；换句话说，略低于作者的份额。
 - en: Put another way, in 2016 and 2017, pre-press and printing costs were 24% of
     Profile’s total revenues—just a little under our advance and royalty payments
     to authors. Roughly, 4,000 copies of a B-format paperback of 256 pages will cost
     50p–75p per copy. A jacketed Royal-format hardback of 320 pages will cost £1.20–£1.60
     a copy, if 3,000 are printed.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 换句话说，在2016年和2017年，排版和印刷成本占Profile总收入的24%—略低于我们向作者支付的预付款和版税。粗略地说，一本256页的B格式平装书的4,000本将每本成本为50p–75p。一本320页的Royal格式精装书，如果印刷3,000本，每本成本为£1.20–£1.60。
 - en: But there are also editorial and design costs. That 320-page hardback (let’s
     assume it’s non- fiction) will cost around £1,000 to copyedit and another £700
     to proofread. Then there is the page design (£750) and perhaps an index (£700).
@@ -164,31 +202,41 @@
     we budget £1,000– £1,500 for that and employ a full-time art director and designer
     (overheads) on top of that. Trade publishers are investing very heavily in how
     their books look now.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 但也有编辑和设计成本。那本320页的精装书（假设是非小说类）将花费约£1,000进行编辑和另外£700进行校对。然后还有页面设计（£750）和可能还有索引（£700）。最后，也是最重要的，封面设计。在Profile，我们为此预算£1,000–£1,500，并雇佣了一位全职艺术总监和设计师（额外费用）。现在，贸易出版商在书籍外观方面的投资非常大。
 - en: '**Peaks and troughs**'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**高峰和低谷**'
 - en: Where have we got to? A complicated picture of fixed costs and variable costs.
     Some of those variable costs go up with each sale (delivery, sales commission
     and the royalty—if the advance is earned out). Others are really a risk that attach
     themselves to the first copy and are “free” thereafter. So the editorial costs,
     fee for the jacket designer, index and marketing costs don’t change if the title
     sells well or dies a painful death.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们到底是怎么样的？一个复杂的固定成本和可变成本的画面。其中一些可变成本随着每次销售而增加（交付、销售佣金和版税—如果预付款被赚回）。其他一些实际上是风险，它们附着在第一本书上，之后是“免费”的。因此，编辑成本、封面设计师费用、索引和营销成本不会因为作品销售良好还是痛苦地失败而改变。
 - en: Publishing is a risky business—each book is a challenge that should cover its
     costs. Some do and are brilliantly profitable. The successes subsidise the disappointments.
     Choosing and publishing books is an art, not a science.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 出版是一项风险投资—每本书都是一个应该覆盖成本的挑战。有些书确实做到了，并且获得了丰厚的利润。成功的作品补贴了失望的作品。选择和出版书籍是一门艺术，而不是一门科学。
 - en: At the end of all that, publishers must make a profit. Many of the biggest are
     subsidiaries of even larger entities which impose strict requirements on what
     must be achieved. But there is more than that. If you aren’t making a profit or
     breaking even, you are making a loss. That is unsustainable. Most companies have
     good and bad years.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，出版商必须盈利。许多最大的出版商是更大实体的子公司，对必须实现的目标有严格要求。但不仅如此。如果你没有盈利或者收支平衡，那就是亏损。这是不可持续的。大多数公司有好有坏的年份。
 - en: The big publishers aim to make a profit of 10% on sales; most only manage it
     in good years. Most independents dip into loss from time to time. At Profile—unusually
     for independents—we have been profitable in every year since 1997, and for the
@@ -197,10 +245,14 @@
     in a capitalist world, we must make a profit. And we will never forget that if
     we do not, after a few years we will go under. We mustn’t lose sight of our duty
     to remain solvent.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 大型出版商的目标是在销售额上获利10％；大多数只在好年份才能实现这一目标。大多数独立出版商偶尔会出现亏损。在Profile出版社——与大多数独立出版商不同——自1997年以来每年都盈利，并在过去三年中，利润占销售额的平均税前利润为12％。这比大多数出版商要多一些，但我们不会忘记，像所有处于资本主义世界中的企业一样，我们必须盈利。我们永远不会忘记，如果我们不盈利，几年后我们就会破产。我们不能忘记我们的职责是保持健康的财务状况。
 - en: '*Andrew Franklin’s article first appeared in the* Author*; this is an updated
     and edited version.* *Read Nicola Solomon’s blog ’The profits from publishing:
     authors’ perspective’ [here](https://www.thebookseller.com/blogs/profits-publishing-authors-perspective-743226).*'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '*安德鲁·富兰克林的文章首次出现在*作者*；这是一个更新和编辑过的版本。*阅读尼古拉·所罗门的博客''出版利润：作者的视角'' [这里](https://www.thebookseller.com/blogs/profits-publishing-authors-perspective-743226)。*'

@@ -1,76 +1,110 @@
 - en: Datadog’s $65M/year customer mystery solved
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery](https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery)"
+  zh: Datadog 每年 6500 万美元客户之谜解开了
+- en: 'Original Text: [https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery](https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery](https://newsletter.pragmaticengineer.com/p/datadogs-65myear-customer-mystery)
 - en: '*👋 Hi, this is [Gergely](https://twitter.com/gergelyorosz) with a bonus, free
     issue of the Pragmatic Engineer Newsletter. In every issue, I cover topics related
     to Big Tech and high-growth startups through the lens of engineering managers
     and senior engineers. In this issue, we cover one out of six topics from today’s
     subscriber-only [The Scoop piece](https://newsletter.pragmaticengineer.com/p/the-scoop-47).
     To get full issues twice a week, subscribe:*'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '*👋 嗨，我是 [Gergely](https://twitter.com/gergelyorosz)，这是《务实工程师通讯》的免费额外问题。在每期中，我通过工程经理和高级工程师的视角涵盖与大型科技公司和高增长初创公司相关的主题。在本期中，我们从今天的订阅者专属
+    [The Scoop 文章](https://newsletter.pragmaticengineer.com/p/the-scoop-47) 中涵盖了六个主题中的一个。要获取每周两次的完整问题，请订阅：*'
 - en: 'Datadog is a leading observability tooling provider which went public in 2019,
     with a current market cap of $28B. The company made $1.67B revenue in 2022, circa
     $140M per month. On an earnings call a week ago, on 4 May, the CFO mentioned a
     “large upfront bill that did not recur,” saying:'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: Datadog 是一家领先的可观察性工具提供商，于 2019 年上市，当前市值为 280 亿美元。该公司在 2022 年实现了 16.7 亿美元的营收，约为每月
+    1.4 亿美元。在一周前的财报电话会议上，即 5 月 4 日，首席财务官提到了“一笔大额预付账单，未重复”，说道：
 - en: “Billings were $511 million, up 15% year-over-year. We had a large upfront bill
     for a client in Q1 2022 that did not recur at the same level or timing in Q1 2023\.
     Pro forma for this client, billings growth was in the low 30s percent year-over-year.”
+  id: totrans-4
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “账单为 5.11 亿美元，同比增长 15%。我们在 2022 年第一季度为一个客户有一笔大额预付账单，但在 2023 年第一季度，这种水平或时间上的账单并未重复。剔除这个客户后，账单增长率为低
+    30%。”
 - en: 'If you’re like me, you’d probably skim over this detail, as it’s 15% here,
     30% there. However, analysts attend these calls whose bread and butter is crunching
     the numbers and figuring out what a company might be trying to hide. A JP Morgan
     stock analyst did just this, quickly crunching numbers and asking the question:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你像我一样，可能会忽略这个细节，因为这里 15%，那里 30%。然而，分析师参加这些电话会议，他们的核心工作是分析数据，找出公司可能试图隐藏的东西。一位
+    JP 摩根的股票分析师就是这样做的，迅速计算数字并提出问题：
 - en: “David, looking at the math on this large upfront bill that did not recur, it
     seems to be about $65 million, if I'm running that correctly. Can you possibly
     shed a little more light?“
+  id: totrans-6
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “David，看着这笔大额预付账单的数学，这笔账单似乎约为 6500 万美元，如果我算对了的话。你能否再多解释一点？”
 - en: 'Datadog’s CFO, David Obstler gave more details:'
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: Datadog 的首席财务官 David Obstler 给出了更多细节：
 - en: “That was a crypto company which continues to be a customer of ours. But that
     was an early optimizer. We had always talked about some of the industries that
     were most affected and optimized.“
+  id: totrans-8
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “那是一个继续成为我们客户的加密公司。但那是一个早期的优化器。我们一直在谈论一些受影响最大且被优化的行业。”
 - en: 'So, who is this mysterious crypto company? Investor Turner Novak [speculated](https://twitter.com/TurnerNovak/status/1654577231937544192?s=20)
     that it’s Coinbase:'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 那么，这家神秘的加密公司是谁？投资者 Turner Novak 推测是 Coinbase：
 - en: He added he doesn’t know for certain that it is Coinbase, as other crypto companies
     have also raised silly amounts of money in the past several years.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 他补充说，他并不确定这是 Coinbase，因为过去几年其他加密公司也筹集了很多资金。
 - en: 'So, did Coinbase spend $65M on Datadog in 2022? Online there’s no shortage
     of theories, or people pretending to be Coinbase employees, such as this anonymous
     commenter on Hacker News, [claiming](https://news.ycombinator.com/item?id=35866061)
     that the $65M was for a 3-year upfront payment (which information I could not
     verify). I wanted to find the truth, so I tracked down software engineers at the
     company. And I got my answer:'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 那么，Coinbase 在 2022 年是否在 Datadog 上花费了 6500 万美元？在线上有很多理论，或者假装是 Coinbase 员工的人，比如这位匿名评论者在
+    Hacker News 上声称，这 6500 万美元是为了 3 年的预付款（这个信息我无法验证）。我想找到真相，所以我联系了公司的软件工程师。我得到了答案：
 - en: '**Yes. Coinbase spent $65M with Datadog in 2021, and this was their due bill
     for that year.** I can confirm this, having talked with both current and former
     software engineers at Coinbase who shared details of what happened.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '**是的。Coinbase 在 2021 年与 Datadog 花费了 6500 万美元，这是他们当年的应付账单。** 我可以确认这一点，因为我与 Coinbase
+    的现任和前任软件工程师交谈过，他们分享了发生的情况细节。'
 - en: 'Here’s how Datadog’s CEO explained, on the earnings call on what happened:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是 Datadog 的首席执行官在财报电话会议上解释发生了什么：
 - en: “This is one of those situations where this customer was in an industry that
     got pretty much decimated over the past year. And their own business was cut in
     three or four, in terms of the revenue. And when that's the case, we really work
@@ -78,46 +112,63 @@
     solution for them, not part of the problem (...) We restructure their contract,
     so we keep them as a happy customer for many more years and do a deal that works
     for everyone with their business profile.”
+  id: totrans-14
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “这是那种在过去一年中几乎被摧毁的行业的情况之一。他们自己的业务收入减少了三分之一或四分之一。在这种情况下，我们真的会与客户合作重新调整他们与我们的合同。我们希望成为他们问题的一部分，而不是问题的一部分(...)
+    我们重新调整他们的合同，以便让他们成为更多年的快乐客户，并与他们的业务概况达成对每个人都有利的交易。”
 - en: And here’s what actually happened, as I understand from talking with engineers
     at Coinbase.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我从与Coinbase工程师交谈中了解到的实际情况。
 - en: Coinbase had an incredible 2021 and did not have to care about costs. The company
     went public in June that year, and was valued at an eye-popping $86B. In comparison,
     nearly two years later the company is valued around $14B, a 75% decline.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: Coinbase在2021年表现出色，不必担心成本。该公司于当年6月上市，市值高达惊人的860亿美元。相比之下，将近两年后，该公司的估值约为140亿美元，下降了75%。
 - en: 'During the boom, trading volumes were surging, beating record after record,
     and Coinbase could barely keep up. Here’s how Coinbase CEO Brian Amstrong summarized
     it:'
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 在繁荣时期，交易量激增，一次又一次打破记录，Coinbase几乎跟不上。以下是Coinbase CEO Brian Amstrong对此的总结：
 - en: “So, obviously 2021 was just an incredible year for Coinbase, the kind of thing
     that you see very rarely in your lifetime, in a business career (...) We hit an
     all time high in our monthly transacting users of 11.4 million, which is 4x year-over-year,
     400% pretty incredible.”
+  id: totrans-18
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “显然，2021年对Coinbase来说是一个不可思议的一年，这种事情在你的一生中很少见，也很少在商业生涯中见到(...) 我们的月活跃用户数达到了历史最高的1140万，同比增长了4倍，增长了400%，非常不可思议。”
 - en: Following the IPO in summer 2021, nobody at the company cared about infra costs;
     the only focus was growth. The company racked up huge bills for the likes of AWS,
     Snowflake, and also Datadog. And so, the $65M bill was for Datadog, for 2021\.
     Coinbase settled the bill in Q1 2022.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 在2021年夏季上市后，公司没有人关心基础设施成本；唯一的关注点是增长。该公司为AWS、Snowflake和Datadog等公司产生了巨额账单。因此，2021年Datadog的账单为6500万美元。Coinbase在2022年第一季度结清了账单。
 - en: '**In early 2022 Coinbase suddenly needed to cut back infra spending.** The
     crypto industry hit a sudden chill, affecting Coinbase’s business. As revenue
     dried up, the company turned its attention to reducing its overly high costs.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**在2022年初，Coinbase突然需要削减基础设施支出。** 加密行业突然陷入寒冷，影响了Coinbase的业务。随着收入枯竭，公司开始关注减少过高的成本。'
 - en: 'For observability, Coinbase spun up a dedicated team with the goal of moving
     off of Datadog, and onto a Grafana/Prometheus/Clickhouse stack. A quick summary
     of these technologies:'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了实现可观察性，Coinbase成立了一个专门团队，旨在摆脱Datadog，转而使用Grafana/Prometheus/Clickhouse堆栈。这些技术的简要概述：
 - en: '**[Prometheus](https://prometheus.io/): a time series database.** A very popular
     open-source solution for systems and services monitoring. Prometheus collects
     metrics from configured targets (services) at given intervals. It evaluates rules
@@ -125,77 +176,105 @@
     Ruby parts. Prometheus stores time series in-memory and on storage (HDD or SSD),
     using an efficient and custom format, and supports [sharding](https://en.wikipedia.org/wiki/Shard_(database_architecture))
     and [federation](https://en.wikipedia.org/wiki/Federated_database_system).'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '**[Prometheus](https://prometheus.io/)：一个时间序列数据库。** 这是一个非常受欢迎的开源解决方案，用于系统和服务监控。Prometheus会在给定的时间间隔内从配置的目标（服务）收集指标。它会评估规则并触发警报。它主要使用Go编写，还有一些Java、Python和Ruby部分。Prometheus会将时间序列存储在内存和存储（HDD或SSD）中，使用高效且自定义的格式，并支持[分片](https://en.wikipedia.org/wiki/Shard_(database_architecture))和[联邦](https://en.wikipedia.org/wiki/Federated_database_system)。'
 - en: Prometheus [is part](https://www.cncf.io/projects/prometheus/) of the Cloud
     Native Foundation, membership of which indicates that it’s safe to build on top
     of Prometheus, as it’s actively maintained and will continue to be.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: Prometheus[是](https://www.cncf.io/projects/prometheus/)云原生基金会的一部分，加入该基金会表明可以放心构建在Prometheus之上，因为它正在积极维护并将继续维护。
 - en: 'Prometheus can be self-hosted, but several cloud providers also offer managed
     Prometheus services: both Google Cloud and AWS have this service in production,
     while Azure has it in preview.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: Prometheus可以自行托管，但几家云服务提供商也提供托管的Prometheus服务：Google Cloud和AWS都在生产中提供此服务，而Azure则在预览中提供。
 - en: '**[Grafana](https://grafana.com/): the frontend for visualizing metrics.**
     Grafana is a popular source analytics and monitoring visualization solution. If
     you need to display or dive into metrics or alerts, it’s the go-to tool, and widely
     used across tech companies. When I was at Uber, Grafana powered many of our graphs.
     Here’s an example of Grafana dashboards you can [try out](https://play.grafana.org/d/000000012/grafana-play-home?orgId=1):'
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: '**[Grafana](https://grafana.com/)：可视化指标的前端。** Grafana是一种流行的源分析和监控可视化解决方案。如果您需要显示或深入了解指标或警报，这是首选工具，并且在技术公司中被广泛使用。当我在Uber时，Grafana支持我们许多的图表。这里是一个您可以[尝试的Grafana仪表板](https://play.grafana.org/d/000000012/grafana-play-home?orgId=1)的示例：'
 - en: '**[Clickhouse](https://clickhouse.com/)**: log management. A fast and open-source
     column-oriented database management system, which is a popular choice for log
     management. Clickhouse is written predominantly in C++, and is widely used across
     the industry. For example, Cloudflare uses Clickhouse to store all its DNS and
     HTTP logs – which is more than 10M rows per second! – and Uber uses Clickhouse
     as its central logging platform.'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: '**[Clickhouse](https://clickhouse.com/)**：日志管理。一种快速且开源的面向列的数据库管理系统，是日志管理的热门选择。Clickhouse主要用C++编写，并在整个行业广泛使用。例如，Cloudflare使用Clickhouse存储其所有DNS和HTTP日志
+    - 每秒超过10M行！ - 而Uber将Clickhouse用作其中央日志平台。'
 - en: Coinbase spun up its in-house approach without the main goal of saving costs,
     but to have full control and ownership of observability. Observability and reliability
     is a major differentiator for Coinbase, as it gives a competitive advantage over
     rivals.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: Coinbase启动了其内部方法，不是为了节省成本，而是为了完全控制和拥有可观察性。可观察性和可靠性是Coinbase的主要差异化因素，因为它为公司带来了与竞争对手的竞争优势。
 - en: However, with the crypto market cooling, costs became a major focus, and it
     was clear the in-house Grafana/Prometheus solution was much cheaper. The Coinbase
     team had been double-writing the new stack for months, confirming everything worked
     well, and ironing out any issues.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，随着加密市场降温，成本成为主要关注焦点，很明显内部的Grafana/Prometheus解决方案要便宜得多。Coinbase团队已经双写了新堆栈数月，确认一切运作良好，并解决任何问题。
 - en: '*We cover approaches like double-writing in the issue [Migrations done well](https://newsletter.pragmaticengineer.com/p/migrations).*'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: '*我们在问题[Migrations done well](https://newsletter.pragmaticengineer.com/p/migrations)中涵盖了双写等方法。*'
 - en: So Coinbase was ready to pull the plug on Datadog, but Datadog saved its customer
     relationship at the last minute by making Coinbase a very appealing deal it could
     not refuse. In future, the bill for Datadog would be nowhere near the $65M of
     2021\. As Brian Amstrong said of the crypto market during 2021, a $65M bill is
     the kind of thing you see very rarely in a business career.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，Coinbase准备放弃Datadog，但Datadog在最后一刻通过提出一个非常吸引人的交易挽救了与Coinbase的客户关系。未来，Datadog的账单不会接近2021年的$65M。正如Brian
+    Amstrong在2021年对加密市场所说，$65M的账单在商业生涯中是非常罕见的事情。
 - en: I asked an engineer at Coinbase who used the in-house stack and Datadog how
     they felt about the decision to stay on Datadog. They said it was ultimately the
     right decision, considering the reasonable costs, and the superior Datadog development
     experience.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 我询问了在Coinbase使用内部堆栈和Datadog的工程师对于决定继续使用Datadog的看法。他们表示，考虑到合理的成本和优越的Datadog开发体验，这最终是正确的决定。
 - en: Coinbase could *eventually* have engineered a similar experience in-house. However,
     to provide a similarly seamless developer experience, would have likely taken
     tens of engineering years.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: Coinbase最终可能会自行设计出类似的体验。然而，要提供类似无缝的开发者体验，可能需要数十年的工程时间。
 - en: '**“Expensive” in observability tooling is relative.** Let’s assume that today
     Coinbase “only” spends, say, $10M per year on Datadog. Is this too much? Looking
     at the headline number, it’s tempting to think so.'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: '**“昂贵”在可观察性工具中是相对的。** 让我们假设今天Coinbase“仅”每年在Datadog上花费了，比如说，$10M。这是否太多了？看看头条数字，很容易这样认为。'
 - en: However, let’s look a level deeper. A platform like Datadog helps prevent outages,
     detects them instantly, and mitigates them faster. In 2022, Coinbase had 17 outages,
     totalling about 12 hours of downtime. The company’s daily average revenue is around
     $9M/day, based on their 2022 earnings.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，让我们深入一层。像Datadog这样的平台有助于预防故障，立即检测到故障并更快地减轻故障。在2022年，Coinbase共发生了17次故障，总计约12小时的停机时间。该公司的日均收入约为每天$9M，基于他们2022年的收入。
 - en: 'Assume that Datadog cuts the number of outages by half, by preventing them
     with early monitoring. That would mean that without Datadog, we’d look at 24 hours’
     worth of downtime, not 12\. Let’s also assume that using Datadog results in mitigating
@@ -205,14 +284,19 @@
     versus the 12 hours with Datadog. To put it in numbers: the company would make
     around $9M in revenue it would otherwise lose, Now that $10M/year fee practically
     pays for itself!'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 假设Datadog通过早期监控防止故障，将故障数量减半。这意味着如果没有Datadog，我们将面临24小时的停机时间，而不是12小时。让我们还假设使用Datadog比没有Datadog时能够更快地减轻故障
+    - 由于能够将健康指标与日志连接起来，更快地进行调试，快速定位根本原因并更快地减轻。在这种情况下，如果没有Datadog，我们可能会面临36小时的总停机时间，而不是有Datadog时的12小时。用数字来说：公司将获得大约900万美元的收入，否则将会损失，现在这1000万美元/年的费用实际上是自给自足的！
 - en: '**What can we learn from Coinbase’s cost reduction exercise?** Vendors are
     tight-lipped about their customers reducing spend, and it is a lucky coincidence
     that Datadog gave enough hints to find out who their big “early optimizer” customer
     was, and find out more details. But is the story of Coinbase a one-off?'
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我们可以从Coinbase的成本削减行动中学到什么？** 供应商们对于客户减少支出保持缄默，Datadog偶然透露了足够的线索，找出了他们的大型“早期优化”客户是谁，并了解更多细节。但Coinbase的故事是个例吗？'
 - en: I’m not sure that it is. Three months ago, I covered the trend that [Tech companies
     are aggressively cutting back on vendor spend](https://newsletter.pragmaticengineer.com/p/vendor-spend-cuts)
     - and two months later, The Wall Street Journal also [reported](https://www.wsj.com/articles/corporate-technology-under-new-scrutiny-amid-recession-fears-a69c6583)
@@ -222,116 +306,159 @@
     for cost savings. This is simply because infra and observability costs tend to
     be the highest and AWS is the leader for cloud infra, and Datadog the leader for
     observability.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不确定是这样。三个月前，我报道了[科技公司正在积极削减供应商支出](https://newsletter.pragmaticengineer.com/p/vendor-spend-cuts)的趋势
+    - 两个月后，华尔街日报也[报道](https://www.wsj.com/articles/corporate-technology-under-new-scrutiny-amid-recession-fears-a69c6583)了同样的主题。对我来说，Coinbase似乎是早期参与成本优化趋势的公司。然而，仔细看看我收集的[回应](https://newsletter.pragmaticengineer.com/p/vendor-spend-cuts)，“AWS”和“Datadog”是被提及最多的两家供应商，作为节约成本的目标。这仅仅是因为基础设施和可观察性成本往往是最高的，AWS是云基础设施的领导者，Datadog是可观察性的领导者。
 - en: 'Datadog CEO Olivier Pomel confirmed that this type of optimization is happening
     across all of their customers, saying:'
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: Datadog首席执行官Olivier Pomel确认，这种优化正在发生在他们所有客户身上，他说：
 - en: “When we look at our data, when we look at what we hear from the hyperscalers
     also, we also listen carefully to their commentary on what they foresee in the
     near future, we don't see anything that gives us confidence that we can call an
     end to optimization in the next quarter or the quarter after that. So as far as
     our guidance goes and our plan for the year, we assume that this is going to continue
     at a similar level for the rest of the year.”
+  id: totrans-39
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: “当我们查看我们的数据，当我们听取超大规模运算商的意见时，我们也仔细倾听他们对未来的预测，我们没有看到任何让我们确信我们可以在下个季度或之后结束优化的迹象。因此，就我们的指导和今年的计划而言，我们假设这种情况将在今年余下的时间内保持在类似水平。”
 - en: I have since confirmed several large companies with thousands of engineers building
     their own Grafana/Prometheus stack, planning to migrate off of their current observability
     vendor and operate the observability stack themselves. But why is this?
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 我已经确认了几家拥有数千名工程师构建自己的Grafana/Prometheus堆栈的大型公司，计划迁移出当前的可观察性供应商并自行运营可观察性堆栈。但是为什么会这样呢？
 - en: '**Above $2-5M/year annual spend is where bringing a vendor in-house tends to
     come up.** And this is because it is around this number where the cost of hiring
     a whole team to do what a vendor is doing can *theoretically* make sense.'
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: '**每年超过2-5百万美元的年度支出是引入供应商内部化的时机。** 这是因为在这个数字左右，雇佣一个团队来做供应商正在做的事情的成本在*理论上*是有意义的。'
 - en: As a rule of thumb, you can get infra costs much lower than what vendors charge.
     This is because both the vendor, and you are probably using the same Cloud infrastructure
     provider, which is usually AWS, GCP or Azure. However, you would need to hire
     and staff a dedicated engineering team to build and run that infra.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 一般来说，你可以将基础设施成本降低到供应商收费的水平以下。这是因为供应商和你可能都在使用相同的云基础设施提供商，通常是AWS、GCP或Azure。然而，你需要雇佣和配备一个专门的工程团队来构建和运行该基础设施。
 - en: 'So, from a cost perspective, this is the math problem you need to solve. At
     what point does is this equation become true:'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，从成本的角度来看，这是你需要解决的数学问题。在什么时候这个等式成立：
 - en: $infra_cost + $platform_team_cost < $current_vendor_costs
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: $基础设施成本 + $平台团队成本 < $当前供应商成本
 - en: In this question, $platform_team_costs will be above $1M, and sometimes above
     $2M. This is because you need to have a team of 4-5 engineers, plus a manager,
     and their average total compensation will be somewhere between $150-400K/year,
     depending on your cost basis.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这个问题中，$平台团队成本将超过100万美元，有时甚至超过200万美元。这是因为你需要一个由4-5名工程师和一个经理组成的团队，他们的平均总薪酬将在每年15-40万美元之间，取决于你的成本基础。
 - en: 'So when you have a bill that is above $2-3M/year, it can start to look tempting
     to build, rather than buy. The economics of this decision start to get down to
     how high of a margin is the vendor charging on top of raw infra? The curious question
     with Coinbase is: did they consider building, when talking about such a huge projected
     cost that could justify having a team?'
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 当你的账单超过每年$2-3M时，开始考虑自建而非购买可能会变得诱人。这个决定的经济学问题在于供应商在原始基础设施之上收取了多高的利润率？对于Coinbase来说，一个好奇的问题是：当谈论可以证明需要一个团队的巨额成本时，他们是否考虑过自建？
 - en: In the case of Coinbase, building in-house following a $65M bill was a clear
     no-brainer. They could hire a team of 10 senior and staff-level engineers in the
     Bay Area, and still have this team cost less than $5M/year. And they then only
     need to budget for the infra costs, which they can presumably bring down to low
     double digits per year.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于Coinbase来说，在支付了6500万美元账单后自建是一个明显的明智选择。他们可以在旧金山湾区雇佣一支由10名高级和员工级工程师组成的团队，而这支团队的成本仍然低于每年500万美元。然后他们只需要为基础设施成本预算，他们可以将其预计降低到每年两位数。
 - en: Coinbase planned to move off Datadog, but ended up staying. However, it is not
     the only larger tech company thinking about bringing observability in house. I
     have another exclusive which even Datadog might not be aware of, yet. This report
     is about Shopify and its plan to move off Datadog. But could recent layoffs change
     things? I cover details on this topic in [the full The Scoop](https://newsletter.pragmaticengineer.com/p/the-scoop-47).
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: Coinbase计划迁移离开Datadog，但最终决定留下。然而，并不是唯一一个考虑将可观性引入内部的大型科技公司。我有另一个独家消息，甚至Datadog可能还不知道。这份报告涉及Shopify及其计划迁移离开Datadog。但最近的裁员会改变情况吗？我在[完整的The
+    Scoop](https://newsletter.pragmaticengineer.com/p/the-scoop-47)中详细介绍了这个话题。
 - en: '*This was one out of the five topics covered in this week’s The Scoop. A lot
     of what I share in The Scoop is exclusive to this publication, meaning it’s not
     been covered in any other media outlet before and you’re the first to read about
     it.*'
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: '*这是本周The Scoop中涵盖的五个话题之一。我在The Scoop中分享的许多内容都是本刊独家的，这意味着它们在任何其他媒体上都没有报道过，你是第一个读到的人。*'
 - en: '*The full The Scoop edition additionally covers:*'
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: '*完整的The Scoop版还包括：*'
 - en: '**Will Shopify migrate onto an in-house observability tool?** Shopify decided
     to build its own observability platform and migrate off Datadog. This plan looked
     certain until Shopify cut the very engineering teams that built its new platform.
     What happens next?***Exclusive***.'
+  id: totrans-51
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**Shopify会迁移到内部的可观性工具吗？** Shopify决定建立自己的可观性平台，并迁移离开Datadog。这个计划看起来很确定，直到Shopify裁减了建立新平台的工程团队。接下来会发生什么？***独家***。'
 - en: '**Microsoft cuts its compensation targets**. Almost exactly a year ago, Microsoft
     employees received a welcome surprise: they could expect higher-than-usual compensation
     increases. Yesterday, another unexpected email came, but its contents were the
     opposite of last year’s. I talked with managers and engineers at the tech giant
     for their reaction to disappointing compensation news. ***Exclusive***.'
+  id: totrans-52
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**微软削减了薪酬目标**。大约一年前，微软员工收到了一个惊喜：他们可以期待比平时更高的薪酬增长。昨天，又收到了另一封意外的电子邮件，但其内容与去年相反。我与这家科技巨头的经理和工程师们讨论了对令人失望的薪酬消息的反应。***独家***。'
 - en: '**Shopify letting go most staff in Germany.** As part of cutting 20% of staff,
     most people in Germany were made redundant. These layoffs happened a week before
     a Works Council election in Germany. Is this unlucky timing, or is there more
     behind the move?***Exclusive***.'
+  id: totrans-53
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**Shopify 在德国裁员大部分员工**。作为裁员 20% 的一部分，德国大部分员工被解雇了。这些裁员发生在德国的一个工会选举前一周。这是不幸的时机，还是背后有更多的原因？***独家***。'
 - en: '**Senior compensation trending down in Ukraine.** Ukraine is one of the few
     countries for which we have access to nationwide data, through job site Djinni.
     Data for the first part of this year are in, and they point to something not seen
     recently: senior engineers are making less. Is this a local trend, or could we
     see it happening in other countries?*Analysis*.'
+  id: totrans-54
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**乌克兰的高级薪酬趋势下降**。乌克兰是我们可以获得全国数据的少数几个国家之一，通过招聘网站 Djinni。今年上半年的数据已经出来了，它们指向了最近没有见过的情况：高级工程师的薪酬在下降。这是一个地方性趋势，还是我们会看到它在其他国家发生？*分析*。'
 - en: '**A follow-up to this week’s public tech company compensation article**. Why
     was Netflix lower down the list than many software engineers expected? Plus, new
     details about Roblox and why Jack Dorsey’s total compensation is $2.75\. *Follow-up.*'
+  id: totrans-55
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: '**本周公开的科技公司薪酬文章的后续报道**。为什么 Netflix 在名单上比许多软件工程师预期的要低？另外，关于 Roblox 的新细节以及为什么杰克·多西的总薪酬是
+    $2.75\. *跟进*。'
 - en: '[Read the full The Scoop here.](https://newsletter.pragmaticengineer.com/p/the-scoop-47)'
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: '[阅读完整的 The Scoop 这里。](https://newsletter.pragmaticengineer.com/p/the-scoop-47)'

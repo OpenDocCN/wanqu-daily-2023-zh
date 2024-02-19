@@ -1,48 +1,68 @@
 - en: Cheating is All You Need
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://about.sourcegraph.com/blog/cheating-is-all-you-need](https://about.sourcegraph.com/blog/cheating-is-all-you-need)"
+  zh: 作弊就是你所需要的
+- en: 'Original Text: [https://about.sourcegraph.com/blog/cheating-is-all-you-need](https://about.sourcegraph.com/blog/cheating-is-all-you-need)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://about.sourcegraph.com/blog/cheating-is-all-you-need](https://about.sourcegraph.com/blog/cheating-is-all-you-need)
 - en: Heya. Sorry for not writing for so long. I’ll make up for it with 3000 pages
     here.
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 嘿。很抱歉很久没有写东西了。我会在这里弥补，写 3000 页。
 - en: I’m just hopping right now. That’s kinda the only way to get me to blog anymore.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我现在只是在跳跃。这可能是唯一让我再写博客的方式。
 - en: I’ve rewritten this post so many times. It’s about AI. But AI is changing so
     fast that the post is out of date within a few days. So screw it. I’m busting
     this version out in one sitting.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我已经重写了这篇文章很多次了。它是关于人工智能的。但是人工智能发展得如此之快，以至于这篇文章在几天内就过时了。所以算了。我一口气写出这个版本。
 - en: '*(Spoiler alert: There’s some Sourcegraph stuff at the end, including a product
     plug and some recruiting stuff. But >80% of this post is just about LLMs–GPT etc.–and
     you, a programmer.)*'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: '*(剧透警告：本文末尾包含一些 Sourcegraph 的内容，包括产品推广和招聘内容。但本文超过 80% 的内容只是关于 LLMs–GPT 等等–和你，一个程序员。)*'
 - en: There is something **legendary and historic** happening in software engineering,
     right now as we speak, and yet most of you don’t realize at all how big it is.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 正在发生一些**传奇和历史性**的事情在软件工程领域，就在我们说话的此刻，然而大多数人根本没有意识到这有多么重要。
 - en: LLMs aren’t just the biggest change since social, mobile, or cloud–they’re the
     biggest thing since the World Wide Web. And on the coding front, they’re the biggest
     thing since IDEs and Stack Overflow, and may well eclipse them both.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: LLMs 不仅是社交、移动或云之后的最大变革–它们是自万维网以来最重要的事情。在编码方面，它们是自集成开发环境和 Stack Overflow 以来最重要的事情，而且很可能会超越它们。
 - en: But most of the engineers I *personally* know are sort of squinting at it and
     thinking, “Is this another crypto?” Even the devs at Sourcegraph are skeptical.
     I mean, what engineer isn’t. Being skeptical is a survival skill.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是我**个人**认识的大多数工程师都有点眯着眼看着它，想着，“这是又一个加密货币吗？”即使是 Sourcegraph 的开发人员也持怀疑态度。我是说，哪个工程师不是呢。持怀疑态度是一种生存技能。
 - en: Remember I told you how my Amazon shares would have been worth $130 million
     USD today if I hadn’t been such a *skeptic* about how big Amazon was going to
     get, and unloaded them all back in 2004-ish. Right? I told you about that? I’m
     sure I mentioned it once or twice. Not that I am bitter. No.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 记得我告诉过你吗，如果我当时没有对亚马逊的规模持怀疑态度，并在大约 2004 年出售了所有股份，那么我的亚马逊股份今天可能价值 1.3 亿美元。对吧？我告诉过你这件事吗？我肯定提过一两次。我并不是在抱怨。没有。
 - en: But did I ever tell you about the time AWS was just a demo on some engineer’s
     laptop? No? Well it was [Ruben Ortega](https://www.linkedin.com/in/rubeneortega/)
     and [Al Vermeulen](https://www.linkedin.com/in/allan-vermeulen-58835b/). They
@@ -50,564 +70,814 @@
     demo to anyone who’d watch it. This was back in maybe… 2003? Ish? They showed
     us how you could make a service call over the web, like by hitting a URL and sending
     the right query parameters.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是我有没有告诉过你 AWS 曾经只是某个工程师笔记本上的演示？没有？那么就是 [Ruben Ortega](https://www.linkedin.com/in/rubeneortega/)
+    和 [Al Vermeulen](https://www.linkedin.com/in/allan-vermeulen-58835b/)。他们在亚马逊的工程部门里走来走去，向任何愿意看的人展示他们的“网络服务”演示。大概是在…2003年？左右？他们向我们展示了如何通过网络进行服务调用，比如通过访问
+    URL 并发送正确的查询参数。
 - en: Well lo and behold we were *skeptical*. Why the hell would you make a service
     call over the web? That’s not what it was even designed for! Not to mention, it
     *obviously* wouldn’t perform as well as CORBA (Amazon’s stupid-ass RPC system
     at the time). The whole thing just didn’t make any sense to us.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 哦，我们当时是*持怀疑态度*的。为什么要通过网络进行服务调用呢？这甚至不是它设计的初衷！更不用说，它显然不会像 CORBA（当时亚马逊愚蠢的 RPC 系统）那样高效。整件事对我们来说根本毫无意义。
 - en: We were seeing the first little flecks of lava from what would become a trillion-dollar
     volcano of money called AWS and Cloud Computing.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们看到了第一缕从 AWS 和云计算中涌现出的将成为一个万亿美元金钱火山的岩浆。
 - en: But a lot of us were skeptical. To most of us, those little lava flecks looked
     like fireflies.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是很多人对此持怀疑态度。对于我们大多数人来说，那些小小的岩浆看起来像萤火虫。
 - en: '[](#the-ultra-rare-trillion-dollar-money-volcano)The ultra-rare trillion-dollar
     money volcano'
+  id: totrans-14
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#the-ultra-rare-trillion-dollar-money-volcano)超稀有的万亿美元金钱火山'
 - en: I could tell you a LOT of stories like the web-services one. Great big shit
     always starts life as a demo.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 我可以告诉你很多像网络服务这样的故事。所有伟大的事情总是从演示开始的。
 - en: 'What about chatting with people in a browser? Doesn’t matter whether you’re
     using Facebook, Google Chat, LinkedIn, or just chatting with a customer service
     agent: if you’re having a conversation with someone in a browser, all that shit
     started life as a teeny demo of 2 engineers sending messages back and forth over
     a “hanging GET” channel back in 2005\. Entire *industries* were built on that
     one little channel, and it wasn’t even very good.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 在浏览器中与人聊天怎么样？无论你是使用Facebook、Google Chat、LinkedIn，还是只是与客服代表聊天：如果你在浏览器中与某人对话，所有这些东西都始于2005年两名工程师在“挂起GET”通道上来回发送消息的一个微小演示。整个*行业*都是建立在那个微小通道上的，而且它甚至不是很好。
 - en: What about Kubernetes? I remember seeing a demo of that early on, on Brendan
     Burns’ work laptop, when it was called mini-Borg. Entire *industries* are being
     built on Kubernetes, and it’s not even very good either. 😉 Or look at Docker!
     Something as innocuous as linux cgroups, a little process-isolation manager, became
     the technical foundation for containers, which now utterly pervade our industry.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: Kubernetes呢？我记得早期在Brendan Burns的工作笔记本上看到过一个演示，当时它被称为mini-Borg。整个*行业*正在基于Kubernetes构建，并且它甚至也不是很好。😉
+    再看看Docker！像Linux cgroups这样无害的东西，一个小的进程隔离管理器，成为了容器的技术基础，现在完全渗透了我们的行业。
 - en: If you can build something as big as Amazon Web Services with a stack based
     on a simple service call, or whole social networks and customer service suites
     based on simple browser-to-browser communication, or a robust way of delivering
     and managing software based on a little process isolation code, then just imagine
     how big a thing you could build – bear with me here – if you had the *goddamn
     Singularity* as your starting point?
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你可以通过基于简单的服务调用堆栈构建像Amazon Web Services这样大的东西，或者基于简单的浏览器到浏览器通信构建整个社交网络和客户服务套件，或者基于一小段进程隔离代码构建一种稳健的软件交付和管理方式，那么想象一下，如果你以*该死的奇点*作为起点，你可以构建多么庞大的东西？
 - en: I mean, I joke, but… I mean… Right? I’m guessing you prolly missed it in OpenAI’s
     98-page [GPT-4 technical report](https://cdn.openai.com/papers/gpt-4.pdf), but
     large models are apparently already prone to discovering that “power-seeking”
     is an effective strategy for increasing their own robustness. Open the PDF and
     search for “power-seeking” for a fun and totally 100% non-scary [read](https://twitter.com/Suhail/status/1637952234913939460).
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 我是说，我开玩笑，但是... 我是说... 对吧？我猜你可能在OpenAI的98页[GPT-4技术报告](https://cdn.openai.com/papers/gpt-4.pdf)中可能错过了，但是大型模型显然已经倾向于发现“追求权力”是增加自身稳健性的有效策略。打开PDF并搜索“追求权力”以获得有趣且完全不可怕的阅读[体验](https://twitter.com/Suhail/status/1637952234913939460)。
 - en: You can build truly massive things by building upon little technical breakthroughs.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过利用一些小的技术突破，你可以构建真正庞大的东西。
 - en: And folks, this technical breakthrough? It ain’t little.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 朋友们，这个技术突破？一点也不小。
 - en: If you’re not pant-peeingly excited *and* worried about this yet, well… you
     should be.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你对此还没有兴奋到尿裤子的程度*并且*担心，那么... 你应该了解一下。
 - en: '[](#and-yet-the-mehs-prevail)And yet the Mehs prevail'
+  id: totrans-23
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#and-yet-the-mehs-prevail)然而，平庸却占据主导地位'
 - en: 'We did an internal poll at Sourcegraph: Do you have positive sentiment or negative
     sentiment about LLMs for coding? Options were Positive, Negative, and Meh. And
     lo, it was about ⅔ Meh or Negative (i.e., Skeptics), which I suspect is fairly
     representative of the whole industry.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在Sourcegraph进行了内部投票：你对LLMs编码持有积极态度还是消极态度？选项是积极、消极和平庸。结果大约有2/3的人选择了平庸或消极（即，怀疑者），我认为这相当代表了整个行业。
 - en: I asked around, and even as of a couple weeks ago, some devs questioned whether
     ChatGPT could even write *working* code, let alone write a full program by simply
     by telling it to write it.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 我询问了一下，甚至就在几周前，一些开发人员质疑ChatGPT是否能够编写*可运行*的代码，更不用说仅仅通过告诉它来编写一个完整的程序了。
 - en: So here I am, talking about money volcanoes, and my coworkers have formed a
     huge whirling meh-nado. Which natural disaster should you believe?
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以在这里，我在谈论金钱火山，而我的同事们已经形成了一个巨大的平庸旋风。你应该相信哪种自然灾害？
 - en: Well I mean, I guess a demo is worth a thousand mehs. Let’s try it out.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 嗯，我是说，我猜一次演示胜过一千个平庸。让我们试一试。
 - en: '[](#chatgpt-vs-emacs)ChatGPT vs Emacs'
+  id: totrans-28
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#chatgpt-vs-emacs)ChatGPT对抗Emacs'
 - en: Let’s have ChatGPT write some Emacs-Lisp code. I’m picking emacs-lisp because
     it’s a corner case language, bit of a stress test for the LLM, and because it’s
     easy for me to try it out interactively.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 让ChatGPT编写一些Emacs-Lisp代码。我选择emacs-lisp是因为它是一个边缘案例语言，对LLM来说是一种压力测试，并且因为对我来说很容易进行交互式尝试。
 - en: 'OK. I just typed this prompt into ChatGPT:'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 好的。我刚刚在ChatGPT中输入了这个提示：
 - en: '*> Write an interactive emacs-lisp function that pops to a new buffer, prints
     out the first paragraph of "A tale of two cities", and changes all words with
     ''i'' in them red. Just print the code without explanation.*'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '*> 编写一个交互式的emacs-lisp函数，弹出一个新的缓冲区，打印出《双城记》的第一段，并将所有包含‘i’的单词变成红色。只需打印代码，不要解释。*'
 - en: '![ChatGPT writing an emacs-lisp function](../Images/f3192ac698b86e02481a384264cf2388.png
     "ChatGPT writing an emacs-lisp function")'
+  id: totrans-32
   prefs: []
   type: TYPE_IMG
+  zh: '![ChatGPT编写一个emacs-lisp函数](../Images/f3192ac698b86e02481a384264cf2388.png "ChatGPT编写一个emacs-lisp函数")'
 - en: 'Here’s the code it spat out, if you can’t read the screenshot:'
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你看不懂截图，这是它输出的代码：
 - en: '[PRE0]'
+  id: totrans-34
   prefs: []
   type: TYPE_PRE
+  zh: '[PRE0]'
 - en: 'I copied this code directly into my Emacs session and ran it, and it did exactly
     what I asked it to do:'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 我直接将这段代码复制到我的Emacs会话中并运行了它，它确实做到了我要求的事情：
 - en: '![Running the code in an Emacs session](../Images/849192c327fbe9be2735323583d28e49.png
     "Running the code in an Emacs session")'
+  id: totrans-36
   prefs: []
   type: TYPE_IMG
+  zh: '![在Emacs会话中运行代码](../Images/849192c327fbe9be2735323583d28e49.png "在Emacs会话中运行代码")'
 - en: As you can see from the screenshot, I ran the command and it opened a buffer,
     printed the requested text, and then turned all the words containing ‘i’ red.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 正如你从截图中看到的，我运行了这个命令，它打开了一个缓冲区，打印了请求的文本，然后将所有包含‘i’的单词变成了红色。
 - en: In one shot, ChatGPT has produced completely working code from a sloppy English
     description! With voice input wired up, I could have written this program by asking
     my computer to do it.
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: ChatGPT一次性从一个杂乱的英文描述中生成了完全可工作的代码！如果有语音输入，我可以通过询问我的计算机来编写这个程序。
 - en: And not only does it work correctly, the code that it wrote is actually pretty
     decent emacs-lisp code. It’s not *complicated*, sure. But it’s good code.
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 而且它不仅能正确工作，它写的代码实际上是相当不错的emacs-lisp代码。当然，它不是*复杂*的。但它是好代码。
 - en: Of course people have done much, much fancier things than this. Someone [wrote](https://twitter.com/heykahn/status/1635752848398102530?s=20)
     a product description on a napkin, took a picture, and GPT wrote a working web
     app that implements the product description on the napkin in the picture. The
     amount of power here is honestly unknown; it’s more like a cavern that we haven’t
     fully explored. And it just gets deeper as the LLMs get bigger.
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 当然，人们做过比这更复杂得多的事情。有人在餐巾纸上[写下](https://twitter.com/heykahn/status/1635752848398102530?s=20)了一个产品描述，拍了照，GPT写了一个实现餐巾纸上产品描述的工作Web应用程序。这里的能量量级实在是未知的；这更像是一个我们尚未完全探索的洞穴。随着LLMs变得更大，它只会变得更深。
 - en: I mean, this stuff is *unbelievably* powerful. And yet I am persistently met
     with a mixture of disbelief and pearl-clutching. Argh, the pearl-clutching! Don’t
     even get me started on the pearl-clutching. Oh look, now you’ve got me started.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的意思是，这东西*无比*强大。然而，我始终遇到一种怀疑和惊慌的混合体。啊，那惊慌！别让我开始那个。哦看，现在你让我开始了。
 - en: Okay, you asked for it.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 好的，你自找的。
 - en: '[](#whining-about-trust-issues)Whining about Trust Issues'
+  id: totrans-43
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#whining-about-trust-issues)抱怨信任问题'
 - en: '*<Rant mode fully engaged>*'
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: '*<发牢骚模式全开>*'
 - en: One of the craziest damned things I hear devs say about LLM-based coding help
     is that they can’t “trust” the code that it writes, because it “might have bugs
     in it”.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 我听到开发人员关于基于LLM的编码帮助说的最疯狂的事情之一是，他们不能“信任”它写的代码，因为它“可能有bug”。
 - en: Ah me, these crazy crazy devs.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 啊，这些疯狂的开发人员啊。
 - en: Can you trust code you yeeted over from Stack Overflow? NO!
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 你能信任你从Stack Overflow上抄过来的代码吗？不！
 - en: Can you trust code you copied from somewhere else in your code base? NO!
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 你能相信从代码库中复制的代码吗？不！
 - en: Can you trust code you *just now wrote carefully by hand, yourself?* NOOOO!
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 你能信任你*刚刚仔细手写的代码吗？* 不！
 - en: All you crazy MFs are completely overlooking the fact that **software engineering
     exists as a discipline because you cannot EVER under any circumstances TRUST CODE.**
     That’s why we have *reviewers*. And *linters*. And *debuggers*. And *unit tests*.
     And *integration tests*. And *staging environments*. And *runbooks*. And all of
     goddamned *Operational Excellence*. And *security checkers*, and *compliance scanners*,
     and on, and on and on!
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 你们这些疯狂的家伙完全忽视了一个事实，**软件工程存在是因为你永远不能在任何情况下信任代码。** 这就是为什么我们有*审查者*。还有*linters*。和*debuggers*。和*unit
+    tests*。和*integration tests*。和*staging environments*。和*runbooks*。以及所有该死的*运维卓越*。还有*安全检查器*，和*合规扫描器*，等等等等！
 - en: 'So the next one of you to complain that “you can’t trust LLM code” gets a little
     badge that says “Welcome to *engineering* motherfucker”. You’ve finally learned
     the secret of the trade: Don’t. Trust. Anything!'
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以，下一个抱怨“你不能信任LLM代码”的人将得到一个小徽章，上面写着“欢迎来到*工程*，混蛋”。你终于学会了这个行业的秘密：不。信。任。任何东西！
 - en: Peeps, let’s do some really simple back-of-envelope math. Trust me, it won’t
     be difficult math.
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 朋友们，让我们做一些非常简单的草稿数学。相信我，这不会是困难的数学。
 - en: You get the LLM to draft some code for you that’s 80% complete/correct.
+  id: totrans-53
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你可以让LLM为你起草一些完成/正确度达到80%的代码。
 - en: You tweak the last 20% by hand.
+  id: totrans-54
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 你可以手动调整最后的20%。
 - en: How much of a productivity increase is that? Well jeepers, if you’re only doing
     1/5th the work, then you are… *punches buttons on calculator watch*… **five times
     as productive.** 😲
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: 这将带来多少生产力提升？哇哦，如果你只做了五分之一的工作，那么你就是… *在计算手表上按下按钮*… **生产力提高五倍**。😲
 - en: When was the last time you got a 5x productivity boost from *anything* that
     didn’t involve some sort of chemicals?
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 上次你从*任何*事情中获得5倍生产力提升是什么时候？那不涉及某种化学物质？
 - en: I’m serious. I just don’t get people. How can you not appreciate the *historic*
     change happening right now?
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 我是认真的。我就是不明白人们。你怎么能不欣赏现在正在发生的*历史性*变化呢？
 - en: OK time to get concrete. I’m already on page 7, and my last attempt at this
     blog ran 25+ pages and languished for weeks.
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 好了，是时候具体一点了。我已经在第7页了，而我上次尝试写这篇博客时超过25页，还荒废了几周。
 - en: Let’s finish this.
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们结束这个。
 - en: '*<Rant mode disengaged... but lurking>*'
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: '*<发牢骚模式已解除...但潜伏着>*。'
 - en: '[](#a-brief-mini-history-of-llms)A Brief Mini-History of LLMs'
+  id: totrans-61
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#a-brief-mini-history-of-llms)LLM的简要小历史'
 - en: OK sooooo… this is the part that went on for 20 pages before, so let’s just
     make it reeeeeal simple. One paragraph.
+  id: totrans-62
   prefs: []
   type: TYPE_NORMAL
+  zh: 好了，所以……这是之前写了20页的部分，所以让我们简化一下。一段话。
 - en: 'Here is everything you need to know about the history of LLMs, for our purposes
     today:'
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是你今天需要了解的LLM历史的一切：
 - en: '| ![A transformer diagram](../Images/3c333fb988af676ed868461757fa75b9.png "A
     transformer diagram") |'
+  id: totrans-64
   prefs: []
   type: TYPE_TB
+  zh: '| ![一个变压器图表](../Images/3c333fb988af676ed868461757fa75b9.png "一个变压器图表") |'
 - en: The Google Brain team published a paper in 2017 called [Attention is All You
     Need](https://arxiv.org/abs/1706.03762).
+  id: totrans-65
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 谷歌Brain团队在2017年发表了一篇名为[Attention is All You Need](https://arxiv.org/abs/1706.03762)的论文。
 - en: It introduced the now-famous Transformer architecture that you see to the left.
+  id: totrans-66
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 它介绍了你在左边看到的现在著名的Transformer架构。
 - en: Everyone uses this now. It replaced *~everything* in AI.
+  id: totrans-67
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 现在每个人都在使用这个。它取代了*几乎所有*的AI。
 - en: Google did absolutely nothing with this invention, opting for violent knee-jerking
     later, as per their usual M.O.
+  id: totrans-68
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 谷歌对这一发明完全没有做任何事情，选择之后进行暴力性的反应，这是他们通常的作法。
 - en: Meanwhile, others started training massive Transformers on obscene amounts of
     data. They began calling them Large Language Models (LLMs).
+  id: totrans-69
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 与此同时，其他人开始在大量数据上训练庞大的Transformer。他们开始称之为大型语言模型（LLMs）。
 - en: OpenAI came along with ChatGPT on November 30th 2022, the first LLM-based chatbot,
     missing out on an obvious opportunity to call it Large Marge. Why did they not
     do this.
+  id: totrans-70
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: OpenAI在2022年11月30日推出了ChatGPT，第一个基于LLM的聊天机器人，错过了一个明显的机会，没有将其命名为Large Marge。为什么他们没有这样做。
 - en: Ever since then has been **full batshit insanity**, with new LLM-based products
     launching daily and technical advances happening every few hours. It’s *impossible*
     to track it all.
+  id: totrans-71
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 从那时起，**一切都变得疯狂无比**，每天都有基于LLM的新产品推出，技术进步每隔几个小时就会发生。要追踪这一切*几乎是不可能的*。
 - en: 'Money Volcano Alert: First lava flecks detected.'
+  id: totrans-72
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 金钱火山警报：首次检测到熔岩飞溅。
 - en: '|'
+  id: totrans-73
   prefs: []
   type: TYPE_NORMAL
+  zh: '|'
 - en: Congrats, you’re all caught up on the history of LLMs. Go watch [this amazing
     video](https://www.youtube.com/watch?v=kCc8FmEb1nY) for how to implement it in
     Python.
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: 恭喜，你已经了解了LLM的历史。去观看[这个惊人的视频](https://www.youtube.com/watch?v=kCc8FmEb1nY)了解如何在Python中实现它。
 - en: '[](#a-brief-introduction-to-coding-assistants)A brief introduction to Coding
     Assistants'
+  id: totrans-75
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#a-brief-introduction-to-coding-assistants)编码助手简介'
 - en: OK now we can talk coding assistants. They’re just a thing that sits in your
     IDE and they talk to the LLM for you.
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: 好了，现在我们可以谈论编码助手了。它们只是坐在你的IDE中与LLM交谈的东西。
 - en: Depending on the particular assistant, they can read and explain code, document
     code, write code, autocomplete it, diagnose issues, and even perform arbitrary
     IDE tasks through “agents” that give the LLM robotic powers, including the ability
     to wield and target laser guns, if someone wants to put in the work. Some assistants
     also understand your project environment and can answer questions about build
     targets, branches, your IDE, etc.
+  id: totrans-77
   prefs: []
   type: TYPE_NORMAL
+  zh: 根据特定助手的不同，它们可以阅读和解释代码，文档化代码，编写代码，自动补全代码，诊断问题，甚至通过给予LLM机器人能力的“代理”执行任意IDE任务，包括使用和瞄准激光枪，如果有人愿意付出努力。一些助手还了解您的项目环境，并可以回答关于构建目标、分支、您的IDE等的问题。
 - en: So, already pretty cool. Right?
+  id: totrans-78
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以，已经相当酷了。对吧？
 - en: But now they are beginning to be able to perform more complex tasks, such as
     generating a PR from the diffs on the current branch, including a detailed commit
     message summarizing the changes.
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: 但现在它们开始能够执行更复杂的任务，比如从当前分支的差异中生成一个PR，包括总结更改的详细提交消息。
 - en: Some assistants have a conversational/chat interface, too. This kind can do
     everything a bot like ChatGPT can do, like drafting emails, or answering random
     questions about the code base or the environment.
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: 一些助手还有对话/聊天界面。这种类型可以做ChatGPT这样的机器人可以做的一切，比如起草电子邮件，或回答关于代码库或环境的随机问题。
 - en: I personally prefer a coding assistant with a chat interface. In part because
     I can type, but also because it makes them a platform. I can build my own workflows.
     Bonus points if they expose the underlying platform bits with APIs.
+  id: totrans-81
   prefs: []
   type: TYPE_NORMAL
+  zh: 我个人更喜欢带有聊天界面的编码助手。部分原因是因为我可以打字，但也因为它使它们成为一个平台。我可以构建自己的工作流程。如果它们通过API暴露底层平台部分，那就更加分。
 - en: I guess the simplest way to think about it would be a sort of “real-time in-IDE
     Stack Overflow” coupled with a really powerful new set of boilerplate automation
     tasks.
+  id: totrans-82
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想最简单的思考方式可能是一种“实时IDE中的Stack Overflow”，再加上一个非常强大的新的模板自动化任务集。
 - en: OK, congrats again – you’re up to speed on what LLM-based coding assistants
     can do. It’s… pretty much anything. You could hook it up to outbound email and
     tell it to sell itself. Sky’s the limit. At this point we’re more limited by imagination
     than by technology.
+  id: totrans-83
   prefs: []
   type: TYPE_NORMAL
+  zh: 好的，再次恭喜 - 你已经了解了基于LLM的编码助手可以做什么。它...几乎可以做任何事情。你可以将其连接到外发邮件，并告诉它自我推销。天空是极限。在这一点上，我们更多地受到想象力的限制，而不是技术的限制。
 - en: So! Yeah. Coding assistants. I hope by now you get how powerful they’re going
     to be. They may take different shapes and forms, but they’re all going to be incredibly
     badass before very much longer.
+  id: totrans-84
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以！是的。编码助手。我希望到现在你明白它们将会有多么强大。它们可能会采取不同的形式，但它们在不久的将来都将变得非常厉害。
 - en: Let’s dig a little into how they understand your personal code, and then we’re
     ready to party. 🎉
+  id: totrans-85
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们稍微深入了解它们如何理解你的个人代码，然后我们就准备好开始派对了。🎉
 - en: '[](#trainingfine-tuning-vs-search)Training/fine-tuning vs Search'
+  id: totrans-86
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#trainingfine-tuning-vs-search)训练/微调 vs 搜索'
 - en: LLMs are trained on an absolutely staggering amount of data… but that doesn’t
     include your code.
+  id: totrans-87
   prefs: []
   type: TYPE_NORMAL
+  zh: LLMs是在绝对惊人数量的数据上进行训练的...但这并不包括你的代码。
 - en: There are two basic approaches to making the LLM smarter about your code. The
     first is to fine-tune (or train) on your code. This is not a business model that
     has been fully fleshed out yet, but it’s coming. And importantly it’s only part
     of the picture.
+  id: totrans-88
   prefs: []
   type: TYPE_NORMAL
+  zh: 有两种基本方法可以使LLM更加了解你的代码。第一种是在你的代码上进行微调（或训练）。这还不是一个完全完善的商业模式，但它正在发展。而且重要的是这只是问题的一部分。
 - en: 'The other way is to bring in a search engine. You can think of it as three
     related scenarios:'
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一种方法是引入一个搜索引擎。你可以将其视为三种相关的场景：
 - en: A raw LLM is like a Harvard CS grad who knows a lot about coding and took a
     magic mushroom about 4 hours ago, so it’s mostly worn off, but not totally.
+  id: totrans-90
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 一个原始的LLM就像是一个哈佛计算机科学毕业生，对编码有很多了解，并且大约4小时前吃了一颗魔法蘑菇，所以效果大部分已经消退，但还没有完全消失。
 - en: Fine-tuning it on your code base is like having it study your code carefully,
     which means it will give better answers in general.
+  id: totrans-91
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 在你的代码库上对其进行微调就像是让它仔细研究你的代码，这意味着它通常会给出更好的答案。
 - en: Incorporating a search engine, much like for humans, makes the AI even more
     effective, because it can answer direct queries very quickly. And importantly,
     because the search engine can be used to populate the query context.
+  id: totrans-92
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 加入一个搜索引擎，就像对人类来说一样，使得AI更加有效，因为它可以非常快速地回答直接的查询。而且重要的是，因为搜索引擎可以用来填充查询上下文。
 - en: Meaning, a search engine can be useful twice per query – once when figuring
     out how to *describe* and *contextualize* the query, and again potentially when
     answering the query.
+  id: totrans-93
   prefs:
   - PREF_IND
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 意思是，一个搜索引擎在每次查询中可以有两次有用 - 一次是在确定如何*描述*和*上下文化*查询时，另一次是在回答查询时。
 - en: You talk to LLMs by sending them an action or query, plus some relevant context.
     So for instance, if you want it to write a unit test for a function, then you
     need to pass along that whole function, along with any other relevant code (e.g.
     test-fixture code) so that it gets the test right.
+  id: totrans-94
   prefs: []
   type: TYPE_NORMAL
+  zh: 你通过发送一个动作或查询以及一些相关上下文来与LLMs交流。所以例如，如果你想让它为一个函数编写一个单元测试，那么你需要传递整个函数，以及任何其他相关代码（例如测试夹具代码），以便它正确地进行测试。
 - en: That context you send over is called the **context window**, and I think of
     it as the “cheat sheet” of information that you pass along as part of your query.
+  id: totrans-95
   prefs: []
   type: TYPE_NORMAL
+  zh: 你发送的上下文被称为**上下文窗口**，我把它看作是你在查询中传递的“作弊纸”信息。
 - en: And folks, it ain’t much. It’s almost exactly like a 2-sided index card vs your
     whole textbook, for an exam. They give you between 4k and 32k tokens of 3-4 characters
     each, so at best, maybe 100k of text, to input into the LLM as context for your
     query. That 100k cheat sheet is how you tell the LLM about ***your*** code.
+  id: totrans-96
   prefs: []
   type: TYPE_NORMAL
+  zh: 朋友们，这并不多。这几乎与你整本教科书相比就像是一个双面索引卡，用于考试。他们给你4k到32k个3-4个字符的令牌，因此最好的情况下，可能有100k的文本，用于输入LLM作为查询上下文。那100k的小抄就是你告诉LLM关于***你的***代码的方式。
 - en: 'In an ideal world, you’d just pass your entire code base in with each query.
     In fact, Jay Hack just [tweeted](https://twitter.com/mathemagic1an/status/1636121914849792000?s=20)
     a graph showing how the latest context window size in GPT-4 compares to some popular
     code bases:'
+  id: totrans-97
   prefs: []
   type: TYPE_NORMAL
+  zh: 在理想的情况下，你应该在每次查询中传递整个代码库。事实上，Jay Hack刚刚在推特上[发推文](https://twitter.com/mathemagic1an/status/1636121914849792000?s=20)展示了最新GPT-4上下文窗口大小与一些流行代码库的比较：
 - en: '![Diagram of GPT-4 context window versus code base sizes](../Images/f617df096c2e9bcf4ccddff9c25feb77.png
     "Diagram of GPT-4 context window versus code base sizes")'
+  id: totrans-98
   prefs: []
   type: TYPE_IMG
+  zh: '![GPT-4上下文窗口与代码库大小的图表](../Images/f617df096c2e9bcf4ccddff9c25feb77.png "GPT-4上下文窗口与代码库大小的图表")'
 - en: Which is kind of exciting… until you realize that it’s still just incredibly
     tiny compared to real-world code bases. It’s an index card vs a textbook… just
     a slightly bigger index card.
+  id: totrans-99
   prefs: []
   type: TYPE_NORMAL
+  zh: 这有点令人兴奋... 直到你意识到与真实代码库相比，它仍然微不足道。这就像一个索引卡对比一本教科书... 只是一个略大一点的索引卡。
 - en: That cheat sheet is all you get. That’s how you talk to an LLM. You pass it
     a cheat sheet.
+  id: totrans-100
   prefs: []
   type: TYPE_NORMAL
+  zh: 那张小抄就是你得到的一切。这就是你与LLM交流的方式。你给它一张小抄。
 - en: Which means what goes ON that cheat sheet, as you can probably imagine, is **really
     really important.**
+  id: totrans-101
   prefs: []
   type: TYPE_NORMAL
+  zh: 这意味着放在这张小抄上的内容，正如你可能想象的那样，是**非常重要的**。
 - en: And with that, friends, we are finally ready for the punchline, the party, and
     the demo.
+  id: totrans-102
   prefs: []
   type: TYPE_NORMAL
+  zh: 有了这一点，朋友们，我们终于准备好了结尾，派对和演示。
 - en: You made it!
+  id: totrans-103
   prefs: []
   type: TYPE_NORMAL
+  zh: 你成功了！
 - en: '[](#cheating-is-all-you-need)Cheating is All You Need'
+  id: totrans-104
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#cheating-is-all-you-need)欺骗就是你所需要的'
 - en: 'There are, by my last count, approximately 13 hillion frillion jillion LLM-backed
     coding assistants out there, as of mid-March. But they are all in a desperate
     race to the bottom, because they’re all using the exact same raw materials: An
     LLM, your IDE, your code base, and that pesky little context window.'
+  id: totrans-105
   prefs: []
   type: TYPE_NORMAL
+  zh: 据我上次统计，截至三月中旬，大约有13 hillion frillion jillion个由LLM支持的编码助手。但它们都在绝望地争先恐后，因为它们都使用完全相同的原材料：一个LLM，你的IDE，你的代码库，以及那个讨厌的小上下文窗口。
 - en: Nobody can differentiate on the LLM; they’re all about the same. And the IDE
     and your code base are the same. All they can try to differentiate on is their
     UI and workflows, which they’re all going to copy off each other. Good for you,
     bad for them.
+  id: totrans-106
   prefs: []
   type: TYPE_NORMAL
+  zh: 没有人能在LLM上区分自己；它们都差不多。IDE和你的代码库也是一样的。他们唯一可以尝试区分的是他们的UI和工作流程，而他们都会互相抄袭。对你有利，对他们不利。
 - en: The punchline, and it’s honestly one of the hardest things to explain, so I’m
     going the faith-based route today, is that **all the winners in the AI space will
     have data moats.**
+  id: totrans-107
   prefs: []
   type: TYPE_NORMAL
+  zh: 结尾，说实话，这是最难解释的事情之一，所以今天我选择信仰之路，就是**在AI领域，所有的赢家都将拥有数据护城河。**
 - en: A “data moat” is, in a nutshell, having access to some data that others do not
     have access to.
+  id: totrans-108
   prefs: []
   type: TYPE_NORMAL
+  zh: “数据护城河”简而言之，就是拥有一些其他人无法访问的数据。
 - en: You need a data moat to differentiate yourself in the LLM world.
+  id: totrans-109
   prefs: []
   type: TYPE_NORMAL
+  zh: 在LLM世界中，你需要一个数据护城河来区分自己。
 - en: Why? **Because the data moat is how you populate the context window (“cheat
     sheet”).**
+  id: totrans-110
   prefs: []
   type: TYPE_NORMAL
+  zh: 为什么？**因为数据护城河是如何填充上下文窗口（“小抄”）的。**
 - en: If you can’t feed the LLM your whole code base, and you can only show it 100k
     characters at a time, then you’d better be *really goddamn good* at fetching the
     right data to stuff into that 100k-char window. Because that’s the only way to
     affect the quality of the LLM’s output!
+  id: totrans-111
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你无法将整个代码库输入LLM，而只能每次显示100k个字符，那么你最好*非常非常擅长*获取正确的数据填充到那100k字符窗口中。因为这是影响LLM输出质量的唯一方法！
 - en: Put another way, you need a *sidecar database*. The data moat needs to be fast
     and queryable. This is a Search Problem!
+  id: totrans-112
   prefs: []
   type: TYPE_NORMAL
+  zh: 换句话说，你需要一个*辅助数据库*。数据护城河需要快速且可查询。这是一个搜索问题！
 - en: This is true even outside the world of engineering. There are probably 13 hillion
     jillion killion LLM-based outbound sales products being built like right now,
     as you’re reading this. But only Salesforce and a few other companies with big
     data moats are going to be able to differentiate in that space.
+  id: totrans-113
   prefs: []
   type: TYPE_NORMAL
+  zh: 即使在工程领域之外也是如此。可能正如你阅读这篇文章时，可能有13 hillion jillion killion基于LLM的外发销售产品正在被建立。但只有Salesforce和其他几家拥有大数据护城河的公司才能在这个领域中脱颖而出。
 - en: '[](#party-time)Party Time'
+  id: totrans-114
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#party-time)派对时间'
 - en: OK! You’re finally done learning stuff. I’m very proud that you’ve made it to
     the end.
+  id: totrans-115
   prefs: []
   type: TYPE_NORMAL
+  zh: 好了！你终于学完了。我为你能坚持到最后感到非常自豪。
 - en: The rest is a private Sourcegraph party. I mean, you can come along if you like,
     because you’re a friend. I’ll slip you by the door guy.
+  id: totrans-116
   prefs: []
   type: TYPE_NORMAL
+  zh: 其余的是私人Sourcegraph派对。我的意思是，如果你愿意，你可以一起来，因为你是朋友。我会让你绕过门口的保安。
 - en: You’ve just graduated from Stevey’s LLM Mini-U, and you have all the necessary
     theoretical background to appreciate why I feel I am the luckiest damn person
     on Earth, and why I’m throwing a party, right here on page two thousand eight
     hundred and ninety six of this blog post.
+  id: totrans-117
   prefs: []
   type: TYPE_NORMAL
+  zh: 你刚刚从Stevey的LLM Mini-U毕业，你拥有所有必要的理论背景来欣赏为什么我觉得自己是地球上最幸运的人，以及为什么我正在这篇博客的第2896页举办派对。
 - en: Because folks, I honestly don’t know *how* I got so lucky. I joined Sourcegraph
     in September, not half so much for their product itself as for their Code Intelligence
     Platform, which was like [the one I built back at Google](https://www.youtube.com/watch?v=KTJs-0EInW8).
     They’d nearly finished building [v1 of this platform](https://about.sourcegraph.com/blog/announcing-scip)
     and it was ready to start powering something amazing.
+  id: totrans-118
   prefs: []
   type: TYPE_NORMAL
+  zh: 因为朋友们，老实说，我真的不知道我是*怎么*这么幸运的。我在九月份加入Sourcegraph，不仅仅是因为他们的产品本身，更是因为他们的代码智能平台，就像[我在Google时构建的那个](https://www.youtube.com/watch?v=KTJs-0EInW8)。他们几乎完成了[v1版本的这个平台](https://about.sourcegraph.com/blog/announcing-scip)，它已经准备好开始支持一些令人惊奇的东西。
 - en: And then LLMs landed 10 weeks after I joined. The Singularity, the Cloverfield
     monster stomping around eating people, and everything else that’s happened since
     November 30th. Crazy town.
+  id: totrans-119
   prefs: []
   type: TYPE_NORMAL
+  zh: 然后LLMs在我加入后的10周内登场了。奇点，克洛弗菲尔德怪兽在四处踩踏吞食人类，以及自11月30日以来发生的一切。疯狂的城镇。
 - en: And what do LLMs need again? You, in the front row. Yeah, you.
+  id: totrans-120
   prefs: []
   type: TYPE_NORMAL
+  zh: 那LLMs再次需要什么？你，在前排。是的，就是你。
 - en: They need the data moat! The sidecar database. For populating the cheat sheet.
     Remember?
+  id: totrans-121
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们需要数据护城河！辅助数据库。用于填充备忘单。记得吗？
 - en: It’s a Search problem. And Sourcegraph has spent the past *ten years* building
     the solution.
+  id: totrans-122
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是一个搜索问题。而Sourcegraph已经花了过去*十年*来构建解决方案。
 - en: Go figure.
+  id: totrans-123
   prefs: []
   type: TYPE_NORMAL
+  zh: 搞明白。
 - en: 'Sourcegraph’s platform has four enduring, difficult-to-reproduce dimensions
     that are incredibly relevant to the coding-assistant space:'
+  id: totrans-124
   prefs: []
   type: TYPE_NORMAL
+  zh: Sourcegraph的平台具有四个持久的、难以复制的维度，这些维度与编码助手领域密切相关：
 - en: It’s **universal** and works across all code hosts and platforms.
+  id: totrans-125
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 它是**通用**的，适用于所有代码主机和平台。
 - en: It’s **scalable** and ready for enterprises of all sizes.
+  id: totrans-126
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 它是**可扩展**的，适用于各种规模的企业。
 - en: It’s **precise** and comparable to IDEs in its accuracy and completeness.
+  id: totrans-127
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 它是**精确**的，与IDE在准确性和完整性上可比。
 - en: It’s **open** and is being developed openly and transparently.
+  id: totrans-128
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 它是**开放**的，并且正在公开透明地开发。
 - en: Sourcegraph’s engine powers gigantic enterprises with literally a hundred thousand
     git repositories, and/or multi-terabyte massive megarepos that make IDEs fall
     over and puke. And at its core is an engine so powerful that maybe teaming up
     with an AI was its destiny all along.
+  id: totrans-129
   prefs: []
   type: TYPE_NORMAL
+  zh: Sourcegraph的引擎为拥有成千上万个git仓库和/或多TB大型超级仓库的巨大企业提供支持，这些仓库让IDE崩溃和呕吐。而其核心是一个如此强大的引擎，也许与AI合作一直是它的命运。
 - en: Whoo boy. Did I get lucky? I think I got pretty lucky. We have such an incredible
     head-start in this race.
+  id: totrans-130
   prefs: []
   type: TYPE_NORMAL
+  zh: 哇哦。我是不是很幸运？我觉得我很幸运。我们在这场比赛中有了如此令人难以置信的领先优势。
 - en: When I say “We’re building a coding assistant”, I want you to think back to
     when Ruben Ortega showed us Amazonians his little demo of a remote procedure call
     over HTTP. That was Baby AWS.
+  id: totrans-131
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我说“我们正在构建一个编码助手”时，我希望你回想一下Ruben Ortega向我们亚马逊人展示远程过程调用HTTP的小演示。那就是Baby AWS。
 - en: 'Now take a look at what my esteemed colleague and Sourcegraph teammate Dominic
     Cooney slacked me last week:'
+  id: totrans-132
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在看看我的尊敬的同事和Sourcegraph队友Dominic Cooney上周发给我的消息：
 - en: '*In other news, I am getting even more enthusiastic. There is more, much more,
     to this space than LLMs and I think we have the embryonic stage of some amazing
     invention here. Like some realizations that context provisioning is a service.
@@ -617,164 +887,239 @@
     Many of our thumbs down reactions to [LLMs] come from them complaining they didn''t
     have the context of what language, file, codebase, etc. the user is talking about.
     Which bodes well because Sourcegraph should be able to do that really well.*'
+  id: totrans-133
   prefs: []
   type: TYPE_NORMAL
+  zh: '*另外，我变得更加热情。这个领域比LLMs还要广阔得多，我认为我们在这里有一项了不起的发明的胚胎阶段。比如一些关于上下文提供是一项服务的认识。输出有流，比如一个进入编辑器，一个进入聊天。LLM受益于自我批评的机会。用户体验需要差异和就地事物来聚焦事物。搜索和聊天一样重要。我们对[LLMs]的许多拒绝反应来自于他们抱怨他们不知道用户在谈论什么语言、文件、代码库等上下文。这是个好兆头，因为
+    Sourcegraph 应该能够做得很好。*'
 - en: 'He’s glimpsed the future, and it’s vast. His comment, “I think we have the
     embryonic stage of some amazing invention here”, reminded me of all the embryonic
     stages I’ve seen of other eventually-amazing things: The Mosaic web browser. The
     mini-Borg demo that became Kubernetes. The Amazon web-services demo. The hanging-GET
     request in the browser.'
+  id: totrans-134
   prefs: []
   type: TYPE_NORMAL
+  zh: 他瞥见了未来，而且是广阔的。他的评论，“我认为我们在这里有一项了不起的发明的胚胎阶段”，让我想起了我见过的其他最终令人惊叹的事物的胚胎阶段：Mosaic
+    网页浏览器。成为 Kubernetes 的迷你 Borg 演示。亚马逊网络服务演示。浏览器中的 hanging-GET 请求。
 - en: Little things grow up, folks!
+  id: totrans-135
   prefs: []
   type: TYPE_NORMAL
+  zh: 小事情会发展壮大，伙计们！
 - en: I’ve seen this movie before. I know how it ends. This volcano is the big one.
     Skeptics beware. At the very least, I *hope* by now you’re taking LLM-backed coding
     assistants in general just a teeny bit more seriously than you were an hour ago.
+  id: totrans-136
   prefs: []
   type: TYPE_NORMAL
+  zh: 我以前看过这部电影。我知道结局。这座火山是大的那一个。怀疑论者要小心了。至少，*希望*现在你对LLM支持的编码助手比一个小时前更认真一点。
 - en: OK, you’ve heard the punchline, and the party’s in full swing. Lemme show you
     Cody and we’ll call it a day.
+  id: totrans-137
   prefs: []
   type: TYPE_NORMAL
+  zh: 好的，你已经听到了笑话，派对正在全力进行。让我向你展示 Cody，然后我们就收工吧。
 - en: '[](#a-whirlwind-tour-of-sourcegraphs-cody)A whirlwind tour of Sourcegraph’s
     Cody'
+  id: totrans-138
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#a-whirlwind-tour-of-sourcegraphs-cody)Sourcegraph 的 Cody 一瞥'
 - en: 'Say hi to Cody:'
+  id: totrans-139
   prefs: []
   type: TYPE_NORMAL
+  zh: 与 Cody 打个招呼：
 - en: '![Cody logo](../Images/be8675d40c33b24b4761d43e5b2d4c31.png)'
+  id: totrans-140
   prefs: []
   type: TYPE_IMG
+  zh: '![Cody 标志](../Images/be8675d40c33b24b4761d43e5b2d4c31.png)'
 - en: Cody is Sourcegraph’s new LLM-backed coding assistant. Cody knows about your
     code. It has templated actions, such as writing unit tests, generating doc comments,
     summarizing code, that kind of thing. You know. Stuff you can choose from a menu.
     Like other assistants. It even has code completions, if you’re into that sort
     of thing.
+  id: totrans-141
   prefs: []
   type: TYPE_NORMAL
+  zh: Cody 是 Sourcegraph 的新的LLM支持的编码助手。Cody 知道你的代码。它有模板化的操作，比如编写单元测试，生成文档注释，总结代码，那种东西。你知道的。你可以从菜单中选择的东西。就像其他助手一样。如果你喜欢的话，它甚至有代码补全功能。
 - en: Cody is not some vague “representation of a vision for the future of AI”. You
     can try it *[right now](https://about.sourcegraph.com/cody)*.
+  id: totrans-142
   prefs: []
   type: TYPE_NORMAL
+  zh: Cody 不是一种模糊的“代表未来人工智能愿景的表现”。你可以*立即尝试*它。
 - en: And it has a chat interface! Which means it’s totally open-ended; you can ask
     it any question at all about your code base or your environment, and we’ll send
     it the right cheat sheet. And Cody itself is a *platform*, because you can use
     it to build your own LLM-backed workflows.
+  id: totrans-143
   prefs: []
   type: TYPE_NORMAL
+  zh: 它还有一个聊天界面！这意味着它是完全开放的；你可以问它关于你的代码库或环境的任何问题，我们会发送给它正确的备忘单。而 Cody 本身是一个*平台*，因为你可以用它来构建自己支持LLM的工作流程。
 - en: My favorite kind. Naturally.
+  id: totrans-144
   prefs: []
   type: TYPE_NORMAL
+  zh: 我最喜欢的类型。当然。
 - en: Currently Cody is a VSCode plugin, though we’ll have it in other places soon
     enough.
+  id: totrans-145
   prefs: []
   type: TYPE_NORMAL
+  zh: 目前，Cody 是一个 VSCode 插件，不过很快我们会在其他地方也推出它。
 - en: '![Using Cody in VS Code](../Images/623b3bb5f14a050a77167764dcd92864.png "Using
     Cody in VS Code")'
+  id: totrans-146
   prefs: []
   type: TYPE_IMG
+  zh: '![在 VS Code 中使用 Cody](../Images/623b3bb5f14a050a77167764dcd92864.png "在 VS
+    Code 中使用 Cody")'
 - en: Cody scales up to the very biggest code bases in the world. And even though
     Cody is still a baby, just like Baby AWS back on Ruben’s stinkpad in 2003, it’s
     already able to lift a huge space rhino using only the power of the Force. Hang
     on, sorry wrong baby.
+  id: totrans-147
   prefs: []
   type: TYPE_NORMAL
+  zh: Cody 能够扩展到世界上最大的代码库。尽管 Cody 还是一个婴儿，就像 2003 年在 Ruben 的臭垫子上的 Baby AWS 一样，它已经能够仅凭原力的力量举起一只巨大的太空犀牛。等等，抱歉，搞错了婴儿。
 - en: Ahem. As I was saying, like Baby AWS, Cody is *also* a baby with special powers,
     and honestly… we don’t know how powerful it’s going to get. It seems to be accelerating,
     if anything.
+  id: totrans-148
   prefs: []
   type: TYPE_NORMAL
+  zh: 啊嗯。就像我说的，就像Baby AWS一样，Cody也是一个具有特殊能力的婴儿，老实说...我们不知道它会变得多么强大。如果有的话，它似乎正在加速。
 - en: Oh, and anyone can ~~sign up to get access~~ [start using Cody now](https://cody.dev).
     *(Edited after Cody was released.)*
+  id: totrans-149
   prefs: []
   type: TYPE_NORMAL
+  zh: 哦，任何人都可以~~注册获取访问权限~~[立即开始使用Cody](https://cody.dev)。*（Cody发布后编辑。）*
 - en: 'OK so anyway here’s how Cody works:'
+  id: totrans-150
   prefs: []
   type: TYPE_NORMAL
+  zh: 好吧，无论如何这就是Cody的工作方式：
 - en: '![A diagram of how Cody works](../Images/d22765134f48c8e42c6bdfa2b9c42e88.png
     "A diagram of how Cody works")'
+  id: totrans-151
   prefs: []
   type: TYPE_IMG
+  zh: '![Cody工作原理的图表](../Images/d22765134f48c8e42c6bdfa2b9c42e88.png "Cody工作原理的图表")'
 - en: 'Here’s the diagram above, in a nutshell:'
+  id: totrans-152
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是上面的图表的要点：
 - en: '**You ask Cody to do something** (for instance, “write a unit test for this
     function”)'
+  id: totrans-153
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**你要求Cody做某事**（例如，“为这个函数编写一个单元测试”）'
 - en: '**Cody populates the cheat sheet** / context window query using Sourcegraph’s
     code intelligence platform (search queries, embeddings retrievals, graphql queries,
     etc)'
+  id: totrans-154
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**Cody填充备忘单** / 上下文窗口查询，使用Sourcegraph的代码智能平台（搜索查询、嵌入检索、graphql查询等）'
 - en: '**It sends the context+query to the LLM**, and parses the results'
+  id: totrans-155
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**它将上下文+查询发送到LLM**，并解析结果'
 - en: '**It optionally inserts the results back** into the IDE (depending on the action)'
+  id: totrans-156
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**它可选择将结果插入**回IDE（取决于操作）'
 - en: And of course this is all just the veeeery beginning. This thing will grow into
     a goliath that enhances everything you do as an engineer.
+  id: totrans-157
   prefs: []
   type: TYPE_NORMAL
+  zh: 当然，这只是一个非常初步的阶段。这个东西将成长为一个增强你作为工程师所做的一切的巨人。
 - en: Other coding assistants, which do not have Sourcegraph for Step 2 (populating
     the context), are stuck using whatever context they can get from the IDE. But
     sadly for them, IDEs weren’t really designed with this use case in mind, and they
     make it difficult. And more damningly, no IDE scales up to industrial-sized code
     bases.
+  id: totrans-158
   prefs: []
   type: TYPE_NORMAL
+  zh: 其他编码助手，在第2步（填充上下文）中没有Sourcegraph的情况下，被困在使用IDE中能获取的任何上下文中。但对于他们来说，遗憾的是，IDE并没有真正考虑到这种用例，并且使其变得困难。更令人沮丧的是，没有一个IDE能够扩展到工业规模的代码库。
 - en: So it’s just plain unfair. I’m just gonna call it like it is. Sourcegraph has
     an absolutely unfair advantage, which they built up over *ten years* of building
     out this incredibly scalable, precise, and comprehensive code intelligence platform,
     powered by a world-class search engine and code knowledge graph.
+  id: totrans-159
   prefs: []
   type: TYPE_NORMAL
+  zh: 所以这就是纯粹的不公平。我就直说吧。Sourcegraph拥有绝对不公平的优势，他们在*十年*的时间里建立了这个非常可扩展、精确和全面的代码智能平台，由世界一流的搜索引擎和代码知识图支持。
 - en: Did I mention I’m lucky? I’m so fortunate to be here, and grateful to be part
     of this team.
+  id: totrans-160
   prefs: []
   type: TYPE_NORMAL
+  zh: 我有提到我很幸运吗？我很幸运能在这里，也很感激能成为这个团队的一部分。
 - en: '[](#afterlogue)Afterlogue'
+  id: totrans-161
   prefs:
   - PREF_H5
   type: TYPE_NORMAL
+  zh: '[](#afterlogue)后记'
 - en: I don’t really know how to finish this post. Are we there yet? I’ve tried to
     write this thing 3 times now, and it looks like I may have finally made it. I
     aimed for 5 pages, deliberately under-explained everything, and it’s… fifteen.
     Sigh.
+  id: totrans-162
   prefs: []
   type: TYPE_NORMAL
+  zh: 我真的不知道如何结束这篇文章。我们到了吗？我已经尝试写了这篇文章3次了，看起来我可能终于完成了。我本来想写5页，故意对一切进行简要解释，结果...变成了十五页。叹气。
 - en: But hopefully you got the main takeaways. Baby AWS. Knee jerking. Meh-nadoes.
     Cheat sheets. Data moats. Cody. You got this!
+  id: totrans-163
   prefs: []
   type: TYPE_NORMAL
+  zh: 但希望你能得到主要的要点。Baby AWS。膝跳。Meh-nadoes。备忘单。数据壕沟。Cody。你能做到！
 - en: LLMs aren’t some dumb fad, like crypto. Yes, crypto was a dumb fad. This is
     not that.
+  id: totrans-164
   prefs: []
   type: TYPE_NORMAL
+  zh: LLM不是像加密货币那样的愚蠢潮流。是的，加密货币是一个愚蠢的潮流。这不是那样的。
 - en: Coding assistants are coming. They’re imminent. You will use them this year.
     They will absolutely blow your mind. And they’ll continue to improve at an astonishing
     rate.
+  id: totrans-165
   prefs: []
   type: TYPE_NORMAL
+  zh: 编码助手即将到来。它们即将到来。今年你将会使用它们。它们绝对会让你大吃一惊。而且它们将继续以惊人的速度改进。
 - en: They will feel gloriously like cheating, just like when IDEs came out, back
     in the days of yore. And for a time-constrained developer like me–and I say this
     as someone who has written over a million lines of production code…
+  id: totrans-166
   prefs: []
   type: TYPE_NORMAL
+  zh: 它们会让你感觉像在作弊，就像当IDE出现时一样，在古老的日子里。对于像我这样时间受限的开发人员——我说这话是作为一个写过一百万行生产代码的人...
 - en: Cheating is all you need.
+  id: totrans-167
   prefs: []
   type: TYPE_NORMAL
+  zh: 作弊就是你需要的一切。
 - en: Thanks for reading, and if you like, come be our [Head of AI](https://boards.greenhouse.io/sourcegraph91/jobs/4803652004)!
     Or come do [something else](https://boards.greenhouse.io/sourcegraph91) with us!
     It’s pretty merry around here already, but the more, the merrier.
+  id: totrans-168
   prefs: []
   type: TYPE_NORMAL
+  zh: 感谢阅读，如果你愿意，来成为我们的[AI主管](https://boards.greenhouse.io/sourcegraph91/jobs/4803652004)吧！或者和我们一起做[其他事情](https://boards.greenhouse.io/sourcegraph91)！这里已经很愉快了，但越多人越快乐。

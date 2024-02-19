@@ -1,21 +1,29 @@
 - en: 'The Fallacy of Forever Bottoms Up For Devtools: The Power of Enterprise Sales'
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up](https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up)"
+  zh: 开发工具的永恒自下而上的谬误：企业销售的力量
+- en: 'Original Text: [https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up](https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up](https://jordansegall.substack.com/p/the-fallacy-of-forever-bottoms-up)
 - en: '*“We added a record 212 new large customers, those paying us more than $100,000
     per year and now have 1,749 customers over that threshold. **These large customers
     [1.1% of customers*] now represent 60% of our revenue, up from 50% six quarters
     ago. This trend illustrates how large established enterprises increasingly formed
     the foundation of cloud business.**”*'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: '*“我们新增了212个新的大客户，这些客户每年支付给我们超过10万美元，现在我们有1749个超过这一门槛的客户。**这些大客户[占客户总数的1.1%*]现在占我们收入的60%，比六个季度前的50%有所增加。这一趋势表明，大型成熟企业越来越成为云业务的基础。**”*'
 - en: '*- Cloudflare Q2 2022 Earnings Call Transcript. *'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '*- Cloudflare 2022年第二季度财报电话会议记录。*'
 - en: One of the most valuable lessons I learned when entering venture capital was
     that I should always ask myself when evaluating a new investment whether I could
     envision an S-1 (the form that must be filed by companies when they go public
@@ -26,48 +34,67 @@
     Do I need to expect a company I am considering investing in to be able to close
     hundreds or thousands of $100k+ enterprise contracts or even $1M+ contracts in
     order to go public?
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 当我进入风险投资领域时学到的最宝贵的一课是，当评估新投资时，我应该始终问自己是否能想象该公司提交S-1表格（公司在上市前必须提交的文件，即IPO之前）的情况。对更细粒度层面的这一含义感到好奇，我开始探索那些上市的开发工具/云基础公司的共同特点。**具体而言，在这个“自下而上”和自助服务的世界中，开发工具公司能否通过这样的销售方式走到华尔街？**
+    我是否需要期望我考虑投资的公司能够完成数百甚至数千个10万美元以上的企业合同，甚至是100万美元以上的合同才能上市？
 - en: 'In an effort to answer this billion dollar question, I took S-1 data from every
     major devtool company I could think of that went public in the last decade (28
     of them) to add some color to these questions:'
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 为了回答这个价值十亿美元的问题，我从过去十年中所有我能想到的上市的主要开发工具公司（共28家）的S-1数据中获取了一些信息，以对这些问题进行一些解释：
 - en: 'The first level of insights we can derive from the data are:'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们可以从数据中得出的第一层见解是：
 - en: First, of the 28 companies, the average ARR/customer (which I’ll refer to as
     ARPU, or average revenue per user, going forward) was $92k and the median was
     $35k.
+  id: totrans-7
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 首先，在这28家公司中，每个客户的平均ARR（我将其称为ARPU，或者每个用户的平均收入，以后会继续使用）为92,000美元，中位数为35,000美元。
 - en: 8 companies had an ARPU >$100k, 4 between $50k-$100k, 5 between $25k-$50k, and
     11 that were <$25k.
+  id: totrans-8
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 8家公司的ARPU超过10万美元，4家公司的ARPU介于5万美元至10万美元之间，5家公司的ARPU介于2.5万美元至5万美元之间，而有11家公司的ARPU低于2.5万美元。
 - en: 'Digging a level deeper, we notice some interesting findings. Despite there
     being many companies with relatively low ARPU:'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 深入挖掘后，我们发现了一些有趣的发现。尽管有许多公司的ARPU相对较低：
 - en: 21 of the 28 companies stated a metric in their S-1 for the number of paying
     customers with contracts paying $100k+/year (median being 300)
+  id: totrans-10
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 28家公司中有21家在其S-1文件中声明了每年支付10万美元以上合同的付费客户数量（中位数为300）
 - en: At least 10 specified the number of customers paying >$1M+/year (median being
     27) - though likely many more did but simply did not specify having such contracts
     in the S-1 form.
+  id: totrans-11
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 至少有10家公司指定了每年支付超过100万美元的客户数量（中位数为27）- 尽管可能有更多公司这样做了，但只是没有在S-1表格中具体说明这类合同。
 - en: '**Interestingly, nearly all of the lower ARPU companies had many >$100k+ customers,
     with at least 4 of the 11 companies in the lowest <$25k ARPU bucket specifying
     $1M+ customers. **'
+  id: totrans-12
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '**有趣的是，几乎所有ARPU较低的公司中都有许多10万美元以上的客户，其中至少有11家公司中的4家明确指定了100万美元以上的客户。**'
 - en: '**What this means is that, even for companies with large swaths of bottoms
     up customers and lower ACVs, a top-down sales motion and larger-ACV strategy is
     nearly always added to a developer tool company’s strategy prior to going public**.
@@ -75,69 +102,96 @@
     sizable portions of a company’s overall revenue. This becomes even more prevalent
     if we examine the <$25k ARPU public companies at an individual level to see the
     impact those larger contracts had on the business’ abilities to go public:'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: '**这意味着，即使对于拥有大量自下而上客户和较低ACV的公司，上市前几乎总是会将自上而下的销售动作和更大ACV策略添加到开发者工具公司的战略中**。此外，这些少数企业客户通常占据公司整体收入的相当大比例。如果我们从个体层面审视每个<$25k
+    ARPU的上市公司，看看那些更大合同对公司上市能力的影响，这种情况变得更加普遍：'
 - en: '[JFrog](https://jfrog.com/): Their customers paying >$100k ARR (4.9% of customers)
     comprised 48% of ARR'
+  id: totrans-14
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[JFrog](https://jfrog.com/)：他们支付>$100k ARR的客户（占客户数的4.9%）占据了48%的ARR'
 - en: '[GitLab](https://about.gitlab.com/): Despite having 15k+ customers, 60% of
     their revenue came from their enterprise customers, with 383 paying >$100k and
     27 paying >$1M'
+  id: totrans-15
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[GitLab](https://about.gitlab.com/)：尽管拥有15k+客户，他们60%的收入来自企业客户，其中383名支付>$100k，27名支付>$1M'
 - en: '[Tenable](https://www.tenable.com/): Enterprise Accounts (18% of customers)
     comprised 72% of revenue'
+  id: totrans-16
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[Tenable](https://www.tenable.com/)：企业账户（占客户数的18%）占据了72%的收入'
 - en: '[Atlassian](https://www.atlassian.com/): There were 864 customers paying >$50k.
     Without further info, all this implies is that these 1.9% of customers accounted
     for *at least* 16.25% of revenue (likely far more though since this assumes they
     all only paid $50k each)'
+  id: totrans-17
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[Atlassian](https://www.atlassian.com/)：有864名支付>$50k的客户。没有更多信息，这只是意味着这些1.9%的客户至少占据了收入的16.25%（尽管这假设他们每人只支付了$50k）'
 - en: '[Cloudflare](https://www.cloudflare.com/): As the quote at the beginning noted,
     Cloudflare stated in their Q2 2022 earnings that 1749 customers - only 1.1% of
     their total customers - comprised more than 60% of their revenue.'
+  id: totrans-18
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[Cloudflare](https://www.cloudflare.com/)：正如开头引用的话所述，Cloudflare在2022年第二季度财报中表示，1749名客户
+    - 仅占其总客户数的1.1% - 占据了超过60%的收入。'
 - en: '[DigitalOcean](https://www.digitalocean.com/): While I don’t have the data
     at their IPO, [15% of their customers in 2022 paying >$50k comprised 83% of revenue](https://www.saastr.com/5-interesting-learnings-from-digitalocean-at-500000000-in-arr/)'
+  id: totrans-19
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[DigitalOcean](https://www.digitalocean.com/)：虽然我没有他们上市时的数据，但[2022年支付>$50k的客户中的15%占据了83%的收入](https://www.saastr.com/5-interesting-learnings-from-digitalocean-at-500000000-in-arr/)'
 - en: 'Looking outside of the lowest bucket, we continue to see the effects that large
     enterprise contracts have on devtool company’s abilities to go public:'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 从最低的桶外看，我们继续看到大型企业合同对开发工具公司上市能力的影响：
 - en: '[DataDog](https://www.datadoghq.com/): With an ARPU of $37k, their top 10 accounts
     (0.1% of customers) comprised 14% of revenue and their accounts paying >$100k+
     (6.7% accounts) comprised 72% revenue'
+  id: totrans-21
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[DataDog](https://www.datadoghq.com/)：以$37k的ARPU，他们的前10个账户（占客户数的0.1%）占据了14%的收入，而支付>$100k+的账户（占6.7%的账户）占据了72%的收入'
 - en: '[Fastly](https://www.fastly.com/): Their top 10 (0.6% customers) comprised
     32% revenue, and their top 14% of customers comprised 84% of revenue'
+  id: totrans-22
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[Fastly](https://www.fastly.com/)：他们的前10名客户（0.6%的客户）占据了32%的收入，而前14%的客户占据了84%的收入'
 - en: '[Snowflake](https://www.snowflake.com/en/): Their $1M+ ACV customers (1.8%
     of total customers) comprised 47% of revenue'
+  id: totrans-23
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: '[Snowflake](https://www.snowflake.com/en/)：他们的$1M+ ACV客户（占总客户数的1.8%）占据了47%的收入'
 - en: 'If we examine the companies by category, we see what we’d expect, with Median
     ARPUs being lowest and Median Total # of Customers being highest for Cloud Infra
     and Devtool companies relative to Observability, Security, and Storage/Data Infra
     – though, as discussed with Cloudflare, Fastly, Atlassian, Gitlab, and DigitalOcean,
     all sectors are still significantly impacted by enterprise contracts.'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果我们按类别审视公司，我们会看到我们所期望的情况，与可观测性、安全性和存储/数据基础设施相比，云基础设施和开发工具公司的中位数ARPU最低，客户总数中位数最高
+    - 尽管，正如与Cloudflare、Fastly、Atlassian、Gitlab和DigitalOcean讨论的那样，所有行业仍然受到企业合同的显着影响。
 - en: Finally, if we look at the sales efficiency for each company against their ARPU,
     we see….not that much correlation, implying that both low-volume/high ACV and
     high-volume/low ACV types of business require high sales and marketing spend typically.
@@ -145,8 +199,10 @@
     like DigitalOcean, Atlassian, and Twilio, which demonstrate that even if these
     businesses still needed to add on enterprise sales eventually, they were able
     to do so in a very capital efficient manner.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 最后，如果我们根据每家公司的销售效率与其ARPU进行比较，我们会发现……并没有太大的相关性，这意味着低销量/高ACV和高销量/低ACV类型的企业通常需要高额的销售和营销支出。然而，我们确实看到一些低ARPU企业的销售效率非常高，比如DigitalOcean、Atlassian和Twilio，它们表明即使这些企业最终仍需要增加企业销售，它们也能以非常资本高效的方式做到。
 - en: So does this mean as an investor I stop investing in bottoms up devtool companies?
     10000% no (if 100% wasn’t clear enough!). It’s one of the most effective forms
     of growing an early stage business in a capital efficient manner. However, in
@@ -154,16 +210,24 @@
     paying $100k+ and in some cases the potential for even $1M+ contracts down the
     road. After all, we’ve seen just how much $$$ enterprises are willing to shell
     over and how much they can comprise a business’ total revenue!
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 那么，作为一名投资者，这是否意味着我停止投资于底层开发工具公司？绝对不（如果100%还不够清楚的话！）。这是以资本高效的方式发展早期阶段业务的最有效形式之一。然而，在大多数情况下，我需要看到有数百家企业愿意支付10万美元以上，并且在某些情况下，未来甚至有可能签订100万美元以上的合同。毕竟，我们已经看到企业愿意大笔资金投入，以及它们可以构成企业总收入的多少！
 - en: __
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: __
 - en: Whether you are a bottom-up or top-down business, we at Redpoint would love
     to chat. Follow me on [on Twitter @jordan_segall](https://twitter.com/jordan_segall)
     or subscribe to my substack below!
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 无论您是底层还是顶层企业，我们在Redpoint都很乐意与您交谈。关注我的[Twitter账号@jordan_segall](https://twitter.com/jordan_segall)，或者订阅我的substack！
 - en: '**I added in for context*'
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我添加了一些内容以便理解*'

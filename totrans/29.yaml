@@ -1,26 +1,37 @@
 - en: 'AskTog: John Denver: When Interfaces Kill'
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.asktog.com/columns/027InterfacesThatKill.html](https://www.asktog.com/columns/027InterfacesThatKill.html)"
+  zh: AskTog：约翰·丹佛：当界面致命
+- en: 'Original Text: [https://www.asktog.com/columns/027InterfacesThatKill.html](https://www.asktog.com/columns/027InterfacesThatKill.html)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.asktog.com/columns/027InterfacesThatKill.html](https://www.asktog.com/columns/027InterfacesThatKill.html)
 - en: <csobj w="168" h="1108" t="Component" csref="../../askTogSite.data/Components/leftbar.html"
     occur="0">**Ask Tog, June, 1999**
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: <csobj w="168" h="1108" t="Component" csref="../../askTogSite.data/Components/leftbar.html"
+    occur="0">**Ask Tog, 1999年6月**
 - en: '**When Interfaces Kill:** What Really Happened to John Denver'
+  id: totrans-3
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
+  zh: '**当界面致命：** 约翰·丹佛到底发生了什么'
 - en: On October 12, 1997, John Denver, popular folk singer and amateur pilot, at
     the controls of a newly-purchased experimental aircraft, died after crashing into
     Monterey Bay, in California. He died in an aircraft that had already done its
     best to kill two previous pilots, an aircraft with a human interface flaw so fundamental,
     so profound, that it finally managed to kill.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 1997年10月12日，流行民谣歌手和业余飞行员约翰·丹佛（John Denver），驾驶一架新购买的实验飞机，坠毁在加利福尼亚的蒙特利湾，不幸身亡。他死在一架已经试图杀死两名前驾驶员的飞机上，一架存在着如此根本、深刻的人机界面缺陷的飞机，最终成功地造成了死亡。
 - en: The Long EZ is a kit aircraft designed by Burt Rutan, one of the world's greatest
     aerospace designers. Rutan was responsible for the Voyager, the first aircraft
     to circumnavigate the globe without refueling. He is currently working on a reusable
@@ -29,48 +40,64 @@
     One of his Long EZ planes, similar to John Denver's, holds the altitude record
     for conventional aircraft. It is a brilliant design, and is well respected in
     the aviation community.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 长EZ是由伯特·鲁坦设计的套件飞机，他是世界上最伟大的航空航天设计师之一。鲁坦负责设计了环球无加油飞行的第一架飞机“航海家”。他目前正在研发一种可重复使用的太空飞船，用于商业和旅游运营，可以在早上飞入太空，中午检查和加油，然后在当天下午再次飞行。他的一架类似约翰·丹佛的长EZ飞机保持着常规飞机的高度记录。这是一个出色的设计，在航空界中备受尊重。
 - en: Experimental aircraft kits, however, need not be built as the designer intended.
     Indeed, the flaws that led to Denver's death were the work of the builder, and
     had nothing to do with Burt Rutan. These flaws led from the builder's sincere
     desire to improve on Rutan's work, a goal that could actually be said to have
     been accomplished from an engineering perspective, even if it did kill the pilot.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，实验飞机套件不一定要按照设计者的意图建造。事实上，导致丹佛死亡的缺陷是建造者的工作，与伯特·鲁坦无关。这些缺陷源于建造者真诚地希望改进鲁坦的工作，这一目标从工程角度来看实际上已经实现，即使这导致了飞行员的死亡。
 - en: Background
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 背景
 - en: Aircraft are designed to be as safe as possible. This sounds pretty obvious,
     but if you look back to the history of the motorcar, you can see quite a contrast
     with aviation. The car companies required government intervention before adding,
     while still kicking and screaming, such esoteric safety equipment as headlights,
     windshield wipers, and seat belts. The aviation community, on the contrary, from
     the beginning made safety their primary goal.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 飞机的设计旨在尽可能安全。这听起来很明显，但如果回顾汽车的历史，你会发现与航空业相比有很大的对比。汽车公司在政府干预之前，仍在踌躇不前地添加诸如前灯、雨刷和安全带等奇特的安全设备。相反，航空界从一开始就把安全作为首要目标。
 - en: Car fires are a common enough occurrence along America's freeways. A gas line
     breaks under the hood and soon the engine is engulfed in flames. The cure? Pull
     over, get out, find a long stick, and start roasting marshmallows.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 在美国的高速公路上，汽车起火是一个相当常见的事件。引擎盖下的燃油管断裂，很快引擎就被火焰吞噬。解决方法？停车，下车，找根长棍，开始烤棉花糖。
 - en: That same fire in an aircraft at 10,000 feet is a far more serious affair. It
     can take several minutes to "pull over," during which time that fire can be pouring
     inky black smoke into the cockpit, blinding the pilot, making a crash inevitable.
     As a result, aircraft have fuel shutoff valves in the cockpit. Flip the valve
     and find a nice, friendly field somewhere below where you can safely land your
     plane.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 在飞机上的同一场火灾在1万英尺高空中就变得更加严重。在这段时间内，火灾可能需要几分钟才能“停下来”，而这段时间内火灾可能会向驾驶舱内涌入浓烟，使飞行员失明，导致坠毁不可避免。因此，飞机在驾驶舱内设有燃油切断阀。打开阀门，找到下方某处安全着陆的田野。
 - en: These shutoff valves, on most aircraft, serve a second purpose, letting you
     choose between the tank located in the left wing and the tank located in the right
     wing. (I prefer flying aircraft that also have a "Both" position, so all this
     gas selection can be avoided.)
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 大多数飞机上的这些切断阀还有第二个作用，让您选择位于左机翼和右机翼的油箱之间的油箱。 （我更喜欢飞行器还有一个“两者皆有”的位置，这样所有这些燃油选择都可以避免。）
 - en: The Bad Interface
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 糟糕的界面
 - en: 'John Denver''s aircraft had a fuel selection valve with only three positions:
     Off, Left, and Right. Burt Rutan''s design called for that valve to be placed
     on the front panel of the aircraft, making it easy to switch among the options.
@@ -80,8 +107,10 @@
     with only a long rod leading to the handle behind the pilot''s left shoulder,
     he avoided running the gas lines through the passenger compartment, eliminating
     any possibility of a gasline rupture occuring inside the compartment.'
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 约翰·丹佛的飞机的燃油选择阀只有三个位置：关闭、左、右。伯特·鲁坦的设计要求将该阀门放在飞机的前面板上，使其易于在选项之间切换。然而，飞机的制造者选择将阀门放在飞行员左肩后面。他这样做是出于最好的意图。通过将阀门放在飞行员舱后面，穿过后防火墙的另一侧，只有一根长杆通向飞行员左肩后面的手柄，他避免了将燃油管线穿过客舱，消除了燃油管线在舱内破裂的可能性。
 - en: "He did so, however, at a terrible cost to the human interface, because the\
     \ only way to switch tanks was to let go of the controls, twist your head to the\
     \ left to look behind you, reach over your left shoulder with your right hand,\
@@ -90,46 +119,62 @@
     \ foot\x97by pressing the right rudder pedal all the way to the floor. And that's\
     \ what killed John Denver. His plane was seen veering to the right and plunging\
     \ into the ocean from only a few hundred feet up, consistent with the NTSB's reconstruction."
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，他以极大的代价来实现这一点，因为切换油箱的唯一方法是放开控制杆，扭头向左看后面，用右手伸到左肩膀上，找到阀门并打开。正如国家运输安全委员会（NTSB）发现的那样，要做到这一点并不容易，而不用用右脚支撑自己——通过将右脚踩到地板上的右踏板。这就是导致约翰·丹佛死亡的原因。他的飞机被看到向右偏离，从几百英尺高处坠入海中，与NTSB的重建结果一致。
 - en: Making things worse
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 使情况变得更糟
 - en: '**The fuel:** Denver had three ways to ensure he had enough fuel. Evidence
     suggests he made use of two of them:'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: '**燃油：** 丹佛有三种方法来确保他有足够的燃油。证据表明他利用了其中两种：'
 - en: He had fuel gauges in the rear of the aircraft, behind the pilot, and a mirror
     (!) used to look at them. However, the fuel gauges were not linear and had no
     markings to indicate that apparently half-full was really close to empty.
+  id: totrans-17
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 他的飞机后部有燃油表，位于飞行员后面，并且有一面镜子（！）用于观察。然而，燃油表不是线性的，也没有标记表明明显的半满实际上接近空了。
 - en: He dipped a rod into the fuel tanks while pre-checking the plane before flight
     to test the fuel level. He may not have been aware, however, that, because of
     the way the Long-EZ rests, the fuel tends to slosh toward the fuel tank filler
     port, giving a highly-optimistic reading.
+  id: totrans-18
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 他在飞行前对飞机进行预检时，将一根杆浸入燃油箱中以测试燃油水平。然而，他可能没有意识到，由于Long-EZ的放置方式，燃油倾向于向燃油箱加油口倾斜，给出了一个非常乐观的读数。
 - en: The third method is adding fuel to the tanks, which Denver failed to do. Because
     the Long-EZ has very large tanks, the common practice is to add an amount of fuel
     suffient for the flight, plus a healthy margin. It may be John Denver was told
     not to fill the tanks, but was not told of this partial-filling practice.
+  id: totrans-19
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 第三种方法是向油箱加油，但丹佛未能这样做。由于Long-EZ有非常大的油箱，常见做法是添加足够飞行的燃油量，再加上一个健康的余量。也许约翰·丹佛被告知不要加满油箱，但没有被告知这种部分加油的做法。
 - en: '**The valve:** The builder not only placed the valve in a non-standard location,
     he also rotated it in such a way that turning the valve to the right turned on
     the left fuel tank. This ensured that a pilot unfamiliar with the aircraft, upon
     hearing the engine begin missing and spotting in his mirror that the left fuel
     tank was empty, would attempt to rotate the fuel valve to the right, away from
     the full tank, guaranteeing his destruction.'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '**阀门：** 制造商不仅将阀门放在非标准位置，还将其旋转，以便将阀门向右旋转打开左燃油箱。这确保了一个对飞机不熟悉的飞行员，听到引擎开始失灵并在镜子中看到左燃油箱空了后，会试图将燃油阀向右旋转，远离满箱，从而确保他的毁灭。'
 - en: Lessons to be Learned
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 需要学习的教训
 - en: 'John Denver learned the biggest lesson of all, even if he only had a few seconds
     to appreciate it: Let the User Beware! And, indeed, the NTSB, as per its long
     history of setting aside findings, human factors or otherwise, that might conflict
@@ -139,16 +184,20 @@
     he somehow managed to thoroughly familiarize himself with the idiosyncrasies of
     this uniquely-assembled experimental aircraft *sans* manual, he would be alive
     and well today.'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 约翰·丹佛学到了最重要的一课，即使他只有几秒钟的时间来欣赏：让用户自己小心！事实上，国家运输安全委员会（NTSB），根据其长期以来忽略可能与飞行员错误判决相冲突的发现、人因或其他因素的历史，裁定这次坠机的责任在于飞行员。界面被降级为仅仅是一个“因素”。如果约翰·丹佛尽管有足够的燃料证据表明他有足够的燃料，尽管他在没有手册的情况下彻底熟悉这架独特组装的实验飞机的怪癖，他今天将活得好好的。
 - en: However, to those of us versed in even rudimentary human factors, it is easy
     to see that the design of this fuel system was a disaster waiting to happen, as
     was borne out not only by what Denver experienced, but by incidents reported by
     two previous pilots of this same plane who almost met death under the same circumstances.
     Presumably, they had a bit more altitude when their fuel starved out and, therefore,
     a bit more time to react.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 然而，对于我们中的一些人来说，即使是粗浅的人因因素也很容易看出，这种燃油系统的设计是一场等待发生的灾难，这不仅可以从丹佛的经历中看出，还可以从这架同一飞机的两名先前飞行员报告的事件中看出，他们几乎在相同情况下丧生。据推测，当他们的燃油耗尽时，他们的高度更高，因此有更多时间做出反应。
 - en: "With all of aviation's emphasis on safety, the human factors of small planes\
     \ and the environment in which they fly would be laughable, if it weren't so dangerous.\
     \ Why? Because the whole thing is awash in \"macho.\" Just as with Unix, just\
@@ -156,8 +205,10 @@
     \ helps separate the men from the boys\x97and the girls, who aren't really invited.\
     \ Until that changes, general aviation will continue to experience both a high\
     \ fatality rate and a continuing drop in new pilots."
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 尽管航空业对安全性非常重视，但小型飞机的人因因素和它们飞行的环境仍然令人啼笑皆非，因为整个过程都充斥着“男子气概”。就像Unix一样，就像DOS一样，一切越令人困惑，就越好，因为它有助于区分男人和男孩，以及那些并不真正受邀的女孩。在这种情况下不改变之前，通用航空业将继续经历高致命率和新飞行员持续减少。
 - en: We in the PC and web worlds have a lot to learn from this, too. We have a lot
     of bad design floating around that is just as perverse as fuel valves that face
     the wrong way, hidden behind firewalls. And it is not all to be found in freeware
@@ -166,12 +217,16 @@
     apparent in the most expensive, mainstream operating systems and applications.
     Fortunately for the corporations behind them, our screw-ups generally don't kill
     people outright. Instead, we specialize in driving our users slowly insane.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们在个人电脑和网络世界中也有很多需要学习的地方。我们周围有很多糟糕的设计，就像燃油阀朝向错误方向一样荒谬，隐藏在防火墙后面。这并不仅仅存在于免费软件和共享软件程序中，人们可能会认为，就像实验飞机一样，“让用户自己小心”。事实上，一些最严重的设计错误例子显而易见地出现在最昂贵、主流的操作系统和应用程序中。幸运的是，这些公司背后的我们的失误通常不会直接导致人员死亡。相反，我们专门让我们的用户慢慢发疯。
 - en: If you approach software design the way experts in commercial and military cockpit
     human factors approach their craft, you will end up with designs that are fast,
     familiar, and forgiving. Such designs would be a refreshing change in the ghastly
     world of PC software. They'd be a refreshing change in the world of general aviation,
     too.</csobj>
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 如果你像商业和军用座舱人因专家那样对待软件设计，最终你会得到快速、熟悉和宽容的设计。这样的设计将是PC软件世界中令人耳目一新的变化。它们也将是通用航空界中令人耳目一新的变化。

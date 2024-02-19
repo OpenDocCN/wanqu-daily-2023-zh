@@ -1,303 +1,456 @@
 - en: Coding is the easy part | Swizec Teller
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://swizec.com/blog/coding-is-the-easy-part/](https://swizec.com/blog/coding-is-the-easy-part/)"
+  zh: 编码是容易的部分 | Swizec Teller
+- en: 'Original Text: [https://swizec.com/blog/coding-is-the-easy-part/](https://swizec.com/blog/coding-is-the-easy-part/)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://swizec.com/blog/coding-is-the-easy-part/](https://swizec.com/blog/coding-is-the-easy-part/)
 - en: <main id="content" class="css-1x80348">
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: <main id="content" class="css-1x80348">
 - en: Tutorials make every project look easy. You start at the beginning and code
     your way to the end. Wonderful.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 教程让每个项目看起来都很容易。你从头开始编码，一直编到结束。太棒了。
 - en: The real world ... is not like that. I'm leading a vendor migration project
     right now and this gif captures my experience perfectly.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 真实世界……并非如此。我目前正在领导一个供应商迁移项目，这个gif完美地捕捉了我的经历。
 - en: '![](../Images/0d6a701e779fd9eac67484d2c040a421.png)'
+  id: totrans-5
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/0d6a701e779fd9eac67484d2c040a421.png)'
 - en: 'The migration sounds easy: We''re using a product analytics library. It got
     acquired. After 2 years, the new company wants to sunset that product and has
     a drop-in replacement.'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 迁移听起来很容易：我们正在使用一个产品分析库。它被收购了。两年后，新公司想要淘汰该产品，并提供一个可替换的产品。
 - en: But ...
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 但是……
 - en: The project started in December – 4 months ago – when our head of engineering
     tagged me in.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 项目始于去年十二月——4个月前——当我们的工程主管标记了我。
 - en: '*"Hey Swiz, we have concerns about how this SDK plays with our analytics vendor.
     Can you look into this?"*'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: “嘿，Swiz，我们对这个SDK如何与我们的分析供应商配合有顾虑。你能调查一下吗？”
 - en: I looked. The old SDK, the one that got acquired, takes your tracking plan and
     generates a custom client-side library. This gives you TypeScript support for
     analytics events which is amazing. Highly recommend!
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 我看了看。旧的SDK，那个被收购的，会采用您的跟踪计划并生成一个定制的客户端库。这为分析事件提供了TypeScript支持，这太棒了。强烈推荐！
 - en: The generated client-side library uses a plugin system to send events directly
     to your analytics vendor.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 生成的客户端库使用插件系统直接将事件发送到您的分析供应商。
 - en: But since that SDK got acquired, they wanted to change this. The new company
     thinks of itself as an analytics vendor and sees our old vendor as a direct competitor.
     They want to kill the direct integration 💩
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 但自从那个SDK被收购后，他们想要改变这一点。新公司将自己视为一个分析供应商，并将我们的旧供应商视为直接竞争对手。他们想要终结直接集成💩
 - en: The new company wants to send events to itself *then* stream to other services,
     if it really has to. This created problems for our HIPAA compliance because we
     didn't have the right contract in place. Events cannot touch new company's servers.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 新公司希望先将事件发送到自己，*然后*再流向其他服务，如果确实需要的话。这给我们的HIPAA合规性带来了问题，因为我们没有签订正确的合同。事件不能触及新公司的服务器。
 - en: After looking at alternatives, we decided to consolidate on the new company.
     They offer tight integration between tracking plans, analytics, and a few other
     features.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 在研究了各种替代方案后，我们决定集中在新公司。他们在跟踪计划、分析和其他一些功能之间提供了紧密的集成。
 - en: All HIPAA compliant with the right contract and way easier for product teams
     to use. Sweet.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 所有符合HIPAA标准，有正确合同的，对产品团队来说更容易使用。棒极了。
 - en: Enterprise sales *sucks*. Even from the buyer's perspective. We spent 6+ hours
     in demo after demo making sure this new vendor can do what we need, do it well,
     and isn't selling promises from the backlog.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 企业销售*糟透了*。即使从买方的角度来看也是如此。我们在演示之后花了6个多小时，确保这个新供应商能够满足我们的需求，做得很好，并不是在卖未来的承诺。
 - en: It took two months. I was exhausted. And it almost fell apart in the final meeting
     when they were like *"You know that price we quoted? It's actually 2x"*.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 花了两个月。我筋疲力尽。在最后一次会议上几乎要崩溃，他们说：“你知道我们报价的那个价格吗？实际上是原来的两倍”。
 - en: Kudos to my VP for handling that one.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 感谢我的副总裁处理了那个问题。
 - en: 'PS: watching them use every sales trick I''ve read about in books was cool.
     They did anchoring, buddy buddy stuff, "going to war for us" with a hidden 3rd
     party that sets prices ... Great stuff.'
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: PS：看着他们使用我在书中读到的每一种销售技巧很酷。他们使用了定价锚定、亲密关系等技巧，“为我们而战”与一个隐藏的第三方设定价格……太棒了。
 - en: It's now early March and we have to get off the old vendor by April. Otherwise
     we have to renew the contract for another whole year.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 现在是三月初，我们必须在四月前摆脱旧供应商。否则我们必须再续签一整年的合同。
 - en: '*"Swiz, you can make that happen right?"*'
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: “Swiz，你能办到吗？”
 - en: '![](../Images/e5d806c23309d6c5c9ef0273e83de9c4.png)'
+  id: totrans-22
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/e5d806c23309d6c5c9ef0273e83de9c4.png)'
 - en: I devised a 3 step plan for our migration. It's obvious, but someone had to
     spend a few minutes thinking about it and then step up to make sure it happens.
     It's the stepping up part that's valuable.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 我为我们的迁移制定了一个3步计划。这是显而易见的，但有人必须花几分钟思考，然后站出来确保它发生。站出来的部分才是有价值的。
 - en: Redirect events firehose
+  id: totrans-24
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 重定向事件数据流
 - en: Migrate historic data
+  id: totrans-25
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 迁移历史数据
 - en: Integrate the other goodies
+  id: totrans-26
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 集成其他好东西
 - en: 1 and 2 have the deadline. A week out and we're close. I think we'll make it
     🤞
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 1和2有截止日期。还有一周，我们快要完成了。我想我们会成功的 🤞
 - en: We can do 3 when there's time on the product roadmap.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们可以在产品路线图上有时间时进行第3步。
 - en: The problem with that plan is that *the work is outside my control*. Not even
     owned by my team 😅
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 那个计划的问题在于*这项工作超出了我的控制范围*。甚至不是我团队拥有的 😅
 - en: Out of the 15 repositories we needed to migrate, 2 are owned by my team, and
     ~6 we could opportunistically help out because the changes were small. I had to
     make the list of necessary changes, of course.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们需要迁移的15个存储库中，有2个是我们团队拥有的，还有大约6个我们可以机会地帮助，因为变化很小。当然，我必须列出必要的更改清单。
 - en: Herding cats is hard and I figured making other teams' work super easy will
     help. My team ran ahead and migrated our repositories. We found the sharp edges
     and [wrote an SOP](https://swizec.com/blog/nobody-is-coming-to-save-you/) – standard
     operating procedure.
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 管理猫很难，我想让其他团队的工作变得更容易会有所帮助。我的团队领先一步，迁移了我们的存储库。我们找到了问题，并[编写了标准操作程序](https://swizec.com/blog/nobody-is-coming-to-save-you/)。
 - en: With that doc in hand I went to every other team and said *"Hai we need your
     help on this critical project with a tight deadline. It took our team an afternoon,
     here's a step-by-step document. What's the earliest you can slot this into your
     schedule?"*
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 有了那份文档，我去找其他团队，说道*"嗨，我们需要你们在这个关键项目中提供帮助，截止日期很紧。我们团队花了一个下午，这是一份逐步文档。你们能在你们的时间表中安排这个项目吗？"*
 - en: That worked. Migrations went smoothly and teams were able to adjust their schedules
     ❤️
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 这样做很有效。迁移顺利进行，团队能够调整他们的时间表 ❤️
 - en: '*"Hey Swiz, where did all our events go?"*'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: '*"嘿，Swiz，我们的所有事件都去哪了？"*'
 - en: What do you mean, I said they'd be kinda broken while we do this migration.
     We're diverting them from one vendor to another. You agreed 2 weeks ago.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 你说他们在迁移过程中可能会有点问题。我们正在将他们从一个供应商转移到另一个供应商。你在2周前就同意了。
 - en: I did not fully explain the consequences to all stakeholders. I didn't even
     realize who all the stakeholders were. People high up in the company got upset
     when their dashboards dropped to zero.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 我没有完全向所有利益相关者解释后果。我甚至没有意识到所有利益相关者是谁。公司高层人员当他们的仪表板降至零时感到不满。
 - en: 😅
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 😅
 - en: Sometimes the only way to find a use-case is to break it. [Hyrum's law](https://www.hyrumslaw.com).
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 有时找到用例的唯一方法是打破它。[海拉姆定律](https://www.hyrumslaw.com)。
 - en: People will ignore and downplay any communication until you force their hand.
     It's unpleasant, but I'm not sure there's a better way. When's the last time you
     willingly restarted your laptop or clicked on a *"try our new UI"* button? Exactly
     😉
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 人们会忽视和淡化任何沟通，直到你迫使他们采取行动。这很不愉快，但我不确定是否有更好的方法。你上次自愿重新启动笔记本电脑或点击*"尝试我们的新用户界面"*按钮是什么时候？没错
+    😉
 - en: Remember that sales process I mentioned?
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 还记得我提到的销售流程吗？
 - en: Migrating old data was a key negotiating point. We asked *"Hey can we import
     our old data?"* [all of it all at once] and they said *"yes of course you can
     migrate old data!"* [within your monthly data limits].
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 迁移旧数据是一个关键的谈判要点。我们问道*"嘿，我们能导入旧数据吗？"* [所有数据一次性导入]，他们说*"是的，当然可以迁移旧数据！"* [在你的月度数据限制内]。
 - en: Notice the miscommunication? Yeah it's a big one.
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 注意到沟通不畅了吗？是的，这是一个大问题。
 - en: Our initial data import would blow through the monthly budget 5 times over.
     Thanks to the platform team for flagging that ❤️
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们最初的数据导入将超出月度预算5倍。感谢平台团队提醒 ❤️
 - en: Face meet shovel. I had to pull-in our VP to go re-negotiate that contract.
     That was a tense 2 days. But we did it. End of quarter is a great time to put
     pressure on sales teams.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 面对困难。我不得不拉我们的副总裁去重新谈判那份合同。那是一个紧张的两天。但我们做到了。季末是向销售团队施加压力的好时机。
 - en: 'The platform team found another surprise: Our events don''t all match the tracking
     plan. Certain teams were using the old analytics vendor through 3rd party integrations
     and never told anyone.'
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 平台团队发现了另一个意外：我们的事件并不完全匹配跟踪计划。某些团队通过第三方集成使用旧的分析供应商，从未告诉任何人。
 - en: We can't import those events because they don't match. But we'll have to find
     a way.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们无法导入这些事件，因为它们不匹配。但我们必须找到一种方法。
 - en: '![](../Images/ab87d21c3c1f04e2481fe616e0c27e13.png)'
+  id: totrans-47
   prefs: []
   type: TYPE_IMG
+  zh: '![](../Images/ab87d21c3c1f04e2481fe616e0c27e13.png)'
 - en: The most stressful part has been holding the tension between moving pieces.
     You tell product teams the deadline is March 24 so platform has time to migrate
     data by April. You tell platform to start migrating right now and start with the
     oldest data so you can find sharp edges early.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 最具压力的部分是保持移动部分之间的紧张关系。你告诉产品团队截止日期是3月24日，这样平台就有时间在4月之前迁移数据。你告诉平台立即开始迁移，并从最旧的数据开始，这样你就能尽早发现问题。
 - en: Meanwhile you're talking to the old vendor to get the deadline pushed. Just
     in case.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 与老供应商交谈以推迟截止日期。以防万一。
 - en: 😮‍💨
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 😮‍💨
 - en: The 2 hours I've spent coding on this 5 month project were downright relaxing.
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在这个为期 5 个月的项目上花了 2 小时编码，感觉非常轻松。
 - en: Cheers,
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 祝好，
 - en: ~Swizec
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: ~Swizec
 - en: Published on March 24th, 2023 in [Lessons](/categories/lessons/), [Mindset](/categories/mindset/),
     [Leadership](/categories/leadership/)
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 发布于 2023 年 3 月 24 日，属于 [Lessons](/categories/lessons/)、[Mindset](/categories/mindset/)、[Leadership](/categories/leadership/)
+    分类
 - en: Did you enjoy this article?
+  id: totrans-55
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 您喜欢这篇文章吗？
 - en: Continue reading about Coding is the easy part
+  id: totrans-56
   prefs:
   - PREF_H4
   type: TYPE_NORMAL
+  zh: 继续阅读关于编码是容易的部分
 - en: Semantically similar articles hand-picked by GPT-4
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: GPT-4 精心挑选的语义相似文章
 - en: '**Get promoted, earn a bigger salary, work for top companies**'
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: '**晋升，获得更高薪水，为顶级公司工作**'
 - en: Getting that senior title is easy. Just stick around. Being a *true* senior
     takes a new way of thinking. Do you have it?
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 获得高级头衔很容易。只需留下来。成为*真正*的高级工程师需要一种新的思维方式。您有吗？
 - en: Get a **free chapter** from the Senior Engineer Mindset book and a **sample
     audiobook chapter**, followed by a Senior Mindset 101 email course.
+  id: totrans-60
   prefs: []
   type: TYPE_NORMAL
+  zh: 从《高级工程师心态》书中获取**免费章节**和**样章音频**，然后参加高级心态 101 电子邮件课程。
 - en: You'll get insights to apply at your work right away.
+  id: totrans-61
   prefs: []
   type: TYPE_NORMAL
+  zh: 您将立即获得可应用于工作的见解。
 - en: Senior Mindset Book
+  id: totrans-62
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: 高级心态书
 - en: Get promoted, earn a bigger salary, work for top companies
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: 晋升，获得更高薪水，为顶级公司工作
 - en: '[Learn more](/senior-mindset/)'
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: '[了解更多](/senior-mindset/)'
 - en: '**Have a burning question that you think I can answer?** Hit me up on [twitter](https://twitter.com/swizec)
     and I''ll do my best.'
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: '**有什么问题想问我吗？** 在 [twitter](https://twitter.com/swizec) 上联系我，我会尽力回答。'
 - en: '**Who am I and who do I help?** I''m Swizec Teller and I turn coders into engineers
     with *"Raw and honest from the heart!"* writing. No bullshit. Real insights into
     the career and skills of a modern software engineer.'
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: '**我是谁，我帮助谁？** 我是 Swizec Teller，我通过*"真诚坦率，发自内心！"*的文字将程序员转变为工程师。没有废话。对现代软件工程师的职业和技能提供真实见解。'
 - en: '**Want to become a *true* senior engineer?** Take ownership, have autonomy,
     and be a force multiplier on your team. The Senior Engineer Mindset ebook can
     help 👉 [swizec.com/senior-mindset](https://swizec.com/senior-mindset). These are
     the shifts in mindset that unlocked my career.'
+  id: totrans-67
   prefs: []
   type: TYPE_NORMAL
+  zh: '**想要成为*真正*的高级工程师吗？** 拥有所有权，拥有自主权，并成为团队的增值者。《高级工程师心态》电子书可以帮助您👉 [swizec.com/senior-mindset](https://swizec.com/senior-mindset)。这些是解锁我的职业生涯的心态转变。'
 - en: '**Curious about Serverless and the modern backend?** Check out Serverless Handbook,
     for frontend engineers 👉 [ServerlessHandbook.dev](https://serverlesshandbook.dev)'
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: '**对无服务器和现代后端感兴趣吗？** 查看《无服务器手册》，适合前端工程师👉 [ServerlessHandbook.dev](https://serverlesshandbook.dev)'
 - en: '**Want to Stop copy pasting D3 examples and create data visualizations of your
     own?** Learn how to build scalable dataviz React components your whole team can
     understand with [React for Data Visualization](https://reactfordataviz.com)'
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: '**想要停止复制粘贴 D3 示例并创建自己的数据可视化吗？** 学习如何使用 [React for Data Visualization](https://reactfordataviz.com)
+    构建可扩展的数据可视化 React 组件，您的整个团队都能理解'
 - en: '**Want to get my best emails on JavaScript, React, Serverless, Fullstack Web,
     or Indie Hacking?** Check out [swizec.com/collections](https://swizec.com/collections)'
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: '**想要收到我关于 JavaScript、React、无服务器、全栈网络或独立开发的最佳电子邮件吗？** 查看 [swizec.com/collections](https://swizec.com/collections)'
 - en: '**Did someone amazing share this letter with you?** Wonderful! You can sign
     up for my weekly letters for software engineers on their path to greatness, here:
     [swizec.com/blog](https://swizec.com/blog)'
+  id: totrans-71
   prefs: []
   type: TYPE_NORMAL
+  zh: '**有人与您分享了这封信吗？** 太棒了！您可以在这里注册，获取我每周为软件工程师准备的信件：[swizec.com/blog](https://swizec.com/blog)'
 - en: '**Want to brush up on your modern JavaScript syntax?** Check out my interactive
     cheatsheet: [es6cheatsheet.com](https://es6cheatsheet.com)'
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: '**想要熟悉现代 JavaScript 语法吗？** 查看我的互动速查表：[es6cheatsheet.com](https://es6cheatsheet.com)'
 - en: '**By the way, just in case no one has told you it yet today: I love and appreciate
     you for who you are ❤️**'
+  id: totrans-73
   prefs: []
   type: TYPE_NORMAL
+  zh: '**顺便说一句，万一今天还没有人告诉过您：我爱您，感激您的存在 ❤️**'
 - en: </main>
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: </main>

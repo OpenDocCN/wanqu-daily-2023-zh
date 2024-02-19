@@ -1,39 +1,59 @@
 - en: The golden era of being an open startup is gone
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone](https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone)"
+  zh: 作为一个开放的初创公司的黄金时代已经过去
+- en: 'Original Text: [https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone](https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone](https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone)
 - en: <main class="notion light-mode notion-page notion-block-99073ed56706462b944ad156c4049f6a
     selection:!bg-primary-500 selection:!text-primary-50 !text-lg !p-0 [--select-color-0:rgb(var(--primary-500))]
     prose-a:text-primary-500 prose-blockquote:!border-l-primary-500 prose-li:marker:text-primary-500">
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: <main class="notion light-mode notion-page notion-block-99073ed56706462b944ad156c4049f6a
+    selection:!bg-primary-500 selection:!text-primary-50 !text-lg !p-0 [--select-color-0:rgb(var(--primary-500))]
+    prose-a:text-primary-500 prose-blockquote:!border-l-primary-500 prose-li:marker:text-primary-500">
 - en: I used to be fascinated with what the Open Startup movement promoted and the
     amazing feeling it gave to the startup and indie maker ecosystems.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 我曾经对开放初创运动所推广的内容和它给初创公司和独立制作者生态系统带来的惊人感觉着迷。
 - en: To those that may be unfamiliar, being an open startup means being an open book
     when it comes to how you run your business.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于那些可能不熟悉的人来说，成为一个开放的初创公司意味着在经营业务时要做一个开放的书。
 - en: In recent years, “builders” have shared their business stats, goals, metrics,
     and more with the internet.
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 近年来，“创业者”们向互联网分享了他们的业务统计数据、目标、指标等。
 - en: The transparency shown using Twitter and dedicated “open pages” fostered an
     environment of support, learning, and inspiration.
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 使用Twitter和专门的“开放页面”展示的透明度培养了支持、学习和启发的环境。
 - en: Some of the pioneers that I’d like to mention are Buffer, Ghost, and NomadList.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想提到的一些先驱是Buffer、Ghost和NomadList。
 - en: I recognize Buffer as one of the first companies to preach and practice the
     Open Startups philosophy.
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: 我认为Buffer是第一批宣扬和实践开放初创公司理念的公司之一。
 - en: Buffer is a company known for its commitment to transparency and open communication.
     The company, which provides social media management tools, has been an advocate
     for the "open startup" philosophy since its founding in 2010. The open startup
@@ -41,421 +61,658 @@
     in their operations, both with their customers and the public. This includes sharing
     financial information, product roadmap, and other internal details, even their
     salaries.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: Buffer是一家以透明度和开放沟通而闻名的公司。这家提供社交媒体管理工具的公司自2010年创立以来一直是“开放初创公司”理念的倡导者。开放初创公司的理念是基于这样一个想法：公司应该在运营中对客户和公众透明开放。这包括分享财务信息、产品路线图和其他内部细节，甚至包括他们的薪资。
 - en: They share everything on their
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们在他们的
 - en: '[transparency page](https://buffer.com/transparent-metrics)'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: '[透明度页面](https://buffer.com/transparent-metrics)'
 - en: . They are a pioneer! They have set a high standard for other companies to follow
     and inspire others to be more open and transparent in how they operate.
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: . 他们是先驱！他们为其他公司树立了高标准，激励其他公司更加开放和透明地运营。
 - en: Ghost.org was started in 2013 through a Kickstarter campaign.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: Ghost.org是通过Kickstarter活动于2013年开始的。
 - en: As they commented in
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 正如他们在评论中所说
 - en: '[this 2015 blog post](https://ghost.org/changelog/2014-report/)'
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: '[这篇2015年的博客文章](https://ghost.org/changelog/2014-report/)'
 - en: ', “We’ve learned a lot from our friends over at Buffer, and we’re going to
     be taking a leaf out of their book in several ways.” And they did.'
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: ，“我们从Buffer的朋友那里学到了很多东西，我们将在很多方面效仿他们。” 他们也确实这样做了。
 - en: Above is the first section of
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 以上是第一部分
 - en: '[their open page.](https://ghost.org/open/)'
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: '[他们的开放页面。](https://ghost.org/open/)'
 - en: But they didn’t stop with the metrics. They decided to implement amazing work
     benefits and practices and give the best of the best to their employees, staying
     as a non-profit foundation “so that it would always be true to its users, rather
     than shareholders or investors”.
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 但他们并没有止步于指标。他们决定实施令人惊叹的工作福利和实践，并为员工提供最好的，保持为非营利基金会“以便始终忠于其用户，而不是股东或投资者”。
 - en: I’m sure that in the same way that they learned from Buffer, a lot of new adopters
     grabbed their ideas from Ghost.
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: 我相信，就像他们从Buffer那里学到东西一样，很多新的采用者也从Ghost那里获得了灵感。
 - en: Another early adopter that gave thanks to Ghost and Buffer
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一个早期采用者对Ghost和Buffer表示感谢
 - en: '[in this tweet.](https://twitter.com/levelsio/status/968219339588493312)'
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: '[在这条推文中。](https://twitter.com/levelsio/status/968219339588493312)'
 - en: NomadList’s founder, Pieter Levels, has always been open to growing by building
     in public.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: NomadList的创始人Pieter Levels一直愿意通过公开建设来实现增长。
 - en: His social approach to business growth and adoption of the Open Startups movement
     created a synergy that spread the word about this transparent way of doing business
     like a virus.
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 他对业务增长的社交方式以及对开放创业运动的采纳创造了一种传播这种透明做生意方式的协同效应，就像一种病毒一样传播开来。
 - en: I can’t mention all of the early adopters and pioneers since there are many,
     but I’m sure we recognize them and thank them because they shared this mindset
     with us during its golden age.
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 由于早期采用者和先驱者众多，我无法一一列举，但我相信我们认识他们并感谢他们，因为他们在其黄金时代与我们分享了这种心态。
 - en: 'These are some cool examples of more recent adopters of the open startup philosophy
     that I don’t want to leave out:'
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些是一些最近采用开放创业哲学的很酷的例子，我不想漏掉：
 - en: With an
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过
 - en: '[open handbook](https://handbook.cal.com/)'
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: '[开放手册](https://handbook.cal.com/)'
 - en: and a full disclosure of salaries, Cal.com set a high bar and a good example
     of business transparency.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 以及对薪资的全面披露，Cal.com 树立了高标准，树立了商业透明度的良好示范。
 - en: The cool thing about Cal’s open page is that people from many industries are
     learning from it.
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: Cal 的开放页面的很酷之处在于来自许多行业的人们都在从中学习。
 - en: 'Check out this tweet by Peer Richelsen:'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: 查看 Peer Richelsen 发布的这条推文：
 - en: '[@JamesIvings](https://twitter.com/JamesIvings)'
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@JamesIvings](https://twitter.com/JamesIvings)'
 - en: and
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 和
 - en: '[@dinkydani21](https://twitter.com/dinkydani21)'
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@dinkydani21](https://twitter.com/dinkydani21)'
 - en: did a great job sharing their journey through a clean, well-designed open page.
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: 通过一个干净、设计精良的开放页面，很好地分享了他们的旅程。
 - en: They shared and kept sharing essential business metrics, product updates, and
     their environmental impact on their dedicated open page.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们分享并持续分享着关键的业务指标、产品更新以及他们在专用开放页面上的环境影响。
 - en: Later in this article, I share how they used their Boat-odometer to stay motivated
     and grow toward a meaningful goal.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 在本文的后面，我会分享他们如何利用他们的船舶里程表保持动力并朝着有意义的目标发展。
 - en: '[](#the-open-startup-movement-did-a-lot-of-good "The open startup movement
     did a lot of good")The open startup movement did a lot of good'
+  id: totrans-38
   prefs:
   - PREF_H3
   type: TYPE_NORMAL
+  zh: '[](#the-open-startup-movement-did-a-lot-of-good "开放创业运动做了很多好事")开放创业运动做了很多好事'
 - en: 'Building a startup openly did a lot for brands and indie makers all around
     the world because:'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 公开建立创业公司对全球各地的品牌和独立制作者都有很大帮助，因为：
 - en: Transparency and honesty increased their trust tremendously
+  id: totrans-40
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 透明度和诚实大大增加了他们的信任度
 - en: Founders were able to “market” their product without marketing it - by speaking
     about it with authenticity
+  id: totrans-41
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 创始人们能够“营销”他们的产品而不是通过真诚地谈论它来营销它
 - en: Many products were selling even before their launch
+  id: totrans-42
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 许多产品甚至在推出之前就开始销售
 - en: Feedback was given 24/7 and iterations made to products were done with data
     and not just by following “instincts”
+  id: totrans-43
   prefs:
   - PREF_UL
   type: TYPE_NORMAL
+  zh: 持续 24/7 提供反馈，并且产品的迭代是基于数据而不仅仅是凭直觉完成的。
 - en: Since all you had to do to join the wave was start and share, the movement also
     increased many creators' accountability (and thus productivity).
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 由于加入这股浪潮的唯一要做的就是开始并分享，这场运动也增加了许多创作者的责任感（从而提高了生产力）。
 - en: Once you were committed to sharing your progress, your MRR (monthly recurring
     revenue), or building a new feature - it was hard to give up or get distracted
     - and since this is what kills more business ideas, building in public became
     a catalyst for creation and growth.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 一旦你承诺分享你的进展、你的月度循环收入（MRR）或者构建一个新功能 - 放弃或分心就变得困难了 - 而且由于这是导致更多商业理念失败的原因，公开建立成为了创造和增长的催化剂。
 - en: That without mentioning, the access to expert talent in the community, who gave
     great feedback and even more in-depth mentoring if they got interested in a particular
     product.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 这还不包括社区中专家人才的获取，他们提供了很好的反馈，如果对特定产品感兴趣，甚至提供更深入的指导。
 - en: But to me, the golden era of being an open startup is gone.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 但对我来说，成为一个开放创业公司的黄金时代已经过去了。
 - en: Some founders and early adopters are shutting down their open pages and changing
     their transparency practices.
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: 一些创始人和早期采用者正在关闭他们的开放页面并改变他们的透明度实践。
 - en: I don’t think they are doing it just because.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不认为他们这样做只是因为。
 - en: Things change, and we need to cope.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 事情会改变，我们需要适应。
 - en: It was good while it lasted, and I feel happy I was a part of it during its
     best time.
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 它在持续的时候很好，我很高兴我在其最好的时期参与其中。
 - en: To be honest, I think that we all got so caught up with the flow and the good
     things this movement brought that we forgot how the business world works in practice
     and that not everyone is playing fair.
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 老实说，我认为我们都被这场运动带来的流动和好事所迷住，以至于忘记了实际的商业世界是如何运作的，而不是每个人都在公平竞争。
 - en: The world is not always a nice place.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 这个世界并不总是一个友好的地方。
 - en: Due to that, I recently
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 因此，最近
 - en: '[removed the revenue bar](https://twitter.com/damengchen/status/1585511651888877568?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
+  id: totrans-55
   prefs: []
   type: TYPE_NORMAL
+  zh: '[移除了收入条](https://twitter.com/damengchen/status/1585511651888877568?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
 - en: from my Twitter profile.
+  id: totrans-56
   prefs: []
   type: TYPE_NORMAL
+  zh: 来自我的 Twitter 个人资料。
 - en: I will still build in public and share my learnings and ups and downs, but I
     will stop sharing critical business metrics like revenue.
+  id: totrans-57
   prefs: []
   type: TYPE_NORMAL
+  zh: 我仍然会公开建设并分享我的学习经验和起起落落，但我将停止分享关键的业务指标，如收入。
 - en: The main reason behind my decision is that I used to share the revenue to track
     my solo journey. Now with someone else on my team, it’s no longer my personal
     milestone anymore. I somehow have to be responsible for the whole team.
+  id: totrans-58
   prefs: []
   type: TYPE_NORMAL
+  zh: 我做出这个决定的主要原因是，我曾经分享收入来追踪我的个人旅程。现在有了团队中的其他人，这不再是我的个人里程碑了。我不知何故必须对整个团队负责。
 - en: 'Other reasons are:'
+  id: totrans-59
   prefs: []
   type: TYPE_NORMAL
+  zh: 其他原因包括：
 - en: when talking to big companies, when they know the revenue, they will belittle
     us
+  id: totrans-60
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 当与大公司交谈时，当他们知道收入时，他们会轻视我们。
 - en: it increases the chances of being copied
+  id: totrans-61
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 它增加了被抄袭的机会
 - en: it won’t inspire many people when crossing a certain threshold. Like normal
     distribution, in the beginning, when MRR is $0 or a little, it won’t inspire many
     people; when you’re at $5k, $10k, you inspire most of the people; when you’re
     at $20k, $50k MRR, people may get jealous, and fewer people really get inspired.
+  id: totrans-62
   prefs:
   - PREF_OL
   type: TYPE_NORMAL
+  zh: 当跨越一定阈值时，它不会激励很多人。就像正态分布，在开始时，当 MRR 是 $0 或很少时，它不会激励很多人；当你达到 $5k、$10k 时，你会激励大多数人；当你达到
+    $20k、$50k MRR 时，人们可能会嫉妒，真正受到激励的人会更少。
 - en: Pieter Levels also
+  id: totrans-63
   prefs: []
   type: TYPE_NORMAL
+  zh: Pieter Levels 也
 - en: '[removed his famous /open pages](https://twitter.com/DDdeB_/status/1602560142402547714?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
+  id: totrans-64
   prefs: []
   type: TYPE_NORMAL
+  zh: '[移除了他著名的 /open 页面](https://twitter.com/DDdeB_/status/1602560142402547714?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
 - en: for all his sites and Twitter profile.
+  id: totrans-65
   prefs: []
   type: TYPE_NORMAL
+  zh: 对于他所有的网站和 Twitter 个人资料。
 - en: '[Danny Postma](https://twitter.com/dannypostmaa)'
+  id: totrans-66
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Danny Postma](https://twitter.com/dannypostmaa)'
 - en: used to share his revenue, but recently decided not to do so anymore.
+  id: totrans-67
   prefs: []
   type: TYPE_NORMAL
+  zh: 曾经分享他的收入，但最近决定不再这样做。
 - en: '[Jon Yongfook](https://twitter.com/yongfook/status/1585109702438182913?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
+  id: totrans-68
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Jon Yongfook](https://twitter.com/yongfook/status/1585109702438182913?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
 - en: said he would remove his revenue bar once he hits $1M ARR.
+  id: totrans-69
   prefs: []
   type: TYPE_NORMAL
+  zh: 说他一旦达到 $1M ARR 就会移除他的收入条。
 - en: Tony Dinh
+  id: totrans-70
   prefs: []
   type: TYPE_NORMAL
+  zh: Tony Dinh
 - en: '[removed it](https://twitter.com/tdinh_me/status/1585148261555634176?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
+  id: totrans-71
   prefs: []
   type: TYPE_NORMAL
+  zh: '[移除了它](https://twitter.com/tdinh_me/status/1585148261555634176?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Ftestimonial.notion.site%2FThe-golden-era-of-being-an-open-startup-is-gone-0d7a64aa994a4d2a8eb5fa38dc173ae6)'
 - en: too, though he didn’t announce it officially; he mentioned it would bring some
     physical IRL risk as $10k MRR is a lot of money in Vietnam.
+  id: totrans-72
   prefs: []
   type: TYPE_NORMAL
+  zh: 虽然他没有正式宣布；他提到这会带来一些现实生活中的风险，因为在越南，$10k MRR 是一大笔钱。
 - en: Sabba Keynejad, CEO and co-founder of
+  id: totrans-73
   prefs: []
   type: TYPE_NORMAL
+  zh: Sabba Keynejad，首席执行官兼联合创始人
 - en: '[veed.io](http://veed.io)'
+  id: totrans-74
   prefs: []
   type: TYPE_NORMAL
+  zh: '[veed.io](http://veed.io)'
 - en: ', stopped sharing their numbers after hitting $500K MRR. Sabba even regrets
     they should have stopped posting about growth and revenue milestones much earlier,
     as there is little benefit to them.'
+  id: totrans-75
   prefs: []
   type: TYPE_NORMAL
+  zh: ，在达到 $500K MRR 后停止分享他们的数字。Sabba 甚至后悔他们应该更早停止发布关于增长和收入里程碑的内容，因为对他们几乎没有好处。
 - en: Why are some of the main evangelists and pioneers of this trend leaving now?
+  id: totrans-76
   prefs: []
   type: TYPE_NORMAL
+  zh: 为什么一些主要的传道者和这一趋势的先驱现在离开了？
 - en: Because bad examples and negative stories are now becoming so common, everyone
     thinks twice before disclosing things openly.
+  id: totrans-77
   prefs: []
   type: TYPE_NORMAL
+  zh: 因为不良示范和负面故事现在变得如此普遍，每个人在公开披露事情之前都会三思。
 - en: From envy and toxic feelings dividing teams and friends to businesses copying
     other businesses completely, the scene is getting spotted by more and more cases.
+  id: totrans-78
   prefs: []
   type: TYPE_NORMAL
+  zh: 从嫉妒和有毒情绪分裂团队和朋友到企业完全抄袭其他企业，这一现象越来越多。
 - en: That’s why, in my opinion, it’s no longer the way to go.
+  id: totrans-79
   prefs: []
   type: TYPE_NORMAL
+  zh: 这就是为什么，在我看来，这不再是正确的方式。
 - en: 'Here is one case that I found recently on Twitter that exemplifies what I mention
     perfectly:'
+  id: totrans-80
   prefs: []
   type: TYPE_NORMAL
+  zh: 这是我最近在推特上发现的一个案例，完美地说明了我所说的：
 - en: Getting inspired is one thing, but copying a project from A to Z, and taking
     advantage of the founder’s willingness to spread transparency, seems evil to me.
+  id: totrans-81
   prefs: []
   type: TYPE_NORMAL
+  zh: 获得灵感是一回事，但是从头到尾抄袭一个项目，并利用创始人愿意传播透明度的行为，对我来说是邪恶的。
 - en: This and many other negative things I mentioned above are becoming the daily
     bread for many founders.
+  id: totrans-82
   prefs: []
   type: TYPE_NORMAL
+  zh: 我上面提到的这些负面事情以及许多其他负面事情正在成为许多创始人的日常食粮。
 - en: Here’s another example of startup plagiarism.
+  id: totrans-83
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里是另一个创业抄袭的例子。
 - en: Another builder
+  id: totrans-84
   prefs: []
   type: TYPE_NORMAL
+  zh: 另一位建设者
 - en: '[launched a VERY similar product](https://twitter.com/michael_vandi/status/1607422866416619520?s=46&t=Y8VGN2E-IIvcStsRXk7iJg)'
+  id: totrans-85
   prefs: []
   type: TYPE_NORMAL
+  zh: '[推出了一个非常相似的产品](https://twitter.com/michael_vandi/status/1607422866416619520?s=46&t=Y8VGN2E-IIvcStsRXk7iJg)'
 - en: a couple of weeks later.
+  id: totrans-86
   prefs: []
   type: TYPE_NORMAL
+  zh: 几周后。
 - en: While the second argues that he built it earlier, you can see from both tweets
     that the UI and launch are exactly the same.
+  id: totrans-87
   prefs: []
   type: TYPE_NORMAL
+  zh: 虽然第二个争辩说他早就建立了，但你可以从两条推文中看到UI和发布完全相同。
 - en: How about more creativity?
+  id: totrans-88
   prefs: []
   type: TYPE_NORMAL
+  zh: 更多创意呢？
 - en: In
+  id: totrans-89
   prefs: []
   type: TYPE_NORMAL
+  zh: 在
 - en: '[the words of Jon Yongfook](https://twitter.com/yongfook/status/1585116369401806850?s=20&t=iF31hZzddaUv2qdIlRFtow)'
+  id: totrans-90
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Jon Yongfook的话](https://twitter.com/yongfook/status/1585116369401806850?s=20&t=iF31hZzddaUv2qdIlRFtow)'
 - en: ', “the higher your open revenue, the fewer people it actually benefits, and
     the more you open yourself up to risk.”'
+  id: totrans-91
   prefs: []
   type: TYPE_NORMAL
+  zh: ，“你的公开收入越高，受益的人就越少，你也越容易面临风险。”
 - en: I guess we'll see more people closing their startups' open pages and fewer will
     be tweeting and sharing important metrics.
+  id: totrans-92
   prefs: []
   type: TYPE_NORMAL
+  zh: 我猜我们会看到更多人关闭他们创业公司的公开页面，而更少的人会在推特上发布和分享重要的指标。
 - en: Some trends, like remote work, came to stay, changing everything.
+  id: totrans-93
   prefs: []
   type: TYPE_NORMAL
+  zh: 一些趋势，比如远程工作，已经成为常态，改变了一切。
 - en: Unfortunately, the build-in-public culture couldn’t stand things like competition
     and bad business practices.
+  id: totrans-94
   prefs: []
   type: TYPE_NORMAL
+  zh: 不幸的是，公开构建文化无法忍受竞争和不良商业行为等事情。
 - en: 'I want to give kudos to companies that are still open to sharing their numbers:'
+  id: totrans-95
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想赞扬那些仍然愿意分享他们的数字的公司：
 - en: Gumroad shares its internal metrics with the public in a unique way during its
     quarterly board meetings hosted by
+  id: totrans-96
   prefs: []
   type: TYPE_NORMAL
+  zh: Gumroad以独特的方式在其季度董事会会议上与公众分享内部指标，由
 - en: '[Sahil Lavingia](https://twitter.com/shl)'
+  id: totrans-97
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Sahil Lavingia](https://twitter.com/shl)'
 - en: . This transparency allows the company to build trust with its creators' community.
+  id: totrans-98
   prefs: []
   type: TYPE_NORMAL
+  zh: 。这种透明度使公司能够与其创作者社区建立信任。
 - en: '![Gumroad founder Sahil Lavingia is hosting Q4 2022 Public Board Meeting](../Images/776cb51874e162048f762c3577b6576a.png)'
+  id: totrans-99
   prefs: []
   type: TYPE_IMG
+  zh: '![Gumroad创始人Sahil Lavingia将主持2022年第四季度公开董事会会议](../Images/776cb51874e162048f762c3577b6576a.png)'
 - en: Gumroad founder **Sahil Lavingia** is hosting Q4 2022 Public Board Meeting
+  id: totrans-100
   prefs: []
   type: TYPE_NORMAL
+  zh: Gumroad创始人**Sahil Lavingia**将主持2022年第四季度公开董事会会议
 - en: Their open page was showcased above. I also mention them here because it was
     so cool to see how
+  id: totrans-101
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们的公开页面如上所示。我在这里提到他们是因为看到他们如何
 - en: '[@JamesIvings](https://twitter.com/JamesIvings)'
+  id: totrans-102
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@JamesIvings](https://twitter.com/JamesIvings)'
 - en: and
+  id: totrans-103
   prefs: []
   type: TYPE_NORMAL
+  zh: 和
 - en: '[@dinkydani21](https://twitter.com/dinkydani21)'
+  id: totrans-104
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@dinkydani21](https://twitter.com/dinkydani21)'
 - en: used their Boat-odometer to track their progress and finally bought their boat
     to sail the world.
+  id: totrans-105
   prefs: []
   type: TYPE_NORMAL
+  zh: 使用他们的船舶里程表来跟踪他们的进展，最终购买了他们的船只环游世界。
 - en: 'Here’s the proof:'
+  id: totrans-106
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里有证据：
 - en: I also want to give kudos to the builders that still give a great example of
     healthy competition - when it’s so easy to misuse transparency and openness.
+  id: totrans-107
   prefs: []
   type: TYPE_NORMAL
+  zh: 我也想赞扬那些仍然展示出健康竞争的建设者们 - 在如此容易滥用透明度和开放性的情况下。
 - en: To me,
+  id: totrans-108
   prefs: []
   type: TYPE_NORMAL
+  zh: 对我来说，
 - en: '[@levelsio](https://twitter.com/levelsio)'
+  id: totrans-109
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@levelsio](https://twitter.com/levelsio)'
 - en: and
+  id: totrans-110
   prefs: []
   type: TYPE_NORMAL
+  zh: 和
 - en: '[@dannypostmaa](https://twitter.com/dannypostmaa)'
+  id: totrans-111
   prefs: []
   type: TYPE_NORMAL
+  zh: '[@dannypostmaa](https://twitter.com/dannypostmaa)'
 - en: are the perfect examples.
+  id: totrans-112
   prefs: []
   type: TYPE_NORMAL
+  zh: 是完美的例子。
 - en: Their AI image creation services
+  id: totrans-113
   prefs: []
   type: TYPE_NORMAL
+  zh: 他们的AI图像创建服务
 - en: '[Avatar AI](https://avatarai.me/)'
+  id: totrans-114
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Avatar AI](https://avatarai.me/)'
 - en: and
+  id: totrans-115
   prefs: []
   type: TYPE_NORMAL
+  zh: 和
 - en: '[ProfilePicture.AI](https://www.profilepicture.ai/)'
+  id: totrans-116
   prefs: []
   type: TYPE_NORMAL
+  zh: '[ProfilePicture.AI](https://www.profilepicture.ai/)'
 - en: were similar in nature, and even though they could have seen each other as “enemies”
     due to the competitive situation, they chose to be friends and not only navigate
     things in peace, but help each other.
+  id: totrans-117
   prefs: []
   type: TYPE_NORMAL
+  zh: 性质相似，尽管由于竞争局势，他们本可以将彼此视为“敌人”，但他们选择成为朋友，不仅和平相处，而且互相帮助。
 - en: 'These are some of the tweets that back up what I say:'
+  id: totrans-118
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些是支持我说法的一些推文：
 - en: These companies and founders are doing good, and I commend them for it.
+  id: totrans-119
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些公司和创始人正在做好事，我为此表示赞扬。
 - en: I wish them the best as they keep building great products and a better ecosystem
     for all of us.
+  id: totrans-120
   prefs: []
   type: TYPE_NORMAL
+  zh: 我祝愿他们一切顺利，继续为我们所有人构建出色的产品和更好的生态系统。
 - en: As I said, I’m glad I was able to be part of the open startup movement during
     its best moment. It was good while it lasted.
+  id: totrans-121
   prefs: []
   type: TYPE_NORMAL
+  zh: 正如我所说，我很高兴能够成为开放式创业运动的一部分，那是它最辉煌的时刻。它的存在是美好的。
 - en: A special “thank you” to everyone that supported and engaged with
+  id: totrans-122
   prefs: []
   type: TYPE_NORMAL
+  zh: 特别感谢所有支持和参与的人。
 - en: '[Testimonial.to](http://testimonial.to)'
+  id: totrans-123
   prefs: []
   type: TYPE_NORMAL
+  zh: '[Testimonial.to](http://testimonial.to)'
 - en: and me during those great days.
+  id: totrans-124
   prefs: []
   type: TYPE_NORMAL
+  zh: 和我在那些美好的日子里。
 - en: Let’s keep building!
+  id: totrans-125
   prefs: []
   type: TYPE_NORMAL
+  zh: 让我们继续努力！
 - en: </main>
+  id: totrans-126
   prefs: []
   type: TYPE_NORMAL
+  zh: </main>

@@ -1,11 +1,15 @@
 - en: Treat your to-read pile like a river | Oliver Burkeman
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://www.oliverburkeman.com/river](https://www.oliverburkeman.com/river)"
+  zh: 将你的待阅读书堆视为一条河流 | 奥利弗·伯克曼
+- en: 'Original Text: [https://www.oliverburkeman.com/river](https://www.oliverburkeman.com/river)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://www.oliverburkeman.com/river](https://www.oliverburkeman.com/river)
 - en: 'I''m going to take a wild guess here and say that you, like me, have a large
     pile (or digital equivalent) of books or articles you''ve been meaning to get
     around to reading, plus maybe a long queue of podcast episodes to which you''d
@@ -13,8 +17,11 @@
     I know. But one worth reflecting on – because it''s a microcosm of a broader mistake
     that makes it more stressful than in needs to be to build a fulfilling and productive
     life: the problem of Too Many Needles.'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 我要大胆猜测，你和我一样，有一大堆（或数字等价物）的书籍或文章，你一直想要读，也许还有一长串的播客剧集，你很想听，只是时间不够。我知道这是典型的“第一世界问题”。但这是值得反思的问题
+    - 因为这是一个更广泛的错误的缩影，使得建立充实和富有成效的生活比必要的更加紧张：太多的针的问题。
 - en: It's amusing to reflect that at an earlier stage in the history of the web,
     information overload was widely held to be a temporary issue. Yes, true, for the
     time being we were getting deluged by a zillion irrelevant blog posts, emails
@@ -24,8 +31,11 @@
     failure"](https://www.cnet.com/news/shirky-problem-is-filter-failure-not-info-overload/).
     We needed – and we'd eventually get – more sophisticated ways to filter the wheat
     from the online chaff. And then we'd no longer feel overwhelmed.
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: 回顾一下，在网络历史的早期阶段，信息过载被普遍认为是一个暂时的问题，这是很有趣的。是的，确实，目前我们被无数无关的博客文章、电子邮件和新闻更新淹没。但这种情况不会持续，因为很快我们将拥有更好的技术来找到我们想要的东西，同时忽略其他的。根据主要技术乐观主义者克莱·希尔基的说法，真正的问题不是信息过载，而是[“过滤器失效”](https://www.cnet.com/news/shirky-problem-is-filter-failure-not-info-overload/)。我们需要
+    - 而且最终会得到 - 更复杂的过滤方式，以从网络上的谷物中筛选出来。然后我们就不会感到不知所措了。
 - en: Yeah… no. I assume you'd agree that the problem of your to-read pile is very
     much not one of filter failure. It's not that you're deluged with things you don't
     care about, and need help figuring out what's truly of interest. It's that you're
@@ -37,16 +47,21 @@
     isn't filter failure. It's filter success. In a world of effectively infinite
     information, the better you get at sifting the wheat from the chaff, the more
     you end up crushed beneath a never-ending avalanche of wheat.
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 是的...不。我猜你会同意，你的待阅读书堆的问题绝对不是过滤器失效的问题。问题不是你被那些你不关心的东西淹没，需要帮助找出真正感兴趣的内容。问题在于你被那些你想阅读的东西淹没。你床头柜上的所有书籍，浏览器中的所有书签，或者保存在Instapaper中的文章
+    - 它们似乎都可能符合你的口味，或对你的职业成功至关重要，或可能包含一些你需要吸收的智慧。正如评论家尼古拉斯·卡尔[解释的](http://www.roughtype.com/?p=1464)，问题不在于过滤器失效。问题在于过滤器成功。在一个有效无限信息的世界中，你在筛选谷物和糠秕方面越来越擅长，你就越会被永无止境的谷物雪崩所压垮。
 - en: And so, for example, the reading recommendations I encounter via Twitter are
     much more tailored to my concerns than those I might encounter via a newspaper,
     because I choose who I follow on Twitter; it's like having a thousand assistants
     scouring the infoverse for whatever might pique my interest. My challenge, information-wise,
     isn't about finding a needle in a haystack. It's that I'm confronted on a daily
     basis, in Carr's words, by "haystack-sized piles of needles."
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 举个例子，我通过Twitter遇到的阅读推荐比我可能在报纸上遇到的更符合我的关注点，因为我可以选择在Twitter上关注谁；这就像有一千个助手在信息世界中搜寻可能引起我的兴趣的内容。在信息方面，我的挑战不是在大海捞针。正如卡尔所说，我每天都面对着“堆积如山的针”。
 - en: 'The wider point here is that lots of the other ways in which we feel overwhelmed
     are problems of "too many needles" as well. They involve the attempt to divide
     our finite time and attention among too many things that all have a legitimate
@@ -57,22 +72,30 @@
     simply not enough time in the day to be a good parent while staying afloat financially.
     What they all have in common is that the things you''re choosing between all genuinely
     matter, and would benefit from more time than you can give them.'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 这里更广泛的观点是，我们感到不知所措的其他方式往往也是“针太多”的问题。它们涉及将我们有限的时间和注意力分配给太多事物的尝试，而这些事物都有合法的要求。其中一些是“好问题”：例如，如果你有幸从事自己喜爱的工作，或者擅长的创造性激情，你可能经常感到在多个激动人心的项目之间犹豫不决。另一些是晚期资本主义下的生活中常见的问题，比如感觉一天的时间根本不够，既要做一个好父母又要在经济上维持生计。它们的共同点是，你在选择之间的事物都是真正重要的，而且都需要比你能给予的更多的时间。
 - en: Too many rocks
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 太多的岩石
 - en: ​
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: ​
 - en: 'Unfortunately, most advice on productivity and time management takes the needle-in-a-haystack
     approach instead. It''s about becoming more efficient and organised, or better
     at prioritising, with the implied promise that you might thereby eliminate or
     disregard enough of life''s unimportant nonsense to make time for the meaningful
     stuff. To stretch a metaphor: it''s about reducing the size of the haystack, to
     make it easier to focus on the needle.'
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 不幸的是，大多数关于生产力和时间管理的建议都采取了大海捞针的方法。它是关于变得更有效率和有组织，或者更擅长优先处理事务，隐含的承诺是你可能通过这样做消除或忽视生活中的许多不重要的废话，从而为重要的事情腾出时间。用一个比喻来说：它是关于减小草堆的大小，以便更容易专注于针。
 - en: There's definitely a role for such techniques; but in the end, the only way
     to deal with a too-many-needles problem is to confront the fact that it's insoluble
     – that you definitely won't be fitting everything in. (Of course some such problems,
@@ -83,8 +106,10 @@
     to take a stab at deciding what matters most, among your various creative passions/life
     goals/responsibilities – and then do that, while acknowledging that you'll inevitably
     be neglecting many other things that matter too.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 这些技巧确实有其作用；但最终，处理“针太多”的问题的唯一方法是直面这个无解的事实——你绝对不可能把一切都安排得妥当。 （当然，一些这样的问题，即使仅仅维持生计都感觉不可能，也需要政治解决方案——这是另一个时间的话题。）这不是重新安排你的待办事项清单以为所有“大石头”腾出空间的问题，而是接受简单地说有太多的岩石无法放入罐子中。你必须试图决定在你各种创造性激情/人生目标/责任之间最重要的是什么，然后去做那件事，同时承认你将不可避免地忽视许多其他同样重要的事情。
 - en: 'To return to information overload: this means treating your "to read" pile
     like a river (a stream that flows past you, and from which you pluck a few choice
     items, here and there) instead of a bucket (which demands that you empty it).
@@ -92,8 +117,11 @@
     British Library – and not because there aren''t [an overwhelming number of them](https://www.oliverburkeman.com/so/60NWXZixI/c?w=qiSKQRmJJq0-qcwQTuOai0NtmSDVPnNWqEd4D_sHVwI.eyJ1IjoiaHR0cHM6Ly93d3cuYmwudWsvYWJvdXQtdXMvb3VyLXN0b3J5L2ZhY3RzLWFuZC1maWd1cmVzLW9mLXRoZS1icml0aXNoLWxpYnJhcnkjIiwiciI6ImEwOGRhOGFkLTlkMTktNGUyYS02OTdhLTE4ODMwZWNhM2JkOCIsIm0iOiJscCJ9),
     but because it never occurred to you that it might be your job to get through
     them all.'
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 要回到信息过载：这意味着将你的“待阅”堆视为一条河流（一条流过你身边的小溪，你从中挑选一些精选物品，这里和那里），而不是一个桶（要求你清空它）。毕竟，你大概不会因为英国图书馆中所有未读的书籍而感到不知所措
+    - 并不是因为它们的数量[非常庞大](https://www.oliverburkeman.com/so/60NWXZixI/c?w=qiSKQRmJJq0-qcwQTuOai0NtmSDVPnNWqEd4D_sHVwI.eyJ1IjoiaHR0cHM6Ly93d3cuYmwudWsvYWJvdXQtdXMvb3VyLXN0b3J5L2ZhY3RzLWFuZC1maWd1cmVzLW9mLXRoZS1icml0aXNoLWxpYnJhcnkjIiwiciI6ImEwOGRhOGFkLTlkMTktNGUyYS02OTdhLTE4ODMwZWNhM2JkOCIsIm0iOiJscCJ9)，而是因为你从未想过你的工作是要读完它们。
 - en: 'Coming at life this way definitely entails tough choices. But it''s liberating,
     too, as you slowly begin to grasp that you never had any other option. There''s
     no point beating yourself up for failing to clear a backlog (of unread books,
@@ -102,23 +130,38 @@
     all productivity techniques: finally internalizing the implications of the fact
     that what''s genuinely impossible – the clue is in the name! – cannot actually
     be done.'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: 以这种方式看待生活确实需要做出艰难的选择。但这也是一种解放，因为你慢慢开始意识到你从来没有其他选择。没有必要因为无法清理一个本来就不可能清理的积压（未读的书籍，未完成的任务，未实现的梦想）而责备自己。我喜欢把它看作是所有生产力技巧中最好的生产力技巧：最终内化这样一个事实的含义，即真正不可能完成的事情
+    - 提示就在名字里！ - 实际上是无法完成的。
 - en: ​
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: ​
 - en: To receive posts as soon as they're available, [subscribe to my email The Imperfectionist.](https://www.oliverburkeman.com/the-imperfectionist)
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 要在帖子发布时立即收到，请[订阅我的电子邮件《完美主义者》。](https://www.oliverburkeman.com/the-imperfectionist)
 - en: ​
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: ​
 - en: ​
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: ​
 - en: ​
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: ​
 - en: ​
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: ​

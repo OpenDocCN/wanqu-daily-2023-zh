@@ -1,36 +1,48 @@
 - en: My Startup Banking Story – Mitchell Hashimoto
+  id: totrans-0
   prefs:
   - PREF_H1
   type: TYPE_NORMAL
-- en: "Original Text: [https://mitchellh.com/writing/my-startup-banking-story](https://mitchellh.com/writing/my-startup-banking-story)"
+  zh: 我的创业银行故事 – 米切尔·哈希莫托
+- en: 'Original Text: [https://mitchellh.com/writing/my-startup-banking-story](https://mitchellh.com/writing/my-startup-banking-story)'
+  id: totrans-1
   prefs:
   - PREF_BQ
   type: TYPE_NORMAL
+  zh: 原文链接：[https://mitchellh.com/writing/my-startup-banking-story](https://mitchellh.com/writing/my-startup-banking-story)
 - en: 'As a relatively new member of adult society, and an absolute infant of the
     business world, I didn''t think much about bank choice. I figured: you put money
     in, you take money out, they''re all the same. I also figured a local branch of
     a global bank is just a fungible tentacle of the giant banking machine, so also...
     who cares. Both incorrect assumptions, but let''s relive and rediscover the effect
     of these assumptions as I did.'
+  id: totrans-2
   prefs: []
   type: TYPE_NORMAL
+  zh: 作为一个相对新的成年社会成员，以及商业世界的绝对新手，我并没有太在意银行的选择。我想：你存钱，你取钱，它们都一样。我还以为一个全球银行的本地分支只是巨大银行机器的一个可替代的触角，所以...谁在乎呢。这两个错误的假设，但让我们像我一样重新体验和重新发现这些假设的影响。
 - en: '* * *'
+  id: totrans-3
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: 'I start my company. I am a 22 year old recent college graduate living in San
     Francisco and pursuing the startup dream. I file my incorporation paperwork and
     wait to receive the necessary information for one of the first steps in the life
     of any new business: opening a bank account.'
+  id: totrans-4
   prefs: []
   type: TYPE_NORMAL
+  zh: 我创办了我的公司。我是一个22岁的最近大学毕业生，住在旧金山，追求创业梦想。我提交了公司注册文件，等待收到任何新业务生活中的第一步所需信息：开设银行账户。
 - en: My filing is processed and I receive my EIN while visiting my parents in a suburb
     of Los Angeles. I have time to kill during one of the days so I drive down to
     the nearest Chase bank branch and open a business banking account. We'll call
     the person who helped me at the local branch Alex (this will be important later).
     I fund that account with a $20,000 personal loan which was almost all of my savings.
     I get an account number, an online login, and *boom, we're in business!*
+  id: totrans-5
   prefs: []
   type: TYPE_NORMAL
+  zh: 我的文件被处理，我在洛杉矶郊区的父母家时收到我的EIN。在某一天，我有空闲时间，所以我开车去了最近的Chase银行分支机构，开设了一个商业银行账户。我们将称帮助我的当地分支机构的人为亚历克斯（这一点以后会很重要）。我用一笔2万美元的个人贷款资助了那个账户，几乎是我所有的储蓄。我得到了一个账号，一个在线登录，*嘭，我们开始营业了！*
 - en: 'About 6 months later, I raise a ~$1M seed round. I supply my Chase business
     banking account information for the wire, and at close the funding is wired to
     the account. I am sitting in a cafe in downtown San Francisco and I receive a
@@ -40,121 +52,166 @@
     etc. For my side, I am mostly confused: why is this person calling me? I mostly
     say things like "yes yes I''m fine" and end the call quickly. Some wheels have
     started turning in Southern California, and I just hadn''t known it yet.'
+  id: totrans-6
   prefs: []
   type: TYPE_NORMAL
+  zh: 大约6个月后，我筹集了约100万美元的种子轮融资。我提供了我的Chase商业银行账户信息进行汇款，融资在结束时汇入账户。我坐在旧金山市中心的一家咖啡馆，接到一个陌生号码的电话——是亚历克斯，帮助我开设账户的银行家。他非常随意，有点像“嘿，只是想看看情况。”“我注意到有一笔大额存款，想确保你有你需要的一切。”等等。对我来说，我大部分时间都很困惑：为什么这个人给我打电话？我大多说一些像“是的，我没事”的话，然后迅速结束通话。南加州已经开始转动一些轮子，而我还不知道。
 - en: Someone out there is probably mentally screaming at me "you fool!" at this point.
     With hindsight, I agree, but I will remind you dear reader that I have only been
     legally allowed to purchase alcohol for just over a year at this point in my life
     in the story.
+  id: totrans-7
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这一点上，可能有人在心里对我大喊“你这个傻瓜！”。事后看来，我同意，但我要提醒亲爱的读者，在这个故事中，我只有一年多的时间合法购买酒精。
 - en: '* * *'
+  id: totrans-8
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: The two years since 2012 -- from a banking perspective -- are quiet. Alex doesn't
     call me again, and we have no changes in our banking setup. For two years, the
     company was in heads-down building mode. We had shown significant product traction
     and were now ready to ramp up hiring to continue building.
+  id: totrans-9
   prefs: []
   type: TYPE_NORMAL
+  zh: 从2012年以来的两年时间——从银行业的角度来看——是平静的。亚历克斯再也没有给我打电话，我们的银行设置也没有任何变化。两年来，公司一直在专注于建设模式。我们展示了显著的产品动力，现在准备好加大招聘力度继续建设。
 - en: At the end of 2014, we raise a $10.2M series A. I once again provide the same
     Chase business banking account and when the round closes, the funds are wired.
     Surprise surprise, Alex calls me! I'm starting to realize banks get an alert when
     there are major changes in account balances. Regardless, I once again brush Alex
     off -- "everything is good thanks! bye!" -- and continue on with my life.
+  id: totrans-10
   prefs: []
   type: TYPE_NORMAL
+  zh: 在2014年底，我们进行了一轮1020万美元的A轮融资。我再次提供了同样的大通商业银行账户，当融资结束时，资金被汇出。惊喜的是，亚历克斯给我打电话了！我开始意识到，当账户余额发生重大变化时，银行会收到警报。无论如何，我再次敷衍亚历克斯——“一切都好，谢谢！再见！”——然后继续我的生活。
 - en: At this point, I am bewildered that this guy I met at the random local branch
     to sign some papers is the one calling me, but didn't think much more of it at
     the time.
+  id: totrans-11
   prefs: []
   type: TYPE_NORMAL
+  zh: 在这一点上，我很惊讶我在当地分行见到的那个人竟然给我打电话，但当时我没有多想。
 - en: '* * *'
+  id: totrans-12
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: Once again, the two years since 2014 are mostly quiet from a banking perspective.
     Alex called more regularly to "check in" but otherwise nothing has changed. We
     still bank with Chase. I still have never gone back into a branch. I do everything
     online.
+  id: totrans-13
   prefs: []
   type: TYPE_NORMAL
+  zh: 从2014年以来的两年时间里，从银行的角度来看，大部分时间都很平静。亚历克斯更经常地打电话“打个招呼”，但除此之外一切都没变。我们仍然和大通银行合作。我从未再进过分行。我所有的事情都在线上完成。
 - en: In the fall of 2016, we raise a $24M series B. I once again provide the same
     Chase business banking account and when the round closes, the funds are wired.
     Again, Alex calls. Again, I brush him off. The bank is where I plant money, I
     don't need anyone calling me. I just want to focus on building the company.
+  id: totrans-14
   prefs: []
   type: TYPE_NORMAL
+  zh: 在2016年秋季，我们进行了一轮2400万美元的B轮融资。我再次提供了同样的大通商业银行账户，当融资结束时，资金被汇出。再次，亚历克斯打电话来。再次，我敷衍他。银行就是我存钱的地方，我不需要任何人给我打电话。我只想专注于建设公司。
 - en: Throughout 2016, we had been building out an executive team for the company.
     And around the same time of the funding, we hire a Vice President of Finance.
     As he gets up to speed with our financial footing, he notices we have ~$35M sitting
     in cash in a Chase bank account. This is *obviously* not a smart thing to do,
     so he suggests some financial plans for how to better safeguard and utilize this
     mountain of cash.
+  id: totrans-15
   prefs: []
   type: TYPE_NORMAL
+  zh: 在2016年，我们一直在为公司建立一个高管团队。在融资的同时，我们雇了一位财务副总裁。当他了解我们的财务状况时，他发现我们在大通银行账户里有大约3500万美元的现金。这显然不是明智之举，因此他提出了一些财务计划，以更好地保护和利用这笔巨额现金。
 - en: As part of these plans, he suggests moving to Silicon Valley Bank (SVB). They're
     local to the Bay Area, he's worked with them before, and their bankers understand
     startups. It'll make accounts receivables, payables, payroll, etc. easier. To
     me, a bank is a bank is a bank, and if it helps make his job easier, I support
     his plan.
+  id: totrans-16
   prefs: []
   type: TYPE_NORMAL
+  zh: 作为这些计划的一部分，他建议转移到硅谷银行（SVB）。他们在旧金山湾区当地，他以前和他们合作过，他们的银行家了解初创企业。这将使应收账款、应付账款、工资等更加容易。对我来说，银行就是银行，如果这有助于简化他的工作，我支持他的计划。
 - en: I log into the Chase online portal and initiate a wire for the full account
     balance to SVB. I have to pay something like a $30 fee to wire $35M (inconsequential
     to the story, but amusing nonetheless). Someone calls me for verification -- not
     Alex -- and the wire processes. *Boom, we're done with Chase.* Or so I think.
+  id: totrans-17
   prefs: []
   type: TYPE_NORMAL
+  zh: 我登录大通在线门户，并发起了一笔汇款，将整个账户余额汇给了SVB。我必须支付大约30美元的手续费来汇款3500万美元（对于故事来说微不足道，但仍然有趣）。有人给我打电话进行验证——不是亚历克斯——然后汇款处理。*嘭，我们和大通银行的合作结束了。*
+    或者我以为是这样。
 - en: Alex calls me the next day. The day we initiated the wire was his day off. He
     sounds slightly agitated. I wasn't rude to him, but I was short with him. I switched
     banks, that's all there is to it. Thanks and goodbye. I never talk to Alex ever
     again. A bank is a bank is a bank, you put money in, you get money out, I don't
     understand why I would need to *talk to someone*.
+  id: totrans-18
   prefs: []
   type: TYPE_NORMAL
+  zh: 第二天，亚历克斯给我打电话。我们发起汇款的那天是他的休息日。他听起来有点烦躁。我没有对他粗鲁，但对他很简短。我只是换了银行，就这样。谢谢，再见。我再也没有和亚历克斯交谈过。银行就是银行，你存钱，你取钱，我不明白为什么我需要*和某人交谈*。
 - en: I once again interrupt this story to appeal to the readers who are screaming
     at me and thank you for joining me on this story recounting my learning journey.
     Rest assured, at this point in the story, a professional was now in charge of
     the company's finances. But the decisions of the years leading up to this would
     have lingering effects for a few more years...
+  id: totrans-19
   prefs: []
   type: TYPE_NORMAL
+  zh: 我再次打断这个故事，向那些对我大声呼喊的读者呼吁，感谢你们加入我，一起回顾我的学习之旅。请放心，在故事的这一部分，一个专业人士现在负责公司的财务。但在此之前几年的决策将对未来几年产生持续影响...
 - en: '* * *'
+  id: totrans-20
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: We now take a brief detour from the company, because this is where my personal
     life becomes relevant to the story.
+  id: totrans-21
   prefs: []
   type: TYPE_NORMAL
+  zh: 我们现在暂时离开公司，因为这里是我个人生活与故事相关的地方。
 - en: For the prior three years, I had been living in Los Angeles. At some point during
     2017, I had to go to a local Chase branch to make some changes to my personal
     accounts. It has been close to a year since the company stopped using Chase.
+  id: totrans-22
   prefs: []
   type: TYPE_NORMAL
+  zh: 在之前的三年里，我一直住在洛杉矶。在2017年的某个时候，我不得不去当地的 Chase 分行对我的个人账户进行一些更改。公司已经停止使用 Chase 已经接近一年了。
 - en: I visit the closest bank branch to my apartment. This bank branch is 20 miles
     north of where my parents live -- or the area with the branch where I opened the
     original company business bank accounts. I'm going to Chase for purely personal
     reasons, but this information is unfortunately relevant to the story.
+  id: totrans-23
   prefs: []
   type: TYPE_NORMAL
+  zh: 我去了离我公寓最近的银行分行。这家银行分行距离我父母居住的地方北部20英里——或者说我开设原始公司企业银行账户的分行所在地。我去 Chase 纯粹是出于个人原因，但这些信息不幸地与故事相关。
 - en: 'At my local branch, I walk up to the teller and provide some handwritten information:
     my name, account number, desired transaction, etc. The teller looks at the paper,
     then looks at me, then looks back at the paper, then asks "Are you the HashiCorp
     guy?" *What?* HashiCorp is doing well but its not *at all* something a random
     non-technical consumer would know about. What is going on?'
+  id: totrans-24
   prefs: []
   type: TYPE_NORMAL
+  zh: 在我当地的分行，我走到出纳员那里，提供一些手写信息：我的名字，账号，所需交易等。出纳员看了看纸，然后看了看我，然后又看了看纸，然后问道“你是 HashiCorp
+    的那个人吗？” *什么？* HashiCorp 做得很好，但这绝对不是一个随便的非技术消费者会知道的事情。发生了什么？
 - en: I say yes and he acknowledges but doesn't automatically offer any more information.
     I have to know, so I continue "How do you know that?" His response is "Dude, everyone
     at Chase down here knows about HashiCorp." *Huh?*
+  id: totrans-25
   prefs: []
   type: TYPE_NORMAL
+  zh: 我说是，他承认了，但并没有自动提供更多信息。我必须知道，所以我继续问道“你是怎么知道的？” 他的回答是“伙计，这里的每个 Chase 的人都知道 HashiCorp。”
+    *嗯？*
 - en: Up to this point, everything in the story is what I know and experienced first
     hand. What follows however is now second hand information as told by this teller.
     I haven't verified it, but other employees (at other branches) have said similar
     things to me over the years.
+  id: totrans-26
   prefs: []
   type: TYPE_NORMAL
+  zh: 到目前为止，故事中的一切都是我亲身所知和经历的。然而接下来的内容是这位出纳员讲述的二手信息。我没有核实过，但多年来其他员工（在其他分行）也告诉过我类似的事情。
 - en: The teller proceeds to explain that Alex -- the guy I opened my original company
     account with -- became a fast rising star in the area. He had opened a business
     account in a small suburb that grew from $20,000 to $35,000,000 in balances in
@@ -162,81 +219,107 @@
     activities with the bank, the opportunity this account represented to the small
     business wing of the small suburban branch stirred up some excitement. It was
     just a matter of time.
+  id: totrans-27
   prefs: []
   type: TYPE_NORMAL
+  zh: 出纳员继续解释说，亚历克斯——我开设原始公司账户的那个人——在这个领域迅速崛起。他在一个小郊区开设了一个企业账户，仅仅四年内就从$20,000增长到$35,000,000！尽管这家企业（我的企业）没有与银行进行更高收入的活动，但这个账户对小郊区分行的小企业部门所代表的机会激起了一些兴奋。这只是时间问题。
 - en: And then, overnight, the account went to $0\. Without talking to anyone, without
     any prior warning, that account was *gone*. I used online banking to transfer
     the entirety of the balance to another bank. The small suburban branch viewed
     this as a *huge loss* and Alex came into work with some tough questions and no
     answers. I instantly recalled feeling that Alex was agitated when he called me
     the day after the transfer, and I now had an idea of why.
+  id: totrans-28
   prefs: []
   type: TYPE_NORMAL
+  zh: 然后，一夜之间，账户变成了$0。没有和任何人交谈，没有任何事先警告，那个账户就*消失*了。我使用网上银行将全部余额转移到另一家银行。小郊区分行将此视为*巨大损失*，亚历克斯上班时面临一些棘手的问题却无法回答。我立刻想起亚历克斯在转账后的第二天给我打电话时显得很烦躁，现在我知道为什么了。
 - en: I don't know what happened to Alex, the teller said he was "no longer working
     in the area" and said it with a noticably negative tone. I don't know what this
     means and I never found out. Perhaps, he just moved.
+  id: totrans-29
   prefs: []
   type: TYPE_NORMAL
+  zh: 我不知道亚历克斯发生了什么，出纳员说他“不再在这个地区工作”，并带着明显的负面语气说。我不知道这意味着什么，我也从未弄清楚。也许，他只是搬走了。
 - en: 'Following this event, Chase began an educational series to other local branches
     in the Los Angeles area explaining that there are these "startups" and how their
     financial patterns do not match those of a typical business. This series taught
     branches how to identify startups and how to consider their accounts. The case
     study they used for this presentation: HashiCorp.'
+  id: totrans-30
   prefs: []
   type: TYPE_NORMAL
+  zh: 在此事件之后，Chase开始向洛杉矶地区的其他当地分行开展教育系列，解释了这些“初创企业”以及它们的财务模式与典型企业不符。这个系列教导分行如何识别初创企业以及如何考虑它们的账户。他们用于此演示的案例研究是HashiCorp。
 - en: '* * *'
+  id: totrans-31
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: It has been two years since hiring our VP of Finance and our financial department
     is in really healthy shape. I still have certain approval rights but no longer
     directly manage the accounts of the company.
+  id: totrans-32
   prefs: []
   type: TYPE_NORMAL
+  zh: 自从聘请我们的财务副总裁以来已经两年了，我们的财务部门状况非常健康。我仍然有一定的批准权，但不再直接管理公司的账户。
 - en: Given the recent events with Silicon Valley Bank, I feel it's important to mention
     that at this point of the company, we had already begun diversifying our balances
     across multiple banks. SVB will not be mentioned again for the remainder of the
     story.
+  id: totrans-33
   prefs: []
   type: TYPE_NORMAL
+  zh: 鉴于与硅谷银行的最近事件，我觉得有必要提到，在公司的这个阶段，我们已经开始将余额分散存放在多家银行。在接下来的故事中将不再提及SVB。
 - en: I'm working at my office at home in Los Angeles and I receive a phone call from
     our finance department. That's weird, I rarely receive phone calls. They tell
     me that during a routine internal audit, they realized there are a few customer
     accounts that are still paying their bill into the old Chase account.
+  id: totrans-34
   prefs: []
   type: TYPE_NORMAL
+  zh: 我正在洛杉矶的家中办公，接到我们财务部门的电话。这很奇怪，我很少接到电话。他们告诉我，在一次例行内部审计中，他们意识到有几个客户账户仍在向旧的Chase账户支付账单。
 - en: '*I never closed that original Chase business account back in 2016.* Let me
     explain how that happens. To close an account, I had to do it in person at any
     local Chase branch. Startups are busy, the account balance in 2016 was $0, and
     so I just put it off. Well, a couple years passed, it was still open, and a few
     customers were actually sending payments to it.'
+  id: totrans-35
   prefs: []
   type: TYPE_NORMAL
+  zh: '*2016年，我从未关闭过那个最初的Chase业务账户。* 让我解释一下发生了什么。要关闭一个账户，我必须亲自在任何当地的Chase分行办理。初创企业很忙，2016年的账户余额为0美元，所以我一直拖延。几年过去了，它仍然开着，而且一些客户实际上正在向它发送付款。'
 - en: Worse, upon the realization that a few customers were paying into this account,
     our finance team realized that there was also fraud. For over a year, someone
     had been wiring thousands of dollars out every few weeks. We were short over $100,000
     due to fraud. The finance team immediately called Chase and reported the fraud,
     locked down the account, and Chase started an investigation.
+  id: totrans-36
   prefs: []
   type: TYPE_NORMAL
+  zh: 更糟糕的是，当我们的财务团队意识到只有少数客户在向这个账户支付款项时，他们意识到还存在欺诈行为。一年多来，有人每隔几周就会汇出数千美元。由于欺诈行为，我们损失了超过10万美元。财务团队立即致电Chase报告了欺诈行为，封锁了账户，Chase展开了调查。
 - en: Meanwhile, the finance team wanted me to close the account and wire the remaining
     balance to our actual business bank. With the fraud actively being handled by
     Chase and the finance team, I take on the task of closing the account. I immediately
     head to the nearest local Chase branch (once again a branch I've never been to
     before) and explain the situation.
+  id: totrans-37
   prefs: []
   type: TYPE_NORMAL
+  zh: 与此同时，财务团队希望我关闭账户并将剩余余额汇入我们实际的业务银行。在Chase和财务团队积极处理欺诈行为的情况下，我承担了关闭账户的任务。我立即前往最近的当地Chase分行（再次是我以前从未去过的分行）并解释情况。
 - en: After waiting for 15 minutes, a manager walks up to me. I know this can't be
     good. The branch manager explains that due to the actions taken to lock down the
     account for fraud, electronic transfers are unavailable. It doesn't matter that
     I'm provably the person who opened the account, electronic transfers are "impossible."
+  id: totrans-38
   prefs: []
   type: TYPE_NORMAL
+  zh: 等待了15分钟后，一个经理走到我面前。我知道情况不妙。分行经理解释说，由于采取了封锁欺诈账户的措施，电子转账不可用。无论我可以证明自己是开户人，电子转账都是“不可能的”。
 - en: 'I say okay, and ask how I am supposed to close the account and transfer the
     remaining balance. He said I can close the account and withdraw the remaining
     balance only in cash. *Cash?* At this point, I literally asked: "like, green paper
     money cash?" He says yes. The balance in the account is somewhere around $1M.'
+  id: totrans-39
   prefs: []
   type: TYPE_NORMAL
+  zh: 我说好的，并问我应该如何关闭账户并转移剩余余额。他说我只能以现金形式关闭账户并提取剩余余额。*现金？* 这时，我真的问道：“就像，绿色纸币现金吗？”他说是的。账户中的余额大约在100万美元左右。
 - en: 'I spent another two hours at the bank, juggling between calling our finance
     department, talking to this branch manager, and calling the Chase business phone
     line. We determine that instead of literal green cash, I can get a cashier''s
@@ -245,23 +328,29 @@
     And, well, local branches I guess don''t usually have $1M cash lying around. Or,
     if they do, its not enough to cover other business activities for the day so they''re
     not willing to part with it.'
+  id: totrans-40
   prefs: []
   type: TYPE_NORMAL
+  zh: 我在银行又花了两个小时，不停地打电话给我们的财务部门，与这位分行经理交谈，打电话给Chase的企业电话线。我们确定，我可以得到一张银行支票，而不是实际的现金。但是有一个主要问题：银行支票的金额必须在*当地分行*（或者发行支票的任何分行）可用。嗯，当地分行似乎通常没有100万美元现金闲置。或者，如果有的话，这些现金不足以支付当天的其他业务活动，因此他们不愿意拿出来。
 - en: The bank manager gives me the phone number of another branch manager that "may
     be able to help me." He literally writes down a phone number on a piece of paper.
     This is all feeling so surreal. I call this number and its for a slightly larger
     branch a few miles down the road. He says "you're the HashiCorp guy right?" And
     I roll my eyes. My infamy in the area is still well known.
+  id: totrans-41
   prefs: []
   type: TYPE_NORMAL
+  zh: 银行经理给了我另一位“可能能帮助我的”分行经理的电话号码。他真的在一张纸上写下了一个电话号码。这一切都感觉如此超现实。我打了这个号码，是几英里外的一个稍大一点的分行。他说“你是HashiCorp的那个人对吧？”我翻了个白眼。我在这个地区的臭名仍然广为人知。
 - en: This manager is very helpful, if not a bit gruff. He explains to me that each
     local branch has some sort of performance metric based on inflows and outflows
     at the given branch. Therefore, funding a $1M cash withdrawal was not attractive
     to them. I'm learning a lot in a really condensed period of time at this point.
     I don't even know if what he's telling me is true, or legal, all I hear is "this
     is going to be hard to do if you want it all at once."
+  id: totrans-42
   prefs: []
   type: TYPE_NORMAL
+  zh: 这位经理非常乐于助人，尽管有点粗鲁。他向我解释说，每个当地分支机构都有一些基于该分支机构的流入和流出的绩效指标。因此，为一笔100万美元的现金提取提供资金对他们来说并不具吸引力。在这一点上，我在非常紧凑的时间内学到了很多东西。我甚至不知道他告诉我的是真的还是合法的，我听到的只有“如果你想一次性拿走所有的话，这将会很困难。”
 - en: '*But we do want it all at once. And we want to close the account. Now.* He
     is not happy, but he says he''ll call me back in 24 to 48 hours. True to his word,
     he calls me back the next day. He says that he had to coordinate to ensure his
@@ -269,56 +358,80 @@
     would be available at a specific date a few days hence. He said I have to do the
     withdrawal *that day* because his branch will not hold that amount in cash for
     any longer.'
+  id: totrans-43
   prefs: []
   type: TYPE_NORMAL
+  zh: '*但我们确实想一次性拿走所有的钱。而且我们想关闭账户。现在就要。* 他并不高兴，但他说他会在24到48小时内给我回电话。果然，第二天他如约给我回了电话。他说他必须协调确保他的分行有足够的资金来满足这笔交易，并且这笔资金将在几天后的特定日期可用。他说我必须*当天*提取，因为他的分行不会再持有那么多现金了。'
 - en: He also subtly suggested I hire personal security or otherwise deposit those
     funds somewhere with haste. I believe his exact words were "if you lose that check,
     I can't help you." Again, this was a one time event, and I don't know how true
     that all is, but it was said to me.
+  id: totrans-44
   prefs: []
   type: TYPE_NORMAL
+  zh: 他还微妙地建议我雇佣私人保安或者迅速将这些资金存入其他地方。我相信他的确切话是“如果你丢了那张支票，我无法帮助你。”再次强调，这是一次性事件，我不知道这一切是否属实，但这话是对我说的。
 - en: A few days later, I walk into the branch (I did not hire personal security).
     I tell the teller my name and there is a flicker of immediate recognition. The
     teller guides me to a cubicle, the account is successfully closed, I'm issued
     a $1M cashier's check, and I walk out the door.
+  id: totrans-45
   prefs: []
   type: TYPE_NORMAL
+  zh: 几天后，我走进分行（我没有雇佣私人保安）。我告诉出纳我的名字，立即有一丝认可之情。出纳引导我到一个小隔间，账户成功关闭，我拿到了一张100万美元的银行支票，然后走出了门。
 - en: My business banking relationship with Chase is, at long last, complete.
+  id: totrans-46
   prefs: []
   type: TYPE_NORMAL
+  zh: 我与Chase的企业银行关系，终于，告一段落。
 - en: I want to make it clear that Chase could've been an excellent banking partner.
     I never gave them the chance. I never told them what my business does or what
     I'd use the money for. I never talked to anyone (besides saying what I needed
     to get off the phone). This story isn't a cautionary tale about Chase, it is rather
     recounting my naivete as a young, first-time startup founder.
+  id: totrans-47
   prefs: []
   type: TYPE_NORMAL
+  zh: 我想要明确的是，Chase本可以成为一个出色的银行合作伙伴。我从未给他们机会。我从未告诉他们我的企业做什么或者我会用这笔钱做什么。我从未与任何人交谈过（除了说我需要挂断电话）。这个故事并不是关于Chase的警示故事，而是在我年轻时作为第一次创业者的天真经历。
 - en: '* * *'
+  id: totrans-48
   prefs: []
   type: TYPE_NORMAL
+  zh: '* * *'
 - en: Epilogue.
+  id: totrans-49
   prefs: []
   type: TYPE_NORMAL
+  zh: 结语。
 - en: The cashier's check was uneventfully deposited into our primary business banking
     account shortly after I walked out of the Chase branch.
+  id: totrans-50
   prefs: []
   type: TYPE_NORMAL
+  zh: 收银支票在我走出大通分行后不久就顺利存入了我们的主要企业银行账户。
 - en: The fraud investigation took a few months to complete but we were able to recover
     all of the lost funds.
+  id: totrans-51
   prefs: []
   type: TYPE_NORMAL
+  zh: 诈骗调查花了几个月的时间才完成，但我们成功找回了所有丢失的资金。
 - en: Enough time has passed and employees cycled that I'm no longer recognized at
     any Los Angeles area Chase branches.
+  id: totrans-52
   prefs: []
   type: TYPE_NORMAL
+  zh: 足够的时间已经过去，员工轮换频繁，以至于我在洛杉矶地区的任何一家大通银行分支机构都不再被认出。
 - en: I look back on these events and there are many places I cringe. At the same
     time, I can't imagine making different choices because I was acting in good faith
     at all times with the knowledge I had. I think the choices I made were reasonable
     for any new founder, and I know many founders who have made similar choices.
+  id: totrans-53
   prefs: []
   type: TYPE_NORMAL
+  zh: 回顾这些事件，有很多地方让我感到尴尬。与此同时，我无法想象做出不同选择，因为我始终本着诚信的原则，根据我所掌握的知识做出了决定。我认为我所做的选择对于任何新创始人来说都是合理的，我知道许多创始人也曾做出类似的选择。
 - en: Ultimately, there was no long term negative impact of the events that transpired
     (except maybe for Alex, but I truly don't know) and I can now look back on it
     with amusement.
+  id: totrans-54
   prefs: []
   type: TYPE_NORMAL
+  zh: 最终，这些事件并没有造成长期的负面影响（也许除了亚历克斯，但我真的不清楚），现在我可以回顾这些事件并感到好笑。
